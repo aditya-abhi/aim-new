@@ -10,14 +10,17 @@ import { categories } from "@/data/menu";
 export default function Header7() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [scrollingUp, setScrollingUp] = useState(false);
+  const [scrollingDown, setScrollingDown] = useState(false);
 
   useEffect(() => {
     setPrevScrollPos(window.pageYOffset);
     const handleScroll = () => {
       const currentScrollPos = window.pageYOffset;
       const isScrollingUp = currentScrollPos < prevScrollPos;
+      const isScrollingDown = currentScrollPos > prevScrollPos;
 
       setScrollingUp(currentScrollPos <= 80 ? false : isScrollingUp);
+      setScrollingDown(currentScrollPos <= 80 ? false : isScrollingDown);
       setPrevScrollPos(currentScrollPos);
     };
 
@@ -31,7 +34,7 @@ export default function Header7() {
     <header
       className={`uc-header header-eight uc-navbar-sticky-wrap z-999 uc-dark uc-sticky  ${
         scrollingUp ? " uc-sticky-below uc-sticky-fixed headerFixed" : ""
-      }`}
+      } ${scrollingDown ? " uc-sticky-below uc-sticky-fixed headerFixed" : ""}`}
       data-uc-sticky="start: 100vh; show-on-up: true; animation: uc-animation-slide-top; sel-target: .uc-navbar-container; cls-active: uc-navbar-sticky; cls-inactive: uc-navbar-transparent; end: !*;"
       style={{}}
     >

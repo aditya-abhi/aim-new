@@ -1,38 +1,43 @@
-import Footer8 from "@/components/footers/Footer8";
-import HeaderNew from "@/components/headers/Header-new";
-import Brands from "@/components/homes/home-9/Brands";
-import Faqs from "@/components/homes/home-9/Faqs";
-import Features from "@/components/homes/home-9/Features";
-import Hero from "@/components/homes/home-9/Hero";
-import Pricing from "@/components/homes/home-9/Pricing";
-import Process from "@/components/homes/home-9/Process";
-import Solutions from "@/components/homes/home-9/Solutions";
-import Testimonials from "@/components/homes/home-9/Testimonials";
+import Footer7 from "@/components/footers/Footer7";
+import Header7 from "@/components/headers/Header7";
+import Blogs from "@/components/homes/home-new/Blogs";
+import Brands from "@/components/homes/home-new/Brands";
+import Cta from "@/components/homes/home-new/Cta";
+import Faqs from "@/components/homes/home-new/Faqs";
+import Features from "@/components/homes/home-new/Features";
+import Features2 from "@/components/homes/home-new/Features2";
+import Hero from "@/components/homes/home-new/Hero";
+import Pricing from "@/components/homes/home-new/Pricing";
+import Testimonials from "@/components/homes/home-new/Testimonials";
+import Tools from "@/components/homes/home-new/Tools";
 import React from "react";
 export const metadata = {
   title:
-    "Home New || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Home 8 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function page() {
   return (
     <>
-      {" "}
-      <div className="theme-5">
-        <div className="bp-xs bp-sm bp-md bp-lg bp-xl dom-ready bp-xxl-max uni-body panel uni-body panel bg-tertiary-800 text-tertiary-200 overflow-x-hidden disable-cursor uc-dark">
-          <HeaderNew />
-          <div id="wrapper" className="wrap">
-            <Hero />
-            <Process />
-            <Brands />
-            <Features />
-            <Solutions />
-            <Pricing />
-            <Testimonials />
-            <Faqs />
-          </div>
-          <Footer8 />
+      <div className="theme-4">
+        <div className="page-wrapper">
+          <div className="bp-xs bp-sm bp-md bp-lg dom-ready bp-xxl-max bp-xl uni-body panel uni-body panel bg-white text-tertiary-900 dark:bg-tertiary-800 dark:text-tertiary-200 overflow-x-hidden disable-cursor">
+            <Header7 />
+            <div id="wrapper" className="wrap">
+              <Hero />
+              <Brands />
+              <Features />
+              <Tools />
+              <Features2 />
+              <Pricing />
+              <Testimonials />
+              <Faqs />
+              <Blogs />
+              <Cta />
+            </div>
+            <Footer7 />
+          </div>{" "}
         </div>
       </div>
     </>
