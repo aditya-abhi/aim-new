@@ -6242,6 +6242,9 @@
   .mt-8 {
     margin-top: 4rem !important;
   }
+  .mt-9 {
+    margin-top: 6rem !important;
+  }
   [dir="rtl"] .rtl\:me-0 {
     margin-right: 0 !important;
   }
@@ -6595,6 +6598,9 @@
   .fs-2 {
     font-size: 1.75rem !important;
   }
+  .fs-3 {
+    font-size: 1.5rem !important;
+  }
   .fs-4 {
     font-size: 1.25rem !important;
   }
@@ -6627,6 +6633,9 @@
   }
   .lh-sm {
     line-height: 0.9 !important;
+  }
+  .lh-md {
+    line-height: 1 !important;
   }
   .lh-lg {
     line-height: 1.2 !important;
@@ -7430,6 +7439,9 @@
   }
   .min-h-700px {
     min-height: 700px !important;
+  }
+  .min-h-750px {
+    min-height: 750px !important;
   }
   .min-h-screen {
     min-height: 100vh !important;
