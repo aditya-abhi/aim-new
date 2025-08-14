@@ -1,35 +1,67 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-// import Background from "../../../public/assets/images/landing/hero-11-bg.jpg";
 import { useState, useEffect } from "react";
 
 export default function Hero() {
+  // const [isDarkMode, setIsDarkMode] = useState(false);
+  // useEffect(() => {
+  //   const htmlElement = document.documentElement;
+
+  //   if (htmlElement) {
+  //     const hasUcDark = htmlElement.classList.contains("uc-dark");
+  //     // const hasUcDark = document.documentElement.classList.contains("uc-dark");
+  //     const hasDark = document.getElementsByTagName("html")[0];
+  //     console.log("Dark mode:", hasUcDark);
+  //     console.log(`Does the <html> tag have the 'uc-dark' class? ${hasUcDark}`);
+  //     console.log(hasDark);
+  //     setIsDarkMode(hasUcDark);
+  //     console.log(htmlElement.classList);
+  //   }
+  // }, []);
+
   const [isDarkMode, setIsDarkMode] = useState(false);
+
   useEffect(() => {
-    const htmlElement = document.documentElement; // This selects the <html> element
-    const hasUcDark = htmlElement.classList.contains("uc-dark");
-    console.log("Dark mode:", hasUcDark);
-    setIsDarkMode(hasUcDark);
-  }, [isDarkMode]);
+    const checkDarkClass = () => {
+      const htmlElement = document.documentElement;
+      const hasUcDark = htmlElement.classList.contains("uc-dark");
+      setIsDarkMode(hasUcDark);
+      // console.log(`Class "uc-dark" is now present: ${hasUcDark}`);
+      // console.log(hasUcDark);
+    };
+
+    checkDarkClass();
+
+    const observer = new MutationObserver((mutations) => {
+      mutations.forEach((mutation) => {
+        // Check if the class list changed on the <html> element
+        if (
+          mutation.type === "attributes" &&
+          mutation.attributeName === "class"
+        ) {
+          checkDarkClass();
+        }
+      });
+    });
+
+    observer.observe(document.documentElement, { attributes: true });
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
 
   return (
     <div
       id="hero_header"
       className="hero-header section panel overflow-hidden uc-dark"
     >
-      {/* <div
-        className="position-absolute top-0 start-0 end-0 h-screen lg:rounded-2 lg:rounded-top-0 lg:m-2 lg:mt-0 dark:bg-tertiary-800"
-        style={{
-          backgroundImage: `url("/assets/images/landing/hero-11-bg.jpg")`,
-          backgroundSize: "cover",
-        }}
-      /> */}
       <div
         className={
           isDarkMode
-            ? "position-absolute top-0 start-0 end-0 h-screen lg:rounded-2 lg:rounded-top-0 lg:m-2 lg:mt-0 bg-tertiary-800"
-            : "position-absolute top-0 start-0 end-0 h-screen lg:rounded-2 lg:rounded-top-0 lg:m-2 lg:mt-0 bg-tertiary-300"
+            ? "position-absolute top-0 start-0 end-0 h-screen lg:rounded-2 lg:rounded-top-0 lg:m-2 lg:mt-0 dark-enabled"
+            : "position-absolute top-0 start-0 end-0 h-screen lg:rounded-2 lg:rounded-top-0 lg:m-2 lg:mt-0 dark-disabled"
         }
       >
         {" "}

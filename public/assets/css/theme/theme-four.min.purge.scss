@@ -8984,3 +8984,13 @@ html[dir="rtl"] .theme-4 .uc-navbar-left {
   margin-right: unset;
   margin-left: auto;
 }
+
+.dark-enabled {
+  background-image: url("/assets/images/landing/hero-11-bg.jpg");
+  background-size: cover;
+}
+
+.dark-disabled {
+  background-image: url("/assets/images/landing/hero-11-bg-light.jpg");
+  background-size: cover;
+}
