@@ -75,80 +75,80 @@ export default function Hero() {
                       data-anime="targets: >*; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
                     >
                       <div
-                        className="position-absolute rounded-circle border border-dark dark:border-white dark:border-opacity-15 dark:bg-gradient-45 from-tertiary to-transparent cstack w-56px h-56px d-none lg:d-block"
+                        className="position-absolute rounded-circle border dark:border-opacity-15 dark:bg-gradient-45 from-tertiary to-transparent cstack w-56px h-56px d-none lg:d-block"
                         style={{ top: "-3%", right: "13%" }}
                         data-anime="translateY: [0, 15]; easing: linear; loop: true; direction: alternate; delay: 50;"
                       >
                         <Image
-                          className="p-2"
+                          className=""
                           alt="brand"
-                          src="/assets/images/apps/zapier.svg"
+                          src="/assets/images/apps/chatGPT.webp"
                           width={800}
                           height={800}
                         />
                       </div>
                       <div
-                        className="position-absolute rounded-circle border border-dark dark:border-white dark:border-opacity-15 dark:bg-gradient-45 from-tertiary to-transparent cstack w-56px h-56px d-none lg:d-block"
+                        className="position-absolute rounded-circle border dark:border-opacity-15 dark:bg-gradient-45 from-tertiary to-transparent cstack w-56px h-56px d-none lg:d-block"
                         style={{ top: "3%", left: "26.5%" }}
                         data-anime="translateY: [0, 5]; easing: linear; loop: true; direction: alternate; delay: 25;"
                       >
                         <Image
-                          className="p-2"
+                          className=""
                           alt="brand"
-                          src="/assets/images/apps/stipe.svg"
+                          src="/assets/images/apps/gemini.webp"
                           width={800}
                           height={800}
                         />
                       </div>
                       <div
-                        className="position-absolute rounded-circle border border-dark dark:border-white dark:border-opacity-15 dark:bg-gradient-45 from-tertiary to-transparent cstack w-56px h-56px d-none lg:d-block"
+                        className="position-absolute rounded-circle border dark:border-opacity-15 dark:bg-gradient-45 from-tertiary to-transparent cstack w-56px h-56px d-none lg:d-block"
                         style={{ top: "30%", left: "-12%" }}
                         data-anime="translateY: [0, 10]; easing: linear; loop: true; direction: alternate; delay: 0;"
                       >
                         <Image
-                          className="p-2"
+                          className=""
                           alt="brand"
-                          src="/assets/images/apps/asana.svg"
+                          src="/assets/images/apps/copilot.webp"
                           width={2500}
                           height={2311}
                         />
                       </div>
                       <div
-                        className="position-absolute rounded-circle border border-dark dark:border-white dark:border-opacity-15 dark:bg-gradient-45 from-tertiary to-transparent cstack w-56px h-56px d-none lg:d-block"
+                        className="position-absolute rounded-circle border dark:border-opacity-15 dark:bg-gradient-45 from-tertiary to-transparent cstack w-56px h-56px d-none lg:d-block"
                         style={{ top: "45%", right: "-13.5%" }}
                         data-anime="translateY: [0, 5]; easing: linear; loop: true; direction: alternate; delay: 50;"
                       >
                         <Image
-                          className="p-2 text-dark dark:text-yellow-400"
+                          className=""
                           alt="brand"
                           data-uc-svg=""
-                          src="/assets/images/apps/mailchimp.svg"
+                          src="/assets/images/apps/perplexity.webp"
                           width={351}
                           height={373}
                         />
                       </div>
                       <div
-                        className="position-absolute rounded-circle border border-dark dark:border-white dark:border-opacity-15 dark:bg-gradient-45 from-tertiary to-transparent cstack w-56px h-56px d-none lg:d-block"
+                        className="position-absolute rounded-circle border  dark:border-opacity-15 dark:bg-gradient-45 from-tertiary to-transparent cstack w-56px h-56px d-none lg:d-block"
                         style={{ top: "75%", right: "18%" }}
                         data-anime="translateY: [0, 15]; easing: linear; loop: true; direction: alternate; delay: 25;"
                       >
                         <Image
-                          className="p-2"
+                          className=""
                           alt="brand"
-                          src="/assets/images/apps/drive.svg"
+                          src="/assets/images/apps/deepseak.webp"
                           width={800}
                           height={800}
                         />
                       </div>
                       <div
-                        className="position-absolute rounded-circle border border-dark dark:border-white dark:border-opacity-15 dark:bg-gradient-45 from-tertiary to-transparent cstack w-56px h-56px d-none lg:d-block"
+                        className="position-absolute rounded-circle border dark:border-opacity-15 dark:bg-gradient-45 from-tertiary to-transparent cstack w-56px h-56px d-none lg:d-block"
                         style={{ top: "85%", left: "8%" }}
                         data-anime="translateY: [0, 10]; easing: linear; loop: true; direction: alternate; delay: 50;"
                       >
                         <Image
-                          className="p-2"
+                          className=""
                           alt="brand"
-                          src="/assets/images/apps/bitbucket.svg"
+                          src="/assets/images/apps/grok.webp"
                           width={333}
                           height={300}
                         />
@@ -203,7 +203,7 @@ export default function Hero() {
                       <div className="panel vstack items-center gap-1 max-w-400px lg:max-w-750px mx-auto text-center mt-2 xl:mt-4">
                         <div className="mb-2 lg:mb-3">
                           <a
-                            href="#"
+                            href="https://v8dash.getaimonitor.com/signup"
                             className="btn btn-md xl:btn-lg btn-primary border border-dark dark:border-white dark:border-opacity-15 px-3 lg:px-5 w-auto rounded-pill"
                           >
                             <span>Generate AI Visibility Report</span>
@@ -231,7 +231,7 @@ export default function Hero() {
                                   style={{ backgroundColor: "#00b67a" }}
                                 />
                                 <i
-                                  className="icon unicon-star-filled text-white p-narrow"
+                                  className="icon unicon-star-half-filled text-white p-narrow"
                                   style={{ backgroundColor: "#00b67a" }}
                                 />
                               </div>
@@ -239,9 +239,9 @@ export default function Hero() {
                           </div>
                           <div className="hstack justify-center gap-narrow">
                             <span className="desc rtl:order-first">
-                              5,200+ reviews on
+                              with reviews on <strong>Trustpilot and G2</strong>
                             </span>
-                            <div>
+                            {/* <div>
                               <Image
                                 alt="Trustpilot"
                                 className="w-96px dark:d-none"
@@ -256,19 +256,19 @@ export default function Hero() {
                                 width={138}
                                 height={42}
                               />
-                            </div>
+                            </div> */}
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div
-                    className="panel border shadow-lg rounded-2 p-1"
+                    className=""
                     data-anime="translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 450; delay: 950;"
                   >
                     <Image
                       alt="Dashboard Lexend"
-                      src="/assets/images/template/dashboard-8-home.png"
+                      src="/assets/images/template/dashboard.webp"
                       width={1353}
                       height={978}
                     />
