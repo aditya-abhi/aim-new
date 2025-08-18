@@ -1,4 +1,4 @@
-import { features9 } from "@/data/features";
+import { featuresHome } from "@/data/features";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -16,22 +16,23 @@ export default function Features2() {
               className="panel vstack items-center gap-2 xl:gap-3 mb-4 sm:mb-6 lg:mb-8 sm:max-w-600px lg:max-w-700px xl:max-w-800px mx-auto text-center"
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
-              <span className="fs-7 fw-medium py-narrow px-2 border rounded-pill">
-                Solutions
+              <span className="fs-7 fw-medium py-narrow px-2 border border-white rounded-pill">
+                WELCOME TO GEO ERA WITH AI MONITOR
               </span>
               <h2 className="h3 lg:h2 m-0">
-                End-to-End data management Solutions
+                SEO is as Outdated as Dial-up Internet ☎
               </h2>
               <p className="fs-6 xl:fs-5 xl:px-8">
-                Offers a unified platform that fosters innovation while
-                providing end-to-end data management.
+                Let's be honest “Just Google It” era is over! AI is getting
+                chattier than your aunt at Thanksgiving. Here’s what’s
+                happening:
               </p>
             </div>
             <div
               className="features-items row child-cols-12 sm:child-cols-6 lg:child-cols-4 g-4 lg:g-6 col-match"
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 400});"
             >
-              {features9.map((feature, index) => (
+              {featuresHome.map((feature, index) => (
                 <div key={index} className={feature.order}>
                   <div className="features-item vstack items-center justify-center text-center gap-4">
                     <div className="icon-box cstack w-48px h-48px dark:bg-white rounded">
@@ -57,7 +58,7 @@ export default function Features2() {
                 </div>
               ))}
             </div>
-            <div
+            {/* <div
               className="pre-cta vstack items-center gap-1 max-w-400px lg:max-w-750px mx-auto text-center mt-6 xl:mt-10"
               data-anime="onview:-100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
@@ -119,7 +120,7 @@ export default function Features2() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

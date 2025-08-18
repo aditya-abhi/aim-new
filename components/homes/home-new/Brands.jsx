@@ -1,4 +1,4 @@
-import { brands5 } from "@/data/brands";
+import { brandsGray } from "@/data/brands";
 import Image from "next/image";
 import React from "react";
 
@@ -6,7 +6,7 @@ export default function Brands() {
   return (
     <div
       id="companies_sponsores"
-      className="companies-sponsores section panel overflow-hidden"
+      className="companies-sponsores section panel overflow-hidden pb-8 lg:pb-9 xl:pb-10"
     >
       <div className="section-outer panel">
         <div className="container sm:max-w-md">
@@ -20,15 +20,15 @@ export default function Brands() {
               </h5>
               <div className="panel">
                 <div className="row child-cols items-center text-center">
-                  {brands5.map((brand, index) => (
+                  {brandsGray.map((brand, index) => (
                     <div key={index}>
-                      <div className="panel">
+                      <div className="panel mb-3">
                         <Image
-                          className="max-w-40px lg:max-w-56px"
-                          alt="brand"
+                          className="max-w-100px lg:max-w-250px"
                           src={brand.src}
                           width={brand.width}
                           height={brand.height}
+                          alt={brand.alt}
                         />
                       </div>
                     </div>

@@ -242,3 +242,54 @@ export const brands7 = [
     height: 48,
   },
 ];
+
+export const brandsGray = [
+  {
+    src: "/assets/images/brands/comcast.webp",
+    alt: "Comcast gray transparent logo",
+    width: 179,
+    height: 55,
+  },
+  {
+    src: "/assets/images/brands/loop-earplugs.webp",
+    alt: "Loop earplugs gray transparent logo",
+    width: 179,
+    height: 55,
+  },
+  {
+    src: "/assets/images/brands/gmx.webp",
+    alt: "GMX gray transparent logo",
+    width: 179,
+    height: 55,
+  },
+  {
+    src: "/assets/images/brands/abc.webp",
+    alt: "ABC gray transparent logo",
+    width: 179,
+    height: 55,
+  },
+  {
+    src: "/assets/images/brands/verizon.webp",
+    alt: "Verizon gray transparent logo",
+    width: 179,
+    height: 55,
+  },
+  {
+    src: "/assets/images/brands/optimum.webp",
+    alt: "Optimum gray transparent logo",
+    width: 179,
+    height: 55,
+  },
+  {
+    src: "/assets/images/brands/atnt.webp",
+    alt: "AT&T gray transparent logo",
+    width: 179,
+    height: 55,
+  },
+  {
+    src: "/assets/images/brands/honor.webp",
+    alt: "Honor gray transparent logo",
+    width: 179,
+    height: 55,
+  },
+];

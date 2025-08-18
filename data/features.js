@@ -621,3 +621,74 @@ export const features13 = [
     title: "Customizable Privacy",
   },
 ];
+
+export const featuresHome = [
+  {
+    order: "order-1 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-01.svg",
+    title: "50% Decline in Your Organic Web Traffic",
+    description:
+      "Gartner forecasts a staggering 50% decrease in organic traffic. Yes, those valuable clicks you fought so hard to earn are slipping away unnoticed. This is a wake-up call!",
+  },
+  {
+    order: "order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-02.svg",
+    title: "Google Rankings Have Lost Their Relevance",
+    description:
+      "More than 40% of users now prefer AI-generated content over traditional search results. Therefore, being on the first page of Google is no longer a guarantee of visibility",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-03.svg",
+    title: "New Factors Influence Visibility on AI Search",
+    description:
+      "Studies show that Generative engines, on average, reference fewer than 5 of the top 10 search results. With AI Monitor, you can discover these new factors for AI search.",
+  },
+];
+
+export const featureItemsHome2 = [
+  {
+    imageSrc: "/assets/images/template/competition-analysis.webp",
+    altText: "Ensuring timely delivery and maximum efficiency",
+    title: "Benchmark Your Brand's Performance",
+    subtitle: "(Because Nobody Likes Coming in Last)",
+    description:
+      "Get real-time insights that benchmark your brand against the industry average, helping you make data-driven decisions. ",
+    // linkText: "Let's find out",
+    icon: "unicon-cloud-download",
+    reverseOrder: false,
+  },
+  {
+    imageSrc: "/assets/images/template/geo-recommendation.webp",
+    altText: "No more digging endless reports and spreadsheets",
+    title: "Right Message at the Right Place",
+    subtitle: "(Rely on Data Because Gut Feelings Aren't Always Right)",
+    description:
+      "Get your content where it matters most. Brands use our analysis to inform their marketing, PR, content, and social strategies. Think of us as your content GPS.",
+    linkText: "See all spreadsheets",
+    icon: "unicon-course",
+    reverseOrder: true,
+  },
+  {
+    imageSrc: "/assets/images/template/platform-comparison.webp",
+    altText: "Share files, and communicate with your team in real-time",
+    title: "AI Platform Comparison",
+    subtitle: "(Because All AI Engines Are Not Created Equal)",
+    description:
+      "We deliver precise insights into your brand’s visibility and content across various Generative Engines to effectively reach your target audience.",
+    linkText: "See apps & integrations",
+    icon: "unicon-volume-block-storage",
+    reverseOrder: false,
+  },
+  {
+    imageSrc: "/assets/images/template/reputation-management.webp",
+    altText: "Collaboration is made seamless with Lexend",
+    title: "Perform Sentiment Analysis",
+    subtitle: "(Because Happy Customers = Happy Brand)",
+    description:
+      "AI responses are rarely the same. Get a quick snapshot of negative and positive mentions. We’ll help you separate the love letters from the hate mail on a scale. ",
+    linkText: "Let's find out",
+    icon: "unicon-model",
+    reverseOrder: true,
+  },
+];

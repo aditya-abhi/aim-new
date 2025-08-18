@@ -29,9 +29,9 @@ export default function page() {
             <div id="wrapper" className="wrap">
               <Hero />
               <Brands />
-              <Features />
-              <Tools />
+              {/* <Tools /> */}
               <Features2 />
+              <Features />
               <Pricing />
               <Testimonials />
               <Faqs />
