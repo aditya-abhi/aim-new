@@ -371,3 +371,37 @@ export const pricingPlans5 = [
     bgColor: "bg-gray-300 bg-opacity-15 text-white",
   },
 ];
+
+export const pricingNew = [
+  {
+    title: "DIY Plan",
+    price: "$19",
+    description: "Perfect for brands who:",
+    features: [
+      "Monitor 10 AI Prompts",
+      "Don't have an in-house marketing team",
+      "Want to conquer GEO themselves",
+      "Want access to vetted GEO experts that you self manage",
+      "Don't want AI Monitor support in execution",
+    ],
+    linkText: "Join this Plan",
+
+    additionalClasses: "",
+  },
+  {
+    title: "Fully Managed",
+    price: "$$$",
+    description: "Perfect for brands who:",
+    features: [
+      "Have an in-house marketing team",
+      "Want to conquer GEO with support from AI Monitor",
+      "Want dedicated GEO experts managed by AI Monitor",
+      "Want AI Monitor support from strategy to execution",
+    ],
+    linkText: "Join this Plan",
+
+    additionalClasses:
+      "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-top-end-0 lg:rounded-top-start-0 lg:rounded-top-end-1-5",
+    badge: "Popular",
+  },
+];

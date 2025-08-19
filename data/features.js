@@ -691,4 +691,15 @@ export const featureItemsHome2 = [
     icon: "unicon-model",
     reverseOrder: true,
   },
+  {
+    imageSrc: "/assets/images/template/wide-coverage.webp",
+    altText: "Share files, and communicate with your team in real-time",
+    title: "Wide Coverage",
+    subtitle: "(We're keeping an eye on all the AI 👀)",
+    description:
+      "AI Monitor gives you a single, unified view of your brand’s presence across all the major generative AI platforms and LLMs. From ChatGPT to Gemini (and whatever our future AI overlords come up with), we’re watching.",
+    linkText: "See apps & integrations",
+    icon: "unicon-volume-block-storage",
+    reverseOrder: false,
+  },
 ];

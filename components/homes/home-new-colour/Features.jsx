@@ -16,7 +16,7 @@ export default function Features() {
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
               <span
-                className="fs-7 fw-medium py-narrow px-2 border border-tertiary-100 dark:border-white rounded-pill text-tertiary dark:text-white"
+                className="fs-7 fw-medium py-narrow px-2 border border-tertiary-100  dark:border-white rounded-pill text-tertiary dark:text-white"
                 style={{ transform: "translateY(0px)", opacity: 1 }}
               >
                 WHAT'S NEW

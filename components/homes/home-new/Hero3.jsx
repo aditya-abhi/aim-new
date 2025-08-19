@@ -38,7 +38,10 @@ export default function Hero() {
   }, []);
 
   return (
-    <div id="hero_header" className="hero-header section panel overflow-hidden">
+    <div
+      id="hero_header"
+      className="hero-header section panel overflow-hidden rounded-2 h-screen"
+    >
       <div
         className={
           isDarkMode
@@ -155,7 +158,7 @@ export default function Hero() {
                       </div>
                     </div>
                     <div
-                      className="panel vstack items-center gap-2 max-w-900px mx-auto text-center px-4 lg:px-0 mt-9"
+                      className="panel vstack items-center gap-2 max-w-900px mx-auto text-center px-4 mt-6 lg:px-0 mt-8 xl:px-0 mt-11"
                       data-anime="onview:-100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
                     >
                       {/* <span className="fs-7 fw-bold py-narrow px-2 bg-primary text-gray-500 rounded-pill border border-dark">
@@ -262,17 +265,17 @@ export default function Hero() {
                       </div>
                     </div>
                   </div>
-                  <div
-                    className=""
+                  {/* <div
+                    className="z-99"
                     data-anime="translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 450; delay: 950;"
                   >
                     <Image
                       alt="Dashboard Lexend"
                       src="/assets/images/template/dashboard.webp"
-                      width={1353}
-                      height={978}
+                      width={1500}
+                      height={1045}
                     />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

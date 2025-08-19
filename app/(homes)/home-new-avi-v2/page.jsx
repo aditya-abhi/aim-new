@@ -8,7 +8,7 @@ import Features from "@/components/homes/home-new/Features";
 import Features2 from "@/components/homes/home-new/Features2";
 // import Hero from "@/components/homes/home-new/Hero";
 // import Hero from "@/components/homes/home-new/Hero-2";
-import Hero from "@/components/homes/home-new/Hero-3";
+import Hero from "@/components/homes/home-new/Hero3";
 import Pricing from "@/components/homes/home-new/Pricing";
 import Testimonials from "@/components/homes/home-new/Testimonials";
 import Tools from "@/components/homes/home-new/Tools";

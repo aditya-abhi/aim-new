@@ -312,3 +312,62 @@ export const testimonials5 = [
     imgSrc: "/assets/images/avatars/11.png",
   },
 ];
+
+export const testimonialsNew = [
+  {
+    text: "41% of consumers trust Gen AI search results more than paid search results, while only 15% trust AI less than search ads.",
+    name: "Forbes",
+    alt: "Forbes Logo",
+    date: "Mar 10, 2025",
+    imgSrc: "/assets/images/brands/forbes.webp",
+  },
+  {
+    text: "Comprehensive answers by GernAI are attracting users who are frustrated with Google's ad-clogged search results.",
+    name: "Bloomberg",
+    alt: "Bloomberg Logo",
+    date: "Jan 07, 2025",
+    imgSrc: "/assets/images/brands/bloomberg.webp",
+  },
+  {
+    text: "Despite fewer clicks, copyright fights, and sometimes iffy answers, AI means the end of internet search as we’ve known it.",
+    alt: "MIT Technology Review Logo",
+    name: "MIT Technology Review",
+    date: "Jan 06, 2025",
+    imgSrc: "/assets/images/brands/mit-technology.webp",
+  },
+  {
+    text: "People reading AI summaries on Google search instead of news stories, media experts warn",
+    alt: "CBC Canada Logo",
+    date: "Aug 14, 2025",
+    name: "CBC Canada",
+    imgSrc: "/assets/images/brands/cbc.webp",
+  },
+  {
+    text: "Study claims sites previously ranked first can lose 79% of traffic if results appear below Google Overview.",
+    alt: "The Guardian Logo",
+    date: "Jul 24, 2025",
+    name: "The Guardian",
+    imgSrc: "/assets/images/brands/the-guardian.webp",
+  },
+  {
+    text: "Generative AI has already caused shifts in the search engine ecosystem. Is OpenAI's Search tool Google's Killer?",
+    alt: "The Week Logo",
+    name: "The Week",
+    date: "Nov 05, 2024",
+    imgSrc: "/assets/images/brands/the-week.webp",
+  },
+  {
+    text: 'ChatGPT search \'feels like a helpful friend. It is "all the things early Google was before it started monetizing our eyeballs."',
+    alt: "Tech Radar Logo",
+    date: "Nov 01, 2024",
+    name: "Tech Radar",
+    imgSrc: "/assets/images/brands/tech-radar.webp",
+  },
+  {
+    text: "50% or more of organic search traffic is expected to decline by 2028 as consumers embrace generative AI-powered search.",
+    alt: "Gartner Logo",
+    date: "Dec 14, 2023",
+    name: "Gartner",
+    imgSrc: "/assets/images/brands/gartner.webp",
+  },
+];

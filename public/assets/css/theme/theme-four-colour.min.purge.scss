@@ -81,7 +81,7 @@
   font-display: swap;
   ascent-override: 100%;
 }
-.theme-4 {
+.theme-4-colour {
   --font-family-primary: "PolySans", "IBM Plex Sans Arabic", sans-serif;
   --font-family-secondary: "PolySans", "IBM Plex Sans Arabic", serif;
   --font-family-tertiary: "PolySans", "IBM Plex Sans Arabic", serif;
@@ -151,9 +151,9 @@
   --color-slate-900: #15171a;
 
   // Start home-8 color plate changer from here. rgb must replace with rgb and hex code must replace with hex code
-  --color-primary: #93e85f;
+  --color-primary: #c1ffb4;
   --color-tertiary-rgb: 2, 88, 100;
-  --color-primary-rgb: 147, 232, 95;
+  --color-primary-rgb: 193, 255, 180;
   // End  home-8 color plate changer from here. rgb must replace with rgb and hex code must replace with hex code
 
   --color-primary-10: #fcfefa;
@@ -6251,12 +6251,6 @@
   .mt-9 {
     margin-top: 6rem !important;
   }
-  .mt-10 {
-    margin-top: 8rem !important;
-  }
-  .mt-11 {
-    margin-top: 10rem !important;
-  }
   [dir="rtl"] .rtl\:me-0 {
     margin-right: 0 !important;
   }
@@ -9000,11 +8994,11 @@
     --uc-gradient-stops: var(--uc-gradient-from), var(--uc-gradient-to);
   }
 }
-html[dir="rtl"] .theme-4 .uc-navbar-right {
+html[dir="rtl"] .theme-4-colour .uc-navbar-right {
   margin-left: unset;
   margin-right: auto;
 }
-html[dir="rtl"] .theme-4 .uc-navbar-left {
+html[dir="rtl"] .theme-4-colour .uc-navbar-left {
   margin-right: unset;
   margin-left: auto;
 }
