@@ -15,96 +15,98 @@ export default function Cta() {
         <div className="container">
           <div className="section-inner panel">
             <div
-              className="position-absolute bg-orange-100 rounded-circle shadow-xs cstack w-56px h-56px d-none lg:d-block"
-              style={{ top: "0%", right: "11%" }}
+              className="position-absolute rounded-circle shadow-lg cstack w-56px h-56px d-none lg:d-block"
+              style={{ top: "0%", right: "12%" }}
               data-anime="translateY: [0, 15]; easing: linear; loop: true; direction: alternate; delay: 50;"
             >
               <Image
-                className="p-2"
+                className=""
                 alt="brand"
-                src="/assets/images/apps/zapier.svg"
+                src="/assets/images/apps/chatgpt.webp"
                 width={800}
                 height={800}
               />
             </div>
             <div
-              className="position-absolute bg-indigo-100 rounded-circle shadow-xs cstack w-56px h-56px d-none lg:d-block"
-              style={{ top: "-19%", left: "25%" }}
+              className="position-absolute rounded-circle shadow-lg cstack w-56px h-56px d-none lg:d-block"
+              style={{ top: "-19%", left: "28.5%" }}
               data-anime="translateY: [0, 5]; easing: linear; loop: true; direction: alternate; delay: 25;"
             >
               <Image
-                className="p-2"
+                className=""
                 alt="brand"
-                src="/assets/images/apps/stipe.svg"
+                src="/assets/images/apps/gemini.webp"
                 width={800}
                 height={800}
               />
             </div>
             <div
-              className="position-absolute bg-gradient-45 from-pink-100 to-orange-100 rounded-circle shadow-xs cstack w-56px h-56px d-none lg:d-block"
-              style={{ top: "20%", left: "-1.5%" }}
+              className="position-absolute rounded-circle shadow-lg cstack w-56px h-56px d-none lg:d-block"
+              style={{ top: "20%", left: "-1%" }}
               data-anime="translateY: [0, 10]; easing: linear; loop: true; direction: alternate; delay: 0;"
             >
               <Image
-                className="p-2"
+                className=""
                 alt="brand"
-                src="/assets/images/apps/asana.svg"
+                src="/assets/images/apps/perplexity.webp"
                 width={2500}
                 height={2311}
               />
             </div>
             <div
-              className="position-absolute bg-yellow rounded-circle shadow-xs cstack w-56px h-56px d-none lg:d-block"
-              style={{ top: "45%", right: "-1.5%" }}
+              className="position-absolute rounded-circle shadow-lg cstack w-56px h-56px d-none lg:d-block"
+              style={{ top: "45%", right: "-2%" }}
               data-anime="translateY: [0, 5]; easing: linear; loop: true; direction: alternate; delay: 50;"
             >
               <Image
-                className="p-2 text-dark"
+                className=""
                 alt="brand"
                 data-uc-svg=""
-                src="/assets/images/apps/mailchimp.svg"
+                src="/assets/images/apps/copilot.webp"
                 width={351}
                 height={373}
               />
             </div>
             <div
-              className="position-absolute bg-white rounded-circle shadow-xs cstack w-56px h-56px d-none lg:d-block"
+              className="position-absolute rounded-circle shadow-lg cstack w-56px h-56px d-none lg:d-block"
               style={{ top: "65%", right: "20%" }}
               data-anime="translateY: [0, 15]; easing: linear; loop: true; direction: alternate; delay: 25;"
             >
               <Image
-                className="p-2"
+                className=""
                 alt="brand"
-                src="/assets/images/apps/drive.svg"
+                src="/assets/images/apps/deepseak.webp"
                 width={800}
                 height={800}
               />
             </div>
             <div
-              className="position-absolute bg-blue-100 rounded-circle shadow-xs cstack w-56px h-56px d-none lg:d-block"
+              className="position-absolute rounded-circle shadow-lg cstack w-56px h-56px d-none lg:d-block"
               style={{ top: "75%", left: "10.5%" }}
               data-anime="translateY: [0, 10]; easing: linear; loop: true; direction: alternate; delay: 50;"
             >
               <Image
-                className="p-2"
+                className=""
                 alt="brand"
-                src="/assets/images/apps/bitbucket.svg"
+                src="/assets/images/apps/grok.webp"
                 width={333}
                 height={300}
               />
             </div>
             <div className="panel vstack items-center gap-2 max-w-md mx-auto text-center px-4 lg:px-0">
-              <span className="fs-7 fw-medium py-narrow px-2 border rounded-pill">
-                Get started today!
+              <span className="fs-7 fw-bold py-narrow px-2 border rounded-pill">
+                GET STARTED TODAY!
               </span>
               <h2 className="h2 xl:display-5 m-0 text-center">
-                Seamless integrations with your{" "}
+                Why Risk Your Brand's{" "}
                 <span className="text-tertiary dark:text-primary">
-                  existing tools
+                  Reputation?
                 </span>
               </h2>
               <p className="fs-5 lg:fs-4">
-                See how we help your team solve today’s biggest challenges.
+                Don't wait for a crisis. Proactively manage your brand's
+                reputation in the age of AI. Join AI Monitor, the #1 rated GEO
+                experts, and see what AI is saying about you.
               </p>
               <div
                 className="panel vstack items-center gap-1 max-w-400px lg:max-w-750px mx-auto text-center mt-2 xl:mt-4"
@@ -115,7 +117,9 @@ export default function Cta() {
                     href="#"
                     className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 w-auto"
                   >
-                    <span>Start your free trial</span>
+                    <span className="text-tertiary">
+                      Book 1:1 Meeting with the #1 GEO Expert in the world
+                    </span>
                   </a>
                 </div>
                 <div className="vstack sm:hstack justify-center gap-1 fs-6 text-gray-900 dark:text-white sm-flex-column">

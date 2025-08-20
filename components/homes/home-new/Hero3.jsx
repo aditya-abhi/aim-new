@@ -40,13 +40,13 @@ export default function Hero() {
   return (
     <div
       id="hero_header"
-      className="hero-header section panel overflow-hidden rounded-2 h-screen"
+      className="hero-header section panel overflow-hidden rounded-2"
     >
       <div
         className={
           isDarkMode
-            ? "position-absolute top-0 start-0 end-0 h-screen lg:rounded-2 lg:rounded-top-0 lg:m-2 lg:mt-0 dark-enabled"
-            : "position-absolute top-0 start-0 end-0 h-screen lg:rounded-2 lg:rounded-top-0 lg:m-2 lg:mt-0 dark-disabled"
+            ? "position-absolute top-0 start-0 end-0 h-screen lg:rounded-2 lg:rounded-top-0 lg:mx-2 lg:mt-0 lg:pb-2 dark-enabled"
+            : "position-absolute top-0 start-0 end-0 h-screen lg:rounded-2 lg:rounded-top-0 lg:mx-2 lg:mt-0 lg:pb-2 dark-disabled"
         }
       >
         {" "}
@@ -79,7 +79,7 @@ export default function Hero() {
                     >
                       <div
                         className="position-absolute rounded-circle border dark:border-opacity-15 dark:bg-gradient-45 from-tertiary to-transparent cstack w-56px h-56px d-none lg:d-block"
-                        style={{ top: "-3%", right: "13%" }}
+                        style={{ top: "0%", right: "13%" }}
                         data-anime="translateY: [0, 15]; easing: linear; loop: true; direction: alternate; delay: 50;"
                       >
                         <Image
@@ -92,7 +92,7 @@ export default function Hero() {
                       </div>
                       <div
                         className="position-absolute rounded-circle border dark:border-opacity-15 dark:bg-gradient-45 from-tertiary to-transparent cstack w-56px h-56px d-none lg:d-block"
-                        style={{ top: "3%", left: "26.5%" }}
+                        style={{ top: "7%", left: "26.5%" }}
                         data-anime="translateY: [0, 5]; easing: linear; loop: true; direction: alternate; delay: 25;"
                       >
                         <Image

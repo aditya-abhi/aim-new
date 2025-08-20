@@ -371,3 +371,51 @@ export const testimonialsNew = [
     imgSrc: "/assets/images/brands/gartner.webp",
   },
 ];
+
+export const testimonialsNew2 = [
+  {
+    id: 1,
+    avatarSrc: "/assets/images/avatars/marchin-ruman.webp",
+    alt: "Marchin Ruman",
+    name: "Marchin Ruman",
+    role: "Owner, EMRSoft",
+    quote:
+      "“Our digital marketing agency has been in the game for decades. However, the landscape has evolved significantly. Thanks to AI Monitor, we are not only able to make our existing clients happier but also generate additional revenue.”",
+  },
+  {
+    id: 2,
+    avatarSrc: "/assets/images/avatars/thomas-mang.webp",
+    alt: "Thomas H. Mang",
+    name: "Thomas H. Mang",
+    role: "CMO, Cashy",
+    quote:
+      "“What sets AI Monitor apart is its detail oriented approach to providing insights tailored specifically for our industry in the age of AI. Thanks to them, we are no longer content with traditional SEO strategies that are rapidly becoming obsolete. Instead, we can now adapt and thrive in this new paradigm of search.”",
+  },
+  {
+    id: 3,
+    avatarSrc: "/assets/images/avatars/cally-fritsch.webp",
+    alt: "Cally Fritsch",
+    name: "Cally Fritsch",
+    role: "Director of PM, AppViewX",
+    quote:
+      "“I was skeptical at first, but after trying out this AI Monitor I was impressed with the results in just 3 months. There is no doubt this is the need of the hour in terms of marketing.”",
+  },
+  {
+    id: 4,
+    avatarSrc: "/assets/images/avatars/pranaab-p.webp",
+    alt: "Pranaab P.",
+    name: "Pranaab P.",
+    role: "Founder, Four 3 Media",
+    quote:
+      "“As a founder of a mid-size digital marketing agency, we were afraid that our revenue will decline as ChatGPT becomes more popular but with AI Monitor, we are not only increased our NPS but or revenue as well.”",
+  },
+  {
+    id: 5,
+    avatarSrc: "/assets/images/avatars/chris-brisson.webp",
+    alt: "Chris Brisson",
+    name: "Chris Brisson",
+    role: "Founder & CEO, SalesMessage.com",
+    quote:
+      "“AI Monitor is pretty impressive! It keeps an eye on all the major LLM platforms such as ChatGPT, Bing CoPilot, or Google Bard. Whether we’re tracking our own performance or staying up-to-date with what our competitors are doing, AI Monitor has our back. 😊”",
+  },
+];

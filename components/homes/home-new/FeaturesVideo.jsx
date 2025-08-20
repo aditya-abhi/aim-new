@@ -1,4 +1,4 @@
-import { featureItemsHome2 } from "@/data/features";
+import { featureItemsVideo } from "@/data/features";
 import React from "react";
 import Image from "next/image";
 
@@ -38,7 +38,7 @@ export default function Features() {
               className="row child-cols-12 g-6 md:g-8 xl:g-6"
               data-uc-scrollspy="target: >*; delay: 500; cls: uc-animation-slide-bottom-medium"
             >
-              {featureItemsHome2.map((elm, i) => (
+              {featureItemsVideo.map((elm, i) => (
                 <div key={i}>
                   <div className="feature-item panel py-2 lg:py-6">
                     <div className="row child-cols items-center justify-between g-2 md:g-4">
@@ -50,15 +50,15 @@ export default function Features() {
                         }
                       >
                         <div className="panel overflow-hidden rounded-1-5 lg:rounded-2">
-                          <figure className="featured-image m-0 rounded ratio ratio-3x2 rounded-2 overflow-hidden">
-                            <Image
+                          <div className="featured-image m-0 rounded ratio ratio-3x2 rounded-2 overflow-hidden">
+                            <video
                               className="media-cover image"
-                              src={elm.imageSrc}
-                              width={1400}
-                              height={1412}
-                              alt="Ensuring timely delivery and maximum efficiency"
+                              src={elm.src}
+                              autoPlay
+                              muted
+                              loop
                             />
-                          </figure>
+                          </div>
                         </div>
                       </div>
                       <div

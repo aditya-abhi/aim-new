@@ -15,7 +15,7 @@ export default function Pricing() {
                 className="heading vstack gap-2 panel max-w-550px mx-auto text-center  items-center"
                 data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
               >
-                <span className="fs-7 fw-medium py-narrow px-2 border border-tertiary-100 dark:border-white rounded-pill text-tertiary dark:text-white max-w-100px">
+                <span className="fs-7 fw-bold py-narrow px-2 border border-tertiary-100 dark:border-white rounded-pill text-tertiary dark:text-white max-w-fc">
                   PRICING
                 </span>
                 <h2 className="title h3 lg:h2 xl:h1 m-0">
@@ -49,7 +49,7 @@ export default function Pricing() {
                               {plan.price}
                             </h3>
                             <span className="h6 lg:h3 m-0 pb-narrow text-dark dark:text-white">
-                              / mo
+                              / mo.
                             </span>
                           </div>
                           <p className="desc lg:fs-5">{plan.description}</p>

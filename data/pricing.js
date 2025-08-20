@@ -390,7 +390,7 @@ export const pricingNew = [
   },
   {
     title: "Fully Managed",
-    price: "$$$",
+    price: "$299",
     description: "Perfect for brands who:",
     features: [
       "Have an in-house marketing team",

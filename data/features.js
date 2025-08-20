@@ -648,7 +648,7 @@ export const featuresHome = [
 
 export const featureItemsHome2 = [
   {
-    imageSrc: "/assets/images/template/competition-analysis.webp",
+    imageSrc: "/assets/images/template/test.webp",
     altText: "Ensuring timely delivery and maximum efficiency",
     title: "Benchmark Your Brand's Performance",
     subtitle: "(Because Nobody Likes Coming in Last)",
@@ -701,5 +701,30 @@ export const featureItemsHome2 = [
     linkText: "See apps & integrations",
     icon: "unicon-volume-block-storage",
     reverseOrder: false,
+  },
+];
+
+export const featureItemsVideo = [
+  {
+    src: "/assets/images/features/test-video.webm",
+    altText: "Ensuring timely delivery and maximum efficiency",
+    title: "Benchmark Your Brand's Performance",
+    subtitle: "(Because Nobody Likes Coming in Last)",
+    description:
+      "Get real-time insights that benchmark your brand against the industry average, helping you make data-driven decisions. ",
+    // linkText: "Let's find out",
+    icon: "unicon-cloud-download",
+    reverseOrder: false,
+  },
+  {
+    src: "/assets/images/features/test-video-2.webm",
+    altText: "No more digging endless reports and spreadsheets",
+    title: "Right Message at the Right Place",
+    subtitle: "(Rely on Data Because Gut Feelings Aren't Always Right)",
+    description:
+      "Get your content where it matters most. Brands use our analysis to inform their marketing, PR, content, and social strategies. Think of us as your content GPS.",
+    linkText: "See all spreadsheets",
+    icon: "unicon-course",
+    reverseOrder: true,
   },
 ];

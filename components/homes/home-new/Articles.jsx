@@ -19,7 +19,7 @@ export default function Articles() {
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 450; delay: anime.stagger(100, {start: 200});"
             >
               <div className="section-header vstack items-center gap-2 lg:gap-3">
-                <span className="fs-7 fw-medium py-narrow px-2 border border-tertiary-100 dark:border-white rounded-pill text-tertiary dark:text-white">
+                <span className="fs-7 fw-bold py-narrow px-2 border border-tertiary-100 dark:border-white rounded-pill text-tertiary dark:text-white">
                   GOOGLING IS SO Y2K
                 </span>
                 <h2 className="h4 sm:h3 lg:h2 m-0 text-center max-w-650px mx-auto">
