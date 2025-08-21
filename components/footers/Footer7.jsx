@@ -21,20 +21,20 @@ export default function Footer7() {
                       <div>
                         <Link
                           className="panel text-none"
-                          href={`/home-8`}
+                          href={`/`}
                           style={{ width: 140 }}
                         >
                           <Image
                             className="dark:d-none"
                             alt="Lexend"
-                            src="/assets/images/common/logo-8-light.svg"
+                            src="/assets/images/common/logo-light.webp"
                             width={148}
                             height={39}
                           />
                           <Image
                             className="d-none dark:d-block"
                             alt="Lexend"
-                            src="/assets/images/common/logo-8-dark.svg"
+                            src="/assets/images/common/logo-dark.webp"
                             width={148}
                             height={39}
                           />

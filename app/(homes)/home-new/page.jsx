@@ -16,6 +16,7 @@ import Pricing2 from "@/components/homes/home-new/Pricing2";
 import Testimonials2 from "@/components/homes/home-new/Testimonials2";
 // import Tools from "@/components/homes/home-new/Tools";
 import FeaturesVideo from "@/components/homes/home-new/FeaturesVideo";
+import Countries from "@/components/homes/home-new/Countries";
 import React from "react";
 export const metadata = {
   title:
@@ -35,14 +36,14 @@ export default function page() {
               <Brands />
               {/* <Tools /> */}
               <Features2 />
-              <Features />
+              {/* <Features /> */}
               <FeaturesVideo />
               <Articles />
               <Pricing2 />
               <Testimonials2 />
               <Blog />
               <Faqs />
-              {/* <Blogs /> */}
+              <Countries />
               <Cta />
             </div>
             <Footer7 />

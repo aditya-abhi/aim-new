@@ -85,12 +85,12 @@ export default function Pricing() {
                 className="footer panel text-center"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500;"
               >
-                {/* <Link
+                <Link
                   href={`/page-pricing`}
-                  className="btn btn-md rounded-default bg-white dark:bg-gray-700 dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40 shadow-xs mt-1"
+                  className="btn btn-md rounded-default bg-primary dark:bg-white dark:text-tertiary-700 border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40 shadow-xs hover:shadow-lg mt-1"
                 >
-                  <span>Compare plans</span>
-                </Link> */}
+                  <span>View Plans</span>
+                </Link>
                 <p className="mt-2">Prices include all taxes.</p>
               </div>
             </div>

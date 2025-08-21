@@ -9,7 +9,7 @@ export default function Features2() {
       id="key_features"
       className="key-features section panel overflow-hidden uc-dark"
     >
-      <div className="section-outer panel py-6 md:py-8 xl:py-10 lg:mx-2 lg:rounded-2 bg-tertiary-700 text-white text-opacity-70">
+      <div className="section-outer panel py-6 md:py-8 lg:pt-10 lg:pb-9 lg:mx-2 lg:rounded-2 bg-tertiary-700 text-white text-opacity-70">
         <div className="container sm:max-w-lg">
           <div className="section-inner panel">
             <div
@@ -34,7 +34,7 @@ export default function Features2() {
               </p>
             </div>
             <div
-              className="features-items row child-cols-12 sm:child-cols-6 lg:child-cols-4 g-4 lg:g-6 col-match"
+              className="features-items row child-cols-12 sm:child-cols-6 lg:child-cols-4 g-4 lg:g-6 col-match lg:pb-8"
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 400});"
             >
               {featuresHome.map((feature, index) => (
@@ -42,7 +42,7 @@ export default function Features2() {
                   <div className="features-item vstack items-center justify-center text-center gap-4">
                     <div className="icon-box cstack w-48px h-48px dark:bg-white rounded">
                       <Image
-                        className="w-24px xl:w-32px"
+                        className="w-24px xl:w-40px"
                         alt="feature-icon"
                         src={feature.icon}
                         width={24}
@@ -63,69 +63,26 @@ export default function Features2() {
                 </div>
               ))}
             </div>
-            {/* <div
-              className="pre-cta vstack items-center gap-1 max-w-400px lg:max-w-750px mx-auto text-center mt-6 xl:mt-10"
-              data-anime="onview:-100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
+            <div
+              className="panel vstack items-center gap-2 xl:gap-3 mt-8 sm:max-w-600px lg:max-w-700px xl:max-w-800px mx-auto text-center"
+              data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
-              <div className="mb-2 lg:mb-3">
-                <Link
-                  href={`/page-pricing-2`}
-                  className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 w-auto"
-                >
-                  <span>Start your free trial</span>
-                </Link>
-              </div>
-              <div className="vstack sm:hstack justify-center gap-1 fs-6 text-gray-900 dark:text-white sm-flex-column">
-                <div className="hstack justify-center gap-2">
-                  <b>Exellent</b>
-                  <div className="rating panel">
-                    <div className="hstack justify-center gap-narrow">
-                      <i
-                        className="icon unicon-star-filled text-white p-narrow"
-                        style={{ backgroundColor: "#00b67a" }}
-                      />
-                      <i
-                        className="icon unicon-star-filled text-white p-narrow"
-                        style={{ backgroundColor: "#00b67a" }}
-                      />
-                      <i
-                        className="icon unicon-star-filled text-white p-narrow"
-                        style={{ backgroundColor: "#00b67a" }}
-                      />
-                      <i
-                        className="icon unicon-star-filled text-white p-narrow"
-                        style={{ backgroundColor: "#00b67a" }}
-                      />
-                      <i
-                        className="icon unicon-star-filled text-white p-narrow"
-                        style={{ backgroundColor: "#00b67a" }}
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div className="hstack justify-center gap-narrow">
-                  <span className="desc rtl:order-first">
-                    4,000+ reviews on
-                  </span>
-                  <div>
-                    <Image
-                      alt="Trustpilot"
-                      className="w-96px dark:d-none"
-                      src="/assets/images/review-logo/05.svg"
-                      width={138}
-                      height={42}
-                    />
-                    <Image
-                      alt="Trustpilot"
-                      className="w-96px d-none dark:d-inline-flex"
-                      src="/assets/images/review-logo/dark-05.svg"
-                      width={138}
-                      height={42}
-                    />
-                  </div>
-                </div>
-              </div>
-            </div> */}
+              <h2 className="h3 lg:h2 m-0">
+                Introducing the{" "}
+                <span className="text-tertiary dark:text-primary">
+                  First Command Center
+                </span>{" "}
+                for AI Visibility.
+              </h2>
+              <p className="fs-6 xl:fs-5 xl:px-8">
+                AI Monitor is the world's first open-source tool for Artificial
+                Intelligence Optimization (AIO), Generative Engine Optimization
+                (GEO), and Answer Engine Optimization (AEO). We built it to give
+                brands, marketers, and developers a single platform to track,
+                analyze, and influence their presence across the world's most
+                important AI models.
+              </p>
+            </div>
           </div>
         </div>
       </div>

@@ -21,7 +21,7 @@ export default function Cta() {
             >
               <Image
                 className=""
-                alt="brand"
+                alt="ChatGPT Logo"
                 src="/assets/images/apps/chatgpt.webp"
                 width={800}
                 height={800}
@@ -34,7 +34,7 @@ export default function Cta() {
             >
               <Image
                 className=""
-                alt="brand"
+                alt="Gemini Logo"
                 src="/assets/images/apps/gemini.webp"
                 width={800}
                 height={800}
@@ -47,7 +47,7 @@ export default function Cta() {
             >
               <Image
                 className=""
-                alt="brand"
+                alt="Perplexity Logo"
                 src="/assets/images/apps/perplexity.webp"
                 width={2500}
                 height={2311}
@@ -60,7 +60,7 @@ export default function Cta() {
             >
               <Image
                 className=""
-                alt="brand"
+                alt="Copilot Logo"
                 data-uc-svg=""
                 src="/assets/images/apps/copilot.webp"
                 width={351}
@@ -74,7 +74,7 @@ export default function Cta() {
             >
               <Image
                 className=""
-                alt="brand"
+                alt="Deepseak Logo"
                 src="/assets/images/apps/deepseak.webp"
                 width={800}
                 height={800}
@@ -87,7 +87,7 @@ export default function Cta() {
             >
               <Image
                 className=""
-                alt="brand"
+                alt="Grok Logo"
                 src="/assets/images/apps/grok.webp"
                 width={333}
                 height={300}
@@ -122,9 +122,9 @@ export default function Cta() {
                     </span>
                   </a>
                 </div>
-                <div className="vstack sm:hstack justify-center gap-1 fs-6 text-gray-900 dark:text-white sm-flex-column">
+                <div className="vstack sm:hstack justify-center gap-1 fs-6 text-gray-900 dark:text-white flex-row md-flex-column">
                   <div className="hstack justify-center gap-2">
-                    <b>Exellent</b>
+                    <b>Super</b>
                     <div className="rating panel">
                       <div className="hstack justify-center gap-narrow">
                         <i
@@ -144,7 +144,7 @@ export default function Cta() {
                           style={{ backgroundColor: "#00b67a" }}
                         />
                         <i
-                          className="icon unicon-star-filled text-white p-narrow"
+                          className="icon unicon-star-half-filled text-white p-narrow"
                           style={{ backgroundColor: "#00b67a" }}
                         />
                       </div>
@@ -152,24 +152,24 @@ export default function Cta() {
                   </div>
                   <div className="hstack justify-center gap-narrow">
                     <span className="desc rtl:order-first">
-                      4,000+ reviews on
+                      with reviews on <strong>Trustpilot and G2</strong>
                     </span>
-                    <div>
-                      <Image
-                        alt="Trustpilot"
-                        className="w-96px dark:d-none"
-                        src="/assets/images/review-logo/05.svg"
-                        width={138}
-                        height={42}
-                      />
-                      <Image
-                        alt="Trustpilot"
-                        className="w-96px d-none dark:d-inline-flex"
-                        src="/assets/images/review-logo/dark-05.svg"
-                        width={138}
-                        height={42}
-                      />
-                    </div>
+                    {/* <div>
+                              <Image
+                                alt="Trustpilot"
+                                className="w-96px dark:d-none"
+                                src="/assets/images/review-logo/05.svg"
+                                width={138}
+                                height={42}
+                              />
+                              <Image
+                                alt="Trustpilot"
+                                className="w-96px d-none dark:d-inline-flex"
+                                src="/assets/images/review-logo/dark-05.svg"
+                                width={138}
+                                height={42}
+                              />
+                            </div> */}
                   </div>
                 </div>
               </div>

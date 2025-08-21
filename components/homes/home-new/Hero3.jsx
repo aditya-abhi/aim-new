@@ -92,7 +92,7 @@ export default function Hero() {
                       </div>
                       <div
                         className="position-absolute rounded-circle border dark:border-opacity-15 dark:bg-gradient-45 from-tertiary to-transparent cstack w-56px h-56px d-none lg:d-block"
-                        style={{ top: "7%", left: "26.5%" }}
+                        style={{ top: "6%", left: "26.5%" }}
                         data-anime="translateY: [0, 5]; easing: linear; loop: true; direction: alternate; delay: 25;"
                       >
                         <Image
@@ -145,7 +145,7 @@ export default function Hero() {
                       </div>
                       <div
                         className="position-absolute rounded-circle border dark:border-opacity-15 dark:bg-gradient-45 from-tertiary to-transparent cstack w-56px h-56px d-none lg:d-block"
-                        style={{ top: "85%", left: "8%" }}
+                        style={{ top: "85%", left: "9%" }}
                         data-anime="translateY: [0, 10]; easing: linear; loop: true; direction: alternate; delay: 50;"
                       >
                         <Image
@@ -165,18 +165,18 @@ export default function Hero() {
                         Get started today!
                       </span> */}
 
-                      <p className="fs-5 lg:fs-4 lh-md fw-medium text-gray-500 dark:text-white">
+                      {/* <p className="fs-5 lg:fs-4 lh-md fw-medium text-gray-500 dark:text-white">
                         AI Monitor is the world's first open source tool for
                         Artificial Intelligence Optimization (AIO), Generative
                         Engine Optimization (GEO), or Answer Engine Optimization
                         (AEO).
-                      </p>
+                      </p> */}
 
                       <h2
                         className="h2 xl:display-5 mt-0 mb-4 text-center text-tertiary dark:text-white"
                         style={{ transform: "translateY(0px)", opacity: 1 }}
                       >
-                        Get Your B2B Brand Mentioned on <br />{" "}
+                        World’s First Open Source Tool to Get Your Brand <br />{" "}
                         <span
                           className="text-gray-500 dark:text-primary"
                           data-uc-typed="typeSpeed: 80; backSpeed: 50; backDelay: 1500; loop: true;"
@@ -195,12 +195,10 @@ export default function Hero() {
                         </span> */}
                       </h2>
                       <h4>
-                        AI Monitor is the award-winning, #1-rated consultancy
-                        for Answer Engine Optimization (AEO) and Generative
-                        Engine Optimization (GEO), empowering B2B enterprises to
-                        achieve dominant visibility across AI search platforms
-                        including ChatGPT, Google AI Overview, Perplexity, and
-                        Claude
+                        AI Monitor is the world's first open source tool for
+                        Answer Engine Optimization (AEO) or Artificial
+                        Intelligence Optimization (AIO) or Generative Engine
+                        Optimization (GEO).
                       </h4>
 
                       <div className="panel vstack items-center gap-1 max-w-400px lg:max-w-750px mx-auto text-center mt-2 xl:mt-4">

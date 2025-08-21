@@ -53,20 +53,20 @@ export default function Header7() {
                 <div className="uc-logo ltr:ms-1 rtl:me-1">
                   <Link
                     className="panel text-none"
-                    href={`/home-8`}
+                    href={`/`}
                     style={{ width: 140 }}
                   >
                     <Image
                       className="dark:d-none"
-                      alt="Lexend"
-                      src="/assets/images/common/logo-8-light.svg"
+                      alt="AI Monitor Logo"
+                      src="/assets/images/common/logo-light.webp"
                       width={148}
                       height={39}
                     />
                     <Image
                       className="d-none dark:d-block"
-                      alt="Lexend"
-                      src="/assets/images/common/logo-8-dark.svg"
+                      alt="AI Monitor Logo"
+                      src="/assets/images/common/logo-dark.webp"
                       width={148}
                       height={39}
                     />

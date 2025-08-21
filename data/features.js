@@ -625,21 +625,21 @@ export const features13 = [
 export const featuresHome = [
   {
     order: "order-1 lg:order-0",
-    icon: "/assets/images/custom-icons/home-8-icon-01.svg",
+    icon: "/assets/images/custom-icons/decline.svg",
     title: "50% Decline in Your Organic Web Traffic",
     description:
       "Gartner forecasts a staggering 50% decrease in organic traffic. Yes, those valuable clicks you fought so hard to earn are slipping away unnoticed. This is a wake-up call!",
   },
   {
     order: "order-0",
-    icon: "/assets/images/custom-icons/home-8-icon-02.svg",
+    icon: "/assets/images/custom-icons/google-dedcline.svg",
     title: "Google Rankings Have Lost Their Relevance",
     description:
       "More than 40% of users now prefer AI-generated content over traditional search results. Therefore, being on the first page of Google is no longer a guarantee of visibility",
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
-    icon: "/assets/images/custom-icons/home-8-icon-03.svg",
+    icon: "/assets/images/custom-icons/visibility.svg",
     title: "New Factors Influence Visibility on AI Search",
     description:
       "Studies show that Generative engines, on average, reference fewer than 5 of the top 10 search results. With AI Monitor, you can discover these new factors for AI search.",

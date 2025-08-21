@@ -1,14 +1,13 @@
-import Home1 from "./(homes)/home-1/page";
+import Home from "./(homes)/home-new/page";
 export const metadata = {
-  title:
-    "Home 1 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+  title: "AI Monitor || Best Tool for Generative Engine Optimization(GEO)",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "AI Monitor the SEO 2.0. We provide Generative Engine Optimization(GEO) Services to boost the website visibility and Optimize content for AI.",
 };
-export default function HomePage1() {
+export default function HomePage() {
   return (
     <>
-      <Home1 />
+      <Home />
     </>
   );
 }
