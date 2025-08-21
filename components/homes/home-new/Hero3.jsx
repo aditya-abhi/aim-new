@@ -45,8 +45,8 @@ export default function Hero() {
       <div
         className={
           isDarkMode
-            ? "position-absolute top-0 start-0 end-0 h-screen lg:rounded-2 lg:rounded-top-0 lg:mx-2 lg:mt-0 lg:pb-2 dark-enabled"
-            : "position-absolute top-0 start-0 end-0 h-screen lg:rounded-2 lg:rounded-top-0 lg:mx-2 lg:mt-0 lg:pb-2 dark-disabled"
+            ? "position-absolute top-0 start-0 end-0 h-100 lg:rounded-2 lg:rounded-top-0 lg:mx-2 lg:mt-0 lg:pb-2 dark-enabled"
+            : "position-absolute top-0 start-0 end-0 h-100 lg:rounded-2 lg:rounded-top-0 lg:mx-2 lg:mt-0 lg:pb-2 dark-disabled"
         }
       >
         {" "}
