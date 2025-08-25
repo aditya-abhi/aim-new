@@ -1,19 +1,19 @@
 import Header from "@/components/headers/Header7";
 
 import Footer from "@/components/footers/Footer7";
-import Hero from "@/components/page-features/Hero";
-import KeyFeatures from "@/components/page-features/KeyFeatures";
-import Faq from "@/components/page-features/Faqs";
-import Testimonials from "@/components/page-features/Testimonials";
-import Cta from "@/components/page-features/Cta";
-import Brands2 from "@/components/page-features/Brands2";
+import Hero from "@/components/features/Hero";
+import KeyFeatures from "@/components/features/KeyFeatures";
+import Faq from "@/components/features/Faqs";
+import Testimonials from "@/components/features/Testimonials";
+import Cta from "@/components/features/Cta";
+import Brands2 from "@/components/features/Brands2";
 export const metadata = {
   title:
     "Features || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
-export default function FeaturesPage() {
+export default function Features() {
   return (
     <div className="theme-4">
       <div className="page-wrapper">

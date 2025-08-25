@@ -63,7 +63,7 @@ export default function Pricing() {
                   data-anime="onscroll: .hero-header; onscroll-trigger: 0.5; translateY: [-80, 0]; scale: [0.8, 1]; easing: linear;"
                 >
                   <img
-                    src="/assets/images/features/seo-vs-geo.webp"
+                    src="/assets/images/features/test-1.jpg"
                     alt="The differences between SEO and GEO"
                   />
                 </div>
