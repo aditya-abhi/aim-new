@@ -628,21 +628,21 @@ export const featuresHome = [
     icon: "/assets/images/custom-icons/decline.svg",
     title: "50% Decline in Your Organic Web Traffic",
     description:
-      "Gartner forecasts a staggering 50% decrease in organic traffic. Yes, those valuable clicks you fought so hard to earn are slipping away unnoticed. This is a wake-up call!",
+      "Gartner predicts organic search traffic will drop by 50% by 2028 and we’re already seeing early signs. In 2025 alone, U.S. organic traffic is down nearly 60% as AI tools dominate how people search, shop, and decide.",
   },
   {
     order: "order-0",
     icon: "/assets/images/custom-icons/google-dedcline.svg",
     title: "Google Rankings Have Lost Their Relevance",
     description:
-      "More than 40% of users now prefer AI-generated content over traditional search results. Therefore, being on the first page of Google is no longer a guarantee of visibility",
+      "83% of users now prefer AI-generated answers over traditional search results. That means ranking #1 on Google no longer guarantees visibility, if you’re not appearing in AI Overviews, ChatGPT, Perplexity, and Microsoft Copilot, your audience won’t find you.",
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
     icon: "/assets/images/custom-icons/visibility.svg",
     title: "New Factors Influence Visibility on AI Search",
     description:
-      "Studies show that Generative engines, on average, reference fewer than 5 of the top 10 search results. With AI Monitor, you can discover these new factors for AI search.",
+      "Generative engines reference fewer than half of the top 10 search results and they don’t play by SEO’s old rules. Structured data, authority signals, and brand mentions now drive whether your business gets cited or skipped.",
   },
 ];
 
@@ -706,25 +706,69 @@ export const featureItemsHome2 = [
 
 export const featureItemsVideo = [
   {
-    src: "/assets/images/features/test-video.webm",
-    altText: "Ensuring timely delivery and maximum efficiency",
+    src: "/assets/images/videos/benchmark.webm",
+    altText: "Benchmark Your Brand's Performance",
     title: "Benchmark Your Brand's Performance",
     subtitle: "(Because Nobody Likes Coming in Last)",
     description:
-      "Get real-time insights that benchmark your brand against the industry average, helping you make data-driven decisions. ",
+      "See exactly where your brand stands. Get real-time insights that benchmark your performance against industry averages and competitors, helping you make smarter, data-driven decisions to stay ahead.",
     // linkText: "Let's find out",
     icon: "unicon-cloud-download",
     reverseOrder: false,
   },
   {
-    src: "/assets/images/features/test-video-2.webm",
-    altText: "No more digging endless reports and spreadsheets",
-    title: "Right Message at the Right Place",
-    subtitle: "(Rely on Data Because Gut Feelings Aren't Always Right)",
+    src: "/assets/images/videos/open-source.webm",
+    altText: "Built on Trust. Open for All.",
+    title: "Built on Trust. Open for All.",
+    subtitle: "(Because You Deserve Transparency in an AI-Driven World)",
     description:
-      "Get your content where it matters most. Brands use our analysis to inform their marketing, PR, content, and social strategies. Think of us as your content GPS.",
+      "Tired of the “black box” AI platforms? AI Monitor is 100% open-source, meaning you can see exactly how it works, customize it for your needs, and never get locked into a vendor’s ecosystem again. Our platform is built by the community, for the community, giving you total control, privacy, and flexibility.",
     linkText: "See all spreadsheets",
     icon: "unicon-course",
+    reverseOrder: true,
+  },
+  {
+    src: "/assets/images/videos/visibility.webm",
+    altText: "Right Message, Right Place",
+    title: "Right Message, Right Place",
+    subtitle: "(Because Gut Feelings Aren’t Always Right)",
+    description:
+      "Your content deserves to be seen where it matters most. We analyze AI-generated search results to ensure your brand shows up in the right answers, at the right time. Think of us as your AI-powered GPS for marketing, PR, and content strategy.",
+    linkText: "See apps & integrations",
+    icon: "unicon-volume-block-storage",
+    reverseOrder: false,
+  },
+  {
+    src: "/assets/images/videos/comparison.webm",
+    altText: "AI Platform Comparison",
+    title: "AI Platform Comparison",
+    subtitle: "(Because All AI Engines Are Not Created Equal)",
+    description:
+      "Not all AI platforms think alike and neither should your strategy. We deliver precise, platform-specific insights into your brand’s visibility across ChatGPT, Google AI Overviews, Perplexity, Claude, Gemini, and beyond helping you win across every AI-driven discovery channel.",
+    linkText: "Let's find out",
+    icon: "unicon-model",
+    reverseOrder: true,
+  },
+  {
+    src: "/assets/images/videos/sentiment.webm",
+    altText: "Perform Sentiment Analysis",
+    title: "Perform Sentiment Analysis",
+    subtitle: "(Because Happy Customers = Happy Brand)",
+    description:
+      "AI answers shape perception. We track positive and negative mentions across AI platforms, giving you a clear snapshot of customer sentiment. We’ll separate the love letters from the hate mail  and help you turn insights into action.",
+    linkText: "See apps & integrations",
+    icon: "unicon-volume-block-storage",
+    reverseOrder: false,
+  },
+  {
+    src: "/assets/images/videos/Dashboard.mp4",
+    altText: "Wide Coverage. One Dashboard.",
+    title: "Wide Coverage, One Dashboard",
+    subtitle: "(We’re Keeping an Eye on All the AI 👀)",
+    description:
+      " AI Monitor gives you a single, unified view of your brand’s presence across every major Generative Engine and LLM. From ChatGPT to Gemini and whatever our future AI overlords invent next we’re watching it all, so you don’t have to.",
+    linkText: "See apps & integrations",
+    icon: "unicon-volume-block-storage",
     reverseOrder: true,
   },
 ];

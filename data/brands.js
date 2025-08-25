@@ -293,3 +293,47 @@ export const brandsGray = [
     height: 55,
   },
 ];
+
+export const brandLogos = [
+  {
+    id: 13,
+    lightSrc: "/assets/images/brands/comcast-light.webp",
+    darkSrc: "/assets/images/brands/comcast-dark.webp",
+    alt: "Comcast logo",
+  },
+  {
+    id: 14,
+    lightSrc: "/assets/images/review-logo/02.svg",
+    darkSrc: "/assets/images/review-logo/dark-02.svg",
+  },
+  {
+    id: 15,
+    lightSrc: "/assets/images/review-logo/03.svg",
+    darkSrc: "/assets/images/review-logo/dark-03.svg",
+  },
+  {
+    id: 16,
+    lightSrc: "/assets/images/review-logo/04.svg",
+    darkSrc: "/assets/images/review-logo/dark-04.svg",
+  },
+  {
+    id: 17,
+    lightSrc: "/assets/images/review-logo/05.svg",
+    darkSrc: "/assets/images/review-logo/dark-05.svg",
+  },
+  {
+    id: 18,
+    lightSrc: "/assets/images/review-logo/06.svg",
+    darkSrc: "/assets/images/review-logo/dark-06.svg",
+  },
+  {
+    id: 19,
+    lightSrc: "/assets/images/brands/comcast-light.webp",
+    darkSrc: "/assets/images/brands/comcast-dark.webp",
+  },
+  {
+    id: 20,
+    lightSrc: "/assets/images/review-logo/06.svg",
+    darkSrc: "/assets/images/review-logo/dark-06.svg",
+  },
+];

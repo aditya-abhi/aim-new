@@ -1,11 +1,10 @@
-import Accordion from "@/components/common/AccordionAdaptiveText";
+import Accordion from "@/components/common/AccordionGEOCourse";
 import React from "react";
-import Link from "next/link";
 
-export default function Faq() {
+export default function Contents() {
   return (
-    <div id="faq" className="faq section panel  scrollSpysection">
-      <div className="section-outer panel py-6 xl:py-10">
+    <div id="faq" className="faq section panel scrollSpysection">
+      <div className="section-outer panel lg:mt-8 xl:mt-10 lg:py-8 xl:py-10 lg:mx-2 lg:rounded-2 bg-tertiary-700 text-white">
         <div className="container xl:max-w-xl">
           <div
             className="section-inner panel"
@@ -19,23 +18,13 @@ export default function Faq() {
                   hidden=""
                 />
                 <div className="panel vstack items-start gap-2 uc-sticky">
-                  <div className="cstack gap-1 py-1 px-3 border rounded-pill">
-                    {/* <span className="d-inline-block w-4px h-4px rounded-circle bg-primary dark:bg-secondary" /> */}
-                    <span className="fs-8 fw-bold text-uppercase">FAQs</span>
-                  </div>
-                  <h2 className="h3 lg:h2 m-0">Frequenlty Asked Questions</h2>
+                  <h2 className="h3 lg:h2 m-0 text-white">
+                    Generative Engine Optimization Course Structure
+                  </h2>
                   <p className="fs-6 lg:fs-5">
-                    We’re looking for people who share our vision! most of our
-                    time used to be taken up by most of who created new websites
-                    for their businesses.
+                    What will you learn during the 7 days of Our Generative
+                    Engine Optimization Course.
                   </p>
-                  <Link
-                    href={`/page-contact`}
-                    className="btn btn-sm lg:btn-md btn-primary px-3 mt-2"
-                  >
-                    <span>Still have a question?</span>
-                    <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
-                  </Link>
                 </div>
               </div>
               <div className="lg:col-6">

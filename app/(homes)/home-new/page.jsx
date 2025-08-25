@@ -17,6 +17,8 @@ import Testimonials2 from "@/components/homes/home-new/Testimonials2";
 // import Tools from "@/components/homes/home-new/Tools";
 import FeaturesVideo from "@/components/homes/home-new/FeaturesVideo";
 import Countries from "@/components/homes/home-new/Countries";
+import Purpose from "@/components/homes/home-new/Purpose";
+import Brands2 from "@/components/homes/home-new/Brands2";
 import React from "react";
 export const metadata = {
   title:
@@ -38,7 +40,10 @@ export default function page() {
               <Features2 />
               {/* <Features /> */}
               <FeaturesVideo />
+              <Purpose />
+              {/* <Blogs /> */}
               <Articles />
+              {/* <Brands2 /> */}
               <Pricing2 />
               <Testimonials2 />
               <Blog />

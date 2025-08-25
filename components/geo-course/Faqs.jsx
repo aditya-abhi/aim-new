@@ -1,4 +1,4 @@
-import Accordion from "@/components/common/AccordionAdaptiveText";
+import Accordion from "@/components/common/Accordion";
 import React from "react";
 
 export default function Faqs() {

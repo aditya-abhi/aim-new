@@ -68,7 +68,7 @@ export default function Testimonials() {
                       thumbs={{ swiper: thumbsSwiper }}
                       {...swiperOptions2}
                       pagination={{
-                        clickable:true,
+                        clickable: true,
                         el: ".spb1",
                       }}
                       className="swiper h-100 swiper-fade swiper-initialized swiper-horizontal swiper-watch-progress swiper-backface-hidden"

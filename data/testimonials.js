@@ -7,7 +7,7 @@ export const testimonials = [
       atque.”`,
     name: "Mark Zellers",
     position: "Director of Human Resources.",
-    imgSrc: "/assets/images/portrait/01.jpg",
+    imgSrc: "/assets/images/portrait/course-3.png",
   },
   {
     quote: `“I can create a custom proposal with dynamic pricing

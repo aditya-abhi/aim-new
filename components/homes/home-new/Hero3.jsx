@@ -3,6 +3,12 @@ import TyperComponent from "@/components/common/TyperComponent";
 import Image from "next/image";
 import React from "react";
 import { useState, useEffect } from "react";
+import localFont from "next/font/local";
+
+const polysans = localFont({
+  src: "../../../public/assets/fonts/polysans/PolySans-Medium.woff2",
+  weight: "700",
+});
 
 export default function Hero() {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -171,35 +177,37 @@ export default function Hero() {
                         Engine Optimization (GEO), or Answer Engine Optimization
                         (AEO).
                       </p> */}
-
-                      <h2
-                        className="h2 xl:display-5 mt-0 mb-4 text-center text-tertiary dark:text-white"
-                        style={{ transform: "translateY(0px)", opacity: 1 }}
-                      >
-                        World’s First Open Source Tool to Get Your Brand <br />{" "}
-                        <span
-                          className="text-gray-500 dark:text-primary"
-                          data-uc-typed="typeSpeed: 80; backSpeed: 50; backDelay: 1500; loop: true;"
+                      <div className={polysans.className}>
+                        <h2
+                          className="h2 xl:display-5 mt-0 mb-4 text-center text-tertiary dark:text-white"
+                          style={{ transform: "translateY(0px)", opacity: 1 }}
                         >
-                          <TyperComponent
-                            strings={[
-                              "ChatGPT",
-                              "Google AI Overview",
-                              "Microsoft Copilot",
-                              "Perplexity",
-                            ]}
-                          />
-                        </span>
-                        {/* <span className="typed-cursor" aria-hidden="true">
+                          World’s First Open Source Tool to Get Your Brand{" "}
+                          <br />{" "}
+                          <span
+                            className="text-gray-500 dark:text-primary"
+                            data-uc-typed="typeSpeed: 80; backSpeed: 50; backDelay: 1500; loop: true;"
+                          >
+                            <TyperComponent
+                              strings={[
+                                "ChatGPT",
+                                "Google AI Overview",
+                                "Microsoft Copilot",
+                                "Perplexity",
+                              ]}
+                            />
+                          </span>
+                          {/* <span className="typed-cursor" aria-hidden="true">
                           |
                         </span> */}
-                      </h2>
-                      <h4>
-                        AI Monitor is the world's first open source tool for
-                        Answer Engine Optimization (AEO) or Artificial
-                        Intelligence Optimization (AIO) or Generative Engine
-                        Optimization (GEO).
-                      </h4>
+                        </h2>
+                        <h4>
+                          AI Monitor is the world's first open source tool for
+                          Answer Engine Optimization (AEO) or Artificial
+                          Intelligence Optimization (AIO) or Generative Engine
+                          Optimization (GEO).
+                        </h4>
+                      </div>
 
                       <div className="panel vstack items-center gap-1 max-w-400px lg:max-w-750px mx-auto text-center mt-2 xl:mt-4">
                         <div className="mb-2 lg:mb-3">

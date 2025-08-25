@@ -34,7 +34,7 @@ export default function Features2() {
               </p>
             </div>
             <div
-              className="features-items row child-cols-12 sm:child-cols-6 lg:child-cols-4 g-4 lg:g-6 col-match lg:pb-8"
+              className="features-items row child-cols-12 sm:child-cols-6 lg:child-cols-4 g-4 lg:g-6 col-match lg:pb-8 cstack items-center"
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 400});"
             >
               {featuresHome.map((feature, index) => (
@@ -42,7 +42,7 @@ export default function Features2() {
                   <div className="features-item vstack items-center justify-center text-center gap-4">
                     <div className="icon-box cstack w-48px h-48px dark:bg-white rounded">
                       <Image
-                        className="w-24px xl:w-40px"
+                        className="w-36px xl:w-40px"
                         alt="feature-icon"
                         src={feature.icon}
                         width={24}
@@ -53,9 +53,7 @@ export default function Features2() {
                       <div className="vstack gap-1">
                         <h3 className="title h6 lg:h5 m-0">{feature.title}</h3>
                         <p className="desc fs-6 opacity-60 dark:opacity-90">
-                          Whether you have a team of 2 or 200, our shared team
-                          inboxes keep everyone on the same page and in the
-                          loop.
+                          {feature.description}
                         </p>
                       </div>
                     </div>

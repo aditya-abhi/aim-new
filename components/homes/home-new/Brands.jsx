@@ -1,4 +1,5 @@
-import { brandsGray } from "@/data/brands";
+// import { brandsGray } from "@/data/brands";
+import { brandLogos } from "@/data/brands";
 import Image from "next/image";
 import React from "react";
 
@@ -20,7 +21,7 @@ export default function Brands() {
               </h5>
               <div className="panel">
                 <div className="row child-cols items-center text-center">
-                  {brandsGray.map((brand, index) => (
+                  {/* {brandsGray.map((brand, index) => (
                     <div key={index}>
                       <div className="panel mb-3">
                         <Image
@@ -32,6 +33,27 @@ export default function Brands() {
                         />
                       </div>
                     </div>
+                  ))} */}
+
+                  {brandLogos.map((logo, index) => (
+                    <React.Fragment key={index}>
+                      <Image
+                        src={logo.lightSrc}
+                        width={32}
+                        height={42}
+                        style={{ height: "42px", width: "fit-content" }}
+                        alt={logo.alt}
+                        className="dark:d-none mb-4"
+                      />
+                      <Image
+                        src={logo.darkSrc}
+                        width={32}
+                        height={42}
+                        style={{ height: "42px", width: "fit-content" }}
+                        alt={logo.alt}
+                        className="d-none dark:d-block mb-4"
+                      />
+                    </React.Fragment>
                   ))}
                 </div>
               </div>

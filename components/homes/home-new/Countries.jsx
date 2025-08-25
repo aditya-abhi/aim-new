@@ -50,85 +50,7 @@ export default function Pricing() {
                     alt="World map"
                   />
                 </div>
-                <div
-                  className="position-absolute rounded-circle shadow-lg cstack w-40px h-56px d-none lg:d-block"
-                  style={{ top: "37%", right: "49%" }}
-                  data-anime="translateY: [0, 15]; easing: linear; loop: true; direction: alternate; delay: 50;"
-                >
-                  <Image
-                    className=""
-                    alt="ChatGPT Logo"
-                    src="/assets/images/flags/germany.webp"
-                    width={800}
-                    height={800}
-                  />
-                </div>
-                <div
-                  className="position-absolute rounded-circle shadow-lg cstack w-40px h-56px d-none lg:d-block"
-                  style={{ top: "27 %", left: "12%" }}
-                  data-anime="translateY: [0, 5]; easing: linear; loop: true; direction: alternate; delay: 25;"
-                >
-                  <Image
-                    className=""
-                    alt="Gemini Logo"
-                    src="/assets/images/flags/canada.webp"
-                    width={800}
-                    height={800}
-                  />
-                </div>
-                <div
-                  className="position-absolute rounded-circle shadow-lg cstack w-40px h-56px d-none lg:d-block"
-                  style={{ top: "40%", left: "18%" }}
-                  data-anime="translateY: [0, 10]; easing: linear; loop: true; direction: alternate; delay: 0;"
-                >
-                  <Image
-                    className=""
-                    alt="Perplexity Logo"
-                    src="/assets/images/flags/usa.webp"
-                    width={2500}
-                    height={2311}
-                  />
-                </div>
-                <div
-                  className="position-absolute rounded-circle shadow-lg cstack w-40px d-none lg:d-block"
-                  style={{ bottom: "20%", right: "15%" }}
-                  data-anime="translateY: [0, 5]; easing: linear; loop: true; direction: alternate; delay: 50;"
-                >
-                  <Image
-                    className=""
-                    alt="Copilot Logo"
-                    data-uc-svg=""
-                    src="/assets/images/flags/australia.webp"
-                    width={351}
-                    height={373}
-                  />
-                </div>
-                <div
-                  className="position-absolute rounded-circle shadow-lg cstack w-40px d-none lg:d-block"
-                  style={{ top: "52%", right: "29.5%" }}
-                  data-anime="translateY: [0, 15]; easing: linear; loop: true; direction: alternate; delay: 25;"
-                >
-                  <Image
-                    className=""
-                    alt="Deepseak Logo"
-                    src="/assets/images/flags/india.webp"
-                    width={800}
-                    height={800}
-                  />
-                </div>
-                <div
-                  className="position-absolute rounded-circle shadow-lg cstack w-40px d-none lg:d-block"
-                  style={{ top: "31%", right: "52%" }}
-                  data-anime="translateY: [0, 10]; easing: linear; loop: true; direction: alternate; delay: 50;"
-                >
-                  <Image
-                    className=""
-                    alt="Grok Logo"
-                    src="/assets/images/flags/uk.webp"
-                    width={333}
-                    height={300}
-                  />
-                </div>
+
                 <div
                   className="position-absolute rounded-circle shadow-lg cstack w-40px d-none lg:d-block"
                   style={{ top: "42%", right: "12%" }}
@@ -136,7 +58,7 @@ export default function Pricing() {
                 >
                   <Image
                     className=""
-                    alt="Grok Logo"
+                    alt="Japan Flag"
                     src="/assets/images/flags/japan.webp"
                     width={333}
                     height={300}
@@ -149,7 +71,7 @@ export default function Pricing() {
                 >
                   <Image
                     className=""
-                    alt="Grok Logo"
+                    alt="Brazil Flag"
                     src="/assets/images/flags/brazil.webp"
                     width={333}
                     height={300}
@@ -162,7 +84,7 @@ export default function Pricing() {
                 >
                   <Image
                     className=""
-                    alt="Grok Logo"
+                    alt="Turkey Flag"
                     src="/assets/images/flags/turkey.webp"
                     width={333}
                     height={300}
