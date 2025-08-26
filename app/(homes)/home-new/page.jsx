@@ -11,6 +11,7 @@ import Articles from "@/components/homes/home-new/Articles";
 // import Hero from "@/components/homes/home-new/Hero";
 // import Hero from "@/components/homes/home-new/Hero-2";
 import Hero from "@/components/homes/home-new/Hero3";
+import Pricing from "@/components/homes/home-new/Pricing";
 import Pricing2 from "@/components/homes/home-new/Pricing2";
 // import Testimonials from "@/components/homes/home-new/Testimonials";
 import Testimonials2 from "@/components/homes/home-new/Testimonials2";
@@ -44,7 +45,8 @@ export default function page() {
               {/* <Blogs /> */}
               <Articles />
               {/* <Brands2 /> */}
-              <Pricing2 />
+              {/* <Pricing2 /> */}
+              <Pricing />
               <Testimonials2 />
               <Blog />
               <Faqs />

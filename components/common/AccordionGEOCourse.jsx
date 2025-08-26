@@ -59,12 +59,7 @@ export default function Accordion({
             className="uc-accordion-content text-secondary"
             ref={(el) => (answerRefs.current[index] = el)}
           >
-            <ol>
-              <li>{item.item1}</li>
-              <li>{item.item2}</li>
-              <li>{item.item3}</li>
-              <li>{item.item4}</li>
-            </ol>
+            <p>{item.answer}</p>
           </div>
         </li>
       ))}

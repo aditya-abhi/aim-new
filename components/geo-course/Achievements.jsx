@@ -1,7 +1,7 @@
 import Accordion from "@/components/common/AccordionGEOCourse";
 import React from "react";
 
-export default function Contents() {
+export default function Achievements() {
   return (
     <div id="faq" className="faq section panel scrollSpysection">
       <div className="section-outer panel lg:mt-8 xl:mt-10 lg:py-8 xl:py-10 lg:mx-2 lg:rounded-2 bg-tertiary-700 text-white">
@@ -19,12 +19,13 @@ export default function Contents() {
                 />
                 <div className="panel vstack items-start gap-2 uc-sticky">
                   <h2 className="h3 lg:h2 m-0 text-white">
-                    Generative Engine Optimization Course Structure
+                    What You’ll Achieve by the End of This Free, 7-Day Intensive
+                    Course
                   </h2>
-                  <p className="fs-6 lg:fs-5">
+                  {/* <p className="fs-6 lg:fs-5">
                     What will you learn during the 7 days of Our Generative
                     Engine Optimization Course.
-                  </p>
+                  </p> */}
                 </div>
               </div>
               <div className="lg:col-6">

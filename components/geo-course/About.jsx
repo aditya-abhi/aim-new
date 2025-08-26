@@ -13,7 +13,7 @@ export default function Features2() {
         <div className="container sm:max-w-lg">
           <div className="section-inner panel">
             <div
-              className="panel vstack items-center gap-2 xl:gap-3 sm:max-w-600px lg:max-w-700px xl:max-w-800px mx-auto text-center"
+              className="panel vstack items-center gap-2 xl:gap-3 sm:max-w-600px lg:max-w-700px xl:max-w-900px mx-auto text-center"
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
               <h2 className="h3 lg:h2 m-0">
@@ -59,19 +59,33 @@ export default function Features2() {
                   Generative Engine Optimization (GEO)
                 </span>{" "}
               </h2>
-              <div className="panel overflow-hidden ratio ratio-16x9 rounded-2 lg:rounded-3 border border-2 border-white dark:border-gray-700">
-                <video
-                  src="/assets/images/media/lexend_vid_home-6.webm"
-                  preload="none"
-                  loop
-                  autoPlay
-                  poster="/assets/images/media/lexend_vid_home-6.jpg"
-                  muted
-                  playsInline
-                  data-uc-cover
-                  data-uc-video="autoplay: true;"
-                ></video>
-              </div>
+              <iframe
+                className="w-100 rounded-2 overflow-hidden lg:min-h-500px ratio-16x9"
+                src="https://www.youtube.com/embed/on2ddUyVtbA?si=XK5cNP7lgia3xHB0"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <p className="fs-6 xl:fs-5 xl:px-8 m-0 mt-6">
+                Generative Engine Optimization (GEO) is the practice of
+                optimizing your content to appear in AI-generated responses—not
+                just traditional search engine listings. As large language
+                models (LLMs) like ChatGPT, Gemini, and Claude become primary
+                gateways to information, GEO ensures your content is
+                discoverable, quotable, and trusted by these systems. It’s not
+                about chasing rankings; it’s about being the source AI chooses
+                to cite when answering user queries.
+              </p>
+              <p className="fs-6 xl:fs-5 xl:px-8 m-0">
+                GEO focuses on structuring information for chunk-level
+                retrieval, embedding clarity and precision that machines can
+                interpret, and signaling authoritativeness that AI models
+                recognize. Whether you're a brand, publisher, or creator,
+                mastering GEO means adapting your content for a future where
+                visibility depends on how well you communicate with the
+                algorithms that now speak to your audience.{" "}
+              </p>
             </div>
           </div>
         </div>

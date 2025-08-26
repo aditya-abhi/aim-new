@@ -1065,6 +1065,8 @@
   --bs-quaternary-700: #7f8174;
   --bs-quaternary-800: #55564e;
   --bs-quaternary-900: #2a2b27;
+  --bs-pricing-1: #f3ffbf;
+  --bs-pricing-2: #f3f5f6;
   --bs-primary-rgb: var(--color-primary-rgb);
   --bs-secondary-rgb: 252, 240, 231;
   --bs-success-rgb: 76, 175, 80;
@@ -2071,7 +2073,7 @@
   .container.container-expand {
     max-width: 100%;
   }
-    .container.container-90 {
+  .container.container-90 {
     max-width: 90%;
   }
   .container.container-80 {
@@ -8544,6 +8546,9 @@
     .lg\:min-h-100px {
       min-height: 100px !important;
     }
+    .lg\:min-h-500px {
+      min-height: 500px !important;
+    }
     .lg\:min-h-600px {
       min-height: 600px !important;
     }
@@ -8648,6 +8653,9 @@
     }
     .xl\:max-w-800px {
       max-width: 800px !important;
+    }
+    .xl\:max-w-900px {
+      max-width: 900px !important;
     }
     .xl\:max-w-3\/4 {
       max-width: 75% !important;
@@ -8864,6 +8872,9 @@
     .xl\:min-h-300px {
       min-height: 300px !important;
     }
+    .xl\:min-h-500px {
+      min-height: 500px !important;
+    }
     .xl\:min-h-700px {
       min-height: 700px !important;
     }
@@ -8946,6 +8957,9 @@
   .to-primary-700 {
     --uc-gradient-to: #588b39;
   }
+  .to-tertiary-700 {
+    --uc-gradient-to: #01353c;
+  }
   .to-primary-800 {
     --uc-gradient-to: #3b5d26;
   }
@@ -8963,6 +8977,9 @@
   .to-orange-100 {
     --uc-gradient-to: #fee1d2;
   }
+  .to-primary-100 {
+    --uc-gradient-to: #93e85f;
+  }
   .from-tertiary {
     --uc-gradient-from: #025864;
     --uc-gradient-stops: var(--uc-gradient-from), var(--uc-gradient-to);
@@ -8973,6 +8990,10 @@
   }
   .from-tertiary-600 {
     --uc-gradient-from: #024650;
+    --uc-gradient-stops: var(--uc-gradient-from), var(--uc-gradient-to);
+  }
+  .from-tertiary-700 {
+    --uc-gradient-from: #01353c;
     --uc-gradient-stops: var(--uc-gradient-from), var(--uc-gradient-to);
   }
   :where(.uc-dark) .dark\:to-black {
@@ -8992,6 +9013,13 @@
   :where(.uc-dark) .dark\:from-primary-700 {
     --uc-gradient-from: #588b39;
     --uc-gradient-stops: var(--uc-gradient-from), var(--uc-gradient-to);
+  }
+    :where(.uc-dark) .dark\:from-primary {
+    --uc-gradient-from: #93e85f;
+    --uc-gradient-stops: var(--uc-gradient-from), var(--uc-gradient-to);
+  }
+  :where(.uc-dark) .dark\:to-tertiary-700 {
+    --uc-gradient-to: #01353c;
   }
   :where(.uc-dark) .dark\:to-tertiary {
     --uc-gradient-to: #025864;

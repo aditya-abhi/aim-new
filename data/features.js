@@ -802,3 +802,115 @@ export const whatWillYouLearn = [
       "Proven strategies that have increased visibility in AI answers by over 300%, backed by real-world case studies",
   },
 ];
+
+export const courseContents = [
+  {
+    id: 1,
+    imgSrc: "/assets/images/template/feature-01.svg",
+    altText: "Share tools quickly and confidently in minutes",
+    step: "01.",
+    title: "📅 Day 1: Introduction to GEO & Generative Engines",
+    sub1: "",
+    desc1: "",
+    sub2: "",
+    desc2: "",
+    description: `This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables. You can also customize your own dynamic versions.`,
+  },
+  {
+    id: 2,
+    imgSrc: "/assets/images/template/feature-02.svg",
+    altText: "Connect every part of your entire business",
+    step: "02.",
+    title: "Connect every part of your entire business",
+    description: `Keep data consistent, with native CRM integrations that streamline your entire Tool workflow.`,
+    link: {
+      href: "#",
+      text: "See all integrations",
+    },
+    testimonial: {
+      quote: `“I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within 36 minutes.”`,
+      imgSrc: "/assets/images/avatars/02.png",
+      name: "Matt Henderson",
+      role: "Client Success Manager",
+    },
+  },
+  {
+    id: 3,
+    imgSrc: "/assets/images/template/feature-03.svg",
+    altText: "Maintain compliance and control your apps",
+    step: "03.",
+    title: "Maintain compliance and control your apps",
+    description: `Improve security and trust with built-in legally binding e-Signatures. Create pre-approved templates, content blocks and lock all legal information to prevent costly mistakes.`,
+    testimonial: {
+      quote: `“This powerful tool eliminates the need to leave Salesforce to get things done.”`,
+      imgSrc: "/assets/images/avatars/04.png",
+      name: "Natalia Larsson",
+      role: "Director of Sales Operations",
+    },
+  },
+  {
+    id: 4,
+    imgSrc: "/assets/images/template/feature-04.svg",
+    altText: "Review quickly and confidently",
+    step: "04.",
+    title: "Review quickly and confidently",
+    description: `Get real-time access to approvals, comments and version tracking. Smart features like variables and conditional logic help you eliminate Tool errors.`,
+    testimonial: {
+      quote: `“We are based in Europe and the latest Data Protection Regulation forces us to look for service suppliers than comply with this regulation.”`,
+      imgSrc: "/assets/images/avatars/03.png",
+      name: "Sarah Edrissi",
+      role: "Lead Marketing",
+    },
+  },
+];
+
+export const bestFor = [
+  {
+    order: "order-1 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-01.svg",
+    title: "Content Strategists ",
+    desc: "Learn to create AI-optimized content that ranks where answers appear directly.",
+  },
+  {
+    order: "order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-02.svg",
+    title: "SEO Professionals",
+    desc: "Master GEO techniques to dominate AI-driven search platforms like ChatGPT, Gemini, and Google AI Overviews.",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-03.svg",
+    title: "Digital Marketers",
+    desc: "Gain actionable skills to future-proof your marketing strategy for the AI search era.",
+  },
+];
+
+export const instructor = [
+  {
+    title: "BusinessLine",
+    description: "Indian companies embrace global stage at South Summit 2023",
+    imgSrc: "/assets/images/brands/business-line.png",
+    link: "https://www.thehindubusinessline.com/on-campus/indian-companies-embrace-global-stage-at-south-summit-2023-promoting-innovation-and-collaboration/article67040856.ece",
+  },
+  {
+    title: "Scroll",
+    description:
+      "Virtual study rooms helped Indian students stay focused during the pandemic",
+    imgSrc: "/assets/images/brands/scroll.png",
+    link: "https://scroll.in/article/1017340/during-the-pandemic-many-indian-students-found-focus-in-virtual-study-rooms",
+  },
+  {
+    title: "Zapier",
+    description:
+      " amto.ai selected for the prestigious Alchemist Accelerator, showcasing AI market leadership",
+    imgSrc: "/assets/images/brands/alchemist.png",
+    link: "https://alchemistaccelerator.com/example-link-amto",
+  },
+  {
+    title: "Bitbucket",
+    description:
+      " Indian students turned to virtual study rooms for resilience during COVID-19",
+    imgSrc: "/assets/images/brands/yahoo.png",
+    link: "https://tech.yahoo.com/business/articles/indian-students-logged-virtual-study-043858145.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cueWVzdXNlcnMuY29tLw&guce_referrer_sig=AQAAAFyiBspti7jMmlbGcenkE2kqOfevHMK2WhIICWzk23hswR7iHwv9Z4t6g510MTxDtC7uiDxpo1xDpOtj2tkjijp_v5tbWusH18W7_mipvHbTf22NnU2JreNEjYCdQs7RJRn3_qp4JUO9mS8HNGE01tOVArX6hD3fFdZb5y0BIdGF",
+  },
+];

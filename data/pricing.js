@@ -405,3 +405,54 @@ export const pricingNew = [
     badge: "Popular",
   },
 ];
+
+export const tiersHome = [
+  {
+    title: "DIY Plan",
+    description: "For creating impressive tools that generate results.",
+    price: "$19 USD",
+    priceDetails: "Seat per month, 2 seats max",
+    linkText: "Join This Plan",
+    linkSubtext: "Billed Monthly",
+    features: [
+      "Monitor 10 AI Prompts",
+      "Don't have an in-house marketing team",
+      "Want to conquer GEO themselves",
+      "Want access to vetted GEO experts that you self manage",
+      "Don't want AI Monitor support in execution",
+    ],
+    isPopular: false,
+  },
+  {
+    title: "Fully Managed",
+    description: "For seamless integrations and sending tools in bulk.",
+    price: "$299 USD",
+    yearlyPrice: "$32 USD",
+    priceDetails: "Seat cost per month",
+    linkText: "Join This Plan",
+    linkSubtext: "Billed Monthly",
+    features: [
+      "Have an in-house marketing team",
+      "Want to conquer GEO with support from AI Monitor",
+      "Want dedicated GEO experts managed by AI Monitor",
+      "Want AI Monitor support from strategy to execution",
+    ],
+    isPopular: true,
+  },
+  {
+    title: "Enterprise",
+    description: "For large companies with complex Tool workflows.",
+    price: "Let’s talk",
+    yearlyPrice: "Let’s talk",
+    priceDetails: "Per‑seat or per‑tool pricing",
+    linkText: "Contact Us",
+    linkSubtext: "Respond within 24 hrs max",
+    features: [
+      "Operate across multiple domains or markets",
+      "Want to shape how AI platforms interpret and cite their content",
+      "Need advanced monitoring across hundreds of AI prompts",
+      "Require strategic GEO support across teams and regions",
+    ],
+    isPopular: false,
+  },
+];
