@@ -772,3 +772,33 @@ export const featureItemsVideo = [
     reverseOrder: true,
   },
 ];
+
+export const whatWillYouLearn = [
+  {
+    id: 1,
+    lightIcon: "/assets/images/template/icon-diamond.svg",
+    darkIcon: "/assets/images/template/icon-diamond-dark.svg",
+    altText: "impact-icon",
+    title: "Make an impact",
+    description:
+      "How generative engines like ChatGPT and Gemini select, interpret, and cite the content in their answers",
+  },
+  {
+    id: 2,
+    lightIcon: "/assets/images/template/icon-trophy.svg",
+    darkIcon: "/assets/images/template/icon-trophy-dark.svg",
+    altText: "crown-icon",
+    title: "Learn",
+    description:
+      "Real-world tactics for improving AI visibility: Tools to measure and track citations across Generative AI systems",
+  },
+  {
+    id: 3,
+    lightIcon: "/assets/images/template/icon-crown.svg",
+    darkIcon: "/assets/images/template/icon-crown-dark.svg",
+    altText: "empathy-icon",
+    title: "Empathy",
+    description:
+      "Proven strategies that have increased visibility in AI answers by over 300%, backed by real-world case studies",
+  },
+];

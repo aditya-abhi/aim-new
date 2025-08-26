@@ -17,6 +17,7 @@ import About from "@/components/geo-course/About";
 import Difference from "@/components/geo-course/Difference";
 import WhatWillYouLearn from "@/components/geo-course/WhatWillYouLearn";
 import Contents from "@/components/geo-course/Contents";
+import Facts from "@/components/geo-course/Facts";
 import React from "react";
 export const metadata = {
   title: "AI Monitor || Generative Engine Optimization Course",
@@ -33,7 +34,7 @@ export default function page() {
             <div id="wrapper" className="wrap">
               <Hero />
               <EnrollmentForm />
-              <Quote />
+              <Facts />
               <About />
               <Quote2 />
               <Difference />

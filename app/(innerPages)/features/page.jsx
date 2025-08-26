@@ -7,6 +7,7 @@ import Faq from "@/components/features/Faqs";
 import Testimonials from "@/components/features/Testimonials";
 import Cta from "@/components/features/Cta";
 import Brands2 from "@/components/features/Brands2";
+import Problem from "@/components/features/Problem";
 export const metadata = {
   title:
     "Features || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
@@ -21,11 +22,12 @@ export default function Features() {
           <Header />
           <div id="wrapper" className="wrap">
             <Hero />
-            <KeyFeatures />
-            <div className="pt-6 xl:pt-9"></div>
+            {/* <KeyFeatures /> */}
+            <Problem />
+            {/* <div className="pt-6 xl:pt-9"></div> */}
             <Faq />
             <Testimonials />
-            <div
+            {/* <div
               id="clients_brands"
               className="clients-brands section panel overflow-hidden"
             >
@@ -45,7 +47,7 @@ export default function Features() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             <Cta />
           </div>
           <Footer />

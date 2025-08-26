@@ -35,16 +35,21 @@ export default function Hero() {
                                 <h1 className="h2 lg:h1 m-0 text-tertiary">
                                   Generative Engine Optimization Course
                                 </h1>
-                                <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80 dark:text-gray-800">
-                                  Most consumers now get answers from AI
-                                  chatbots, bypassing Google altogether. Even
-                                  those still using Google see AI Overviews,
-                                  instant AI-generated answers that eliminate
-                                  the need to click links. To stay visible in
-                                  this AI-driven search era, you need Generative
-                                  Engine Optimization (GEO), the latest digital
-                                  marketing strategy for ranking in AI-powered
-                                  results.
+                                <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80 dark:text-gray-800 mb-0">
+                                  Master the skills to get your brand discovered
+                                  in ChatGPT, Google AI Overview, Perplexity AI,
+                                  and more.
+                                </p>
+                                <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80 dark:text-gray-800 mt-0">
+                                  Generative Engine Optimization (GEO) is the
+                                  practice of making your content visible and
+                                  cite-worthy in AI-generated answers, not just
+                                  in traditional search results. In this
+                                  intensive 7-day course, you’ll learn how to
+                                  optimize for AI platforms, structure your
+                                  content for citation, and future-proof your
+                                  brand visibility in an era where users get
+                                  answers from AI, not links.
                                 </p>
                                 <div className="panel mt-3 lg:mt-4">
                                   <div className="row child-cols-12 lg:child-cols-4 justify-center gx-0">
@@ -110,7 +115,7 @@ export default function Hero() {
                                     </div>
                                   </div>
                                 </div>
-                                <div className="panel mt-3 lg:mt-4">
+                                <div className="panel mt-3 lg:mt-2">
                                   <Link
                                     href={`/page-integrations`}
                                     className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 w-auto"

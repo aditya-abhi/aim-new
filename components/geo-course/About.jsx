@@ -17,30 +17,61 @@ export default function Features2() {
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
               <h2 className="h3 lg:h2 m-0">
-                What is{" "}
-                <span className="text-tertiary dark:text-primary">
-                  First Command Center
-                </span>{" "}
-                Generative Engine Optimization?
+                Search Has Changed -{" "}
+                <span className="text-primary">FOREVER</span>{" "}
               </h2>
               <p className="fs-6 xl:fs-5 xl:px-8">
-                Most consumers now get answers from AI chatbots, bypassing
-                Google altogether. Even those still using Google see AI
-                Overviews, instant AI-generated answers that eliminate the need
-                to click links. To stay visible in this AI-driven search era,
-                you need Generative Engine Optimization (GEO), the latest
-                digital marketing strategy for ranking in AI-powered results.
+                In today’s digital landscape, users no longer rely solely on
+                traditional search engines like Google to find information.
+                Instead, platforms like{" "}
+                <strong>ChatGPT, Google AI Overview,</strong> and{" "}
+                <strong>Perplexity AI</strong> are becoming the first place
+                people turn to for answers. These platforms don’t show a list of
+                links. They generate direct responses. And that shift changes
+                everything.
               </p>
-              <p className="fs-6 xl:fs-5 xl:px-8">
-                While SEO targets Google’s algorithm, GEO ensures your content
-                appears in AI-generated responses. Want to master this skill?
-                Take the Best Generative Engine Optimization course completely
-                free!
+              <h3 className="h5 lg:h4 m-0">
+                Welcome to the era of{" "}
+                <span className="text-primary">
+                  Generative Engine Optimization (GEO).
+                </span>
+              </h3>
+              <h3 className="h4 lg:h3 m-0 mt-4">
+                Why Traditional SEO Falls Short in 2025
+              </h3>
+              <p className="fs-6 xl:fs-5 xl:px-8 m-0">
+                SEO was built for a clickable web—rank high on Google, earn
+                traffic. But generative engines like ChatGPT, Gemini, and
+                Google’s AI Overviews don’t link out, they answer directly. That
+                shift means visibility no longer depends on ranking alone.
               </p>
-              <p className="fs-6 xl:fs-5 xl:px-8">
-                Learn how to optimize your content for ChatGPT, Gemini, and
-                other AI platforms to boost visibility and traffic.
+              <p className="fs-6 xl:fs-5 xl:px-8 m-0">
+                You could be #1 on Google and still invisible in AI responses.
+                Backlinks and meta tags don’t sway generative citations.
+                Instead, these engines favor structured, context-rich content
+                they can interpret and reuse—making Generative Engine
+                Optimization the new frontier.
               </p>
+
+              <h2 className="h3 lg:h2 mt-4">
+                What is{" "}
+                <span className="text-primary">
+                  Generative Engine Optimization (GEO)
+                </span>{" "}
+              </h2>
+              <div className="panel overflow-hidden ratio ratio-16x9 rounded-2 lg:rounded-3 border border-2 border-white dark:border-gray-700">
+                <video
+                  src="/assets/images/media/lexend_vid_home-6.webm"
+                  preload="none"
+                  loop
+                  autoPlay
+                  poster="/assets/images/media/lexend_vid_home-6.jpg"
+                  muted
+                  playsInline
+                  data-uc-cover
+                  data-uc-video="autoplay: true;"
+                ></video>
+              </div>
             </div>
           </div>
         </div>

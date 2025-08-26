@@ -129,3 +129,28 @@ export const accordionItemsGEOCourse = [
     expanded: false,
   },
 ];
+
+export const accordionItemsFeatures = [
+  {
+    id: 23,
+    title: "Confusion",
+    icon: "/assets/images/common/icons/settings.svg",
+    content: "AI can rewrite your brand story without your knowledge.",
+    isOpen: false,
+  },
+  {
+    id: 25,
+    title: "Competition",
+    icon: "/assets/images/common/icons/target.svg",
+    content:
+      "Competitors may outrank you in AI answers. Without monitoring, you might not even know this is happening.",
+    isOpen: false,
+  },
+  {
+    id: 27,
+    title: "Change",
+    icon: "/assets/images/common/icons/zap.svg",
+    content: `Traditional SEO isn’t enough anymore. “By 2025, searches are driven by AI engines (65%)”.`,
+    isOpen: true,
+  },
+];
