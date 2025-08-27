@@ -98,13 +98,12 @@ export default function Cta() {
                 Get started today!
               </span>
               <h2 className="h2 xl:display-5 m-0 text-center">
-                Seamless integrations with your{" "}
-                <span className="text-tertiary dark:text-primary">
-                  existing tools
-                </span>
+                Secure Your Spot{" "}
+                <span className="text-tertiary dark:text-primary">Today</span>
               </h2>
               <p className="fs-5 lg:fs-4">
-                See how we help your team solve today’s biggest challenges.
+                This free GEO course is limited to the first 500 participants to
+                ensure a high-quality learning experience.
               </p>
               <div
                 className="panel vstack items-center gap-1 max-w-400px lg:max-w-750px mx-auto text-center mt-2 xl:mt-4"
@@ -115,7 +114,7 @@ export default function Cta() {
                     href="#"
                     className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 w-auto"
                   >
-                    <span>Start your free trial</span>
+                    <span>Claim Your Spot Now!</span>
                   </a>
                 </div>
                 <div className="vstack sm:hstack justify-center gap-1 fs-6 text-gray-900 dark:text-white sm-flex-column">

@@ -420,7 +420,7 @@ export default function Content() {
                 className="feature-item panel"
                 data-anime="onview: -200; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 100;"
               >
-                <div className="row child-cols col-match justify-between g-4 lg:g-8 xl:g-10 mb-4 lg:mb-6">
+                <div className="row child-cols col-match justify-between g-4 lg:g-8 xl:g-10">
                   <div className="col-12 sm:col-6 order-0 lg:order-1">
                     <div className="panel w-100">
                       <Image
@@ -470,10 +470,6 @@ export default function Content() {
                   </div>
                 </div>
               </div>
-              <hr
-                className="border-gray-100 dark:border-opacity-15 opacity-100"
-                data-anime="onview: -200; width: [0, '100%']; easing: easeInOutExpo; duration: 750; delay: 100;"
-              />
             </div>
           </div>
         </div>

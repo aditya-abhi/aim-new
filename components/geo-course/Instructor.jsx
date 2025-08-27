@@ -29,7 +29,7 @@ export default function Instructor() {
                       <Image
                         className="media-cover image uc-transition-scale-up uc-transition-opaque"
                         alt="Avinash Tripathi"
-                        src="/assets/images/blog/post-author.jpg"
+                        src="/assets/images/avatars/avinash.webp"
                         width="1000"
                         height="667"
                       />

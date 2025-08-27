@@ -133,3 +133,128 @@ export const accordionItemsFeatures = [
     isOpen: true,
   },
 ];
+
+export const accordionFeaturesFAQ = [
+  {
+    id: 1,
+    question: "What is AI Monitor and why do I need it?",
+    answer:
+      "AI Monitor is the first open-source platform built to track and optimize your brand across AI-driven search engines like ChatGPT, Google AI Overviews, Perplexity, and more. It ensures your brand is visible where buyers are searching and helps you manage AI-driven mentions, traffic, and bots.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "How is AI Monitor different from traditional SEO tools?",
+    answer:
+      "Traditional SEO tracks and optimizes for search engines like Google, but AI Monitor tracks AI-powered search platforms and generative engines. It shows how AI describes your brand, competitor gaps, and traffic driven by AI-generated answers, something SEO alone cannot do",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "What features does AI Monitor provide?",
+    answer:
+      "AI Monitor offers a powerful suite of features designed to help brands stay visible and informed in the age of generative search. BrandScope tracks AI mentions and citations across leading models like ChatGPT, Gemini, and Perplexity, giving you a clear view of how your brand is being represented. TrafficIQ measures AI-driven referrals and audience engagement, helping you understand the real impact of generative visibility. And with BrandTrack, you can identify and analyze AI bot activity scanning your content, so you know when, where, and how your site is being interpreted by large language models.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "Who can benefit from AI Monitor?",
+    answer:
+      "B2B SaaS companies, digital marketing agencies, founders & startups, small businesses, enterprises, and e-commerce stores, essentially anyone who wants to be visible, credible, and competitive in AI-powered search.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "Is AI Monitor open-source?",
+    answer:
+      "Yes. You get full transparency, data ownership, and flexibility to customize dashboards and integrate with your workflows without vendor lock-in.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "How quickly can I start seeing insights?",
+    answer:
+      "As soon as you sign up and add your domain, your AI Brand Dashboard is activated instantly—no waiting, no setup delays. You’ll start seeing insights in near real-time, including brand mentions across AI models, traffic driven by generative engines, and bot activity scanning your content. It’s immediate visibility into how your brand is being interpreted and engaged with by AI.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "Can I compare my brand with competitors?",
+    answer:
+      "Yes, AI Monitor streamlines competitive benchmarking across generative engines. You can easily compare your brand’s AI mentions and visibility against key competitors, based on the specific prompts you've selected. This gives you a clear view of how your brand stacks up, helping you identify blind spots, uncover strategic opportunities, and stay ahead in how AI models interpret and surface your content.",
+    expanded: false,
+  },
+  {
+    id: 8,
+    question: "Will this improve my business outcomes?",
+    answer:
+      "Absolutely. AI Monitor helps you turn insights into outcomes. By understanding how AI models describe your brand, tracking traffic from generative engines, and optimizing your presence across prompts, you can attract more qualified leads, boost conversions, and safeguard your brand authority in AI-driven search environments. It’s not just visibility—it’s strategic advantage.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+
+export const accordionFeature1 = [
+  {
+    id: 1,
+    question: "What does the AI Brand Report Card measure?",
+    answer:
+      "The AI Brand Report Card measures how your brand is represented across leading generative engines like ChatGPT, Gemini, Perplexity, and more. It tracks citations, mentions, domain references, and competitive positioning, giving you a clear, data-backed view of how AI platforms interpret and surface your brand in real-world responses.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "How is this different from SEO or Google Analytics?",
+    answer:
+      " SEO tools or Google Analytics track search engine performance and how many clicks you get. They do not monitor AI engines. Google Analytics can’t show how often ChatGPT or Perplexity mentions your brand. This tool fills the blind spot by giving you AI-first visibility.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "What kind of insights will I see in my dashboard?",
+    answer:
+      "You’ll see brand citations, domain references, sentiment analysis, competitor benchmarking, AI-driven queries, even personalized recommendations to improve your AI presence and much more.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "How often is the data updated?",
+    answer:
+      "Your AI Brand Dashboard refreshes daily, giving you near real-time insight into how generative platforms like ChatGPT, Gemini, and Perplexity are referencing your brand. That means you're never in the dark about how AI engines are shaping your public narrative.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "Can I compare my brand with competitors?",
+    answer:
+      "Yes. The Competitor Benchmarking feature reveals how often rival brands are mentioned, the sentiment behind those mentions, and where they’re gaining more visibility across AI-generated answers. It’s your edge for spotting gaps, tracking momentum, and staying one step ahead in the AI narrative.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Is this tool open-source?",
+    answer:
+      "Yes. You own your data, can customize your dashboard, and avoid vendor lock-in. Everything is transparent and adaptable to your needs.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "What’s the biggest benefit for my brand?",
+    answer:
+      "Clarity! No more guesswork about how AI platforms perceive or present your brand. The AI Brand Report delivers the metrics that matter: citations, visibility, sentiment, and competitive benchmarks, all in one unified dashboard. It’s your lens into the AI narrative shaping public perception.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+];

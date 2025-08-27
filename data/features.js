@@ -914,3 +914,267 @@ export const instructor = [
     link: "https://tech.yahoo.com/business/articles/indian-students-logged-virtual-study-043858145.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cueWVzdXNlcnMuY29tLw&guce_referrer_sig=AQAAAFyiBspti7jMmlbGcenkE2kqOfevHMK2WhIICWzk23hswR7iHwv9Z4t6g510MTxDtC7uiDxpo1xDpOtj2tkjijp_v5tbWusH18W7_mipvHbTf22NnU2JreNEjYCdQs7RJRn3_qp4JUO9mS8HNGE01tOVArX6hD3fFdZb5y0BIdGF",
   },
 ];
+
+export const target = [
+  {
+    icon: "unicon-document",
+    title: "B2B SaaS Companies",
+    description:
+      "Show up where your buyers are searching AI engines. Control how ChatGPT, Perplexity, and Claude describe your product, and ensure your positioning drives qualified leads, not confusion.",
+    backgroundColor: "bg-white dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-model",
+    title: "Digital Marketing Agencies",
+    description:
+      "Deliver a next-gen service your clients never knew they needed. Demonstrate how their brands appear in AI-generated answers, prove visibility gaps, and give them a measurable edge.",
+    backgroundColor: "bg-white dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-task-approved",
+    title: "Founders & Startups",
+    description:
+      "AI-driven discovery is rewriting growth playbooks. Stay visible in this new landscape without a full SEO team, spot opportunities early, and scale your reach faster than competitors.",
+    backgroundColor: "bg-white dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-touch-interaction",
+    title: "Small Businesses",
+    description:
+      "Your customers are already asking AI. Generative Engine Optimization (GEO) ensures you’re part of the conversation, getting found, mentioned, and chosen.",
+    backgroundColor: "bg-white dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-task-approved",
+    title: "Enterprises & Brands",
+    description:
+      "Protect your brand presence in AI-powered search. Ensure consistent messaging across all AI platforms, capture new opportunities, and maintain authority in your industry.",
+    backgroundColor: "bg-white dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-touch-interaction",
+    title: "E-commerce & Online Stores",
+    description:
+      "AI is the new storefront. Make your products discoverable in AI recommendations, increase conversions, and turn searches into sales without relying solely on traditional SEO.",
+    backgroundColor: "bg-white dark:bg-gray-800",
+  },
+];
+
+export const brandReport = [
+  {
+    icon: "unicon-document",
+    title: "Total Citations",
+    description:
+      "See the total number of times your brand is cited across AI-generated answers and content, helping you measure overall visibility",
+    backgroundColor: "bg-secondary dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-model",
+    title: "Domain Citations",
+    description:
+      "Track how often your website’s domain is referenced in AI responses, giving you a clear view of your authority across platforms.",
+    backgroundColor: "bg-secondary dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-task-approved",
+    title: "Brand Mentions",
+    description:
+      "Monitor how frequently your brand name appears in AI-driven queries and answers to understand your current reach and influence.",
+    backgroundColor: "bg-secondary dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-touch-interaction",
+    title: "Unique Domains",
+    description:
+      "Discover the number of distinct domains mentioning your brand across AI engines, helping you assess the breadth of your online visibility",
+    backgroundColor: "bg-secondary dark:bg-gray-800",
+  },
+];
+
+export const productFeature1 = [
+  {
+    order: "order-1 lg:order-0",
+    iconSrc: "/assets/images/common/icons/zap.svg",
+    alt: "feature-icon",
+    title: "Insights That Matter",
+    description:
+      "See exactly how AI talks about your brand, track mentions, citations, competitor performance, and trends, all from a single, unified dashboard.",
+  },
+  {
+    order: "order-0",
+    iconSrc: "/assets/images/common/icons/database.svg",
+    alt: "feature-icon",
+    title: "Cross-Platform Analysis",
+    description:
+      "Filter insights by your preferred AI models to see where you lead, where you lag, and how your visibility stacks up across platforms.",
+    bgClass:
+      "bg-gradient-45 from-white to-transparent dark:from-gray-700 sm:rounded-bottom-end-0 lg:rounded-bottom-0",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    iconSrc: "/assets/images/common/icons/puzzle.svg",
+    alt: "feature-icon",
+    title: "AI Recommendations",
+    description:
+      "Personalized, data-driven suggestions designed to improve visibility, fix sentiment issues, and expand market intelligence, prioritized by impact and effort.",
+  },
+  {
+    order: "order-1 lg:order-0",
+    iconSrc: "/assets/images/common/icons/target.svg",
+    alt: "feature-icon",
+    title: "Queries Overview",
+    description:
+      "See how AI-driven queries about your brand, products, and competitors are spread across Awareness, Interest, Consideration, and Purchase stages.",
+    bgClass:
+      "bg-gradient-45 from-white to-transparent dark:from-gray-700 sm:rounded-start-0 lg:rounded-top-end-0 lg:rounded-start-1-5",
+  },
+  {
+    order: "order-3 lg:order-0",
+    iconSrc: "/assets/images/common/icons/line-chart.svg",
+    alt: "feature-icon",
+    title: "Open-Source & GEO-Optimized",
+    description:
+      "Retain full ownership of your data, customize dashboards your way, and optimize for AI-first search to stay ahead of algorithmic shifts.",
+  },
+  {
+    order: "order-2 lg:order-0",
+    iconSrc: "/assets/images/common/icons/settings.svg",
+    alt: "feature-icon",
+    title: "Competitor Benchmarking",
+    description:
+      "Track your visibility and sentiment against competitors, uncover strengths and weaknesses, and gain the edge to outperform your rivals in AI-driven results.",
+    bgClass:
+      "bg-gradient-45 from-white to-transparent dark:from-gray-700 sm:rounded-top-end-0 lg:rounded-top-start-0 lg:rounded-top-end-1-5",
+  },
+];
+
+export const featureSteps1 = [
+  {
+    imageSrc: "/assets/images/template/home-four-feature-01.png",
+    altText: "Ensuring timely delivery and maximum efficiency",
+    title: "Step 1 — Enter Your Brand Domain ",
+    description:
+      "We offers advanced project management features such as Gantt charts, task dependencies, and resource allocation",
+    linkText: "Let's find out",
+    icon: "unicon-cloud-download",
+    reverseOrder: false,
+  },
+  {
+    imageSrc: "/assets/images/template/home-four-feature-02.png",
+    altText: "No more digging endless reports and spreadsheets",
+    title: "No more digging endless reports and spreadsheets",
+    description:
+      "An all-in-one customer service platform that helps you balance everything your customers need to be happy.",
+    linkText: "See all spreadsheets",
+    icon: "unicon-course",
+    reverseOrder: true,
+  },
+  {
+    imageSrc: "/assets/images/template/home-four-feature-03.png",
+    altText: "Share files, and communicate with your team in real-time",
+    title: "Share files, and communicate with your team in real-time",
+    description:
+      "You can easily assign tasks, share files, and communicate with your team in real-time, no matter where they are located.",
+    linkText: "See apps & integrations",
+    icon: "unicon-volume-block-storage",
+    reverseOrder: false,
+  },
+  {
+    imageSrc: "/assets/images/template/home-four-feature-04.png",
+    altText: "Collaboration is made seamless with Lexend",
+    title: "Collaboration is made seamless with Lexend",
+    description:
+      "Get real-time access to approvals, comments and version tracking. Smart features like variables and conditional logic help you eliminate Tool errors.",
+    linkText: "Let's find out",
+    icon: "unicon-model",
+    reverseOrder: true,
+  },
+];
+
+export const trafficReport = [
+  {
+    icon: "unicon-document",
+    title: "AI Search Traffic",
+    description:
+      "See the total number of times your brand is cited across AI-generated answers and content, helping you measure overall visibility.",
+    backgroundColor: "bg-secondary dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-model",
+    title: "Total Traffic",
+    description:
+      "See the total number of visits coming from AI search engines, giving you a clear picture of how AI contributes to your overall traffic.",
+    backgroundColor: "bg-secondary dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-task-approved",
+    title: "Unique Visitors",
+    description:
+      "Track the number of distinct users arriving at your site via AI-driven referrals, helping you measure real audience reach.",
+    backgroundColor: "bg-secondary dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-touch-interaction",
+    title: "AI Bots / Crawlers",
+    description:
+      "Monitor AI bots and crawlers visiting your site, so you know exactly which AI models are scanning your content.",
+    backgroundColor: "bg-secondary dark:bg-gray-800",
+  },
+];
+
+export const productFeature2 = [
+  {
+    order: "order-1 lg:order-0",
+    iconSrc: "/assets/images/common/icons/zap.svg",
+    alt: "feature-icon",
+    title: "All Pages & Landing Pages",
+    description:
+      "Track performance across all website pages in one unified dashboard. Identify top-performing landing pages, analyze engagement metrics, measure conversions, and detect drop-off points to optimize the complete customer journey.",
+  },
+  {
+    order: "order-0",
+    iconSrc: "/assets/images/common/icons/database.svg",
+    alt: "feature-icon",
+    title: "Sources",
+    description:
+      "Discover exactly where your visitors come from, organic, paid, social, referrals, and AI-driven mentions, and understand which channels drive the highest-quality traffic to improve your strategy effectively.",
+    bgClass:
+      "bg-gradient-45 from-white to-transparent dark:from-gray-700 sm:rounded-bottom-end-0 lg:rounded-bottom-0",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    iconSrc: "/assets/images/common/icons/puzzle.svg",
+    alt: "feature-icon",
+    title: "Devices, OS & Browsers",
+    description:
+      "Understand which devices, desktop, mobile, or tablet, drive the most traffic, analyze the operating systems your audience uses, and track browser preferences to ensure seamless performance and precise targeting.",
+  },
+  {
+    order: "order-1 lg:order-0",
+    iconSrc: "/assets/images/common/icons/target.svg",
+    alt: "feature-icon",
+    title: "Location",
+    description:
+      "Get detailed geo-based audience insights to see where your users originate, identify high-performing regions, and focus your efforts on areas that maximize reach, visibility, and overall impact.",
+    bgClass:
+      "bg-gradient-45 from-white to-transparent dark:from-gray-700 sm:rounded-start-0 lg:rounded-top-end-0 lg:rounded-start-1-5",
+  },
+  {
+    order: "order-3 lg:order-0",
+    iconSrc: "/assets/images/common/icons/line-chart.svg",
+    alt: "feature-icon",
+    title: "Open-Source Advantage",
+    description:
+      "Gain full control, transparency, and flexibility with an open-source monitoring solution, allowing complete customization and integration freedom without restrictions or vendor lock-ins.",
+  },
+  {
+    order: "order-2 lg:order-0",
+    iconSrc: "/assets/images/common/icons/settings.svg",
+    alt: "feature-icon",
+    title: "Realtime Analytics",
+    description:
+      "Monitor live visitor activity, track AI-driven referral patterns, and access critical performance insights in real time to make faster, data-driven optimization decisions.",
+    bgClass:
+      "bg-gradient-45 from-white to-transparent dark:from-gray-700 sm:rounded-top-end-0 lg:rounded-top-start-0 lg:rounded-top-end-1-5",
+  },
+];

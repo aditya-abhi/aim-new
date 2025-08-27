@@ -83,7 +83,7 @@ export default function Purpose() {
                             <Image
                               className="media-cover image"
                               alt="Share tools quickly and confidently in minutes"
-                              src="/assets/images/template/feature-image-02.jpg"
+                              src="/assets/images/template/inbound.png"
                               width="1200"
                               height="1200"
                             />

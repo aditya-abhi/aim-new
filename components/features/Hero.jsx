@@ -7,7 +7,7 @@ export default function Hero() {
       id="hero_header"
       className="hero-header hero-five-scene section panel overflow-hidden"
     >
-      <div className="position-cover bg-gradient-to-t from-secondary to-white dark:from-gray-800 dark:to-gray-900" />
+      <div className="position-cover bg-gradient-to-t from-secondary to-white dark:from-tertiary-700 dark:to-gray-900 lg:rounded-2 lg:rounded-top-0 mx-2" />
       <div className="section-outer panel pb-6 sm:pb-8 pt-9 xl:pt-10 xl:pb-9">
         <div className="container max-w-xl">
           <div className="section-inner panel">
@@ -25,9 +25,9 @@ export default function Hero() {
                     Built for the Era of ChatGPT, Google AI Overviews, and
                     Perplexity.
                   </h2>
-                  <p className="fs-6 xl:fs-4">
-                    UThe First Open-Source Platform Built to Master Answer
-                    Engine Optimization, AI Optimization, and Generative Engine
+                  <p className="fs-6 xl:fs-4 text-gray-800 dark:text-white">
+                    The First Open-Source Platform Built to Master Answer Engine
+                    Optimization, AI Optimization, and Generative Engine
                     Optimization.
                   </p>
                   <Link
@@ -50,12 +50,12 @@ export default function Hero() {
                             />
                           </span>
                           <div className="vstack">
-                            <span className="fs-2 fw-bold mb-narrow text-inherit">
+                            <span className="fs-2 fw-bold mb-narrow text-inherit dark:text-white">
                               5K+
                             </span>
                           </div>
                         </div>
-                        <span className="fs-7 fw-medium mb-narrow text-inherit">
+                        <span className="fs-7 fw-medium mb-narrow text-inherit dark:text-white">
                           Brands Monitored
                         </span>
                       </div>
@@ -70,12 +70,12 @@ export default function Hero() {
                             />
                           </span>
                           <div className="vstack">
-                            <span className="fs-2 fw-bold mb-narrow text-inherit">
+                            <span className="fs-2 fw-bold mb-narrow text-inherit dark:text-white">
                               50+
                             </span>
                           </div>
                         </div>
-                        <span className="fs-7 fw-medium mb-narrow text-inherit">
+                        <span className="fs-7 fw-medium mb-narrow text-inherit dark:text-white">
                           AI Platforms Covered
                         </span>
                       </div>
@@ -90,12 +90,12 @@ export default function Hero() {
                             />
                           </span>
                           <div className="vstack">
-                            <span className="fs-2 fw-bold mb-narrow text-inherit">
+                            <span className="fs-2 fw-bold mb-narrow text-inherit dark:text-white">
                               Real-Time
                             </span>
                           </div>
                         </div>
-                        <span className="fs-7 fw-medium mb-narrow text-inherit">
+                        <span className="fs-7 fw-medium mb-narrow text-inherit dark:text-white">
                           Visibility Tracking
                         </span>
                       </div>

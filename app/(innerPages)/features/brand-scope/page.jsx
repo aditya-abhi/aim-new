@@ -1,11 +1,16 @@
 import Header from "@/components/headers/Header7";
 import Footer from "@/components/footers/Footer7";
-import Hero from "@/components/features/Hero";
-import Faq from "@/components/features/Faqs";
-import Testimonials from "@/components/features/Testimonials";
-import Cta from "@/components/features/Cta";
-import Problem from "@/components/features/Problem";
-import Target from "@/components/features/Target";
+import Hero from "@/components/brand-scope/Hero";
+import Faq from "@/components/brand-scope/Faqs";
+import Testimonials from "@/components/brand-scope/Testimonials";
+import Cta from "@/components/brand-scope/Cta";
+import Problem from "@/components/brand-scope/Problem";
+import Target from "@/components/brand-scope/Target";
+import Report from "@/components/brand-scope/Report";
+import Features from "@/components/brand-scope/Features";
+import Features2 from "@/components/brand-scope/Features2";
+import Steps from "@/components/brand-scope/Steps";
+
 export const metadata = {
   title:
     "Features || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
@@ -20,8 +25,12 @@ export default function page() {
           <Header />
           <div id="wrapper" className="wrap">
             <Hero />
-            <Problem />
-            <Target />
+            <Report />
+            <Features />
+            {/* <Features2 /> */}
+            <Steps />
+            {/* <Problem />
+            <Target /> */}
             <Faq />
             <Testimonials />
             <Cta />

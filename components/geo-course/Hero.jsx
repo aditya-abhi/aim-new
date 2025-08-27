@@ -8,7 +8,7 @@ export default function Hero() {
       id="hero_header"
       className="hero-header section panel overflow-hidden uc-dark"
     >
-      <div className="section-outer panel py-8 lg:py-9 xl:py-10 dark:bg-tertiary-700 rounded-2 mx-2">
+      <div className="section-outer panel py-8 lg:py-9 xl:py-10 dark:bg-tertiary-700 lg:rounded-2 lg:rounded-top-0 mx-2">
         <div className="container">
           <div className="section-inner panel">
             <div className="row child-cols-12 justify-center items-center g-8">

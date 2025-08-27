@@ -29,21 +29,20 @@ export default function Cta() {
             height={29}
           />
           <h2 className="h3 xl:display-6 lh-lg m-0 max-w-md mx-auto text-tertiary dark:text-secondary">
-            Say goodbye to being
+            Ready to Stop Guessing and
             <span className="px-1 bg-tertiary dark:bg-secondary text-primary d-block lg:d-inline-block">
-              Invisible
+              Start Knowing?
             </span>{" "}
-            in AI search
           </h2>
           <p className="fs-6 sm:fs-5 text-tertiary-700 dark:text-white">
-            Manage your brand’s presence with AI Monitor.
+            See exactly how AI sees your brand — before your competitors do.
           </p>
           <div className="vstack md:hstack justify-center gap-2 mt-3">
             <a
               href="#"
               className="btn btn-md xl:btn-lg btn-tertiary dark:btn-secondary text-primary px-3 lg:px-5 fw-bold hover:contrast-shadow"
             >
-              Book Your Demo Meeting
+              Start Now
             </a>
           </div>
         </div>

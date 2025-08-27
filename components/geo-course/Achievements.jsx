@@ -4,7 +4,7 @@ import React from "react";
 export default function Achievements() {
   return (
     <div id="faq" className="faq section panel scrollSpysection">
-      <div className="section-outer panel lg:mt-8 xl:mt-10 lg:py-8 xl:py-10 lg:mx-2 lg:rounded-2 bg-tertiary-700 text-white">
+      <div className="section-outer panel lg:mt-8 lg:py-8 xl:py-10 lg:mx-2 lg:rounded-2 bg-tertiary-700 text-white">
         <div className="container xl:max-w-xl">
           <div
             className="section-inner panel"
