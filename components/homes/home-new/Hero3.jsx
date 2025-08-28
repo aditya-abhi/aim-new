@@ -91,7 +91,7 @@ export default function Hero() {
                         <Image
                           className=""
                           alt="brand"
-                          src="/assets/images/apps/chatGPT.webp"
+                          src="/assets/images/apps/chatgpt.webp"
                           width={800}
                           height={800}
                         />
@@ -271,17 +271,6 @@ export default function Hero() {
                       </div>
                     </div>
                   </div>
-                  {/* <div
-                    className="z-99"
-                    data-anime="translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 450; delay: 950;"
-                  >
-                    <Image
-                      alt="Dashboard Lexend"
-                      src="/assets/images/template/dashboard.webp"
-                      width={1500}
-                      height={1045}
-                    />
-                  </div> */}
                 </div>
               </div>
             </div>

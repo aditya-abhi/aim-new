@@ -17,7 +17,7 @@ export default function Features2() {
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
               <span className="fs-7 fw-bold py-narrow px-2 border border-white rounded-pill">
-                WELCOME TO GEO ERA WITH AI MONITOR
+                WELCOME TO GEO ERA
               </span>
               <h2 className="h3 lg:h2 m-0">
                 <span className="text-tertiary dark:text-primary">SEO</span> is

@@ -13,9 +13,15 @@ export default function Brands() {
         <div className="container sm:max-w-md">
           <div className="section-inner panel">
             <div
-              className="brands panel vstack gap-3 sm:gap-4 xl:gap-5 text-center"
+              className="brands panel vstack gap-3 sm:gap-4 xl:gap-5 text-center items-center"
               data-anime="onview: -200; translateY: [-16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 350;"
             >
+              <span
+                className="fs-7 fw-bold py-narrow px-2 border border-tertiary-100 dark:border-white rounded-pill text-tertiary dark:text-white max-w-fc"
+                style={{ transform: "translateY(0px)", opacity: 1 }}
+              >
+                TRUSTED BY
+              </span>
               <h5 className="h5 lg:h4 m-0">
                 Trusted by over most popular companies worldwide
               </h5>

@@ -258,3 +258,54 @@ export const accordionFeature1 = [
     expanded: false,
   },
 ];
+
+export const accordionFeature2 = [
+  {
+    id: 1,
+    question: "What does the AI Traffic Report actually measure?",
+    answer:
+      "The AI Traffic Report Card gives you a clear, unified view of how your website is being discovered across both AI-powered search engines and traditional digital channels. It tracks traffic from platforms like ChatGPT, Gemini, and Perplexity, as well as Google Search, referral links, and direct visits. It also reveals how many unique visitors land on your site as a result. It also monitors bot activity, showing how AI agents and crawlers interact with your content behind the scenes.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "How is this different from Google Analytics or Search Console?",
+    answer:
+      "Traditional analytics platforms like Google Analytics and Search Console are built to track user behavior from search engines, social media, and direct visits, but they don’t capture how AI platforms reference or drive traffic to your site. AI Monitor fills that blind spot by providing visibility into AI-driven referrals and bot activity: giving you insights that standard tools simply don’t cover. It’s purpose-built for the generative era, which is key to staying competitive.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "How often is the data updated?",
+    answer:
+      "Your dashboard updates in real time, giving you a clear view of AI-driven referrals, where your traffic is coming from, which regions are engaging, and what devices and browsers users are using to access your site.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "Is this tool really open-source?",
+    answer:
+      "Yes! It’s fully open-source. You get complete transparency, total control, and zero vendor lock-in. Customize integrations, extend functionality, and keep your data entirely in your hands. It’s built for flexibility, not dependency.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "Do I need technical skills to use it?",
+    answer:
+      "Not at all. The setup is designed to be simple and beginner-friendly. You can complete the initial steps, signing up and entering your domain, without any technical knowledge. For the final step, you’ll just need access to your website’s hosting or CMS to paste a small Pixel code into the section. Once that’s done, your AI Traffic Dashboard goes live, and you’re ready to start tracking AI referrals and web traffic, no coding required.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Can I track conversions from AI-driven traffic?",
+    answer:
+      "Yes. You’ll see how AI referrals perform beyond clicks from bounce rate and engagement to conversions, helping you measure real business impact.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+];

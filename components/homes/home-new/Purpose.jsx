@@ -17,6 +17,9 @@ export default function Purpose() {
             data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 100});"
           >
             <div className="panel vstack items-center gap-2 xl:gap-3 mb-4 sm:mb-8 xl:mb-9 sm:max-w-600px xl:max-w-700px mx-auto text-center">
+              <span className="fs-7 fw-bold py-narrow px-2 border border-tertiary-100 dark:border-white rounded-pill text-tertiary dark:text-white">
+                PERFECT FOR
+              </span>
               <h2 className="h3 lg:h2 xl:h1 m-0">
                 Your Brand. Your Story.{" "}
                 <span className="text-tertiary dark:text-primary">
@@ -65,7 +68,7 @@ export default function Purpose() {
                     onClick={() => setActiveTab(4)}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">For Founders</a>
+                    <a className="h6 lg:h5 text-nowrap m-0">Founders</a>
                   </li>
                 </ul>
               </div>
@@ -83,7 +86,7 @@ export default function Purpose() {
                             <Image
                               className="media-cover image"
                               alt="Share tools quickly and confidently in minutes"
-                              src="/assets/images/template/inbound.png"
+                              src="/assets/images/template/inbound.webp"
                               width="1200"
                               height="1200"
                             />
@@ -120,13 +123,6 @@ export default function Purpose() {
                                       presentations and stakeholders.
                                     </li>
                                   </ul>
-                                  {/* <Link
-                                    href="/page-features"
-                                    className="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2"
-                                  >
-                                    <span>Let's find out</span>
-                                    <i className="position-relative icon icon-1 unicon-arrow-right rtl:rotate-180 translate-y-px" />
-                                  </Link> */}
                                 </div>
                               </div>
                             </div>
@@ -145,7 +141,7 @@ export default function Purpose() {
                             <Image
                               className="media-cover image"
                               alt="Connect every part of your entire business"
-                              src="/assets/images/template/feature-image-03.jpg"
+                              src="/assets/images/template/seo.webp"
                               width="1200"
                               height="1200"
                             />
@@ -206,7 +202,7 @@ export default function Purpose() {
                             <Image
                               className="media-cover image"
                               alt="Maintain compliance and control your apps"
-                              src="/assets/images/template/feature-image-01.jpg"
+                              src="/assets/images/template/pr.webp"
                               width="1200"
                               height="1200"
                             />
@@ -268,7 +264,7 @@ export default function Purpose() {
                             <Image
                               className="media-cover image"
                               alt="Review quickly and confidently"
-                              src="/assets/images/template/feature-image-04.jpg"
+                              src="/assets/images/template/founders.webp"
                               width="1200"
                               height="1200"
                             />
