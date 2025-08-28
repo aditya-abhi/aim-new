@@ -22,7 +22,7 @@ export default function Cta() {
               <Image
                 className=""
                 alt="ChatGPT Logo"
-                src="/assets/images/apps/chatgpt.webp"
+                src="/assets/images/apps/gpt.webp"
                 width={800}
                 height={800}
               />

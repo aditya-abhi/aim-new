@@ -728,7 +728,7 @@ export const featureItemsVideo = [
     reverseOrder: true,
   },
   {
-    src: "/assets/images/videos/visibility.webm",
+    src: "/assets/images/videos/brand-visibility.webm",
     altText: "Right Message, Right Place",
     title: "Right Message, Right Place",
     subtitle: "(Because Gut Feelings Aren’t Always Right)",

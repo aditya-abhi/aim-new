@@ -90,20 +90,20 @@ export default function Hero() {
                       >
                         <Image
                           className=""
-                          alt="brand"
-                          src="/assets/images/apps/chatgpt.webp"
+                          alt="chatGPT logo"
+                          src="/assets/images/apps/gpt.webp"
                           width={800}
                           height={800}
                         />
                       </div>
                       <div
                         className="position-absolute rounded-circle border dark:border-opacity-15 dark:bg-gradient-45 from-tertiary to-transparent cstack w-56px h-56px d-none lg:d-block"
-                        style={{ top: "6%", left: "26.5%" }}
+                        style={{ top: "6%", left: "24%" }}
                         data-anime="translateY: [0, 5]; easing: linear; loop: true; direction: alternate; delay: 25;"
                       >
                         <Image
                           className=""
-                          alt="brand"
+                          alt="gemini"
                           src="/assets/images/apps/gemini.webp"
                           width={800}
                           height={800}
@@ -116,7 +116,7 @@ export default function Hero() {
                       >
                         <Image
                           className=""
-                          alt="brand"
+                          alt="copilot"
                           src="/assets/images/apps/copilot.webp"
                           width={2500}
                           height={2311}
@@ -129,7 +129,7 @@ export default function Hero() {
                       >
                         <Image
                           className=""
-                          alt="brand"
+                          alt="perplexity logo"
                           data-uc-svg=""
                           src="/assets/images/apps/perplexity.webp"
                           width={351}
@@ -143,7 +143,7 @@ export default function Hero() {
                       >
                         <Image
                           className=""
-                          alt="brand"
+                          alt="deepseak logo"
                           src="/assets/images/apps/deepseak.webp"
                           width={800}
                           height={800}
@@ -151,12 +151,12 @@ export default function Hero() {
                       </div>
                       <div
                         className="position-absolute rounded-circle border dark:border-opacity-15 dark:bg-gradient-45 from-tertiary to-transparent cstack w-56px h-56px d-none lg:d-block"
-                        style={{ top: "85%", left: "9%" }}
+                        style={{ top: "85%", left: "8%" }}
                         data-anime="translateY: [0, 10]; easing: linear; loop: true; direction: alternate; delay: 50;"
                       >
                         <Image
                           className=""
-                          alt="brand"
+                          alt="grok logo"
                           src="/assets/images/apps/grok.webp"
                           width={333}
                           height={300}
