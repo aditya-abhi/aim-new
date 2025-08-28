@@ -48,8 +48,8 @@ export default function page() {
               <Articles />
               {/* <Brands2 /> */}
               {/* <Pricing2 /> */}
-              <Pricing />
-              {/* <Pricing2 /> */}
+              {/* <Pricing /> */}
+              <Pricing2 />
               <Testimonials2 />
               <Blog />
               <Faqs />

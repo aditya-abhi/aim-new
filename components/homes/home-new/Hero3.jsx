@@ -178,7 +178,7 @@ export default function Hero() {
                         (AEO).
                       </p> */}
                       <div className={polysans.className}>
-                        <h2
+                        <h1
                           className="h2 xl:display-5 mt-0 mb-4 text-center text-tertiary dark:text-white"
                           style={{ transform: "translateY(0px)", opacity: 1 }}
                         >
@@ -200,7 +200,7 @@ export default function Hero() {
                           {/* <span className="typed-cursor" aria-hidden="true">
                           |
                         </span> */}
-                        </h2>
+                        </h1>
                         <h4>
                           AI Monitor is the world's first open source tool for
                           Answer Engine Optimization (AEO) or Artificial

@@ -1,11 +1,10 @@
 "use client";
-import { tiers3 } from "@/data/pricing";
+import { tiersHome } from "@/data/pricing";
 import { useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Pricing() {
-  const [isYearly, setIsYearly] = useState(false);
+  const [isService, setIsService] = useState(false);
   return (
     <div id="hero_header" className="hero-header section panel overflow-hidden">
       {/* <div
@@ -40,10 +39,10 @@ export default function Pricing() {
         </div>
       </div> */}
       <div className="section-outer panel py-6 xl:py-9 bg-gradient-to-t from-tertiary-700 dark:from-primary to-primary-100 dark:to-tertiary-700  mx-2 rounded-2">
-        <div className="container max-w-xl">
-          <div className="section-inner panel mt-2 sm:mt-4 lg:mt-0">
+        <div className="container container-expand">
+          <div className="section-inner panel mt-2 sm:mt-4 lg:mt-0 lg:mx-6">
             <div
-              className="vstack items-center gap-3 lg:gap-4 mb-4 sm:mb-6 lg:mb-8 max-w-750px mx-auto text-center"
+              className="vstack items-center gap-3 lg:gap-4 mb-4 sm:mb-6 lg:mb-8 mx-auto text-center"
               data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
               <span className="fs-7 fw-bold py-narrow px-2 border border-tertiary-100 dark:border-white rounded-pill text-tertiary dark:text-white max-w-fc">
@@ -56,20 +55,20 @@ export default function Pricing() {
                 className="uc-switcher-nav nav-x gap-0 p-narrow border rounded-2 fs-7 fw-medium"
                 data-uc-switcher="connect: .pricing-switcher;"
               >
-                <li className={!isYearly ? "uc-active" : ""}>
+                <li className={!isService ? "uc-active" : ""}>
                   <a
-                    onClick={() => setIsYearly(false)}
+                    onClick={() => setIsService(false)}
                     className="text-none w-128px cstack p-1"
                   >
-                    Monthly
+                    Tools
                   </a>
                 </li>
-                <li className={isYearly ? "uc-active" : ""}>
+                <li className={isService ? "uc-active" : ""}>
                   <a
-                    onClick={() => setIsYearly(true)}
+                    onClick={() => setIsService(true)}
                     className="text-none w-128px cstack p-1"
                   >
-                    Yearly
+                    Services
                   </a>
                 </li>
               </ul>
@@ -77,10 +76,10 @@ export default function Pricing() {
             <div className="uc-switcher pricing-switcher mt-4">
               <div className="uc-active">
                 <div
-                  className="row child-cols-12 sm:child-cols-6 xl:child-cols-4 col-match justify-center g-2 lg:g-4"
+                  className="row child-cols-12 sm:child-cols-6 xl:child-cols-3 col-match justify-center g-2 lg:g-4"
                   data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 400});"
                 >
-                  {tiers3.map((tier, index) => (
+                  {tiersHome.map((tier, index) => (
                     <div key={index} className="tier-wrapper">
                       <div className="tier panel vstack gap-2 xl:gap-4 px-3 py-4 sm:p-4 lg:p-6 rounded lg:rounded-2 bg-secondary dark:bg-gray-800">
                         {tier.isPopular && (
@@ -90,20 +89,21 @@ export default function Pricing() {
                         )}
                         <div className="panel">
                           <h3 className="title h5 sm:h4 dark:text-white">
-                            {tier.title}
+                            {/* {tier.title} */}
+                            {isService ? tier.sTitle : tier.title}
                           </h3>
                           <p className="desc dark:text-white opacity-70 dark:opacity-80">
-                            {tier.description}
+                            {isService ? tier.sdescription : tier.description}
                           </p>
                         </div>
                         <div className="panel">
                           <div className="panel vstack gap-narrow">
                             <h5 className="title h3 sm:h2 m-0 dark:text-white">
-                              {isYearly ? tier.yearlyPrice : tier.price}
+                              {isService ? tier.sPrice : tier.price}{" "}
+                              <span className="fs-7">
+                                {isService ? tier.speriod : tier.period}
+                              </span>
                             </h5>
-                            <span className="fs-7 opacity-70">
-                              {tier.priceDetails}
-                            </span>
                             <div className="vstack gap-1 justify-center text-center mt-3">
                               <Link
                                 href={`/sign-up`}
@@ -113,10 +113,14 @@ export default function Pricing() {
                                     : "btn-primary"
                                 } text-white`}
                               >
-                                {tier.linkText}
+                                {/* {tier.linkText} */}
+                                {isService ? tier.slinkText : tier.linkText}
                               </Link>
                               <span className="fs-7 opacity-70 min-h-24px">
-                                {tier.linkSubtext}
+                                {/* {tier.linkSubtext} */}
+                                {isService
+                                  ? tier.slinkSubtext
+                                  : tier.linkSubtext}
                               </span>
                             </div>
                           </div>
@@ -124,18 +128,26 @@ export default function Pricing() {
                         <div className="panel">
                           <div className="panel vstack gap-2">
                             <span className="fs-6 fw-bold dark:text-white">
-                              {tier.title === "Essentials"
+                              {/* {tier.title === "Essentials"
                                 ? "Key features:"
                                 : `Everything in ${
                                     tier.title === "Business"
                                       ? "Essentials"
                                       : "Business"
-                                  }, plus:`}
+                                  }, plus:`} */}
+                              {isService ? tier.sfor : tier.for}
                             </span>
-                            {tier.features.map((feature, idx) => (
+                            {tier.features.map((features, idx) => (
                               <div key={idx} className="hstack gap-1 fs-7">
                                 <i className="cstack w-16px h-16px bg-primary text-white rounded-circle unicon-checkmark fw-bold" />
-                                <span>{feature}</span>
+                                {/* <span>{features}</span> */}
+                                <span>
+                                  {isService ? tier.sfeatures[idx] : features}
+                                </span>
+                                {/* <i className="cstack w-16px h-16px bg-primary text-white rounded-circle unicon-checkmark fw-bold" />
+                                <span>
+                                  {isService ? tier.sfeatures[idx] : features}
+                                </span> */}
                               </div>
                             ))}
                           </div>
@@ -146,12 +158,17 @@ export default function Pricing() {
                 </div>
               </div>
             </div>
-            <p
-              className="text-center text-gray-900 dark:text-white text-opacity-70 mt-4 sm:mt-6 xl:mt-8"
-              data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 0;"
+            <div
+              className="footer panel text-center"
+              data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500;"
             >
-              Prices exclude any applicable taxes.
-            </p>
+              <Link
+                href={`/page-pricing`}
+                className="btn btn-md btn-secondary rounded-default border-opacity-20 hover:border-opacity-40 shadow-xs mt-4 lg:mt-6 xl:mt-8"
+              >
+                <span>Compare plans</span>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

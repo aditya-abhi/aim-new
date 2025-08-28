@@ -2717,7 +2717,7 @@
     border-radius: 8px;
   }
   .uc-switcher-nav > li.uc-active > a {
-    background: var(--color-primary);
+    background: var(--color-tertiary);
     color: #fff;
   }
   .nav-pagination a {
@@ -8287,6 +8287,10 @@
       margin-right: auto !important;
       margin-left: auto !important;
     }
+    .lg\:mx-6 {
+      margin-right: 5rem !important;
+      margin-left: 5rem !important;
+    }
     .lg\:my-0 {
       margin-top: 0 !important;
       margin-bottom: 0 !important;
@@ -9014,7 +9018,7 @@
     --uc-gradient-from: #588b39;
     --uc-gradient-stops: var(--uc-gradient-from), var(--uc-gradient-to);
   }
-    :where(.uc-dark) .dark\:from-primary {
+  :where(.uc-dark) .dark\:from-primary {
     --uc-gradient-from: #93e85f;
     --uc-gradient-stops: var(--uc-gradient-from), var(--uc-gradient-to);
   }
