@@ -1,7 +1,11 @@
 import Image from "next/image";
 import React from "react";
+// import AppointletButton from "@/components/modals/Appointlet";
 
 export default function Cta() {
+  // const appointletURL =
+  //   "https://appt.link/ai-monitor/1-1-Meeting-with-GEO-Expert";
+
   return (
     <div
       id="uc_cta"
@@ -117,10 +121,9 @@ export default function Cta() {
                     href="#"
                     className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 w-auto"
                   >
-                    <span className="text-tertiary">
-                      Book 1:1 Meeting with the #1 GEO Expert in the world
-                    </span>
+                    <span className="text-tertiary">Book a Meeting</span>
                   </a>
+                  {/* <AppointletButton bookingPageUrl={appointletURL} /> */}
                 </div>
                 <div className="vstack sm:hstack justify-center gap-1 fs-6 text-gray-900 dark:text-white flex-row md-flex-column">
                   <div className="hstack justify-center gap-2">

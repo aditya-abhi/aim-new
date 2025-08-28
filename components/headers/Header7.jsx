@@ -59,14 +59,14 @@ export default function Header7() {
                     <Image
                       className="dark:d-none"
                       alt="AI Monitor Logo"
-                      src="/assets/images/common/logo-light.webp"
+                      src="/assets/images/common/ai-monitor-logo-light.webp"
                       width={148}
                       height={39}
                     />
                     <Image
                       className="d-none dark:d-block"
                       alt="AI Monitor Logo"
-                      src="/assets/images/common/logo-dark.webp"
+                      src="/assets/images/common/ai-monitor-logo-dark.webp"
                       width={148}
                       height={39}
                     />

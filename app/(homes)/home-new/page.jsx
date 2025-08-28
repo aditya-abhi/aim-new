@@ -20,6 +20,8 @@ import FeaturesVideo from "@/components/homes/home-new/FeaturesVideo";
 import Countries from "@/components/homes/home-new/Countries";
 import Purpose from "@/components/homes/home-new/Purpose";
 import Brands2 from "@/components/homes/home-new/Brands2";
+// import "https://js.appointlet.com/styles.css";
+
 import React from "react";
 export const metadata = {
   title:
@@ -47,6 +49,7 @@ export default function page() {
               {/* <Brands2 /> */}
               {/* <Pricing2 /> */}
               <Pricing />
+              {/* <Pricing2 /> */}
               <Testimonials2 />
               <Blog />
               <Faqs />
@@ -55,6 +58,10 @@ export default function page() {
             </div>
             <Footer7 />
           </div>{" "}
+          {/* <Script
+            src="https://js.appointlet.com/"
+            strategy="afterInteractive"
+          /> */}
         </div>
       </div>
     </>

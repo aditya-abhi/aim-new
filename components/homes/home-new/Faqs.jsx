@@ -1,4 +1,4 @@
-import Accordion from "@/components/common/AccordionAdaptiveText";
+import AccordionHome from "@/components/common/AccordionHome";
 import React from "react";
 import Link from "next/link";
 
@@ -25,9 +25,9 @@ export default function Faq() {
                   </div>
                   <h2 className="h3 lg:h2 m-0">Frequenlty Asked Questions</h2>
                   <p className="fs-6 lg:fs-5">
-                    We’re looking for people who share our vision! most of our
+                    {/* We’re looking for people who share our vision! most of our
                     time used to be taken up by most of who created new websites
-                    for their businesses.
+                    for their businesses. */}
                   </p>
                   <Link
                     href={`/page-contact`}
@@ -44,7 +44,7 @@ export default function Faq() {
                     className="gap-2 uc-accordion"
                     data-uc-accordion="targets: > li; multiple: true"
                   >
-                    <Accordion parentClass="panel p-2 md:p-4 border rounded-1-5" />
+                    <AccordionHome parentClass="panel p-2 md:p-4 border rounded-1-5" />
                   </ul>
                 </div>
               </div>

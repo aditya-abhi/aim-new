@@ -309,3 +309,80 @@ export const accordionFeature2 = [
     expanded: false,
   },
 ];
+
+export const accordionHome = [
+  {
+    id: 1,
+    question: "What is AI Monitor, and why should my brand care?",
+    answer:
+      "AI Monitor is a platform that tracks how your brand is mentioned, ranked, and displayed across AI-powered search engines like ChatGPT, Google AI Overviews, Perplexity, and more. With millions of people relying on AI for answers, we help you stay visible, stay relevant, and stay competitive.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "How does AI Monitor track brand mentions in AI search results?",
+    answer:
+      "We analyze AI-generated responses across multiple platforms using real-time monitoring and visibility scoring. Our platform shows where your brand appears, how competitors are ranked, and what AI engines are saying about you so you can own the conversation.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Why is AI visibility important?",
+    answer:
+      "AI-driven platforms are replacing traditional search. More than 60% of users now get answers directly from AI Overviews, ChatGPT, and Perplexity, bypassing Google’s blue links. If your brand isn’t visible there, you’re invisible to your customers.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question:
+      "What makes AI Monitor different from SEO tools like Ahrefs or Semrush?",
+    answer:
+      "Traditional SEO tools measure website rankings on Google. AI Monitor focuses on AI-driven discovery where answers come from chatbots, summaries, and AI Overviews, not just links. We track Generative Engines or Answer Engines like ChatGPT, Perplexity and much more, which is the next frontier of SEO.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question:
+      "Can AI Monitor help us outrank competitors in ChatGPT or Google AI Overviews?",
+    answer:
+      "Absolutely. We don’t just track your visibility; we identify content gaps, recommend AI-friendly optimization strategies, and provide actionable insights to boost your brand’s inclusion rate across major AI engines.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Is AI Monitor suitable for all industries?",
+    answer:
+      "Yes. Whether you’re in B2B SaaS, eCommerce, finance, healthcare, or media, our platform is designed to help brands of all sizes monitor AI mentions and optimize for AI-first search experiences.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "Do I need technical expertise to use AI Monitor?",
+    answer:
+      "Not at all. We designed AI Monitor to be marketer-friendly. No code, no complex setups just clear insights, visual dashboards, and actionable recommendations.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 8,
+    question: "How secure is my data on AI Monitor?",
+    answer:
+      "We take privacy and security seriously. Our open-source foundation ensures transparency, and we comply with enterprise-grade data security standards to keep your information safe.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "How do I get started with AI Monitor?",
+    answer:
+      "You can start by requesting a free AI Brand Report or booking a personalized demo. We’ll show you exactly where your brand stands across AI-driven discovery platforms, highlight missed opportunities, and help craft a strategy to boost your visibility. Getting started is simple: just sign up for a free account, add your brand or domain, and instantly access your AI visibility dashboard. There’s no setup hassle, no technical expertise required: just immediate insights into how AI platforms are interpreting and surfacing your brand.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
