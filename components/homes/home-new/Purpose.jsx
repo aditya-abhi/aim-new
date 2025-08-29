@@ -45,30 +45,30 @@ export default function Purpose() {
                     onClick={() => setActiveTab(1)}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">
-                      Inbound Marketers
-                    </a>
+                    <a className="h6 lg:h5 text-nowrap m-0">SEO Agencies</a>
                   </li>
                   <li
                     onClick={() => setActiveTab(2)}
                     className={`${activeTab == 2 ? "uc-active" : ""}`}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">SEO Agencies</a>
+                    <a className="h6 lg:h5 text-nowrap m-0">PR Professionals</a>
                   </li>
                   <li
                     className={`${activeTab == 3 ? "uc-active" : ""}`}
                     onClick={() => setActiveTab(3)}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">PR Professionals</a>
+                    <a className="h6 lg:h5 text-nowrap m-0">Founders</a>
                   </li>
                   <li
                     className={`${activeTab == 4 ? "uc-active" : ""}`}
                     onClick={() => setActiveTab(4)}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">Founders</a>
+                    <a className="h6 lg:h5 text-nowrap m-0">
+                      Inbound Marketers
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -78,61 +78,6 @@ export default function Purpose() {
                 style={{ touchAction: "pan-y pinch-zoom" }}
               >
                 {activeTab == 1 && (
-                  <div className="uc-active">
-                    <div className="feature-item panel">
-                      <div className="row child-cols col-match justify-between g-4">
-                        <div className="col-12 sm:col-6">
-                          <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
-                            <Image
-                              className="media-cover image"
-                              alt="Share tools quickly and confidently in minutes"
-                              src="/assets/images/template/inbound.webp"
-                              width="1200"
-                              height="1200"
-                            />
-                          </figure>
-                        </div>
-                        <div className="col-12 sm:col-6">
-                          <div className="panel">
-                            <div className="panel vstack justify-center gap-4 h-100 sm:p-3 lg:p-4">
-                              <div>
-                                <div className="panel vstack gap-2">
-                                  <h3 className="h4 sm:h3 lg:h2 m-0">
-                                    Don’t Let AI Overlook Your Campaigns - Stay
-                                    in Control.
-                                  </h3>
-                                  <ul className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
-                                    <li>
-                                      <strong>Track Campaign Impact → </strong>
-                                      See how your campaigns are mentioned
-                                      across ChatGPT, Google AI Overviews, and
-                                      Perplexity.
-                                    </li>
-                                    <li>
-                                      <strong>
-                                        Monitor Brand Sentiment →{" "}
-                                      </strong>
-                                      Get real-time insights into how AI engines
-                                      describe your brand.
-                                    </li>
-                                    <li>
-                                      <strong>
-                                        Prove ROI to Leadership →{" "}
-                                      </strong>
-                                      Easily export AI visibility reports for
-                                      presentations and stakeholders.
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                )}
-                {activeTab == 2 && (
                   <div className="uc-active">
                     <div className="feature-item panel">
                       <div className="row child-cols col-match justify-between g-4">
@@ -193,7 +138,7 @@ export default function Purpose() {
                     </div>
                   </div>
                 )}
-                {activeTab == 3 && (
+                {activeTab == 2 && (
                   <div className="uc-active">
                     <div className="feature-item panel">
                       <div className="row child-cols col-match justify-between g-4">
@@ -255,7 +200,7 @@ export default function Purpose() {
                     </div>
                   </div>
                 )}
-                {activeTab == 4 && (
+                {activeTab == 3 && (
                   <div className="uc-active">
                     <div className="feature-item panel">
                       <div className="row child-cols col-match justify-between g-4">
@@ -306,6 +251,61 @@ export default function Purpose() {
                                     <span>Let's find out</span>
                                     <i className="position-relative icon icon-1 unicon-arrow-right rtl:rotate-180 translate-y-px" />
                                   </Link> */}
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )}
+                {activeTab == 4 && (
+                  <div className="uc-active">
+                    <div className="feature-item panel">
+                      <div className="row child-cols col-match justify-between g-4">
+                        <div className="col-12 sm:col-6">
+                          <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
+                            <Image
+                              className="media-cover image"
+                              alt="Share tools quickly and confidently in minutes"
+                              src="/assets/images/template/inbound.webp"
+                              width="1200"
+                              height="1200"
+                            />
+                          </figure>
+                        </div>
+                        <div className="col-12 sm:col-6">
+                          <div className="panel">
+                            <div className="panel vstack justify-center gap-4 h-100 sm:p-3 lg:p-4">
+                              <div>
+                                <div className="panel vstack gap-2">
+                                  <h3 className="h4 sm:h3 lg:h2 m-0">
+                                    Don’t Let AI Overlook Your Campaigns - Stay
+                                    in Control.
+                                  </h3>
+                                  <ul className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
+                                    <li>
+                                      <strong>Track Campaign Impact → </strong>
+                                      See how your campaigns are mentioned
+                                      across ChatGPT, Google AI Overviews, and
+                                      Perplexity.
+                                    </li>
+                                    <li>
+                                      <strong>
+                                        Monitor Brand Sentiment →{" "}
+                                      </strong>
+                                      Get real-time insights into how AI engines
+                                      describe your brand.
+                                    </li>
+                                    <li>
+                                      <strong>
+                                        Prove ROI to Leadership →{" "}
+                                      </strong>
+                                      Easily export AI visibility reports for
+                                      presentations and stakeholders.
+                                    </li>
+                                  </ul>
                                 </div>
                               </div>
                             </div>

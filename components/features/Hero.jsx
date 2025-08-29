@@ -123,11 +123,11 @@ export default function Hero() {
                     style={{ top: "20%" }}
                   >
                     <Image
-                      alt="Countries"
+                      alt="List of mobile manufacturers with different market share"
                       data-anime="onscroll: .hero-scroll-scene; onscroll-offset: -200; onscroll-trigger: 0; onscroll-duration: 400%; translateY: [-100, 0];"
-                      src="/assets/images/template/hero-05-countries.png"
-                      width="710"
-                      height="854"
+                      src="/assets/images/template/brand.webp"
+                      width="600"
+                      height="750"
                     />
                   </div>
                   <div
@@ -136,11 +136,11 @@ export default function Hero() {
                     style={{ bottom: "20%" }}
                   >
                     <Image
-                      alt="Account"
+                      alt="Username with the company logo"
                       data-anime="onscroll: .hero-scroll-scene; onscroll-offset: -200; onscroll-trigger: 0; onscroll-duration: 400%; translateY: [100, 0];"
-                      src="/assets/images/template/hero-05-account.png"
-                      width="605"
-                      height="274"
+                      src="/assets/images/template/user.webp"
+                      width="500"
+                      height="240"
                     />
                   </div>
                 </div>

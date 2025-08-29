@@ -85,7 +85,7 @@ export default function Hero() {
                     >
                       <div
                         className="position-absolute rounded-circle border dark:border-opacity-15 dark:bg-gradient-45 from-tertiary to-transparent cstack w-56px h-56px d-none lg:d-block"
-                        style={{ top: "0%", right: "13%" }}
+                        style={{ top: "0%", right: "11%" }}
                         data-anime="translateY: [0, 15]; easing: linear; loop: true; direction: alternate; delay: 50;"
                       >
                         <Image

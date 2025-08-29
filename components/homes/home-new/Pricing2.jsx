@@ -45,7 +45,7 @@ export default function Pricing() {
               className="vstack items-center gap-3 lg:gap-4 mb-4 sm:mb-6 lg:mb-8 mx-auto text-center"
               data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
-              <span className="fs-7 fw-bold py-narrow px-2 border border-tertiary-100 dark:border-white rounded-pill text-tertiary dark:text-white max-w-fc">
+              <span className="fs-7 fw-bold py-narrow px-2 border border-tertiary-100 dark:border-white rounded-pill text-tertiary-800 dark:text-white max-w-fc">
                 PRICING
               </span>
               <h2 className="title h3 lg:h2 xl:h1 mt-4">

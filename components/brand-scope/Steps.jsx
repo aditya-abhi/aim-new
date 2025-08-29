@@ -102,7 +102,7 @@ export default function Steps() {
                         <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
                           <Image
                             className="media-cover image"
-                            src="/assets/images/template/home-four-feature-01.png"
+                            src="/assets/images/template/brand-scope-1.webp"
                             width={1400}
                             height={1412}
                             alt="Ensuring timely delivery and maximum efficiency"
@@ -115,8 +115,8 @@ export default function Steps() {
                         <div className="panel vstack justify-center gap-4 h-100 sm:p-3 lg:p-4">
                           <div>
                             <div className="panel vstack gap-2">
-                              <span className="cstack w-48px h-48px bg-primary text-secondary rounded-1-5 mb-2 d-none lg:d-inline-flex">
-                                <i className="unicon-cloud-download" />
+                              <span className="cstack w-48px h-48px bg-tertiary dark:bg-primary text-white fw-bold rounded-1-5 mb-2 d-none lg:d-inline-flex">
+                                <i className="unicon-login icon-2" />
                               </span>
                               <h3 className="h4 sm:h3 xl:h2 m-0">
                                 Step 1 — Enter Your Brand Domain
@@ -163,7 +163,7 @@ export default function Steps() {
                         <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
                           <Image
                             className="media-cover image"
-                            src="/assets/images/template/home-four-feature-01.png"
+                            src="/assets/images/template/brand-scope-2.webp"
                             width={1400}
                             height={1412}
                             alt="Ensuring timely delivery and maximum efficiency"
@@ -176,8 +176,8 @@ export default function Steps() {
                         <div className="panel vstack justify-center gap-4 h-100 sm:p-3 lg:p-4">
                           <div>
                             <div className="panel vstack gap-2">
-                              <span className="cstack w-48px h-48px bg-primary text-secondary rounded-1-5 mb-2 d-none lg:d-inline-flex">
-                                <i className="unicon-cloud-download" />
+                              <span className="cstack w-48px h-48px bg-tertiary dark:bg-primary text-white fw-bold rounded-1-5 mb-2 d-none lg:d-inline-flex">
+                                <i className="unicon-list icon-2" />
                               </span>
                               <h3 className="h4 sm:h3 xl:h2 m-0">
                                 Step 2 — Review & Customize Your Brand Profile
@@ -232,7 +232,7 @@ export default function Steps() {
                         <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
                           <Image
                             className="media-cover image"
-                            src="/assets/images/template/home-four-feature-01.png"
+                            src="/assets/images/template/brand-scope-3.webp"
                             width={1400}
                             height={1412}
                             alt="Ensuring timely delivery and maximum efficiency"
@@ -245,8 +245,8 @@ export default function Steps() {
                         <div className="panel vstack justify-center gap-4 h-100 sm:p-3 lg:p-4">
                           <div>
                             <div className="panel vstack gap-2">
-                              <span className="cstack w-48px h-48px bg-primary text-secondary rounded-1-5 mb-2 d-none lg:d-inline-flex">
-                                <i className="unicon-cloud-download" />
+                              <span className="cstack w-48px h-48px bg-tertiary dark:bg-primary text-white fw-bold rounded-1-5 mb-2 d-none lg:d-inline-flex">
+                                <i className="unicon-face-satisfied icon-2" />
                               </span>
                               <h3 className="h4 sm:h3 xl:h2 m-0">
                                 Step 3 — Explore & Customize Queries

@@ -1,4 +1,4 @@
-import { blogPosts7, posts2 } from "@/data/blogs";
+import { blogPosts2, blogPosts3, blogPosts7, posts2 } from "@/data/blogs";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";

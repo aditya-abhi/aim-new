@@ -24,10 +24,9 @@ import Brands2 from "@/components/homes/home-new/Brands2";
 
 import React from "react";
 export const metadata = {
-  title:
-    "Home New || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+  title: "AI Monitor | Boost Your Brand Visibility in AI Search",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "AI Monitor, the world’s first open-source tool for GEO, AEO, and AIO, helps brands optimize for AI search to enhance AI Visibility to stay ahead in the AI-driven search era.",
 };
 export default function page() {
   return (

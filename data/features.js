@@ -917,7 +917,7 @@ export const instructor = [
 
 export const target = [
   {
-    icon: "unicon-document",
+    icon: "unicon-devices",
     title: "B2B SaaS Companies",
     description:
       "Show up where your buyers are searching AI engines. Control how ChatGPT, Perplexity, and Claude describe your product, and ensure your positioning drives qualified leads, not confusion.",
@@ -938,21 +938,21 @@ export const target = [
     backgroundColor: "bg-white dark:bg-gray-800",
   },
   {
-    icon: "unicon-touch-interaction",
+    icon: "unicon-software",
     title: "Small Businesses",
     description:
       "Your customers are already asking AI. Generative Engine Optimization (GEO) ensures you’re part of the conversation, getting found, mentioned, and chosen.",
     backgroundColor: "bg-white dark:bg-gray-800",
   },
   {
-    icon: "unicon-task-approved",
+    icon: "unicon-building",
     title: "Enterprises & Brands",
     description:
       "Protect your brand presence in AI-powered search. Ensure consistent messaging across all AI platforms, capture new opportunities, and maintain authority in your industry.",
     backgroundColor: "bg-white dark:bg-gray-800",
   },
   {
-    icon: "unicon-touch-interaction",
+    icon: "unicon-shopping-cart",
     title: "E-commerce & Online Stores",
     description:
       "AI is the new storefront. Make your products discoverable in AI recommendations, increase conversions, and turn searches into sales without relying solely on traditional SEO.",

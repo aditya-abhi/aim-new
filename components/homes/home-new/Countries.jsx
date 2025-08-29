@@ -15,7 +15,7 @@ export default function Pricing() {
       id="pricing_tiers"
       className="pricing-tiers section panel overflow-hidden"
     >
-      <div className="section-outer panel py-6 lg:py-8 xl:py-10 lg:mx-2 lg:rounded-2 bg-tertiary-700">
+      <div className="section-outer panel pb-4 pt-6 lg:pt-8 xl:pt-10 lg:mx-2 lg:rounded-2 bg-tertiary-700">
         <div className="container ">
           <div className="section-inner panel">
             <div className="panel vstack items-center gap-4 sm:gap-6 xl:gap-8">
@@ -27,12 +27,11 @@ export default function Pricing() {
                   WORD WIDE PRESENCE
                 </span>
                 <h2 className="title h3 lg:h2 xl:h1 m-0 text-white">
-                  Find Your Perfect AI Monitoring Plan
+                  Want to Make ChatGPT Work For You?
                 </h2>
                 <p className="fs-6 text-secondary xl:fs-5">
-                  Our #1 rated GEO expertise translates into real results for
-                  our clients, helping them navigate the complexities of AI
-                  search and achieve their business goals.
+                  Join the Best GEO & AEO Community on Earth! (Martians left us
+                  on read—classic aliens.)
                 </p>
               </div>
               <div className="content panel w-100"></div>
@@ -168,6 +167,15 @@ export default function Pricing() {
                     height={300}
                   />
                 </div>
+              </div>
+              <div className="mb-2 lg:mb-3">
+                <a
+                  href="#"
+                  className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 w-auto"
+                >
+                  <span className="text-tertiary">Join our Community</span>
+                </a>
+                {/* <AppointletButton bookingPageUrl={appointletURL} /> */}
               </div>
             </div>
           </div>

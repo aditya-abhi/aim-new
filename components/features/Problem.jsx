@@ -35,7 +35,7 @@ export default function Howworks() {
                         <Image
                           className="media-cover image"
                           alt="image title"
-                          src="/assets/images/template/feature-image-03.jpg"
+                          src="/assets/images/template/feature-1.webp"
                           width="1200"
                           height="1200"
                         />
@@ -79,7 +79,7 @@ export default function Howworks() {
                         <Image
                           className="media-cover image"
                           alt="image title"
-                          src="/assets/images/template/feature-image-01.jpg"
+                          src="/assets/images/template/feature-2.webp"
                           width="1200"
                           height="1200"
                         />

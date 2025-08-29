@@ -6820,6 +6820,10 @@
     --bs-text-opacity: 1;
     color: rgba(var(--bs-tertiary-700-rgb), var(--bs-text-opacity)) !important;
   }
+  .text-tertiary-800 {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-tertiary-800-rgb), var(--bs-text-opacity)) !important;
+  }
   .text-tertiary-900 {
     --bs-text-opacity: 1;
     color: rgba(var(--bs-tertiary-900-rgb), var(--bs-text-opacity)) !important;
