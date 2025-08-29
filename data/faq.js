@@ -310,6 +310,58 @@ export const accordionFeature2 = [
   },
 ];
 
+export const accordionFeature3 = [
+  {
+    id: 1,
+    question: "What exactly does the AI Bot Report Card do?",
+    answer:
+      "It gives you a clear view of which AI bots are crawling your site, like those from ChatGPT, Gemini, or Perplexity. How often they return, and which content they prioritize. You’ll also see whether those crawls lead to actual citations or mentions across AI-generated answers. In short, it reveals how frequently and meaningfully your brand is being indexed by AI engines.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question:
+      "Can I track bots from major AI search engines like ChatGPT or Perplexity?",
+    answer:
+      "Yes. The tool tracks which AI crawlers are visiting your site, including those from ChatGPT, Perplexity, and others—how often they return, and which pages they focus on most. This gives you a clear view of what content is being prioritized and how frequently your brand’s indexed presence is being refreshed across AI engines.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Is this tool really open-source?",
+    answer:
+      "Yes! It’s fully open-source. You get complete transparency, total control, and zero vendor lock-in. Customize integrations, extend functionality, and keep your data entirely in your hands. It’s built for flexibility, not dependency.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "Will this slow down my site?",
+    answer:
+      "Not at all. The tracker is ultra-lightweight and engineered to run silently in the background, ensuring zero impact on page load times or user experience. Your site’s performance stays fast and seamless.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "Can it help me block harmful bots?",
+    answer:
+      "Absolutely. With advanced bot fingerprinting, you can allow trusted AI crawlers like Google’s AI Overview, while blocking malicious scrapers, fake traffic, and unauthorized bots. You stay in control of who gets access to your content.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Do I need technical skills to use it?",
+    answer:
+      "Not at all. The setup is designed to be simple and beginner-friendly. You can complete the initial steps, signing up and entering your domain, without any technical knowledge. For the final step, you’ll just need access to your website’s hosting or CMS to paste a small Pixel code into the section. Once that’s done, your AI Traffic Dashboard goes live, and you’re ready to start tracking AI referrals and web traffic, no coding required.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+
 export const accordionHome = [
   {
     id: 1,

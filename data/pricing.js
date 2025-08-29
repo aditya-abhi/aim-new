@@ -437,6 +437,8 @@ export const tiersHome = [
     slinkText: "Get Started",
     linkSubtext: "Source-Code Provided",
     slinkSubtext: "Billed Monthly",
+    included: "",
+    sincluded: "Implementation partner fees (billed separately)",
     for: "What's Included:",
     sfor: "What You Get:",
     features: [
@@ -459,7 +461,7 @@ export const tiersHome = [
   {
     title: "Starter Plan",
     sTitle: "Scale Service Plan",
-    description: "Perfect for small teams getting started",
+    description: "Perfect for small teams getting started with GEO",
     sdescription: "Ideal for businesses scaling their AI presence",
     price: "$19",
     sPrice: "$499",
@@ -469,6 +471,8 @@ export const tiersHome = [
     slinkText: "Choose Plan",
     linkSubtext: "Billed Monthly",
     slinkSubtext: "Billed Monthly",
+    included: "",
+    sincluded: "Implementation partner fees (billed separately)",
     for: "What's Included:",
     sfor: "What You Get:",
     features: [
@@ -501,6 +505,8 @@ export const tiersHome = [
     slinkText: "Select Growth",
     linkSubtext: "Billed Monthly",
     slinkSubtext: "Billed Monthly",
+    included: "",
+    sincluded: "Implementation partner fees (billed separately)",
     for: "What's Included:",
     sfor: "What You Get:",
     features: [
@@ -514,7 +520,7 @@ export const tiersHome = [
       "Comprehensive monitoring of 100 AI prompts",
       "Custom multi-domain & regional strategy",
       "Dedicated GEO strategist",
-      "Weekly performance reviews & on-demand audits",
+      "Weekly reviews & on-demand audits",
       "Premium 1:1 dedicated support",
       "Implementation partner fees (billed separately)",
     ],
@@ -533,6 +539,8 @@ export const tiersHome = [
     slinkText: "Contact Sales",
     linkSubtext: "Response within 1 business day",
     slinkSubtext: "Response within 1 business day",
+    included: "",
+    sincluded: "",
     for: "What's Included:",
     sfor: "What You Get:",
     features: [

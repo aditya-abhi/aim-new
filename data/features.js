@@ -1178,3 +1178,91 @@ export const productFeature2 = [
       "bg-gradient-45 from-white to-transparent dark:from-gray-700 sm:rounded-top-end-0 lg:rounded-top-start-0 lg:rounded-top-end-1-5",
   },
 ];
+
+export const botReport = [
+  {
+    icon: "unicon-document",
+    title: "Total Bot Visits",
+    description:
+      "See how many times AI bots (eg. OAI-SearchBot) crawl your site, helping you measure indexing activity.",
+    backgroundColor: "bg-secondary dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-model",
+    title: "Unique Bot Types",
+    description:
+      "Track which distinct AI bots and crawlers are scanning your content, so you know where your brand is being picked up.",
+    backgroundColor: "bg-secondary dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-task-approved",
+    title: "Crawl Frequency",
+    description:
+      "Measure how often AI bots revisit your site, helping you understand recrawl patterns and freshness signals.",
+    backgroundColor: "bg-secondary dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-touch-interaction",
+    title: "Bot Quality",
+    description:
+      "See the quality of bot traffic, are the visiting bots authentic AI crawlers or spoofed bots posing as one.",
+    backgroundColor: "bg-secondary dark:bg-gray-800",
+  },
+];
+
+export const productFeature3 = [
+  {
+    order: "order-1 lg:order-0",
+    iconSrc: "/assets/images/common/icons/zap.svg",
+    alt: "feature-icon",
+    title: "Real-Time Bot Detection",
+    description:
+      "Instantly identify AI bots, scrapers, and crawlers the moment they hit your site, giving you live visibility into indexing activity and potential threats.",
+  },
+  {
+    order: "order-0",
+    iconSrc: "/assets/images/common/icons/database.svg",
+    alt: "feature-icon",
+    title: "Bot Behaviour Insights",
+    description:
+      "Analyze which pages bots crawl most, how deep they go, and what content they prioritize, so you can optimize your site for better AI-driven visibility.",
+    bgClass:
+      "bg-gradient-45 from-white to-transparent dark:from-gray-700 sm:rounded-bottom-end-0 lg:rounded-bottom-0",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    iconSrc: "/assets/images/common/icons/puzzle.svg",
+    alt: "feature-icon",
+    title: "Crawl Frequency Tracking",
+    description:
+      "Monitor how often AI bots revisit your site, helping you understand recrawl patterns, freshness signals, and indexing consistency.",
+  },
+  {
+    order: "order-1 lg:order-0",
+    iconSrc: "/assets/images/common/icons/target.svg",
+    alt: "feature-icon",
+    title: "Bot Fingerprinting",
+    description:
+      "Differentiate between legitimate AI crawlers (ChatGPT, Perplexity, Google AI Overview) and harmful or suspicious scrapers by tracking unique bot identities and patterns.",
+    bgClass:
+      "bg-gradient-45 from-white to-transparent dark:from-gray-700 sm:rounded-start-0 lg:rounded-top-end-0 lg:rounded-start-1-5",
+  },
+  {
+    order: "order-3 lg:order-0",
+    iconSrc: "/assets/images/common/icons/line-chart.svg",
+    alt: "feature-icon",
+    title: "Open-Source Integration",
+    description:
+      "Leverage an open-source framework for full transparency, flexibility, and community-driven improvements, ensuring the tool adapts to evolving AI ecosystems.",
+  },
+  {
+    order: "order-2 lg:order-0",
+    iconSrc: "/assets/images/common/icons/settings.svg",
+    alt: "feature-icon",
+    title: "Competitor Benchmarking",
+    description:
+      "Assess bot traffic quality—identify authentic AI crawlers like ChatGPT or Gemini, and flag spoofed bots imitating their behavior",
+    bgClass:
+      "bg-gradient-45 from-white to-transparent dark:from-gray-700 sm:rounded-top-end-0 lg:rounded-top-start-0 lg:rounded-top-end-1-5",
+  },
+];

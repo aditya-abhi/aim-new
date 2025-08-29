@@ -1,4 +1,8 @@
-import { featureItems2, productFeature1 } from "@/data/features";
+import {
+  featureItems2,
+  productFeature1,
+  productFeature3,
+} from "@/data/features";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -19,21 +23,20 @@ export default function Features() {
                 Features
               </span> */}
               <h2 className="h3 sm:h2 lg:h1 xl:display-6 m-0">
-                Insights That Matter -{" "}
+                From Invisible Crawlers to{" "}
                 <span className="text-tertiary dark:text-primary">
-                  See the Bigger Picture
+                  Visible Insights
                 </span>
               </h2>
               <p className="fs-7 sm:fs-6 lg:fs-5 xl:fs-4 text-opacity-70 dark:text-white">
-                Complete AI traffic visibility across models, regions, and
-                languages.
+                Complete monitoring across all major AI bots and scrapers.
               </p>
             </div>
             <div
               className="features-items row child-cols-12 sm:child-cols-6 lg:child-cols-4 g-0 col-match"
               data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 400});"
             >
-              {productFeature1.map((item, index) => (
+              {productFeature3.map((item, index) => (
                 <div key={index} className={item.order}>
                   <div
                     className={`features-item vstack justify-between gap-6 xl:gap-8 p-4 xl:p-6 rounded-1-5 ${

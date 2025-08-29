@@ -1,4 +1,8 @@
-import { featureItems2, productFeature1 } from "@/data/features";
+import {
+  featureItems2,
+  productFeature1,
+  productFeature2,
+} from "@/data/features";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -33,7 +37,7 @@ export default function Features() {
               className="features-items row child-cols-12 sm:child-cols-6 lg:child-cols-4 g-0 col-match"
               data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 400});"
             >
-              {productFeature1.map((item, index) => (
+              {productFeature2.map((item, index) => (
                 <div key={index} className={item.order}>
                   <div
                     className={`features-item vstack justify-between gap-6 xl:gap-8 p-4 xl:p-6 rounded-1-5 ${

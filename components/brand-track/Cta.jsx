@@ -29,14 +29,14 @@ export default function Cta() {
             height={29}
           />
           <h2 className="h3 xl:display-6 lh-lg m-0 max-w-md mx-auto text-tertiary dark:text-secondary">
-            Take the Next Step
+            Take the
             <span className="px-1 bg-tertiary dark:bg-secondary text-primary d-block lg:d-inline-block">
-              with AI Insights
-            </span>{" "}
+              Next Step
+            </span>
           </h2>
           <p className="fs-6 sm:fs-5 text-tertiary-700 dark:text-white">
-            Stop guessing. Start measuring. See how AI really drives traffic to
-            your brand.
+            Stop letting AI crawl your site in the dark. Get full visibility
+            now.
           </p>
           <div className="vstack md:hstack justify-center gap-2 mt-3">
             <a

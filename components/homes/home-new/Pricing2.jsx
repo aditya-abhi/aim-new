@@ -152,6 +152,9 @@ export default function Pricing() {
                             ))}
                           </div>
                         </div>
+                        <span className="fs-7 opacity-70 min-h-24px">
+                          {isService ? tier.sincluded : tier.included}
+                        </span>
                       </div>
                     </div>
                   ))}

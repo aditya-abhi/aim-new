@@ -1,4 +1,4 @@
-import AccordionFeature2 from "@/components/common/AccordionFeature2";
+import AccordionFeature3 from "@/components/common/AccordionFeature3";
 import React from "react";
 
 export default function Faqs() {
@@ -24,7 +24,7 @@ export default function Faqs() {
                     className="uc-accordion gap-1 max-w-md mx-auto"
                     data-uc-accordion="targets: > li; multiple: false;"
                   >
-                    <AccordionFeature2 parentClass="panel p-2 md:p-3 lg:p-4 bg-white rounded-1-5 dark:text-gray-900" />
+                    <AccordionFeature3 parentClass="panel p-2 md:p-3 lg:p-4 bg-white rounded-1-5 dark:text-gray-900" />
                   </ul>
                 </div>
               </div>

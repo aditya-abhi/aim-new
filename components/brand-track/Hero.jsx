@@ -39,18 +39,17 @@ export default function Hero() {
                   data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
                 >
                   <h1 className="h1 sm:display-6 md:display-5 lg:display-4 xl:display-3 m-0 text-white mt-4 lg:mt-6">
-                    Your Traffic.{" "}
+                    Your Content.{" "}
                     <span className="d-inline-flex px-1 bg-secondary text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
-                      Their Engines.
+                      Their Crawlers.
                     </span>
                     <br />
-                    One Transparent Report
+                    One Clear View.
                   </h1>
                   <p className="fs-5 xl:fs-4 text-black dark:text-white d-none md:d-block">
-                    Who really sends you traffic - ChatGPT, Gemini, or
-                    Perplexity? For the first time, measure AI-driven referrals
-                    with an open-source monitoring tool designed for
-                    transparency.
+                    Ever wondered which AI bots are crawling your site and what
+                    they’re doing with your content? Stop wondering. Start
+                    monitoring.
                   </p>
                   <Link
                     href={`https://v8dash.getaimonitor.com/signup?_gl=1*cra4gg*_ga*OTUyMjU3MzE4LjE3MzYzMjY0NTU.*_ga_LYQ3T882C2*czE3NTYyODkzMzUkbzMzNCRnMSR0MTc1NjI4OTMzNyRqNTgkbDAkaDA.`}

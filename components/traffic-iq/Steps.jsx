@@ -204,8 +204,8 @@ export default function Steps() {
                                     drives discovery
                                   </li>
                                   <li>
-                                    <strong>Competitor analysis →</strong> Stay
-                                    ahead of the curve
+                                    <strong>Deep dive →</strong> Stay ahead of
+                                    the curve
                                   </li>
                                 </ul>
                               </div>
