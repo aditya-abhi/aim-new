@@ -761,7 +761,7 @@ export const featureItemsVideo = [
     reverseOrder: false,
   },
   {
-    src: "/assets/images/videos/Dashboard.mp4",
+    src: "/assets/images/videos/dashboard.webm",
     altText: "Wide Coverage. One Dashboard.",
     title: "Wide Coverage, One Dashboard",
     subtitle: "(We’re Keeping an Eye on All the AI 👀)",

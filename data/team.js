@@ -271,3 +271,21 @@ export const teamMembers5 = [
     position: "Customer Success",
   },
 ];
+
+export const awards = [
+  {
+    id: 1,
+    imgSrc: "/assets/images/team/yesusers.webp",
+    alt: "YesUsers Award",
+  },
+  {
+    id: 2,
+    imgSrc: "/assets/images/team/alchemist.webp",
+    alt: "Alchemist logo",
+  },
+  {
+    id: 3,
+    imgSrc: "/assets/images/team/designrush.webp",
+    alt: "DesignRush Top AI Company",
+  },
+];

@@ -21,6 +21,8 @@ import Countries from "@/components/homes/home-new/Countries";
 import Purpose from "@/components/homes/home-new/Purpose";
 import Brands2 from "@/components/homes/home-new/Brands2";
 // import "https://js.appointlet.com/styles.css";
+import Timeline from "@/components/homes/home-new/Timeline";
+import Awards from "@/components/homes/home-new/Awards";
 
 import React from "react";
 export const metadata = {
@@ -49,6 +51,8 @@ export default function page() {
               {/* <Pricing2 /> */}
               {/* <Pricing /> */}
               <Pricing2 />
+              <Timeline />
+              <Awards />
               <Testimonials2 />
               <Blog />
               <Faqs />

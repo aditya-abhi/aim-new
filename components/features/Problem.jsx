@@ -7,7 +7,7 @@ export default function Howworks() {
   return (
     <div
       id="how_it_works"
-      className="how-it-works section panel overflow-hidden rounded-1-5 bg-white dark:bg-gray-800 dark:text-white"
+      className="how-it-works section panel overflow-hidden rounded-1-5 bg-white dark:bg-tertiary-800 dark:text-white"
     >
       <div className="section-outer panel lg:mt-8">
         <div className="container container-full">

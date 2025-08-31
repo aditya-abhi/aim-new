@@ -38,3 +38,82 @@ export const timelineData = [
     description: "Top-rated software solution for service suppliers.",
   },
 ];
+
+export const comic = [
+  {
+    src: "/assets/images/template/c-1.webp",
+    alt: "Where the idea come up of Lexend :)",
+    year: "2014",
+    description: "Where the idea come up of Lexend :)",
+  },
+  {
+    src: "/assets/images/template/c-2.webp",
+    alt: "Launched our first business that can be created in minutes, build meaningful relationships.",
+    year: "2015",
+    description:
+      "Launched our first business that can be created in minutes, build meaningful relationships.",
+  },
+  {
+    src: "/assets/images/template/c-3.webp",
+    alt: "Opened our new office in Toronto, CA",
+    year: "2016",
+    description: "Opened our new office in Toronto, CA",
+  },
+  {
+    src: "/assets/images/template/c-4.webp",
+    alt: "Moved to Silicon Valley whereas now we can focus on building out to help our employees.",
+    year: "2019",
+    description:
+      "Moved to Silicon Valley whereas now we can focus on building out to help our employees.",
+  },
+  {
+    src: "/assets/images/template/c-5.webp",
+    alt: "Opened a new office in London, UK.",
+    year: "2020",
+    description: "Opened a new office in London, UK.",
+  },
+  {
+    src: "/assets/images/template/c-6.webp",
+    alt: "Top-rated software solution for service suppliers.",
+    year: "Today",
+    description: "Top-rated software solution for service suppliers.",
+  },
+  {
+    src: "/assets/images/template/c-7.webp",
+    alt: "Where the idea come up of Lexend :)",
+    year: "2014",
+    description: "Where the idea come up of Lexend :)",
+  },
+  {
+    src: "/assets/images/template/c-8.webp",
+    alt: "Launched our first business that can be created in minutes, build meaningful relationships.",
+    year: "2015",
+    description:
+      "Launched our first business that can be created in minutes, build meaningful relationships.",
+  },
+  {
+    src: "/assets/images/template/c-9.webp",
+    alt: "Opened our new office in Toronto, CA",
+    year: "2016",
+    description: "Opened our new office in Toronto, CA",
+  },
+  {
+    src: "/assets/images/template/c-10.webp",
+    alt: "Moved to Silicon Valley whereas now we can focus on building out to help our employees.",
+    year: "2019",
+    description:
+      "Moved to Silicon Valley whereas now we can focus on building out to help our employees.",
+  },
+  {
+    src: "/assets/images/template/c-11.webp",
+    alt: "Opened a new office in London, UK.",
+    year: "2020",
+    description: "Opened a new office in London, UK.",
+  },
+  {
+    src: "/assets/images/template/c-12.webp",
+    alt: "Top-rated software solution for service suppliers.",
+    year: "Today",
+    description: "Top-rated software solution for service suppliers.",
+  },
+];

@@ -45,7 +45,7 @@ export default function Purpose() {
                     onClick={() => setActiveTab(1)}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">SEO Agencies</a>
+                    <a className="h6 lg:h5 text-nowrap m-0">SEO Experts</a>
                   </li>
                   <li
                     onClick={() => setActiveTab(2)}
@@ -85,7 +85,7 @@ export default function Purpose() {
                           <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
                             <Image
                               className="media-cover image"
-                              alt="Connect every part of your entire business"
+                              alt="A SEO professional poasing"
                               src="/assets/images/template/seo.webp"
                               width="1200"
                               height="1200"
@@ -146,7 +146,7 @@ export default function Purpose() {
                           <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
                             <Image
                               className="media-cover image"
-                              alt="Maintain compliance and control your apps"
+                              alt="A PR professional doing media briefing"
                               src="/assets/images/template/pr.webp"
                               width="1200"
                               height="1200"
@@ -208,7 +208,7 @@ export default function Purpose() {
                           <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
                             <Image
                               className="media-cover image"
-                              alt="Review quickly and confidently"
+                              alt="A founder appearing in the newspaper article"
                               src="/assets/images/template/founders.webp"
                               width="1200"
                               height="1200"
@@ -268,7 +268,7 @@ export default function Purpose() {
                           <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
                             <Image
                               className="media-cover image"
-                              alt="Share tools quickly and confidently in minutes"
+                              alt="Inbound marketer posing with an office background"
                               src="/assets/images/template/inbound.webp"
                               width="1200"
                               height="1200"

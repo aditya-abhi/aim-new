@@ -138,7 +138,7 @@ export default function Hero() {
                     <Image
                       alt="Username with the company logo"
                       data-anime="onscroll: .hero-scroll-scene; onscroll-offset: -200; onscroll-trigger: 0; onscroll-duration: 400%; translateY: [100, 0];"
-                      src="/assets/images/template/user.webp"
+                      src="/assets/images/template/username.png"
                       width="500"
                       height="240"
                     />
