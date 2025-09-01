@@ -9094,6 +9094,11 @@ html[dir="rtl"] .theme-4 .uc-navbar-left {
   height: fit-content !important;
 }
 
+.row {
+  display: flex;
+  align-items: flex-start; /* This ensures the columns align at the top */
+}
+
 // .row {
 //   display: flex; /* Assuming you are using flexbox */
 //   flex-direction: row;
