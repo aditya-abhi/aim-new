@@ -4,12 +4,137 @@ import RelatedBlogs from "../../components/blog/RelatedBlogs";
 import Image from "next/image";
 import Link from "next/link";
 import { Gallery, Item } from "react-photoswipe-gallery";
+import { useState } from "react";
+import GEOCourseCTA from "@/components/common/GeoCTA";
 
 export default function Blog2({ blogItem }) {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const toggleAuthorDetails = () => {
+    setIsExpanded(!isExpanded);
+  };
+
   return (
     <>
-      <div className="position-absolute top-0 start-0 end-0 min-h-450px lg:min-h-600px xl:min-h-700px 2xl:800px bg-tertiary-700 lg:rounded-2 lg:rounded-top-0 lg:mx-2 lg:mt-0 z-0" />
-      <article className="post type-post single-post py-4 lg:py-6 xl:py-9">
+      <div
+        className={
+          isExpanded
+            ? "position-absolute top-0 start-0 end-0 min-h-1000px xl:min-h-1100px bg-tertiary-700 lg:rounded-2 lg:rounded-top-0 lg:mx-2 lg:mt-0 z-0"
+            : "position-absolute top-0 start-0 end-0 min-h-700px xl:min-h-900px bg-tertiary-700 lg:rounded-2 lg:rounded-top-0 lg:mx-2 lg:mt-0 z-0"
+        }
+      />{" "}
+      <div className="breadcrumbs panel z-1 py-2 dark:bg-opacity-5 text-white mt-8 lg:mt-10">
+        <div className="container max-w-xl">
+          <ul className="breadcrumb nav-x justify-center items-center gap-1 fs-7 m-0 fw-bold">
+            <li className="text-white">
+              <i className="unicon-home icon-1" />
+            </li>
+            <li>
+              <Link href={`/`}>Home</Link>
+            </li>
+            <li>
+              <i className="unicon-chevron-right fw-medium opacity-50 rtl:rotate-180" />
+            </li>
+            <li>
+              <Link href={`/blog`}>Blog</Link>
+            </li>
+            <li>
+              <i className="unicon-chevron-right fw-medium opacity-50 rtl:rotate-180" />
+            </li>
+            <li>
+              <span className="opacity-50">{blogItem.title}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="container max-w-fc">
+        <div className="post-author panel px-3 p-3 bg-gray-25 dark:bg-opacity-5 rounded lg:rounded-2 max-w-100 lg:max-w-900px xl:max-w-xl">
+          <h3 className="mb-0">Author:</h3>
+          {!isExpanded && (
+            <div
+              className="flex items-center gap-3 md:gap-4 pb-2 px-2 cursor-pointer"
+              onClick={toggleAuthorDetails}
+            >
+              <div className="row g-4 items-center">
+                <div className="col-12 sm:col-5 xl:col-3 mx-3">
+                  <figure className="featured-image m-0 rounded ratio ratio-1x1 uc-transition-toggle overflow-hidden w-48px">
+                    <Image
+                      className="media-cover image uc-transition-scale-up uc-transition-opaque rounded-full"
+                      src="/assets/images/avatars/avinash.webp"
+                      alt="Author Image"
+                      width="48"
+                      height="48"
+                    />
+                  </figure>
+                </div>
+                <div className="col">
+                  <div className="panel vstack items-start gap-2 md:gap-3">
+                    <h4 className="h5 m-0">Avinash Tripathi</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Expanded Author View */}
+          {isExpanded && (
+            <div
+              className="py-4 px-3 sm:px-4 uc-prose cursor-pointer"
+              onClick={toggleAuthorDetails}
+            >
+              <div className="row g-4 items-center">
+                <div className="col-12 sm:col-5 xl:col-3">
+                  <figure className="featured-image m-0 rounded ratio ratio-1x1 uc-transition-toggle overflow-hidden">
+                    <Image
+                      className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                      alt="Amir Nisi"
+                      src="/assets/images/avatars/avinash.webp"
+                      width="1000"
+                      height="667"
+                    />
+                  </figure>
+                </div>
+                <div className="col">
+                  <div className="panel vstack items-start gap-2 md:gap-3">
+                    <h4 className="h5 m-0">Avinash Tripathi</h4>
+                    <p className="fs-6">
+                      My journey into Generative Engine Optimization (GEO) began
+                      with a fortunate accident. I was happily working as an
+                      entrepreneur when one day, while researching, I noticed
+                      that Microsoft Copilot made a negative comment about my
+                      startup. Instead of ignoring what Copilot said, I chose to
+                      understand, learn, and understand how AI-driven search
+                      works, even though a lot of people around me felt that it
+                      was beyond my competence. My persistence paid off as my
+                      work has been featured by leading media companies such as
+                      The Hindu, Yahoo, and Scroll. Most recently, I was awarded
+                      the #1 GEO Consultant by YesUsers
+                    </p>
+                    <ul className="nav-x gap-1 text-gray-400 dark:text-white">
+                      <li>
+                        <a href="#medium">
+                          <i className="icon-2 unicon-logo-medium" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#x">
+                          <i className="icon-2 unicon-logo-x-filled" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#instagram">
+                          <i className="icon-2 unicon-logo-linkedin" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+      <article className="post type-post single-post pb-4 lg:pb-6 xl:pb-9">
         <div className="container max-w-xl">
           <div className="post-header uc-dark">
             <div className="panel vstack gap-4 md:gap-6 xl:gap-9 text-center">
@@ -507,6 +632,7 @@ export default function Blog2({ blogItem }) {
                 ></Link>
               </div>
             </div>
+            {/* <GEOCourseCTA /> */}
             <div className="post-related panel border-top pt-2 mt-8 xl:mt-9">
               <h4 className="h5 xl:h4 mb-5 xl:mb-6">Related to this topic:</h4>
               <div className="row child-cols-6 md:child-cols-4 gx-2 gy-4 sm:gx-3 sm:gy-6">

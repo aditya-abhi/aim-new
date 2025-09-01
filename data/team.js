@@ -276,16 +276,16 @@ export const awards = [
   {
     id: 1,
     imgSrc: "/assets/images/team/yesusers.webp",
-    alt: "YesUsers Award",
+    alt: "Yes Users award badge with five stars in a circular seal design",
   },
   {
     id: 2,
     imgSrc: "/assets/images/team/alchemist.webp",
-    alt: "Alchemist logo",
+    alt: "Alchemist Accelerator logo featuring a stylized letter A with the text Alchemist Accelerator below",
   },
   {
     id: 3,
     imgSrc: "/assets/images/team/designrush.webp",
-    alt: "DesignRush Top AI Company Award",
+    alt: "DesignRush award badge with five stars and laurel design, symbolizing recognition and excellence",
   },
 ];

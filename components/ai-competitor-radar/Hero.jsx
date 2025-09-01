@@ -68,51 +68,15 @@ export default function Hero() {
                   data-anime="targets: >*:not(.dashboard-image); scale: [0.5, 1]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
                 >
                   <div
-                    className="dashboard-image max-w-lg mx-auto max-h-250px lg:max-h-550px overflow-hidden"
+                    className="dashboard-image max-w-lg mx-auto max-h-250px lg:max-h-550px overflow-hidden rounded-3 lg:rounded-bottom-0"
                     data-anime="translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
                   >
                     <Image
                       className="shadow-md lg:shadow-lg"
                       alt="app-dashboard"
-                      src="/assets/images/template/app-dashboard.png"
+                      src="/assets/images/template/ai-competitor-radar.webp"
                       width="1280"
                       height="853"
-                    />
-                  </div>
-                  <div className="position-absolute top-50 end-0 translate-middle-y mt-2 lg:me-5">
-                    <Image
-                      className="w-100px text-primary lg:rounded-2 shadow-xl"
-                      alt="app-dashboard-helper-1"
-                      data-anime="scale: [0.5, 1]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 250;"
-                      src="/assets/images/template/app-dashboard-helper-1.png"
-                      width="306"
-                      height="583"
-                    />
-                  </div>
-                  <div
-                    className="position-absolute"
-                    style={{ top: "74%", right: "7%" }}
-                  >
-                    <Image
-                      className="w-48px lg:w-80px"
-                      alt="user-cursor"
-                      data-anime="loop: true; translateX: [-80,80]; translateY: [-80,80]; easing: easeOutElastic(1, .8); direction: 'alternate'; duration: 8000; delay: 3000;"
-                      src="/assets/images/template/user-cursor-2.svg"
-                      width="96"
-                      height="106"
-                    />
-                  </div>
-                  <div
-                    className="position-absolute"
-                    style={{ top: "64%", left: "26.5%" }}
-                  >
-                    <Image
-                      className="w-48px lg:w-80px"
-                      alt="user-cursor"
-                      data-anime="loop: true; translateX: [-80,80]; translateY: [-80,80]; easing: easeOutElastic(1, .8); direction: 'alternate'; duration: 7000; delay: 2000;"
-                      src="/assets/images/template/user-cursor-4.svg"
-                      width="94"
-                      height="108"
                     />
                   </div>
                 </div>

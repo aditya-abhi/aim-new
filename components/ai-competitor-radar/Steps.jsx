@@ -38,10 +38,10 @@ export default function Steps() {
                         <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
                           <Image
                             className="media-cover image"
-                            src="/assets/images/template/home-four-feature-01.png"
+                            src="/assets/images/tools/feature2-1.webp"
                             width={1400}
                             height={1412}
-                            alt="Ensuring timely delivery and maximum efficiency"
+                            alt="Sign Up & Activate Your Account with AI Competitor Radar"
                           />
                         </figure>
                       </div>
@@ -102,10 +102,10 @@ export default function Steps() {
                         <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
                           <Image
                             className="media-cover image"
-                            src="/assets/images/template/home-four-feature-01.png"
+                            src="/assets/images/tools/feature2-2.webp"
                             width={1400}
                             height={1412}
-                            alt="Ensuring timely delivery and maximum efficiency"
+                            alt="Add Your Domain & Install the Pixel code provided"
                           />
                         </figure>
                       </div>
@@ -124,10 +124,10 @@ export default function Steps() {
                               <div className="text-gray-800 dark:text-white mt-4">
                                 <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
                                   Once activated, enter the domain you want to
-                                  monitor. Our system begins scanning AI Bot
-                                  traffic on your website. To complete the
-                                  setup, copy your unique Pixel code and paste
-                                  it into your site’s section.
+                                  monitor. Our system begins scanning AI-driven
+                                  referrals automatically. To complete setup,
+                                  copy your unique Pixel code and paste it into
+                                  your site’s section.
                                 </p>
                                 <ul className="mt-2">
                                   <li>
@@ -141,7 +141,7 @@ export default function Steps() {
                                     Save and publish
                                   </li>
                                   <li>
-                                    <strong>AI Bot traffic tracking →</strong>{" "}
+                                    <strong>AI traffic tracking →</strong>{" "}
                                     Activated instantly
                                   </li>
                                 </ul>
@@ -168,10 +168,10 @@ export default function Steps() {
                         <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
                           <Image
                             className="media-cover image"
-                            src="/assets/images/template/home-four-feature-01.png"
+                            src="/assets/images/tools/feature2-3.webp"
                             width={1400}
                             height={1412}
-                            alt="Ensuring timely delivery and maximum efficiency"
+                            alt="Explore Your AI Competitor Radar Dashboard"
                           />
                         </figure>
                       </div>
@@ -185,31 +185,27 @@ export default function Steps() {
                                 <i className="unicon-cloud-download" />
                               </span>
                               <h3 className="h4 sm:h3 xl:h2 m-0">
-                                Step 3 — Explore Your Bot Dashboard
+                                Step 3 — View Your AI Traffic Dashboard
                               </h3>
                               <div className="text-gray-800 dark:text-white mt-4">
                                 <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
-                                  Dive into real-time insights on AI bot
-                                  activity. Monitor visit frequency, bot
-                                  identities, and behavioral patterns across
-                                  your site. Track the behavioral trends,
-                                  updated in real-time for precision and
-                                  clarity.
+                                  Your dashboard is now live and updating
+                                  hourly. See how AI platforms mention, link,
+                                  and refer traffic to your site—plus monitor
+                                  competitor visibility and query trends.
                                 </p>
                                 <ul className="mt-2">
                                   <li>
-                                    <strong>
-                                      View bot names & visit frequency →
-                                    </strong>{" "}
-                                    In real-time
+                                    <strong>Real-time AI referrals →</strong>{" "}
+                                    Tracked and visualized
                                   </li>
                                   <li>
-                                    <strong>Track Bot sources →</strong> Updated
-                                    hourly
+                                    <strong>Query insights →</strong> See what
+                                    drives discovery
                                   </li>
                                   <li>
-                                    <strong>Spot behavioral patterns →</strong>{" "}
-                                    Understand bot intent & engagemen
+                                    <strong>Deep dive →</strong> Stay ahead of
+                                    the curve
                                   </li>
                                 </ul>
                               </div>

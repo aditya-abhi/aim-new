@@ -3079,7 +3079,8 @@
     right: -18.5% !important;
   }
   .hero-five-account {
-    right: -12% !important;
+    right: -20% !important;
+    top: 30% !important;
   }
   [dir="rtl"] .hero-five-account {
     right: auto !important;
@@ -5884,6 +5885,9 @@
   .w-300px {
     width: 300px !important;
   }
+  .w-350px {
+    width: 350px !important;
+  }
   .w-400px {
     width: 400px !important;
   }
@@ -8335,6 +8339,9 @@
     .lg\:mt-9 {
       margin-top: 6rem !important;
     }
+    .lg\:mt-10 {
+      margin-top: 8rem !important;
+    }
     .lg\:me-5 {
       margin-right: 2.5rem !important;
     }
@@ -8723,6 +8730,9 @@
     .xl\:mt-10 {
       margin-top: 8rem !important;
     }
+    .xl\:mt-11 {
+      margin-top: 10rem !important;
+    }
     .xl\:me-4 {
       margin-right: 2rem !important;
     }
@@ -8888,6 +8898,18 @@
     }
     .xl\:min-h-700px {
       min-height: 700px !important;
+    }
+    .xl\:min-h-800px {
+      min-height: 800px !important;
+    }
+    .xl\:min-h-900px {
+      min-height: 900px !important;
+    }
+    .xl\:min-h-1000px {
+      min-height: 1000px !important;
+    }
+    .xl\:min-h-1100px {
+      min-height: 1100px !important;
     }
     .xl\:icon-2 {
       width: 24px !important;
@@ -9088,15 +9110,18 @@ html[dir="rtl"] .theme-4 .uc-navbar-left {
 //   }
 // }
 
-.sticky-element {
+.sticky-element-1 {
   position: sticky !important;
   top: 80px !important;
+  align-self: flex-start;
   height: fit-content !important;
+  z-index: 10;
 }
 
 .row {
   display: flex;
-  align-items: flex-start; /* This ensures the columns align at the top */
+  align-items: flex-start;
+  overflow: visible;
 }
 
 // .row {
@@ -9110,3 +9135,12 @@ html[dir="rtl"] .theme-4 .uc-navbar-left {
 //   position: sticky;
 //   top: 80px;
 // }
+
+// .md\:col-4 {
+//   position: relative;
+// }
+
+.rounded-bottom-0 {
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}

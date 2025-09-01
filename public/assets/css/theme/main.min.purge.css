@@ -5840,6 +5840,9 @@ textarea.form-control-lg {
 .max-w-100 {
   max-width: 100% !important;
 }
+.max-w-fc {
+  max-width: fit-content !important;
+}
 .h-4px {
   height: 4px !important;
 }
@@ -6088,6 +6091,12 @@ textarea.form-control-lg {
 }
 .mt-8 {
   margin-top: 4rem !important;
+}
+.mt-9 {
+  margin-top: 5rem !important;
+}
+.mt-10 {
+  margin-top: 8rem !important;
 }
 [dir="rtl"] .rtl\:me-0 {
   margin-right: 0 !important;
@@ -7239,6 +7248,12 @@ textarea.form-control-lg {
 .min-h-700px {
   min-height: 700px !important;
 }
+.min-h-800px {
+  min-height: 800px !important;
+}
+.min-h-1000px {
+  min-height: 800px !important;
+}
 .min-h-screen {
   min-height: 100vh !important;
 }
@@ -8096,6 +8111,9 @@ textarea.form-control-lg {
   .lg\:mt-9 {
     margin-top: 6rem !important;
   }
+  .lg\:mt-10 {
+    margin-top: 8rem !important;
+  }
   .lg\:me-5 {
     margin-right: 2.5rem !important;
   }
@@ -8321,6 +8339,12 @@ textarea.form-control-lg {
   .lg\:min-h-600px {
     min-height: 600px !important;
   }
+  .lg\:min-h-700px {
+    min-height: 700px !important;
+  }
+  .lg\:min-h-800px {
+    min-height: 800px !important;
+  }
   .lg\:icon-3 {
     width: 32px !important;
     height: 32px !important;
@@ -8474,6 +8498,9 @@ textarea.form-control-lg {
   }
   .xl\:mt-10 {
     margin-top: 8rem !important;
+  }
+  .xl\:mt-11 {
+    margin-top: 10rem !important;
   }
   .xl\:me-4 {
     margin-right: 2rem !important;
@@ -8637,6 +8664,18 @@ textarea.form-control-lg {
   }
   .xl\:min-h-700px {
     min-height: 700px !important;
+  }
+  .xl\:min-h-800px {
+    min-height: 800px !important;
+  }
+  .xl\:min-h-900px {
+    min-height: 900px !important;
+  }
+  .xl\:min-h-1000px {
+    min-height: 1000px !important;
+  }
+  .xl\:min-h-1100px {
+    min-height: 1100px !important;
   }
   .xl\:icon-2 {
     width: 24px !important;

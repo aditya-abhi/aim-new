@@ -112,12 +112,12 @@ export default function Hero() {
                     <Image
                       className="media-cover image"
                       alt="image"
-                      src="/assets/images/features/features-test.jpg"
+                      src="/assets/images/template/features-hero.webp"
                       width="1184"
                       height="1280"
                     />
                   </figure>
-                  <div
+                  {/* <div
                     className="hero-five-contries position-absolute sm:w-300px lg:w-250px xl:w-350px d-none sm:d-block"
                     data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 750; delay: 750;"
                     style={{ top: "20%" }}
@@ -125,20 +125,20 @@ export default function Hero() {
                     <Image
                       alt="List of mobile manufacturers with different market share"
                       data-anime="onscroll: .hero-scroll-scene; onscroll-offset: -200; onscroll-trigger: 0; onscroll-duration: 400%; translateY: [-100, 0];"
-                      src="/assets/images/template/brand.webp"
+                      src="/assets/images/template/features-2.webp"
                       width="600"
                       height="750"
                     />
-                  </div>
+                  </div> */}
                   <div
-                    className="hero-five-account position-absolute sm:w-250px lg:w-200px xl:w-300px d-none sm:d-block"
+                    className="hero-five-account position-absolute sm:w-250px lg:w-200px xl:w-350px d-none sm:d-block"
                     data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 750; delay: 750;"
                     style={{ bottom: "20%" }}
                   >
                     <Image
                       alt="Username with the company logo"
                       data-anime="onscroll: .hero-scroll-scene; onscroll-offset: -200; onscroll-trigger: 0; onscroll-duration: 400%; translateY: [100, 0];"
-                      src="/assets/images/template/username.png"
+                      src="/assets/images/template/features-2.webp"
                       width="500"
                       height="240"
                     />
