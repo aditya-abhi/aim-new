@@ -9069,3 +9069,39 @@ html[dir="rtl"] .theme-4 .uc-navbar-left {
   background-image: url("/assets/images/landing/hero-11-bg-light.jpg");
   background-size: cover;
 }
+
+// @media (min-width: 1000px) {
+//   .sticky-element {
+//     position: sticky !important;
+//     top: 80px !important;
+//     height: fit-content !important;
+//   }
+//   .sticky-element2 {
+//     position: sticky !important;
+//     bottom: 80px !important;
+//     height: fit-content !important;
+//   }
+//   .sticky-element3 {
+//     position: sticky !important;
+//     top: 0px !important;
+//     height: fit-content !important;
+//   }
+// }
+
+.sticky-element {
+  position: sticky !important;
+  top: 80px !important;
+  height: fit-content !important;
+}
+
+// .row {
+//   display: flex; /* Assuming you are using flexbox */
+//   flex-direction: row;
+//   height: 100vh; /* Set a specific height */
+//   overflow-y: auto; /* Make it scrollable */
+// }
+
+// .sticky-element {
+//   position: sticky;
+//   top: 80px;
+// }

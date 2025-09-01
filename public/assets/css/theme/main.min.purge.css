@@ -8746,3 +8746,20 @@ textarea.form-control-lg {
   --uc-gradient-from: #0b4437;
   --uc-gradient-stops: var(--uc-gradient-from), var(--uc-gradient-to);
 }
+@media (min-width: 1000px) {
+  .sticky-element {
+    position: sticky !important;
+    top: 80px !important;
+    height: fit-content !important;
+  }
+  .sticky-element2 {
+    position: sticky !important;
+    bottom: 80px !important;
+    height: fit-content !important;
+  }
+  .sticky-element3 {
+    position: sticky !important;
+    top: 0px !important;
+    height: fit-content !important;
+  }
+}

@@ -286,6 +286,6 @@ export const awards = [
   {
     id: 3,
     imgSrc: "/assets/images/team/designrush.webp",
-    alt: "DesignRush Top AI Company",
+    alt: "DesignRush Top AI Company Award",
   },
 ];
