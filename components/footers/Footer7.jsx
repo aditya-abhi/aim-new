@@ -39,15 +39,17 @@ export default function Footer7() {
                             height={39}
                           />
                         </Link>
-                        <p className="mt-2">
-                          Design amazing digital experiences that create more
-                          happy in the world.
+                        <p className="my-2">
+                          Empowering brands to be found, trusted, and chosen
+                          through customized Generative Engine Optimization and
+                          AI SEO strategies for today’s answer-first search
+                          landscape
                         </p>
                       </div>
-                      <LanguageSelect />
+                      {/* <LanguageSelect /> */}
                     </div>
                   </div>
-                  {footerLinks6.map((section, index) => (
+                  {/* {footerLinks6.map((section, index) => (
                     <div key={index} className={section.className || ""}>
                       <ul className="nav-y gap-2 fw-medium dark:text-white">
                         {section.links.map((link, linkIndex) => (
@@ -61,40 +63,111 @@ export default function Footer7() {
                         ))}
                       </ul>
                     </div>
-                  ))}
+                  ))} */}
+                  <ul className="nav-y gap-2 fw-medium dark:text-white">
+                    <li className="fw-bold">What We Do</li>
+                    <li>
+                      <Link href="/">Services</Link>
+                    </li>
+                    <li>
+                      <Link href="/">Features</Link>
+                    </li>
+                    <li>
+                      <Link href="/">Courses</Link>
+                    </li>
+                    <li>
+                      <Link href="/">Pricing</Link>
+                    </li>
+                    <li>
+                      <Link href="/">Blogs</Link>
+                    </li>
+                  </ul>
+                  <ul className="nav-y gap-2 fw-medium dark:text-white">
+                    <li className="fw-bold">Boring Legal Stuff</li>
+                    <li>
+                      <Link href="/">About</Link>
+                    </li>
+                    <li>
+                      <Link href="/">Contact</Link>
+                    </li>
+                    <li>
+                      <Link href="/">Privacy Policy</Link>
+                    </li>
+                    <li>
+                      <Link href="/">Terms</Link>
+                    </li>
+                    <li>
+                      <Link href="/">Refund Policy</Link>
+                    </li>
+                  </ul>
+                  <ul className="nav-y gap-0 fw-medium text-white d-none lg:d-block">
+                    <li className="fw-bold mb-1">Address:</li>
+                    <li className="">
+                      <h5 className="mb-0 fw-bold">India Office:</h5>
+                    </li>
+                    <li className="mt-0">
+                      <p>
+                        A-64, A Block, Sector 63, Noida,
+                        <br /> Uttar Pradesh – 201301
+                      </p>
+                    </li>
+                    <li className="mt-2">
+                      <h5 className="mb-0 fw-bold">US Office:</h5>
+                    </li>
+                    <li className="mt-0">
+                      <p>
+                        221 East Indianola Avenue,
+                        <br />
+                        Phoenix, Arizona 85012
+                      </p>
+                    </li>
+                  </ul>
                 </div>
               </div>
-              <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-between text-center pt-4 lg:pt-6 mt-6 border-top">
-                <p>Lexend © {new Date().getFullYear()}, All rights reserved.</p>
+              <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-between pt-4 lg:pt-6 mt-6 border-top">
+                <p>
+                  Amtolit Inc. DBA AI Monitor © {new Date().getFullYear()}, All
+                  rights reserved.
+                </p>
                 <ul className="nav-x justify-center gap-2">
                   <li>
-                    <a className="duration-150 hover:text-primary" href="#">
+                    <a
+                      className="duration-150 hover:text-primary"
+                      href="https://www.linkedin.com/company/get-ai-monitor/"
+                    >
                       <i className="icon icon-2 unicon-logo-linkedin" />
                     </a>
                   </li>
                   <li>
-                    <a className="duration-150 hover:text-primary" href="#">
-                      <i className="icon icon-2 unicon-logo-facebook" />
-                    </a>
-                  </li>
-                  <li>
-                    <a className="duration-150 hover:text-primary" href="#">
-                      <i className="icon icon-2 unicon-logo-x-filled" />
-                    </a>
-                  </li>
-                  <li>
-                    <a className="duration-150 hover:text-primary" href="#">
-                      <i className="icon icon-2 unicon-logo-instagram" />
-                    </a>
-                  </li>
-                  <li>
-                    <a className="duration-150 hover:text-primary" href="#">
+                    <a
+                      className="duration-150 hover:text-primary"
+                      href="https://www.youtube.com/@AI_MonitorOffiial"
+                    >
                       <i className="icon icon-2 unicon-logo-youtube" />
                     </a>
                   </li>
                   <li>
-                    <a className="duration-150 hover:text-primary" href="#">
-                      <i className="icon icon-2 unicon-logo-dribbble" />
+                    <a
+                      className="duration-150 hover:text-primary"
+                      href="https://www.facebook.com/people/AI-Monitor/61572471364497/"
+                    >
+                      <i className="icon icon-2 unicon-logo-facebook" />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="duration-150 hover:text-primary"
+                      href="https://x.com/getAiMonitor"
+                    >
+                      <i className="icon icon-2 unicon-logo-x-filled" />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="duration-150 hover:text-primary"
+                      href="https://www.instagram.com/aimonitorofficial/"
+                    >
+                      <i className="icon icon-2 unicon-logo-instagram" />
                     </a>
                   </li>
                 </ul>

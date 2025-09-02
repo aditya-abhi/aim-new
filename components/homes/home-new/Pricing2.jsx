@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 
 export default function Pricing() {
-  const [isService, setIsService] = useState(false);
+  const [isService, setIsService] = useState(true);
   return (
     <div id="hero_header" className="hero-header section panel overflow-hidden">
       {/* <div
@@ -55,20 +55,20 @@ export default function Pricing() {
                 className="uc-switcher-nav nav-x gap-0 p-narrow border rounded-2 fs-7 fw-medium"
                 data-uc-switcher="connect: .pricing-switcher;"
               >
-                <li className={!isService ? "uc-active" : ""}>
-                  <a
-                    onClick={() => setIsService(false)}
-                    className="text-none w-128px cstack p-1"
-                  >
-                    Tools
-                  </a>
-                </li>
                 <li className={isService ? "uc-active" : ""}>
                   <a
                     onClick={() => setIsService(true)}
                     className="text-none w-128px cstack p-1"
                   >
                     Services
+                  </a>
+                </li>
+                <li className={!isService ? "uc-active" : ""}>
+                  <a
+                    onClick={() => setIsService(false)}
+                    className="text-none w-128px cstack p-1"
+                  >
+                    Tools
                   </a>
                 </li>
               </ul>
@@ -152,9 +152,9 @@ export default function Pricing() {
                             ))}
                           </div>
                         </div>
-                        <span className="fs-7 opacity-70 min-h-24px">
+                        {/* <span className="fs-7 opacity-70 min-h-24px">
                           {isService ? tier.sincluded : tier.included}
-                        </span>
+                        </span> */}
                       </div>
                     </div>
                   ))}
@@ -166,7 +166,7 @@ export default function Pricing() {
               data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500;"
             >
               <Link
-                href={`/page-pricing`}
+                href={`/pricing`}
                 className="btn btn-md btn-secondary rounded-default border-opacity-20 hover:border-opacity-40 shadow-xs mt-4 lg:mt-6 xl:mt-8"
               >
                 <span>Compare plans</span>

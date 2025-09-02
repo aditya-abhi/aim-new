@@ -4,11 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import ProductPages from "./ProductPages";
-import Features from "./Features";
 import Solutions from "./Solutions";
-import Services from "./Services";
 import { categories } from "@/data/menu";
-import Courses from "./Courses";
 
 export default function Header7() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -80,7 +77,69 @@ export default function Header7() {
                 <ul className="uc-navbar-nav fs-5 gap-3 lg:gap-4 d-none lg:d-flex">
                   <li className="has-dd-menu">
                     <a href="#" role="button" aria-haspopup="true">
-                      Services{" "}
+                      Products{" "}
+                      <span
+                        data-uc-navbar-parent-icon=""
+                        className="uc-icon uc-navbar-parent-icon"
+                      >
+                        <svg width={12} height={12} viewBox="0 0 12 12">
+                          <polyline
+                            fill="none"
+                            stroke="#000"
+                            strokeWidth="1.1"
+                            points="1 3.5 6 8.5 11 3.5"
+                          />
+                        </svg>
+                      </span>
+                    </a>
+                    <div
+                      className="uc-dropbar uc-navbar-dropdown uc-dropbar-top ft-primary text-unset fs-6 fw-normal hide-scrollbar p-0 rounded-2 overflow-hidden shadow-xl bg-white dark:bg-tertiary-600 dark:text-white uc-drop uc-open"
+                      data-uc-drop=" offset: 8; boundary: !.uc-navbar; stretch: x; animation: uc-animation-slide-top-small; animate-out: uc-animation-slide-top-small; duration: 150;"
+                      style={{
+                        width: "100%",
+                        maxWidth: 1452,
+                      }}
+                    >
+                      <div className="uc-dropbar-content p-3 lg:p-6">
+                        <div className="container container-full">
+                          <div className="row child-cols-4 gx-6">
+                            <ProductPages />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="uc-dropbar-footer p-2 xl:p-4 xl:px-6 bg-gray-25 dark:bg-opacity-10 dark:text-white">
+                        <ul className="nav-x gap-4 fs-8">
+                          <li>
+                            <a href="#">
+                              <i className="fs-8 unicon-api" />
+                              <span className="border-bottom hover:border-primary duration-150">
+                                Explore Apps
+                              </span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i className="fs-8 unicon-airplay" />
+                              <span className="border-bottom hover:border-primary duration-150">
+                                AI Solutions
+                              </span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i className="fs-8 unicon-cloud-lightning" />
+                              <span className="border-bottom hover:border-primary duration-150">
+                                Join Lexend Early Access
+                              </span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="has-dd-menu">
+                    <a href="#" role="button" aria-haspopup="true">
+                      Solutions{" "}
                       <span
                         data-uc-navbar-parent-icon=""
                         className="uc-icon uc-navbar-parent-icon"
@@ -111,22 +170,20 @@ export default function Header7() {
                                 <div className="panel vstack gap-4 p-4">
                                   <div className="vstack gap-narrow flex-none">
                                     <h5 className="h5 xl:h4 m-0">
-                                      AI Monitor: Your AI Compass for expert
-                                      automation solutions
+                                      Workflow quick-start automation guide
                                     </h5>
                                     <p className="fs-7 opacity-60">
-                                      How we help you navigate AI complexities
-                                      to enhance your business efficiency.
+                                      How Lexend can help you automate your work
                                     </p>
                                   </div>
-                                  <div className="row child-cols-6 gx-4 col-match justify-between">
-                                    <Services />
+                                  <div className="row child-cols-4 gx-4 col-match justify-between">
+                                    <Solutions />
                                   </div>
                                 </div>
                               </div>
                               <div className="col-4">
                                 <div className="panel vstack gap-4 p-4 bg-gray-25 dark:bg-opacity-10 rounded-default">
-                                  {/* {categories.map((category, index) => (
+                                  {categories.map((category, index) => (
                                     <div
                                       key={index}
                                       className="panel category-section"
@@ -150,16 +207,7 @@ export default function Header7() {
                                         )}
                                       </ul>
                                     </div>
-                                  ))} */}
-                                  <Link href="/geo-course">
-                                    <Image
-                                      src="/assets/images/template/features-2.webp"
-                                      alt="AI Monitor"
-                                      width={400}
-                                      height={300}
-                                      className="rounded"
-                                    />
-                                  </Link>
+                                  ))}
                                 </div>
                               </div>
                             </div>
@@ -168,98 +216,29 @@ export default function Header7() {
                       </div>
                     </div>
                   </li>
-                  <li className="has-dd-menu">
-                    <a href="#" role="button" aria-haspopup="true">
-                      Features{" "}
-                      <span
-                        data-uc-navbar-parent-icon=""
-                        className="uc-icon uc-navbar-parent-icon"
-                      >
-                        <svg width={12} height={12} viewBox="0 0 12 12">
-                          <polyline
-                            fill="none"
-                            stroke="#000"
-                            strokeWidth="1.1"
-                            points="1 3.5 6 8.5 11 3.5"
-                          />
-                        </svg>
-                      </span>
-                    </a>
-                    <div
-                      className="uc-dropbar uc-navbar-dropdown uc-dropbar-top ft-primary text-unset fs-6 fw-normal hide-scrollbar p-0 rounded-2 overflow-hidden shadow-xl bg-white dark:bg-tertiary-600 dark:text-white uc-drop uc-open"
-                      data-uc-drop=" offset: 8; boundary: !.uc-navbar; stretch: x; animation: uc-animation-slide-top-small; animate-out: uc-animation-slide-top-small; duration: 150;"
-                      style={{
-                        width: "100%",
-                        maxWidth: 1452,
-                      }}
-                    >
-                      <div className="uc-dropbar-content p-3 lg:p-6">
-                        <div className="container container-full">
-                          <div className="row child-cols-4 gx-6">
-                            <Features />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li className="has-dd-menu">
-                    <a href="#" role="button" aria-haspopup="true">
-                      Courses{" "}
-                      <span
-                        data-uc-navbar-parent-icon=""
-                        className="uc-icon uc-navbar-parent-icon"
-                      >
-                        <svg width={12} height={12} viewBox="0 0 12 12">
-                          <polyline
-                            fill="none"
-                            stroke="#000"
-                            strokeWidth="1.1"
-                            points="1 3.5 6 8.5 11 3.5"
-                          />
-                        </svg>
-                      </span>
-                    </a>
-                    <div
-                      className="uc-dropbar uc-navbar-dropdown uc-dropbar-top ft-primary text-unset fs-6 fw-normal hide-scrollbar p-0 rounded-2 overflow-hidden shadow-xl bg-white dark:bg-tertiary-600 dark:text-white uc-drop uc-open"
-                      data-uc-drop=" offset: 8; boundary: !.uc-navbar; stretch: x; animation: uc-animation-slide-top-small; animate-out: uc-animation-slide-top-small; duration: 150;"
-                      style={{
-                        width: "100%",
-                        maxWidth: 1452,
-                      }}
-                    >
-                      <div className="uc-dropbar-content p-3 lg:p-6">
-                        <div className="container container-full">
-                          <div className="row child-cols-4 gx-6">
-                            <Courses />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  {/* <li>
+                  <li>
                     <Link href={`/blog-sidebar`}>Insights</Link>
-                  </li> */}
-                  <li>
-                    <Link href={`/pricing`}>Pricing</Link>
                   </li>
                   <li>
-                    <Link href={`/page-about`}>Blogs</Link>
+                    <Link href={`/page-pricing-2`}>Pricing</Link>
+                  </li>
+                  <li>
+                    <Link href={`/page-about`}>About</Link>
                   </li>
                 </ul>
               </div>
               <div className="uc-navbar-right">
-                {/* <Link
+                <Link
                   className="uc-link fs-5 text-dark dark:text-white"
                   href={`/sign-in`}
                 >
                   Log in
-                </Link> */}
+                </Link>
                 <Link
                   className="btn btn-md btn-tertiary dark:bg-white dark:text-dark border fs-5 lg:px-3 d-none lg:d-inline-flex shadow-xs"
-                  href="https://appt.link/ai-monitor/30-minutes-introductory-call"
-                  target="_blank"
+                  href={`/sign-up`}
                 >
-                  Get-Started
+                  Sign up
                 </Link>
                 <a
                   className="btn btn-md btn-tertiary w-48px h-48px d-inline-flex lg:d-none"

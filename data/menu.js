@@ -1,233 +1,179 @@
 export const menuItems = [
   {
     id: 1,
+    href: "/",
     label: "Home",
+  },
+  {
+    id: 2,
+    label: "Services",
     subItems: [
       {
         href: "/",
-        label: "Home 1",
+        label: "AI Search Analytics",
       },
       {
         href: "/home-2",
-        label: "Home 2",
+        label: "GEO Services",
       },
       {
         href: "/home-3",
-        label: "Home 3",
+        label: "LLM SEO Services",
       },
       {
         href: "/home-4",
-        label: "Home 4",
+        label: "Competitor Benchmarking",
       },
       {
         href: "/home-5",
-        label: "Home 5",
+        label: "AI Prompt Monitoring",
       },
       {
         href: "/home-6",
-        label: "Home 6",
+        label: "SaaS SEO Services",
       },
       {
         href: "/home-7",
-        label: "Home 7",
+        label: "AEO Services",
       },
       {
         href: "/home-8",
-        label: "Home 8",
+        label: "Marketing Analytics",
       },
       {
         href: "/home-9",
-        label: "Home 9",
+        label: "SaaS Reddit Marketing",
       },
       {
         href: "/home-10",
-        label: "Home 10",
-      },
-      {
-        href: "/rtl",
-        label: "Home RTL",
+        label: "SaaS Content Marketing",
       },
     ],
   },
   {
-    id: 2,
-    href: "/page-features",
+    id: 3,
+    // href: "/features",
     label: "Features",
-  },
-  {
-    id: 3,
-    href: "/page-pricing",
-    label: "Pricing",
-  },
-  {
-    id: 3,
-    href: "/page-pricing-2",
-    label: "Pricing 2",
+    subItems: [
+      {
+        href: "/features/ai-visibility-checker",
+        label: "AI Visibility Checker",
+      },
+      {
+        href: "/features/ai-competitor-radar",
+        label: "AI Competitor Radar",
+      },
+      {
+        href: "/features/ai-crawlability-clinic",
+        label: "AI Crawlability Clinic",
+      },
+    ],
   },
   {
     id: 4,
-    href: "/page-about",
-    label: "About",
+    href: "/pricing",
+    label: "Pricing",
   },
   {
     id: 5,
-    href: "/page-career",
-    label: "Career",
+    href: "/blogs",
+    label: "Blogs",
   },
   {
     id: 6,
     href: "/page-contact",
-    label: "Contact",
+    label: "Contact-Us",
   },
-  {
-    id: 7,
-    label: "Inner Pages",
-    subItems: [
-      {
-        label: "Blog",
-        subItems: [
-          {
-            href: "/blog",
-            label: "Full Width",
-          },
-          {
-            href: "/blog-2cols",
-            label: "Grid 2 Cols",
-          },
-          {
-            href: "/blog-sidebar",
-            label: "Sidebar",
-          },
-          {
-            href: "/blog-sidebar-left",
-            label: "Sidebar Left",
-          },
-          {
-            href: "/blog-3cols/",
-            label: "Grid 3 Cols",
-          },
-          {
-            href: "/blog-4cols/",
-            label: "Grid 4 Cols",
-          },
-        ],
-      },
-      {
-        label: "Blog - detail",
-        subItems: [
-          {
-            href: "/blog-details/1",
-            label: "Blog detail",
-          },
-          {
-            href: "/blog-details-2/1",
-            label: "Blog detail - v2",
-          },
-        ],
-      },
-      {
-        label: "Useful pages",
-        subItems: [
-          {
-            href: "/sign-up",
-            label: "Sign up",
-          },
-          {
-            href: "/sign-in",
-            label: "Sign in",
-          },
-          {
-            href: "/reset-password",
-            label: "Reset password",
-          },
-          {
-            href: "/page-not-found",
-            label: "404 page",
-          },
-          {
-            href: "/coming-soon",
-            label: "Coming soon",
-          },
-        ],
-      },
-      {
-        label: "Other pages",
-        subItems: [
-          {
-            href: "/page-terms",
-            label: "FAQ",
-          },
-          {
-            href: "/page-terms",
-            label: "Terms of use",
-          },
-          {
-            href: "/page-privacy",
-            label: "Privacy policy",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 8,
-    label: "Shop",
-    subItems: [
-      {
-        label: "Shop layouts",
-        subItems: [
-          {
-            href: "/shop",
-            label: "Shop 4 cols",
-          },
-          {
-            href: "/shop-3",
-            label: "Shop 3 cols",
-          },
-          {
-            href: "/shop-2",
-            label: "Shop 2 cols",
-          },
-          {
-            href: "/shop-sidebar",
-            label: "Shop with sidebar",
-          },
-        ],
-      },
-      {
-        href: "/shop-category/demo",
-        label: "Archive category",
-      },
-      {
-        href: "/shop-product-detail/2",
-        label: "Product detail",
-      },
-      {
-        href: "/shop-product-detail-2/2",
-        label: "Product detail - v2",
-      },
-      {
-        href: "/shop-cart",
-        label: "Cart",
-      },
-      {
-        href: "/shop-cart-2",
-        label: "Cart - v2",
-      },
-      {
-        href: "/shop-checkout",
-        label: "Checkout",
-      },
-      {
-        href: "/shop-checkout-2",
-        label: "Checkout - v2",
-      },
-      {
-        href: "/shop-order",
-        label: "Order confirmation",
-      },
-    ],
-  },
+  // {
+  //   id: 7,
+  //   label: "Inner Pages",
+  //   subItems: [
+  //     {
+  //       label: "Blog",
+  //       subItems: [
+  //         {
+  //           href: "/blog",
+  //           label: "Full Width",
+  //         },
+  //         {
+  //           href: "/blog-2cols",
+  //           label: "Grid 2 Cols",
+  //         },
+  //         {
+  //           href: "/blog-sidebar",
+  //           label: "Sidebar",
+  //         },
+  //         {
+  //           href: "/blog-sidebar-left",
+  //           label: "Sidebar Left",
+  //         },
+  //         {
+  //           href: "/blog-3cols/",
+  //           label: "Grid 3 Cols",
+  //         },
+  //         {
+  //           href: "/blog-4cols/",
+  //           label: "Grid 4 Cols",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       label: "Blog - detail",
+  //       subItems: [
+  //         {
+  //           href: "/blog-details/1",
+  //           label: "Blog detail",
+  //         },
+  //         {
+  //           href: "/blog-details-2/1",
+  //           label: "Blog detail - v2",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       label: "Useful pages",
+  //       subItems: [
+  //         {
+  //           href: "/sign-up",
+  //           label: "Sign up",
+  //         },
+  //         {
+  //           href: "/sign-in",
+  //           label: "Sign in",
+  //         },
+  //         {
+  //           href: "/reset-password",
+  //           label: "Reset password",
+  //         },
+  //         {
+  //           href: "/page-not-found",
+  //           label: "404 page",
+  //         },
+  //         {
+  //           href: "/coming-soon",
+  //           label: "Coming soon",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       label: "Other pages",
+  //       subItems: [
+  //         {
+  //           href: "/page-terms",
+  //           label: "FAQ",
+  //         },
+  //         {
+  //           href: "/page-terms",
+  //           label: "Terms of use",
+  //         },
+  //         {
+  //           href: "/page-privacy",
+  //           label: "Privacy policy",
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
 ];
 
 export const pagesData = [
@@ -638,6 +584,28 @@ export const icons = [
   { href: "#", iconClass: "unicon-logo-x-filled icon-2" },
   { href: "#", iconClass: "unicon-logo-instagram icon-2" },
   { href: "#", iconClass: "unicon-logo-pinterest icon-2" },
+];
+export const socialIcons = [
+  {
+    href: "https://www.linkedin.com/company/get-ai-monitor/",
+    iconClass: "unicon-logo-linkedin icon-2",
+  },
+  {
+    href: "https://www.youtube.com/@AI_MonitorOffiial",
+    iconClass: "unicon-logo-youtube icon-2",
+  },
+  {
+    href: "https://www.facebook.com/people/AI-Monitor/61572471364497/",
+    iconClass: "unicon-logo-facebook icon-2",
+  },
+  {
+    href: "https://x.com/getAiMonitor",
+    iconClass: "unicon-logo-x-filled icon-2",
+  },
+  {
+    href: "https://www.instagram.com/aimonitorofficial/",
+    iconClass: "unicon-logo-instagram icon-2",
+  },
 ];
 export const features = [
   {
@@ -1076,5 +1044,176 @@ export const categories = [
       { text: "Terms of service", href: "/page-terms" },
       { text: "Privacy Policy", href: "/page-privacy" },
     ],
+  },
+];
+export const services = [
+  {
+    title: "Pillars of Growth",
+    icon: "unicon-glyph-square-fill",
+    items: [
+      {
+        icon: "unicon-checkmark",
+        title: "AI Search Analytics",
+        description:
+          "Managing multiple software and tools for different tasks.",
+        link: "/",
+      },
+      {
+        icon: "unicon-chart-pie",
+        title: "GEO Services",
+        description: "The latest industry reports, updates and info.",
+        link: "",
+      },
+      {
+        icon: "unicon-increase-level",
+        title: "LLM SEO Services",
+        description: "Suite of tools that cover all aspects of your business.",
+        link: "",
+      },
+      {
+        icon: "unicon-increase-level",
+        title: "Competitor Benchmarking",
+        description: "Suite of tools that cover all aspects of your business.",
+        link: "",
+      },
+      {
+        icon: "unicon-increase-level",
+        title: "AI Prompt Monitoring",
+        description: "Suite of tools that cover all aspects of your business.",
+        link: "",
+      },
+    ],
+  },
+  {
+    title: "Strategic Solutions",
+    icon: "unicon-glyph-circle-fill",
+    items: [
+      {
+        icon: "unicon-chart-venn-diagram",
+        title: "SaaS SEO Services",
+        description: "Assign tasks, share files with your team.",
+        link: "",
+      },
+      {
+        icon: "unicon-chat",
+        title: "AEO Services",
+        description: "Assign tasks, share files with your team.",
+        link: "",
+      },
+      {
+        icon: "unicon-checkmark",
+        title: "Marketing Analytics",
+        description:
+          "Managing multiple software and tools for different tasks.",
+        link: "",
+      },
+      {
+        icon: "unicon-checkmark",
+        title: "SaaS Reddit Marketing",
+        description:
+          "Managing multiple software and tools for different tasks.",
+        link: "",
+      },
+      {
+        icon: "unicon-checkmark",
+        title: "SaaS Content Marketing",
+        description:
+          "Managing multiple software and tools for different tasks.",
+        link: "",
+      },
+    ],
+  },
+];
+
+export const featuresHeader = [
+  {
+    title: "AI Visibility Checker",
+    link: "/",
+    icon: "unicon-cube",
+    items: [
+      {
+        iconSrc: "/assets/images/custom-icons/home-8-icon-01.svg",
+        title: "Real-time AI Visibility",
+        description: "Design personalized emails that convert",
+        ilink: "/",
+      },
+      {
+        iconSrc: "/assets/images/custom-icons/home-8-icon-02.svg",
+        title: "Platform-wise Brand Insights",
+        description: "Deliver the right message to the right user",
+        ilink: "/",
+      },
+      {
+        iconSrc: "/assets/images/custom-icons/home-8-icon-03.svg",
+        title: "Sentiment & Perception Analysis",
+        description: "Track sales & campaign performance",
+        ilink: "/",
+      },
+    ],
+    viewAllText: "View all products",
+  },
+  {
+    title: "AI Competitor Radar",
+    link: "/test",
+    icon: "unicon-gamification",
+    items: [
+      {
+        iconSrc: "/assets/images/custom-icons/home-8-icon-04.svg",
+        title: "Trend & Activity Alerts",
+        description: "Say hello to your AI growth assistant",
+        ilink: "/test",
+      },
+      {
+        iconSrc: "/assets/images/custom-icons/home-8-icon-05.svg",
+        title: "Performance Benchmarking",
+        description: "Amplify the conversation across channels",
+        ilink: "/test",
+      },
+      {
+        iconSrc: "/assets/images/custom-icons/home-8-icon-06.svg",
+        title: "Competitor AI Footprint Tracking",
+        description: "Our services offerings",
+        ilink: "/test",
+      },
+    ],
+    viewAllText: "View all solutions",
+  },
+  {
+    title: "AI Crawlability Clinic",
+    link: "/geo-course",
+    icon: "unicon-cube",
+    items: [
+      {
+        iconSrc: "/assets/images/custom-icons/home-8-icon-01.svg",
+        title: "AI Crawlers Monitoring",
+        description: "Design personalized emails that convert",
+        ilink: "/geo-course",
+      },
+      {
+        iconSrc: "/assets/images/custom-icons/home-8-icon-02.svg",
+        title: "Bot Behaviour Insights",
+        description: "Deliver the right message to the right user",
+        ilink: "/geo-course",
+      },
+      {
+        iconSrc: "/assets/images/custom-icons/home-8-icon-03.svg",
+        title: "Indexing & Performance Monitoring",
+        description: "Track sales & campaign performance",
+        ilink: "/geo-course",
+      },
+    ],
+    viewAllText: "View all products",
+  },
+];
+export const coursesHeader = [
+  {
+    title: "Generative Engine Optimization Course",
+    link: "/geo-course",
+    icon: "unicon-cube",
+  },
+  {
+    title: "Answer Engine Optimization Course",
+    link: "/test",
+    icon: "unicon-gamification",
   },
 ];

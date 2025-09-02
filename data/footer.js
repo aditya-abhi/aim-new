@@ -279,3 +279,38 @@ export const footerLinks6 = [
     className: "d-none lg:d-block", // Additional class for the third section
   },
 ];
+export const footerLink = [
+  {
+    title: "Company",
+    links: [
+      { text: "How it works", href: "#how_it_works" },
+      { text: "Features", href: "#features" },
+      { text: "Key Goods", href: "#key_features" },
+      { text: "Pro Elements", href: "#builder_elements" },
+      { text: "Pricing", href: "#pricing" },
+      { text: "Changelog", href: "#" },
+    ],
+  },
+  {
+    title: "Legal",
+    links: [
+      { text: "About us", href: "/page-about", isLink: true },
+      { text: "Careers", href: "/page-career", isLink: true },
+      { text: "Press", href: "#", isLink: false },
+      { text: "News", href: "/blog", isLink: true },
+      { text: "Media kit", href: "#", isLink: false },
+      { text: "Contact", href: "/page-contacct", isLink: true },
+    ],
+  },
+  // {
+  //   links: [
+  //     { text: "Blog", href: "/blog", isLink: true },
+  //     { text: "Newsletter", href: "#", isLink: false },
+  //     { text: "Events", href: "#", isLink: false },
+  //     { text: "Help center", href: "#", isLink: false },
+  //     { text: "Tutorials", href: "#", isLink: false },
+  //     { text: "Support", href: "#", isLink: false },
+  //   ],
+  //   className: "d-none lg:d-block", // Additional class for the third section
+  // },
+];
