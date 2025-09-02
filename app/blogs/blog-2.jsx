@@ -1,5 +1,5 @@
 "use client";
-import Sidebar from "@/components/blog/Sidebar";
+import Toc from "@/components/blog/Toc";
 import RelatedBlogs from "../../components/blog/RelatedBlogs";
 import Image from "next/image";
 import Link from "next/link";
@@ -216,7 +216,7 @@ export default function Blog2({ blogItem }) {
                     <div
                       className="post-content panel fs-6 md:fs-5"
                       data-uc-lightbox="animation: scale"
-                    >
+                    ><h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">Introduction</h2>
                       <p>
                         She started her blog exactly six months before I
                         launched Camels &amp; Chocolate, and she really set the
@@ -293,9 +293,120 @@ export default function Blog2({ blogItem }) {
                           showing without words.
                         </p>
                       </div>
-                      <h4 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        Capital of Texas
-                      </h4>
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                      Capital of Texas
+                      </h2>
+                      <p>
+                        Visual storytelling is simply the way most brands will
+                        decide to go in 2016 &amp; beyond, as they try to tell
+                        their story to their customers the oldest and most
+                        important unwritten rule in film industry says that you
+                        shouldn’t rely much on words to tell your story. In
+                        fact, you should rely on them as less as possible. It’s
+                        no coincidence that Buster Keaton and Charlot’s movies
+                        remain among the biggest classic movies of all time. In
+                        fact, not being able to rely on spoken word made them
+                        better storytellers. They fully understood and used the
+                        power of showing without words.
+                      </p>
+                      <p className="mt-3">
+                        While Denver sits at the base of the Rocky Mountains,
+                        it’s not considered a mountain town since it takes at
+                        least an hour to get to the Rockies for snowboarding and
+                        ski activities, a local expert explained sits at the
+                        base of the Rocky Mountains, it’s not considered a
+                        mountain town since it takes at least an hour to get to
+                        the Rockies for snowboarding and ski activities, a local
+                        expert explained.
+                      </p>
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/post-2.jpg"
+                          thumbnail="/assets/images/blog/post-2.jpg"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt="Pink Marketing, by Mak"
+                                src="/assets/images/blog/post-2.jpg"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption="Pink Marketing, by Mak"
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                        <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
+                          Pink Marketing, by Mak
+                        </figcaption>
+                      </figure>
+                      <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                   Capital of Texas 2
+                      </h3>
+                      <p>
+                        Visual storytelling is simply the way most brands will
+                        decide to go in 2016 &amp; beyond, as they try to tell
+                        their story to their customers the oldest and most
+                        important unwritten rule in film industry says that you
+                        shouldn’t rely much on words to tell your story. In
+                        fact, you should rely on them as less as possible. It’s
+                        no coincidence that Buster Keaton and Charlot’s movies
+                        remain among the biggest classic movies of all time. In
+                        fact, not being able to rely on spoken word made them
+                        better storytellers. They fully understood and used the
+                        power of showing without words.
+                      </p>
+                      <p className="mt-3">
+                        While Denver sits at the base of the Rocky Mountains,
+                        it’s not considered a mountain town since it takes at
+                        least an hour to get to the Rockies for snowboarding and
+                        ski activities, a local expert explained sits at the
+                        base of the Rocky Mountains, it’s not considered a
+                        mountain town since it takes at least an hour to get to
+                        the Rockies for snowboarding and ski activities, a local
+                        expert explained.
+                      </p>
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/post-2.jpg"
+                          thumbnail="/assets/images/blog/post-2.jpg"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt="Pink Marketing, by Mak"
+                                src="/assets/images/blog/post-2.jpg"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption="Pink Marketing, by Mak"
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                        <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
+                          Pink Marketing, by Mak
+                        </figcaption>
+                      </figure>
+
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        Capital of Texas3 
+                      </h2>
                       <p>
                         Visual storytelling is simply the way most brands will
                         decide to go in 2016 &amp; beyond, as they try to tell
@@ -368,6 +479,164 @@ export default function Blog2({ blogItem }) {
                         decide to go in 2016 &amp; beyond, as they try to tell
                         their story to their customers.
                       </p>
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        Great Schools and Entertainment1
+                      </h2>
+                      <p>
+                        Education is a high point when it comes to analyzing the
+                        quality of life factors that make Ann Arbor one of the
+                        best places to live. The University of Michigan, which
+                        has 43,000 students, makes Ann Arbor a perennial
+                        candidate for our annual ranking of the best college
+                        towns and plays a big role in the city’s economy and
+                        culture.
+                      </p>
+                      <p className="mt-3">
+                        While Denver sits at the base of the Rocky Mountains,
+                        it's not considered a mountain town since it takes
+                        considered at least an hour to get to the Rockies for
+                        snowboarding and ski activities, a local expert
+                        explained sits at the base of the Rocky Mountains, it's
+                        not considered a mountain town since it takes at least
+                        an hour to get to the Rockies for snowboarding and ski
+                        activities, a local expert explained.
+                      </p>
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        Capital of Texas4
+                      </h2>
+                      <p>
+                        Visual storytelling is simply the way most brands will
+                        decide to go in 2016 &amp; beyond, as they try to tell
+                        their story to their customers the oldest and most
+                        important unwritten rule in film industry says that you
+                        shouldn’t rely much on words to tell your story. In
+                        fact, you should rely on them as less as possible. It’s
+                        no coincidence that Buster Keaton and Charlot’s movies
+                        remain among the biggest classic movies of all time. In
+                        fact, not being able to rely on spoken word made them
+                        better storytellers. They fully understood and used the
+                        power of showing without words.
+                      </p>
+                      <p className="mt-3">
+                        While Denver sits at the base of the Rocky Mountains,
+                        it’s not considered a mountain town since it takes at
+                        least an hour to get to the Rockies for snowboarding and
+                        ski activities, a local expert explained sits at the
+                        base of the Rocky Mountains, it’s not considered a
+                        mountain town since it takes at least an hour to get to
+                        the Rockies for snowboarding and ski activities, a local
+                        expert explained.
+                      </p>
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/post-2.jpg"
+                          thumbnail="/assets/images/blog/post-2.jpg"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt="Pink Marketing, by Mak"
+                                src="/assets/images/blog/post-2.jpg"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption="Pink Marketing, by Mak"
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                        <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
+                          Pink Marketing, by Mak
+                        </figcaption>
+                      </figure>
+                      <p>
+                        get to the Rockies for snowboarding and ski
+                        activities, a local expert explained.
+                      </p>
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        Capital of Texas5
+                      </h2>
+                      <p>
+                        Visual storytelling is simply the way most brands will
+                        decide to go in 2016 &amp; beyond, as they try to tell
+                        their story to their customers the oldest and most
+                        important unwritten rule in film industry says that you
+                        shouldn’t rely much on words to tell your story. In
+                        fact, you should rely on them as less as possible. It’s
+                        no coincidence that Buster Keaton and Charlot’s movies
+                        remain among the biggest classic movies of all time. In
+                        fact, not being able to rely on spoken word made them
+                        better storytellers. They fully understood and used the
+                        power of showing without words.
+                      </p>
+                      <p className="mt-3">
+                        While Denver sits at the base of the Rocky Mountains,
+                        it’s not considered a mountain town since it takes at
+                        least an hour to get to the Rockies for snowboarding and
+                        ski activities, a local expert explained sits at the
+                        base of the Rocky Mountains, it’s not considered a
+                        mountain town since it takes at least an hour to get to
+                        the Rockies for snowboarding and ski activities, a local
+                        expert explained.
+                      </p>
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/post-2.jpg"
+                          thumbnail="/assets/images/blog/post-2.jpg"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt="Pink Marketing, by Mak"
+                                src="/assets/images/blog/post-2.jpg"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption="Pink Marketing, by Mak"
+                              ></a>
+                              <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
+                                Pink Marketing, by Mak
+                              </figcaption>
+                            </figure>
+                          )}
+                        </Item>
+                      </figure>
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        Great Schools and Entertainment 2
+                      </h2>
+                      <p>
+                        Education is a high point when it comes to analyzing the
+                        quality of life factors that make Ann Arbor one of the
+                        best places to live. The University of Michigan, which
+                        has 43,000 students, makes Ann Arbor a perennial
+                        candidate for our annual ranking of the best college
+                        towns and plays a big role in the city’s economy and
+                        culture.
+                      </p>
+                      <p className="mt-3">
+                        While Denver sits at the base of the Rocky Mountains,
+                        it’s not considered a mountain town since it takes
+                        considered at least an hour to get to the Rockies for
+                        snowboarding and ski activities, a local expert
+                        explained sits at the base of the Rocky Mountains, it’s
+                        not considered a mountain town since it takes at least
+                        an hour to get to the Rockies for snowboarding and ski
+                        activities, a local expert explained.
+                      </p>
                       <h4 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         Great Schools and Entertainment
                       </h4>
@@ -420,23 +689,66 @@ export default function Blog2({ blogItem }) {
                             Great Schools and Entertainment
                           </figcaption>
                         </figure>
-                        <p>
-                          Bike paths and sidewalks make getting to and from the
-                          city’s many festivals, museums, restaurants and music
-                          venues easy. A range of amenities provides many things
-                          to do in Bellevue. About 40 percent of the city’s
-                          population are minorities, which contributes to an
-                          overall diverse range of lifestyles and ideas.
-                        </p>
-                        <p>
-                          While Denver sits at the base of the Rocky Mountains,
-                          it’s not considered a mountain town since it takes at
-                          least an hour to get to the Rockies for snowboarding
-                          and ski activities, a local expert explained. Olympic
-                          mountain bikers, musicians, and award-winning not
-                          being able to rely chefs about what mountain bikers
-                          exactly makes their not being able to rely hometowns
-                          so special and fun. In fact, not being able to rely on
+                        <h4 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        Great Schools and Entertainment
+                      </h4>
+                      <p>
+                        Education is a high point when it comes to analyzing the
+                        quality of life factors that make Ann Arbor one of the
+                        best places to live. The University of Michigan, which
+                        has 43,000 students, makes Ann Arbor a perennial
+                        candidate for our annual ranking of the best college
+                        towns and plays a big role in the city’s economy and
+                        culture.
+                      </p>
+                      <p className="mt-3">
+                        While Denver sits at the base of the Rocky Mountains,
+                        it’s not considered a mountain town since it takes
+                        considered at least an hour to get to the Rockies for
+                        snowboarding and ski activities, a local expert
+                        explained sits at the base of the Rocky Mountains, it’s
+                        not considered a mountain town since it takes at least
+                        an hour to get to the Rockies for snowboarding and ski
+                        activities, a local expert explained.
+                      </p>
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        Great Schools and Entertainment 5
+                      </h2>
+                      <p>
+                        Education is a high point when it comes to analyzing the
+                        quality of life factors that make Ann Arbor one of the
+                        best places to live. The University of Michigan, which
+                        has 43,000 students, makes Ann Arbor a perennial
+                        candidate for our annual ranking of the best college
+                        towns and plays a big role in the city’s economy and
+                        culture.
+                      </p>
+                      <p className="mt-3">
+                        While Denver sits at the base of the Rocky Mountains,
+                        it’s not considered a mountain town since it takes
+                        considered at least an hour to get to the Rockies for
+                        snowboarding and ski activities, a local expert
+                        explained sits at the base of the Rocky Mountains, it’s
+                        not considered a mountain town since it takes at least
+                        an hour to get to the Rockies for snowboarding and ski
+                        activities, a local expert explained.
+                      </p>
+                      <p>
+                        Bike paths and sidewalks make getting to and from the
+                        city's many festivals, museums, restaurants and music
+                        venues easy. A range of amenities provides many things
+                        to do in Bellevue. About 40 percent of the city's
+                        population are minorities, which contributes to an
+                        overall diverse range of lifestyles and ideas.
+                      </p>
+                      <p className="mt-3">
+                        While Denver sits at the base of the Rocky Mountains,
+                        it's not considered a mountain town since it takes at
+                        least an hour to get to the Rockies for snowboarding
+                        and ski activities, a local expert explained. Olympic
+                        mountain bikers, musicians, and award-winning chefs
+                        about what exactly makes their hometowns so special and
+                        fun. In fact, not being able to rely on
                           spoken word made them better storytellers. They fully
                           understood and used the power of showing without
                           words. They fully understood and used the power of
@@ -460,8 +772,10 @@ export default function Blog2({ blogItem }) {
                   </Gallery>
                 </div>
               </div>
-              <div className="md:col-4 order-2 lg:order-0 sticky-element2">
-                <Sidebar />
+              <div className="md:col-4 order-2 lg:order-0">
+                <div>
+                  <Toc />
+                </div>
               </div>
             </div>
             <div className="post-footer panel vstack sm:hstack gap-3 justify-between justifybetween border-top py-4 mt-4 xl:py-9 xl:mt-9">
@@ -634,7 +948,7 @@ export default function Blog2({ blogItem }) {
             </div>
             {/* <GEOCourseCTA /> */}
             <div className="post-related panel border-top pt-2 mt-8 xl:mt-9">
-              <h4 className="h5 xl:h4 mb-5 xl:mb-6">Related to this topic:</h4>
+              <h2 className="h5 xl:h4 mb-5 xl:mb-6">Related to this topic:</h2>
               <div className="row child-cols-6 md:child-cols-4 gx-2 gy-4 sm:gx-3 sm:gy-6">
                 <RelatedBlogs />
               </div>
