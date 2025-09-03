@@ -684,7 +684,7 @@ export default function Blog1({ blogItem }) {
           {/* Trial with sidebar */}
           <div className="container">
             <div className="row child-cols-12 g-2 lg:g-4 xl:g-8">
-              <div className="md:col-8 order-1">
+              <div className="md:col-8 order-0">
                 <div className="uc-main panel" role="main">
                   <Gallery>
                     <div
@@ -934,7 +934,7 @@ export default function Blog1({ blogItem }) {
                   </Gallery>
                 </div>
               </div>
-              <div className="md:col-4 order-2 lg:order-0 sticky-element-1">
+              <div className="md:col-4 order-2 lg:order-1 sticky-element-1">
                 <Sidebar />
               </div>
             </div>

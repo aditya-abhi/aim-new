@@ -438,3 +438,54 @@ export const accordionHome = [
     expanded: false,
   },
 ];
+
+export const accordionServicesFAQ = [
+  {
+    id: 1,
+    question: "What is the difference between what you do and traditional SEO?",
+    answer:
+      "Traditional SEO focuses on ranking a list of links. We focus on making your brand the source of the answer itself. We optimize your entire digital presence to be cited and recommended by AI, a specialized discipline beyond keywords and backlinks.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "Which AI platforms do you optimize for?",
+    answer:
+      "We cover the entire AI search ecosystem, including ChatGPT, Google AI Overviews, Perplexity, Claude, Microsoft Copilot, and Gemini.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Who is this service for?",
+    answer:
+      "Our services are best suited for B2B SaaS companies, established enterprises, and global brands that understand the importance of being a first-mover in the new landscape of AI-driven search.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "How quickly can we expect to see results?",
+    answer:
+      'While building foundational authority takes time, clients often see initial improvements in AI mentions and visibility within the first 60-90 days as we implement "quick win" optimizations.',
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "What kind of metrics do you report on?",
+    answer:
+      "We provide a comprehensive dashboard tracking Total AI Mentions & Citations, Share of Voice vs. Competitors, Traffic from AI Referrals, and Sentiment Analysis of how AI portrays your brand.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Is your technology built on an open-source tool?",
+    answer:
+      "Yes. Our proprietary monitoring and analytics platform, AI Monitor, is built on open-source principles. This gives us and you unmatched flexibility and transparency in data analysis.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+];

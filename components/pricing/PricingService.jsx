@@ -73,7 +73,7 @@ export default function PricingService() {
                               <Link
                                 href={`/sign-up`}
                                 className={`btn btn-md sm:btn-sm lg:btn-md ${
-                                  tier.title === "Enterprise"
+                                  tier.sTitle === "Enterprise"
                                     ? "btn-dark"
                                     : "btn-primary"
                                 } text-white`}

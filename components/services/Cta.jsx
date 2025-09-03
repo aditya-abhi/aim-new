@@ -29,21 +29,30 @@ export default function Cta() {
             height={29}
           />
           <h2 className="h3 xl:display-6 lh-lg m-0 max-w-md mx-auto text-tertiary dark:text-secondary">
-            Not Sure about the {""}
+            Stop Chasing Clicks.
             <span className="px-1 bg-tertiary dark:bg-secondary text-primary d-block lg:d-inline-block">
-              Right Plan
-            </span>
+              Start Owning Answers.
+            </span>{" "}
           </h2>
-          <p className="fs-6 sm:fs-5 text-tertiary-700 dark:text-white">
-            Take the guesswork out of your AI strategy. Book a free demo with
-            us.
-          </p>
+          <div className="mt-2">
+            <p className="fs-6 sm:fs-5 text-tertiary-700 dark:text-white">
+              The future of your brand's discovery is being written by AI right
+              now. Secure your place as an industry authority before your
+              competitors do. Schedule your free, no-obligation strategy call
+              with our AIO experts today.
+            </p>
+            <p className="fs-6 sm:fs-5 text-tertiary-700 dark:text-white">
+              We will provide a complimentary AI Visibility Audit to show you
+              exactly where you stand today.{" "}
+            </p>
+          </div>
           <div className="vstack md:hstack justify-center gap-2 mt-3">
             <a
               href="https://appt.link/ai-monitor/30-minutes-introductory-call"
+              target="_blank"
               className="btn btn-md xl:btn-lg btn-tertiary dark:btn-secondary text-primary px-3 lg:px-5 fw-bold hover:contrast-shadow"
             >
-              Book a Meeting
+              Book a Free Call
             </a>
           </div>
         </div>

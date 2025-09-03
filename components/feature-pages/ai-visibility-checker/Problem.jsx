@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Accordion2 from "@/components/common/Accordion2";
-import AccordionFeatures from "../common/AccordionFeature";
+import AccordionFeatures from "../../common/AccordionFeature";
 
 export default function Howworks() {
   return (

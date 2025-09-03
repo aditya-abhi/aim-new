@@ -105,7 +105,7 @@ export default function Hero() {
                       >
                         <Image
                           className=""
-                          alt="gemini"
+                          alt="gemini logo"
                           src="/assets/images/apps/gemini.webp"
                           width={800}
                           height={800}
@@ -124,6 +124,8 @@ export default function Hero() {
                           src="/assets/images/apps/copilot.webp"
                           width={2500}
                           height={2311}
+                          priority={true}
+                          fetchPriority="high"
                         />
                       </div>
                       <div
@@ -134,10 +136,11 @@ export default function Hero() {
                         <Image
                           className=""
                           alt="perplexity logo"
-                          data-uc-svg=""
                           src="/assets/images/apps/perplexity.webp"
                           width={351}
                           height={373}
+                          priority={true}
+                          fetchPriority="high"
                         />
                       </div>
                       <div
@@ -151,6 +154,8 @@ export default function Hero() {
                           src="/assets/images/apps/deepseak.webp"
                           width={800}
                           height={800}
+                          priority={true}
+                          fetchPriority="high"
                         />
                       </div>
                       <div
@@ -164,6 +169,8 @@ export default function Hero() {
                           src="/assets/images/apps/grok.webp"
                           width={333}
                           height={300}
+                          priority={true}
+                          fetchPriority="high"
                         />
                       </div>
                     </div>

@@ -153,7 +153,7 @@ export default function Header7() {
                                   ))} */}
                                   <Link href="/geo-course">
                                     <Image
-                                      src="/assets/images/template/features-2.webp"
+                                      src="/assets/images/template/guide.webp"
                                       alt="AI Monitor"
                                       width={400}
                                       height={300}
@@ -169,7 +169,7 @@ export default function Header7() {
                     </div>
                   </li>
                   <li className="has-dd-menu">
-                    <a href="#" role="button" aria-haspopup="true">
+                    <a href="/features" role="button" aria-haspopup="true">
                       Features{" "}
                       <span
                         data-uc-navbar-parent-icon=""

@@ -1266,3 +1266,181 @@ export const productFeature3 = [
       "bg-gradient-45 from-white to-transparent dark:from-gray-700 sm:rounded-top-end-0 lg:rounded-top-start-0 lg:rounded-top-end-1-5",
   },
 ];
+
+export const services = [
+  {
+    id: 1,
+    imgSrc: "/assets/images/template/ai-search-analytics.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "AI Search Analytics",
+    description:
+      "We develop your end-to-end roadmap for AI visibility. Using proprietary data, we identify opportunities, benchmark against competitors, and create a data-backed framework to dominate your category.",
+    linkHref: "/",
+  },
+  {
+    id: 2,
+    imgSrc: "/assets/images/template/geo.webp",
+    imgAlt: "Connect every part of your entire business",
+    title: "Generative Engine Optimization (GEO)",
+    description:
+      "Become a primary source for ChatGPT, Gemini, and Claude. We optimize your content architecture and digital footprint to be cited directly in AI-generated answers, building unmatched authority.",
+    linkText: "View Service",
+    linkHref: "/",
+  },
+  {
+    id: 3,
+    imgSrc: "/assets/images/template/aeo.webp",
+    imgAlt: "Maintain compliance and control your apps",
+    title: "Answer Engine Optimization (AEO)",
+    description:
+      "Capture top placements in Google AI Overviews, Perplexity, and Bing Copilot. We structure your content to win Featured AI Snippets and become the default recommendation in conversational search.",
+  },
+  {
+    id: 4,
+    imgSrc: "/assets/images/template/saas-seo.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "Advanced SaaS SEO",
+    description:
+      "Our hybrid SEO approach ensures you win in both worlds. We blend traditional organic ranking strategies with AI-driven discovery, ensuring your content performs on Google SERPs and inside AI chat results.",
+    linkHref: "/",
+  },
+  {
+    id: 5,
+    imgSrc: "/assets/images/template/llm-seo.webp",
+    imgAlt: "Connect every part of your entire business",
+    title: "LLM SEO",
+    description:
+      "Using our LLM SEO File framework, we structure your brand's data to be perfectly machine-readable. This ensures AI engines interpret your information accurately and prefer it for generative responses.",
+    linkText: "View Service",
+    linkHref: "/",
+  },
+  {
+    id: 6,
+    imgSrc: "/assets/images/template/ai-prompt-monitoring.webp",
+    imgAlt: "Maintain compliance and control your apps",
+    title: "AI Prompt Monitoring",
+    description:
+      "Get a real-time intelligence feed on your AI presence. We track how your brand and competitors appear across thousands of prompts, giving you a clear view of your market share in the new AI landscape.",
+  },
+  {
+    id: 7,
+    imgSrc: "/assets/images/template/saas-content-marketing.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "Saas Content Marketing",
+    description:
+      "Get a real-time intelligence feed on your AI presence. We track how your brand and competitors appear across thousands of prompts, giving you a clear view of your market share in the new AI landscape.",
+    linkHref: "/",
+  },
+  {
+    id: 8,
+    imgSrc: "/assets/images/template/saas-reddit-marketing.webp",
+    imgAlt: "Connect every part of your entire business",
+    title: "Saas Reddit Marketing",
+    description:
+      "Harness the power of Reddit communities to amplify your brand reach. We craft engagement-driven campaigns, manage conversations, and position your brand authentically within highly active niche audiences.",
+    linkHref: "/",
+  },
+  {
+    id: 9,
+    imgSrc: "/assets/images/template/competitor-benchmarking.webp",
+    imgAlt: "Maintain compliance and control your apps",
+    title: "Competitor Benchmarking",
+    description:
+      "Stay ahead of your competitors with detailed visibility benchmarking across AI-driven and traditional platforms. We analyze competitor placements, content strategies, and performance gaps to give you a winning edge.",
+  },
+  {
+    id: 10,
+    imgSrc: "/assets/images/template/marketing-analytics.webp",
+    imgAlt: "Maintain compliance and control your apps",
+    title: "Marketing Analytics",
+    description:
+      "Get real-time, actionable insights into your AI search visibility, traffic patterns, and customer journeys. Our analytics dashboards help you identify growth opportunities and measure the impact of your strategies.",
+  },
+];
+
+export const servicesFeature = [
+  {
+    icon: "unicon-document",
+    title: "25% Drop in Traffic",
+    description:
+      "Brands that do not optimize for AI are seeing a 15–25% fall in organic traffic as users get answers directly from AI summaries.",
+  },
+  {
+    icon: "unicon-model",
+    title: "68% Influence Gain",
+    description:
+      "Consumers now use AI tools for research and discovery of products and services, directly shaping real-world purchasing decisions.",
+  },
+  {
+    icon: "unicon-task-approved",
+    title: "83% Users' Preference",
+    description:
+      "Users find AI-powered chatbots more efficient and trustworthy than traditional Google search, cementing the shift in their behaviour.",
+  },
+];
+
+export const chooseUs = [
+  {
+    icon: "unicon-document",
+    title: "We Wrote the AIO Playbook",
+    description:
+      "As pioneers in this space, we were among the first to decode how generative engines rank and feature brands. Our methodologies are shaping the industry standard.",
+    backgroundColor: "bg-white dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-model",
+    title: "Data-Driven, Not Guesswork",
+    description:
+      "We use a proprietary combination of AI monitoring, prompt analysis, and signal tracking to deliver strategies that are backed by data, not theory.",
+    backgroundColor: "bg-white dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-task-approved",
+    title: "Total Ecosystem Expertise",
+    description:
+      "From OpenAI and Google to Anthropic and Perplexity, we ensure your brand is visible and consistent across every major AI-powered search platform.",
+    backgroundColor: "bg-white dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-touch-interaction",
+    title: "Transparent Methodology",
+    description:
+      'No "black box" strategies. We provide full transparency into how we measure, monitor, and improve your AI visibility, complete with open-source roots in our tooling.',
+    backgroundColor: "bg-white dark:bg-gray-800",
+  },
+];
+
+export const searchAnalytics = [
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    alt: "feature-icon",
+    title: "Content Gamble",
+    description:
+      "96.55% of web pages receive zero organic traffic from Google, showing that most content fails to reach its audience or drive results, highlighting the need for smarter visibility strategies.",
+  },
+  {
+    order: "order-0",
+    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    alt: "feature-icon",
+    title: "Reactive Strategy",
+    description:
+      "Many companies get caught in a reactive loop, overlooking key opportunities. Meanwhile, proactive competitors often 20–30% more efficient, keep pulling ahead and claiming more market share.",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    alt: "feature-icon",
+    title: "Data Overload",
+    description:
+      "Managing unstructured data remains a challenge: 80% of enterprise data is unstructured, and 95% of businesses struggle to manage it effectively, leaving them with limited insights and missed opportunities.",
+  },
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    alt: "feature-icon",
+    title: "Generic Experience",
+    description:
+      "71% of consumers feel disconnected by impersonal brand interactions—leading to diminished trust, declining loyalty, and weakened differentiation in an increasingly crowded, competitive market.",
+  },
+];

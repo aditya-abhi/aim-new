@@ -1,12 +1,12 @@
 import Header from "@/components/headers/Header7";
 import Footer from "@/components/footers/Footer7";
-import Hero from "@/components/ai-crawlability-clinic/Hero";
-import Faq from "@/components/ai-crawlability-clinic/Faqs";
-import Testimonials from "@/components/ai-crawlability-clinic/Testimonials";
-import Cta from "@/components/ai-crawlability-clinic/Cta";
-import Report from "@/components/ai-crawlability-clinic/Report";
-import Features from "@/components/ai-crawlability-clinic/Features";
-import Steps from "@/components/ai-crawlability-clinic/Steps";
+import Hero from "@/components/feature-pages/ai-crawlability-clinic/Hero";
+import Faq from "@/components/feature-pages/ai-crawlability-clinic/Faqs";
+import Testimonials from "@/components/feature-pages/ai-crawlability-clinic/Testimonials";
+import Cta from "@/components/feature-pages/ai-crawlability-clinic/Cta";
+import Report from "@/components/feature-pages/ai-crawlability-clinic/Report";
+import Features from "@/components/feature-pages/ai-crawlability-clinic/Features";
+import Steps from "@/components/feature-pages/ai-crawlability-clinic/Steps";
 
 export const metadata = {
   title:

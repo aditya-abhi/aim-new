@@ -1,5 +1,5 @@
 "use client";
-import Toc from "@/components/blog/Toc";
+import Toc from "./Toc";
 import RelatedBlogs from "../../components/blog/RelatedBlogs";
 import Image from "next/image";
 import Link from "next/link";
@@ -49,7 +49,6 @@ export default function Blog2({ blogItem }) {
       </div>
       <div className="container max-w-fc">
         <div className="post-author panel px-3 p-3 bg-gray-25 dark:bg-opacity-5 rounded lg:rounded-2 max-w-100 lg:max-w-900px xl:max-w-xl">
-          <h3 className="mb-0">Author:</h3>
           {!isExpanded && (
             <div
               className="flex items-center gap-3 md:gap-4 pb-2 px-2 cursor-pointer"
@@ -96,6 +95,7 @@ export default function Blog2({ blogItem }) {
                 </div>
                 <div className="col">
                   <div className="panel vstack items-start gap-2 md:gap-3">
+                    <h3 className="mb-0">Author:</h3>
                     <h4 className="h5 m-0">Avinash Tripathi</h4>
                     <p className="fs-6">
                       My journey into Generative Engine Optimization (GEO) began
@@ -210,13 +210,16 @@ export default function Blog2({ blogItem }) {
         <div className="panel mt-4 lg:mt-6 xl:mt-9">
           <div className="container">
             <div className="row child-cols-12 g-2 lg:g-4 xl:g-8">
-              <div className="md:col-8 order-1">
+              <div className="md:col-8 order-0">
                 <div className="uc-main panel" role="main">
                   <Gallery>
                     <div
                       className="post-content panel fs-6 md:fs-5"
                       data-uc-lightbox="animation: scale"
-                    ><h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">Introduction</h2>
+                    >
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        Introduction
+                      </h2>
                       <p>
                         She started her blog exactly six months before I
                         launched Camels &amp; Chocolate, and she really set the
@@ -294,7 +297,7 @@ export default function Blog2({ blogItem }) {
                         </p>
                       </div>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                      Capital of Texas
+                        Capital of Texas
                       </h2>
                       <p>
                         Visual storytelling is simply the way most brands will
@@ -349,7 +352,7 @@ export default function Blog2({ blogItem }) {
                         </figcaption>
                       </figure>
                       <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                   Capital of Texas 2
+                        Capital of Texas 2
                       </h3>
                       <p>
                         Visual storytelling is simply the way most brands will
@@ -405,7 +408,7 @@ export default function Blog2({ blogItem }) {
                       </figure>
 
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        Capital of Texas3 
+                        Capital of Texas3
                       </h2>
                       <p>
                         Visual storytelling is simply the way most brands will
@@ -557,8 +560,8 @@ export default function Blog2({ blogItem }) {
                         </figcaption>
                       </figure>
                       <p>
-                        get to the Rockies for snowboarding and ski
-                        activities, a local expert explained.
+                        get to the Rockies for snowboarding and ski activities,
+                        a local expert explained.
                       </p>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         Capital of Texas5
@@ -690,66 +693,66 @@ export default function Blog2({ blogItem }) {
                           </figcaption>
                         </figure>
                         <h4 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        Great Schools and Entertainment
-                      </h4>
-                      <p>
-                        Education is a high point when it comes to analyzing the
-                        quality of life factors that make Ann Arbor one of the
-                        best places to live. The University of Michigan, which
-                        has 43,000 students, makes Ann Arbor a perennial
-                        candidate for our annual ranking of the best college
-                        towns and plays a big role in the city’s economy and
-                        culture.
-                      </p>
-                      <p className="mt-3">
-                        While Denver sits at the base of the Rocky Mountains,
-                        it’s not considered a mountain town since it takes
-                        considered at least an hour to get to the Rockies for
-                        snowboarding and ski activities, a local expert
-                        explained sits at the base of the Rocky Mountains, it’s
-                        not considered a mountain town since it takes at least
-                        an hour to get to the Rockies for snowboarding and ski
-                        activities, a local expert explained.
-                      </p>
-                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        Great Schools and Entertainment 5
-                      </h2>
-                      <p>
-                        Education is a high point when it comes to analyzing the
-                        quality of life factors that make Ann Arbor one of the
-                        best places to live. The University of Michigan, which
-                        has 43,000 students, makes Ann Arbor a perennial
-                        candidate for our annual ranking of the best college
-                        towns and plays a big role in the city’s economy and
-                        culture.
-                      </p>
-                      <p className="mt-3">
-                        While Denver sits at the base of the Rocky Mountains,
-                        it’s not considered a mountain town since it takes
-                        considered at least an hour to get to the Rockies for
-                        snowboarding and ski activities, a local expert
-                        explained sits at the base of the Rocky Mountains, it’s
-                        not considered a mountain town since it takes at least
-                        an hour to get to the Rockies for snowboarding and ski
-                        activities, a local expert explained.
-                      </p>
-                      <p>
-                        Bike paths and sidewalks make getting to and from the
-                        city's many festivals, museums, restaurants and music
-                        venues easy. A range of amenities provides many things
-                        to do in Bellevue. About 40 percent of the city's
-                        population are minorities, which contributes to an
-                        overall diverse range of lifestyles and ideas.
-                      </p>
-                      <p className="mt-3">
-                        While Denver sits at the base of the Rocky Mountains,
-                        it's not considered a mountain town since it takes at
-                        least an hour to get to the Rockies for snowboarding
-                        and ski activities, a local expert explained. Olympic
-                        mountain bikers, musicians, and award-winning chefs
-                        about what exactly makes their hometowns so special and
-                        fun. In fact, not being able to rely on
-                          spoken word made them better storytellers. They fully
+                          Great Schools and Entertainment
+                        </h4>
+                        <p>
+                          Education is a high point when it comes to analyzing
+                          the quality of life factors that make Ann Arbor one of
+                          the best places to live. The University of Michigan,
+                          which has 43,000 students, makes Ann Arbor a perennial
+                          candidate for our annual ranking of the best college
+                          towns and plays a big role in the city’s economy and
+                          culture.
+                        </p>
+                        <p className="mt-3">
+                          While Denver sits at the base of the Rocky Mountains,
+                          it’s not considered a mountain town since it takes
+                          considered at least an hour to get to the Rockies for
+                          snowboarding and ski activities, a local expert
+                          explained sits at the base of the Rocky Mountains,
+                          it’s not considered a mountain town since it takes at
+                          least an hour to get to the Rockies for snowboarding
+                          and ski activities, a local expert explained.
+                        </p>
+                        <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                          Great Schools and Entertainment 5
+                        </h2>
+                        <p>
+                          Education is a high point when it comes to analyzing
+                          the quality of life factors that make Ann Arbor one of
+                          the best places to live. The University of Michigan,
+                          which has 43,000 students, makes Ann Arbor a perennial
+                          candidate for our annual ranking of the best college
+                          towns and plays a big role in the city’s economy and
+                          culture.
+                        </p>
+                        <p className="mt-3">
+                          While Denver sits at the base of the Rocky Mountains,
+                          it’s not considered a mountain town since it takes
+                          considered at least an hour to get to the Rockies for
+                          snowboarding and ski activities, a local expert
+                          explained sits at the base of the Rocky Mountains,
+                          it’s not considered a mountain town since it takes at
+                          least an hour to get to the Rockies for snowboarding
+                          and ski activities, a local expert explained.
+                        </p>
+                        <p>
+                          Bike paths and sidewalks make getting to and from the
+                          city's many festivals, museums, restaurants and music
+                          venues easy. A range of amenities provides many things
+                          to do in Bellevue. About 40 percent of the city's
+                          population are minorities, which contributes to an
+                          overall diverse range of lifestyles and ideas.
+                        </p>
+                        <p className="mt-3">
+                          While Denver sits at the base of the Rocky Mountains,
+                          it's not considered a mountain town since it takes at
+                          least an hour to get to the Rockies for snowboarding
+                          and ski activities, a local expert explained. Olympic
+                          mountain bikers, musicians, and award-winning chefs
+                          about what exactly makes their hometowns so special
+                          and fun. In fact, not being able to rely on spoken
+                          word made them better storytellers. They fully
                           understood and used the power of showing without
                           words. They fully understood and used the power of
                           showing without words.
@@ -772,7 +775,7 @@ export default function Blog2({ blogItem }) {
                   </Gallery>
                 </div>
               </div>
-              <div className="md:col-4 order-2 lg:order-0">
+              <div className="md:col-4 order-2 lg:order-1">
                 <div>
                   <Toc />
                 </div>

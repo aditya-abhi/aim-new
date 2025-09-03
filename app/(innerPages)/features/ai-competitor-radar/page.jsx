@@ -1,12 +1,12 @@
 import Header from "@/components/headers/Header7";
 import Footer from "@/components/footers/Footer7";
-import Hero from "@/components/ai-competitor-radar/Hero";
-import Faq from "@/components/ai-competitor-radar/Faqs";
-import Testimonials from "@/components/ai-competitor-radar/Testimonials";
-import Cta from "@/components/ai-competitor-radar/Cta";
-import Report from "@/components/ai-competitor-radar/Report";
-import Features from "@/components/ai-competitor-radar/Features";
-import Steps from "@/components/ai-competitor-radar/Steps";
+import Hero from "@/components/feature-pages/ai-competitor-radar/Hero";
+import Faq from "@/components/feature-pages/ai-competitor-radar/Faqs";
+import Testimonials from "@/components/feature-pages/ai-competitor-radar/Testimonials";
+import Cta from "@/components/feature-pages/ai-competitor-radar/Cta";
+import Report from "@/components/feature-pages/ai-competitor-radar/Report";
+import Features from "@/components/feature-pages/ai-competitor-radar/Features";
+import Steps from "@/components/feature-pages/ai-competitor-radar/Steps";
 
 export const metadata = {
   title:

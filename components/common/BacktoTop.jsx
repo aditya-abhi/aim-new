@@ -3,7 +3,7 @@
 import { useContextElement } from "@/context/Context";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
-import InlineToc from "@/components/blog/InlineToc";
+import InlineToc from "@/app/blogs/InlineToc";
 
 export default function BacktoTop() {
   const { isDark, handleToggle } = useContextElement();
@@ -11,7 +11,8 @@ export default function BacktoTop() {
 
   const [isVisible, setIsVisible] = useState(false);
   const [isTOCOpen, setIsTOCOpen] = useState(true);
-  const isBlogPage = pathname?.startsWith('/blogs/') || pathname?.startsWith('/blog/');
+  const isBlogPage =
+    pathname?.startsWith("/blogs/") || pathname?.startsWith("/blog/");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -52,14 +53,22 @@ export default function BacktoTop() {
       >
         {isBlogPage && isVisible && (
           <a
-            className={`btn btn-sm w-40px h-40px rounded-circle mb-1 ${isTOCOpen ? 'bg-primary text-white' : '!bg-[#93e85f] !text-black'}`}
-            style={isTOCOpen ? {} : {
-              backgroundColor: '#93e85f',
-              color: '#000000',
-              zIndex: 100
-            }}
+            className={`btn btn-sm w-40px h-40px rounded-circle mb-1 ${
+              isTOCOpen ? "bg-primary text-white" : "!bg-[#93e85f] !text-black"
+            }`}
+            style={
+              isTOCOpen
+                ? {}
+                : {
+                    backgroundColor: "#93e85f",
+                    color: "#000000",
+                    zIndex: 100,
+                  }
+            }
             onClick={toggleTOC}
-            title={isTOCOpen ? "Close Table of Contents" : "Open Table of Contents"}
+            title={
+              isTOCOpen ? "Close Table of Contents" : "Open Table of Contents"
+            }
           >
             <i className="icon-2 unicon-list"></i>
           </a>
@@ -87,19 +96,21 @@ export default function BacktoTop() {
       {isBlogPage && isVisible && isTOCOpen && (
         <div
           className="position-fixed bottom-0 start-0 z-98 m-2 ms-20 bg-white dark:bg-gray-800 rounded-2 shadow-lg border border-gray-200 dark:border-gray-700 max-h-400px overflow-y-auto"
-          style={{ width: '280px' }}
+          style={{ width: "280px" }}
         >
           <div className="p-3 border-bottom border-gray-200 dark:border-gray-700">
             <div className="d-flex justify-between items-center">
-              <h6 className="h6 m-0 text-gray-900 dark:text-white">Table of Contents</h6>
+              <h6 className="h6 m-0 text-gray-900 dark:text-white">
+                Table of Contents
+              </h6>
               <button
                 className="w-6 h-6 flex items-center justify-center rounded-full hover:bg-red-50 dark:hover:bg-red-900/20 transition-all z-10 relative border-0 bg-transparent font-bold text-lg !text-red-600 dark:!text-red-400 hover:!text-red-700 dark:hover:!text-red-300"
                 onClick={() => setIsTOCOpen(false)}
                 title="Close"
                 style={{
-                  fontSize: '18px',
-                  lineHeight: '1',
-                  color: 'rgb(220 38 38)' // fallback red color
+                  fontSize: "18px",
+                  lineHeight: "1",
+                  color: "rgb(220 38 38)", // fallback red color
                 }}
               >
                 ×

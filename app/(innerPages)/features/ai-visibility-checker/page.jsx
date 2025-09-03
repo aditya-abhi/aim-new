@@ -1,15 +1,15 @@
 import Header from "@/components/headers/Header7";
 import Footer from "@/components/footers/Footer7";
-import Hero from "@/components/ai-visibility-checker/Hero";
-import Faq from "@/components/ai-visibility-checker/Faqs";
-import Testimonials from "@/components/ai-visibility-checker/Testimonials";
-import Cta from "@/components/ai-visibility-checker/Cta";
-import Problem from "@/components/ai-visibility-checker/Problem";
-import Target from "@/components/ai-visibility-checker/Target";
-import Report from "@/components/ai-visibility-checker/Report";
-import Features from "@/components/ai-visibility-checker/Features";
-import Features2 from "@/components/ai-visibility-checker/Features2";
-import Steps from "@/components/ai-visibility-checker/Steps";
+import Hero from "@/components/feature-pages/ai-visibility-checker/Hero";
+import Faq from "@/components/feature-pages/ai-visibility-checker/Faqs";
+import Testimonials from "@/components/feature-pages/ai-visibility-checker/Testimonials";
+import Cta from "@/components/feature-pages/ai-visibility-checker/Cta";
+import Problem from "@/components/feature-pages/ai-visibility-checker/Problem";
+import Target from "@/components/feature-pages/ai-visibility-checker/Target";
+import Report from "@/components/feature-pages/ai-visibility-checker/Report";
+import Features from "@/components/feature-pages/ai-visibility-checker/Features";
+import Features2 from "@/components/feature-pages/ai-visibility-checker/Features2";
+import Steps from "@/components/feature-pages/ai-visibility-checker/Steps";
 
 export const metadata = {
   title:

@@ -7308,6 +7308,9 @@
   .bg-opacity-15 {
     --bs-bg-opacity: 0.15;
   }
+  .bg-opacity-30 {
+    --bs-bg-opacity: 0.3;
+  }
   .bg-opacity-40 {
     --bs-bg-opacity: 0.4;
   }
@@ -7334,6 +7337,9 @@
   }
   :where(.uc-dark) .dark\:bg-opacity-15 {
     --bs-bg-opacity: 0.15;
+  }
+  :where(.uc-dark) .dark\:bg-opacity-30 {
+    --bs-bg-opacity: 0.3;
   }
   :where(.uc-dark) .dark\:bg-opacity-50 {
     --bs-bg-opacity: 0.5;
@@ -8598,8 +8604,14 @@
     .lg\:rounded-top-end-0 {
       border-top-right-radius: 0 !important;
     }
+    .lg\:rounded-top-start-0 {
+      border-top-left-radius: 0 !important;
+    }
     .lg\:rounded-bottom-end-0 {
       border-bottom-right-radius: 0 !important;
+    }
+    .lg\:rounded-bottom-start-0 {
+      border-bottom-left-radius: 0 !important;
     }
     .lg\:ratio-1x1 {
       --bs-aspect-ratio: 100% !important;
