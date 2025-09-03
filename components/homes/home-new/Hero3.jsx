@@ -94,6 +94,8 @@ export default function Hero() {
                           src="/assets/images/apps/gpt.webp"
                           width={800}
                           height={800}
+                          priority={true}
+                          fetchPriority="high"
                         />
                       </div>
                       <div
@@ -107,6 +109,8 @@ export default function Hero() {
                           src="/assets/images/apps/gemini.webp"
                           width={800}
                           height={800}
+                          priority={true}
+                          fetchPriority="high"
                         />
                       </div>
                       <div
