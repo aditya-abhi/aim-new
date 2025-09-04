@@ -56,3 +56,361 @@ export const service1 = [
     expanded: false,
   },
 ];
+
+export const service2 = [
+  {
+    id: 1,
+    question: "components/common/ServiceAccordions/ServiceFaq1.jsx",
+    answer:
+      "Generative Engine Optimization (GEO) is the process of optimizing your content to get featured in AI-generated answers on platforms like ChatGPT, Google AI Overviews, Perplexity, Gemini, and Bing AI. As search evolves, users are increasingly relying on AI systems instead of traditional search engines. GEO ensures your brand, products, and services are visible when users ask AI-driven questions, helping you capture organic traffic, brand mentions, and leads before competitors do.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "How long does it take to see results with GEO?",
+    answer:
+      "Most brands start seeing improved AI visibility, higher brand mentions, and increased traffic within 3 to 6 months. However, results depend on your current content quality, competition level, and the number of AI-driven queries in your niche. Our strategy focuses on faster indexing, AI-friendly content structuring, and targeted optimization to accelerate visibility.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Do you use AI tools to implement GEO strategies?",
+    answer:
+      "Absolutely. We leverage advanced AI-powered tools to enhance your brand’s visibility and performance across generative platforms. Through AI query analysis, we decode what users are asking on systems like ChatGPT and Gemini, uncovering intent and opportunity. Our content gap detection identifies missing or underserved answers—pinpointing where your brand can meaningfully rank. And with optimization and monitoring, we ensure your pages are AI-readable, citation-ready, and primed for inclusion in answer-based results. This data-driven approach empowers your content to perform more effectively across AI search, generative engines, and emerging discovery platforms.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "What if AI algorithms change? Will my GEO strategy still work?",
+    answer:
+      "Absolutely. GEO is a continuous optimization process. Our team monitors algorithm updates in real-time across ChatGPT, Perplexity, Google AI Overviews, and other engines. Whenever AI ranking factors shift, we adapt your strategy instantly, keeping your brand visible, competitive, and future-proof.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "How do you measure the success of GEO?",
+    answer:
+      "We track AI-specific performance metrics to help you measure the true impact of Generative Engine Optimization (GEO). This includes AI-generated traffic, which captures visitors arriving from platforms like ChatGPT, Google AI, and Perplexity. We also monitor query visibility: how frequently your brand appears in AI-generated responses across these engines. To assess business outcomes, we analyze engagement and conversions, tracking leads, sales, and user interactions driven by AI referrals. Finally, our competitive benchmarks reveal how your brand stacks up against competitors in AI-driven results, offering clear insights to guide strategic decisions.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Do I need to change my website’s tech stack for AEO?",
+    answer:
+      "In most cases, no major changes are needed. GEO strategies integrate smoothly with your existing CMS, website architecture, and SEO setup. However, we may recommend a few AI-friendly enhancements to boost performance across generative platforms. These include structured data and schema updates to improve machine readability, refined content formatting to aid AI parsing, and faster page load optimizations to enhance accessibility. Together, these adjustments make your content easier for AI engines to interpret, cite, and surface in response-driven environments.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "How do I get started with Generative Engine Optimization?",
+    answer:
+      "Getting started is simple. Begin by booking a free GEO strategy call. We’ll assess your current visibility across AI platforms and analyze how your brand appears in tools like ChatGPT, Google AI, and Perplexity. Based on this, you’ll receive a personalized roadmap designed to improve your ranking and discoverability across generative engines. It’s the first step toward AI-driven growth, ensuring your brand is found where today’s users are actively searching for answers.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+
+export const service3 = [
+  {
+    id: 1,
+    question:
+      "What is Answer Engine Optimization (AEO), and why is it important?",
+    answer:
+      "Answer Engine Optimization (AEO) is the process of optimizing your content so AI engines select your brand as the source of answers on platforms like Google AI Overviews, Perplexity, ChatGPT, Gemini, and Bing Copilot. With AI-generated summaries powering 25%+ of searches, brands must adapt or risk becoming invisible.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "How long does it take to see results with AEO?",
+    answer:
+      "Brands typically see improved AI citation rates and direct answer inclusion within 3–6 months.We use AI-first structuring, entity optimization, and schema-driven enhancements to accelerate results.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Do you use AI tools to implement AEO strategies?",
+    answer:
+      "Absolutely. Our AEO framework is designed to help brands thrive in AI-driven environments by combining deep insight with actionable strategy. We begin with AI query intelligence, analyzing real user questions to uncover intent and identify high-impact opportunities. Next, our generative engine coverage mapping reveals visibility gaps across platforms like ChatGPT, Perplexity, and Google AI—pinpointing where your brand is missing from key conversations. Finally, our monitoring dashboards track citations, mentions, and brand presence across AI platforms, giving you a clear view of performance and progress over time.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "What if AI algorithms change?",
+    answer:
+      "Answer Engine Optimization (AEO) is an adaptive strategy. We monitor algorithm updates in real-time across Google, Perplexity, Gemini, and ChatGPT — updating your AEO roadmap instantly.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "How do you measure AEO success?",
+    answer:
+      "Absolutely. We track AI-specific KPIs that go beyond traditional analytics, giving you a clear view of how your brand performs in generative environments. Our answer inclusion rate reveals how often your content is selected by AI engines to answer real user queries. We monitor brand citation growth to measure how frequently your brand is mentioned across platforms like ChatGPT, Perplexity, and Google AI. With AI-driven traffic, we identify visitors sourced directly from AI-generated responses—an emerging signal of influence. And our competitive benchmarks show how your visibility stacks up against key competitors, helping you stay ahead in the AI-first landscape.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Do I need to change my website’s tech stack for AEO?",
+    answer:
+      "Definitely. In most cases, there’s no need to overhaul your CMS or tech stack—we integrate seamlessly with what you already use. Our enhancements focus on structured data and schema, ensuring your content is machine-readable and primed for AI indexing. We apply entity-based optimizations to strengthen your brand’s semantic relevance across generative platforms. And with AI-friendly formatting, we make it easier for engines to parse and surface your content quickly and accurately. It’s all about making your existing setup smarter, not heavier.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "How do I get started with AEO?",
+    answer:
+      "Of course. When you book a free AEO strategy call, we dive straight into your brand’s current AI visibility—auditing how and where you're showing up across platforms like ChatGPT, Perplexity, and Google AI. From there, we craft a personalized roadmap tailored to your goals, designed to elevate your presence in AI-generated answers and position your brand for long-term dominance in the generative search landscape. It’s not just a consultation—it’s your launchpad into the future of discoverability.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+
+export const service4 = [
+  {
+    id: 1,
+    question: "What is Advanced SaaS SEO?",
+    answer:
+      "Advanced SaaS SEO goes beyond traditional optimization. It combines technical SEO, content strategy, and keyword intent research to improve rankings, drive qualified traffic, and convert visitors into trial users or customers.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "How long does it take to see results?",
+    answer:
+      "Most SaaS brands notice early improvements within 6–8 weeks, with significant traffic and conversion gains over 4–7 months. Timelines depend on site size, competition, and current SEO health.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Do I need a new website or tech stack?",
+    answer:
+      "Not necessarily. Most improvements involve content optimization, structured schema, and technical SEO enhancements. Any major tech changes are recommended only if they significantly impact rankings or crawlability.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "How do you measure SEO success?",
+    answer:
+      "Success is measured by search rankings, organic traffic quality, trial sign-ups, and conversions. Ongoing reports provide clear insights into what’s working and areas for improvement.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "How do you identify the right keywords for SaaS?",
+    answer:
+      "We use intent-driven research to discover what SaaS buyers actually search for, including high-value phrases, competitor gaps, and conversion-focused topics that attract qualified leads.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Can SEO alone drive SaaS growth?",
+    answer:
+      "SEO is a critical foundation, but the best results come from integrating it with AI optimization, content strategy, and continuous monitoring to capture high-intent traffic.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "How often should SEO be updated for SaaS brands?",
+    answer:
+      "SEO is ongoing. SaaS markets evolve rapidly, so continuous optimization, trend monitoring, and competitor analysis are necessary to maintain rankings and growth.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+
+export const service5 = [
+  {
+    id: 1,
+    question: "What is LLM SEO, and why does my brand need it?",
+    answer:
+      "LLM SEO optimizes your content for large language models like ChatGPT, Perplexity, and Google AI Overviews. Unlike traditional SEO, it focuses on structured data, AI prompt optimization, and citation strategies to make your brand AI-visible by default.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "What are LLM SEO Files, and why are they important?",
+    answer:
+      "These are custom machine-readable files designed to make AI models understand, index, and cite your brand. They’re the backbone of modern AI-driven discoverability.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "How long does it take to see results?",
+    answer:
+      "Early AI visibility improvements typically appear within 5–8 weeks, with major citation growth achieved in 3–6 months.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "Do you integrate structured data and schema?",
+    answer:
+      "Absolutely. We implement advanced schema.org markup, structured metadata, and our 5 LLM SEO Files to maximize AI crawler accessibility.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "How do you measure success?",
+    answer:
+      "We track AI citations, rankings, prompt-based visibility, and generative traffic performance using real-time dashboards and monthly reporting.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Do I need a full website rebuild?",
+    answer:
+      "Not usually. Most websites can be optimized using our LLM SEO Files and improved structured content layers—no complete overhaul required.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "How do I get started?",
+    answer:
+      "Simply book a discovery call. We’ll audit your AI readiness and deliver a tailored plan to make your brand AI-visible.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+
+export const service6 = [
+  {
+    id: 1,
+    question: "What is Prompt Monitoring and why do I need it?",
+    answer:
+      "Prompt Monitoring tracks how users interact with your AI prompts, enabling behavior-based optimization, not just output inspection. It ensures the prompts you craft remain effective across evolving user needs and models.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "How soon do we see results?",
+    answer:
+      "You’ll start seeing insights within 4–6 weeks after monitoring setup; prompt optimization and conversion improvements typically follow in 2–3 months.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Do you use AI tools in your monitoring?",
+    answer:
+      "Absolutely. We leverage AI to analyze large prompt datasets, detect anomalies, cluster prompt intents, and provide actionable recommendations.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "What if my AI model evolves mid-monitoring?",
+    answer:
+      "We monitor performance drift and update prompt strategies proactively—so your system adapts before your metrics slip.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "How do we measure success?",
+    answer:
+      "We track prompt usage growth, completion accuracy, engagement lift, failure reduction, and ROI on refined prompt flows.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Need to change my tech stack?",
+    answer:
+      "Not necessarily. Our monitoring overlays your existing infrastructure. If needed, we guide you through simple instrumentation—no full stack rebuild required.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "How do I get started?",
+    answer:
+      "It’s simple: book an intro call. We’ll audit your current prompt environment and co-design a prompt monitoring roadmap for clarity and control.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+
+export const service7 = [
+  {
+    id: 1,
+    question:
+      "What makes SaaS content marketing different from regular content marketing?",
+    answer:
+      "SaaS content marketing focuses on educating, converting, and retaining users through content designed around customer pain points, product use cases, and subscription growth—not just traffic generation. It’s about driving MRR, LTV, and conversions consistently.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question:
+      "How long does it take to see results from SaaS content marketing?",
+    answer:
+      "Most SaaS brands see initial traffic and engagement improvements within 6–8 weeks. Significant gains in organic sign-ups, demo requests, and conversions typically occur within 3–6 months, depending on competition and content maturity.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "How do you use AI in your SaaS content strategies?",
+    answer:
+      "We integrate AI for intent-driven topic discovery, keyword clustering, and predictive trend analysis, ensuring your SaaS content ranks higher in Google AI Overviews, ChatGPT answers, and Perplexity citations. Every insight is human-validated for accuracy and brand alignment.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question:
+      "Will SaaS content strategies work if AI search algorithms change?",
+    answer:
+      "Absolutely. We continuously monitor AI platforms like Google SGE, Bing AI, Perplexity, and ChatGPT to track shifts in content visibility. Your strategy evolves proactively so your brand remains discoverable, no matter how AI search changes.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "How do you measure SaaS content marketing success?",
+    answer:
+      "We measure success using SaaS-specific KPIs: organic traffic, product sign-ups, trial-to-paid conversions, churn reduction, LTV growth, and AI-driven brand mentions. You’ll receive real-time dashboards tracking performance across search, AI platforms, and competitor benchmarks.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Do I need to overhaul my SaaS website or CMS?",
+    answer:
+      "Not necessarily. Our strategies integrate seamlessly with your existing stack—whether Webflow, WordPress, or custom-built platforms. If structured data or technical upgrades are required for AI discoverability, we provide a guided, step-by-step implementation plan.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "How do I get started with your SaaS content marketing service?",
+    answer:
+      "Book a free strategy session with our experts. We’ll audit your content ecosystem, identify missed SaaS growth opportunities, and deliver a custom AI-powered content roadmap to accelerate visibility, leads, and conversions.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];

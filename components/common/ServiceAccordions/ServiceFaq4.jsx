@@ -1,8 +1,8 @@
 "use client";
-import { service1 } from "@/data/servicefaqs";
+import { service4 } from "@/data/servicefaqs";
 import { useEffect, useRef, useState } from "react";
 
-export default function Service1({ faqData = service1, parentClass = "" }) {
+export default function Service4({ faqData = service4, parentClass = "" }) {
   const parentRefs = useRef([]);
   const questionRefs = useRef([]);
   const answerRefs = useRef([]);

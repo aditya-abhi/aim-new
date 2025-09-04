@@ -1361,6 +1361,7 @@ export const services = [
     linkHref: "/",
   },
 ];
+
 export const servicePage1 = [
   {
     id: 1,
@@ -1394,6 +1395,255 @@ export const servicePage1 = [
     title: "Strategic Consultation Sessions",
     description:
       "Hands-on guidance from our AI search experts, ensuring every decision is aligned with growth and measurable results.",
+  },
+];
+
+export const servicePage2 = [
+  {
+    id: 1,
+    imgSrc: "/assets/images/template/ai-search-analytics.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "Comprehensive AI Query Reports",
+    description:
+      "Understand the exact questions and intent users present to AI to guide content creation.",
+  },
+  {
+    id: 2,
+    imgSrc: "/assets/images/template/geo.webp",
+    imgAlt: "Connect every part of your entire business",
+    title: "Real-Time Trend Dashboards",
+    description:
+      "Track emerging AI-driven topics and queries before competitors catch on.",
+    linkText: "View Service",
+  },
+  {
+    id: 3,
+    imgSrc: "/assets/images/template/aeo.webp",
+    imgAlt: "Maintain compliance and control your apps",
+    title: "Content & Opportunity Maps",
+    description:
+      "Actionable roadmaps to optimize, expand, or create content for generative engines.",
+  },
+  {
+    id: 4,
+    imgSrc: "/assets/images/template/saas-seo.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "Strategic GEO Consultation Sessions",
+    description:
+      "Hands-on guidance from GEO experts to implement strategies and achieve measurable results. ",
+  },
+];
+
+export const servicePage3 = [
+  {
+    id: 1,
+    imgSrc: "/assets/images/template/ai-search-analytics.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "Comprehensive AI Query Reports",
+    description: "Understand the exact questions users are asking AI engines.",
+  },
+  {
+    id: 2,
+    imgSrc: "/assets/images/template/geo.webp",
+    imgAlt: "Connect every part of your entire business",
+    title: "AI Citation & Visibility Dashboards",
+    description:
+      "Track your brand mentions across answer engines in real-time.",
+    linkText: "View Service",
+  },
+  {
+    id: 3,
+    imgSrc: "/assets/images/template/aeo.webp",
+    imgAlt: "Maintain compliance and control your apps",
+    title: "Answer Opportunity Maps",
+    description: "Find content gaps where AI engines expect better answers.",
+  },
+  {
+    id: 4,
+    imgSrc: "/assets/images/template/saas-seo.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "Strategic AEO Consultations",
+    description: "Hands-on optimization support to secure AI citations faster.",
+  },
+];
+
+export const servicePage4 = [
+  {
+    id: 1,
+    imgSrc: "/assets/images/template/ai-search-analytics.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "SaaS-Specific SEO Audits",
+    description:
+      "Deep technical, content, and AI visibility audits designed for SaaS brands.",
+  },
+  {
+    id: 2,
+    imgSrc: "/assets/images/template/geo.webp",
+    imgAlt: "Connect every part of your entire business",
+    title: "AI Visibility Dashboards",
+    description:
+      "Track your presence across Google AI Overviews, ChatGPT, Bing, Perplexity, and Gemini.",
+    linkText: "View Service",
+  },
+  {
+    id: 3,
+    imgSrc: "/assets/images/template/aeo.webp",
+    imgAlt: "SaaS Content Opportunity Maps",
+    title: "SaaS Content Opportunity Maps",
+    description:
+      "We identify the SaaS features, comparisons, and FAQs that drive trials and conversions.",
+  },
+  {
+    id: 4,
+    imgSrc: "/assets/images/template/saas-seo.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "1:1 Growth Strategy Sessions",
+    description:
+      "Get direct guidance from SaaS SEO specialists who understand both traditional search and AI-driven visibility.",
+  },
+];
+
+export const servicePage5 = [
+  {
+    id: 1,
+    imgSrc: "/assets/images/template/ai-search-analytics.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "Custom LLM SEO Files",
+    description:
+      "Your complete set of 5 structured files designed to make AI engines prioritize your brand.",
+  },
+  {
+    id: 2,
+    imgSrc: "/assets/images/template/geo.webp",
+    imgAlt: "Connect every part of your entire business",
+    title: "AI Visibility Dashboards",
+    description:
+      "Interactive dashboards showing real-time LLM rankings, citations, and generative response placements.",
+    linkText: "View Service",
+  },
+  {
+    id: 3,
+    imgSrc: "/assets/images/template/aeo.webp",
+    imgAlt: "SaaS Content Opportunity Maps",
+    title: "Entity & Prompt Opportunity Maps",
+    description:
+      "A roadmap highlighting exact prompts, keywords, and entities where your brand should dominate.",
+  },
+  {
+    id: 4,
+    imgSrc: "/assets/images/template/saas-seo.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "1:1 Strategic Consultation",
+    description:
+      "Work directly with our AI visibility experts to stay ahead of changing algorithms and optimize for sustained growth.",
+  },
+];
+
+export const servicePage6 = [
+  {
+    id: 1,
+    imgSrc: "/assets/images/template/ai-search-analytics.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "Prompt Performance Reports",
+    description:
+      "Clear dashboards reveal which prompts work and why—so you can double down on what clicks.",
+  },
+  {
+    id: 2,
+    imgSrc: "/assets/images/template/geo.webp",
+    imgAlt: "Connect every part of your entire business",
+    title: "Real-Time Prompt Anomaly Alerts",
+    description:
+      "Instant notifications on failing or misfiring prompts—ensuring prompt reliability and user trust.",
+    linkText: "View Service",
+  },
+  {
+    id: 3,
+    imgSrc: "/assets/images/template/aeo.webp",
+    imgAlt: "SaaS Content Opportunity Maps",
+    title: "Prompt Audit & Opportunity Map",
+    description:
+      "Pinpoint prompt gaps, content mismatches, or tone drift—streamlining your AI’s alignment with user needs.",
+  },
+  {
+    id: 4,
+    imgSrc: "/assets/images/template/saas-seo.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "Prompt Strategy Consultations",
+    description:
+      "Ongoing collaboration with prompt strategists—refining phrasing, control tokens, and dynamic prompt templates.",
+  },
+];
+
+export const servicePage7 = [
+  {
+    id: 1,
+    imgSrc: "/assets/images/template/ai-search-analytics.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "Intent Insights Reports",
+    description:
+      "Discover what motivates your audience at each funnel stage, transforming content from guesswork into resonance.",
+  },
+  {
+    id: 2,
+    imgSrc: "/assets/images/template/geo.webp",
+    imgAlt: "Connect every part of your entire business",
+    title: "Live Editorial Dashboards",
+    description:
+      "Track trending SaaS queries and performance metrics in real time, powering agile content decisions.",
+    linkText: "View Service",
+  },
+  {
+    id: 3,
+    imgSrc: "/assets/images/template/aeo.webp",
+    imgAlt: "SaaS Content Opportunity Maps",
+    title: "Content Opportunity Maps",
+    description:
+      "Clear, strategic blueprints that show exactly what content to create next, and where it fits in your funnel.",
+  },
+  {
+    id: 4,
+    imgSrc: "/assets/images/template/saas-seo.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "Expert Strategy Sessions",
+    description:
+      "Deep-dive consultations to refine your tone and content cadence for maximum SaaS impact.",
+  },
+];
+
+export const servicePage8 = [
+  {
+    id: 1,
+    imgSrc: "/assets/images/template/ai-search-analytics.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "Comprehensive Reddit Intent Reports",
+    description:
+      "Uncover what SaaS buyers ask and expect in real Reddit threads.",
+  },
+  {
+    id: 2,
+    imgSrc: "/assets/images/template/geo.webp",
+    imgAlt: "Connect every part of your entire business",
+    title: "Real-Time Reddit Trend Dashboards",
+    description:
+      "Live tracking of uptrending topics, question themes, and emerging pain points.",
+    linkText: "View Service",
+  },
+  {
+    id: 3,
+    imgSrc: "/assets/images/template/aeo.webp",
+    imgAlt: "SaaS Content Opportunity Maps",
+    title: "Reddit Content & Engagement Playbooks",
+    description:
+      "Clear action maps to post, comment, or launch AMAs that build trust and visibility.",
+  },
+  {
+    id: 4,
+    imgSrc: "/assets/images/template/saas-seo.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "Strategic Reddit Consultation Sessions",
+    description:
+      "Hands-on guidance to craft messaging, tone, and offers that earn upvotes, not downvotes.",
   },
 ];
 
@@ -1481,5 +1731,250 @@ export const searchAnalytics = [
     title: "Generic Experience",
     description:
       "71% of consumers feel disconnected by impersonal brand interactions—leading to diminished trust, declining loyalty, and weakened differentiation in an increasingly crowded, competitive market.",
+  },
+];
+
+export const geoService = [
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    alt: "feature-icon",
+    title: "Adoption",
+    description:
+      "Bain reports that 80% of consumers now complete 40% of their searches without clicking any links, increasingly turning to AI-powered summaries for fast, direct answers and insights.",
+  },
+  {
+    order: "order-0",
+    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    alt: "feature-icon",
+    title: "Decline",
+    description:
+      "The average click-through rate for the #1 organic result drops by 34.5% when an AI Overview is present, highlighting the shift in traffic from traditional search.  ",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    alt: "feature-icon",
+    title: "Disruption",
+    description:
+      "Research shows that implementing Generative Engine Optimization (GEO) can increase your content’s visibility in AI-generated responses by up to 40%.",
+  },
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    alt: "feature-icon",
+    title: "Shift",
+    description:
+      "By mid-2025, Google’s AI Overviews were displayed in around 20% of U.S. desktop search queries, showing how common AI-generated summaries have become.",
+  },
+];
+
+export const aeoService = [
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    alt: "feature-icon",
+    title: "Decline",
+    description:
+      "Traditional organic click-through rates fall by up to 25% as more users rely on AI assistants and instant answers instead of clicking website links.clicking through to websites.",
+  },
+  {
+    order: "order-0",
+    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    alt: "feature-icon",
+    title: "Collapse",
+    description:
+      "Some websites report 18% to 64% traffic losses since users now get solutions directly from AI-powered results without visiting sites. instead of visiting sites.",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    alt: "feature-icon",
+    title: "Downtrend",
+    description:
+      "By 2026, organic search traffic is forecasted to decline by 25%, making answer engine optimization across ChatGPT, Bard, and Perplexity critical.",
+  },
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    alt: "feature-icon",
+    title: "Leverage",
+    description:
+      "Pages optimized for featured snippets see up to a 35.1% CTR lift, proving structured AEO-driven content drives better engagement and visibility.",
+  },
+];
+
+export const saasSeoService = [
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    alt: "feature-icon",
+    title: "Content Gamble",
+    description:
+      "A staggering 96.55% of SaaS web pages get zero organic traffic from Google—revealing how most content fails to reach decision-makers or convert trial users effectively.",
+  },
+  {
+    order: "order-0",
+    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    alt: "feature-icon",
+    title: "Untapped",
+    description:
+      "AI referral traffic for small-to-midsize SaaS sites nearly doubled in six months—from 0.54% to 1.24% of organic traffic (+130%), revealing untapped high-intent opportunities.",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    alt: "feature-icon",
+    title: "Advantage",
+    description:
+      "AI-generated traffic makes up only 0.1% of total referrals, yet conversion rates are far higher, meaning even small AI visibility gains can significantly boost SaaS trial sign-ups. ",
+  },
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    alt: "feature-icon",
+    title: "Limitations",
+    description:
+      "Analysts project a 25% decline in search traffic for SaaS brands relying solely on SEO by 2026, emphasizing the need to optimize for both Google rankings and AI-driven platforms.",
+  },
+];
+
+export const llmSeoService = [
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    alt: "feature-icon",
+    title: "Market Expansion",
+    description:
+      "The LLM SEO market is valued at ~$8.5B in 2025 and is projected to grow at a strong CAGR of ~30–35%, driven by increasing demand for AI-driven content visibility and brand optimization.",
+  },
+  {
+    order: "order-0",
+    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    alt: "feature-icon",
+    title: "Adoption Patterns",
+    description:
+      "Websites using AI-infused SEO strategies achieved ~29% YOY organic traffic growth, outperforming non-AI sites at ~24%, highlighting the competitive advantage of LLM-driven optimization.",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    alt: "feature-icon",
+    title: "AI-Sourced Traffic",
+    description:
+      "Across 19 GA4-tracked sites, AI-driven sessions jumped from 17,076 (Jan – May 2024) to 107,100 in the same 2025 window—a staggering 527% YoY spike fueled by rising AI-powered discovery.",
+  },
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    alt: "feature-icon",
+    title: "Future Trends",
+    description:
+      "By 2026, LLM SEO will become a core necessity, with generative AI summaries expected on 65% of Google SERPs, reshaping search visibility, ranking dynamics, and brand discovery opportunities.",
+  },
+];
+
+export const aiPromptService = [
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    alt: "feature-icon",
+    title: "Unstructured Data Crisis",
+    description:
+      "Over 80–90% of enterprise data, including prompt logs, transcripts, and customer feedback, remains unstructured and largely unanalyzed, limiting AI-driven insights.",
+  },
+  {
+    order: "order-0",
+    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    alt: "feature-icon",
+    title: "AI Roadblocks",
+    description:
+      "45% of companies cite fragmented unstructured data as their biggest barrier to AI success, while 69% struggle with poor data quality, blocking smarter decision-making.",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    alt: "feature-icon",
+    title: "Generative AI Surge",
+    description:
+      "AI adoption is accelerating: 78% of organizations now use AI in at least one function, with 65–71% leveraging generative AI, reshaping workflows and user experiences.",
+  },
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    alt: "feature-icon",
+    title: "AI Deployment Gap",
+    description:
+      "Despite rapid adoption, only 8–35% of organizations have fully deployed AI. Most remain in pilot stages, limiting scalability, performance, and competitive advantage.",
+  },
+];
+
+export const saasContent = [
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    alt: "feature-icon",
+    title: "Effectiveness",
+    description:
+      "Only 29 % of SaaS marketers report that their content strategies are highly effective, showing most efforts fail to drive real results.",
+  },
+  {
+    order: "order-0",
+    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    alt: "feature-icon",
+    title: "Growth",
+    description:
+      "SaaS companies leveraging expert content agencies grow 2.3× faster, proving the impact of structured, data-driven strategies.",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    alt: "feature-icon",
+    title: "Returns",
+    description:
+      "SEO-led campaigns yield a massive 702% ROI—proving that optimized SaaS content beats traditional marketing by a wide margin.",
+  },
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    alt: "feature-icon",
+    title: "Trust",
+    description:
+      "Only 4% of marketers fully trust AI-generated content—reinforcing the value of human judgment in today’s automated landscape.",
+  },
+];
+
+export const saasReddit = [
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    alt: "feature-icon",
+    title: "Underutilized",
+    description:
+      "Over 63% of SaaS buyers now engage with Reddit discussions before choosing a tool, yet less than 12% of SaaS brands actively participate, creating massive untapped growth potential.",
+  },
+  {
+    order: "order-0",
+    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    alt: "feature-icon",
+    title: "Missed",
+    description:
+      "Reddit’s AI-powered advertising solutions are projected to increase SaaS lead conversions by up to 34%, yet a majority of brands are still missing the opportunity to capitalize.",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    alt: "feature-icon",
+    title: "Untapped",
+    description:
+      "SaaS decision-makers are 27% more likely to convert after engaging with Reddit discussions, but most brands fail to build authentic visibility where buyers seek peer-driven insights",
+  },
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    alt: "feature-icon",
+    title: "Undercounted",
+    description:
+      "Less than 10% of SaaS brands actively leverage Reddit for growth, even though thousands of potential customers are already discussing solutions and tools every single day",
   },
 ];

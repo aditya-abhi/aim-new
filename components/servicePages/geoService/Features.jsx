@@ -1,4 +1,4 @@
-import { steps } from "@/data/process";
+import { stepsService2 } from "@/data/process";
 import Image from "next/image";
 import React from "react";
 
@@ -14,21 +14,21 @@ export default function Features() {
             className="section-inner panel vstack border rounded-3 overflow-hidden bg-secondary dark:bg-gray-300 dark:bg-opacity-15"
             data-anime="onview: -200; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 200;"
           >
-            <div className="panel p-4 md:p-6 lg:p-8 text-center">
+            <div className="panel p-4 md:p-6 lg:p-8 text-center items-center">
               <h2 className="h3 lg:h2 xl:h1 m-0">
-                The Power of AI Search Analytics
+                The Power of Generative Engine Optimization
               </h2>
-              <p className="fs-6 xl:fs-5 fw-bold text-dark dark:text-white text-opacity-70">
-                Our service uses advanced machine learning and natural language
-                processing to transform your search data into a clear,
-                actionable roadmap.
+              <p className="fs-6 xl:fs-5 fw-bold text-dark dark:text-white text-opacity-70 mt-2">
+                Our GEO service uses advanced AI, natural language
+                understanding, and predictive analytics to make your content
+                discoverable and authoritative on generative platforms.
               </p>
             </div>
             <div
               className="row child-cols-12 md:child-cols justify-center col-match g-4 sep uc-grid"
               data-uc-grid=""
             >
-              {steps.map((step, index) => (
+              {stepsService2.map((step, index) => (
                 <div key={index} className={step.minWidth}>
                   <div className="panel vstack items-center gap-2 text-center p-5 xl:py-8">
                     <span className="icon-box w-40px md:w-48px h-40px md:h-48px rounded-circle cstack bg-primary dark:bg-tertiary text-tertiary dark:text-primary">

@@ -102,11 +102,11 @@ export default function Hero() {
                       data-anime="translateY: [10, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 450; delay: 250;"
                     >
                       <span className="mb-2 text-tertiary dark:text-primary">
-                        Go Beyond Keywords.
+                        AI Chooses Winners.
                       </span>
                       <br className="d-none lg:d-block" />
                       <span className="px-1 py-0 bg-primary text-tertiary">
-                        Understand Your Customers.
+                        Make Sure It’s You!
                       </span>
                     </h1>
                     <p
@@ -114,9 +114,9 @@ export default function Hero() {
                       data-uc-splitext="types: 'words'"
                       // data-anime="targets: > *; translateX: [5, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 450; delay: anime.stagger(50, {start:650});"
                     >
-                      Why fear? When we’re here to secure your AI visibility. We
-                      make sure your brand leads in ChatGPT, Perplexity, Google
-                      AI Overviews, and beyond.
+                      We optimize your content for Answer Engine Optimization
+                      (AEO), ensuring your brand gets cited, trusted, and
+                      displayed in AI-driven search results.
                     </p>
                     <div
                       className="vstack md:hstack justify-center gap-3 my-1 lg:my-3 sm-flex-column"

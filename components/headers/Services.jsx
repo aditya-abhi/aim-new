@@ -14,12 +14,17 @@ export default function Services() {
           <ul className="uc-nav uc-navbar-dropdown-nav vstack gap-2">
             {section.items.map((item, itemIndex) => (
               <li key={itemIndex}>
-                <Link className="hstack items-start gap-2" href={item.link}>
+                <Link
+                  className="hstack items-start gap-2 hover:text-primary-600"
+                  href={item.link}
+                >
                   <div className="cstack min-w-32px h-32px rounded bg-primary">
                     <i className={`icon-1 ${item.icon} text-dark`} />
                   </div>
                   <span className="vstack gap-narrow mt-nnarrow">
-                    <b className="fw-medium dark:text-white">{item.title}</b>
+                    <b className="fw-medium dark:text-white hover:text-primary-600">
+                      {item.title}
+                    </b>
                     {/* <span className="fs-7">{item.description}</span> */}
                   </span>
                 </Link>

@@ -1,16 +1,15 @@
 import Header from "@/components/headers/Header7";
 import Footer from "@/components/footers/Footer7";
-import Hero from "@/components/servicePages/aiSearchAnalytics/Hero";
-import Problem from "@/components/servicePages/aiSearchAnalytics/Problem";
-import Features from "@/components/servicePages/aiSearchAnalytics/Features";
-import Process from "@/components/servicePages/aiSearchAnalytics/Process";
-import Services from "@/components/servicePages/aiSearchAnalytics/Services";
-import Faqs from "@/components/servicePages/aiSearchAnalytics/Faqs";
-import Cta from "@/components/servicePages/aiSearchAnalytics/Cta";
-import ServiceTimelinev4 from "@/components/services/ServiceTimelinev4";
+import Hero from "@/components/servicePages/saasContentMarketing/Hero";
+import Problem from "@/components/servicePages/saasContentMarketing/Problem";
+import Features from "@/components/servicePages/saasContentMarketing/Features";
+import Process from "@/components/servicePages/saasContentMarketing/Process";
+import Services from "@/components/servicePages/saasContentMarketing/Services";
+import Faqs from "@/components/servicePages/saasContentMarketing/Faqs";
+import Cta from "@/components/servicePages/saasContentMarketing/Cta";
 
 export const metadata = {
-  title: "AI Search Analytics || AI Monitor",
+  title: "LLM Search Enmgine Optimization Service || AI Monitor",
   description:
     "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
@@ -23,9 +22,6 @@ export default function page() {
           <div id="wrapper" className="wrap">
             <Hero />
             <Problem />
-            <div>
-              <ServiceTimelinev4 />
-            </div>
             <Features />
             <Process />
             <Services />

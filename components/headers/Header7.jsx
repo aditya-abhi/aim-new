@@ -78,9 +78,11 @@ export default function Header7() {
               </div>
               <div className="uc-navbar-center  ">
                 <ul className="uc-navbar-nav fs-5 gap-3 lg:gap-4 d-none lg:d-flex">
-                  <li className="has-dd-menu">
-                    <a href="#" role="button" aria-haspopup="true">
-                      Services{" "}
+                  <li className="has-dd-menu hover:text-primary-600">
+                    <a href="/services" role="button" aria-haspopup="true">
+                      <span className="dark:hover:text-secondary">
+                        Services{" "}
+                      </span>
                       <span
                         data-uc-navbar-parent-icon=""
                         className="uc-icon uc-navbar-parent-icon"
