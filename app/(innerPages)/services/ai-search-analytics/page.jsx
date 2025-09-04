@@ -4,16 +4,9 @@ import Hero from "@/components/servicePages/aiSearchAnalytics/Hero";
 import Problem from "@/components/servicePages/aiSearchAnalytics/Problem";
 import Features from "@/components/servicePages/aiSearchAnalytics/Features";
 import Process from "@/components/servicePages/aiSearchAnalytics/Process";
-// import Hero2 from "@/components/services/Hero2";
-// import Features from "@/components/services/Features";
-// import Services from "@/components/services/Services";
-// import Faq from "@/components/services/Faqs";
-// import Testimonials from "@/components/services/Testimonials";
-// import Cta from "@/components/services/Cta";
-// // import Problem from "@/components/features/Problem";
-// import Target from "@/components/features/Target";
-// import WhySection from "@/components/services/WhySection";
-// import ChooseUs from "@/components/services/ChooseUs";
+import Services from "@/components/servicePages/aiSearchAnalytics/Services";
+import Faqs from "@/components/servicePages/aiSearchAnalytics/Faqs";
+import Cta from "@/components/servicePages/aiSearchAnalytics/Cta";
 
 export const metadata = {
   title: "Services - AI Search Analytics || AI Monitor",
@@ -31,14 +24,9 @@ export default function page() {
             <Problem />
             <Features />
             <Process />
-            {/* <Hero2 />
-            <Features />
-            <WhySection />
             <Services />
-            <Testimonials />
-            <ChooseUs />
-            <Faq />
-            <Cta /> */}
+            <Faqs />
+            <Cta />
           </div>
           <Footer />
         </div>

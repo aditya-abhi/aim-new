@@ -1294,6 +1294,7 @@ export const services = [
     title: "Answer Engine Optimization (AEO)",
     description:
       "Capture top placements in Google AI Overviews, Perplexity, and Bing Copilot. We structure your content to win Featured AI Snippets and become the default recommendation in conversational search.",
+    linkHref: "/",
   },
   {
     id: 4,
@@ -1321,6 +1322,7 @@ export const services = [
     title: "AI Prompt Monitoring",
     description:
       "Get a real-time intelligence feed on your AI presence. We track how your brand and competitors appear across thousands of prompts, giving you a clear view of your market share in the new AI landscape.",
+    linkHref: "/",
   },
   {
     id: 7,
@@ -1347,6 +1349,7 @@ export const services = [
     title: "Competitor Benchmarking",
     description:
       "Stay ahead of your competitors with detailed visibility benchmarking across AI-driven and traditional platforms. We analyze competitor placements, content strategies, and performance gaps to give you a winning edge.",
+    linkHref: "/",
   },
   {
     id: 10,
@@ -1355,6 +1358,42 @@ export const services = [
     title: "Marketing Analytics",
     description:
       "Get real-time, actionable insights into your AI search visibility, traffic patterns, and customer journeys. Our analytics dashboards help you identify growth opportunities and measure the impact of your strategies.",
+    linkHref: "/",
+  },
+];
+export const servicePage1 = [
+  {
+    id: 1,
+    imgSrc: "/assets/images/template/ai-search-analytics.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "Comprehensive Intent Reports",
+    description:
+      "Deep insights into user motivations and search behavior, so your strategy speaks directly to what your audience wants.",
+  },
+  {
+    id: 2,
+    imgSrc: "/assets/images/template/geo.webp",
+    imgAlt: "Connect every part of your entire business",
+    title: "Real-Time Trend Dashboards",
+    description:
+      "Interactive, always-updated dashboards that uncover emerging search patterns before your competitors catch on.",
+    linkText: "View Service",
+  },
+  {
+    id: 3,
+    imgSrc: "/assets/images/template/aeo.webp",
+    imgAlt: "Maintain compliance and control your apps",
+    title: "Content & Product Opportunity Maps",
+    description:
+      "Clear, actionable roadmaps highlighting exactly what to create, optimize, or expand to win AI search placement.",
+  },
+  {
+    id: 4,
+    imgSrc: "/assets/images/template/saas-seo.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "Strategic Consultation Sessions",
+    description:
+      "Hands-on guidance from our AI search experts, ensuring every decision is aligned with growth and measurable results.",
   },
 ];
 

@@ -25,7 +25,7 @@ export default function Problem() {
                   Understand Your Customers?
                 </span>
               </h2>
-              <p className="fs-6 xl:fs-5 xl:px-8">
+              <p className="fs-6 xl:fs-5 xl:px-8 dark:text-white">
                 Traditional analytics only tells you what people search for. We
                 reveal the why.
               </p>
@@ -50,7 +50,9 @@ export default function Problem() {
                     <div className="panel">
                       <div className="vstack gap-1">
                         <h3 className="title h6 lg:h5 m-0">{feature.title}</h3>
-                        <p className="desc fs-6">{feature.description}</p>
+                        <p className="desc fs-6 dark:text-white">
+                          {feature.description}
+                        </p>
                       </div>
                     </div>
                   </div>

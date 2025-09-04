@@ -1,5 +1,5 @@
-import Blog1 from "@/app/blogs/blog-1";
-import Blog2 from "@/app/blogs/blog-2";
+import Blog1 from "@/components/blogs/blog-1";
+import Blog2 from "@/components/blogs/blog-2";
 import BlogDetails3 from "@/components/blog/BlogDetails3";
 import Newsletter from "@/components/blog/Newsletter";
 import BlogSidebarLeft from "@/components/blog/BlogSidebarLeft";

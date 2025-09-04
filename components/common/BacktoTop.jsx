@@ -3,7 +3,7 @@
 import { useContextElement } from "@/context/Context";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
-import InlineToc from "@/app/blogs/InlineToc";
+import InlineToc from "@/components/blogs/InlineToc";
 
 export default function BacktoTop() {
   const { isDark, handleToggle } = useContextElement();

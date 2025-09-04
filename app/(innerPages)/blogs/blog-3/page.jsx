@@ -1,4 +1,4 @@
-import Blog3 from "@/app/blogs/blog-3";
+import Blog3 from "@/components/blogs/blog-3";
 import BlogDetails3 from "@/components/blog/BlogDetails3";
 import Newsletter from "@/components/blog/Newsletter";
 import Footer1 from "@/components/footers/Footer1";

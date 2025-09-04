@@ -1,10 +1,11 @@
 "use client";
 import Toc from "./Toc";
-import RelatedBlogs from "../../components/blog/RelatedBlogs";
+import RelatedBlogs from "../blog/RelatedBlogs";
 import Image from "next/image";
 import Link from "next/link";
 import { Gallery, Item } from "react-photoswipe-gallery";
 import { useState } from "react";
+import Blog1Faqs from "../blogs/faqs/Blog1Faqs";
 import GEOCourseCTA from "@/components/common/GeoCTA";
 
 export default function Blog2({ blogItem }) {
@@ -86,7 +87,7 @@ export default function Blog2({ blogItem }) {
                   <figure className="featured-image m-0 rounded ratio ratio-1x1 uc-transition-toggle overflow-hidden">
                     <Image
                       className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                      alt="Amir Nisi"
+                      alt="Avinash Tripathi Image"
                       src="/assets/images/avatars/avinash.webp"
                       width="1000"
                       height="667"
@@ -781,6 +782,8 @@ export default function Blog2({ blogItem }) {
                 </div>
               </div>
             </div>
+            <hr className="w-100 m-0 d-block mt-4 lg:mt-6 xl:mt-8" />
+            <Blog1Faqs />
             <div className="post-footer panel vstack sm:hstack gap-3 justify-between justifybetween border-top py-4 mt-4 xl:py-9 xl:mt-9">
               <ul className="nav-x gap-narrow text-primary">
                 <li>
@@ -855,8 +858,8 @@ export default function Blog2({ blogItem }) {
                   <figure className="featured-image m-0 rounded ratio ratio-1x1 uc-transition-toggle overflow-hidden">
                     <Image
                       className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                      alt="Amir Nisi"
-                      src="/assets/images/blog/post-author.jpg"
+                      alt="Avinash Tripathi Image"
+                      src="/assets/images/avatars/avinash.webp"
                       width="1000"
                       height="667"
                     />
@@ -864,11 +867,19 @@ export default function Blog2({ blogItem }) {
                 </div>
                 <div className="col">
                   <div className="panel vstack items-start gap-2 md:gap-3">
-                    <h4 className="h5 m-0">Amir Nisi</h4>
+                    <h4 className="h5 m-0">Avinash Tripathi</h4>
                     <p className="fs-6">
-                      Creative and experienced content writer with 6+ years of
-                      experience eager to create unique content strategy for
-                      Lexend to turn website visitors into customers.
+                      My journey into Generative Engine Optimization (GEO) began
+                      with a fortunate accident. I was happily working as an
+                      entrepreneur when one day, while researching, I noticed
+                      that Microsoft Copilot made a negative comment about my
+                      startup. Instead of ignoring what Copilot said, I chose to
+                      understand, learn, and understand how AI-driven search
+                      works, even though a lot of people around me felt that it
+                      was beyond my competence. My persistence paid off as my
+                      work has been featured by leading media companies such as
+                      The Hindu, Yahoo, and Scroll. Most recently, I was awarded
+                      the #1 GEO Consultant by YesUsers
                     </p>
                     <ul className="nav-x gap-1 text-gray-400 dark:text-white">
                       <li>
