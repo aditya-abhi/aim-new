@@ -7,6 +7,7 @@ import Process from "@/components/servicePages/aiSearchAnalytics/Process";
 import Services from "@/components/servicePages/aiSearchAnalytics/Services";
 import Faqs from "@/components/servicePages/aiSearchAnalytics/Faqs";
 import Cta from "@/components/servicePages/aiSearchAnalytics/Cta";
+import ServiceTimelinev4 from "@/components/services/ServiceTimelinev4";
 
 export const metadata = {
   title: "Services - AI Search Analytics || AI Monitor",
@@ -22,6 +23,9 @@ export default function page() {
           <div id="wrapper" className="wrap">
             <Hero />
             <Problem />
+            <div>
+              <ServiceTimelinev4 />
+            </div>
             <Features />
             <Process />
             <Services />
