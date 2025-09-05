@@ -1,4 +1,4 @@
-import Service8 from "@/components/common/ServiceAccordions/ServiceFaq8";
+import Service10 from "@/components/common/ServiceAccordions/ServiceFaq10";
 import React from "react";
 
 export default function Faqs() {
@@ -25,7 +25,7 @@ export default function Faqs() {
                     data-uc-accordion="targets: > li; multiple: false;"
                     style={{ "--divider-gap": "48px" }}
                   >
-                    <Service8 />
+                    <Service10 />
                   </ul>
                 </div>
               </div>

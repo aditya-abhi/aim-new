@@ -187,25 +187,25 @@ export const stepsService7 = [
   {
     number: "1",
     imgSrc: "/assets/images/services/img.png",
-    title: "Intent-Driven Topic Mapping",
+    title: "Precision Gap Detection",
     description:
-      "Aligns every piece of content with what your SaaS audience truly wants to know, not just what they type into Google.",
+      "We analyze competitor traffic, engagement, and conversions to find gaps you can close.",
     minWidth: "min-w-1/4",
   },
   {
     number: "2",
     imgSrc: "/assets/images/services/img-2.png",
-    title: "Predictive Content Trends",
+    title: "Early Trend Recognition",
     description:
-      "Anticipate the next SaaS challenges and opportunities, letting you lead conversations rather than catch up.",
+      "Spot where others are accelerating, be the first to react, not the last to follow.",
     minWidth: "min-w-1/4",
   },
   {
     number: "3",
     imgSrc: "/assets/images/services/img-3.png",
-    title: "SEO & Content Gap Analysis",
+    title: "Opportunity Mapping",
     description:
-      "Uncover the content topics competitors haven’t addressed, then offer the answers they’re missing.",
+      "Reveal the metrics your competitors are missing—and position your brand to win where they’re falling short.",
     minWidth: "min-w-100 lg:min-w-1/4",
   },
 ];
@@ -233,6 +233,59 @@ export const stepsService8 = [
     title: "Engagement & Visibility Gaps",
     description:
       "Effortlessly identify where your audience is searching for SaaS insights but not finding valuable responses, enabling you to join the right discussions and boost visibility across high-intent Reddit communities.",
+    minWidth: "min-w-100 lg:min-w-1/4",
+  },
+];
+export const stepsService9 = [
+  {
+    number: "1",
+    imgSrc: "/assets/images/services/img.png",
+    title: "Blindspots",
+    description:
+      "Companies lacking comparative data often miss critical insights into competitor strategies, leading to underperformance and missed opportunities in the market.",
+    minWidth: "min-w-1/4",
+  },
+  {
+    number: "2",
+    imgSrc: "/assets/images/services/img-2.png",
+    title: "Stagnation",
+    description:
+      "Businesses that neglect benchmarking grow 35% slower than their competitors because they lack performance insights, resulting in outdated strategies.",
+    minWidth: "min-w-1/4",
+  },
+  {
+    number: "3",
+    imgSrc: "/assets/images/services/img-3.png",
+    title: "Misalignment",
+    description:
+      "68% of organizations set unrealistic goals without comparing competitor benchmarks, causing lower ROI and ineffective execution of long-term growth strategies.",
+    minWidth: "min-w-100 lg:min-w-1/4",
+  },
+];
+
+export const stepsService10 = [
+  {
+    number: "1",
+    imgSrc: "/assets/images/services/img.png",
+    title: "Intelligent Consumer Behavior Analysis",
+    description:
+      "Gain deep insights into the real motivations driving consumer actions, so your strategy aligns perfectly with what your audience truly wants.",
+    minWidth: "min-w-1/4",
+  },
+  {
+    number: "2",
+    imgSrc: "/assets/images/services/img-2.png",
+    title: "Predictive Trend Identification",
+    description:
+      "Spot emerging market trends early, allowing you to act ahead of competitors and capture untapped opportunities.",
+    minWidth: "min-w-1/4",
+  },
+  {
+    number: "3",
+    imgSrc: "/assets/images/services/img-3.png",
+    title: "Automated Campaign & SEO Gaps",
+    description:
+      "Effortlessly uncover what your audience is engaging with but not finding in your campaigns, enabling you to fill gaps and boost visibility.",
     minWidth: "min-w-100 lg:min-w-1/4",
   },
 ];

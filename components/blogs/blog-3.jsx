@@ -210,9 +210,9 @@ export default function Blog2({ blogItem }) {
         </div>
         <div className="panel mt-4 lg:mt-6 xl:mt-9">
           <div className="container">
-            <div className="row child-cols-12 hstack">
-              <div className="md:col-2 d-none lg:d-block lg:min-h-800px  order-0 lg:order-0"></div>
-              <div className="md:col-6 order-1 g-2 lg:g-4 xl:g-8">
+            <div className="row child-cols justify-center lg:justify-between items-center gx-0">
+              <div className="col-12 lg:col-2 xl:col-2 d-none lg:d-block lg:min-h-800px"></div>
+              <div className="col-12  lg:col-6 xl:col-6">
                 <div className="uc-main panel" role="main">
                   <Gallery>
                     <div
@@ -777,7 +777,7 @@ export default function Blog2({ blogItem }) {
                   </Gallery>
                 </div>
               </div>
-              <div className="md:col-4 order-2 lg:order-2">
+              <div className="col-12 order-2 lg:order-2 lg:col-4 xl:col-4">
                 <Toc />
               </div>
             </div>

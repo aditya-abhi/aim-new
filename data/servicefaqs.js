@@ -414,3 +414,181 @@ export const service7 = [
     expanded: false,
   },
 ];
+
+export const service8 = [
+  {
+    id: 1,
+    question: "How can Reddit help SaaS brands grow faster?",
+    answer:
+      "Reddit is where thousands of SaaS buyers, developers, and decision-makers openly discuss tools, challenges, and solutions. By engaging authentically in these conversations, SaaS brands can build trust, generate leads, and influence buying decisions in real time.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "Which subreddits work best for SaaS growth?",
+    answer:
+      "It depends on your niche. Popular subreddits like r/SaaS, r/startups, r/Entrepreneur, and r/ProductManagement are great starting points, but we perform a custom subreddit audit to identify hidden, high-conversion communities where your ideal customers are active.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Should SaaS brands use Reddit Ads or organic marketing?",
+    answer:
+      "Both matter. Reddit Ads are great for driving awareness quickly, while organic participation in threads builds long-term credibility and trust. Our strategy blends paid ads, community engagement, and content positioning to maximize SaaS visibility and leads.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "How do you make SaaS content perform well on Reddit?",
+    answer:
+      "Reddit thrives on value-first engagement. We craft campaigns, thought-leadership posts, and response-driven comments tailored to your audience’s pain points. Every post is optimized for tone, timing, and subreddit culture to increase upvotes, comments, and clicks.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "How do you track ROI from Reddit marketing?",
+    answer:
+      "We track success using custom UTM links, Reddit referral analytics, engagement dashboards, and lead attribution reports. You’ll know exactly which posts, AMAs, and ads drive conversions, ensuring every dollar spent is measurable and optimized for SaaS growth.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Can Reddit work for B2B SaaS brands, or is it only B2C?",
+    answer:
+      "Reddit is a goldmine for B2B SaaS. Many developers, IT buyers, and SaaS decision-makers use Reddit to research tools and solutions. By targeting technical subreddits and running insight-driven campaigns, we help B2B SaaS brands reach qualified prospects directly.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "How do I get started with Reddit SaaS marketing?",
+    answer:
+      "It’s simple. Book a free strategy call, and we’ll run a Reddit visibility audit to analyze subreddits, competitor mentions, and engagement opportunities. Then, we’ll design a custom SaaS Reddit growth plan to maximize your brand’s presence and lead generation.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+
+export const service9 = [
+  {
+    id: 1,
+    question: "What is competitor benchmarking, and why do I need it?",
+    answer:
+      "Competitor benchmarking compares your performance including traffic, conversions, pricing, and engagement directly against rivals. It gives you context, not just metrics, and helps you set realistic, goal-winning targets.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "How long does it take to see results?",
+    answer:
+      "Most clients begin tracking competitor movement within 5-6 weeks and see strategic gains over 3–4 months, depending on how sophisticated your competitive landscape is.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Do you use AI tools to implement the strategy?",
+    answer:
+      "Yes. We use human strategy with AI models to surface competitor intelligence, performance gaps, and untapped opportunities faster and more accurately.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "What if competitor dynamics shift?",
+    answer:
+      "Our platform continuously monitors competitor metrics and alerts you in real time keeping you ahead of changes, rather than scrambling to catch up.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "How do you measure success?",
+    answer:
+      "We track your competitive ranking across KPIs like visibility, speed, engagement, and conversions, plus your delta versus rivals. Monthly benchmarking reports show you exactly how you stack up.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Do I need to overhaul my tech stack?",
+    answer:
+      "Not at all. Most brands can start benchmarking with existing analytics and AI tools. We integrate seamlessly and guide you through minimal adjustments, if needed.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "How do I get started?",
+    answer:
+      "Simply book your complimentary Competitive Insight Call. We’ll audit your benchmarking readiness and co-design a roadmap to outshine your competition.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+
+export const service10 = [
+  {
+    id: 1,
+    question: "How does AI improve marketing analytics?",
+    answer:
+      "AI enhances marketing analytics by processing vast amounts of data to uncover patterns and insights that human analysts might miss. This leads to more accurate predictions and personalized marketing strategies.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "What industries can benefit from AI marketing analytics?",
+    answer:
+      "Virtually every industry can benefit, including retail, B2B SAAS, healthcare, finance, and technology, by gaining a deeper understanding of customer behavior and optimizing marketing efforts accordingly.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Is AI marketing analytics suitable for small businesses?",
+    answer:
+      "Yes, AI marketing analytics can be scaled to fit businesses of all sizes, providing valuable insights that can drive growth and efficiency.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "How quickly can I see results from AI marketing analytics?",
+    answer:
+      "While initial insights can be gathered within weeks, significant improvements in marketing performance typically become evident within 2 to 3 months, depending on the complexity of the strategies implemented.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "Will AI replace marketing teams?",
+    answer:
+      "No. AI enhances human expertise by automating data analysis, trend detection, and reporting, allowing teams to focus on strategy and creative execution.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "How secure is my marketing data with AI tools?",
+    answer:
+      "Leading AI analytics platforms follow strict security standards, including encryption, access controls, and compliance with global data protection regulations.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question:
+      "How do I get started?Can AI analytics improve personalization in marketing?",
+    answer:
+      "Absolutely. AI identifies individual user preferences and behavior patterns, enabling hyper-personalized messaging, recommendations, and campaigns.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];

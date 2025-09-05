@@ -11,6 +11,7 @@ import Cta from "@/components/services/Cta";
 // import Target from "@/components/features/Target";
 import WhySection from "@/components/services/WhySection";
 import ChooseUs from "@/components/services/ChooseUs";
+import ServiceTimeline from "@/components/servicePages/saasSeo/ServiceTimeline";
 
 export const metadata = {
   title: "Services || AI Monitor",
@@ -28,6 +29,7 @@ export default function page() {
             <Hero2 />
             <Features />
             <WhySection />
+            <ServiceTimeline />
             <Services />
             <Testimonials />
             <ChooseUs />

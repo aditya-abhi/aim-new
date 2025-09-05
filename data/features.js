@@ -1647,6 +1647,78 @@ export const servicePage8 = [
   },
 ];
 
+export const servicePage9 = [
+  {
+    id: 1,
+    imgSrc: "/assets/images/template/ai-search-analytics.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "Competitor Insight Reports",
+    description:
+      "In-depth analysis of rivals’ strengths and weaknesses, with actionable takeaways tailored to your brand.",
+  },
+  {
+    id: 2,
+    imgSrc: "/assets/images/template/geo.webp",
+    imgAlt: "Connect every part of your entire business",
+    title: "Dynamic Benchmark Dashboards",
+    description:
+      "Live dashboards tracking competitor metrics, see how you measure up at a glance.",
+    linkText: "View Service",
+  },
+  {
+    id: 3,
+    imgSrc: "/assets/images/template/aeo.webp",
+    imgAlt: "SaaS Content Opportunity Maps",
+    title: "Strategic Opportunity Maps",
+    description:
+      "Visual guides that reveal where your competitors are vulnerable and where you should strike.",
+  },
+  {
+    id: 4,
+    imgSrc: "/assets/images/template/saas-seo.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "Expert Strategy Sessions",
+    description:
+      "Guided consultations to ensure every benchmark translates into measurable growth.",
+  },
+];
+
+export const servicePage10 = [
+  {
+    id: 1,
+    imgSrc: "/assets/images/template/ai-search-analytics.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "Comprehensive Consumer Behavior Reports",
+    description:
+      "Deep insights into user motivations and actions, so your strategy speaks directly to what your audience wants.",
+  },
+  {
+    id: 2,
+    imgSrc: "/assets/images/template/geo.webp",
+    imgAlt: "Connect every part of your entire business",
+    title: "Real-Time Trend Dashboards",
+    description:
+      "Interactive, always-updated dashboards that uncover emerging market patterns before your competitors catch on.",
+    linkText: "View Service",
+  },
+  {
+    id: 3,
+    imgSrc: "/assets/images/template/aeo.webp",
+    imgAlt: "SaaS Content Opportunity Maps",
+    title: "Campaign & Product Opportunity Maps",
+    description:
+      "Clear, actionable roadmaps highlighting exactly what to create, optimize, or expand to win AI marketing placement.",
+  },
+  {
+    id: 4,
+    imgSrc: "/assets/images/template/saas-seo.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "Strategic Consultation Sessions",
+    description:
+      "Hands-on guidance from our AI marketing experts, ensuring every decision is aligned with growth and measurable results.",
+  },
+];
+
 export const servicesFeature = [
   {
     icon: "unicon-document",
@@ -1944,6 +2016,41 @@ export const saasContent = [
   },
 ];
 
+export const marketingAnalytics = [
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    alt: "feature-icon",
+    title: "Market Growth",
+    description:
+      "The global AI marketing analytics market is set to grow from $47.32B in 2025 to $107.5B by 2028, reflecting a CAGR of 36.6% as AI adoption accelerates.",
+  },
+  {
+    order: "order-0",
+    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    alt: "feature-icon",
+    title: "Adoption Rates",
+    description:
+      "94% of organizations now use AI to plan or execute marketing strategies, leveraging intelligent insights to optimize campaigns and improve customer engagement.",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    alt: "feature-icon",
+    title: "Performance Enhancement",
+    description:
+      "34% of marketers report measurable improvements in campaign effectiveness, lead generation, and ROI after integrating AI-driven marketing analytics tools.",
+  },
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    alt: "feature-icon",
+    title: "Budget Allocation",
+    description:
+      "Nearly 1 in 5 marketers allocates over 40% of their marketing budget to AI-powered campaigns, reflecting strong confidence in AI’s ability to drive results.",
+  },
+];
+
 export const saasReddit = [
   {
     order: "order-1 lg:order-0",
@@ -1976,5 +2083,40 @@ export const saasReddit = [
     title: "Undercounted",
     description:
       "Less than 10% of SaaS brands actively leverage Reddit for growth, even though thousands of potential customers are already discussing solutions and tools every single day",
+  },
+];
+
+export const competitorBenchmarking = [
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    alt: "feature-icon",
+    title: "Blindspots",
+    description:
+      "Companies lacking comparative data often miss critical insights into competitor strategies, leading to underperformance and missed opportunities in the market.",
+  },
+  {
+    order: "order-0",
+    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    alt: "feature-icon",
+    title: "Stagnation",
+    description:
+      "Businesses that neglect benchmarking grow 35% slower than their competitors because they lack performance insights, resulting in outdated strategies.",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    alt: "feature-icon",
+    title: "Misalignment",
+    description:
+      "68% of organizations set unrealistic goals without comparing competitor benchmarks, causing lower ROI and ineffective execution of long-term growth strategies.",
+  },
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    alt: "feature-icon",
+    title: "Revenue-Loss",
+    description:
+      "Companies that don’t track competitor moves lose up to 22% annual revenue on average, as proactive competitors consistently capture untapped market demand first.",
   },
 ];
