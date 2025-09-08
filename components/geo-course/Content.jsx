@@ -21,7 +21,7 @@ export default function Content() {
                   <div className="col-12 sm:col-6 order-0 lg:order-1">
                     <div className="panel w-100">
                       <Image
-                        src="/assets/images/template/feature-01.svg"
+                        src="/assets/images/features/geo-course-1.webp"
                         width={780}
                         height={728}
                         alt="Introduction to GEO & Generative Engines"
@@ -88,7 +88,7 @@ export default function Content() {
                   <div className="col-12 sm:col-6 order-0 lg:order-1">
                     <div className="panel w-100">
                       <Image
-                        src="/assets/images/template/feature-02.svg"
+                        src="/assets/images/features/geo-course-2.webp"
                         width={780}
                         height={728}
                         alt="Introduction to GEO & Generative Engines"
@@ -162,7 +162,7 @@ export default function Content() {
                   <div className="col-12 sm:col-6 order-0 lg:order-1">
                     <div className="panel w-100">
                       <Image
-                        src="/assets/images/template/feature-03.svg"
+                        src="/assets/images/features/geo-course-3.webp"
                         width={780}
                         height={728}
                         alt="Introduction to GEO & Generative Engines"
@@ -223,7 +223,7 @@ export default function Content() {
                   <div className="col-12 sm:col-6 order-0 lg:order-1">
                     <div className="panel w-100">
                       <Image
-                        src="/assets/images/template/feature-04.svg"
+                        src="/assets/images/features/geo-course-4.webp"
                         width={780}
                         height={728}
                         alt="Introduction to GEO & Generative Engines"
@@ -290,7 +290,7 @@ export default function Content() {
                   <div className="col-12 sm:col-6 order-0 lg:order-1">
                     <div className="panel w-100">
                       <Image
-                        src="/assets/images/template/feature-03.svg"
+                        src="/assets/images/features/geo-course-5.webp"
                         width={780}
                         height={728}
                         alt="Introduction to GEO & Generative Engines"
@@ -363,7 +363,7 @@ export default function Content() {
                   <div className="col-12 sm:col-6 order-0 lg:order-1">
                     <div className="panel w-100">
                       <Image
-                        src="/assets/images/template/feature-01.svg"
+                        src="/assets/images/features/geo-course-6.webp"
                         width={780}
                         height={728}
                         alt="Strategies for Zero-Click Optimization"
@@ -424,7 +424,7 @@ export default function Content() {
                   <div className="col-12 sm:col-6 order-0 lg:order-1">
                     <div className="panel w-100">
                       <Image
-                        src="/assets/images/template/feature-02.svg"
+                        src="/assets/images/features/geo-course-7.webp"
                         width={780}
                         height={728}
                         alt="Strategies for Zero-Click Optimization"

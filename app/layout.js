@@ -56,8 +56,8 @@ export default function RootLayout({ children }) {
             let targets;
             if (animeSettings.targets === ">*") {
               targets = element.children;
-            } else {
-              targets = element?.querySelectorAll(animeSettings.targets);
+              // } else {
+              //   targets = element?.querySelectorAll(animeSettings.targets);
             }
             // console.log(animeSettings);
 

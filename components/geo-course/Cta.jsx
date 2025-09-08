@@ -15,27 +15,27 @@ export default function Cta() {
         <div className="container">
           <div className="section-inner panel">
             <div
-              className="position-absolute bg-orange-100 rounded-circle shadow-xs cstack w-56px h-56px d-none lg:d-block"
+              className="position-absolute rounded-circle shadow-xs cstack w-56px h-56px d-none lg:d-block"
               style={{ top: "0%", right: "11%" }}
               data-anime="translateY: [0, 15]; easing: linear; loop: true; direction: alternate; delay: 50;"
             >
               <Image
-                className="p-2"
-                alt="brand"
-                src="/assets/images/apps/zapier.svg"
+                className=""
+                alt="ChatGPT Logo"
+                src="/assets/images/apps/gpt.webp"
                 width={800}
                 height={800}
               />
             </div>
             <div
-              className="position-absolute bg-indigo-100 rounded-circle shadow-xs cstack w-56px h-56px d-none lg:d-block"
+              className="position-absolute rounded-circle shadow-xs cstack w-56px h-56px d-none lg:d-block"
               style={{ top: "-19%", left: "25%" }}
               data-anime="translateY: [0, 5]; easing: linear; loop: true; direction: alternate; delay: 25;"
             >
               <Image
-                className="p-2"
+                className="Gemini Logo"
                 alt="brand"
-                src="/assets/images/apps/stipe.svg"
+                src="/assets/images/apps//gemini.webp"
                 width={800}
                 height={800}
               />
@@ -46,23 +46,23 @@ export default function Cta() {
               data-anime="translateY: [0, 10]; easing: linear; loop: true; direction: alternate; delay: 0;"
             >
               <Image
-                className="p-2"
-                alt="brand"
-                src="/assets/images/apps/asana.svg"
+                className=""
+                alt="Perplexity Logo"
+                src="/assets/images/apps/perplexity.webp"
                 width={2500}
                 height={2311}
               />
             </div>
             <div
-              className="position-absolute bg-yellow rounded-circle shadow-xs cstack w-56px h-56px d-none lg:d-block"
+              className="position-absolute rounded-circle shadow-xs cstack w-56px h-56px d-none lg:d-block"
               style={{ top: "45%", right: "-1.5%" }}
               data-anime="translateY: [0, 5]; easing: linear; loop: true; direction: alternate; delay: 50;"
             >
               <Image
-                className="p-2 text-dark"
-                alt="brand"
+                className=""
+                alt="Copilot Logo"
                 data-uc-svg=""
-                src="/assets/images/apps/mailchimp.svg"
+                src="/assets/images/apps/copilot.webp"
                 width={351}
                 height={373}
               />
@@ -73,22 +73,22 @@ export default function Cta() {
               data-anime="translateY: [0, 15]; easing: linear; loop: true; direction: alternate; delay: 25;"
             >
               <Image
-                className="p-2"
-                alt="brand"
-                src="/assets/images/apps/drive.svg"
+                className=""
+                alt="Deepseak Logo"
+                src="/assets/images/apps/deepseak.webp"
                 width={800}
                 height={800}
               />
             </div>
             <div
-              className="position-absolute bg-blue-100 rounded-circle shadow-xs cstack w-56px h-56px d-none lg:d-block"
+              className="position-absolute rounded-circle shadow-xs cstack w-56px h-56px d-none lg:d-block"
               style={{ top: "75%", left: "10.5%" }}
               data-anime="translateY: [0, 10]; easing: linear; loop: true; direction: alternate; delay: 50;"
             >
               <Image
-                className="p-2"
-                alt="brand"
-                src="/assets/images/apps/bitbucket.svg"
+                className=""
+                alt="Grok Logo"
+                src="/assets/images/apps/grok.webp"
                 width={333}
                 height={300}
               />

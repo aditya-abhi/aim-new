@@ -23,7 +23,7 @@ export default function Hero() {
                         <div className="order-0 lg:order-1">
                           <div className="panel w-100 rounded lg:rounded-2 overflow-hidden">
                             <img
-                              src="../../../assets/images/portrait/course-1.png"
+                              src="../../../assets/images/portrait/geo-course-hero.webp"
                               alt="Hero Image"
                             />
                           </div>
@@ -33,7 +33,7 @@ export default function Hero() {
                             <div>
                               <div className="panel vstack gap-2">
                                 <h1 className="h2 lg:h1 m-0 text-tertiary">
-                                  Generative Engine Optimization Course
+                                  Generative Engine Optimization (GEO) Course
                                 </h1>
                                 <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80 dark:text-gray-800 mb-0">
                                   Master the skills to get your brand discovered
@@ -105,12 +105,12 @@ export default function Hero() {
                                         </span>
                                         <div className="vstack">
                                           <span className="fs-2 fw-bold mb-narrow text-inherit">
-                                            4.5
+                                            5000+
                                           </span>
                                         </div>
                                       </div>
                                       <span className="fs-7 fw-medium mb-narrow text-inherit">
-                                        Average Rating
+                                        Learners
                                       </span>
                                     </div>
                                   </div>

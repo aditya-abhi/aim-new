@@ -204,12 +204,11 @@ export default function ServiceTimeline() {
         <div className="blueprint-container text-tertiary">
           <h2 className="h2 lg:h1 text-tertiary dark:text-primary">
             {" "}
-            Our Roadmap to AI Search Success
+            Our Roadmap to Reddit SaaS Domination
           </h2>
           <p className="subtitle fs-6 lg:fs-5 text-gray-700 dark:text-white">
-            Winning in AI search isn’t luck - it’s strategy. Here’s how we guide
-            your brand to dominate Google SGE, ChatGPT, Bing AI, Perplexity, and
-            beyond.
+            From zero visibility to subreddit dominance, our proven strategy
+            turns Reddit into your SaaS growth engine
           </p>
 
           <div className="timeline">
@@ -224,12 +223,12 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>Introductory Call: Goals & Strategic Alignment</h3>
+                  <h3>Intro Call: Goals & Reddit Alignment</h3>
                   <p>
-                    We start with a focused discussion to understand your
-                    business objectives, KPIs, and timelines. This ensures that
-                    every step of the engagement is aligned with your goals from
-                    day one.
+                    We start with a strategy session to define your Reddit
+                    objectives, KPIs, and target subreddits. This ensures every
+                    move we make aligns with your growth goals and audience
+                    priorities.
                   </p>
                 </div>
               </div>
@@ -246,12 +245,12 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>AI Readiness Assessment & Competitor Audit</h3>
+                  <h3>Reddit Health & Competitor Audi</h3>
                   <p>
-                    We evaluate your website’s technical health and AI
-                    visibility while benchmarking your competitors. This
-                    uncovers gaps and opportunities to outperform them in search
-                    and AI-driven discovery.
+                    We review your current Reddit footprint, how visible you
+                    are, what’s working, and where the gaps are. At the same
+                    time, we analyze competitor mentions, engagement levels, and
+                    community sentiment to uncover growth opportunities.
                   </p>
                 </div>
               </div>
@@ -268,12 +267,13 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>Audience Profiling & Intent Mapping</h3>
+                  <h3>Audience & Intent Mapping</h3>
                   <p>
-                    We define your Ideal Customer Profile (ICP) and analyze
-                    search intent across platforms. This ensures your strategies
-                    attract high-value traffic and meaningful leads, not just
-                    clicks.
+                    We identify where your ideal audience spends time on Reddit,
+                    what topics they care about, and how they interact. By
+                    understanding their language, tone, and intent, we can craft
+                    messaging that resonates naturally within Reddit
+                    communities.
                   </p>
                 </div>
               </div>
@@ -290,12 +290,12 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>Prompt & Keyword Intelligence</h3>
+                  <h3>Conversation & Prompt Intelligence</h3>
                   <p>
-                    We combine AI prompt research with keyword insights to
-                    identify what your audience is truly asking. This balances
-                    high search demand with conversion potential, guiding
-                    content strategy.
+                    We combine Reddit keyword trends with prompt-based AI
+                    insights to discover high-interest topics and discussions.
+                    Using this data, we craft engaging posts and responses
+                    designed to drive upvotes, replies, and visibility.
                   </p>
                 </div>
               </div>
@@ -312,12 +312,13 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>On-Page & Off-Page Optimization</h3>
+                  <h3>Content & Post Optimization</h3>
                   <p>
-                    We optimize content for natural language understanding, AI
-                    crawler visibility, and technical SEO. Structured data, link
-                    authority, and page performance are strengthened to maximize
-                    discoverability.
+                    Reddit thrives on authenticity, so we fine-tune post
+                    formats, timing, and tone to match each subreddit’s culture.
+                    We also optimize Markdown formatting, flair usage, and AMA
+                    preparation to make your content more credible and
+                    impactful.
                   </p>
                 </div>
               </div>
@@ -334,12 +335,12 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>Custom 6-Month Roadmap</h3>
+                  <h3>Custom 6-Month Reddit Playbook</h3>
                   <p>
-                    You’ll receive a tailored action plan with clear,
-                    prioritized steps. Each recommendation is designed to
-                    improve rankings, enhance AI visibility, and deliver
-                    measurable results.
+                    We deliver a step-by-step Reddit growth plan—including a
+                    content calendar, AMA schedules, engagement tactics, and
+                    campaign timings. This gives you a clear roadmap to build
+                    authority and trust over time.
                   </p>
                 </div>
               </div>
@@ -356,11 +357,12 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>Guided Implementation Support</h3>
+                  <h3>Guided Execution Support</h3>
                   <p>
-                    We provide detailed briefs, checklists, and hands-on support
-                    to ensure strategies are executed accurately and
-                    efficiently, keeping your team aligned with the plan.
+                    We equip your team with ready-to-use templates, response
+                    scripts, and AMA facilitation support to help you
+                    participate smoothly and confidently in Reddit conversations
+                    without appearing overly promotional.
                   </p>
                 </div>
               </div>
@@ -377,11 +379,12 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>Performance-Driven Scaling</h3>
+                  <h3>Growth & Scaling Tactics</h3>
                   <p>
-                    We analyze top-performing content and strategies, then
-                    expand them across channels and AI platforms. This approach
-                    maximizes traffic, leads, and ROI over time.
+                    We amplify your top-performing posts and discussions,
+                    leverage Reddit-driven leads across other marketing
+                    channels, and expand your presence into related subreddits
+                    where your audience is most active.
                   </p>
                 </div>
               </div>
@@ -397,11 +400,12 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>Continuous Monitoring & Optimization</h3>
+                  <h3>Ongoing Reddit Monitoring</h3>
                   <p>
-                    You’ll receive monthly reports on AI-driven search traffic,
-                    lead generation, and visibility metrics. Insights are paired
-                    with ongoing refinements to keep you ahead of competitors.
+                    We provide weekly sentiment reports, engagement trend
+                    analysis, and optimization recommendations to ensure your
+                    content stays visible and relevant. This helps you adapt
+                    quickly to changing discussions and audience behavior.
                   </p>
                 </div>
               </div>

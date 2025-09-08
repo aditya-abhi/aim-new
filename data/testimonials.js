@@ -265,6 +265,76 @@ export const testimonialsData = [
   },
 ];
 
+export const aeoTestimonials = [
+  {
+    id: 1,
+    avatarSrc: "/assets/images/avatars/01.png",
+    name: "Ritika Joshi",
+    role: "Content Creator",
+    quote:
+      "“Honestly, I joined this course out of curiosity. But halfway through, I realized AEO is not just a theory, it’s the future of search. Now, when friends ask how my blog suddenly started showing up in AI answers, I just smile and share what I have learn.”",
+  },
+  {
+    id: 2,
+    avatarSrc: "/assets/images/avatars/04.png",
+    name: "Aditya Rao",
+    role: "Front-end Developer",
+    quote:
+      "“When Google started showing AI Overviews, my website traffic dropped overnight. I panicked. This course was a lifesaver, it taught me how to adapt. Two months later, my brand isn’t just surviving, it’s appearing in ChatGPT and Perplexity answers. Total game-changer.”",
+  },
+  {
+    id: 3,
+    avatarSrc: "/assets/images/avatars/03.png",
+    name: "Ravi Gupta",
+    role: "Blogger",
+    quote:
+      "“Didn’t even know ‘AEO’ was a thing before this. Now my blog literally shows up in ChatGPT answers. Bro, this course is a cheat code.”",
+  },
+  {
+    id: 4,
+    avatarSrc: "/assets/images/avatars/08.png",
+    name: "Anil Menon",
+    role: "Senior UI/UX Designer",
+    quote:
+      "“As someone managing a marketing team, I needed clarity on where search is heading. This course provided me with both the strategic vision and tactical methods necessary to prepare for AI-led discovery. It’s an essential upskill for anyone serious about digital growth.”",
+  },
+];
+
+export const geoTestimonials = [
+  {
+    id: 1,
+    avatarSrc: "/assets/images/avatars/01.png",
+    name: "Rohit Sharma",
+    role: "SEO Specialist",
+    quote:
+      "“Before this course, I had no idea how AI-driven search engines worked. The GEO framework gave me clarity and confidence. Within a month, I started ranking in AI answers and even landed a freelance client who found me through ChatGPT. Highly recommended!”",
+  },
+  {
+    id: 2,
+    avatarSrc: "/assets/images/avatars/04.png",
+    name: "Aishwarya Mehta",
+    role: "Chief Marketing Officer",
+    quote:
+      "“As a startup founder, I was struggling to understand how to get visibility in AI Overviews. The Generative Engine Optimization course broke it down step by step. Today, my brand is being picked up by ChatGPT and Perplexity game-changing for my business.”",
+  },
+  {
+    id: 3,
+    avatarSrc: "/assets/images/avatars/03.png",
+    name: "Priya Nair",
+    role: "MBA Student",
+    quote:
+      "“I’m new to digital marketing, but this course made complex concepts simple. The examples and hands-on tips helped me apply GEO right away. I even used it in my college project and impressed my professor!”",
+  },
+  {
+    id: 4,
+    avatarSrc: "/assets/images/avatars/08.png",
+    name: "Ankit Verma",
+    role: "Digital Marketing Manager",
+    quote:
+      "“I’ve been in SEO for 6 years, but GEO opened my eyes to the future of search. The strategies taught here are practical and ahead of the curve. Now I can confidently say I’m future-proofing my career.”",
+  },
+];
+
 export const testimonials5 = [
   {
     text: "“We’re looking for people who share our vision! most of our time used to be taken up by most of alternate to help our employees.”",
@@ -417,5 +487,122 @@ export const testimonialsNew2 = [
     role: "Founder & CEO, SalesMessage.com",
     quote:
       "“AI Monitor is pretty impressive! It keeps an eye on all the major LLM platforms such as ChatGPT, Bing CoPilot, or Google Bard. Whether we’re tracking our own performance or staying up-to-date with what our competitors are doing, AI Monitor has our back. 😊”",
+  },
+];
+
+export const courseTestimonials = [
+  {
+    rating: 5,
+    quote:
+      "We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
+    name: "Mark Zellers",
+    title: "CEO, Co-Founder.",
+  },
+  {
+    rating: 5,
+    quote:
+      "This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within 36 minutes.",
+    name: "Natalia Larsson",
+    title: "Director of Sales",
+  },
+  {
+    rating: 5,
+    quote:
+      "We are based in Europe and the latest Data Protection Regulation forces us to look for service suppliers than comply with this regulation and as we look to create our website and this builder just outstanding!",
+    name: "Sarah Edrissi",
+    title: "Lead Marketing",
+  },
+  {
+    rating: 5,
+    quote:
+      "We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
+    name: "Anna Yon",
+    title: "Senior UI/UX Designer",
+  },
+  // ...add more slide data as needed
+];
+
+export const coursesTestimonials = [
+  {
+    rating: 5,
+    quote:
+      "Before this course, I had no idea how AI-driven search engines worked. The GEO framework gave me clarity and confidence. Within a month, I started ranking in AI answers and even landed a freelance client who found me through ChatGPT. Highly recommended!",
+    name: "Rohit Sharma",
+    title: "SEO Specialist",
+  },
+  {
+    rating: 5,
+    quote:
+      "As a startup founder, I was struggling to understand how to get visibility in AI Overviews. The Generative Engine Optimization course broke it down step by step. Today, my brand is being picked up by ChatGPT and Perplexity game-changing for my business.",
+    name: "Aishwarya Mehta",
+    title: "Chief Marketing Officer",
+  },
+  {
+    rating: 5,
+    quote:
+      "I’m new to digital marketing, but this course made complex concepts simple. The examples and hands-on tips helped me apply GEO right away. I even used it in my college project and impressed my professor!",
+    name: "Priya Nair",
+    title: "MBA Student",
+  },
+  {
+    rating: 5,
+    quote:
+      "I’ve been in SEO for 6 years, but GEO opened my eyes to the future of search. The strategies taught here are practical and ahead of the curve. Now I can confidently say I’m future-proofing my career.",
+    name: "Ankit Verma",
+    title: "Digital Marketing Manager",
+  },
+  {
+    rating: 5,
+    quote:
+      "When Google started showing AI Overviews, my website traffic dropped overnight. I panicked. This course was a lifesaver it taught me how to adapt. Two months later, my brand isn’t just surviving, it’s appearing in ChatGPT and Perplexity answers. Total game-changer.",
+    name: "Aditya Rao",
+    title: "Front-end Developer",
+  },
+  {
+    rating: 5,
+    quote:
+      "As someone managing a marketing team, I needed clarity on where search is heading. This course provided me with both the strategic vision and tactical methods necessary to prepare for AI-led discovery. It’s an essential upskill for anyone serious about digital growth.",
+    name: "Anil Menon",
+    title: "Marketing Director",
+  },
+  // ...add more slide data as needed
+];
+
+export const coursesTestimonials2 = [
+  {
+    name: "Ritika Joshi",
+    position: "Content Creator",
+    feedback:
+      "“Honestly, I joined this course out of curiosity. But halfway through, I realized AEO is not just a theory, it’s the future of search. Now, when friends ask how my blog suddenly started showing up in AI answers, I just smile and share what I have learn.”",
+  },
+  {
+    name: "Aditya Rao",
+    position: "Front-end Developer",
+    feedback:
+      "“When Google started showing AI Overviews, my website traffic dropped overnight. I panicked. This course was a lifesaver it taught me how to adapt. Two months later, my brand isn’t just surviving, it’s appearing in ChatGPT and Perplexity answers. Total game-changer.”",
+  },
+  {
+    name: "Ravi Gupta",
+    position: "Blogger",
+    feedback:
+      "“Didn’t even know ‘AEO’ was a thing before this. Now my blog literally shows up in ChatGPT answers. Bro, this course is a cheat code.”",
+  },
+  {
+    name: "Anil Menon",
+    position: "Marketing Director",
+    feedback:
+      "“As someone managing a marketing team, I needed clarity on where search is heading. This course provided me with both the strategic vision and tactical methods necessary to prepare for AI-led discovery. It’s an essential upskill for anyone serious about digital growth.”",
+  },
+  {
+    name: "Aishwarya Mehta",
+    position: "Chief Marketing Officer",
+    feedback:
+      "“As a startup founder, I was struggling to understand how to get visibility in AI Overviews. The Generative Engine Optimization course broke it down step by step. Today, my brand is being picked up by ChatGPT and Perplexity game-changing for my business.”",
+  },
+  {
+    name: "Ankit Verma",
+    position: "Digital Marketing Manager",
+    feedback:
+      "“I’ve been in SEO for 6 years, but GEO opened my eyes to the future of search. The strategies taught here are practical and ahead of the curve. Now I can confidently say I’m future-proofing my career.”",
   },
 ];

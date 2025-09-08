@@ -4438,6 +4438,10 @@
     flex-direction: column;
     align-self: stretch;
   }
+  .center {
+    display: grid;
+    place-items: center;
+  }
   .vr {
     display: inline-block;
     align-self: stretch;
@@ -6264,6 +6268,22 @@
     margin-top: 4rem !important;
     margin-bottom: 4rem !important;
   }
+  .my-9 {
+    margin-top: 4.5rem !important;
+    margin-bottom: 4.5rem !important;
+  }
+  .my-10 {
+    margin-top: 5rem !important;
+    margin-bottom: 5rem !important;
+  }
+  .my-11 {
+    margin-top: 5.5rem !important;
+    margin-bottom: 5.5rem !important;
+  }
+  .my-12 {
+    margin-top: 6rem !important;
+    margin-bottom: 6rem !important;
+  }
   .mt-0 {
     margin-top: 0 !important;
   }
@@ -7510,6 +7530,9 @@
   .min-h-450px {
     min-height: 450px !important;
   }
+  .min-h-500px {
+    min-height: 500px !important;
+  }
   .min-h-600px {
     min-height: 600px !important;
   }
@@ -8373,6 +8396,14 @@
       margin-top: 3rem !important;
       margin-bottom: 3rem !important;
     }
+    .lg\:my-7 {
+      margin-top: 3.5rem !important;
+      margin-bottom: 3.5rem !important;
+    }
+    .lg\:my-8 {
+      margin-top: 4rem !important;
+      margin-bottom: 4rem !important;
+    }
     .lg\:mt-0 {
       margin-top: 0 !important;
     }
@@ -8769,6 +8800,14 @@
     .xl\:my-8 {
       margin-top: 4rem !important;
       margin-bottom: 4rem !important;
+    }
+    .xl\:my-9 {
+      margin-top: 4.5rem !important;
+      margin-bottom: 4.55rem !important;
+    }
+    .xl\:my-10 {
+      margin-top: 5rem !important;
+      margin-bottom: 5rem !important;
     }
     .xl\:mt-1 {
       margin-top: 0.5rem !important;

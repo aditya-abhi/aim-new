@@ -1,4 +1,4 @@
-import { featurePageLinks, featuresHeader, sections3 } from "@/data/menu";
+import { featuresHeader } from "@/data/menu";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";

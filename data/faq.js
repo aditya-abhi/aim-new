@@ -109,6 +109,116 @@ export const accordionItemsGEOCourse = [
   },
 ];
 
+export const accordionItemsAEOCourse = [
+  {
+    id: 1,
+    question: "Become a Trusted Source for AI Answers",
+    answer:
+      "Position your content as an authoritative reference that answer engines like Google AI Overviews, ChatGPT, and Perplexity AI prefer to cite.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "Attract High-Intent, Zero-Click Traffic",
+    answer:
+      "Reach users directly through AI-generated answers, even when they don’t click traditional search results.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 3,
+    question: "Future-Proof Your Digital Strategy",
+    answer:
+      "Adapt to the shift from traditional search to answer engine–driven discovery and stay competitive as SEO evolves into AEO.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 4,
+    question: "Unlock Underutilized Visibility Channels",
+    answer:
+      "Gain exposure in emerging AI answer platforms like Perplexity, Gemini, and Claude, where competitors may not yet appear.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 5,
+    question: "Track & Improve Your AI Presence",
+    answer:
+      "Measure your brand’s visibility and citations in answer engines, and refine your strategy using data-driven AEO tools.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+];
+
+export const FaqsCourses = [
+  {
+    id: 1,
+    question: "What is Answer Engine Optimization (AEO)?",
+    answer:
+      "Answer Engine Optimization (AEO) is the process of optimizing your content so AI-powered answer engines like ChatGPT, Bing AI, or Google AI can directly use it to answer user questions. Unlike traditional SEO, which focuses on ranking web pages, AEO focuses on making your content readable, structured, and trustworthy so it can become the source of the actual answer.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "What is Generative Engine Optimization (GEO)?",
+    answer:
+      "Generative Engine Optimization (GEO) is the practice of optimizing content specifically for AI-powered generative engines, like ChatGPT, Bard, or Bing AI, so that these engines can create high-quality responses using your content. Unlike traditional SEO or even AEO, which focus on visibility or direct answers, GEO focuses on influencing AI-generated content by providing clear, structured, and authoritative source material.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 3,
+    question: "Who should take these courses?",
+    answer:
+      "These courses are designed for digital marketers, SEO professionals, brand managers, content strategists, and anyone aiming to stay visible in AI-driven search platforms.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 4,
+    question: "Are the AEO & GEO courses free?",
+    answer:
+      "Yes! Both courses are completely free, with full access to practical frameworks, exercises, and step-by-step strategies.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 5,
+    question: "Do I need prior AI or SEO experience?",
+    answer:
+      "No prior experience is required. Courses are suitable for beginners as well as experienced professionals, covering foundational concepts and advanced strategies.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 6,
+    question: "What will I gain from completing these courses?",
+    answer:
+      "You’ll learn how to optimize for Answer Engines and Generative Engines, understand AIO and LLM SEO, boost your brand visibility, and track your presence across AI-driven platforms.",
+    controls: "uc-accordion-24",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "Can I access the courses on mobile or tablet?",
+    answer:
+      "Absolutely. Both AEO and GEO courses are fully responsive and accessible on all devices.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 5,
+    question: "Will I receive a certificate?",
+    answer:
+      "Yes! After completing each course, you’ll get a free certificate of completion to showcase your AI visibility expertise.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+];
+
 export const accordionItemsFeatures = [
   {
     id: 23,
@@ -486,6 +596,172 @@ export const accordionServicesFAQ = [
     answer:
       "Yes. Our proprietary monitoring and analytics platform, AI Monitor, is built on open-source principles. This gives us and you unmatched flexibility and transparency in data analysis.",
     controls: "uc-accordion-28",
+    expanded: false,
+  },
+];
+
+export const faqGEOCourse = [
+  {
+    id: 1,
+    question: "What is Generative Engine Optimization (GEO)?",
+    answer:
+      "GEO is the process of optimizing content to get cited in AI-generated answers on platforms like ChatGPT, Google AI Overviews, Perplexity, and Gemini.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "Who should join this course?",
+    answer:
+      "Marketers, SEO professionals, content creators, founders, and anyone wanting to boost brand visibility in AI-driven search results.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Is this GEO course free?",
+    answer:
+      "Yes. It’s a 100% free 7-day training with lessons, tools, templates, and a certificate of completion.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "How is GEO different from SEO?",
+    answer:
+      "SEO focuses on Google rankings, while GEO focuses on AI citations in platforms like ChatGPT, Gemini, and Perplexity.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "Do I need technical or SEO experience?",
+    answer:
+      "No. This course is beginner-friendly and requires no coding or advanced SEO knowledge.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Will I learn how to get cited in ChatGPT and Perplexity?",
+    answer:
+      "Yes. You’ll learn proven strategies to make your content AI-friendly and increase citations across generative engines.",
+    controls: "uc-accordion-24",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "Will I receive a certificate?",
+    answer:
+      "Yes. After completing the course, you’ll get a Certificate of Completion to showcase your GEO expertise.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 8,
+    question: "How much time do I need daily?",
+    answer:
+      "Just 30–45 minutes per day to watch lessons, apply strategies, and practice GEO techniques.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 9,
+    question: "Is GEO the future of SEO in 2025?",
+    answer:
+      "Yes. AI-driven search is replacing traditional SEO rankings. GEO ensures your content stays visible and cited in AI-generated answers.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 10,
+    question: "How do I enroll in the GEO course?",
+    answer:
+      "Click the “Enroll Now” button on this page, sign up for free, and start learning instantly. You’ll get lifetime access to all lessons, tools, and updates.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+
+export const faqAEOCourse = [
+  {
+    id: 1,
+    question: "What is Answer Engine Optimization (AEO)?",
+    answer:
+      "AEO is the process of optimizing content to get cited and surfaced in AI-generated answers on platforms like ChatGPT, Google AI Overviews, Perplexity, and Gemini.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "Who should join this course?",
+    answer:
+      "Marketers, SEO professionals, content creators, founders, and anyone looking to boost brand visibility in AI-driven answer platforms.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Is this AEO course free?",
+    answer:
+      "Yes. It’s a 100% free 7-day training with lessons, tools, templates, and a certificate of completion.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "How is AEO different from SEO?",
+    answer:
+      "SEO focuses on Google rankings, while AEO focuses on AI citations and being referenced in answer engines like ChatGPT, Gemini, and Perplexity.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "Do I need technical or SEO experience?",
+    answer:
+      "No. This course is beginner-friendly and requires no coding or advanced SEO knowledge.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Will I learn how to get cited in ChatGPT and Perplexity?",
+    answer:
+      "Yes. You’ll learn proven strategies to make your content AI-friendly and increase citations across answer engines.",
+    controls: "uc-accordion-24",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "Will I receive a certificate?",
+    answer:
+      "Yes. After completing the course, you’ll get a Certificate of Completion to showcase your AEO expertise.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 8,
+    question: "How much time do I need daily?",
+    answer:
+      "Just 30–45 minutes per day to watch lessons, apply strategies, and practice AEO techniques.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 9,
+    question: "Is AEO the future of search in 2025?",
+    answer:
+      "Yes. AI-powered answer engines are redefining search visibility, and AEO ensures your content stays discoverable and cited.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 10,
+    question: "How do I enroll in the AEO course?",
+    answer:
+      "Click the “Enroll Now” button on this page, sign up for free, and start learning instantly. You’ll get lifetime access to all lessons, tools, and updates.",
+    controls: "uc-accordion-32",
     expanded: false,
   },
 ];

@@ -81,18 +81,18 @@ export default function Hero2() {
                 >
                   <h1 className="h2 sm:h1 lg:display-6 xl:display-5 mb-1 xl:mb-2">
                     <span className="mb-2 text-tertiary dark:text-secondary">
-                      Dominate AI Search with an
+                      Turn Conversations into Conversions.
                     </span>
                     <br className="d-none lg:d-block" />
                     <span className="px-1 py-0 bg-primary dark:bg-secondary text-tertiary">
-                      Amazing Team.
+                      Win SaaS on Reddit!
                     </span>
                     {/* Dominate AI Search with an Amazing Team. */}
                   </h1>
                   <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                    Why fear? When we’re here to secure your AI visibility. We
-                    make sure your brand leads in ChatGPT, Perplexity, Google AI
-                    Overviews, and beyond.
+                    Stop wishing and start engaging. Our community-fueled
+                    strategies decode Reddit conversations, spark leads, and
+                    amplify brand trust.
                   </p>
                   <div className="panel mt-3 lg:mt-4">
                     <div className="row child-cols-12 lg:child-cols-6 justify-center gx-0">

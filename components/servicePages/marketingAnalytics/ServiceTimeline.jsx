@@ -204,12 +204,11 @@ export default function ServiceTimeline() {
         <div className="blueprint-container text-tertiary">
           <h2 className="h2 lg:h1 text-tertiary dark:text-primary">
             {" "}
-            Our Roadmap to AI Search Success
+            Our Roadmap to AI Marketing Success
           </h2>
           <p className="subtitle fs-6 lg:fs-5 text-gray-700 dark:text-white">
-            Winning in AI search isn’t luck - it’s strategy. Here’s how we guide
-            your brand to dominate Google SGE, ChatGPT, Bing AI, Perplexity, and
-            beyond.
+            Winning in AI marketing isn’t luck—it’s strategy. Here’s how we
+            guide your brand to dominate digital platforms.
           </p>
 
           <div className="timeline">
@@ -224,12 +223,11 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>Introductory Call: Goals & Strategic Alignment</h3>
+                  <h3>Intro Call: Goals & Alignment</h3>
                   <p>
-                    We start with a focused discussion to understand your
-                    business objectives, KPIs, and timelines. This ensures that
-                    every step of the engagement is aligned with your goals from
-                    day one.
+                    We start with a strategy session to align on your business
+                    objectives, KPIs, and timelines. This ensures every move we
+                    make is focused on driving measurable growth from day one.
                   </p>
                 </div>
               </div>
@@ -246,12 +244,12 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>AI Readiness Assessment & Competitor Audit</h3>
+                  <h3>AI Readiness & Competitor Audit</h3>
                   <p>
-                    We evaluate your website’s technical health and AI
-                    visibility while benchmarking your competitors. This
-                    uncovers gaps and opportunities to outperform them in search
-                    and AI-driven discovery.
+                    We analyze your site’s technical health, structured data,
+                    and AI search visibility while benchmarking competitors.
+                    This helps us uncover gaps, identify opportunities, and
+                    position your brand ahead in AI-driven environments.
                   </p>
                 </div>
               </div>
@@ -268,12 +266,12 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>Audience Profiling & Intent Mapping</h3>
+                  <h3>Audience & Intent Research</h3>
                   <p>
-                    We define your Ideal Customer Profile (ICP) and analyze
-                    search intent across platforms. This ensures your strategies
-                    attract high-value traffic and meaningful leads, not just
-                    clicks.
+                    We define your Ideal Customer Profile (ICP) and analyze user
+                    behavior to understand what drives their decisions. By
+                    mapping audience intent, we ensure every tactic attracts
+                    high-value traffic rather than vanity clicks.
                   </p>
                 </div>
               </div>
@@ -292,10 +290,10 @@ export default function ServiceTimeline() {
                 <div className="text-tertiary dark:text-white">
                   <h3>Prompt & Keyword Intelligence</h3>
                   <p>
-                    We combine AI prompt research with keyword insights to
-                    identify what your audience is truly asking. This balances
-                    high search demand with conversion potential, guiding
-                    content strategy.
+                    Using a blend of AI prompt analysis and keyword research, we
+                    uncover exactly what your audience is asking AI platforms.
+                    This helps us balance search volume, conversion potential,
+                    and visibility to target the right opportunities.
                   </p>
                 </div>
               </div>
@@ -314,10 +312,10 @@ export default function ServiceTimeline() {
                 <div className="text-tertiary dark:text-white">
                   <h3>On-Page & Off-Page Optimization</h3>
                   <p>
-                    We optimize content for natural language understanding, AI
-                    crawler visibility, and technical SEO. Structured data, link
-                    authority, and page performance are strengthened to maximize
-                    discoverability.
+                    We refine your content for natural language processing and
+                    optimize for AI crawlers while strengthening technical SEO,
+                    structured data, and link authority. The goal: maximize
+                    rankings and improve AI discoverability.
                   </p>
                 </div>
               </div>
@@ -336,10 +334,9 @@ export default function ServiceTimeline() {
                 <div className="text-tertiary dark:text-white">
                   <h3>Custom 6-Month Roadmap</h3>
                   <p>
-                    You’ll receive a tailored action plan with clear,
-                    prioritized steps. Each recommendation is designed to
-                    improve rankings, enhance AI visibility, and deliver
-                    measurable results.
+                    You’ll receive a tailored six-month action plan designed
+                    around clear, prioritized steps to accelerate traffic, boost
+                    conversions, and improve your brand’s AI-driven visibility.
                   </p>
                 </div>
               </div>
@@ -356,11 +353,12 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>Guided Implementation Support</h3>
+                  <h3>Guided Implementation</h3>
                   <p>
-                    We provide detailed briefs, checklists, and hands-on support
-                    to ensure strategies are executed accurately and
-                    efficiently, keeping your team aligned with the plan.
+                    We provide your team with detailed briefs, checklists, and
+                    templates to ensure seamless execution. Whether managed
+                    internally or with our support, every step stays aligned
+                    with strategy and timelines.
                   </p>
                 </div>
               </div>
@@ -379,9 +377,10 @@ export default function ServiceTimeline() {
                 <div className="text-tertiary dark:text-white">
                   <h3>Performance-Driven Scaling</h3>
                   <p>
-                    We analyze top-performing content and strategies, then
-                    expand them across channels and AI platforms. This approach
-                    maximizes traffic, leads, and ROI over time.
+                    Once we identify your top-performing strategies, we amplify
+                    them across multiple channels and AI platforms. By doubling
+                    down on what works, we maximize traffic, leads, and ROI
+                    consistently.
                   </p>
                 </div>
               </div>
@@ -399,9 +398,10 @@ export default function ServiceTimeline() {
                 <div className="text-tertiary dark:text-white">
                   <h3>Continuous Monitoring & Optimization</h3>
                   <p>
-                    You’ll receive monthly reports on AI-driven search traffic,
-                    lead generation, and visibility metrics. Insights are paired
-                    with ongoing refinements to keep you ahead of competitors.
+                    We deliver monthly performance reports tracking rankings, AI
+                    traffic, and leads, along with competitor insights. Based on
+                    real-time data, we continuously refine strategies to keep
+                    your brand ahead of evolving algorithms.
                   </p>
                 </div>
               </div>

@@ -204,12 +204,11 @@ export default function ServiceTimeline() {
         <div className="blueprint-container text-tertiary">
           <h2 className="h2 lg:h1 text-tertiary dark:text-primary">
             {" "}
-            Our Roadmap to AI Search Success
+            Our Roadmap to SaaS SEO Success
           </h2>
           <p className="subtitle fs-6 lg:fs-5 text-gray-700 dark:text-white">
-            Winning in AI search isn’t luck - it’s strategy. Here’s how we guide
-            your brand to dominate Google SGE, ChatGPT, Bing AI, Perplexity, and
-            beyond.
+            Search success depends on strategy. Advanced SaaS SEO ensures your
+            brand ranks higher and attracts the right audience.
           </p>
 
           <div className="timeline">
@@ -224,12 +223,14 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>Introductory Call: Goals & Strategic Alignment</h3>
+                  <h3>Intro Call & Goal Alignment</h3>
                   <p>
-                    We start with a focused discussion to understand your
-                    business objectives, KPIs, and timelines. This ensures that
-                    every step of the engagement is aligned with your goals from
-                    day one.
+                    We begin by understanding your SaaS business in depth,
+                    defining KPIs, target personas, growth objectives, and AI
+                    visibility goals. This ensures that every strategy we
+                    implement is fully aligned with your priorities from day
+                    one, providing a strong foundation for all subsequent
+                    activities.
                   </p>
                 </div>
               </div>
@@ -246,12 +247,13 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>AI Readiness Assessment & Competitor Audit</h3>
+                  <h3>AI & SaaS Competitor Audit</h3>
                   <p>
-                    We evaluate your website’s technical health and AI
-                    visibility while benchmarking your competitors. This
-                    uncovers gaps and opportunities to outperform them in search
-                    and AI-driven discovery.
+                    Our team benchmarks your brand against competitors who
+                    dominate AI-driven search and SaaS discovery platforms. By
+                    analyzing strengths, weaknesses, and performance gaps, we
+                    identify clear opportunities where your SaaS can outperform
+                    others and capture untapped market share.
                   </p>
                 </div>
               </div>
@@ -268,12 +270,13 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>Audience Profiling & Intent Mapping</h3>
+                  <h3>SaaS Buyer Journey Mapping</h3>
                   <p>
-                    We define your Ideal Customer Profile (ICP) and analyze
-                    search intent across platforms. This ensures your strategies
-                    attract high-value traffic and meaningful leads, not just
-                    clicks.
+                    We map the complete buyer journey, examining decision-making
+                    queries from problem awareness to product comparison. This
+                    ensures your brand is visible at every stage, capturing
+                    leads when they are actively researching solutions and
+                    making purchasing decisions.
                   </p>
                 </div>
               </div>
@@ -290,12 +293,13 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>Prompt & Keyword Intelligence</h3>
+                  <h3>Prompt + Keyword Intelligence</h3>
                   <p>
-                    We combine AI prompt research with keyword insights to
-                    identify what your audience is truly asking. This balances
-                    high search demand with conversion potential, guiding
-                    content strategy.
+                    Combining traditional SEO keyword research with AI prompt
+                    analysis, we uncover high-value search terms and questions
+                    your audience is actively asking. This dual approach ensures
+                    you capture both conventional search traffic and AI-driven
+                    discovery opportunities for maximum visibility.
                   </p>
                 </div>
               </div>
@@ -314,10 +318,12 @@ export default function ServiceTimeline() {
                 <div className="text-tertiary dark:text-white">
                   <h3>On-Page & Off-Page Optimization</h3>
                   <p>
-                    We optimize content for natural language understanding, AI
-                    crawler visibility, and technical SEO. Structured data, link
-                    authority, and page performance are strengthened to maximize
-                    discoverability.
+                    We optimize your SaaS website for AI and search engines.
+                    On-page efforts include crafting content for natural
+                    language queries and implementing structured data for better
+                    AI comprehension. Off-page strategies strengthen domain
+                    authority through targeted link-building, citations, and
+                    credible references that AI platforms recognize and trust.
                   </p>
                 </div>
               </div>
@@ -334,12 +340,14 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>Custom 6-Month Roadmap</h3>
+                  <h3>Custom SaaS SEO & AI Visibility Roadmap</h3>
                   <p>
-                    You’ll receive a tailored action plan with clear,
-                    prioritized steps. Each recommendation is designed to
-                    improve rankings, enhance AI visibility, and deliver
-                    measurable results.
+                    We create a 6-month action plan tailored to your SaaS brand,
+                    focusing on boosting rankings, AI visibility, and
+                    conversions. The roadmap is complemented with detailed SEO
+                    and AI reports, tracking monthly performance on rankings,
+                    traffic, structured data, backlink growth, and AI-specific
+                    KPIs.
                   </p>
                 </div>
               </div>
@@ -356,11 +364,12 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>Guided Implementation Support</h3>
+                  <h3>Implementation Support</h3>
                   <p>
-                    We provide detailed briefs, checklists, and hands-on support
-                    to ensure strategies are executed accurately and
-                    efficiently, keeping your team aligned with the plan.
+                    Whether collaborating with your marketing team or handling
+                    full execution, we ensure strategies are implemented
+                    efficiently, delivering measurable results and faster ROI
+                    for your SaaS brand.
                   </p>
                 </div>
               </div>
@@ -377,11 +386,12 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>Performance-Driven Scaling</h3>
+                  <h3>Continuous AI & SEO Visibility Tracking</h3>
                   <p>
-                    We analyze top-performing content and strategies, then
-                    expand them across channels and AI platforms. This approach
-                    maximizes traffic, leads, and ROI over time.
+                    Our monthly reporting tracks SaaS-specific KPIs, AI search
+                    traffic, citation wins, and backlink growth. This continuous
+                    monitoring allows your brand to stay ahead of competitors
+                    and adapt quickly to emerging AI search trends.
                   </p>
                 </div>
               </div>

@@ -88,6 +88,37 @@ export const features2 = [
   },
 ];
 
+export const designedFor = [
+  {
+    icon: "unicon-document",
+    title: "SEO Professionals",
+    description:
+      "Master the skills to structure content for AEO, GEO, and LLM SEO.",
+    backgroundColor: "bg-secondary dark:bg-tertiary-700",
+  },
+  {
+    icon: "unicon-model",
+    title: "Digital Marketers ",
+    description:
+      "Learn how to optimize campaigns and content for AI-first discovery.",
+    backgroundColor: "bg-secondary dark:bg-tertiary-700",
+  },
+  {
+    icon: "unicon-task-approved",
+    title: "Brand Managers",
+    description:
+      "Get your brand cited and recommended across AI and answer engines.",
+    backgroundColor: "bg-secondary dark:bg-tertiary-700",
+  },
+  {
+    icon: "unicon-touch-interaction",
+    title: "AI Visibility Seekers",
+    description:
+      "Understand how to secure a lasting presence in AI-generated search results.",
+    backgroundColor: "bg-secondary dark:bg-tertiary-700",
+  },
+];
+
 export const features3 = [
   {
     id: 1,
@@ -230,6 +261,29 @@ export const featureItems = [
     linkText: "Let's find out",
     icon: "unicon-model",
     reverseOrder: true,
+  },
+];
+
+export const courses = [
+  {
+    imageSrc: "/assets/images/template/home-four-feature-02.png",
+    altText: "No more digging endless reports and spreadsheets",
+    title: "Generative Engine Optimization (GEO) - Optimize for AI Visibility",
+    description:
+      "Learn how generative AI platforms like ChatGPT, Claude, Gemini, and Perplexity select sources, and how to get your brand cited, recommended, and visible across AI-driven platforms.",
+    linkText: "See all spreadsheets",
+    icon: "unicon-course",
+    reverseOrder: true,
+  },
+  {
+    imageSrc: "/assets/images/template/home-four-feature-01.png",
+    altText: "Ensuring timely delivery and maximum efficiency",
+    title: "Answer Engine Optimization (AEO) -  Optimize for Direct AI Answers",
+    description:
+      "Learn how answer engines like Google AI Overviews, Bing Copilot, and Perplexity rank content, and how to structure your brand using schema and entities to get cited and visible across AI platforms.",
+    linkText: "Let's find out",
+    icon: "unicon-cloud-download",
+    reverseOrder: false,
   },
 ];
 
@@ -573,6 +627,57 @@ export const features11 = [
   },
 ];
 
+export const coursesNeed = [
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    alt: "feature-icon",
+    title: "AI Dominance ",
+    description:
+      "By 2025, 70% of online searches will deliver AI-generated answers instead of traditional search results.",
+  },
+  {
+    order: "order-0",
+    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    alt: "feature-icon",
+    title: "Visibility Risk",
+    description:
+      "Brands face a significant visibility loss if they are not optimized for AI-first discovery across emerging platforms.",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    alt: "feature-icon",
+    title: "Platform Control",
+    description:
+      "Platforms like ChatGPT, Perplexity, and Google AI Overviews now control which sources are cited, ranked, and recommended.",
+  },
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    alt: "feature-icon",
+    title: "LLM Advantage",
+    description:
+      "Over 50% of brand mentions in AI-generated responses come from LLM-optimized sources, leaving others invisible.",
+  },
+  {
+    order: "order-3 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-05.svg",
+    alt: "feature-icon",
+    title: "New SEO Era",
+    description:
+      "AEO and GEO are quickly becoming the new SEO, essential for staying competitive in the AI-driven era.",
+  },
+  {
+    order: "order-2 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-06.svg",
+    alt: "feature-icon",
+    title: "Strategic Adaptation",
+    description:
+      "The shift to AI-first platforms demands mastering AEO, GEO, AIO, and LLM SEO to secure sustained visibility and influence.",
+  },
+];
+
 export const features12 = [
   {
     src: "/assets/images/custom-icons/icon-02.svg",
@@ -632,7 +737,7 @@ export const featuresHome = [
   },
   {
     order: "order-0",
-    icon: "/assets/images/custom-icons/google-dedcline.svg",
+    icon: "/assets/images/custom-icons/google-decline.svg",
     title: "Google Rankings Have Lost Their Relevance",
     description:
       "83% of users now prefer AI-generated answers over traditional search results. That means ranking #1 on Google no longer guarantees visibility, if you’re not appearing in AI Overviews, ChatGPT, Perplexity, and Microsoft Copilot, your audience won’t find you.",
@@ -773,7 +878,37 @@ export const featureItemsVideo = [
   },
 ];
 
-export const whatWillYouLearn = [
+export const whatWillYouLearnGEO = [
+  {
+    id: 1,
+    lightIcon: "/assets/images/template/icon-diamond.svg",
+    darkIcon: "/assets/images/template/icon-diamond-dark.svg",
+    altText: "impact-icon",
+    title: "Discovery",
+    description:
+      "How answer engines like Google AI Overviews, Perplexity, and ChatGPT select, interpret, and feature your content in their responses.",
+  },
+  {
+    id: 2,
+    lightIcon: "/assets/images/template/icon-trophy.svg",
+    darkIcon: "/assets/images/template/icon-trophy-dark.svg",
+    altText: "crown-icon",
+    title: "Optimization",
+    description:
+      "Step-by-step techniques to structure your content for maximum visibility and earn citations from AI-driven platforms.",
+  },
+  {
+    id: 3,
+    lightIcon: "/assets/images/template/icon-crown.svg",
+    darkIcon: "/assets/images/template/icon-crown-dark.svg",
+    altText: "empathy-icon",
+    title: "Results",
+    description:
+      "Proven strategies and case studies showing how brands significantly scaled AI-driven visibility and traffic.",
+  },
+];
+
+export const whatWillYouLearnAEO = [
   {
     id: 1,
     lightIcon: "/assets/images/template/icon-diamond.svg",
@@ -864,7 +999,7 @@ export const courseContents = [
   },
 ];
 
-export const bestFor = [
+export const bestForGEO = [
   {
     order: "order-1 lg:order-0",
     icon: "/assets/images/custom-icons/home-8-icon-01.svg",
@@ -882,6 +1017,27 @@ export const bestFor = [
     icon: "/assets/images/custom-icons/home-8-icon-03.svg",
     title: "Digital Marketers",
     desc: "Gain actionable skills to future-proof your marketing strategy for the AI search era.",
+  },
+];
+
+export const bestForAEO = [
+  {
+    order: "order-1 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-02.svg",
+    title: "SEO Professionals",
+    desc: "Master AEO techniques to dominate AI-driven search platforms like ChatGPT, Gemini, and Google AI Overviews.",
+  },
+  {
+    order: "order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-03.svg",
+    title: "Digital Marketers",
+    desc: "Gain actionable skills to future-proof your marketing strategy for the AI search era.",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-01.svg",
+    title: "Content Strategists ",
+    desc: "Learn to create AI-optimized content that ranks where answers appear directly.",
   },
 ];
 
