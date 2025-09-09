@@ -344,3 +344,62 @@ export const brandLogos = [
     alt: "Verizon logo",
   },
 ];
+
+export const caseStudyBrands = [
+  {
+    id: 1,
+    lightSrc: "/assets/images/brands/abc-light.webp",
+    darkSrc: "/assets/images/brands/abc-dark.webp",
+    alt: "ABC logo",
+    width: 180,
+  },
+  {
+    id: 2,
+    lightSrc: "/assets/images/brands/atnt-light.webp",
+    darkSrc: "/assets/images/brands/atnt-dark.webp",
+    alt: "AT&T logo",
+    width: 180,
+  },
+  {
+    id: 3,
+    lightSrc: "/assets/images/brands/comcast-light.webp",
+    darkSrc: "/assets/images/brands/comcast-dark.webp",
+    alt: "Comcast logo",
+    width: 180,
+  },
+  {
+    id: 4,
+    lightSrc: "/assets/images/brands/gmx-light.webp",
+    darkSrc: "/assets/images/brands/gmx-dark.webp",
+    alt: "GMX logo",
+    width: 200,
+  },
+  {
+    id: 5,
+    lightSrc: "/assets/images/brands/honor-light.webp",
+    darkSrc: "/assets/images/brands/honor-dark.webp",
+    alt: "Honor logo",
+    width: 180,
+  },
+  {
+    id: 6,
+    lightSrc: "/assets/images/brands/loop-earplugs-light.webp",
+    darkSrc: "/assets/images/brands/loop-earplugs-dark.webp",
+    alt: "Loop earplugs logo",
+    width: 180,
+  },
+  {
+    id: 7,
+    lightSrc: "/assets/images/brands/optimum-light.webp",
+    darkSrc: "/assets/images/brands/optimum-dark.webp",
+    alt: "Optimum logo",
+    width: 180,
+  },
+  {
+    id: 8,
+    lightSrc: "/assets/images/brands/verizon-light.webp",
+    darkSrc: "/assets/images/brands/verizon-dark.webp",
+    alt: "Verizon logo",
+    width: 180,
+  },
+];

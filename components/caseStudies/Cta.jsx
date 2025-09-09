@@ -97,13 +97,15 @@ export default function Cta() {
               <span className="fs-7 fw-medium py-narrow px-2 border rounded-pill">
                 Get started today!
               </span>
-              <h2 className="h2 xl:display-5 m-0 text-center">
-                Secure Your Spot{" "}
-                <span className="text-tertiary dark:text-primary">Today</span>
+              <h2 className="h3 xl:display-6 lh-lg m-0 max-w-md mx-auto text-tertiary dark:text-secondary">
+                Ready to Become the Brand {""}
+                <span className="px-1 bg-tertiary dark:bg-secondary text-primary dark:text-tertiary d-block lg:d-inline-block">
+                  Consumers Hear First?
+                </span>
               </h2>
               <p className="fs-5 lg:fs-4">
-                This free AEO course is limited to the first 500 participants to
-                ensure a high-quality learning experience.
+                Your customers are already asking AI platforms for
+                recommendations. Make sure it’s your brand they get back.
               </p>
               <div
                 className="panel vstack items-center gap-1 max-w-400px lg:max-w-750px mx-auto text-center mt-2 xl:mt-4"
@@ -111,11 +113,11 @@ export default function Cta() {
               >
                 <div className="mb-2 lg:mb-3">
                   <a
-                    href="#"
-                    aria-label="Button to claim your free Answer Engine Optimization Course spot"
+                    href="https://appt.link/ai-monitor/30-minutes-introductory-call"
+                    aria-label="Button to claim your Free audit"
                     className="btn btn-md xl:btn-lg btn-primary hover:bg-tertiary hover:text-primary border px-3 lg:px-5 w-auto"
                   >
-                    <span>Claim Your Spot Now!</span>
+                    <span>Claim Your Free Audit</span>
                   </a>
                 </div>
                 <div className="vstack sm:hstack justify-center gap-1 fs-6 text-gray-900 dark:text-white flex-row md-flex-column">

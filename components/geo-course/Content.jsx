@@ -6,7 +6,7 @@ export default function Content() {
     <div id="main_features" className="main-features section panel">
       <div className="section-outer panel py-6 xl:py-9">
         <div className="container sm:max-w-md lg:max-w-lg xl:max-w-xl">
-          <div className="panel text-center items-center justify-center mb-6">
+          <div className="panel text-center items-center justify-center mb-6 lg:mb-8 xl:mb-10">
             <h2 className="h3 lg:h2">
               7-Day Generative Engine Optimization Course Structure
             </h2>
@@ -30,9 +30,9 @@ export default function Content() {
                     </div>
                   </div>
                   <div className="col-12 sm:col-6 order-1 lg:order-0">
-                    <div className="panel vstack justify-center gap-4 sm:gap-6 h-100">
+                    <div className="panel vstack justify-between gap-4 sm:gap-6 h-100">
                       <div>
-                        <div className="panel vstack">
+                        <div className="panel vstack gap-2">
                           <h3 className="h4 lg:h4 xl:h3 m-0">
                             Day 1: Introduction to GEO & Generative Engines
                           </h3>
