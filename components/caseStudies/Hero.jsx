@@ -119,7 +119,7 @@ export default function Hero() {
                       height="583"
                     />
                   </div>
-                  <div
+                  {/* <div
                     className="position-absolute"
                     style={{ top: "74%", right: "7%" }}
                   >
@@ -144,7 +144,7 @@ export default function Hero() {
                       width="94"
                       height="108"
                     />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

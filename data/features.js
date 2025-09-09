@@ -822,23 +822,23 @@ export const featureItemsVideo = [
     reverseOrder: false,
   },
   {
-    src: "/assets/images/videos/open-source.webm",
-    altText: "Built on Trust. Open for All.",
-    title: "Built on Trust. Open for All.",
-    subtitle: "(Because You Deserve Transparency in an AI-Driven World)",
-    description:
-      "Tired of the “black box” AI platforms? AI Monitor is 100% open-source, meaning you can see exactly how it works, customize it for your needs, and never get locked into a vendor’s ecosystem again. Our platform is built by the community, for the community, giving you total control, privacy, and flexibility.",
-    linkText: "See all spreadsheets",
-    icon: "unicon-course",
-    reverseOrder: true,
-  },
-  {
     src: "/assets/images/videos/brand-visibility.webm",
     altText: "Right Message, Right Place",
     title: "Right Message, Right Place",
     subtitle: "(Because Gut Feelings Aren’t Always Right)",
     description:
       "Your content deserves to be seen where it matters most. We analyze AI-generated search results to ensure your brand shows up in the right answers, at the right time. Think of us as your AI-powered GPS for marketing, PR, and content strategy.",
+    linkText: "See apps & integrations",
+    icon: "unicon-volume-block-storage",
+    reverseOrder: true,
+  },
+  {
+    src: "/assets/images/videos/sentiment.webm",
+    altText: "Perform Sentiment Analysis",
+    title: "Perform Sentiment Analysis",
+    subtitle: "(Because Happy Customers = Happy Brand)",
+    description:
+      "AI answers shape perception. We track positive and negative mentions across AI platforms, giving you a clear snapshot of customer sentiment. We’ll separate the love letters from the hate mail  and help you turn insights into action.",
     linkText: "See apps & integrations",
     icon: "unicon-volume-block-storage",
     reverseOrder: false,
@@ -855,17 +855,6 @@ export const featureItemsVideo = [
     reverseOrder: true,
   },
   {
-    src: "/assets/images/videos/sentiment.webm",
-    altText: "Perform Sentiment Analysis",
-    title: "Perform Sentiment Analysis",
-    subtitle: "(Because Happy Customers = Happy Brand)",
-    description:
-      "AI answers shape perception. We track positive and negative mentions across AI platforms, giving you a clear snapshot of customer sentiment. We’ll separate the love letters from the hate mail  and help you turn insights into action.",
-    linkText: "See apps & integrations",
-    icon: "unicon-volume-block-storage",
-    reverseOrder: false,
-  },
-  {
     src: "/assets/images/videos/dashboard.webm",
     altText: "Wide Coverage. One Dashboard.",
     title: "Wide Coverage, One Dashboard",
@@ -874,7 +863,30 @@ export const featureItemsVideo = [
       " AI Monitor gives you a single, unified view of your brand’s presence across every major Generative Engine and LLM. From ChatGPT to Gemini and whatever our future AI overlords invent next we’re watching it all, so you don’t have to.",
     linkText: "See apps & integrations",
     icon: "unicon-volume-block-storage",
+    reverseOrder: false,
+  },
+  {
+    src: "/assets/images/videos/open-source.webm",
+    altText: "Built on Trust. Open for All.",
+    title: "The Open-Source Advantage",
+    subtitle: "(Because You Deserve Transparency in an AI-Driven World)",
+    description:
+      " AI shouldn’t feel like a black box. That’s why AI Monitor is 100% open-source, giving you full transparency into how it works and the flexibility to customize it to your needs. No vendor lock-ins, no hidden limitations, just complete control, privacy, and a community-driven platform built for brands like yours.",
+    linkText: "See all spreadsheets",
+    icon: "unicon-course",
     reverseOrder: true,
+  },
+  {
+    src: "/assets/images/videos/open-source.webm",
+    altText: "Built on Trust. Open for All.",
+    title: "The Local SEO  & GEO  Advantage",
+    subtitle:
+      "(Because Your Brand Deserves to Be Found Where Decisions Happen)",
+    description:
+      "Your customers search locally, and AI now decides who gets found first. AI Monitor helps your brand dominate region-based Local SEO and GEO, ensuring top visibility across ChatGPT, Google AI Overviews, Gemini, and Perplexity. Be discovered where decisions happen.",
+    linkText: "See all spreadsheets",
+    icon: "unicon-course",
+    reverseOrder: false,
   },
 ];
 

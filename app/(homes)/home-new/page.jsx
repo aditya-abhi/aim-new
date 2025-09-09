@@ -25,6 +25,7 @@ import Timeline from "@/components/homes/home-new/Timeline";
 import Awards from "@/components/homes/home-new/Awards";
 
 import React from "react";
+import Service from "@/components/homes/home-new/service";
 export const metadata = {
   title: "AI Monitor | Boost Your Brand Visibility in AI Search",
   description:
@@ -42,6 +43,7 @@ export default function page() {
               <Brands />
               {/* <Tools /> */}
               <Features2 />
+              <Service />
               {/* <Features /> */}
               <FeaturesVideo />
               <Purpose />

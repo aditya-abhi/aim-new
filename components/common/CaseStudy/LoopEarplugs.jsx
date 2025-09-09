@@ -13,8 +13,7 @@ export default function LoopEarplugs({ blogItem }) {
             <div className="panel vstack gap-4 md:gap-6 xl:gap-8 text-center">
               <div className="panel vstack items-center max-w-400px sm:max-w-500px xl:max-w-md mx-auto gap-2 md:gap-3">
                 <h1 className="h4 sm:h2 lg:h1 xl:display-6">
-                  How AI Monitor Helped Loop Earplugs Boost AI Visibility by
-                  421% and Capture New Consumer Markets
+                  421% More AI Visibility: Loop Earplugs x AI Monitor
                 </h1>
               </div>
               <figure className="featured-image m-0">

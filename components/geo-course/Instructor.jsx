@@ -132,7 +132,7 @@ export default function Instructor() {
                                   src={integration.imgSrc}
                                   width={40}
                                   height={40}
-                                  alt={integration.imageAlt}
+                                  alt={integration.title}
                                 />
                               </div>
                               <p className="fs-6 opacity-70 dark:opacity-80">

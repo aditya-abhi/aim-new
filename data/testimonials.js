@@ -268,7 +268,7 @@ export const testimonialsData = [
 export const aeoTestimonials = [
   {
     id: 1,
-    avatarSrc: "/assets/images/avatars/01.png",
+    avatarSrc: "/assets/images/avatars/ritika-joshi.webp",
     name: "Ritika Joshi",
     role: "Content Creator",
     quote:
@@ -276,7 +276,7 @@ export const aeoTestimonials = [
   },
   {
     id: 2,
-    avatarSrc: "/assets/images/avatars/04.png",
+    avatarSrc: "/assets/images/avatars/aditya-rao.webp",
     name: "Aditya Rao",
     role: "Front-end Developer",
     quote:
@@ -284,7 +284,7 @@ export const aeoTestimonials = [
   },
   {
     id: 3,
-    avatarSrc: "/assets/images/avatars/03.png",
+    avatarSrc: "/assets/images/avatars/ravi-gupta.webp",
     name: "Ravi Gupta",
     role: "Blogger",
     quote:
@@ -292,7 +292,7 @@ export const aeoTestimonials = [
   },
   {
     id: 4,
-    avatarSrc: "/assets/images/avatars/08.png",
+    avatarSrc: "/assets/images/avatars/anil-menon.webp",
     name: "Anil Menon",
     role: "Senior UI/UX Designer",
     quote:
@@ -303,7 +303,8 @@ export const aeoTestimonials = [
 export const geoTestimonials = [
   {
     id: 1,
-    avatarSrc: "/assets/images/avatars/01.png",
+    avatarSrc: "/assets/images/avatars/rohit-sharma.webp",
+    alt: "Rohit Sharma image",
     name: "Rohit Sharma",
     role: "SEO Specialist",
     quote:
@@ -311,7 +312,7 @@ export const geoTestimonials = [
   },
   {
     id: 2,
-    avatarSrc: "/assets/images/avatars/04.png",
+    avatarSrc: "/assets/images/avatars/aishwarya-mehta.webp",
     name: "Aishwarya Mehta",
     role: "Chief Marketing Officer",
     quote:
@@ -319,7 +320,7 @@ export const geoTestimonials = [
   },
   {
     id: 3,
-    avatarSrc: "/assets/images/avatars/03.png",
+    avatarSrc: "/assets/images/avatars/priya-nair.webp",
     name: "Priya Nair",
     role: "MBA Student",
     quote:
@@ -327,7 +328,7 @@ export const geoTestimonials = [
   },
   {
     id: 4,
-    avatarSrc: "/assets/images/avatars/08.png",
+    avatarSrc: "/assets/images/avatars/ankit-verma.webp",
     name: "Ankit Verma",
     role: "Digital Marketing Manager",
     quote:

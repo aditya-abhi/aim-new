@@ -1,7 +1,7 @@
 export const caseStudy = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/feature-01.svg",
+    imgSrc: "/assets/images/features/relific.webp",
     altText: "Share tools quickly and confidently in minutes",
     step: "01.",
     span: "33% MoM ",
@@ -10,14 +10,14 @@ export const caseStudy = [
     description: `Relific is an AI-powered CSR platform that helps companies comply with Section 135 of the Companies Act, 2013, and the BRSR regime as per SEBI regulations. `,
     testimonial: {
       quote: `“AI Monitor fundamentally changed how we think about discovery. Our sales team is now engaging with prospects who already view us as a category leader, often because ChatGPT has recommended us by name. That's not just marketing; it's a powerful competitive advantage.”`,
-      imgSrc: "/assets/images/avatars/01.png",
+      imgSrc: "/assets/images/avatars/manjunatha.webp",
       name: "Manjunatha Thayagraj",
       role: "Co-Founder",
     },
   },
   {
     id: 2,
-    imgSrc: "/assets/images/template/feature-02.svg",
+    imgSrc: "/assets/images/features/loop-earplugs.webp",
     altText: "Connect every part of your entire business",
     step: "02.",
     span: "421% ",
@@ -26,14 +26,14 @@ export const caseStudy = [
     description: `Loop Earplugs make stylish, reusable earplugs that protect your hearing while keeping you comfortable at festivals, flights, work, and daily life.`,
     testimonial: {
       quote: `“AI Monitor helped us understand that discovery isn’t just happening on Google or Instagram anymore. Today, when customers ask ChatGPT or Gemini about the best earplugs, Loop is part of the answer. That credibility has transformed not just our visibility, but how consumers perceive us as a lifestyle brand. It’s like having AI work as our best brand ambassador.”`,
-      imgSrc: "/assets/images/avatars/02.png",
+      imgSrc: "/assets/images/avatars/dimitri-o.webp",
       name: "Dimitri O",
       role: "Co-Founder",
     },
   },
   {
     id: 3,
-    imgSrc: "/assets/images/template/feature-03.svg",
+    imgSrc: "/assets/images/features/survey-monkey.webp",
     altText: "Maintain compliance and control your apps",
     step: "03.",
     span: "132% ",
@@ -42,24 +42,24 @@ export const caseStudy = [
     description: `SurveyMonkey is a leading SaaS platform for online surveys and experience management. It powers over 20 million survey questions daily across 260,000+ organizations worldwide, including most Fortune 500 companies.`,
     testimonial: {
       quote: `“We’ve been a household name in the US for years, but our international growth was stagnant. AI MNOITER helped us move beyond traditional SEO to an AI-first approach that directly speaks to how our customers actually search. This isn’t just about ranking higher; it’s about a fundamental shift in our strategy that has unlocked significant growth in markets we had been struggling to penetrate.”`,
-      imgSrc: "/assets/images/avatars/04.png",
+      imgSrc: "/assets/images/avatars/elena-verna.webp",
       name: "Elena Verna",
       role: "VP of Growth",
     },
   },
   {
     id: 4,
-    imgSrc: "/assets/images/template/feature-04.svg",
+    imgSrc: "/assets/images/features/prismara.webp",
     altText: "Review quickly and confidently",
     step: "04.",
     span: "38% ",
     heading:
-      "Uplift in SurveyMonkey Sign-Ups in 270 Days Through Data-Driven Optimization",
+      "Uplift in Prismara Sign-Ups in 120 Days Through Data-Driven Optimization",
     title: "Prismara",
     description: `Prismara is a leading online retailer specializing in lab-grown diamonds and certified fine jewelry, committed to ethically sourced, BIS-hallmarked products for India’s modern luxury buyers.`,
     testimonial: {
       quote: `“What impressed us most was their focus on customer education and thought leadership. By building authoritative content on lab-grown diamonds and certifications, they helped us gain trust with our audience and differentiate Prismara in a competitive market. It’s more than SEO, it’s brand-building with measurable impact.”`,
-      imgSrc: "/assets/images/avatars/03.png",
+      imgSrc: "/assets/images/avatars/avinash-sharma.webp",
       name: "Avinash Sharma",
       role: "Digital Strategy Lead",
     },

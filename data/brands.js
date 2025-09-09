@@ -369,9 +369,9 @@ export const caseStudyBrands = [
   },
   {
     id: 4,
-    lightSrc: "/assets/images/brands/gmx-light.webp",
-    darkSrc: "/assets/images/brands/gmx-dark.webp",
-    alt: "GMX logo",
+    lightSrc: "/assets/images/brands/relific-light.webp",
+    darkSrc: "/assets/images/brands/relific-dark.webp",
+    alt: "Relific logo",
     width: 200,
   },
   {
@@ -401,5 +401,19 @@ export const caseStudyBrands = [
     darkSrc: "/assets/images/brands/verizon-dark.webp",
     alt: "Verizon logo",
     width: 180,
+  },
+  {
+    id: 9,
+    lightSrc: "/assets/images/brands/gmx-light.webp",
+    darkSrc: "/assets/images/brands/gmx-dark.webp",
+    alt: "GMX logo",
+    width: 200,
+  },
+  {
+    id: 10,
+    lightSrc: "/assets/images/brands/surveymonkey-light.webp",
+    darkSrc: "/assets/images/brands/surveymonkey-dark.webp",
+    alt: "GMX logo",
+    width: 200,
   },
 ];
