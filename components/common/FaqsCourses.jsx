@@ -1,9 +1,9 @@
 "use client";
-import { FaqsCourses } from "@/data/faq";
+import { FaqsCoursePage } from "@/data/faq";
 import { useEffect, useRef, useState } from "react";
 
 export default function FaqCourses({
-  faqData = FaqsCourses,
+  faqData = FaqsCoursePage,
   parentClass = "",
 }) {
   const parentRefs = useRef([]);

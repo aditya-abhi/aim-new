@@ -152,7 +152,7 @@ export const accordionItemsAEOCourse = [
   },
 ];
 
-export const FaqsCourses = [
+export const FaqsCoursePage = [
   {
     id: 1,
     question: "What is Answer Engine Optimization (AEO)?",
@@ -210,7 +210,7 @@ export const FaqsCourses = [
     expanded: true,
   },
   {
-    id: 5,
+    id: 8,
     question: "Will I receive a certificate?",
     answer:
       "Yes! After completing each course, you’ll get a free certificate of completion to showcase your AI visibility expertise.",

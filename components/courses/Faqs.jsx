@@ -1,5 +1,5 @@
 import React from "react";
-import FaqsCourses from "../common/FaqsCourses";
+import FaqsCourses from "@/components/common/FaqsCourses";
 
 export default function FAQs() {
   return (
