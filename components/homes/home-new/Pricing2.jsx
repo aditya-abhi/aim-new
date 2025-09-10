@@ -38,7 +38,8 @@ export default function Pricing() {
           />
         </div>
       </div> */}
-      <div className="section-outer panel py-6 xl:py-9 bg-gradient-to-t from-tertiary-700 dark:from-primary to-primary-100 dark:to-tertiary-700  mx-2 rounded-2">
+      {/* <div className="section-outer panel py-6 xl:py-9 bg-gradient-to-t from-tertiary-700 dark:from-primary to-primary-100 dark:to-tertiary-700 mx-2 rounded-2"> */}
+      <div className="section-outer panel py-6 xl:py-9">
         <div className="container container-expand">
           <div className="section-inner panel mt-2 sm:mt-4 lg:mt-0 lg:mx-6">
             <div
@@ -167,7 +168,7 @@ export default function Pricing() {
             >
               <Link
                 href={`/pricing`}
-                className="btn btn-md btn-secondary rounded-default border-opacity-20 hover:border-opacity-40 shadow-xs mt-4 lg:mt-6 xl:mt-8"
+                className="btn btn-md bg-primary text-tertiary hover:bg-tertiary hover:text-white dark:bg-primary dark:hover:bg-secondary dark:hover:text-tertiary rounded-default border-opacity-20 hover:border-opacity-40 shadow-xs mt-4 lg:mt-6 xl:mt-8"
               >
                 <span>Compare plans</span>
               </Link>

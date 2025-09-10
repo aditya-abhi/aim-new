@@ -607,3 +607,126 @@ export const coursesTestimonials2 = [
       "“I’ve been in SEO for 6 years, but GEO opened my eyes to the future of search. The strategies taught here are practical and ahead of the curve. Now I can confidently say I’m future-proofing my career.”",
   },
 ];
+
+export const testimonialsPage = [
+  {
+    brandImg: "/assets/images/brands/brand-07.svg",
+    testimonial:
+      "“AI Monitor fundamentally changed how we think about discovery. Our sales team is now engaging with prospects who already view us as a category leader, often because ChatGPT has recommended us by name. That's not just marketing; it's a powerful competitive advantage.”",
+    authorImg: "/assets/images/avatars/01.png",
+    authorName: "Manjunatha Thayagraj,",
+    authorRole: "Co-Founder",
+  },
+  {
+    brandImg: "/assets/images/brands/brand-07.svg",
+    testimonial:
+      "“Honestly, I wasn’t expecting much at first, but AI Monitor actually makes it easy to see where our brand pops up in AI tools. Sometimes I find stuff I didn’t even know existed. It’s kind of addictive checking it!”",
+    authorImg: "/assets/images/avatars/01.png",
+    authorName: "Sarah M.",
+    authorRole: "Digital Marketing Manager",
+  },
+  {
+    brandImg: "/assets/images/brands/brand-02.svg",
+    testimonial:
+      "“When we first started, we had no idea how this was going to work. Our brand wasn’t showing up on AI platforms at all. AI Monitor jumped in, ran a full analysis, and built a strategy that actually made sense for us. They walked us through every step, implemented everything, and now our brand is being discovered in ways we never imagined.”",
+    authorImg: "/assets/images/avatars/01.png",
+    authorName: "Laura H.",
+    authorRole: "CEO, Co-Founder",
+  },
+  {
+    brandImg: "/assets/images/brands/brand-05.svg",
+    testimonial:
+      "“The team at AI Monitor is fantastic. From day one, they got started immediately, keeping us updated on every little thing and always being available whenever we needed help. We sometimes throw sudden projects their way, making things tough, but these people are amazing at what they do. Thanks to them, our brand’s presence on AI platforms has never been stronger.”",
+    authorImg: "/assets/images/avatars/08.png",
+    authorName: "Marco D.",
+    authorRole: "Head of Marketing",
+  },
+  {
+    brandImg: "/assets/images/brands/brand-05.svg",
+    testimonial:
+      "“We’ve been a household name in the US for years, but our international growth was stagnant. AI MNOITER helped us move beyond traditional SEO to an AI-first approach that directly speaks to how our customers actually search. This isn’t just about ranking higher; it’s about a fundamental shift in our strategy that has unlocked significant growth in markets we had been struggling to penetrate.”",
+    authorImg: "/assets/images/avatars/08.png",
+    authorName: "Elena Verna",
+    authorRole: "VP of Growth",
+  },
+  {
+    brandImg: "/assets/images/brands/brand-05.svg",
+    testimonial:
+      "“AI Monitor helped us understand that discovery isn’t just happening on Google or Instagram anymore. Today, when customers ask ChatGPT or Gemini about the best earplugs, Loop is part of the answer. That credibility has transformed not just our visibility, but how consumers perceive us as a lifestyle brand. It’s like having AI work as our best brand ambassador.”",
+    authorImg: "/assets/images/avatars/08.png",
+    authorName: "Dimitri O",
+    authorRole: "Co-Founder",
+  },
+  {
+    brandImg: "/assets/images/brands/brand-06.svg",
+    testimonial:
+      "“Okay, I’ll admit it, I was skeptical. But after a couple of weeks, I noticed our content was showing up more consistently across AI search tools. Simple, effective, and reliable.”",
+    authorImg: "/assets/images/avatars/04.png",
+    authorName: "Emily T.",
+    authorRole: "SEO Specialist",
+  },
+  {
+    brandImg: "/assets/images/brands/brand-08.svg",
+    testimonial:
+      "“The team created a clear AI visibility plan and executed it perfectly. They monitor everything, adjust as needed, and keep us updated. Honestly, it’s one less thing to stress about.”",
+    authorImg: "/assets/images/avatars/03.png",
+    authorName: "Aditya N.",
+    authorRole: "Product Lead",
+  },
+  {
+    brandImg: "/assets/images/brands/brand-01.svg",
+    testimonial:
+      "“We tried a few AI tracking tools before, but this one actually gives useful info without overcomplicating things. I don’t usually get excited about dashboards, but I do love results, and this delivers. Worth trying for sure.”",
+    authorImg: "/assets/images/avatars/08.png",
+    authorName: "Arjun S.",
+    authorRole: "Marketing Director",
+  },
+  {
+    brandImg: "/assets/images/brands/brand-03.svg",
+    testimonial:
+      "“As someone managing a marketing team, I needed clarity on where search is heading. This course provided me with both the strategic vision and tactical methods necessary to prepare for AI-led discovery. It’s an essential upskill for anyone serious about digital growth.”",
+    authorImg: "/assets/images/avatars/04.png",
+    authorName: "Anil Menon",
+    authorRole: "Marketing Director",
+  },
+  {
+    brandImg: "/assets/images/brands/brand-04.svg",
+    testimonial:
+      "“I’ve worked with agencies before, but these guys feel different. They actually show you what works and help you implement it. Seeing our brand show up more consistently in AI tools is really satisfying.”",
+    authorImg: "/assets/images/avatars/03.png",
+    authorName: "Meera T.",
+    authorRole: "Digital Marketing Manager",
+  },
+  {
+    brandImg: "/assets/images/brands/brand-05.svg",
+    testimonial:
+      "“I just joined this course out of curiosity. But halfway through, I realized AEO is not just a theory, it’s the future of search. Now, when friends ask how my blog suddenly started showing up in AI answers, I just smile and share what I have learn.”",
+    authorImg: "/assets/images/avatars/08.png",
+    authorName: "Ritika Joshi",
+    authorRole: "Content Creator",
+  },
+  {
+    brandImg: "/assets/images/brands/brand-05.svg",
+    testimonial:
+      "“Finally, a tool that shows where our brand appears in AI searches. The reports are easy to read, the recommendations make sense, and it’s helped our team focus on what really improves our visibility.”",
+    authorImg: "/assets/images/avatars/08.png",
+    authorName: "Rohit M.",
+    authorRole: "Product Manager",
+  },
+  {
+    brandImg: "/assets/images/brands/brand-05.svg",
+    testimonial:
+      "“I’ve been in SEO for 6 years, but GEO opened my eyes to the future of search. The strategies taught here are practical and ahead of the curve. Now I can confidently say I’m future-proofing my career.”",
+    authorImg: "/assets/images/avatars/08.png",
+    authorName: "Ankit Verma",
+    authorRole: "Digital Marketing Manager",
+  },
+  {
+    brandImg: "/assets/images/brands/brand-05.svg",
+    testimonial:
+      "“I’m new to digital marketing, but this course made complex concepts simple. The examples and hands-on tips helped me apply GEO right away. I even used it in my college project and impressed my professor!”",
+    authorImg: "/assets/images/avatars/08.png",
+    authorName: "Priya Nair",
+    authorRole: "MBA Student",
+  },
+];

@@ -275,7 +275,7 @@ export const teamMembers5 = [
 export const awards = [
   {
     id: 1,
-    imgSrc: "/assets/images/team/yesusers.webp",
+    imgSrc: "/assets/images/team/yesusers-light.webp",
     alt: "Yes Users award badge with five stars in a circular seal design",
   },
   {

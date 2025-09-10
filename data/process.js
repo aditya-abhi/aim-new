@@ -289,3 +289,57 @@ export const stepsService10 = [
     minWidth: "min-w-100 lg:min-w-1/4",
   },
 ];
+
+export const stepsService11 = [
+  {
+    number: "1",
+    imgSrc: "/assets/images/services/img.png",
+    title: "Intelligent Local Intent Analysis",
+    description:
+      "Understand exactly what nearby customers want and optimize content for searchers ready to convert.",
+    minWidth: "min-w-1/4",
+  },
+  {
+    number: "2",
+    imgSrc: "/assets/images/services/img-2.png",
+    title: "Forecast Nearby Customer Behavior",
+    description:
+      "Identify which services, offers, and queries are heating up in your area get ahead before your competitors even notice.",
+    minWidth: "min-w-1/4",
+  },
+  {
+    number: "3",
+    imgSrc: "/assets/images/services/img-3.png",
+    title: "Gap Detection in Local Content & Listings",
+    description:
+      "Pinpoint what prospects in your vicinity are searching for but not finding, let’s fill those gaps and get more visibility.",
+    minWidth: "min-w-100 lg:min-w-1/4",
+  },
+];
+
+export const stepsService12 = [
+  {
+    number: "1",
+    imgSrc: "/assets/images/services/img.png",
+    title: "Authority-Driven Backlinks",
+    description:
+      "We secure placements on trusted, credible websites within your niche to boost your domain authority and strengthen your SEO performance.",
+    minWidth: "min-w-1/4",
+  },
+  {
+    number: "2",
+    imgSrc: "/assets/images/services/img-2.png",
+    title: "Brand Mentions That Count",
+    description:
+      "We position your brand on high-visibility platforms, ensuring you’re seen by the right audience, driving both awareness and recognition.",
+    minWidth: "min-w-1/4",
+  },
+  {
+    number: "3",
+    imgSrc: "/assets/images/services/img-3.png",
+    title: "SEO & PR Fusion",
+    description:
+      "Our approach combines data-driven SEO with strategic digital PR, helping you rank higher, enhance your reputation, and attract quality referral traffic.",
+    minWidth: "min-w-100 lg:min-w-1/4",
+  },
+];

@@ -9,44 +9,52 @@ export const menuItems = [
     label: "Services",
     subItems: [
       {
-        href: "/",
+        href: "/services/ai-search-analytics",
         label: "AI Search Analytics",
       },
       {
-        href: "/home-2",
+        href: "/services/generative-engine-optimization-geo-service",
         label: "GEO Services",
       },
       {
-        href: "/home-3",
+        href: "/services/large-language-model-llm-seo-service",
         label: "LLM SEO Services",
       },
       {
-        href: "/home-4",
+        href: "/services/competitor-benchmarking-for-ai-search",
         label: "Competitor Benchmarking",
       },
       {
-        href: "/home-5",
+        href: "/services/ai-prompt-monitoring-service",
         label: "AI Prompt Monitoring",
       },
       {
-        href: "/home-6",
+        href: "/services/saas-search-engine-optimization-service",
         label: "SaaS SEO Services",
       },
       {
-        href: "/home-7",
+        href: "/services/answer-engine-optimization-aeo-service",
         label: "AEO Services",
       },
       {
-        href: "/home-8",
+        href: "/services/ai-marketing-analytics-service",
         label: "Marketing Analytics",
       },
       {
-        href: "/home-9",
+        href: "/services/saas-reddit-marketing-for-ai-search",
         label: "SaaS Reddit Marketing",
       },
       {
-        href: "/home-10",
+        href: "/services/saas-content-marketing-for-ai-search",
         label: "SaaS Content Marketing",
+      },
+      {
+        href: "/services/local-search-engine-optimization-and-generative-engine-optimization",
+        label: "Local SEO and GEO",
+      },
+      {
+        href: "/services/backlinks-and-brand-mentions-buying-service",
+        label: "Backlinks & Brand Mentions",
       },
     ],
   },
@@ -1082,6 +1090,12 @@ export const services = [
         description: "Suite of tools that cover all aspects of your business.",
         link: "/services/ai-prompt-monitoring-service",
       },
+      {
+        icon: "unicon-increase-level",
+        title: "Local SEO and GEO",
+        description: "Suite of tools that cover all aspects of your business.",
+        link: "/services/local-search-engine-optimization-and-generative-engine-optimization",
+      },
     ],
   },
   {
@@ -1120,6 +1134,13 @@ export const services = [
         description:
           "Managing multiple software and tools for different tasks.",
         link: "/services/saas-content-marketing-for-ai-search",
+      },
+      {
+        icon: "unicon-checkmark",
+        title: "Backlinks & Brand Mentions",
+        description:
+          "Managing multiple software and tools for different tasks.",
+        link: "/services/backlinks-and-brand-mentions-buying-service",
       },
     ],
   },

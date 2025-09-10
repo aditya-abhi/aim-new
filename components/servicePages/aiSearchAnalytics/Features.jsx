@@ -11,10 +11,10 @@ export default function Features() {
       <div className="section-outer panel">
         <div className="container">
           <div
-            className="section-inner panel vstack border rounded-3 overflow-hidden bg-secondary dark:bg-gray-300 dark:bg-opacity-15 mt-6 lg:mt-8 xl:mt-10"
+            className="section-inner panel vstack border rounded-3 overflow-hidden bg-secondary dark:bg-gray-300 dark:bg-opacity-15"
             data-anime="onview: -200; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 200;"
           >
-            <div className="panel p-4 md:p-6 lg:p-8 text-center">
+            <div className="panel p-4 md:p-6 lg:p-8 text-center items-center">
               <h2 className="h3 lg:h2 xl:h1 m-0">
                 The Power of AI Search Analytics
               </h2>

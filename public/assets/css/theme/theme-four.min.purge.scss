@@ -2079,6 +2079,9 @@
   .container.container-80 {
     max-width: 80%;
   }
+  .container.container-70 {
+    max-width: 70%;
+  }
   .container.container-full {
     max-width: 100%;
     padding: 0;
@@ -3180,16 +3183,16 @@
     display: block;
     transition: all 250ms ease-in-out;
   }
-  .timeline-box::after,
-  .timeline-box::before {
-    background: var(--color-gray-900);
-  }
-  .timeline-box::after:where(.uc-dark),
-  .timeline-box::before:where(.uc-dark),
-  :where(.uc-dark) .timeline-box::after,
-  :where(.uc-dark) .timeline-box::before {
-    background: #fff;
-  }
+  // .timeline-box::after,
+  // .timeline-box::before {
+  //   background: var(--color-gray-900);
+  // }
+  // .timeline-box::after:where(.uc-dark),
+  // .timeline-box::before:where(.uc-dark),
+  // :where(.uc-dark) .timeline-box::after,
+  // :where(.uc-dark) .timeline-box::before {
+  //   background: #fff;
+  // }
   .timeline-box::before {
     top: calc(var(--image-box-height) + var(--half-gap));
     right: 0;
@@ -8923,6 +8926,10 @@
     .xl\:py-10 {
       padding-top: 8rem !important;
       padding-bottom: 8rem !important;
+    }
+    .xl\:py-11 {
+      padding-top: 10rem !important;
+      padding-bottom: 10rem !important;
     }
     .xl\:pt-0 {
       padding-top: 0 !important;

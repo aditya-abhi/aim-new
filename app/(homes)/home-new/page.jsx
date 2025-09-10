@@ -19,13 +19,16 @@ import Testimonials2 from "@/components/homes/home-new/Testimonials2";
 import FeaturesVideo from "@/components/homes/home-new/FeaturesVideo";
 import Countries from "@/components/homes/home-new/Countries";
 import Purpose from "@/components/homes/home-new/Purpose";
-import Brands2 from "@/components/homes/home-new/Brands2";
 // import "https://js.appointlet.com/styles.css";
 import Timeline from "@/components/homes/home-new/Timeline";
 import Awards from "@/components/homes/home-new/Awards";
 
 import React from "react";
-import Service from "@/components/homes/home-new/service";
+import Service from "@/components/homes/home-new/Service";
+import Resources from "@/components/homes/home-new/Resources";
+import CaseStudies from "@/components/homes/home-new/CaseStudies";
+import Services from "@/components/homes/home-new/Services";
+import BrandSlider from "@/components/homes/home-new/BrandSlider";
 export const metadata = {
   title: "AI Monitor | Boost Your Brand Visibility in AI Search",
   description:
@@ -40,13 +43,17 @@ export default function page() {
             <Header7 />
             <div id="wrapper" className="wrap">
               <Hero />
-              <Brands />
+              {/* <Brands /> */}
+              <BrandSlider />
               {/* <Tools /> */}
               <Features2 />
               <Service />
               {/* <Features /> */}
               <FeaturesVideo />
               <Purpose />
+              <Services />
+              <Resources />
+              <CaseStudies />
               {/* <Blogs /> */}
               <Articles />
               {/* <Brands2 /> */}
@@ -54,9 +61,9 @@ export default function page() {
               {/* <Pricing /> */}
               <Pricing2 />
               <Timeline />
-              <Awards />
               <Testimonials2 />
-              <Blog />
+              <Awards />
+              {/* <Blog /> */}
               <Faqs />
               <Countries />
               <Cta />

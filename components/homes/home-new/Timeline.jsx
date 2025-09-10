@@ -8,26 +8,26 @@ export default function Timeline() {
       id="about-timeline"
       className="about-timeline section panel overflow-hidden"
     >
-      <div className="section-outer panel py-6 xl:py-9">
+      <div className="section-outer panel py-6 xl:py-9 bg-tertiary-700">
         <div className="container max-w-lg">
           <div className="section-inner panel">
             <div className="panel vstack justify-center items-center gap-2">
-              <span className="fs-7 fw-bold py-narrow px-2 border border-tertiary-100 dark:border-white rounded-pill text-tertiary dark:text-white">
+              <span className="fs-7 fw-bold py-narrow px-2 border border-white dark:border-white rounded-pill text-white">
                 OUR STORY
               </span>
               <div className="mt-2 pb-4 lg:pb-8">
                 <h2
-                  className="h3 sm:h3 lg:h2 m-0 text-center"
+                  className="h3 sm:h3 lg:h2 m-0 text-center text-white"
                   data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 100;"
                 >
                   Our Story, Our Purpose
                 </h2>
-                <p className="desc fs-6 xl:fs-5 opacity-70 dark:text-white mt-2 text-center">
+                {/* <p className="desc fs-6 xl:fs-5 opacity-70 dark:text-white mt-2 text-center">
                   A journey of passion, purpose, and people. It all started with
                   a single idea and a shared dream to make a difference. We've
                   poured our hearts into every step, and we're so excited to
                   share how we got here.
-                </p>
+                </p> */}
               </div>
               <div
                 style={{ width: "fit-content", maxWidth: "600px" }}

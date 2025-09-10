@@ -24,7 +24,8 @@ export default function page() {
             <Hero2 />
             <Problem />
             <Features />
-            <Process />
+            <ServiceTimeline />
+            {/* <Process /> */}
             <Services />
             <Faqs />
             <Cta />

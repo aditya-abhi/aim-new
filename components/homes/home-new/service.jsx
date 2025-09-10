@@ -20,9 +20,9 @@ export default function Service() {
                 className="fs-7 fw-bold py-narrow px-2 border border-tertiary-100 dark:border-white rounded-pill text-tertiary dark:text-white"
                 style={{ transform: "translateY(0px)", opacity: 1 }}
               >
-                STAY AHEAD OF THE CURVE
+                DOUBLE IMPACT
               </span>
-              <h2 className="h3 lg:h2 m-0">
+              <h2 className="h3 lg:h2 xl:h1 m-0">
                 <span className="text-tertiary dark:text-primary">
                   Double the Impact
                 </span>{" "}

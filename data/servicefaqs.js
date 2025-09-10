@@ -592,3 +592,105 @@ export const service10 = [
     expanded: false,
   },
 ];
+
+export const service11 = [
+  {
+    id: 1,
+    question: "What is Local SEO, and why does my business need it?",
+    answer:
+      "Local SEO ensures your business appears in Google Map Packs, “near me” searches, and AI-powered local results. It drives more calls, visits, and conversions from nearby customers ready to buy.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "How long does it take to see results?",
+    answer:
+      "Most clients start seeing improvements in 6–8 weeks, such as higher map-pack rankings and more Google Business Profile (GBP) actions. Significant growth typically happens within 3–6 months.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Do you use AI tools for Local SEO?",
+    answer:
+      "Absolutely. We combine expert-driven strategy with AI-powered tools for prompt analysis, competitor tracking, local keyword discovery, and optimizing Google Business Profiles for better visibility.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "What happens if Google changes its local search algorithms?",
+    answer:
+      "We monitor every major update to Google Maps, Map Packs, and local ranking signals. If algorithms change, we adapt your strategy instantly, keeping you ahead of competitors, not playing catch-up.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "How do you measure success?",
+    answer:
+      "We track map-pack rankings, GBP insights, calls, clicks, directions, foot traffic, and leads. Our monthly reports show exactly how local visibility drives real revenue growth.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Do I need to rebuild my website for Local SEO?",
+    answer:
+      "Not necessarily. Most improvements come from optimizing your Google Business Profile, fixing citations, enhancing on-page content, and adding local schema. If deeper changes are needed, we guide you step by step.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "How do I get started?",
+    answer:
+      "It’s simple. Book a free discovery call, and we’ll audit your local visibility, analyze competitors, and deliver a custom Local SEO roadmap designed to put your business on top in map packs and local searches.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+
+export const service12 = [
+  {
+    id: 1,
+    question: "Are your backlinks safe and Google-compliant?",
+    answer:
+      "Yes, absolutely. We only build white-hat backlinks that fully comply with Google’s latest guidelines. Every placement is on trusted, relevant, and high-quality websites, ensuring your site’s safety and long-term ranking stability.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "How do you select websites for backlinks?",
+    answer:
+      "We focus on niche-relevant, high-authority domains with genuine organic traffic and a strong reputation. Each site is manually vetted based on relevance, trustworthiness, and domain authority to maximize your visibility and results.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "How soon will I see results?",
+    answer:
+      "Most clients start seeing improvements in rankings, organic traffic, and brand visibility within 2–3 months. However, timelines can vary depending on your industry, competition, and existing authority.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "Do backlinks and mentions really improve visibility?",
+    answer:
+      "Yes. Backlinks send strong authority signals to search engines, improving rankings and traffic. Brand mentions, even without a direct link, enhance your reputation, credibility, and visibility within your industry, helping you appear in more relevant searches.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "Can you guarantee #1 rankings?",
+    answer:
+      "No ethical SEO provider can guarantee #1 rankings. However, our proven strategies focus on securing authoritative placements and building a strong backlink profile, which significantly boosts your chances of dominating search results over time.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
