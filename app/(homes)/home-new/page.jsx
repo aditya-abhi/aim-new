@@ -22,13 +22,13 @@ import Purpose from "@/components/homes/home-new/Purpose";
 // import "https://js.appointlet.com/styles.css";
 import Timeline from "@/components/homes/home-new/Timeline";
 import Awards from "@/components/homes/home-new/Awards";
-
-import React from "react";
-import Service from "@/components/homes/home-new/Service";
 import Resources from "@/components/homes/home-new/Resources";
 import CaseStudies from "@/components/homes/home-new/CaseStudies";
 import Services from "@/components/homes/home-new/Services";
 import BrandSlider from "@/components/homes/home-new/BrandSlider";
+
+import React from "react";
+import Service from "@/components/homes/home-new/Service";
 export const metadata = {
   title: "AI Monitor | Boost Your Brand Visibility in AI Search",
   description:

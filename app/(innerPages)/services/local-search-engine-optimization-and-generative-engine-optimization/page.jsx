@@ -7,7 +7,7 @@ import Process from "@/components/servicePages/localSEO/Process";
 import Services from "@/components/servicePages/localSEO/Services";
 import Faqs from "@/components/servicePages/localSEO/Faqs";
 import Cta from "@/components/servicePages/localSEO/Cta";
-import ServiceTimeline from "@/components/servicePages/localSeo/ServiceTimeline";
+import ServiceTimeline from "@/components/servicePages/localSEO/ServiceTimeline";
 
 export const metadata = {
   title: "SaaS Search Engine Optimization Service || AI Monitor",
