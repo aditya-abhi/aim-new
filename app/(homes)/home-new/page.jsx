@@ -29,7 +29,7 @@ import BrandSlider from "@/components/homes/home-new/BrandSlider";
 // import Service from "@/components/homes/home-new/Service";
 
 import React from "react";
-import Service2 from "@/components/homes/home-new/Service";
+import Service2 from "@/components/homes/home-new/service";
 export const metadata = {
   title: "AI Monitor | Boost Your Brand Visibility in AI Search",
   description:
