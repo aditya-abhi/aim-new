@@ -23,7 +23,7 @@ export default function Hero() {
                         <div className="order-0 lg:order-1">
                           <div className="panel w-100 rounded lg:rounded-2 overflow-hidden">
                             <img
-                              src="../../../assets/images/portrait/geo-course-hero.webp"
+                              src="../../../assets/images/portrait/aeo-course-hero.webp"
                               alt="Hero Image"
                             />
                           </div>

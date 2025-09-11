@@ -7,7 +7,7 @@ import DesignedFor from "@/components/courses/DesignedFor";
 import Testtimonials from "@/components/courses/Testimonials";
 import Blogs from "@/components/courses/Blogs";
 import Cta from "@/components/courses/Cta";
-import FAQs from "@/components/Courses/Faqs";
+import Faqs from "@/components/courses/Faqs";
 import React from "react";
 export const metadata = {
   title: "AI Monitor || Answer Engine Optimization Course",
@@ -27,7 +27,7 @@ export default function page() {
               <Courses />
               <DesignedFor />
               <Testtimonials />
-              <FAQs />
+              <Faqs />
               <Blogs />
               <Cta />
             </div>

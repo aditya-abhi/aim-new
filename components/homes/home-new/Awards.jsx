@@ -8,7 +8,7 @@ export default function Awards() {
       id="team_members"
       className="team-members section panel overflow-hidden"
     >
-      <div className="section-outer panel pb-4 pt-6 lg:pt-8 xl:pt-10 lg:mx-2 lg:rounded-2 bg-tertiary-700 text-white">
+      <div className="section-outer panel py-6 lg:py-8 xl:py-10 lg:mx-2 lg:rounded-2 bg-tertiary-700 text-white">
         <div className="container sm:max-w-lg xl:max-w-xl">
           <div className="section-inner panel">
             <div className="panel vstack items-center gap-4 sm:gap-6 xl:gap-8">
@@ -16,7 +16,9 @@ export default function Awards() {
                 className="heading vstack items-center gap-2 panel max-w-650px mx-auto text-center"
                 data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
               >
-                <span className="fw-bold text-white">RECOGNITIONS</span>
+                <span className="fs-7 fw-bold py-narrow px-2 border border-white dark:border-white rounded-pill text-white">
+                  RECOGNITIONS
+                </span>
                 <h2 className="title h3 lg:h2 xl:h1 m-0 text-white">
                   Our Awards and Backers
                 </h2>

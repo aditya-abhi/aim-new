@@ -61,7 +61,7 @@ export default function Features2() {
                 </div>
               ))}
             </div>
-            <div
+            {/* <div
               className="panel vstack items-center gap-2 xl:gap-3 mt-8 sm:max-w-600px lg:max-w-700px xl:max-w-800px mx-auto text-center"
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
@@ -80,7 +80,7 @@ export default function Features2() {
                 analyze, and influence their presence across the world's most
                 important AI models.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -36,3 +36,42 @@ export const panelsData = [
       "We strive to be empathetic to every customer and colleague and by doing so we can provide a better experience for all.",
   },
 ];
+
+export const aboutUs = [
+  {
+    id: 1,
+    lightImgSrc: "/assets/images/template/icon-diamond.svg",
+    darkImgSrc: "/assets/images/template/icon-diamond-dark.svg",
+    altText: "impact-icon",
+    title: "Own Your Visibility",
+    description:
+      "We make your brand impossible to miss. Our tool, strategy, and execution work together to secure a powerful AI presence wherever your audience searches.",
+  },
+  {
+    id: 2,
+    lightImgSrc: "/assets/images/template/icon-trophy.svg",
+    darkImgSrc: "/assets/images/template/icon-trophy-dark.svg",
+    altText: "crown-icon",
+    title: "Redefine Discovery",
+    description:
+      "Our open-source AI tool, built for AI visibility, GEO, and AEO, transforms how brands are discovered, turning visibility into a measurable competitive advantage.",
+  },
+  {
+    id: 3,
+    lightImgSrc: "/assets/images/template/icon-globe.svg",
+    darkImgSrc: "/assets/images/template/icon-globe-dark.svg",
+    altText: "fun-icon",
+    title: "Be Everywhere",
+    description:
+      "From ChatGPT to Gemini, Google AI Overview, and Perplexity, we ensure your brand is seen, referenced, and recommended across every major AI platform.",
+  },
+  {
+    id: 4,
+    lightImgSrc: "/assets/images/template/icon-crown.svg",
+    darkImgSrc: "/assets/images/template/icon-crown-dark.svg",
+    altText: "empathy-icon",
+    title: "Growth Without Limits",
+    description:
+      "Whether a startup or enterprise, we take full responsibility for your AI visibility, helping you reach new audiences and stay ahead of the competition.",
+  },
+];

@@ -6,7 +6,7 @@ export default function Content() {
     <div id="main_features" className="main-features section panel">
       <div className="section-outer panel py-6 xl:py-9">
         <div className="container sm:max-w-md lg:max-w-lg xl:max-w-xl">
-          <div className="panel text-center items-center justify-center mb-6">
+          <div className="panel text-center items-center justify-center mb-6 lg:mb-8 xl:mb-10">
             <h2 className="h3 lg:h2">
               7-Day Answer Engine Optimization Course Structure
             </h2>
@@ -21,7 +21,7 @@ export default function Content() {
                   <div className="col-12 sm:col-6 order-0 lg:order-1">
                     <div className="panel w-100">
                       <Image
-                        src="/assets/images/features/geo-course-1.webp"
+                        src="/assets/images/features/aeo-course-1.webp"
                         width={780}
                         height={728}
                         alt="Introduction to AEO & Answer Engines"
@@ -30,49 +30,46 @@ export default function Content() {
                     </div>
                   </div>
                   <div className="col-12 sm:col-6 order-1 lg:order-0">
-                    <div className="panel justify-center items-center gap-4 sm:gap-6 h-100">
-                      <div className="items-center">
-                        <div className="panel center">
-                          <h3 className="h4 lg:h4 xl:h3 m-0">
-                            Day 1 : Introduction to AEO & Answer Engines
-                          </h3>
-                          <p className="fs-6 xl:fs-5 opacity-70 dark:opacity-80 mt-2">
-                            <strong>Theme:</strong> Understanding the Search
-                            Shift
-                          </p>
-                          <p className="fs-6 xl:fs-5 opacity-70 dark:opacity-80 mt-2">
-                            <strong>What will you Learn:</strong>
-                          </p>
-                          <ul className="fs-6 xl:fs-5 opacity-70 dark:opacity-80">
-                            <li>
-                              Why AEO matters in the era of zero-click AI search
-                            </li>
-                            <li>
-                              Differences between traditional search engines and
-                              LLMs
-                            </li>
-                            <li>The anatomy of AI-generated answers</li>
-                          </ul>
-                          <p className="fs-6 xl:fs-5 opacity-70 dark:opacity-80">
-                            <strong>
-                              By the End of Day 1, You’ll Be Able To:
-                            </strong>
-                          </p>
-                          <ul className="fs-6 xl:fs-5 opacity-70 dark:opacity-80">
-                            <li>
-                              Define AEO and its role in digital marketing
-                            </li>
-                            <li>
-                              Articulate how generative engines like ChatGPT
-                              source content
-                            </li>
-                            <li>
-                              Identify where your current SEO efforts fall short
-                              for AI visibility
-                            </li>
-                          </ul>
-                        </div>
+                    <div className="panel justify-center gap-4 sm:gap-6 h-100">
+                      {/* <div className="items-center"> */}
+                      <div className="panel vstack">
+                        <h3 className="h4 lg:h4 xl:h3 m-0">
+                          Day 1 : Introduction to AEO & Answer Engines
+                        </h3>
+                        <p className="fs-6 xl:fs-5 opacity-70 dark:opacity-80 mt-2">
+                          <strong>Theme:</strong> Understanding the Search Shift
+                        </p>
+                        <p className="fs-6 xl:fs-5 opacity-70 dark:opacity-80 mt-2">
+                          <strong>What will you Learn:</strong>
+                        </p>
+                        <ul className="fs-6 xl:fs-5 opacity-70 dark:opacity-80">
+                          <li>
+                            Why AEO matters in the era of zero-click AI search
+                          </li>
+                          <li>
+                            Differences between traditional search engines and
+                            LLMs
+                          </li>
+                          <li>The anatomy of AI-generated answers</li>
+                        </ul>
+                        <p className="fs-6 xl:fs-5 opacity-70 dark:opacity-80">
+                          <strong>
+                            By the End of Day 1, You’ll Be Able To:
+                          </strong>
+                        </p>
+                        <ul className="fs-6 xl:fs-5 opacity-70 dark:opacity-80">
+                          <li>Define AEO and its role in digital marketing</li>
+                          <li>
+                            Articulate how generative engines like ChatGPT
+                            source content
+                          </li>
+                          <li>
+                            Identify where your current SEO efforts fall short
+                            for AI visibility
+                          </li>
+                        </ul>
                       </div>
+                      {/* </div> */}
                     </div>
                   </div>
                 </div>
@@ -92,7 +89,7 @@ export default function Content() {
                   <div className="col-12 sm:col-6 order-0 lg:order-1">
                     <div className="panel w-100">
                       <Image
-                        src="/assets/images/features/geo-course-2.webp"
+                        src="/assets/images/features/aeo-course-2.webp"
                         width={780}
                         height={728}
                         alt="Introduction to AEO & Answer Engines"
@@ -101,7 +98,7 @@ export default function Content() {
                     </div>
                   </div>
                   <div className="col-12 sm:col-6 order-1 lg:order-0">
-                    <div className="panel vstack justify-center gap-4 sm:gap-6 h-100">
+                    <div className="panel justify-center gap-4 sm:gap-6 h-100">
                       <div>
                         <div className="panel vstack">
                           <h3 className="h4 lg:h4 xl:h3 m-0">
@@ -170,7 +167,7 @@ export default function Content() {
                   <div className="col-12 sm:col-6 order-0 lg:order-1">
                     <div className="panel w-100">
                       <Image
-                        src="/assets/images/features/geo-course-3.webp"
+                        src="/assets/images/features/aeo-course-3.webp"
                         width={780}
                         height={728}
                         alt="Introduction to GEO & Generative Engines"
@@ -235,7 +232,7 @@ export default function Content() {
                   <div className="col-12 sm:col-6 order-0 lg:order-1">
                     <div className="panel w-100">
                       <Image
-                        src="/assets/images/features/geo-course-4.webp"
+                        src="/assets/images/features/aeo-course-4.webp"
                         width={780}
                         height={728}
                         alt="Introduction to GEO & Generative Engines"
@@ -305,7 +302,7 @@ export default function Content() {
                   <div className="col-12 sm:col-6 order-0 lg:order-1">
                     <div className="panel w-100">
                       <Image
-                        src="/assets/images/features/geo-course-5.webp"
+                        src="/assets/images/features/aeo-course-5.webp"
                         width={780}
                         height={728}
                         alt="Introduction to GEO & Generative Engines"
@@ -382,7 +379,7 @@ export default function Content() {
                   <div className="col-12 sm:col-6 order-0 lg:order-1">
                     <div className="panel w-100">
                       <Image
-                        src="/assets/images/features/geo-course-6.webp"
+                        src="/assets/images/features/aeo-course-6.webp"
                         width={780}
                         height={728}
                         alt="Strategies for Zero-Click Optimization"
@@ -451,7 +448,7 @@ export default function Content() {
                   <div className="col-12 sm:col-6 order-0 lg:order-1">
                     <div className="panel w-100">
                       <Image
-                        src="/assets/images/features/geo-course-7.webp"
+                        src="/assets/images/features/aeo-course-7.webp"
                         width={780}
                         height={728}
                         alt="Strategies for Zero-Click Optimization"

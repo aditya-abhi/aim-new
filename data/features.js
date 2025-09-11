@@ -822,23 +822,23 @@ export const featureItemsVideo = [
     reverseOrder: false,
   },
   {
-    src: "/assets/images/videos/open-source.webm",
-    altText: "Built on Trust. Open for All.",
-    title: "Built on Trust. Open for All.",
-    subtitle: "(Because You Deserve Transparency in an AI-Driven World)",
-    description:
-      "Tired of the “black box” AI platforms? AI Monitor is 100% open-source, meaning you can see exactly how it works, customize it for your needs, and never get locked into a vendor’s ecosystem again. Our platform is built by the community, for the community, giving you total control, privacy, and flexibility.",
-    linkText: "See all spreadsheets",
-    icon: "unicon-course",
-    reverseOrder: true,
-  },
-  {
     src: "/assets/images/videos/brand-visibility.webm",
     altText: "Right Message, Right Place",
     title: "Right Message, Right Place",
     subtitle: "(Because Gut Feelings Aren’t Always Right)",
     description:
       "Your content deserves to be seen where it matters most. We analyze AI-generated search results to ensure your brand shows up in the right answers, at the right time. Think of us as your AI-powered GPS for marketing, PR, and content strategy.",
+    linkText: "See apps & integrations",
+    icon: "unicon-volume-block-storage",
+    reverseOrder: true,
+  },
+  {
+    src: "/assets/images/videos/sentiment.webm",
+    altText: "Perform Sentiment Analysis",
+    title: "Perform Sentiment Analysis",
+    subtitle: "(Because Happy Customers = Happy Brand)",
+    description:
+      "AI answers shape perception. We track positive and negative mentions across AI platforms, giving you a clear snapshot of customer sentiment. We’ll separate the love letters from the hate mail  and help you turn insights into action.",
     linkText: "See apps & integrations",
     icon: "unicon-volume-block-storage",
     reverseOrder: false,
@@ -855,17 +855,6 @@ export const featureItemsVideo = [
     reverseOrder: true,
   },
   {
-    src: "/assets/images/videos/sentiment.webm",
-    altText: "Perform Sentiment Analysis",
-    title: "Perform Sentiment Analysis",
-    subtitle: "(Because Happy Customers = Happy Brand)",
-    description:
-      "AI answers shape perception. We track positive and negative mentions across AI platforms, giving you a clear snapshot of customer sentiment. We’ll separate the love letters from the hate mail  and help you turn insights into action.",
-    linkText: "See apps & integrations",
-    icon: "unicon-volume-block-storage",
-    reverseOrder: false,
-  },
-  {
     src: "/assets/images/videos/dashboard.webm",
     altText: "Wide Coverage. One Dashboard.",
     title: "Wide Coverage, One Dashboard",
@@ -874,7 +863,30 @@ export const featureItemsVideo = [
       " AI Monitor gives you a single, unified view of your brand’s presence across every major Generative Engine and LLM. From ChatGPT to Gemini and whatever our future AI overlords invent next we’re watching it all, so you don’t have to.",
     linkText: "See apps & integrations",
     icon: "unicon-volume-block-storage",
+    reverseOrder: false,
+  },
+  {
+    src: "/assets/images/videos/open-source.webm",
+    altText: "Built on Trust. Open for All.",
+    title: "The Open-Source Advantage",
+    subtitle: "(Because You Deserve Transparency in an AI-Driven World)",
+    description:
+      " AI shouldn’t feel like a black box. That’s why AI Monitor is 100% open-source, giving you full transparency into how it works and the flexibility to customize it to your needs. No vendor lock-ins, no hidden limitations, just complete control, privacy, and a community-driven platform built for brands like yours.",
+    linkText: "See all spreadsheets",
+    icon: "unicon-course",
     reverseOrder: true,
+  },
+  {
+    src: "/assets/images/videos/local-seo.webm",
+    altText: "Built on Trust. Open for All.",
+    title: "The Local SEO  & GEO  Advantage",
+    subtitle:
+      "(Because Your Brand Deserves to Be Found Where Decisions Happen)",
+    description:
+      "Your customers search locally, and AI now decides who gets found first. AI Monitor helps your brand dominate region-based Local SEO and GEO, ensuring top visibility across ChatGPT, Google AI Overviews, Gemini, and Perplexity. Be discovered where decisions happen.",
+    linkText: "See all spreadsheets",
+    icon: "unicon-course",
+    reverseOrder: false,
   },
 ];
 
@@ -1431,7 +1443,7 @@ export const services = [
     title: "AI Search Analytics",
     description:
       "We develop your end-to-end roadmap for AI visibility. Using proprietary data, we identify opportunities, benchmark against competitors, and create a data-backed framework to dominate your category.",
-    linkHref: "/",
+    linkHref: "/services/ai-search-analytics",
   },
   {
     id: 2,
@@ -1441,7 +1453,7 @@ export const services = [
     description:
       "Become a primary source for ChatGPT, Gemini, and Claude. We optimize your content architecture and digital footprint to be cited directly in AI-generated answers, building unmatched authority.",
     linkText: "View Service",
-    linkHref: "/",
+    linkHref: "/services/generative-engine-optimization-geo-service",
   },
   {
     id: 3,
@@ -1450,7 +1462,7 @@ export const services = [
     title: "Answer Engine Optimization (AEO)",
     description:
       "Capture top placements in Google AI Overviews, Perplexity, and Bing Copilot. We structure your content to win Featured AI Snippets and become the default recommendation in conversational search.",
-    linkHref: "/",
+    linkHref: "/services/answer-engine-optimization-aeo-service",
   },
   {
     id: 4,
@@ -1459,7 +1471,7 @@ export const services = [
     title: "Advanced SaaS SEO",
     description:
       "Our hybrid SEO approach ensures you win in both worlds. We blend traditional organic ranking strategies with AI-driven discovery, ensuring your content performs on Google SERPs and inside AI chat results.",
-    linkHref: "/",
+    linkHref: "/services/saas-search-engine-optimization-service",
   },
   {
     id: 5,
@@ -1469,7 +1481,7 @@ export const services = [
     description:
       "Using our LLM SEO File framework, we structure your brand's data to be perfectly machine-readable. This ensures AI engines interpret your information accurately and prefer it for generative responses.",
     linkText: "View Service",
-    linkHref: "/",
+    linkHref: "/services/large-language-model-llm-seo-service",
   },
   {
     id: 6,
@@ -1478,7 +1490,7 @@ export const services = [
     title: "AI Prompt Monitoring",
     description:
       "Get a real-time intelligence feed on your AI presence. We track how your brand and competitors appear across thousands of prompts, giving you a clear view of your market share in the new AI landscape.",
-    linkHref: "/",
+    linkHref: "/services/ai-prompt-monitoring-service",
   },
   {
     id: 7,
@@ -1487,7 +1499,7 @@ export const services = [
     title: "Saas Content Marketing",
     description:
       "Get a real-time intelligence feed on your AI presence. We track how your brand and competitors appear across thousands of prompts, giving you a clear view of your market share in the new AI landscape.",
-    linkHref: "/",
+    linkHref: "/services/saas-content-marketing-for-ai-search",
   },
   {
     id: 8,
@@ -1496,7 +1508,7 @@ export const services = [
     title: "Saas Reddit Marketing",
     description:
       "Harness the power of Reddit communities to amplify your brand reach. We craft engagement-driven campaigns, manage conversations, and position your brand authentically within highly active niche audiences.",
-    linkHref: "/",
+    linkHref: "/services/saas-reddit-marketing-for-ai-search",
   },
   {
     id: 9,
@@ -1505,7 +1517,7 @@ export const services = [
     title: "Competitor Benchmarking",
     description:
       "Stay ahead of your competitors with detailed visibility benchmarking across AI-driven and traditional platforms. We analyze competitor placements, content strategies, and performance gaps to give you a winning edge.",
-    linkHref: "/",
+    linkHref: "/services/competitor-benchmarking-for-ai-search",
   },
   {
     id: 10,
@@ -1514,6 +1526,24 @@ export const services = [
     title: "Marketing Analytics",
     description:
       "Get real-time, actionable insights into your AI search visibility, traffic patterns, and customer journeys. Our analytics dashboards help you identify growth opportunities and measure the impact of your strategies.",
+    linkHref: "/services/ai-marketing-analytics-service",
+  },
+  {
+    id: 11,
+    imgSrc: "/assets/images/template/competitor-benchmarking.webp",
+    imgAlt: "Maintain compliance and control your apps",
+    title: "Local SEO and GEO",
+    description:
+      "Boost your local presence with Local SEO + GEO. We optimize your business to rank higher in AI-driven search, map packs, and local results, helping you capture nearby customers where they’re searching most.",
+    linkHref: "/",
+  },
+  {
+    id: 12,
+    imgSrc: "/assets/images/template/marketing-analytics.webp",
+    imgAlt: "Maintain compliance and control your apps",
+    title: "Build Authority with Backlinks & Brand Mentions",
+    description:
+      "We secure placements on trusted, high-authority sites through strategic link insertions and content partnerships to boost your visibility, credibility, and search performance where it matters most.",
     linkHref: "/",
   },
 ];
@@ -1872,6 +1902,78 @@ export const servicePage10 = [
     title: "Strategic Consultation Sessions",
     description:
       "Hands-on guidance from our AI marketing experts, ensuring every decision is aligned with growth and measurable results.",
+  },
+];
+
+export const servicePage11 = [
+  {
+    id: 1,
+    imgSrc: "/assets/images/template/ai-search-analytics.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "In-Depth Local Intent Reports",
+    description:
+      "Pinpoint how nearby customers search, shop, and convert, then tailor your strategy to match.",
+  },
+  {
+    id: 2,
+    imgSrc: "/assets/images/template/geo.webp",
+    imgAlt: "Connect every part of your entire business",
+    title: "Real-Time Local Trend Dashboards",
+    description:
+      "Track what’s trending across your area and update your local strategy in real time for impact.",
+    linkText: "View Service",
+  },
+  {
+    id: 3,
+    imgSrc: "/assets/images/template/aeo.webp",
+    imgAlt: "SaaS Content Opportunity Maps",
+    title: "Local Opportunity Maps",
+    description:
+      "Identify where to publish, claim, or promote to lead the map pack and capture local intent.",
+  },
+  {
+    id: 4,
+    imgSrc: "/assets/images/template/saas-seo.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "Strategic Local Consultations",
+    description:
+      "Get expert guidance to align every move with measurable, real-world local ROI.",
+  },
+];
+
+export const servicePage12 = [
+  {
+    id: 1,
+    imgSrc: "/assets/images/template/ai-search-analytics.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "High-Authority Backlinks",
+    description:
+      "Boost your rankings with quality placements on niche-relevant, trusted websites. These backlinks strengthen your domain authority and drive long-term organic growth.",
+  },
+  {
+    id: 2,
+    imgSrc: "/assets/images/template/geo.webp",
+    imgAlt: "Connect every part of your entire business",
+    title: "Strategic Brand Mentions",
+    description:
+      "Get your brand featured in the right conversations across reputable industry platforms. We secure placements that increase visibility, build credibility, and attract the right audience.",
+    linkText: "View Service",
+  },
+  {
+    id: 3,
+    imgSrc: "/assets/images/template/aeo.webp",
+    imgAlt: "SaaS Content Opportunity Maps",
+    title: "Backlink Gap Reports",
+    description:
+      "We analyze where competitors are earning links and highlight missed opportunities. Our detailed reports help you close the gap and outperform rivals in search rankings.",
+  },
+  {
+    id: 4,
+    imgSrc: "/assets/images/template/saas-seo.webp",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "Dedicated Consultation",
+    description:
+      "Work directly with our SEO experts to create a tailored link-building strategy. From planning to execution, we provide hands-on guidance to maximize your results.",
   },
 ];
 
@@ -2274,5 +2376,140 @@ export const competitorBenchmarking = [
     title: "Revenue-Loss",
     description:
       "Companies that don’t track competitor moves lose up to 22% annual revenue on average, as proactive competitors consistently capture untapped market demand first.",
+  },
+];
+
+export const localSEO = [
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    alt: "feature-icon",
+    title: "Conversions",
+    description:
+      "78% of mobile searches lead to offline buys yet most brands miss out on local sales happening right in their own backyard.",
+  },
+  {
+    order: "order-0",
+    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    alt: "feature-icon",
+    title: "Proactivity",
+    description:
+      "Reactive brands fall behind. Proactive local rivals get 126% more traffic and 93% more calls, clicks, and map directions.",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    alt: "feature-icon",
+    title: "Discovery",
+    description:
+      "99% search for local info online. With 80% searching weekly, data overload makes standing out harder than ever before.",
+  },
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    alt: "feature-icon",
+    title: "Trust",
+    description:
+      "62% avoid businesses with inconsistent or impersonal local info. People want connection; your details must reflect that.",
+  },
+];
+
+export const backlink = [
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    alt: "feature-icon",
+    title: "Ranking",
+    description:
+      "Pages ranking #1 on Google have 3.8× more backlinks than those ranked 2–10, proving backlink volume is a key driver of top-tier search visibility.",
+  },
+  {
+    order: "order-0",
+    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    alt: "feature-icon",
+    title: "Impact",
+    description:
+      "Quality backlinks spark a compounding effect, elevating domain authority, boosting organic traffic, and steadily improving Google rankings over time.",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    alt: "feature-icon",
+    title: "Budget",
+    description:
+      "Among 800+ SEO professionals, 46.5% invest $5K–$10K monthly in link-building, confirming it's a strategic priority for staying visible and competitive online.",
+  },
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    alt: "feature-icon",
+    title: "Gap",
+    description:
+      "A staggering 95% of web pages have zero backlinks. That means most content never ranks, leaving a massive SEO opportunity wide open for smart brands.",
+  },
+];
+
+export const homeServices = [
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    alt: "feature-icon",
+    title: "Custom Strategy",
+    description:
+      "We'll create a tailored plan to enhance your brand's presence, sentiment, and ranking across all major AI search engines.",
+  },
+  {
+    order: "order-0",
+    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    alt: "feature-icon",
+    title: "Fully Managed Execution",
+    description:
+      "Too busy to implement a new strategy? Our team can manage everything from content optimization to PR outreach on your behalf.",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    alt: "feature-icon",
+    title: "Ongoing Performance Audits",
+    description:
+      "We proactively adapt your strategy to stay ahead of algorithm changes and new AI features, ensuring your brand maintains its competitive edge.",
+  },
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    alt: "feature-icon",
+    title: "Team Training & Workshops",
+    description:
+      "Empower your in-house team with customized training on Generative Engine Optimization (GEO) and how to leverage the AI Monitor platform.",
+  },
+];
+
+export const aboutWork = [
+  {
+    id: 1,
+    lightIcon: "/assets/images/template/icon-diamond.svg",
+    darkIcon: "/assets/images/template/icon-diamond-dark.svg",
+    altText: "impact-icon",
+    title: "Create New Language",
+    description:
+      "We turn AI complexity into a brand language that everyone, human or AI, can understand.",
+  },
+  {
+    id: 2,
+    lightIcon: "/assets/images/template/icon-trophy.svg",
+    darkIcon: "/assets/images/template/icon-trophy-dark.svg",
+    altText: "crown-icon",
+    title: "Ensure Understanding",
+    description:
+      "We make your brand visible, trusted, and accurately represented across AI platforms.",
+  },
+  {
+    id: 3,
+    lightIcon: "/assets/images/template/icon-crown.svg",
+    darkIcon: "/assets/images/template/icon-crown-dark.svg",
+    altText: "empathy-icon",
+    title: "Bring Brands to Life",
+    description:
+      "Curious, obsessed, and relentless, we make your brand remembered and impossible to ignore.",
   },
 ];

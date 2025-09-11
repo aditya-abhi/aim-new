@@ -112,14 +112,15 @@ export default function Cta() {
                 <div className="mb-2 lg:mb-3">
                   <a
                     href="#"
-                    className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 w-auto"
+                    aria-label="Button to claim your free Answer Engine Optimization Course spot"
+                    className="btn btn-md xl:btn-lg btn-primary hover:bg-tertiary hover:text-primary border px-3 lg:px-5 w-auto"
                   >
                     <span>Claim Your Spot Now!</span>
                   </a>
                 </div>
-                <div className="vstack sm:hstack justify-center gap-1 fs-6 text-gray-900 dark:text-white sm-flex-column">
+                <div className="vstack sm:hstack justify-center gap-1 fs-6 text-gray-900 dark:text-white flex-row md-flex-column">
                   <div className="hstack justify-center gap-2">
-                    <b>Exellent</b>
+                    <b>Super</b>
                     <div className="rating panel">
                       <div className="hstack justify-center gap-narrow">
                         <i
@@ -139,7 +140,7 @@ export default function Cta() {
                           style={{ backgroundColor: "#00b67a" }}
                         />
                         <i
-                          className="icon unicon-star-filled text-white p-narrow"
+                          className="icon unicon-star-half-filled text-white p-narrow"
                           style={{ backgroundColor: "#00b67a" }}
                         />
                       </div>
@@ -147,24 +148,8 @@ export default function Cta() {
                   </div>
                   <div className="hstack justify-center gap-narrow">
                     <span className="desc rtl:order-first">
-                      4,000+ reviews on
+                      with reviews on <strong>Trustpilot and G2</strong>
                     </span>
-                    <div>
-                      <Image
-                        alt="Trustpilot"
-                        className="w-96px dark:d-none"
-                        src="/assets/images/review-logo/05.svg"
-                        width={138}
-                        height={42}
-                      />
-                      <Image
-                        alt="Trustpilot"
-                        className="w-96px d-none dark:d-inline-flex"
-                        src="/assets/images/review-logo/dark-05.svg"
-                        width={138}
-                        height={42}
-                      />
-                    </div>
                   </div>
                 </div>
               </div>

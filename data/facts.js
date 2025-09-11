@@ -69,3 +69,36 @@ export const panelsData = [
     suffix: "k",
   },
 ];
+export const aboutFacts = [
+  {
+    id: 1,
+    year: 2023,
+    description: "Founded to decode AI visibility",
+    animation:
+      "onview: -100; textContent: 2014; round: 1; easing: linear; duration: 1200;",
+  },
+  {
+    id: 2,
+    count: 50,
+    description: "Brands helped Globally",
+    animation:
+      "onview: -100; textContent: [0, 50]; round: 1; easing: linear; duration: 1200;",
+    suffix: "+",
+  },
+  {
+    id: 3,
+    count: 100,
+    description: "AI mentions monitored",
+    animation:
+      "onview: -100; textContent: [0, 4600]; round: 1; easing: linear; duration: 1200;",
+    suffix: "k+",
+  },
+  {
+    id: 4,
+    count: 2,
+    description: "Free courses",
+    animation:
+      "onview: -100; textContent: [0, 17]; round: 1; easing: linear; duration: 1200;",
+    // suffix: "%",
+  },
+];

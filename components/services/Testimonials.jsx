@@ -6,9 +6,9 @@ export default function Testimonials() {
   return (
     <div
       id="clients_feedbacks"
-      className="clients-feedbacks lg:rounded-2 lg:mx-2 section panel overflow-hidden uc-dark"
+      className="clients-feedbacks lg:rounded-2 lg:mx-2 section panel overflow-hidden"
     >
-      <div className="section-outer panel py-6 xl:py-9 bg-tertiary-700">
+      <div className="section-outer panel py-6 xl:py-9">
         <div className="container max-w-lg">
           <div className="section-inner panel">
             <div
@@ -61,13 +61,6 @@ export default function Testimonials() {
                   </div>
                 ))}
               </div>
-              <a
-                href="#"
-                className="uc-link fw-bold d-inline-flex items-center gap-narrow"
-              >
-                <span>See all feedbacks</span>
-                <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />
-              </a>
             </div>
           </div>
         </div>

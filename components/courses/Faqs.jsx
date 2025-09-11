@@ -1,7 +1,7 @@
 import React from "react";
-import FaqsCourses from "../common/FaqsCourses";
+import FaqsCourses from "@/components/common/FaqsCourses";
 
-export default function FAQs() {
+export default function Faqs() {
   return (
     <div id="faq" className="faq section panel scrollSpysection">
       <div className="section-outer panel lg:mt-8 lg:py-8 xl:py-10">
