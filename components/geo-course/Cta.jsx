@@ -1,5 +1,7 @@
+"use client";
 import Image from "next/image";
 import React from "react";
+import { openGeoEnrollModal } from "@/utlis/toggleGeoEnrollModal";
 
 export default function Cta() {
   return (
@@ -111,9 +113,10 @@ export default function Cta() {
               >
                 <div className="mb-2 lg:mb-3">
                   <a
-                    href="#"
+                    onClick={openGeoEnrollModal}
                     aria-label="Button to claim your free Generative Engine Optimization Course spot"
                     className="btn btn-md xl:btn-lg btn-primary hover:bg-tertiary hover:text-primary border px-3 lg:px-5 w-auto"
+                    role="button"
                   >
                     <span>Claim Your Spot Now!</span>
                   </a>
