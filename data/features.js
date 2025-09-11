@@ -1521,7 +1521,7 @@ export const services = [
   },
   {
     id: 10,
-    imgSrc: "/assets/images/template/marketing-analytics.webp",
+    imgSrc: "/assets/images/template/local-seo.webp",
     imgAlt: "Maintain compliance and control your apps",
     title: "Marketing Analytics",
     description:
@@ -1530,8 +1530,8 @@ export const services = [
   },
   {
     id: 11,
-    imgSrc: "/assets/images/template/competitor-benchmarking.webp",
-    imgAlt: "Maintain compliance and control your apps",
+    imgSrc: "/assets/images/template/backlinks.webp",
+    imgAlt: "Boost your Local SEO and GEO",
     title: "Local SEO and GEO",
     description:
       "Boost your local presence with Local SEO + GEO. We optimize your business to rank higher in AI-driven search, map packs, and local results, helping you capture nearby customers where they’re searching most.",
@@ -1540,7 +1540,7 @@ export const services = [
   {
     id: 12,
     imgSrc: "/assets/images/template/marketing-analytics.webp",
-    imgAlt: "Maintain compliance and control your apps",
+    imgAlt: "Build Authority with Backlinks & Brand Mentions",
     title: "Build Authority with Backlinks & Brand Mentions",
     description:
       "We secure placements on trusted, high-authority sites through strategic link insertions and content partnerships to boost your visibility, credibility, and search performance where it matters most.",
@@ -2511,5 +2511,259 @@ export const aboutWork = [
     title: "Bring Brands to Life",
     description:
       "Curious, obsessed, and relentless, we make your brand remembered and impossible to ignore.",
+  },
+];
+
+export const agencySolutions = [
+  {
+    order: "order-1 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-01.svg",
+    title: "Be a Reseller",
+    description:
+      "Don't have the bandwidth to build an in-house AI team? We'll be your trusted back-end, providing expert AI Search Optimization Services to your clients. You can immediately offer a cutting-edge service without hiring or training.",
+  },
+  {
+    order: "order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-02.svg",
+    title: "Train Your Team",
+    description:
+      "Ready to take the lead? We'll provide comprehensive training and our powerful platform so your team can become AI Search Optimization Experts. We’ll equip you with the knowledge and tools to scale geo-specific campaigns and influence AI narratives.",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-03.svg",
+    title: "Gain New Clients",
+    description:
+      "Already AI-ready? We'll send you qualified leads. As an exclusive AI Monitor Partner, you'll be connected with businesses specifically looking for an agency that's ahead of the curve. You focus on closing, we handle the lead generation.",
+  },
+];
+
+export const agencyWorking = [
+  {
+    id: 1,
+    imgSrc: "/assets/images/template/feature-01.svg",
+    altText: "Share tools quickly and confidently in minutes",
+    step: "01.",
+    title: "Share tools quickly and confidently in minutes",
+    description: `This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables. You can also customize your own dynamic versions.`,
+    testimonial: {
+      quote: `“Most of our time used to be taken up by administrative work whereas now we can focus on building out programs to help our employees.”`,
+      imgSrc: "/assets/images/avatars/01.png",
+      name: "Mark Zellers",
+      role: "Director of Human Resources.",
+    },
+  },
+  {
+    id: 2,
+    imgSrc: "/assets/images/template/feature-02.svg",
+    altText: "Connect every part of your entire business",
+    step: "02.",
+    title: "Connect every part of your entire business",
+    description: `Keep data consistent, with native CRM integrations that streamline your entire Tool workflow.`,
+    link: {
+      href: "#",
+      text: "See all integrations",
+    },
+    testimonial: {
+      quote: `“I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within 36 minutes.”`,
+      imgSrc: "/assets/images/avatars/02.png",
+      name: "Matt Henderson",
+      role: "Client Success Manager",
+    },
+  },
+  {
+    id: 3,
+    imgSrc: "/assets/images/template/feature-03.svg",
+    altText: "Maintain compliance and control your apps",
+    step: "03.",
+    title: "Maintain compliance and control your apps",
+    description: `Improve security and trust with built-in legally binding e-Signatures. Create pre-approved templates, content blocks and lock all legal information to prevent costly mistakes.`,
+    testimonial: {
+      quote: `“This powerful tool eliminates the need to leave Salesforce to get things done.”`,
+      imgSrc: "/assets/images/avatars/04.png",
+      name: "Natalia Larsson",
+      role: "Director of Sales Operations",
+    },
+  },
+  {
+    id: 4,
+    imgSrc: "/assets/images/template/feature-04.svg",
+    altText: "Review quickly and confidently",
+    step: "04.",
+    title: "Review quickly and confidently",
+    description: `Get real-time access to approvals, comments and version tracking. Smart features like variables and conditional logic help you eliminate Tool errors.`,
+    testimonial: {
+      quote: `“We are based in Europe and the latest Data Protection Regulation forces us to look for service suppliers than comply with this regulation.”`,
+      imgSrc: "/assets/images/avatars/03.png",
+      name: "Sarah Edrissi",
+      role: "Lead Marketing",
+    },
+  },
+];
+
+export const guideSections = [
+  {
+    order: "order-1 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-01.svg",
+    title: "Our Story",
+    desc: "AI Monitor was born to help brands thrive in an AI-first world. Our journey reveals why adapting to AI search is vital for long-term success.",
+  },
+  {
+    order: "order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-02.svg",
+    title: "The Problem Statement",
+    desc: "Old SEO can't guarantee traffic. Learn why AI engines demand smarter content and why failing to adapt means fading from search results.",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-03.svg",
+    title: "Search Engine vs LLM vs Generative Engine",
+    desc: "Search ranks by links, LLMs by context, and generative engines by relevance. Knowing the difference is key to getting discovered.",
+  },
+  {
+    order: "order-1 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-07.svg",
+    title: "Top 3 Generative Engines in Detail",
+    desc: "Explore ChatGPT, Perplexity, and Google AI Overviews, how they rank content, and how to tailor yours for maximum AI visibility.",
+  },
+  {
+    order: "order-3 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-05.svg",
+    title: "What the Heck is LLM Optimization (LLMO)?",
+    desc: "LLMO refers to structuring content in a way that LLMs can understand and reuse it. Learn how to earn citations and boost AI-driven discovery.",
+  },
+  {
+    order: "order-2 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-06.svg",
+    title: "What’s the Deal With GEO?",
+    desc: "GEO is SEO for AI. It’s about earning recognition from generative engines using citations, structure, and relevance, not just keywords.",
+  },
+  {
+    order: "order-1 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-07.svg",
+    title: " Key Takeaway for Brands",
+    desc: "Early GEO adoption builds trust, traffic, and authority. Brands that optimize now will lead in AI-driven search tomorrow.",
+  },
+  {
+    order: "order-3 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-05.svg",
+    title: "AI Monitor: A Comprehensive Solution",
+    desc: "AI Monitor helps you apply GEO, track AI mentions, and optimize content, saving time while boosting visibility and results.",
+  },
+  {
+    order: "order-2 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-06.svg",
+    title: "GEO Techniques: Hacks That Actually Work",
+    desc: "Use Reddit mentions, stats, and structured data to earn AI citations. These GEO hacks drive real traffic and lasting recognition.",
+  },
+];
+
+export const geoTecgniques = [
+  {
+    icon: "unicon-document",
+    title: " Fix AI Crawlability",
+    description:
+      "Ensure your site is AI-indexable with a clean structure, schema markup, and optimized metadata for better discoverability.",
+    backgroundColor: "bg-secondary dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-model",
+    title: "Leverage Reddit & UGC",
+    description:
+      "Engage in relevant Reddit threads, Quora answers, and niche forums. These conversations feed AI engines with contextual signals.",
+    backgroundColor: "bg-secondary dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-task-approved",
+    title: "SEO Still Matters",
+    description:
+      "Use core SEO principles: titles, links, and keywords, but adapt them for LLMs that prioritize context, clarity, and citations.",
+    backgroundColor: "bg-secondary dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-touch-interaction",
+    title: "Sprinkle Statistics",
+    description:
+      "Include credible data and insights. AI engines love numbers and often cite content that provides factual, verifiable value.",
+    backgroundColor: "bg-secondary dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-document",
+    title: "Create Future-Proof Content",
+    description:
+      "Build evergreen content with structured formatting and semantic depth so it remains relevant and AI-friendly over time.",
+    backgroundColor: "bg-secondary dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-model",
+    title: "Avoid Black Hat GEO",
+    description:
+      "Don’t try to manipulate AI responses. Focus on transparency, trust, and ethical optimization to build lasting authority.",
+    backgroundColor: "bg-secondary dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-task-approved",
+    title: "Tap Media Partnerships",
+    description:
+      "Get featured on trusted media platforms. AI engines scrape authoritative sources to build relationships that boost credibility.",
+    backgroundColor: "bg-secondary dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-touch-interaction",
+    title: "Optimize Auto-Completion",
+    description:
+      "Shape how AI suggests your brand in prompts and queries by aligning your content with common user intents and phrasing.",
+    backgroundColor: "bg-secondary dark:bg-gray-800",
+  },
+];
+
+export const guideFocus = [
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    alt: "feature-icon",
+    title: "Proven Expertise in AI Search",
+    description:
+      "We’ve run hands-on experiments with GEO, AEO, and LLM SEO pioneering strategies that help brands thrive in AI-powered search environments.",
+  },
+  {
+    order: "order-0",
+    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    alt: "feature-icon",
+    title: "Advanced AI Visibility Tracking",
+    description:
+      "AI Monitor tracks your presence across ChatGPT, Perplexity, Google AI Overviews, and Gemini, giving you real-time insights into how AI engines see your brand.",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    alt: "feature-icon",
+    title: "Results That Speak for Themselves",
+    description:
+      "Our methods aren’t just theory. We’ve helped clients recover traffic, boost authority, and earn AI citations backed by real-world case studies.",
+  },
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    alt: "feature-icon",
+    title: "Built by Industry Experts",
+    description:
+      "Led by Avinash Tripathi and a dedicated research team, AI Monitor combines deep technical knowledge with practical experience in AI search optimization.",
+  },
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    alt: "feature-icon",
+    title: "Trusted by Forward-Thinking Brands",
+    description:
+      "From startups to enterprise teams, brands trust AI Monitor to future-proof their visibility and stay ahead in the evolving search landscape.",
+  },
+  {
+    order: "order-0",
+    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    alt: "feature-icon",
+    title: "Innovation & Transparency",
+    description:
+      "We continuously refine our tools and techniques to match AI evolution while staying transparent, ethical, and focused on long-term success.",
   },
 ];

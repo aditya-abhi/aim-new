@@ -1153,20 +1153,19 @@ export const featuresHeader = [
     icon: "unicon-cube",
     items: [
       {
-        iconSrc: "/assets/images/custom-icons/real-time-visibility.svg",
+        iconSrc: "/assets/images/custom-icons/ai-visibility-checker-1.svg",
         title: "Real-time AI Visibility",
         description: "Design personalized emails that convert",
         ilink: "/features/ai-visibility-checker",
       },
       {
-        iconSrc: "/assets/images/custom-icons/brand-insights.svg",
+        iconSrc: "/assets/images/custom-icons/ai-visibility-checker-2.svg",
         title: "Platform-wise Brand Insights",
         description: "Deliver the right message to the right user",
         ilink: "/features/ai-visibility-checker",
       },
       {
-        iconSrc:
-          "/assets/images/custom-icons/sentiment-perception-analytics.svg",
+        iconSrc: "/assets/images/custom-icons/ai-visibility-checker-3.svg",
         title: "Sentiment & Perception Analysis",
         description: "Track sales & campaign performance",
         ilink: "/features/ai-visibility-checker",
@@ -1180,19 +1179,19 @@ export const featuresHeader = [
     icon: "unicon-gamification",
     items: [
       {
-        iconSrc: "/assets/images/custom-icons/trend-activity-alert.svg",
+        iconSrc: "/assets/images/custom-icons/ai-competitor-radar-1.svg",
         title: "Trend & Activity Alerts",
         description: "Say hello to your AI growth assistant",
         ilink: "/features/ai-competitor-radar",
       },
       {
-        iconSrc: "/assets/images/custom-icons/performance-benchmark.svg",
+        iconSrc: "/assets/images/custom-icons/ai-competitor-radar-2.svg",
         title: "Performance Benchmarking",
         description: "Amplify the conversation across channels",
         ilink: "/features/ai-competitor-radar",
       },
       {
-        iconSrc: "/assets/images/custom-icons/competitor-footprint.svg",
+        iconSrc: "/assets/images/custom-icons/ai-competitor-radar-3.svg",
         title: "Competitor AI Footprint Tracking",
         description: "Our services offerings",
         ilink: "/features/ai-competitor-radar",
@@ -1206,19 +1205,19 @@ export const featuresHeader = [
     icon: "unicon-cube",
     items: [
       {
-        iconSrc: "/assets/images/custom-icons/ai-crawler-monitor.svg",
+        iconSrc: "/assets/images/custom-icons/ai-crawlability-clinic-1.svg",
         title: "AI Crawlers Monitoring",
         description: "Design personalized emails that convert",
         ilink: "/features/ai-crawlability-clinic",
       },
       {
-        iconSrc: "/assets/images/custom-icons/bot-behaviour-monitoring.svg",
+        iconSrc: "/assets/images/custom-icons/ai-crawlability-clinic-2.svg",
         title: "Bot Behaviour Insights",
         description: "Deliver the right message to the right user",
         ilink: "/features/ai-crawlability-clinic",
       },
       {
-        iconSrc: "/assets/images/custom-icons/indexing-performance-monitor.svg",
+        iconSrc: "/assets/images/custom-icons/ai-crawlability-clinic-3.svg",
         title: "Indexing & Performance Monitoring",
         description: "Track sales & campaign performance",
         ilink: "/features/ai-crawlability-clinic",

@@ -104,7 +104,7 @@ export default function Hero() {
                     <Image
                       className="shadow-md lg:shadow-lg"
                       alt="app-dashboard"
-                      src="/assets/images/template/app-dashboard.png"
+                      src="/assets/images/template/case-study.webp"
                       width="1280"
                       height="853"
                     />

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-export default function Service2() {
+export default function Service() {
   return (
     <div
       id="key_features"

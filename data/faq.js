@@ -310,6 +310,72 @@ export const accordionFeaturesFAQ = [
   },
 ];
 
+export const accordionContactFAQ = [
+  {
+    id: 1,
+    question: "How can I get in touch with your team?",
+    answer:
+      "You can reach us via phone, email, or by booking a demo or strategy call. We respond promptly and aim to get back within 24 hours.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "Do you offer consultations for global brands?",
+    answer:
+      "Yes! Our team collaborates with clients across India, the US, and other regions, offering customized AI visibility strategies.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Can I schedule a free strategy session?",
+    answer:
+      "Absolutely. You can book a complimentary session to discuss your brand’s AI growth goals and get actionable recommendations.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "What should I include in my inquiry email?",
+    answer:
+      "Please provide your brand details, objectives, and any specific questions or challenges. This helps us give you a faster, more precise response.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "How quickly can I expect a response?",
+    answer:
+      "We typically respond within 24 hours to emails and same-day to calls or booked sessions during business hours.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Do you have offices outside India?",
+    answer:
+      "Yes! We have a US office in Phoenix, Arizona, and provide seamless remote support to clients globally.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "Can I request a demo of your services?",
+    answer:
+      "Yes, you can schedule a live demo to explore our AI monitoring and optimization solutions and see how they fit your brand.",
+    expanded: false,
+  },
+  {
+    id: 8,
+    question: "Are your services suitable for small or mid-sized businesses?",
+    answer:
+      "Definitely. Our strategies are scalable and tailored to brands of all sizes looking to enhance AI visibility and performance.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+
 export const accordionFeature1 = [
   {
     id: 1,
@@ -745,6 +811,89 @@ export const faqAEOCourse = [
     question: "How much time do I need daily?",
     answer:
       "Just 30–45 minutes per day to watch lessons, apply strategies, and practice AEO techniques.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 9,
+    question: "Is AEO the future of search in 2025?",
+    answer:
+      "Yes. AI-powered answer engines are redefining search visibility, and AEO ensures your content stays discoverable and cited.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 10,
+    question: "How do I enroll in the AEO course?",
+    answer:
+      "Click the “Enroll Now” button on this page, sign up for free, and start learning instantly. You’ll get lifetime access to all lessons, tools, and updates.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+
+export const faqGuide = [
+  {
+    id: 1,
+    question: "What exactly is Generative Engine Optimization (GEO)?",
+    answer:
+      "GEO is the process of optimizing your brand and content for AI-driven search platforms like ChatGPT, Google AI Overviews, and Perplexity. Unlike traditional SEO, it focuses on visibility in generative answers, not just search rankings.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "Who should download this GEO Guide?",
+    answer:
+      "This guide is built for marketers, founders, and B2B SaaS teams who want to future-proof their brand in the age of AI search. Whether you’re new to GEO or already experimenting, you’ll find strategies you can apply immediately.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "How is this different from a regular SEO guide?",
+    answer:
+      "SEO is about optimizing for search engines. GEO is about optimizing for generative engines that give direct answers. The strategies overlap, but GEO covers new techniques like structured data, prompt optimization, and AI monitoring that SEO guides don’t.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "Is the GEO Guide really free?",
+    answer:
+      "Yes, it’s completely free. No hidden costs or strings attached, we believe every business should understand how AI-driven search is changing visibility.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "What will I gain from reading the GEO Guide?",
+    answer:
+      "You’ll get step-by-step strategies, case studies, and practical tools to help your brand show up in AI answers. Many readers see it as the missing link between SEO and the AI-driven search future.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "How soon can I see results from applying GEO strategies?",
+    answer:
+      "Results vary, but many brands start noticing changes in AI mentions and visibility within weeks of implementation, especially when using structured GEO techniques.",
+    controls: "uc-accordion-24",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "Why should I trust this guide?",
+    answer:
+      "It’s built from real experiments and client results, not theory. Our work has been recognized by The Hindu, Yahoo, and Scroll, and we’ve helped companies achieve 300%+ AI visibility gains across ChatGPT and Perplexity.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 8,
+    question: "Who is Avinash Tripathi?",
+    answer:
+      "Avinash Tripathi is the founder of AI Monitor and a leading expert in Generative Engine Optimization (GEO). With 20+ years of entrepreneurial experience, 5+ companies founded, and features in The Hindu, Yahoo, and Scroll, he is recognized as the #1 GEO Consultant by YesUsers, helping brands achieve 300%+ AI visibility gains.",
     controls: "uc-accordion-28",
     expanded: false,
   },

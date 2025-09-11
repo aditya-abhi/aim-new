@@ -153,7 +153,7 @@ export default function Header7() {
                                       </ul>
                                     </div>
                                   ))} */}
-                                  <Link href="/geo-course">
+                                  <Link href="/most-comprehensive-generative-engine-optimization-geo-guide">
                                     <Image
                                       src="/assets/images/template/guide.webp"
                                       alt="AI Monitor"

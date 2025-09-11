@@ -112,7 +112,7 @@ export default function Resources() {
               </div>
               <div>
                 <div
-                  className="panel vstack items-start overflow-hidden bg-gray-800 rounded-2 lg:rounded-3 uc-dark"
+                  className="panel vstack items-start overflow-hidden bg-gradient-45 from-primary to-tertiary-700 rounded-2 lg:rounded-3 uc-dark"
                   data-anime="onview: -100; translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 200;"
                 >
                   <div
@@ -177,9 +177,10 @@ export default function Resources() {
                   <div className="panel px-3 lg:px-4 xl:px-6 mb-2 lg:mb-5">
                     <Image
                       alt="builder-tools"
-                      src="/assets/images/features/podcast.webp"
+                      src="/assets/images/features/podcast-1.webp"
                       width="1280"
                       height="800"
+                      className="rounded-2"
                     />
                   </div>
                 </div>

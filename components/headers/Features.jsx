@@ -23,9 +23,9 @@ export default function Features() {
                 href={item.ilink}
                 className="hstack items-start gap-2 text-none text-dark dark:text-white hover:text-primary-600 dark:hover:text-primary"
               >
-                <span className="icon rounded dark:bg-white">
+                <span className="icon rounded">
                   <Image
-                    className="w-32px"
+                    className="w-32px rounded"
                     alt="icon"
                     width={24}
                     height={24}

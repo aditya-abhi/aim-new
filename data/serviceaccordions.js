@@ -49,6 +49,7 @@ export const service1_2 = [
     isOpen: false,
   },
 ];
+
 export const service1_3 = [
   {
     id: 23,
@@ -71,6 +72,39 @@ export const service1_3 = [
     title: "9. Continuous Monitoring & Optimization",
     icon: "/assets/images/common/icons/zap.svg",
     content: `You’ll get monthly performance reports covering AI search traffic, leads, and visibility - plus ongoing refinements to keep you ahead of competitors.`,
+    isOpen: false,
+  },
+];
+
+export const guide = [
+  {
+    id: 1,
+    title: "Awareness",
+    icon: "/assets/images/common/icons/settings.svg",
+    content:
+      "SEO alone isn’t enough - AI engines value structure, trust, and contextual relevance.",
+    isOpen: false,
+  },
+  {
+    id: 2,
+    title: "Adaptation",
+    icon: "/assets/images/common/icons/target.svg",
+    content:
+      " Shape content to optimize crawlability, citations, and context for AI-driven LLMs to reuse.",
+    isOpen: false,
+  },
+  {
+    id: 3,
+    title: "Application",
+    icon: "/assets/images/common/icons/zap.svg",
+    content: ` Apply GEO to use Reddit, stats, and citations as magnets to earn AI recognition.`,
+    isOpen: false,
+  },
+  {
+    id: 4,
+    title: "Advantage",
+    icon: "/assets/images/common/icons/zap.svg",
+    content: `With GEO, regain traffic and build AI authority for a lasting competitive edge.`,
     isOpen: false,
   },
 ];

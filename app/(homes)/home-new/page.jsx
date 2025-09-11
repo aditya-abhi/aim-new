@@ -26,10 +26,9 @@ import Resources from "@/components/homes/home-new/Resources";
 import CaseStudies from "@/components/homes/home-new/CaseStudies";
 import Services from "@/components/homes/home-new/Services";
 import BrandSlider from "@/components/homes/home-new/BrandSlider";
-// import Service from "@/components/homes/home-new/Service";
 
 import React from "react";
-import Service2 from "@/components/homes/home-new/service";
+import Impact from "@/components/homes/home-new/Impact";
 export const metadata = {
   title: "AI Monitor | Boost Your Brand Visibility in AI Search",
   description:
@@ -48,7 +47,7 @@ export default function page() {
               <BrandSlider />
               {/* <Tools /> */}
               <Features2 />
-              <Service2 />
+              <Impact />
               {/* <Features /> */}
               <FeaturesVideo />
               <Purpose />
