@@ -1,16 +1,9 @@
 import Footer7 from "@/components/footers/Footer7";
 import Header7 from "@/components/headers/Header7";
-import Blogs from "@/components/geo-guide/Blogs";
 import Cta from "@/components/geo-guide/Cta";
 import Faqs from "@/components/geo-guide/Faqs";
 import Hero from "@/components/geo-guide/Hero";
-import About from "@/components/geo-guide/About";
-import Achievements from "@/components/geo-guide/Achievements";
-import Content from "@/components/geo-guide/Content";
-import Facts from "@/components/geo-guide/Facts";
-import BestFor from "@/components/geo-guide/BestFor";
 import Instructor from "@/components/geo-guide/Instructor";
-import Testimonials from "@/components/geo-guide/Testimonials";
 import DownloadForm from "@/components/geo-guide/DownloadForm";
 import Stats from "@/components/geo-guide/Stats";
 import React from "react";
@@ -41,13 +34,6 @@ export default function page() {
               <Instructor />
               <Faqs />
               <Cta />
-              {/* <Facts />
-              <About />
-              <Content />
-              <Achievements />
-              <BestFor />
-              <Testimonials />
-              <Blogs /> */}
             </div>
             <Footer7 />
           </div>{" "}
