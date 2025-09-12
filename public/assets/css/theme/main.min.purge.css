@@ -6014,6 +6014,11 @@ textarea.form-control-lg {
 .m-auto {
   margin: auto !important;
 }
+.ml-2 {
+  margin-right: 0 !important;
+  margin-left: 0.5rem !important;
+}
+
 .mx-0 {
   margin-right: 0 !important;
   margin-left: 0 !important;

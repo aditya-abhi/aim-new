@@ -219,13 +219,13 @@ export default function GoogleSGEandRAG({ blogItem }) {
                   <div className="uc-main panel" role="main">
                     <Gallery>
                       <div
-                        className="post-content panel fs-6 md:fs-5"
+                        className="post-content panel fs-6 md:fs-5 ml-2"
                         data-uc-lightbox="animation: scale"
                       >
                         <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                           Introduction
                         </h2>
-                        <p>
+                        <p className="">
                           She started her blog exactly six months before I
                           launched Camels &amp; Chocolate, and she really set
                           the bar high for my own blog birthday, Y’all this

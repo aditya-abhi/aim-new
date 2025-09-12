@@ -6227,6 +6227,14 @@
     margin-right: 0 !important;
     margin-left: 0 !important;
   }
+  .ml-1 {
+    margin-right: 0 !important;
+    margin-left: 0.25rem !important;
+  }
+  .ml-2 {
+    margin-right: 0 !important;
+    margin-left: 0.5rem !important;
+  }
   .mx-narrow {
     margin-right: 0.25rem !important;
     margin-left: 0.25rem !important;
@@ -6520,6 +6528,10 @@
   .px-narrow {
     padding-right: 0.25rem !important;
     padding-left: 0.25rem !important;
+  }
+  .pl-1 {
+    padding-right: 0rem !important;
+    padding-left: 0.5rem !important;
   }
   .px-1 {
     padding-right: 0.5rem !important;
@@ -7892,6 +7904,14 @@
     .sm\:mb-8 {
       margin-bottom: 4rem !important;
     }
+    .sm\:mx-1 {
+      margin-right: 0.25rem !important;
+      margin-left: 0.25rem !important;
+    }
+    .sm\:mx-2 {
+      margin-right: 0.5rem !important;
+      margin-left: 0.5rem !important;
+    }
     .sm\:p-3 {
       padding: 1.5rem !important;
     }
@@ -7905,9 +7925,25 @@
       padding-right: 0 !important;
       padding-left: 0 !important;
     }
+    .sm\:px-1 {
+      padding-right: 0.25rem !important;
+      padding-left: 0.25rem !important;
+    }
+    .sm\:px-2 {
+      padding-right: 0.5rem !important;
+      padding-left: 0.5rem !important;
+    }
     .sm\:px-4 {
       padding-right: 2rem !important;
       padding-left: 2rem !important;
+    }
+    .sm\:pl-1 {
+      padding-right: 0.25rem !important;
+      padding-left: 0.25rem !important;
+    }
+    .sm\:pl-2 {
+      padding-right: 0.5rem !important;
+      padding-left: 0.5rem !important;
     }
     .sm\:py-6 {
       padding-top: 3rem !important;
