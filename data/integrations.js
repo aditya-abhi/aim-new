@@ -54,6 +54,43 @@ export const integrations = [
   },
 ];
 
+export const caseStudies = [
+  {
+    id: 1,
+    name: "Relific",
+    category: "Impact",
+    span: "33% MoM/case-studies/loopearplugs",
+    description: "Surge in Qualified Leads, Driving Scalable Growth",
+    imageUrl: "/assets/images/brands/relific.svg",
+    imageDark: "/assets/images/brands/relificWhite.svg",
+    imageAlt: "Relific Logo",
+    url: "/case-studies/relific",
+  },
+  {
+    id: 2,
+    name: "Loop Earplugs",
+    category: "Lifestyle",
+    span: "421% Boost",
+    description: "in AI Visibility and Capturing New Consumer Markets",
+    imageUrl: "/assets/images/brands/loopBlack.svg",
+    imageDark: "/assets/images/brands/loopWhite.svg",
+    imageAlt: "Loop Earplugs Logo",
+    url: "/case-studies/loopearplugs",
+  },
+  {
+    id: 3,
+    name: "Prismara",
+    category: "Luxury",
+    category: "38% Lift",
+    description:
+      "in Sign-Ups Achieved in 120 Days with Data-Driven Optimization",
+    imageUrl: "/assets/images/brands/prismaraBlack.svg",
+    imageDark: "/assets/images/brands/prismara.svg",
+    imageAlt: "Prismara Logo",
+    url: "/case-studies/prismara",
+  },
+];
+
 export const productFeature1 = [
   {
     id: 1,

@@ -1,5 +1,5 @@
 import { facts } from "@/data/facts";
-import { whatWillYouLearn } from "@/data/features";
+import { whatWillYouLearnGEO } from "@/data/features";
 import React from "react";
 import Image from "next/image";
 
@@ -30,7 +30,7 @@ export default function Facts() {
                   style={{ transform: "translateY(0px)", opacity: 1 }}
                 >
                   <div className="row child-cols-12 sm:child-cols-6 lg:child-cols-4 col-match g-2 lg:g-4 justify-between text-center">
-                    {whatWillYouLearn.map((panel) => (
+                    {whatWillYouLearnGEO.map((panel) => (
                       <div key={panel.id}>
                         <div className="panel vstack items-center gap-2 p-4 lg:py-6 rounded-2 bg-white dark:bg-gray-800">
                           <Image

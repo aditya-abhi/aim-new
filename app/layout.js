@@ -19,6 +19,7 @@ import { ParallaxProvider } from "react-scroll-parallax";
 import ContactModal from "@/components/modals/ContactModal";
 import NewsletterModal from "@/components/modals/NewsletterModal";
 import SearchModal from "@/components/modals/SearchModal";
+import GeoEnrollModal from "@/components/modals/GeoEnrollModal";
 
 export default function RootLayout({ children }) {
   const pathname = usePathname();
@@ -56,8 +57,8 @@ export default function RootLayout({ children }) {
             let targets;
             if (animeSettings.targets === ">*") {
               targets = element.children;
-            } else {
-              targets = element?.querySelectorAll(animeSettings.targets);
+              // } else {
+              //   targets = element?.querySelectorAll(animeSettings.targets);
             }
             // console.log(animeSettings);
 
@@ -113,6 +114,7 @@ export default function RootLayout({ children }) {
           <ContactModal />
           <NewsletterModal />
           <SearchModal />
+          <GeoEnrollModal />
           <Cart />
           <BacktoTop />
         </Context>

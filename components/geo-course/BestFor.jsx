@@ -1,4 +1,4 @@
-import { bestFor } from "@/data/features";
+import { bestForGEO } from "@/data/features";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -31,7 +31,7 @@ export default function BestFor() {
               className="features-items row child-cols-12 sm:child-cols-6 lg:child-cols-4 g-4 lg:g-6 col-match"
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 400});"
             >
-              {bestFor.map((feature, index) => (
+              {bestForGEO.map((feature, index) => (
                 <div key={index} className={feature.order}>
                   <div className="features-item vstack items-center justify-center text-center gap-4">
                     <div className="icon-box cstack w-48px h-48px dark:bg-white rounded">

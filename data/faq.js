@@ -109,6 +109,116 @@ export const accordionItemsGEOCourse = [
   },
 ];
 
+export const accordionItemsAEOCourse = [
+  {
+    id: 1,
+    question: "Become a Trusted Source for AI Answers",
+    answer:
+      "Position your content as an authoritative reference that answer engines like Google AI Overviews, ChatGPT, and Perplexity AI prefer to cite.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "Attract High-Intent, Zero-Click Traffic",
+    answer:
+      "Reach users directly through AI-generated answers, even when they don’t click traditional search results.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 3,
+    question: "Future-Proof Your Digital Strategy",
+    answer:
+      "Adapt to the shift from traditional search to answer engine–driven discovery and stay competitive as SEO evolves into AEO.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 4,
+    question: "Unlock Underutilized Visibility Channels",
+    answer:
+      "Gain exposure in emerging AI answer platforms like Perplexity, Gemini, and Claude, where competitors may not yet appear.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 5,
+    question: "Track & Improve Your AI Presence",
+    answer:
+      "Measure your brand’s visibility and citations in answer engines, and refine your strategy using data-driven AEO tools.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+];
+
+export const FaqsCoursePage = [
+  {
+    id: 1,
+    question: "What is Answer Engine Optimization (AEO)?",
+    answer:
+      "Answer Engine Optimization (AEO) is the process of optimizing your content so AI-powered answer engines like ChatGPT, Bing AI, or Google AI can directly use it to answer user questions. Unlike traditional SEO, which focuses on ranking web pages, AEO focuses on making your content readable, structured, and trustworthy so it can become the source of the actual answer.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "What is Generative Engine Optimization (GEO)?",
+    answer:
+      "Generative Engine Optimization (GEO) is the practice of optimizing content specifically for AI-powered generative engines, like ChatGPT, Bard, or Bing AI, so that these engines can create high-quality responses using your content. Unlike traditional SEO or even AEO, which focus on visibility or direct answers, GEO focuses on influencing AI-generated content by providing clear, structured, and authoritative source material.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 3,
+    question: "Who should take these courses?",
+    answer:
+      "These courses are designed for digital marketers, SEO professionals, brand managers, content strategists, and anyone aiming to stay visible in AI-driven search platforms.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 4,
+    question: "Are the AEO & GEO courses free?",
+    answer:
+      "Yes! Both courses are completely free, with full access to practical frameworks, exercises, and step-by-step strategies.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 5,
+    question: "Do I need prior AI or SEO experience?",
+    answer:
+      "No prior experience is required. Courses are suitable for beginners as well as experienced professionals, covering foundational concepts and advanced strategies.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 6,
+    question: "What will I gain from completing these courses?",
+    answer:
+      "You’ll learn how to optimize for Answer Engines and Generative Engines, understand AIO and LLM SEO, boost your brand visibility, and track your presence across AI-driven platforms.",
+    controls: "uc-accordion-24",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "Can I access the courses on mobile or tablet?",
+    answer:
+      "Absolutely. Both AEO and GEO courses are fully responsive and accessible on all devices.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 8,
+    question: "Will I receive a certificate?",
+    answer:
+      "Yes! After completing each course, you’ll get a free certificate of completion to showcase your AI visibility expertise.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+];
+
 export const accordionItemsFeatures = [
   {
     id: 23,
@@ -195,6 +305,72 @@ export const accordionFeaturesFAQ = [
     question: "Will this improve my business outcomes?",
     answer:
       "Absolutely. AI Monitor helps you turn insights into outcomes. By understanding how AI models describe your brand, tracking traffic from generative engines, and optimizing your presence across prompts, you can attract more qualified leads, boost conversions, and safeguard your brand authority in AI-driven search environments. It’s not just visibility—it’s strategic advantage.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+
+export const accordionContactFAQ = [
+  {
+    id: 1,
+    question: "How can I get in touch with your team?",
+    answer:
+      "You can reach us via phone, email, or by booking a demo or strategy call. We respond promptly and aim to get back within 24 hours.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "Do you offer consultations for global brands?",
+    answer:
+      "Yes! Our team collaborates with clients across India, the US, and other regions, offering customized AI visibility strategies.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Can I schedule a free strategy session?",
+    answer:
+      "Absolutely. You can book a complimentary session to discuss your brand’s AI growth goals and get actionable recommendations.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "What should I include in my inquiry email?",
+    answer:
+      "Please provide your brand details, objectives, and any specific questions or challenges. This helps us give you a faster, more precise response.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "How quickly can I expect a response?",
+    answer:
+      "We typically respond within 24 hours to emails and same-day to calls or booked sessions during business hours.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Do you have offices outside India?",
+    answer:
+      "Yes! We have a US office in Phoenix, Arizona, and provide seamless remote support to clients globally.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "Can I request a demo of your services?",
+    answer:
+      "Yes, you can schedule a live demo to explore our AI monitoring and optimization solutions and see how they fit your brand.",
+    expanded: false,
+  },
+  {
+    id: 8,
+    question: "Are your services suitable for small or mid-sized businesses?",
+    answer:
+      "Definitely. Our strategies are scalable and tailored to brands of all sizes looking to enhance AI visibility and performance.",
     controls: "uc-accordion-32",
     expanded: false,
   },
@@ -365,75 +541,75 @@ export const accordionFeature3 = [
 export const accordionHome = [
   {
     id: 1,
-    question: "What is AI Monitor, and why should my brand care?",
+    question: "Is AI Monitor a tool or a consultancy?",
     answer:
-      "AI Monitor is a platform that tracks how your brand is mentioned, ranked, and displayed across AI-powered search engines like ChatGPT, Google AI Overviews, Perplexity, and more. With millions of people relying on AI for answers, we help you stay visible, stay relevant, and stay competitive.",
+      "AI Monitor is both. It’s the world’s first open-source AI visibility Tool and a specialized GEO / AEO consultancy. Our platform helps you track, analyze, and optimize your brand’s presence across ChatGPT, Google AI Overviews, Perplexity, Claude, and more. At the same time, our expert team offers end-to-end AI VISIBILITY  services or strategic consulting to guide your in-house team.",
     controls: "uc-accordion-24",
     expanded: true,
   },
   {
     id: 2,
-    question: "How does AI Monitor track brand mentions in AI search results?",
+    question: "What exactly does AI Monitor do?",
     answer:
-      "We analyze AI-generated responses across multiple platforms using real-time monitoring and visibility scoring. Our platform shows where your brand appears, how competitors are ranked, and what AI engines are saying about you so you can own the conversation.",
+      "AI Monitor helps brands, marketers, and developers measure and improve AI-driven visibility. We track how your brand is mentioned, ranked, and displayed across AI-powered platforms and deliver actionable insights to boost inclusion rates where purchase decisions happen.",
     controls: "uc-accordion-26",
     expanded: false,
   },
   {
     id: 3,
-    question: "Why is AI visibility important?",
+    question:
+      "How is AI Monitor different from traditional SEO tools like Ahrefs or Semrush?",
     answer:
-      "AI-driven platforms are replacing traditional search. More than 60% of users now get answers directly from AI Overviews, ChatGPT, and Perplexity, bypassing Google’s blue links. If your brand isn’t visible there, you’re invisible to your customers.",
+      "Ahrefs and Semrush track Google rankings. AI Monitor tracks AI-driven discovery where users get answers, not just links. We monitor generative engines like ChatGPT, Claude, Gemini, and Perplexity to show you how AI platforms interpret and surface your brand and then we help you optimize for those engines.",
     controls: "uc-accordion-28",
     expanded: false,
   },
   {
     id: 4,
-    question:
-      "What makes AI Monitor different from SEO tools like Ahrefs or Semrush?",
+    question: "Why is AI visibility critical for brands right now?",
     answer:
-      "Traditional SEO tools measure website rankings on Google. AI Monitor focuses on AI-driven discovery where answers come from chatbots, summaries, and AI Overviews, not just links. We track Generative Engines or Answer Engines like ChatGPT, Perplexity and much more, which is the next frontier of SEO.",
+      "Over 60% of users now rely on AI-generated answers instead of clicking Google’s blue links. If your brand isn’t visible in ChatGPT, Perplexity, Gemini, and Google AI Overviews, you’re invisible where high-intent buying decisions are made. AI Monitor ensures you show up in the answers that matter.",
     controls: "uc-accordion-30",
     expanded: false,
   },
   {
     id: 5,
-    question:
-      "Can AI Monitor help us outrank competitors in ChatGPT or Google AI Overviews?",
+    question: "Does AI Monitor only track, or do you also optimize visibility?",
     answer:
-      "Absolutely. We don’t just track your visibility; we identify content gaps, recommend AI-friendly optimization strategies, and provide actionable insights to boost your brand’s inclusion rate across major AI engines.",
+      "We do both. The platform tracks and scores your AI visibility across multiple engines, while our consultancy team uses those insights to improve your brand’s inclusion rate. We identify content gaps, optimize for generative engines, and execute GEO/AI SEO strategies so you can outrank competitors inside AI answers.",
     controls: "uc-accordion-32",
     expanded: false,
   },
   {
     id: 6,
-    question: "Is AI Monitor suitable for all industries?",
+    question:
+      "Can AI Monitor guide our in-house team instead of managing everything?",
     answer:
-      "Yes. Whether you’re in B2B SaaS, eCommerce, finance, healthcare, or media, our platform is designed to help brands of all sizes monitor AI mentions and optimize for AI-first search experiences.",
+      "Absolutely. You can use AI Monitor as a standalone tool, leverage our expert-driven strategy plans, or choose fully managed GEO services. Whether you want hands-on consulting or a done-for-you solution, we give you the flexibility to scale visibility your way.",
     controls: "uc-accordion-26",
     expanded: false,
   },
   {
     id: 7,
-    question: "Do I need technical expertise to use AI Monitor?",
+    question: "Is AI Monitor suitable for all industries?",
     answer:
-      "Not at all. We designed AI Monitor to be marketer-friendly. No code, no complex setups just clear insights, visual dashboards, and actionable recommendations.",
+      "Yes. Whether you’re in B2B SaaS, eCommerce, finance, healthcare, media, or enterprise, our platform and consultancy are designed to work across sectors. If AI engines generate answers for your market, we’ll help you own those answers.",
     controls: "uc-accordion-28",
     expanded: false,
   },
   {
     id: 8,
-    question: "How secure is my data on AI Monitor?",
+    question: "How does AI Monitor ensure data security and transparency?",
     answer:
-      "We take privacy and security seriously. Our open-source foundation ensures transparency, and we comply with enterprise-grade data security standards to keep your information safe.",
+      "AI Monitor is 100% open-source, giving you full transparency into how data is collected, processed, and analyzed. We comply with enterprise-grade security standards and never lock you into a proprietary ecosystem. Your data, your control.",
     controls: "uc-accordion-30",
     expanded: false,
   },
   {
-    id: 5,
+    id: 9,
     question: "How do I get started with AI Monitor?",
     answer:
-      "You can start by requesting a free AI Brand Report or booking a personalized demo. We’ll show you exactly where your brand stands across AI-driven discovery platforms, highlight missed opportunities, and help craft a strategy to boost your visibility. Getting started is simple: just sign up for a free account, add your brand or domain, and instantly access your AI visibility dashboard. There’s no setup hassle, no technical expertise required: just immediate insights into how AI platforms are interpreting and surfacing your brand.",
+      "Explore your AI visibility with ease: start by using our open-source tool to instantly track how your brand shows up across generative platforms. Request a free AI Brand Report for a clear snapshot of your current position, and book a demo to see how our platform and services work together to drive real results. We’ll pinpoint where your brand stands today, uncover missed opportunities, and build a strategic roadmap to help you win visibility in AI-powered search.",
     controls: "uc-accordion-32",
     expanded: false,
   },
@@ -486,6 +662,255 @@ export const accordionServicesFAQ = [
     answer:
       "Yes. Our proprietary monitoring and analytics platform, AI Monitor, is built on open-source principles. This gives us and you unmatched flexibility and transparency in data analysis.",
     controls: "uc-accordion-28",
+    expanded: false,
+  },
+];
+
+export const faqGEOCourse = [
+  {
+    id: 1,
+    question: "What is Generative Engine Optimization (GEO)?",
+    answer:
+      "GEO is the process of optimizing content to get cited in AI-generated answers on platforms like ChatGPT, Google AI Overviews, Perplexity, and Gemini.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "Who should join this course?",
+    answer:
+      "Marketers, SEO professionals, content creators, founders, and anyone wanting to boost brand visibility in AI-driven search results.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Is this GEO course free?",
+    answer:
+      "Yes. It’s a 100% free 7-day training with lessons, tools, templates, and a certificate of completion.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "How is GEO different from SEO?",
+    answer:
+      "SEO focuses on Google rankings, while GEO focuses on AI citations in platforms like ChatGPT, Gemini, and Perplexity.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "Do I need technical or SEO experience?",
+    answer:
+      "No. This course is beginner-friendly and requires no coding or advanced SEO knowledge.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Will I learn how to get cited in ChatGPT and Perplexity?",
+    answer:
+      "Yes. You’ll learn proven strategies to make your content AI-friendly and increase citations across generative engines.",
+    controls: "uc-accordion-24",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "Will I receive a certificate?",
+    answer:
+      "Yes. After completing the course, you’ll get a Certificate of Completion to showcase your GEO expertise.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 8,
+    question: "How much time do I need daily?",
+    answer:
+      "Just 30–45 minutes per day to watch lessons, apply strategies, and practice GEO techniques.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 9,
+    question: "Is GEO the future of SEO in 2025?",
+    answer:
+      "Yes. AI-driven search is replacing traditional SEO rankings. GEO ensures your content stays visible and cited in AI-generated answers.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 10,
+    question: "How do I enroll in the GEO course?",
+    answer:
+      "Click the “Enroll Now” button on this page, sign up for free, and start learning instantly. You’ll get lifetime access to all lessons, tools, and updates.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+
+export const faqAEOCourse = [
+  {
+    id: 1,
+    question: "What is Answer Engine Optimization (AEO)?",
+    answer:
+      "AEO is the process of optimizing content to get cited and surfaced in AI-generated answers on platforms like ChatGPT, Google AI Overviews, Perplexity, and Gemini.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "Who should join this course?",
+    answer:
+      "Marketers, SEO professionals, content creators, founders, and anyone looking to boost brand visibility in AI-driven answer platforms.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Is this AEO course free?",
+    answer:
+      "Yes. It’s a 100% free 7-day training with lessons, tools, templates, and a certificate of completion.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "How is AEO different from SEO?",
+    answer:
+      "SEO focuses on Google rankings, while AEO focuses on AI citations and being referenced in answer engines like ChatGPT, Gemini, and Perplexity.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "Do I need technical or SEO experience?",
+    answer:
+      "No. This course is beginner-friendly and requires no coding or advanced SEO knowledge.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Will I learn how to get cited in ChatGPT and Perplexity?",
+    answer:
+      "Yes. You’ll learn proven strategies to make your content AI-friendly and increase citations across answer engines.",
+    controls: "uc-accordion-24",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "Will I receive a certificate?",
+    answer:
+      "Yes. After completing the course, you’ll get a Certificate of Completion to showcase your AEO expertise.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 8,
+    question: "How much time do I need daily?",
+    answer:
+      "Just 30–45 minutes per day to watch lessons, apply strategies, and practice AEO techniques.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 9,
+    question: "Is AEO the future of search in 2025?",
+    answer:
+      "Yes. AI-powered answer engines are redefining search visibility, and AEO ensures your content stays discoverable and cited.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 10,
+    question: "How do I enroll in the AEO course?",
+    answer:
+      "Click the “Enroll Now” button on this page, sign up for free, and start learning instantly. You’ll get lifetime access to all lessons, tools, and updates.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+
+export const faqGuide = [
+  {
+    id: 1,
+    question: "What exactly is Generative Engine Optimization (GEO)?",
+    answer:
+      "GEO is the process of optimizing your brand and content for AI-driven search platforms like ChatGPT, Google AI Overviews, and Perplexity. Unlike traditional SEO, it focuses on visibility in generative answers, not just search rankings.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "Who should download this GEO Guide?",
+    answer:
+      "This guide is built for marketers, founders, and B2B SaaS teams who want to future-proof their brand in the age of AI search. Whether you’re new to GEO or already experimenting, you’ll find strategies you can apply immediately.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "How is this different from a regular SEO guide?",
+    answer:
+      "SEO is about optimizing for search engines. GEO is about optimizing for generative engines that give direct answers. The strategies overlap, but GEO covers new techniques like structured data, prompt optimization, and AI monitoring that SEO guides don’t.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "Is the GEO Guide really free?",
+    answer:
+      "Yes, it’s completely free. No hidden costs or strings attached, we believe every business should understand how AI-driven search is changing visibility.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "What will I gain from reading the GEO Guide?",
+    answer:
+      "You’ll get step-by-step strategies, case studies, and practical tools to help your brand show up in AI answers. Many readers see it as the missing link between SEO and the AI-driven search future.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "How soon can I see results from applying GEO strategies?",
+    answer:
+      "Results vary, but many brands start noticing changes in AI mentions and visibility within weeks of implementation, especially when using structured GEO techniques.",
+    controls: "uc-accordion-24",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "Why should I trust this guide?",
+    answer:
+      "It’s built from real experiments and client results, not theory. Our work has been recognized by The Hindu, Yahoo, and Scroll, and we’ve helped companies achieve 300%+ AI visibility gains across ChatGPT and Perplexity.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 8,
+    question: "Who is Avinash Tripathi?",
+    answer:
+      "Avinash Tripathi is the founder of AI Monitor and a leading expert in Generative Engine Optimization (GEO). With 20+ years of entrepreneurial experience, 5+ companies founded, and features in The Hindu, Yahoo, and Scroll, he is recognized as the #1 GEO Consultant by YesUsers, helping brands achieve 300%+ AI visibility gains.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 9,
+    question: "Is AEO the future of search in 2025?",
+    answer:
+      "Yes. AI-powered answer engines are redefining search visibility, and AEO ensures your content stays discoverable and cited.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 10,
+    question: "How do I enroll in the AEO course?",
+    answer:
+      "Click the “Enroll Now” button on this page, sign up for free, and start learning instantly. You’ll get lifetime access to all lessons, tools, and updates.",
+    controls: "uc-accordion-32",
     expanded: false,
   },
 ];

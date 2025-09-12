@@ -4,7 +4,7 @@ import React from "react";
 export default function Faqs() {
   return (
     <div id="faq" className="faq section panel">
-      <div className="section-outer panel bg-tertiary-700 mx-2 rounded-2 pt-4 mt-4">
+      <div className="section-outer panel pt-4 mt-4">
         <div className="container lg:max-w-lg pb-6 lg:pb-8 xl:pb-10">
           <div
             className="section-inner panel"
@@ -13,7 +13,7 @@ export default function Faqs() {
             <div className="row child-cols-12 col-match g-4">
               <div>
                 <div className="vstack items-center text-center gap-2">
-                  <h2 className="h4 sm:h3 xl:h2 my-4 text-white">
+                  <h2 className="h4 sm:h3 xl:h2 my-4 text-gray-700">
                     Frequently Asked Questions!
                   </h2>
                 </div>

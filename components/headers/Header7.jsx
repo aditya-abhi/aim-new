@@ -110,16 +110,16 @@ export default function Header7() {
                           <div className="uc-dropbar-inner p-2">
                             <div className="row col-match justify-between">
                               <div className="col-8">
-                                <div className="panel vstack gap-4 p-4">
+                                <div className="panel vstack gap-2 p-2">
                                   <div className="vstack gap-narrow flex-none">
                                     <h5 className="h5 xl:h4 m-0">
                                       AI Monitor: Your AI Compass for expert
                                       automation solutions
                                     </h5>
-                                    <p className="fs-7 opacity-60">
+                                    {/* <p className="fs-7 opacity-60">
                                       How we help you navigate AI complexities
                                       to enhance your business efficiency.
-                                    </p>
+                                    </p> */}
                                   </div>
                                   <div className="row child-cols-6 gx-4 col-match justify-between">
                                     <Services />
@@ -153,7 +153,7 @@ export default function Header7() {
                                       </ul>
                                     </div>
                                   ))} */}
-                                  <Link href="/geo-course">
+                                  <Link href="/most-comprehensive-generative-engine-optimization-geo-guide">
                                     <Image
                                       src="/assets/images/template/guide.webp"
                                       alt="AI Monitor"
@@ -205,7 +205,7 @@ export default function Header7() {
                     </div>
                   </li>
                   <li className="has-dd-menu">
-                    <a href="#" role="button" aria-haspopup="true">
+                    <a href="/courses" role="button" aria-haspopup="true">
                       Courses{" "}
                       <span
                         data-uc-navbar-parent-icon=""

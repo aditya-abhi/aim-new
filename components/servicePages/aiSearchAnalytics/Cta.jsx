@@ -30,7 +30,7 @@ export default function Cta() {
           />
           <h2 className="h3 xl:display-6 lh-lg m-0 max-w-md mx-auto text-tertiary dark:text-secondary">
             Don't Just Compete. {""}
-            <span className="px-1 bg-tertiary dark:bg-secondary text-primary d-block lg:d-inline-block">
+            <span className="px-1 bg-tertiary dark:bg-secondary text-primary dark:text-tertiary d-block lg:d-inline-block">
               Dominate!
             </span>
           </h2>

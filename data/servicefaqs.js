@@ -414,3 +414,283 @@ export const service7 = [
     expanded: false,
   },
 ];
+
+export const service8 = [
+  {
+    id: 1,
+    question: "How can Reddit help SaaS brands grow faster?",
+    answer:
+      "Reddit is where thousands of SaaS buyers, developers, and decision-makers openly discuss tools, challenges, and solutions. By engaging authentically in these conversations, SaaS brands can build trust, generate leads, and influence buying decisions in real time.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "Which subreddits work best for SaaS growth?",
+    answer:
+      "It depends on your niche. Popular subreddits like r/SaaS, r/startups, r/Entrepreneur, and r/ProductManagement are great starting points, but we perform a custom subreddit audit to identify hidden, high-conversion communities where your ideal customers are active.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Should SaaS brands use Reddit Ads or organic marketing?",
+    answer:
+      "Both matter. Reddit Ads are great for driving awareness quickly, while organic participation in threads builds long-term credibility and trust. Our strategy blends paid ads, community engagement, and content positioning to maximize SaaS visibility and leads.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "How do you make SaaS content perform well on Reddit?",
+    answer:
+      "Reddit thrives on value-first engagement. We craft campaigns, thought-leadership posts, and response-driven comments tailored to your audience’s pain points. Every post is optimized for tone, timing, and subreddit culture to increase upvotes, comments, and clicks.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "How do you track ROI from Reddit marketing?",
+    answer:
+      "We track success using custom UTM links, Reddit referral analytics, engagement dashboards, and lead attribution reports. You’ll know exactly which posts, AMAs, and ads drive conversions, ensuring every dollar spent is measurable and optimized for SaaS growth.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Can Reddit work for B2B SaaS brands, or is it only B2C?",
+    answer:
+      "Reddit is a goldmine for B2B SaaS. Many developers, IT buyers, and SaaS decision-makers use Reddit to research tools and solutions. By targeting technical subreddits and running insight-driven campaigns, we help B2B SaaS brands reach qualified prospects directly.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "How do I get started with Reddit SaaS marketing?",
+    answer:
+      "It’s simple. Book a free strategy call, and we’ll run a Reddit visibility audit to analyze subreddits, competitor mentions, and engagement opportunities. Then, we’ll design a custom SaaS Reddit growth plan to maximize your brand’s presence and lead generation.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+
+export const service9 = [
+  {
+    id: 1,
+    question: "What is competitor benchmarking, and why do I need it?",
+    answer:
+      "Competitor benchmarking compares your performance including traffic, conversions, pricing, and engagement directly against rivals. It gives you context, not just metrics, and helps you set realistic, goal-winning targets.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "How long does it take to see results?",
+    answer:
+      "Most clients begin tracking competitor movement within 5-6 weeks and see strategic gains over 3–4 months, depending on how sophisticated your competitive landscape is.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Do you use AI tools to implement the strategy?",
+    answer:
+      "Yes. We use human strategy with AI models to surface competitor intelligence, performance gaps, and untapped opportunities faster and more accurately.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "What if competitor dynamics shift?",
+    answer:
+      "Our platform continuously monitors competitor metrics and alerts you in real time keeping you ahead of changes, rather than scrambling to catch up.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "How do you measure success?",
+    answer:
+      "We track your competitive ranking across KPIs like visibility, speed, engagement, and conversions, plus your delta versus rivals. Monthly benchmarking reports show you exactly how you stack up.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Do I need to overhaul my tech stack?",
+    answer:
+      "Not at all. Most brands can start benchmarking with existing analytics and AI tools. We integrate seamlessly and guide you through minimal adjustments, if needed.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "How do I get started?",
+    answer:
+      "Simply book your complimentary Competitive Insight Call. We’ll audit your benchmarking readiness and co-design a roadmap to outshine your competition.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+
+export const service10 = [
+  {
+    id: 1,
+    question: "How does AI improve marketing analytics?",
+    answer:
+      "AI enhances marketing analytics by processing vast amounts of data to uncover patterns and insights that human analysts might miss. This leads to more accurate predictions and personalized marketing strategies.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "What industries can benefit from AI marketing analytics?",
+    answer:
+      "Virtually every industry can benefit, including retail, B2B SAAS, healthcare, finance, and technology, by gaining a deeper understanding of customer behavior and optimizing marketing efforts accordingly.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Is AI marketing analytics suitable for small businesses?",
+    answer:
+      "Yes, AI marketing analytics can be scaled to fit businesses of all sizes, providing valuable insights that can drive growth and efficiency.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "How quickly can I see results from AI marketing analytics?",
+    answer:
+      "While initial insights can be gathered within weeks, significant improvements in marketing performance typically become evident within 2 to 3 months, depending on the complexity of the strategies implemented.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "Will AI replace marketing teams?",
+    answer:
+      "No. AI enhances human expertise by automating data analysis, trend detection, and reporting, allowing teams to focus on strategy and creative execution.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "How secure is my marketing data with AI tools?",
+    answer:
+      "Leading AI analytics platforms follow strict security standards, including encryption, access controls, and compliance with global data protection regulations.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question:
+      "How do I get started?Can AI analytics improve personalization in marketing?",
+    answer:
+      "Absolutely. AI identifies individual user preferences and behavior patterns, enabling hyper-personalized messaging, recommendations, and campaigns.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+
+export const service11 = [
+  {
+    id: 1,
+    question: "What is Local SEO, and why does my business need it?",
+    answer:
+      "Local SEO ensures your business appears in Google Map Packs, “near me” searches, and AI-powered local results. It drives more calls, visits, and conversions from nearby customers ready to buy.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "How long does it take to see results?",
+    answer:
+      "Most clients start seeing improvements in 6–8 weeks, such as higher map-pack rankings and more Google Business Profile (GBP) actions. Significant growth typically happens within 3–6 months.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Do you use AI tools for Local SEO?",
+    answer:
+      "Absolutely. We combine expert-driven strategy with AI-powered tools for prompt analysis, competitor tracking, local keyword discovery, and optimizing Google Business Profiles for better visibility.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "What happens if Google changes its local search algorithms?",
+    answer:
+      "We monitor every major update to Google Maps, Map Packs, and local ranking signals. If algorithms change, we adapt your strategy instantly, keeping you ahead of competitors, not playing catch-up.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "How do you measure success?",
+    answer:
+      "We track map-pack rankings, GBP insights, calls, clicks, directions, foot traffic, and leads. Our monthly reports show exactly how local visibility drives real revenue growth.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Do I need to rebuild my website for Local SEO?",
+    answer:
+      "Not necessarily. Most improvements come from optimizing your Google Business Profile, fixing citations, enhancing on-page content, and adding local schema. If deeper changes are needed, we guide you step by step.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "How do I get started?",
+    answer:
+      "It’s simple. Book a free discovery call, and we’ll audit your local visibility, analyze competitors, and deliver a custom Local SEO roadmap designed to put your business on top in map packs and local searches.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+
+export const service12 = [
+  {
+    id: 1,
+    question: "Are your backlinks safe and Google-compliant?",
+    answer:
+      "Yes, absolutely. We only build white-hat backlinks that fully comply with Google’s latest guidelines. Every placement is on trusted, relevant, and high-quality websites, ensuring your site’s safety and long-term ranking stability.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "How do you select websites for backlinks?",
+    answer:
+      "We focus on niche-relevant, high-authority domains with genuine organic traffic and a strong reputation. Each site is manually vetted based on relevance, trustworthiness, and domain authority to maximize your visibility and results.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "How soon will I see results?",
+    answer:
+      "Most clients start seeing improvements in rankings, organic traffic, and brand visibility within 2–3 months. However, timelines can vary depending on your industry, competition, and existing authority.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "Do backlinks and mentions really improve visibility?",
+    answer:
+      "Yes. Backlinks send strong authority signals to search engines, improving rankings and traffic. Brand mentions, even without a direct link, enhance your reputation, credibility, and visibility within your industry, helping you appear in more relevant searches.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "Can you guarantee #1 rankings?",
+    answer:
+      "No ethical SEO provider can guarantee #1 rankings. However, our proven strategies focus on securing authoritative placements and building a strong backlink profile, which significantly boosts your chances of dominating search results over time.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];

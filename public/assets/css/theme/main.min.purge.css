@@ -2481,7 +2481,7 @@ header.uc-header.header-six > .uc-navbar-sticky .uc-navbar-main .uc-navbar {
   display: block;
   transition: all 250ms ease-in-out;
 }
-.timeline-box::after,
+/* .timeline-box::after,
 .timeline-box::before {
   background: var(--color-gray-900);
 }
@@ -2490,7 +2490,7 @@ header.uc-header.header-six > .uc-navbar-sticky .uc-navbar-main .uc-navbar {
 :where(.uc-dark) .timeline-box::after,
 :where(.uc-dark) .timeline-box::before {
   background: #fff;
-}
+} */
 .timeline-box::before {
   top: calc(var(--image-box-height) + var(--half-gap));
   right: 0;

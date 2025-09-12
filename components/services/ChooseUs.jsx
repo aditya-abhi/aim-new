@@ -8,7 +8,7 @@ export default function KeyFeatures() {
       id="key_features"
       className="key-features section panel overflow-hidden"
     >
-      <div className="section-outer panel py-6 xl:py-9">
+      <div className="section-outer panel py-6 xl:py-9 bg-tertiary-700 lg:mx-2 lg:rounded-2">
         <div className="container sm:max-w-lg xl:max-w-xl">
           <div className="section-inner panel">
             <div
@@ -16,10 +16,11 @@ export default function KeyFeatures() {
               data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
               <div>
-                <h2 className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto">
-                  Why Leading Brands Choose AI Monitor
+                <h2 className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto text-white">
+                  Why Leading Brands{" "}
+                  <span className="text-primary">Choose AI Monitor</span>
                 </h2>
-                <p className="fs-6 lg:fs-5 fw-bold dark:text-white mt-2">
+                <p className="fs-6 lg:fs-5 fw-bold text-secondary mt-2">
                   We‘re not just another seo consultancy - we're a
                   research-driven partner shaping the future of AI visibility{" "}
                 </p>

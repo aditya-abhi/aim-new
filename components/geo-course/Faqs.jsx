@@ -1,5 +1,5 @@
-import Accordion from "@/components/common/Accordion";
 import React from "react";
+import FAQGEOCourse from "../common/FAQGEOCourse";
 
 export default function Faqs() {
   return (
@@ -24,7 +24,7 @@ export default function Faqs() {
                     className="uc-accordion gap-1 max-w-md mx-auto"
                     data-uc-accordion="targets: > li; multiple: false;"
                   >
-                    <Accordion parentClass="panel p-2 md:p-3 lg:p-4 bg-secondary dark:bg-tertiary-700 rounded-1-5" />
+                    <FAQGEOCourse parentClass="panel p-2 md:p-3 lg:p-4 bg-secondary dark:bg-tertiary-700 rounded-1-5" />
                   </ul>
                 </div>
               </div>

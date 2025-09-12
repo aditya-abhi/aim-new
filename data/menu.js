@@ -9,44 +9,52 @@ export const menuItems = [
     label: "Services",
     subItems: [
       {
-        href: "/",
+        href: "/services/ai-search-analytics",
         label: "AI Search Analytics",
       },
       {
-        href: "/home-2",
+        href: "/services/generative-engine-optimization-geo-service",
         label: "GEO Services",
       },
       {
-        href: "/home-3",
+        href: "/services/large-language-model-llm-seo-service",
         label: "LLM SEO Services",
       },
       {
-        href: "/home-4",
+        href: "/services/competitor-benchmarking-for-ai-search",
         label: "Competitor Benchmarking",
       },
       {
-        href: "/home-5",
+        href: "/services/ai-prompt-monitoring-service",
         label: "AI Prompt Monitoring",
       },
       {
-        href: "/home-6",
+        href: "/services/saas-search-engine-optimization-service",
         label: "SaaS SEO Services",
       },
       {
-        href: "/home-7",
+        href: "/services/answer-engine-optimization-aeo-service",
         label: "AEO Services",
       },
       {
-        href: "/home-8",
+        href: "/services/ai-marketing-analytics-service",
         label: "Marketing Analytics",
       },
       {
-        href: "/home-9",
+        href: "/services/saas-reddit-marketing-for-ai-search",
         label: "SaaS Reddit Marketing",
       },
       {
-        href: "/home-10",
+        href: "/services/saas-content-marketing-for-ai-search",
         label: "SaaS Content Marketing",
+      },
+      {
+        href: "/services/local-search-engine-optimization-and-generative-engine-optimization",
+        label: "Local SEO and GEO",
+      },
+      {
+        href: "/services/backlinks-and-brand-mentions-buying-service",
+        label: "Backlinks & Brand Mentions",
       },
     ],
   },
@@ -1056,31 +1064,37 @@ export const services = [
         title: "AI Search Analytics",
         description:
           "Managing multiple software and tools for different tasks.",
-        link: "/",
+        link: "/services/ai-search-analytics",
       },
       {
         icon: "unicon-chart-pie",
         title: "GEO Services",
         description: "The latest industry reports, updates and info.",
-        link: "",
+        link: "/services/generative-engine-optimization-geo-service",
       },
       {
         icon: "unicon-increase-level",
         title: "LLM SEO Services",
         description: "Suite of tools that cover all aspects of your business.",
-        link: "",
+        link: "/services/large-language-model-llm-seo-service",
       },
       {
         icon: "unicon-increase-level",
         title: "Competitor Benchmarking",
         description: "Suite of tools that cover all aspects of your business.",
-        link: "",
+        link: "/services/competitor-benchmarking-for-ai-search",
       },
       {
         icon: "unicon-increase-level",
         title: "AI Prompt Monitoring",
         description: "Suite of tools that cover all aspects of your business.",
-        link: "",
+        link: "/services/ai-prompt-monitoring-service",
+      },
+      {
+        icon: "unicon-increase-level",
+        title: "Local SEO and GEO",
+        description: "Suite of tools that cover all aspects of your business.",
+        link: "/services/local-search-engine-optimization-and-generative-engine-optimization",
       },
     ],
   },
@@ -1092,34 +1106,41 @@ export const services = [
         icon: "unicon-chart-venn-diagram",
         title: "SaaS SEO Services",
         description: "Assign tasks, share files with your team.",
-        link: "",
+        link: "/services/saas-search-engine-optimization-service",
       },
       {
         icon: "unicon-chat",
         title: "AEO Services",
         description: "Assign tasks, share files with your team.",
-        link: "",
+        link: "/services/answer-engine-optimization-aeo-service",
       },
       {
         icon: "unicon-checkmark",
         title: "Marketing Analytics",
         description:
           "Managing multiple software and tools for different tasks.",
-        link: "",
+        link: "/services/ai-marketing-analytics-service",
       },
       {
         icon: "unicon-checkmark",
         title: "SaaS Reddit Marketing",
         description:
           "Managing multiple software and tools for different tasks.",
-        link: "",
+        link: "/services/saas-reddit-marketing-for-ai-search",
       },
       {
         icon: "unicon-checkmark",
         title: "SaaS Content Marketing",
         description:
           "Managing multiple software and tools for different tasks.",
-        link: "",
+        link: "/services/saas-content-marketing-for-ai-search",
+      },
+      {
+        icon: "unicon-checkmark",
+        title: "Backlinks & Brand Mentions",
+        description:
+          "Managing multiple software and tools for different tasks.",
+        link: "/services/backlinks-and-brand-mentions-buying-service",
       },
     ],
   },
@@ -1132,19 +1153,19 @@ export const featuresHeader = [
     icon: "unicon-cube",
     items: [
       {
-        iconSrc: "/assets/images/custom-icons/home-8-icon-01.svg",
+        iconSrc: "/assets/images/custom-icons/ai-visibility-checker-1.svg",
         title: "Real-time AI Visibility",
         description: "Design personalized emails that convert",
         ilink: "/features/ai-visibility-checker",
       },
       {
-        iconSrc: "/assets/images/custom-icons/home-8-icon-02.svg",
+        iconSrc: "/assets/images/custom-icons/ai-visibility-checker-2.svg",
         title: "Platform-wise Brand Insights",
         description: "Deliver the right message to the right user",
         ilink: "/features/ai-visibility-checker",
       },
       {
-        iconSrc: "/assets/images/custom-icons/home-8-icon-03.svg",
+        iconSrc: "/assets/images/custom-icons/ai-visibility-checker-3.svg",
         title: "Sentiment & Perception Analysis",
         description: "Track sales & campaign performance",
         ilink: "/features/ai-visibility-checker",
@@ -1158,19 +1179,19 @@ export const featuresHeader = [
     icon: "unicon-gamification",
     items: [
       {
-        iconSrc: "/assets/images/custom-icons/home-8-icon-04.svg",
+        iconSrc: "/assets/images/custom-icons/ai-competitor-radar-1.svg",
         title: "Trend & Activity Alerts",
         description: "Say hello to your AI growth assistant",
         ilink: "/features/ai-competitor-radar",
       },
       {
-        iconSrc: "/assets/images/custom-icons/home-8-icon-05.svg",
+        iconSrc: "/assets/images/custom-icons/ai-competitor-radar-2.svg",
         title: "Performance Benchmarking",
         description: "Amplify the conversation across channels",
         ilink: "/features/ai-competitor-radar",
       },
       {
-        iconSrc: "/assets/images/custom-icons/home-8-icon-06.svg",
+        iconSrc: "/assets/images/custom-icons/ai-competitor-radar-3.svg",
         title: "Competitor AI Footprint Tracking",
         description: "Our services offerings",
         ilink: "/features/ai-competitor-radar",
@@ -1184,19 +1205,19 @@ export const featuresHeader = [
     icon: "unicon-cube",
     items: [
       {
-        iconSrc: "/assets/images/custom-icons/home-8-icon-01.svg",
+        iconSrc: "/assets/images/custom-icons/ai-crawlability-clinic-1.svg",
         title: "AI Crawlers Monitoring",
         description: "Design personalized emails that convert",
         ilink: "/features/ai-crawlability-clinic",
       },
       {
-        iconSrc: "/assets/images/custom-icons/home-8-icon-02.svg",
+        iconSrc: "/assets/images/custom-icons/ai-crawlability-clinic-2.svg",
         title: "Bot Behaviour Insights",
         description: "Deliver the right message to the right user",
         ilink: "/features/ai-crawlability-clinic",
       },
       {
-        iconSrc: "/assets/images/custom-icons/home-8-icon-03.svg",
+        iconSrc: "/assets/images/custom-icons/ai-crawlability-clinic-3.svg",
         title: "Indexing & Performance Monitoring",
         description: "Track sales & campaign performance",
         ilink: "/features/ai-crawlability-clinic",
@@ -1213,7 +1234,7 @@ export const coursesHeader = [
   },
   {
     title: "Answer Engine Optimization Course",
-    link: "/test",
+    link: "/aeo-course",
     icon: "unicon-gamification",
   },
 ];
