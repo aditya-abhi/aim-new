@@ -44,14 +44,14 @@ export default function Timeline() {
           <div className="section-inner panel">
             <div className="panel vstack justify-center items-center gap-2">
               <span className="fs-7 fw-bold py-narrow px-2 border border-white dark:border-white rounded-pill text-white">
-              OUR ORIGIN STORY
+                OUR ORIGIN STORY
               </span>
               <div className="mt-2 pb-4 lg:pb-8">
-                <h2
-                  className="h3 sm:h3 lg:h2 m-0 text-center text-white"
-                  data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 100;"
-                >
-                  How It All Started: The Comic Book Edition
+                <h2 className="h3 lg:h2 xl:h1 m-0 px-2 text-center text-white">
+                  How It All Started: <br />
+                  <span className="d-inline-flex px-1 bg-secondary text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
+                    The Comic Book Edition
+                  </span>
                 </h2>
                 {/* <p className="desc fs-6 xl:fs-5 opacity-70 dark:text-white mt-2 text-center">
                   A journey of passion, purpose, and people. It all started with

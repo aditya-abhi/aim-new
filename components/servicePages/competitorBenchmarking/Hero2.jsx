@@ -81,11 +81,11 @@ export default function Hero2() {
                 >
                   <h1 className="h2 sm:h1 lg:display-6 xl:display-5 mb-1 xl:mb-2">
                     <span className="mb-2 text-tertiary dark:text-secondary">
-                      Go Beyond Keywords.
+                      See Beyond the Noise.
                     </span>
                     <br className="d-none lg:d-block" />
                     <span className="px-1 py-0 bg-primary dark:bg-secondary text-tertiary">
-                      Understand Your Customers!
+                      Beat the Competition!
                     </span>
                     {/* Dominate AI Search with an Amazing Team. */}
                   </h1>

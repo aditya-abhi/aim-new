@@ -81,19 +81,18 @@ export default function Hero2() {
                 >
                   <h1 className="h2 sm:h1 lg:display-6 xl:display-5 mb-1 xl:mb-2">
                     <span className="mb-2 text-tertiary dark:text-secondary">
-                      Go Beyond Keywords.
+                      Beyond Speculation. Track Prompts.
                     </span>
                     <br className="d-none lg:d-block" />
                     <span className="px-1 py-0 bg-primary dark:bg-secondary text-tertiary">
-                      Understand Your Customers!
+                      Boost AI Impact!
                     </span>
                     {/* Dominate AI Search with an Amazing Team. */}
                   </h1>
                   <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                    Stop guessing and start knowing. Our AI-powered content
-                    marketing service decodes customer journeys, illuminates
-                    hidden motivations, and delivers strategic clarity to drive
-                    growth.
+                    Stop guessing which prompts deliver results, start knowing.
+                    Our AI-powered monitoring reveals real-time patterns, tracks
+                    user intent, and drives smarter AI performance.
                   </p>
                   <div className="panel mt-3 lg:mt-4">
                     <div className="row child-cols-12 lg:child-cols-6 justify-center gx-0">

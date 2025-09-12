@@ -101,9 +101,10 @@ export default function Cta() {
               <span className="fs-7 fw-bold py-narrow px-2 border rounded-pill">
                 GET STARTED TODAY!
               </span>
-              <h2 className="h2 xl:display-5 m-0 text-center">
-                Why Risk Your Brand's{" "}
-                <span className="text-tertiary dark:text-primary">
+              <h2 className="h3 lg:h1 xl:display-5 m-0 px-2 text-tertiary dark:text-white text-center">
+                Why Risk Your Brand's
+                <br />
+                <span className="d-inline-flex px-1 bg-tertiary-500 text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
                   Reputation?
                 </span>
               </h2>

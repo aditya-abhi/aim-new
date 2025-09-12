@@ -176,7 +176,7 @@ export const stepsService6 = [
   {
     number: "3",
     imgSrc: "/assets/images/services/img-3.png",
-    title: "AI-Driven Visibility Insights",
+    title: "Trend Forecasting & Prompt Evolution",
     description:
       "Spot rising prompt themes and tweak style, tone, or structure before current prompts go stale.",
     minWidth: "min-w-100 lg:min-w-1/4",
@@ -187,25 +187,25 @@ export const stepsService7 = [
   {
     number: "1",
     imgSrc: "/assets/images/services/img.png",
-    title: "Precision Gap Detection",
+    title: "Intent-Driven Topic Mapping",
     description:
-      "We analyze competitor traffic, engagement, and conversions to find gaps you can close.",
+      "Aligns every piece of content with what your SaaS audience truly wants to know, not just what they type into Google.",
     minWidth: "min-w-1/4",
   },
   {
     number: "2",
     imgSrc: "/assets/images/services/img-2.png",
-    title: "Early Trend Recognition",
+    title: "Predictive Content Trends",
     description:
-      "Spot where others are accelerating, be the first to react, not the last to follow.",
+      "Anticipate the next SaaS challenges and opportunities, letting you lead conversations rather than catch up.",
     minWidth: "min-w-1/4",
   },
   {
     number: "3",
     imgSrc: "/assets/images/services/img-3.png",
-    title: "Opportunity Mapping",
+    title: "SEO & Content Gap Analysis",
     description:
-      "Reveal the metrics your competitors are missing—and position your brand to win where they’re falling short.",
+      "Uncover the content topics competitors haven’t addressed, then offer the answers they’re missing.",
     minWidth: "min-w-100 lg:min-w-1/4",
   },
 ];
@@ -240,25 +240,25 @@ export const stepsService9 = [
   {
     number: "1",
     imgSrc: "/assets/images/services/img.png",
-    title: "Blindspots",
+    title: "Precision Gap Detection",
     description:
-      "Companies lacking comparative data often miss critical insights into competitor strategies, leading to underperformance and missed opportunities in the market.",
+      "We dive deep into competitor traffic, engagement, and conversions to uncover hidden performance gaps your brand can close faster and more effectively.",
     minWidth: "min-w-1/4",
   },
   {
     number: "2",
     imgSrc: "/assets/images/services/img-2.png",
-    title: "Stagnation",
+    title: "Early Trend Recognition",
     description:
-      "Businesses that neglect benchmarking grow 35% slower than their competitors because they lack performance insights, resulting in outdated strategies.",
+      "We track shifts in audience behavior and competitor acceleration, giving you the power to spot trends early and lead instead of reacting late.",
     minWidth: "min-w-1/4",
   },
   {
     number: "3",
     imgSrc: "/assets/images/services/img-3.png",
-    title: "Misalignment",
+    title: "Opportunity Mapping",
     description:
-      "68% of organizations set unrealistic goals without comparing competitor benchmarks, causing lower ROI and ineffective execution of long-term growth strategies.",
+      "We expose the overlooked metrics competitors ignore, mapping out growth opportunities and positioning your brand to win where others fall behind.",
     minWidth: "min-w-100 lg:min-w-1/4",
   },
 ];

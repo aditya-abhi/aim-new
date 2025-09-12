@@ -22,9 +22,11 @@ export default function Articles() {
                 <span className="fs-7 fw-bold py-narrow px-2 border border-white rounded-pill text-white">
                   GOOGLING IS SO Y2K
                 </span>
-                <h2 className="h4 sm:h3 lg:h2 m-0 text-center max-w-650px mx-auto text-white">
-                  Web Search is Changing.{" "}
-                  <span className="text-primary">Are You Ready?</span>{" "}
+                <h2 className="h3 lg:h2 xl:h1 m-0 px-2 text-white text-center">
+                  Web Search is Changing. <br />
+                  <span className="d-inline-flex px-1 bg-secondary text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
+                    Are You Ready?
+                  </span>
                 </h2>
               </div>
               <div className="panel w-100">
@@ -44,9 +46,9 @@ export default function Articles() {
                 >
                   {testimonialsNew.map((testimonial, index) => (
                     <SwiperSlide key={index} className="swiper-slide">
-                      <div className="px-3 sm:px-4 py-4 panel vstack justify-between gap-3 rounded-2 bg-secondary dark:bg-tertiary-700">
+                      <div className="px-3 sm:px-4 py-4 panel vstack justify-between gap-3 rounded-2 bg-secondary">
                         <div className="panel vstack items-start gap-2">
-                          <p className="fs-6 lg:fs-5 text-dark dark:text-white text-opacity-70">
+                          <p className="fs-6 lg:fs-5 text-dark text-opacity-70">
                             “{testimonial.text}”
                           </p>
                         </div>

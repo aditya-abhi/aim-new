@@ -19,8 +19,12 @@ export default function Awards() {
                 <span className="fs-7 fw-bold py-narrow px-2 border border-white dark:border-white rounded-pill text-white">
                   RECOGNITIONS
                 </span>
-                <h2 className="title h3 lg:h2 xl:h1 m-0 text-white">
-                  Our Awards and Backers
+                <h2 className="title h3 lg:h2 xl:h1 m-0 text-white"></h2>
+                <h2 className="h3 lg:h2 xl:h1 m-0 px-2 text-white">
+                  Some of Our <br />
+                  <span className="d-inline-flex px-1 bg-secondary text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
+                    Awards and Backers
+                  </span>
                 </h2>
                 <p className="fs-6 xl:fs-5 text-white text-opacity-70">
                   From prestigious awards to incredible backers, our journey is

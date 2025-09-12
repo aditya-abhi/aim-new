@@ -20,15 +20,24 @@ export default function Purpose() {
               <span className="fs-7 fw-bold py-narrow px-2 border border-tertiary-100 dark:border-white rounded-pill text-tertiary dark:text-white">
                 PERFECT FOR
               </span>
-              <h2 className="h3 lg:h2 xl:h1 m-0">
-                Your Brand. Your Story.{" "}
-                <span className="text-tertiary dark:text-primary">
+              <h2 className="h3 lg:h2 xl:h1 m-0 px-2 text-white">
+                Your Brand. Your Story.
+                <span className="d-inline-flex px-1 bg-secondary text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
                   Everywhere AI Looks
                 </span>
               </h2>
-              <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
-              We help <strong>SEO Experts, PR Professionals, startup Founders, and Inbound Marketers</strong> track, optimize, and protect their brand’s presence across <strong>ChatGPT, Google AI Overviews, Perplexity, Claude, and more,</strong> so you can stay ahead in the AI-driven search era.
 
+              <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
+                We help{" "}
+                <strong>
+                  SEO Experts, PR Professionals, startup Founders, and Inbound
+                  Marketers
+                </strong>{" "}
+                track, optimize, and protect their brand’s presence across{" "}
+                <strong>
+                  ChatGPT, Google AI Overviews, Perplexity, Claude, and more,
+                </strong>{" "}
+                so you can stay ahead in the AI-driven search era.
               </p>
             </div>
             <div className="panel vstack gap-4 xl:gap-6">

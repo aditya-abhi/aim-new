@@ -19,13 +19,13 @@ export default function Testimonials2() {
               data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100);"
             >
               <div className="section-header vstack items-center gap-2 lg:gap-3">
-                <span className="fs-7 fw-bold py-narrow px-2 border border-tertiary-100 dark:border-white rounded-pill text-tertiary dark:text-white">
+                <span className="fs-7 fw-bold py-narrow px-2 border border-tertiary-100 dark:border-white rounded-pill text-tertiary dark:text-white text-center">
                   DON'T BELIEVE US? SMART. SKEPTICISM IS SEXY.
                 </span>
-                <h2 className="h3 sm:h1 lg:display-5 m-0 text-center max-w-650px mx-auto">
-                  But Our Wall of Love Hits Different{" "}
-                  <span className="text-tertiary dark:text-primary">
-                    (Like Your Ex's Playlist) ❤️
+                <h2 className="h3 lg:h2 xl:h1 m-0 px-2 text-tertiary dark:text-white text-center">
+                  But Our Wall of Love Hits Different <br />
+                  <span className="d-inline-flex px-1 bg-tertiary-500 text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
+                    (Like Your Ex's Playlist)
                   </span>
                 </h2>
               </div>

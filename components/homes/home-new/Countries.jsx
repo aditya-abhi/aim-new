@@ -26,8 +26,11 @@ export default function Pricing() {
                 <span className="fs-7 fw-bold py-narrow px-2 border border-tertiary-100 dark:border-white rounded-pill text-white max-w-fc">
                   WORD WIDE PRESENCE
                 </span>
-                <h2 className="title h3 lg:h2 xl:h1 m-0 text-white">
-                  Want to Make ChatGPT Work For You?
+                <h2 className="h3 lg:h2 xl:h1 m-0 px-2 text-white">
+                  Want to Make ChatGPT <br />
+                  <span className="d-inline-flex px-1 bg-secondary text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
+                    Work For You?
+                  </span>
                 </h2>
                 <p className="fs-6 text-secondary xl:fs-5">
                   Join the Best GEO & AEO Community on Earth! (Martians left us

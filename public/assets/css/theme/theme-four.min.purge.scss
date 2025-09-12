@@ -7211,6 +7211,13 @@
       var(--bs-bg-opacity)
     ) !important;
   }
+  .bg-tertiary-500 {
+    --bs-bg-opacity: 1;
+    background-color: rgba(
+      var(--bs-tertiary-500-rgb),
+      var(--bs-bg-opacity)
+    ) !important;
+  }
   .bg-tertiary-700 {
     --bs-bg-opacity: 1;
     background-color: rgba(

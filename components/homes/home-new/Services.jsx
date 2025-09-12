@@ -13,16 +13,16 @@ export default function Services() {
         <div className="container sm:max-w-lg">
           <div className="section-inner panel vstack items-center gap-4 lg:gap-6 xl:gap-8">
             <div
-              className="panel vstack items-center gap-2 xl:gap-3 sm:max-w-600px lg:max-w-700px mx-auto text-center"
+              className="panel vstack items-center gap-2 xl:gap-3 sm:max-w-600px lg:max-w-750px mx-auto text-center"
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
               <span className="fs-7 fw-medium py-narrow px-2 text-gray-700 border border-dark dark:bg-primary dark:text-dark rounded-pill text-uppercase">
                 Our Services
               </span>
-              <h2 className="h3 lg:h1 m-0">
-                We’re Here to Put{" "}
-                <span className="text-tertiary dark:text-primary">
-                  Your Brand on the AI Map
+              <h2 className="h3 lg:h2 xl:h1 m-0 px-2 text-tertiary text-center dark:text-white">
+                We’re Here to Put Your Brand on <br />
+                <span className="d-inline-flex px-1 bg-tertiary-500 text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
+                  The AI Map
                 </span>
               </h2>
               <p className="fs-6 xl:fs-5 xl:px-8">

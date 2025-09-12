@@ -12,15 +12,12 @@ export default function Resources() {
               data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
               <div className="cstack gap-1 py-1 px-2 border text-white border border-white rounded-pill">
-                {/* <span className="d-inline-block w-4px h-4px rounded-circle bg-primary dark:bg-secondary" /> */}
-                <span className="fs-8 fw-bold text-uppercase">Resource Center</span>
+                <span className="fs-8 fw-bold text-uppercase">
+                  Resource Center
+                </span>
               </div>
               <h2 className="h3 lg:h2 xl:h1 m-0 px-2 text-white">
-                Featured Resources{" "}
-                {/* <span className="d-inline-flex px-1 bg-secondary text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
-                  You Need
-                </span>{" "} */}
-                to Master{" "}
+                Featured Resources to Master{" "}
                 <span className="d-inline-flex px-1 bg-secondary text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
                   AI Visibility
                 </span>
@@ -58,7 +55,7 @@ export default function Resources() {
                     <Image
                       className="ltr:rounded-top-start-1-5 rtl:rounded-top-end-1-5"
                       alt=""
-                      src="/assets/images/features/blogs.webp"
+                      src="/assets/images/landing/blog.webp"
                       width="1280"
                       height="837"
                     />
@@ -119,7 +116,7 @@ export default function Resources() {
                     <Image
                       className="rounded-bottom-1-5 border border-top-0"
                       alt="ui components"
-                      src="/assets/images/features/guide.webp"
+                      src="/assets/images/landing/guide.webp"
                       width="800"
                       height="620"
                     />
@@ -167,12 +164,19 @@ export default function Resources() {
                     </a>
                   </div>
                   <div className="panel px-3 lg:px-4 xl:px-6 mb-2 lg:mb-5">
-                    <Image
+                    {/* <Image
                       alt="builder-tools"
                       src="/assets/images/features/podcast-1.webp"
                       width="1280"
                       height="800"
                       className="rounded-2"
+                    /> */}
+                    <video
+                      className="rounded-2"
+                      src="/assets/images/landing/podcast.webm"
+                      autoPlay
+                      muted
+                      loop
                     />
                   </div>
                 </div>

@@ -1,4 +1,4 @@
-import { stepsService7 } from "@/data/process";
+import { stepsService7, stepsService8 } from "@/data/process";
 import Image from "next/image";
 import React from "react";
 
@@ -29,7 +29,7 @@ export default function Features() {
               className="row child-cols-12 md:child-cols justify-center col-match g-4 sep uc-grid"
               data-uc-grid=""
             >
-              {stepsService7.map((step, index) => (
+              {stepsService8.map((step, index) => (
                 <div key={index} className={step.minWidth}>
                   <div className="panel vstack items-center gap-2 text-center p-5 xl:py-8">
                     <span className="icon-box w-40px md:w-48px h-40px md:h-48px rounded-circle cstack bg-primary dark:bg-tertiary text-tertiary dark:text-primary">

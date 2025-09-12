@@ -379,7 +379,7 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>PAI Traffic Scaling</h3>
+                  <h3>AI Traffic Scaling</h3>
                   <p>
                     We identify top-performing prompts, content, and entities,
                     then scale them across AI search platforms. This drives

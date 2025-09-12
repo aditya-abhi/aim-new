@@ -39,7 +39,7 @@ export default function Cta() {
               The future of your brand's discovery is being written by AI right
               now. Secure your place as an industry authority before your
               competitors do. Schedule your free, no-obligation strategy call
-              with our AIO experts today.
+              with our GEO experts today.
             </p>
             <p className="fs-6 sm:fs-5 text-tertiary-700 dark:text-white">
               We will provide a complimentary AI Visibility Audit to show you

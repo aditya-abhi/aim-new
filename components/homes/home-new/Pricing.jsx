@@ -19,8 +19,11 @@ export default function Pricing() {
                 <span className="fs-7 fw-bold py-narrow px-2 border border-tertiary-100 dark:border-white rounded-pill text-tertiary-900 dark:text-white max-w-fc">
                   PRICING
                 </span>
-                <h2 className="title h3 lg:h2 xl:h1 mt-4">
-                  Find Your Perfect AI Monitoring Plan
+                <h2 className="h3 lg:h2 xl:h1 m-0 px-2 text-tertiary dark:text-white text-center">
+                  Find Your Perfect <br />
+                  <span className="d-inline-flex px-1 bg-tertiary-500 text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
+                    AI Monitoring Plan
+                  </span>
                 </h2>
               </div>
               <div className="content panel">

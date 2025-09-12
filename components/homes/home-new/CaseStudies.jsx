@@ -20,8 +20,11 @@ export default function CaseStudies() {
                 <span className="fs-7 fw-bold py-narrow px-2 border border-tertiary-100 dark:border-white rounded-pill text-tertiary dark:text-white">
                   CASE STUDIES
                 </span>
-                <h2 className="h3 lg:h2 xl:h1 m-0">
-                  Success Stories That Speak for Themselves
+                <h2 className="h3 lg:h2 xl:h1 m-0 px-2 text-tertiary dark:text-white text-center">
+                  Success Stories That <br />
+                  <span className="d-inline-flex px-1 bg-tertiary-500 text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
+                    Speak for Themselves
+                  </span>
                 </h2>
                 <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
                   Explore how startups, enterprises, and global brands achieved
@@ -62,6 +65,9 @@ export default function CaseStudies() {
                           />
                         </div>
                         <p className="fs-6 opacity-70 dark:opacity-80">
+                          <span className="text-tertiary dark:text-primary fs-4 fw-bold">
+                            {integration.span}
+                          </span>{" "}
                           {integration.description}
                         </p>
                       </div>

@@ -204,7 +204,7 @@ export default function ServiceTimeline() {
         <div className="blueprint-container text-tertiary">
           <h2 className="h2 lg:h1 text-tertiary dark:text-primary">
             {" "}
-            Our Roadmap to SaaS Content Dominance
+            Our Roadmap to AI Prompt Monitoring
           </h2>
           <p className="subtitle fs-6 lg:fs-5 text-gray-700 dark:text-white">
             Winning with SaaS content is no accident; it’s a process. Here’s how
@@ -223,12 +223,12 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>Intro Call: Goals & Alignment</h3>
+                  <h3>Intro Call: Goals & Prompt Alignment</h3>
                   <p>
-                    We start with a strategy session to deeply understand your
-                    SaaS growth goals, success metrics, and market timelines.
-                    This ensures every content decision aligns with your
-                    business objectives from day one.
+                    We begin with a quick strategy call to understand your
+                    business goals, AI platforms, and prompt-related KPIs. This
+                    ensures we’re aligned on desired outcomes before optimizing
+                    anything.
                   </p>
                 </div>
               </div>
@@ -245,12 +245,12 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>AI Readiness & Competitor Audit</h3>
+                  <h3>AI Prompt Infrastructure & Benchmarking</h3>
                   <p>
-                    We analyze your current content performance, search
-                    visibility, and positioning alongside a detailed competitor
-                    audit. This reveals your biggest opportunity gaps and where
-                    you can outperform rivals in AI-driven search results.
+                    We analyze your existing prompt workflows, pipelines, and
+                    usage patterns. Then, we benchmark them against
+                    top-performing industry standards to spot gaps and uncover
+                    opportunities for better results.
                   </p>
                 </div>
               </div>
@@ -267,12 +267,12 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>Audience & Intent Research</h3>
+                  <h3>Prompt Intent Mapping & Baseline</h3>
                   <p>
-                    We identify your ideal customer profiles (ICPs) and map
-                    their search patterns, pain points, and purchase triggers.
-                    This ensures your content targets high-value leads instead
-                    of attracting irrelevant vanity traffic.
+                    We categorize all your prompts by type: informational,
+                    transactional, or generative, and track how each performs
+                    today. This creates a clear baseline to measure future
+                    improvements against real business outcomes.
                   </p>
                 </div>
               </div>
@@ -289,12 +289,12 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>Prompt-Powered Topic Strategy</h3>
+                  <h3>Prompt Tracking & Analytics Setup</h3>
                   <p>
-                    We combine AI prompt intelligence with SEO insights to
-                    uncover what SaaS users are really asking AI platforms, then
-                    align your content strategy with high-converting,
-                    demand-driven topics.
+                    We set up monitoring systems, logs, and dashboards to track
+                    prompt usage, success rates, failure patterns, and
+                    performance trends in real time, giving you full visibility
+                    into how your prompts perform.
                   </p>
                 </div>
               </div>
@@ -311,13 +311,12 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>Content & Technical Optimization</h3>
+                  <h3>Prompt Quality & Context Optimization</h3>
                   <p>
-                    We create user-first, search-optimized content while
-                    enhancing AI discoverability through structured data,
-                    semantic optimization, and authoritative backlinks. This
-                    maximizes visibility across both traditional search and
-                    AI-powered platforms.
+                    We refine your prompts to make them clearer, more
+                    contextual, and more precise, improving how AI models
+                    interpret and respond. This step boosts response quality,
+                    reduces errors, and maximizes ROI.
                   </p>
                 </div>
               </div>
@@ -334,12 +333,12 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>Custom 6-Month Playbook</h3>
+                  <h3>Custom Prompt Monitoring Dashboard</h3>
                   <p>
-                    We deliver a clear, prioritized content roadmap for the next
-                    six months, detailing rollout timelines, target topics, and
-                    conversion strategies, all focused on building authority and
-                    driving consistent organic growth.
+                    We design a personalized monitoring dashboard that tracks
+                    the metrics that matter most to you. Alongside it, we create
+                    a 6-month optimization roadmap with A/B tests, performance
+                    benchmarks, and scalability targets.
                   </p>
                 </div>
               </div>
@@ -356,12 +355,12 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>Guided Execution</h3>
+                  <h3>Guided Rollout & Alerts</h3>
                   <p>
-                    Your team gets access to ready-to-use content briefs,
-                    templates, and frameworks designed for seamless production.
-                    We ensure every step follows proven best practices while
-                    maintaining your brand’s voice and positioning.
+                    We help your team launch optimized prompts with confidence.
+                    You’ll also get automated alert systems to flag anomalies,
+                    sudden drops in success rates, or unexpected model behavior,
+                    ensuring issues are fixed fast.
                   </p>
                 </div>
               </div>
@@ -378,12 +377,12 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>Performance-Focused Scaling</h3>
+                  <h3>Iterative Prompt Refinement & Scaling</h3>
                   <p>
-                    We track your top-performing keywords, posts, and campaigns,
-                    then amplify them across multiple channels to maximize
-                    reach, lead generation, and SaaS conversions. Winning
-                    strategies are scaled to drive faster results.
+                    We continuously analyze what’s working and what isn’t. The
+                    best-performing prompts are scaled across different AI
+                    platforms and user segments, creating repeatable success
+                    patterns and consistent improvements.
                   </p>
                 </div>
               </div>
@@ -399,11 +398,12 @@ export default function ServiceTimeline() {
                   </span>
                 </div>
                 <div className="text-tertiary dark:text-white">
-                  <h3>Ongoing Optimization</h3>
+                  <h3>Ongoing Prompt Health Reports</h3>
                   <p>
-                    We continuously monitor performance and make data-driven
-                    improvements each month to keep your content visible,
-                    competitive, and ahead of AI and search changes.
+                    Every month, you’ll receive detailed performance insights
+                    covering success rates, conversion trends, drift detection,
+                    and prompt optimization opportunities. These reports keep
+                    you ahead of AI model changes and market shifts.
                   </p>
                 </div>
               </div>

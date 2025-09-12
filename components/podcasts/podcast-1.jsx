@@ -177,99 +177,159 @@ export default function Podcast1({ blogItem }) {
                       <hr className="w-100 m-0 d-block mt-4" />
                     </div>
                     <p className="mt-2">Also Available on:</p>
-                    <div className="hstack gap-4 mt-2 justify-center">
-                      <a
-                        href="https://open.spotify.com/episode/1XC7JiRR5WGJ9Xt9dB9GwP?si=-apJMqF3SzizDY8ydtD1oA"
-                        target="_blank"
-                      >
-                        <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
-                          <Image
-                            className="max-w-40px"
-                            src="/assets/images/icons/spotify.png"
-                            alt=""
-                            width={50}
-                            height={50}
-                          />
-                          <h5 className="m-0">Spotify</h5>
-                        </div>
-                      </a>
-                      <a
-                        href="https://open.spotify.com/episode/1XC7JiRR5WGJ9Xt9dB9GwP?si=-apJMqF3SzizDY8ydtD1oA"
-                        target="_blank"
-                      >
-                        <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
-                          <Image
-                            className="max-w-40px"
-                            src="/assets/images/icons/amazon-music.jpg"
-                            alt=""
-                            width={50}
-                            height={50}
-                          />
-                          <h5 className="m-0">Amazon Music</h5>
-                        </div>
-                      </a>
-                      <a href="#">
-                        <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
-                          <Image
-                            className="max-w-40px"
-                            src="/assets/images/icons/apple-podcast.png"
-                            alt=""
-                            width={100}
-                            height={100}
-                          />
-                          <h5 className="m-0">Apple Podcast</h5>
-                        </div>
-                      </a>
-                      <a href="#">
-                        <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
-                          <Image
-                            className="max-w-40px"
-                            src="/assets/images/icons/youtube.png"
-                            alt=""
-                            width={100}
-                            height={100}
-                          />
-                          <h5 className="m-0">Youtube</h5>
-                        </div>
-                      </a>
+                    <div className="d-none lg:d-block">
+                      <div className="hstack gap-4 mt-2 justify-center">
+                        <a
+                          href="https://open.spotify.com/episode/1XC7JiRR5WGJ9Xt9dB9GwP?si=-apJMqF3SzizDY8ydtD1oA"
+                          target="_blank"
+                        >
+                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
+                            <Image
+                              className="max-w-40px"
+                              src="/assets/images/icons/spotify.png"
+                              alt=""
+                              width={50}
+                              height={50}
+                            />
+                            <h5 className="m-0">Spotify</h5>
+                          </div>
+                        </a>
+                        <a
+                          href="https://open.spotify.com/episode/1XC7JiRR5WGJ9Xt9dB9GwP?si=-apJMqF3SzizDY8ydtD1oA"
+                          target="_blank"
+                        >
+                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
+                            <Image
+                              className="max-w-40px"
+                              src="/assets/images/icons/amazon-music.jpg"
+                              alt=""
+                              width={50}
+                              height={50}
+                            />
+                            <h5 className="m-0">Amazon Music</h5>
+                          </div>
+                        </a>
+                        <a href="#">
+                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
+                            <Image
+                              className="max-w-40px"
+                              src="/assets/images/icons/apple-podcast.png"
+                              alt=""
+                              width={100}
+                              height={100}
+                            />
+                            <h5 className="m-0">Apple Podcast</h5>
+                          </div>
+                        </a>
+                        <a href="#">
+                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
+                            <Image
+                              className="max-w-40px"
+                              src="/assets/images/icons/youtube.png"
+                              alt=""
+                              width={100}
+                              height={100}
+                            />
+                            <h5 className="m-0">Youtube</h5>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="hstack gap-4 mt-2 justify-center">
+                        <a href="#">
+                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
+                            <Image
+                              className="max-w-40px"
+                              src="/assets/images/icons/overcast.svg"
+                              alt=""
+                              width={100}
+                              height={100}
+                            />
+                            <h5 className="m-0">Overcast</h5>
+                          </div>
+                        </a>
+                        <a href="#">
+                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
+                            <Image
+                              className="max-w-40px"
+                              src="/assets/images/icons/pocket-casts.jpeg"
+                              alt=""
+                              width={100}
+                              height={100}
+                            />
+                            <h5 className="m-0">Pocket Casts</h5>
+                          </div>
+                        </a>
+                        <a href="#">
+                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
+                            <Image
+                              className="max-w-40px"
+                              src="/assets/images/icons/castro.png"
+                              alt=""
+                              width={100}
+                              height={100}
+                            />
+                            <h5 className="m-0">Castro</h5>
+                          </div>
+                        </a>
+                      </div>
                     </div>
-                    <div className="hstack gap-4 mt-2 justify-center">
-                      <a href="#">
-                        <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
-                          <Image
-                            className="max-w-40px"
-                            src="/assets/images/icons/overcast.svg"
-                            alt=""
-                            width={100}
-                            height={100}
-                          />
-                          <h5 className="m-0">Overcast</h5>
-                        </div>
-                      </a>
-                      <a href="#">
-                        <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
-                          <Image
-                            className="max-w-40px"
-                            src="/assets/images/icons/pocket-casts.jpeg"
-                            alt=""
-                            width={100}
-                            height={100}
-                          />
-                          <h5 className="m-0">Pocket Casts</h5>
-                        </div>
-                      </a>
-                      <a href="#">
-                        <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
-                          <Image
-                            className="max-w-40px"
-                            src="/assets/images/icons/castro.png"
-                            alt=""
-                            width={100}
-                            height={100}
-                          />
-                          <h5 className="m-0">Castro</h5>
-                        </div>
-                      </a>
+                    <div className="d-block lg:d-none">
+                      <div className="vstack justify-center gap-1 items-center mt-1">
+                        <a
+                          href="https://open.spotify.com/episode/1XC7JiRR5WGJ9Xt9dB9GwP?si=-apJMqF3SzizDY8ydtD1oA"
+                          target="_blank"
+                        >
+                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-2 max-w-fc">
+                            <Image
+                              className="max-w-30px"
+                              src="/assets/images/icons/spotify.png"
+                              alt=""
+                              width={50}
+                              height={50}
+                            />
+                            <h5 className="h6 m-0">Spotify</h5>
+                          </div>
+                        </a>
+                        <a
+                          href="https://open.spotify.com/episode/1XC7JiRR5WGJ9Xt9dB9GwP?si=-apJMqF3SzizDY8ydtD1oA"
+                          target="_blank"
+                        >
+                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-2 max-w-fc">
+                            <Image
+                              className="max-w-30px"
+                              src="/assets/images/icons/amazon-music.jpg"
+                              alt=""
+                              width={50}
+                              height={50}
+                            />
+                            <h5 className="m-0 h6">Amazon Music</h5>
+                          </div>
+                        </a>
+                        <a href="#">
+                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
+                            <Image
+                              className="max-w-30px"
+                              src="/assets/images/icons/apple-podcast.png"
+                              alt=""
+                              width={100}
+                              height={100}
+                            />
+                            <h5 className="m-0 h6">Apple Podcast</h5>
+                          </div>
+                        </a>
+                        <a href="#">
+                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
+                            <Image
+                              className="max-w-30px"
+                              src="/assets/images/icons/youtube.png"
+                              alt=""
+                              width={100}
+                              height={100}
+                            />
+                            <h5 className="m-0 h6">Youtube</h5>
+                          </div>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>

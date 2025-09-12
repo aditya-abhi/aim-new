@@ -62,6 +62,9 @@ export default function CaseStudies() {
                           />
                         </div>
                         <p className="fs-6 opacity-70 dark:opacity-80">
+                          <span className="text-tertiary dark:text-primary fs-4 fw-bold">
+                            {integration.span}
+                          </span>{" "}
                           {integration.description}
                         </p>
                       </div>

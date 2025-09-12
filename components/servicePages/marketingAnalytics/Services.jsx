@@ -1,4 +1,4 @@
-import { servicePage8 } from "@/data/features";
+import { servicePage10, servicePage8 } from "@/data/features";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -25,7 +25,7 @@ export default function Services() {
               </p>
             </div>
             <div className="row child-cols-12 sm:child-cols-6 xl:child-cols-2 col-match justify-center g-2 lg:g-4">
-              {servicePage8.map((feature, index) => (
+              {servicePage10.map((feature, index) => (
                 <div key={index}>
                   <div
                     className="feature-item panel px-3 lg:px-4 py-4 rounded-2 bg-secondary dark:bg-tertiary-700"

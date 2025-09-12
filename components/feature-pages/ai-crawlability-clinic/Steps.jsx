@@ -19,7 +19,7 @@ export default function Steps() {
                 Main features
               </span>
               <h2 className="h3 lg:h2 xl:h1 m-0">
-                3 Easy Steps to Monitor Your AI Traffic
+                3 Easy Steps to Monitor Your AI Bot Traffic
               </h2>
               <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
                 How We Turn Your AI Blind Spots Into Clear Traffic Attribution

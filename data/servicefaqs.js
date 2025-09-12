@@ -60,7 +60,8 @@ export const service1 = [
 export const service2 = [
   {
     id: 1,
-    question: "components/common/ServiceAccordions/ServiceFaq1.jsx",
+    question:
+      "What is Generative Engine Optimization (GEO), and why is it important?",
     answer:
       "Generative Engine Optimization (GEO) is the process of optimizing your content to get featured in AI-generated answers on platforms like ChatGPT, Google AI Overviews, Perplexity, Gemini, and Bing AI. As search evolves, users are increasingly relying on AI systems instead of traditional search engines. GEO ensures your brand, products, and services are visible when users ask AI-driven questions, helping you capture organic traffic, brand mentions, and leads before competitors do.",
     controls: "uc-accordion-24",
@@ -584,10 +585,17 @@ export const service10 = [
   },
   {
     id: 7,
-    question:
-      "How do I get started?Can AI analytics improve personalization in marketing?",
+    question: "Can AI analytics improve personalization in marketing?",
     answer:
       "Absolutely. AI identifies individual user preferences and behavior patterns, enabling hyper-personalized messaging, recommendations, and campaigns.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 8,
+    question: "How do I get started with Marketing Analytics?",
+    answer:
+      "Book a free strategy call, and we dive straight into your brand’s data auditing performance across channels, campaigns, and customer touchpoints. From there, we craft a personalized analytics roadmap tailored to your business goals, designed to unlock hidden insights, optimize spend, and drive measurable growth. It’s not just a consultation, it’s your launchpad into smarter decisions and a future of data-driven dominance.",
     controls: "uc-accordion-32",
     expanded: false,
   },

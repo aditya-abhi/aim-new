@@ -19,13 +19,11 @@ export default function Features2() {
               <span className="fs-7 fw-bold py-narrow px-2 border border-white rounded-pill">
                 WELCOME TO GEO ERA
               </span>
-              <h2 className="h3 lg:h2 m-0">
-                <span className="text-tertiary dark:text-primary">SEO</span> is
-                as Outdated as{" "}
-                <span className="text-tertiary dark:text-primary">
+              <h2 className="h3 lg:h2 xl:h1 m-0 px-2 text-white">
+                SEO is as Outdated as{" "}
+                <span className="d-inline-flex px-1 bg-secondary text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
                   Dial-up Internet
-                </span>{" "}
-                ☎
+                </span>
               </h2>
               <p className="fs-6 xl:fs-5 xl:px-8">
                 Let's be honest “Just Google It” era is over! AI is getting

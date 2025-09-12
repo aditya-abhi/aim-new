@@ -207,8 +207,9 @@ export default function ServiceTimeline() {
             Our Roadmap to Link-Building Success
           </h2>
           <p className="subtitle fs-6 lg:fs-5 text-gray-700 dark:text-white">
-            Search success depends on strategy. Advanced SaaS SEO ensures your
-            brand ranks higher and attracts the right audience.
+            Links drive authority and trust. Strategic link-building amplifies
+            your visibility and positions your brand as a leader in its
+            industry.
           </p>
 
           <div className="timeline">

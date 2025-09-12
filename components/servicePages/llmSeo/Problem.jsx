@@ -20,7 +20,7 @@ export default function Problem() {
                 Solutions
               </span> */}
               <h2 className="h3 lg:h1 m-0">
-                Are You Struggling to Get AI Engines to{" "}
+                Are You Struggling to Get LLMs to{" "}
                 <span className="text-tertiary dark:text-primary">
                   Recognize Your Brand?
                 </span>

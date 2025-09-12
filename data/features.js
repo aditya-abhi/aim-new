@@ -2001,7 +2001,7 @@ export const servicesFeature = [
 export const chooseUs = [
   {
     icon: "unicon-document",
-    title: "We Wrote the AIO Playbook",
+    title: "We Wrote the GEO Playbook",
     description:
       "As pioneers in this space, we were among the first to decode how generative engines rank and feature brands. Our methodologies are shaping the industry standard.",
     backgroundColor: "bg-white dark:bg-gray-800",
