@@ -5,10 +5,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { Gallery, Item } from "react-photoswipe-gallery";
 import { useState } from "react";
-import Blog1Faqs from "../blogs/faqs/Blog1Faqs";
+import Blog1Faqs from "./faqs/Blog1Faqs";
 import GEOCourseCTA from "@/components/common/GeoCTA";
 
-export default function GoogleSGEandRAG({ blogItem }) {
+export default function Blog2({ blogItem }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const toggleAuthorDetails = () => {
@@ -195,13 +195,13 @@ export default function GoogleSGEandRAG({ blogItem }) {
                 </ul>
               </div>
               <figure className="featured-image m-0">
-                <figure className="featured-image m-0 rounded ratio ratio-2x1 rounded uc-transition-toggle overflow-hidden">
+                <figure className="featured-image m-0 rounded ratio ratio-16x9 rounded uc-transition-toggle overflow-hidden">
                   <Image
                     className="media-cover image uc-transition-scale-up uc-transition-opaque"
                     alt="Maximizing your reach with marketing strategies"
-                    src="/assets/images/blog/post-full.jpg"
-                    width="1280"
-                    height="853"
+                    src="/assets/images/blog/blog-6.png"
+                    width="1351"
+                    height="855"
                   />
                 </figure>
               </figure>
@@ -219,29 +219,20 @@ export default function GoogleSGEandRAG({ blogItem }) {
                       data-uc-lightbox="animation: scale"
                     >
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        Introduction
+                        Government Approval for Unreliable AI
                       </h2>
                       <p>
-                        She started her blog exactly six months before I
-                        launched Camels &amp; Chocolate, and she really set the
-                        bar high for my own blog birthday, Y’all this summer!
-                        I’ve already been brainstorming party ideas … who wants
-                        to come? It’s no coincidence that Buster Keaton and
-                        Charlot’s movies of the and award-winning chefs about
-                        what exactly makes their hometowns In fact, not being
-                        able to rely on spoken word made them better
-                        storytellers. They fully understood and used the power
-                        of showing without words. A range of amenities provides
-                        many things to do in Bellevue. About 40 percent of the
-                        city’s population are minorities, which contributes to
-                        an overall diverse range of lifestyles and ideas.
+                        The Indian Ministry of Electronics and Information
+                        Technology (MEITy) has introduced new guidelines to
+                        regulate the application of Artificial Intelligence (AI)
+                        tools. These guidelines aim to ensure that AI
+                        applications are used responsibly, particularly when it
+                        comes to the authorization procedure for AI models,
+                        which are considered unproven or unreliable. Let us go
+                        into some of the significant aspects that have come up
+                        due to this critical development.
                       </p>
-                      <p className="mt-3">
-                        I talked to climbers, Olympic mountain bikers,
-                        musicians, and award-winning chefs about what exactly
-                        makes their hometowns so special and fun.
-                      </p>
-                      <div className="panel mt-3">
+                      {/* <div className="panel mt-3">
                         <figure className="float-end ms-3 mb-1">
                           <Item
                             original="/assets/images/blog/post-1.jpg"
@@ -296,34 +287,24 @@ export default function GoogleSGEandRAG({ blogItem }) {
                           words. They fully understood and used the power of
                           showing without words.
                         </p>
-                      </div>
+                      </div> */}
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        Capital of Texas
+                        Understanding the Guidelines
                       </h2>
                       <p>
-                        Visual storytelling is simply the way most brands will
-                        decide to go in 2016 &amp; beyond, as they try to tell
-                        their story to their customers the oldest and most
-                        important unwritten rule in film industry says that you
-                        shouldn’t rely much on words to tell your story. In
-                        fact, you should rely on them as less as possible. It’s
-                        no coincidence that Buster Keaton and Charlot’s movies
-                        remain among the biggest classic movies of all time. In
-                        fact, not being able to rely on spoken word made them
-                        better storytellers. They fully understood and used the
-                        power of showing without words.
+                        From now on, all platforms within India will have to
+                        seek permission from authorities before deploying any AI
+                        model classified as untested or undependable. This rule
+                        applies to Large Language Models (LLMs) alongside other
+                        advanced artificial intelligence technologies. Among
+                        other things, one essential requirement is to describe
+                        such models as faulty and inform users about potential
+                        mistakes.
                       </p>
-                      <p className="mt-3">
-                        While Denver sits at the base of the Rocky Mountains,
-                        it’s not considered a mountain town since it takes at
-                        least an hour to get to the Rockies for snowboarding and
-                        ski activities, a local expert explained sits at the
-                        base of the Rocky Mountains, it’s not considered a
-                        mountain town since it takes at least an hour to get to
-                        the Rockies for snowboarding and ski activities, a local
-                        expert explained.
-                      </p>
-                      <figure className="my-3 sm:my-4">
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        Legal Implications of the New Regulations
+                      </h2>
+                      {/* <figure className="my-3 sm:my-4">
                         <Item
                           original="/assets/images/blog/post-2.jpg"
                           thumbnail="/assets/images/blog/post-2.jpg"
@@ -351,34 +332,45 @@ export default function GoogleSGEandRAG({ blogItem }) {
                         <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
                           Pink Marketing, by Mak
                         </figcaption>
-                      </figure>
-                      <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                      </figure> */}
+                      {/* <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         Capital of Texas 2
-                      </h3>
+                      </h3> */}
                       <p>
-                        Visual storytelling is simply the way most brands will
-                        decide to go in 2016 &amp; beyond, as they try to tell
-                        their story to their customers the oldest and most
-                        important unwritten rule in film industry says that you
-                        shouldn’t rely much on words to tell your story. In
-                        fact, you should rely on them as less as possible. It’s
-                        no coincidence that Buster Keaton and Charlot’s movies
-                        remain among the biggest classic movies of all time. In
-                        fact, not being able to rely on spoken word made them
-                        better storytellers. They fully understood and used the
-                        power of showing without words.
+                        IT ministry advisory introduces a new regulatory
+                        framework for AI platforms operating in India. The exact
+                        scope of the regulatory regime has yet to be determined,
+                        but these platforms will be subject to more government
+                        regulation.
                       </p>
-                      <p className="mt-3">
-                        While Denver sits at the base of the Rocky Mountains,
-                        it’s not considered a mountain town since it takes at
-                        least an hour to get to the Rockies for snowboarding and
-                        ski activities, a local expert explained sits at the
-                        base of the Rocky Mountains, it’s not considered a
-                        mountain town since it takes at least an hour to get to
-                        the Rockies for snowboarding and ski activities, a local
-                        expert explained.
-                      </p>
-                      <figure className="my-3 sm:my-4">
+                      <ul className="my-3">
+                        <li>
+                          <b>Licensing Requirement: </b>The fact that there is a
+                          need for explicit permission from the government to
+                          start a business is significant. Such a development
+                          could lead to a scenario of licensing whereby
+                          platforms would be required to satisfy certain
+                          conditions and comply with regulations to obtain a
+                          license.
+                        </li>
+                        <li className="mt-1">
+                          <b>Disclaimer and Disclosure Obligations: </b> Legal
+                          implications apply when the experimental
+                          characteristics of these AI systems are disclosed by
+                          issuing companies. Non-compliance could result in
+                          legal actions from consumers and regulatory
+                          authorities.
+                        </li>{" "}
+                        <li className="mt-1">
+                          <b>Liability Issues:</b>The disclaimer requirement
+                          might affect liability determination concerning
+                          AI-related harms. However, the degree to which such
+                          disclaimers can limit liability remains a complex
+                          legal question.
+                        </li>
+                      </ul>
+
+                      {/* <figure className="my-3 sm:my-4">
                         <Item
                           original="/assets/images/blog/post-2.jpg"
                           thumbnail="/assets/images/blog/post-2.jpg"
@@ -406,35 +398,23 @@ export default function GoogleSGEandRAG({ blogItem }) {
                         <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
                           Pink Marketing, by Mak
                         </figcaption>
-                      </figure>
+                      </figure> */}
 
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        Capital of Texas3
+                        Startups Exempted
                       </h2>
                       <p>
-                        Visual storytelling is simply the way most brands will
-                        decide to go in 2016 &amp; beyond, as they try to tell
-                        their story to their customers the oldest and most
-                        important unwritten rule in film industry says that you
-                        shouldn’t rely much on words to tell your story. In
-                        fact, you should rely on them as less as possible. It’s
-                        no coincidence that Buster Keaton and Charlot’s movies
-                        remain among the biggest classic movies of all time. In
-                        fact, not being able to rely on spoken word made them
-                        better storytellers. They fully understood and used the
-                        power of showing without words.
+                        Rajeev Chandrashekar, the Minister of State for Skill
+                        Development and Entrepreneurship & Electronics, and
+                        Information Technology, India, explains that these
+                        regulations are for “significant platforms,” not
+                        start-ups. The exception made for new businesses
+                        indicates a subtle mode, which appreciates the promotion
+                        of invention in conjunction with regulatory controls on
+                        existing platforms.
                       </p>
-                      <p className="mt-3">
-                        While Denver sits at the base of the Rocky Mountains,
-                        it’s not considered a mountain town since it takes at
-                        least an hour to get to the Rockies for snowboarding and
-                        ski activities, a local expert explained sits at the
-                        base of the Rocky Mountains, it’s not considered a
-                        mountain town since it takes at least an hour to get to
-                        the Rockies for snowboarding and ski activities, a local
-                        expert explained.
-                      </p>
-                      <figure className="my-3 sm:my-4">
+
+                      {/* <figure className="my-3 sm:my-4">
                         <Item
                           original="/assets/images/blog/post-2.jpg"
                           thumbnail="/assets/images/blog/post-2.jpg"
@@ -462,76 +442,74 @@ export default function GoogleSGEandRAG({ blogItem }) {
                         <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
                           Pink Marketing, by Mak
                         </figcaption>
-                      </figure>
-                      <p>
-                        While Denver sits at the base of the Rocky Mountains,
-                        it’s not considered a mountain town since it takes at
-                        least an hour to get to the Rockies for snowboarding and
-                        ski activities, a local expert explained. Olympic
-                        mountain bikers, musicians, and award-winning chefs
-                        about what exactly makes their hometowns so special and
-                        fun. <br />
-                        In fact, not being able to rely on spoken word made them
-                        better storytellers. They fully understood and used the
-                        power of showing without words.
-                      </p>
-                      <p className="mt-3">
-                        Probably the oldest and most important unwritten rule in
-                        film industry says that you shouldn’t rely much on words
-                        to tell your story. In fact, you should rely on them as
-                        less as possible is simply the way most brands will
-                        decide to go in 2016 &amp; beyond, as they try to tell
-                        their story to their customers.
-                      </p>
+                      </figure> */}
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        Great Schools and Entertainment1
+                        Industry Reaction
                       </h2>
                       <p>
-                        Education is a high point when it comes to analyzing the
-                        quality of life factors that make Ann Arbor one of the
-                        best places to live. The University of Michigan, which
-                        has 43,000 students, makes Ann Arbor a perennial
-                        candidate for our annual ranking of the best college
-                        towns and plays a big role in the city’s economy and
-                        culture.
+                        The tech industry and experts have mixed feelings about
+                        introducing these guidelines. Some think it’s a great
+                        move by the government to ensure that AI deployment is
+                        done responsibly. Others, on the other hand, are
+                        concerned about how this will affect innovation. Critics
+                        perceive it as an idea capable of stifling creativity
+                        and pointing out uncertainty in what “significant”
+                        platforms mean.
                       </p>
-                      <p className="mt-3">
-                        While Denver sits at the base of the Rocky Mountains,
-                        it's not considered a mountain town since it takes
-                        considered at least an hour to get to the Rockies for
-                        snowboarding and ski activities, a local expert
-                        explained sits at the base of the Rocky Mountains, it's
-                        not considered a mountain town since it takes at least
-                        an hour to get to the Rockies for snowboarding and ski
-                        activities, a local expert explained.
-                      </p>
+
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        Capital of Texas4
+                        Potential Challenges for the AI Industry
                       </h2>
                       <p>
-                        Visual storytelling is simply the way most brands will
-                        decide to go in 2016 &amp; beyond, as they try to tell
-                        their story to their customers the oldest and most
-                        important unwritten rule in film industry says that you
-                        shouldn’t rely much on words to tell your story. In
-                        fact, you should rely on them as less as possible. It’s
-                        no coincidence that Buster Keaton and Charlot’s movies
-                        remain among the biggest classic movies of all time. In
-                        fact, not being able to rely on spoken word made them
-                        better storytellers. They fully understood and used the
-                        power of showing without words.
+                        The new regulations may have wide-ranging consequences
+                        for India’s AI sector. Companies that develop and use
+                        AI-based products and services must adhere to these
+                        guidelines provided by the government. Compliance with
+                        this advisory could involve additional compliance costs
+                        and inflexible hurdles.
                       </p>
                       <p className="mt-3">
-                        While Denver sits at the base of the Rocky Mountains,
-                        it’s not considered a mountain town since it takes at
-                        least an hour to get to the Rockies for snowboarding and
-                        ski activities, a local expert explained sits at the
-                        base of the Rocky Mountains, it’s not considered a
-                        mountain town since it takes at least an hour to get to
-                        the Rockies for snowboarding and ski activities, a local
-                        expert explained.
+                        On the other hand, it is expected to lead to increased
+                        public trust in AI technologies. The government intends
+                        to deal with such issues by enforcing transparency and
+                        establishing a regulatory body that will prevent misuse
+                        of data privacy, as well as algorithmic bias, among
+                        others.
                       </p>
-                      <figure className="my-3 sm:my-4">
+                      <p className="mt-3">
+                        How companies within the artificial intelligence sector
+                        will adjust to these fresh rules still needs to be
+                        determined. Though they may create obstacles, these
+                        measures allow businesses to indicate their commitment
+                        to ethical practices in artificial intelligence while
+                        earning customer trust.
+                      </p>
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        Awaited AI Regulation Framework
+                      </h2>
+                      <p>
+                        The government’s intention in regulating AI is clear –
+                        it wants to protect the public interest. However,
+                        striking a balance between regulation and innovation is
+                        essential. Excessive regulations may kill AI development
+                        and hinder India’s position as a global AI hub.
+                      </p>
+                      <p className="mt-3">
+                        Implementing this regulatory framework will require
+                        well-defined guidelines, transparency, and a broad
+                        consultative approach involving all key industry
+                        stakeholders.
+                      </p>
+                      <p className="mt-3">
+                        In addition to the existing guidelines, the Indian
+                        Government is working on a comprehensive framework for
+                        AI regulation. This framework, which strives to have an
+                        organized way towards developing artificial intelligence
+                        (AI), aims to address issues relating to ethics,
+                        privacy, and accountability and is anticipated to be
+                        launched in June or July 2024.
+                      </p>
+                      {/* <figure className="my-3 sm:my-4">
                         <Item
                           original="/assets/images/blog/post-2.jpg"
                           thumbnail="/assets/images/blog/post-2.jpg"
@@ -559,12 +537,20 @@ export default function GoogleSGEandRAG({ blogItem }) {
                         <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
                           Pink Marketing, by Mak
                         </figcaption>
-                      </figure>
-                      <p>
-                        get to the Rockies for snowboarding and ski activities,
-                        a local expert explained.
-                      </p>
+                      </figure> */}
+
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        Stay Informed
+                      </h2>
+                      <p>
+                        As this remains a developing story, it’s crucial to stay
+                        informed about further details and updates regarding the
+                        upcoming AI framework. Our team will continue to monitor
+                        the situation closely and provide timely updates to keep
+                        you abreast of the latest developments in AI regulation
+                        in India.
+                      </p>
+                      {/* <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         Capital of Texas5
                       </h2>
                       <p>
@@ -771,7 +757,7 @@ export default function GoogleSGEandRAG({ blogItem }) {
                         I talked to climbers, Olympic mountain bikers,
                         musicians, and award-winning chefs about what exactly
                         makes their hometowns so special and fun.
-                      </p>
+                      </p> */}
                     </div>
                   </Gallery>
                 </div>

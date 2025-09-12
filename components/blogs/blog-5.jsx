@@ -5,10 +5,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { Gallery, Item } from "react-photoswipe-gallery";
 import { useState } from "react";
-import Blog1Faqs from "../blogs/faqs/Blog1Faqs";
+import Blog1Faqs from "./faqs/Blog1Faqs";
 import GEOCourseCTA from "@/components/common/GeoCTA";
 
-export default function GoogleSGEandRAG({ blogItem }) {
+export default function Blog2({ blogItem }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const toggleAuthorDetails = () => {
@@ -199,7 +199,7 @@ export default function GoogleSGEandRAG({ blogItem }) {
                   <Image
                     className="media-cover image uc-transition-scale-up uc-transition-opaque"
                     alt="Maximizing your reach with marketing strategies"
-                    src="/assets/images/blog/post-full.jpg"
+                    src="/assets/images/blog/service-page.png"
                     width="1280"
                     height="853"
                   />

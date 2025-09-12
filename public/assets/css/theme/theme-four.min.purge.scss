@@ -6790,6 +6790,10 @@
     --bs-text-opacity: 1;
     color: rgba(var(--bs-blue-rgb), var(--bs-text-opacity)) !important;
   }
+  .text-info-700 {
+    --bs-text-opacity: 1;
+  color: rgba(var(--bs-info-700-rgb), var(--bs-text-opacity)) !important;
+  }
   .text-indigo {
     --bs-text-opacity: 1;
     color: rgba(var(--bs-indigo-rgb), var(--bs-text-opacity)) !important;

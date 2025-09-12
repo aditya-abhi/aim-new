@@ -5,10 +5,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { Gallery, Item } from "react-photoswipe-gallery";
 import { useState } from "react";
-import Blog1Faqs from "../blogs/faqs/Blog1Faqs";
+import Blog1Faqs from "./faqs/Blog1Faqs";
 import GEOCourseCTA from "@/components/common/GeoCTA";
 
-export default function GoogleSGEandRAG({ blogItem }) {
+export default function GoogleSEGRansRAG({ blogItem }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const toggleAuthorDetails = () => {
@@ -195,11 +195,11 @@ export default function GoogleSGEandRAG({ blogItem }) {
                 </ul>
               </div>
               <figure className="featured-image m-0">
-                <figure className="featured-image m-0 rounded ratio ratio-2x1 rounded uc-transition-toggle overflow-hidden">
+                <figure className="featured-image m-0 rounded ratio ratio-16x9 rounded uc-transition-toggle overflow-hidden">
                   <Image
                     className="media-cover image uc-transition-scale-up uc-transition-opaque"
                     alt="Maximizing your reach with marketing strategies"
-                    src="/assets/images/blog/post-full.jpg"
+                    src="/assets/images/blog/Blog-sge-&-rag.webp"
                     width="1280"
                     height="853"
                   />
@@ -222,26 +222,19 @@ export default function GoogleSGEandRAG({ blogItem }) {
                         Introduction
                       </h2>
                       <p>
-                        She started her blog exactly six months before I
-                        launched Camels &amp; Chocolate, and she really set the
-                        bar high for my own blog birthday, Y’all this summer!
-                        I’ve already been brainstorming party ideas … who wants
-                        to come? It’s no coincidence that Buster Keaton and
-                        Charlot’s movies of the and award-winning chefs about
-                        what exactly makes their hometowns In fact, not being
-                        able to rely on spoken word made them better
-                        storytellers. They fully understood and used the power
-                        of showing without words. A range of amenities provides
-                        many things to do in Bellevue. About 40 percent of the
-                        city’s population are minorities, which contributes to
-                        an overall diverse range of lifestyles and ideas.
+                        Google SGE and RAG, are two buzzwords disrupting the
+                        tech and SEO community these days. These innovations are
+                        reshaping how users interact with search engines and how
+                        businesses optimize their content for visibility. This
+                        article explores what they are, how they work, and why
+                        they matter for SEO.
                       </p>
                       <p className="mt-3">
-                        I talked to climbers, Olympic mountain bikers,
-                        musicians, and award-winning chefs about what exactly
-                        makes their hometowns so special and fun.
+                        So grab your coffee (maybe tea—whatever you fancy—I
+                        won’t judge), sit down, and let’s analyze it in a easy
+                        to understand way, I promise.
                       </p>
-                      <div className="panel mt-3">
+                      {/* <div className="panel mt-3">
                         <figure className="float-end ms-3 mb-1">
                           <Item
                             original="/assets/images/blog/post-1.jpg"
@@ -296,34 +289,52 @@ export default function GoogleSGEandRAG({ blogItem }) {
                           words. They fully understood and used the power of
                           showing without words.
                         </p>
-                      </div>
+                      </div> */}
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        Capital of Texas
+                        What the Heck is Google SGE?
                       </h2>
                       <p>
-                        Visual storytelling is simply the way most brands will
-                        decide to go in 2016 &amp; beyond, as they try to tell
-                        their story to their customers the oldest and most
-                        important unwritten rule in film industry says that you
-                        shouldn’t rely much on words to tell your story. In
-                        fact, you should rely on them as less as possible. It’s
-                        no coincidence that Buster Keaton and Charlot’s movies
-                        remain among the biggest classic movies of all time. In
-                        fact, not being able to rely on spoken word made them
-                        better storytellers. They fully understood and used the
-                        power of showing without words.
+                        The best way for me to explain this is by giving you
+                        this example. Picture this: you Google “best pizza in
+                        NYC.” Traditionally, you’d get a list of links to blogs
+                        and Yelp reviews, right? Now, with Google SGE (Search
+                        Generative Experience), the search engine takes a leap
+                        forward. It doesn’t just hand you links—it serves you a
+                        personalized, AI-generated summary that practically
+                        screams, “Here’s the pizza you didn’t know you were
+                        craving!”
                       </p>
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        Why It’s a Game-Changer
+                      </h2>
+                      <ul>
+                        <li>
+                          <b>Fast Answers:</b> No more endless scrolling to get
+                          your answer. Boom—your answer is right there.
+                        </li>
+                        <li>
+                          <b>Contextual Relevance:</b> Adapts to the user’s
+                          intent with personalized results.Google’s AI reads
+                          between the lines of your search intent (spooky but
+                          cool).
+                        </li>
+                        <li>
+                          <b>Interactive Visuals:</b> Displays information
+                          interactively. Think of it as Instagram meets
+                          Wikipedia.
+                        </li>
+                        <li>
+                          <b>Integrated Search:</b> Combines traditional search
+                          with AI-generated insights
+                        </li>
+                      </ul>
                       <p className="mt-3">
-                        While Denver sits at the base of the Rocky Mountains,
-                        it’s not considered a mountain town since it takes at
-                        least an hour to get to the Rockies for snowboarding and
-                        ski activities, a local expert explained sits at the
-                        base of the Rocky Mountains, it’s not considered a
-                        mountain town since it takes at least an hour to get to
-                        the Rockies for snowboarding and ski activities, a local
-                        expert explained.
+                        But here’s the kicker: while this is fantastic for
+                        users, it’s a potential nightmare for website owners.
+                        Why? Because fewer clicks on links = less traffic to
+                        your site. Ouch.
                       </p>
-                      <figure className="my-3 sm:my-4">
+                      {/* <figure className="my-3 sm:my-4">
                         <Item
                           original="/assets/images/blog/post-2.jpg"
                           thumbnail="/assets/images/blog/post-2.jpg"
@@ -351,90 +362,23 @@ export default function GoogleSGEandRAG({ blogItem }) {
                         <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
                           Pink Marketing, by Mak
                         </figcaption>
-                      </figure>
-                      <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        Capital of Texas 2
-                      </h3>
-                      <p>
-                        Visual storytelling is simply the way most brands will
-                        decide to go in 2016 &amp; beyond, as they try to tell
-                        their story to their customers the oldest and most
-                        important unwritten rule in film industry says that you
-                        shouldn’t rely much on words to tell your story. In
-                        fact, you should rely on them as less as possible. It’s
-                        no coincidence that Buster Keaton and Charlot’s movies
-                        remain among the biggest classic movies of all time. In
-                        fact, not being able to rely on spoken word made them
-                        better storytellers. They fully understood and used the
-                        power of showing without words.
-                      </p>
-                      <p className="mt-3">
-                        While Denver sits at the base of the Rocky Mountains,
-                        it’s not considered a mountain town since it takes at
-                        least an hour to get to the Rockies for snowboarding and
-                        ski activities, a local expert explained sits at the
-                        base of the Rocky Mountains, it’s not considered a
-                        mountain town since it takes at least an hour to get to
-                        the Rockies for snowboarding and ski activities, a local
-                        expert explained.
-                      </p>
-                      <figure className="my-3 sm:my-4">
-                        <Item
-                          original="/assets/images/blog/post-2.jpg"
-                          thumbnail="/assets/images/blog/post-2.jpg"
-                          width="1280"
-                          height="853"
-                        >
-                          {({ ref, open }) => (
-                            <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
-                              <Image
-                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                                alt="Pink Marketing, by Mak"
-                                src="/assets/images/blog/post-2.jpg"
-                                width="1280"
-                                height="853"
-                                ref={ref}
-                              />
-                              <a
-                                onClick={open}
-                                className="position-cover"
-                                data-caption="Pink Marketing, by Mak"
-                              ></a>
-                            </figure>
-                          )}
-                        </Item>
-                        <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                          Pink Marketing, by Mak
-                        </figcaption>
-                      </figure>
+                      </figure> */}
 
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        Capital of Texas3
+                        What the Heck is RAG in AI?
                       </h2>
-                      <p>
-                        Visual storytelling is simply the way most brands will
-                        decide to go in 2016 &amp; beyond, as they try to tell
-                        their story to their customers the oldest and most
-                        important unwritten rule in film industry says that you
-                        shouldn’t rely much on words to tell your story. In
-                        fact, you should rely on them as less as possible. It’s
-                        no coincidence that Buster Keaton and Charlot’s movies
-                        remain among the biggest classic movies of all time. In
-                        fact, not being able to rely on spoken word made them
-                        better storytellers. They fully understood and used the
-                        power of showing without words.
+                      <p className="mt-3">
+                        So, let’s go ahead and learn about RAG aka
+                        Retrieval-Augmented Generation. Imagine this: you are
+                        writing an essay, and you want your memory to work as
+                        well as if you got a library book for each of the facts
+                        to help you out. RAG is doing just that.
                       </p>
                       <p className="mt-3">
-                        While Denver sits at the base of the Rocky Mountains,
-                        it’s not considered a mountain town since it takes at
-                        least an hour to get to the Rockies for snowboarding and
-                        ski activities, a local expert explained sits at the
-                        base of the Rocky Mountains, it’s not considered a
-                        mountain town since it takes at least an hour to get to
-                        the Rockies for snowboarding and ski activities, a local
-                        expert explained.
+                        It puts together the radio of AI’s creativity with the
+                        irrevocability of an external source.{" "}
                       </p>
-                      <figure className="my-3 sm:my-4">
+                      {/* <figure className="my-3 sm:my-4">
                         <Item
                           original="/assets/images/blog/post-2.jpg"
                           thumbnail="/assets/images/blog/post-2.jpg"
@@ -462,76 +406,108 @@ export default function GoogleSGEandRAG({ blogItem }) {
                         <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
                           Pink Marketing, by Mak
                         </figcaption>
-                      </figure>
-                      <p>
-                        While Denver sits at the base of the Rocky Mountains,
-                        it’s not considered a mountain town since it takes at
-                        least an hour to get to the Rockies for snowboarding and
-                        ski activities, a local expert explained. Olympic
-                        mountain bikers, musicians, and award-winning chefs
-                        about what exactly makes their hometowns so special and
-                        fun. <br />
-                        In fact, not being able to rely on spoken word made them
-                        better storytellers. They fully understood and used the
-                        power of showing without words.
-                      </p>
-                      <p className="mt-3">
-                        Probably the oldest and most important unwritten rule in
-                        film industry says that you shouldn’t rely much on words
-                        to tell your story. In fact, you should rely on them as
-                        less as possible is simply the way most brands will
-                        decide to go in 2016 &amp; beyond, as they try to tell
-                        their story to their customers.
-                      </p>
+                      </figure> */}
+
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        Great Schools and Entertainment1
+                        How RAG Works (In Simple Plain English)
+                      </h2>
+                      <ol>
+                        <li>
+                          <b>Retrieves Information:</b>The system is able to
+                          make use of data that has been retrieved, which is
+                          like Googling someone in the middle of a
+                          conversation—very quick and accurate.
+                        </li>
+                        <li>
+                          <b>Generates Text:</b>Combines that info into a
+                          response so smooth you’d think it was written by
+                          Hemingway. (Okay, maybe not exactly Hemingway.)
+                        </li>
+                        <li>
+                          <b>Real-time updates:</b>In contrast to basic AI
+                          models, RAG is constantly updated. It is like an AI
+                          with a pulse.
+                        </li>
+                      </ol>
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        Why RAG Rocks
                       </h2>
                       <p>
-                        Education is a high point when it comes to analyzing the
-                        quality of life factors that make Ann Arbor one of the
-                        best places to live. The University of Michigan, which
-                        has 43,000 students, makes Ann Arbor a perennial
-                        candidate for our annual ranking of the best college
-                        towns and plays a big role in the city’s economy and
-                        culture.
+                        It’s not just for nerdy developers. Businesses are
+                        already using it for:
                       </p>
-                      <p className="mt-3">
-                        While Denver sits at the base of the Rocky Mountains,
-                        it's not considered a mountain town since it takes
-                        considered at least an hour to get to the Rockies for
-                        snowboarding and ski activities, a local expert
-                        explained sits at the base of the Rocky Mountains, it's
-                        not considered a mountain town since it takes at least
-                        an hour to get to the Rockies for snowboarding and ski
-                        activities, a local expert explained.
-                      </p>
-                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        Capital of Texas4
+                      <ul>
+                        <li>
+                          Customer support chatbots (finally, ones that don’t
+                          give robotic vibes).
+                        </li>
+                        <li>
+                          Content creation (hello, SEO-friendly blogs like this
+                          one).
+                        </li>
+                        <li>
+                          Complex problem-solving (because math still haunts
+                          me).
+                        </li>
+                      </ul>
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-2">
+                        Why It’s a Game-Changer
+                      </h2>
+                      <ul>
+                        <li>
+                          <b>Fast Answers:</b>No need to scroll endlessly.
+                          Boom—your answer is right there.
+                        </li>
+                        <li>
+                          <b>Tailored Results:</b>Google’s AI reads between the
+                          lines of your search intent (spooky but cool).
+                        </li>
+                        <li>
+                          <b>Interactive Visuals:</b>Think of it as Instagram
+                          meets Wikipedia.
+                        </li>
+                      </ul>
+
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-2">
+                        Why RAG Rocks
                       </h2>
                       <p>
-                        Visual storytelling is simply the way most brands will
-                        decide to go in 2016 &amp; beyond, as they try to tell
-                        their story to their customers the oldest and most
-                        important unwritten rule in film industry says that you
-                        shouldn’t rely much on words to tell your story. In
-                        fact, you should rely on them as less as possible. It’s
-                        no coincidence that Buster Keaton and Charlot’s movies
-                        remain among the biggest classic movies of all time. In
-                        fact, not being able to rely on spoken word made them
-                        better storytellers. They fully understood and used the
-                        power of showing without words.
+                        It’s not just for nerdy developers. Businesses are
+                        already using it for:
+                      </p>
+                      <ul>
+                        <li>
+                          Customer support chatbots (finally, ones that don’t
+                          give robotic vibes).
+                        </li>
+                        <li>
+                          Content creation (hello, SEO-friendly blogs like this
+                          one).
+                        </li>
+                        <li>
+                          Complex problem-solving (because math still haunts
+                          me).
+                        </li>
+                      </ul>
+
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-2">
+                        SGE vs. Google Search: The Face-Off
+                      </h2>
+
+                      <p className="mt-3">
+                        Okay, here’s an analogy for you: Consider the
+                        traditional search as a treasure hunt—you dig through a
+                        pile of sources in hopes of finding the right
+                        information. In contrast with SGE: you receive both the
+                        map and the treasure chest all at once.
                       </p>
                       <p className="mt-3">
-                        While Denver sits at the base of the Rocky Mountains,
-                        it’s not considered a mountain town since it takes at
-                        least an hour to get to the Rockies for snowboarding and
-                        ski activities, a local expert explained sits at the
-                        base of the Rocky Mountains, it’s not considered a
-                        mountain town since it takes at least an hour to get to
-                        the Rockies for snowboarding and ski activities, a local
-                        expert explained.
+                        While SGE simplifies life for searchers, it’s throwing
+                        SEO pros into a frenzy. Think of it as a chef losing
+                        diners because they now get pre-packed meals at their
+                        doorstep.
                       </p>
-                      <figure className="my-3 sm:my-4">
+                      {/* <figure className="my-3 sm:my-4">
                         <Item
                           original="/assets/images/blog/post-2.jpg"
                           thumbnail="/assets/images/blog/post-2.jpg"
@@ -559,28 +535,125 @@ export default function GoogleSGEandRAG({ blogItem }) {
                         <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
                           Pink Marketing, by Mak
                         </figcaption>
-                      </figure>
-                      <p>
-                        get to the Rockies for snowboarding and ski activities,
-                        a local expert explained.
-                      </p>
-                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        Capital of Texas5
+                      </figure> */}
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-2">
+                        How to Prepare Your Website for Google SGE
                       </h2>
                       <p>
-                        Visual storytelling is simply the way most brands will
-                        decide to go in 2016 &amp; beyond, as they try to tell
-                        their story to their customers the oldest and most
-                        important unwritten rule in film industry says that you
-                        shouldn’t rely much on words to tell your story. In
-                        fact, you should rely on them as less as possible. It’s
-                        no coincidence that Buster Keaton and Charlot’s movies
-                        remain among the biggest classic movies of all time. In
-                        fact, not being able to rely on spoken word made them
-                        better storytellers. They fully understood and used the
-                        power of showing without words.
+                        Since you can’t beat SGE, why not adapt to it? Here’s
+                        your game plan:
+                      </p>
+                      <ul>
+                        <li>
+                          <b>Master Snippet Optimization:</b>Write content so
+                          good it gets featured in SGE’s AI summaries. Think
+                          bite-sized but juicy.
+                        </li>
+                        <li>
+                          <b>Leverage Schema Markup:</b>Help Google understand
+                          your content’s context. It’s like giving the AI a GPS
+                          to your data.
+                        </li>
+                        <li>
+                          <b>Focus on E-E-A-T:</b>Prove your content’s
+                          Expertise, Experience, Authority, and Trustworthiness.
+                          (I call it the “credibility cocktail.”)
+                        </li>
+                        <li>
+                          <b>Diversify Your Traffic Sources:</b>Don’t put all
+                          your eggs in Google’s basket. Think email lists,
+                          social media, and—gasp—direct traffic.
+                        </li>
+                      </ul>
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        RAG vs. Traditional AI Models: Why It’s a Big Deal
+                      </h2>
+                      <p>
+                        Here’s where RAG pulls ahead. Unlike traditional AI
+                        models that only rely on pre-trained knowledge (like me
+                        only remembering facts from the 90s), RAG pulls in fresh
+                        data. It’s like having a friend who not only remembers
+                        trivia but also keeps up with TikTok trends.
+                      </p>
+
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        Cool RAG Applications
+                      </h2>
+                      <ul>
+                        <li>
+                          <b>Chatbots:</b>Forget those useless “Sorry, I didn’t
+                          get that” responses.
+                        </li>
+                        <li>
+                          <b>Content Creation:</b>Need SEO content? RAG’s got
+                          your back (but I still think I’m better 😉).
+                        </li>
+                        <li>
+                          <b>Dynamic Research:</b> Perfect for industries where
+                          data changes faster than fashion trends.
+                        </li>
+                      </ul>
+
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        My Two Cents: The Future of SEO with SGE and RAG
+                      </h2>
+
+                      <p>
+                        Honestly, the rise of SGE and RAG feels like watching a
+                        plot twist in your favorite series. It’s exciting but
+                        nerve-wracking. For businesses, the key is to adapt and
+                        innovate. AI won’t replace humans (not yet), but it will
+                        reward those who embrace it.
                       </p>
                       <p className="mt-3">
+                        Also, don’t forget: even the best AI needs your
+                        expertise to thrive. After all, AI doesn’t sip coffee,
+                        stress about traffic numbers, or laugh at bad puns.
+                        That’s where we come in—adding the human touch AI can’t
+                        replicate.
+                      </p>
+                      {/* <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/post-2.jpg"
+                          thumbnail="/assets/images/blog/post-2.jpg"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt="Pink Marketing, by Mak"
+                                src="/assets/images/blog/post-2.jpg"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption="Pink Marketing, by Mak"
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                        <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
+                          Pink Marketing, by Mak
+                        </figcaption>
+                      </figure> */}
+
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        Feeling Overwhelmed?
+                      </h2>
+                      <p>
+                        Are you ready to embrace the AI revolution, or will you
+                        be left behind? You don’t have to navigate this journey
+                        alone; we can be your Robin while you take on the role
+                        of Batman. Schedule a meeting directly with the founder
+                        of AI Monitor here:
+                        https://appt.link/ai-monitor/30-minutes-discovery-call
+                      </p>
+                      {/* <p className="mt-3">
                         While Denver sits at the base of the Rocky Mountains,
                         it’s not considered a mountain town since it takes at
                         least an hour to get to the Rockies for snowboarding and
@@ -771,7 +844,7 @@ export default function GoogleSGEandRAG({ blogItem }) {
                         I talked to climbers, Olympic mountain bikers,
                         musicians, and award-winning chefs about what exactly
                         makes their hometowns so special and fun.
-                      </p>
+                      </p> */}
                     </div>
                   </Gallery>
                 </div>
