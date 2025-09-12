@@ -2,25 +2,56 @@
 import { comic } from "@/data/timeline";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
+import { Autoplay, Pagination } from "swiper/modules";
+import { useEffect, useRef } from "react";
 export default function Timeline() {
+  const containerRef = useRef(null);
+  const swiperRef = useRef(null);
+  const hasStartedRef = useRef(false);
+
+  useEffect(() => {
+    if (!containerRef.current) return;
+    const element = containerRef.current;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && !hasStartedRef.current) {
+            hasStartedRef.current = true;
+            if (swiperRef.current) {
+              // Enable and start autoplay only once when first visible
+              swiperRef.current.params.autoplay.enabled = true;
+              swiperRef.current.autoplay.start();
+            }
+            observer.unobserve(element);
+          }
+        });
+      },
+      { threshold: 0.25 }
+    );
+
+    observer.observe(element);
+    return () => observer.disconnect();
+  }, []);
   return (
     <div
       id="about-timeline"
       className="about-timeline section panel overflow-hidden"
+      ref={containerRef}
     >
       <div className="section-outer panel py-6 xl:py-9 bg-tertiary-700">
         <div className="container max-w-lg">
           <div className="section-inner panel">
             <div className="panel vstack justify-center items-center gap-2">
               <span className="fs-7 fw-bold py-narrow px-2 border border-white dark:border-white rounded-pill text-white">
-                OUR STORY
+              OUR ORIGIN STORY
               </span>
               <div className="mt-2 pb-4 lg:pb-8">
                 <h2
                   className="h3 sm:h3 lg:h2 m-0 text-center text-white"
                   data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 100;"
                 >
-                  Our Story, Our Purpose
+                  How It All Started: The Comic Book Edition
                 </h2>
                 {/* <p className="desc fs-6 xl:fs-5 opacity-70 dark:text-white mt-2 text-center">
                   A journey of passion, purpose, and people. It all started with
@@ -37,6 +68,19 @@ export default function Timeline() {
                   className="swiper-timeline swiper swiper-container overflow-unset"
                   slidesPerView={1}
                   spaceBetween={50}
+                  loop={true}
+                  autoplay={{
+                    delay: 3500,
+                    disableOnInteraction: false,
+                    pauseOnMouseEnter: true,
+                    enabled: false,
+                  }}
+                  pagination={{ clickable: true, el: ".spdt-timeline" }}
+                  speed={800}
+                  modules={[Autoplay, Pagination]}
+                  onSwiper={(swiper) => {
+                    swiperRef.current = swiper;
+                  }}
                   // centeredSlides={true}
                   // centeredSlidesBounds={true}
                 >
@@ -63,6 +107,10 @@ export default function Timeline() {
                       </div>
                     </SwiperSlide>
                   ))}
+                  <div
+                    className="swiper-pagination position-relative mt-3 spdt-timeline"
+                    style={{ color: "#39FF14" }}
+                  />
                 </Swiper>
               </div>
             </div>

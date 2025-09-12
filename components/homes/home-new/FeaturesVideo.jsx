@@ -11,31 +11,7 @@ export default function Features() {
       <div className="section-outer panel py-4 md:py-6">
         <div className="container sm:max-w-lg xl:max-w-xl">
           <div className="section-inner panel">
-            <div
-              className="panel vstack items-center gap-2 xl:gap-3 mb-4 lg:mb-8 max-w-650px mx-auto text-center"
-              data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
-            >
-              <span
-                className="fs-7 fw-bold py-narrow px-2 border border-tertiary-100 dark:border-white rounded-pill text-tertiary dark:text-white"
-                style={{ transform: "translateY(0px)", opacity: 1 }}
-              >
-                STAY AHEAD OF THE CURVE
-              </span>
-              <h2 className="h3 lg:h2 xl:h1 m-0">
-                Saving Brands From Becoming{" "}
-                <span className="text-tertiary dark:text-primary">
-                  Digital Dinosaurs!
-                </span>
-              </h2>
-              <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
-                AI Monitor is the world's first open-source tool for Answer
-                Engine Optimization (AEO) or Artificial Intelligence
-                Optimization (AIO) or Generative Engine Optimization (GEO). We
-                built it to give brands, marketers, and developers a single
-                platform to track, analyze, and influence conversation across
-                ChatGPT, Google AI Overview, Perplexity, and Claude.
-              </p>
-            </div>
+          
             <div
               className="row child-cols-12 g-6 md:g-8 xl:g-6"
               data-uc-scrollspy="target: >*; delay: 500; cls: uc-animation-slide-bottom-medium"

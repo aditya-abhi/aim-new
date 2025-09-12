@@ -16,11 +16,11 @@ export default function Impact() {
               className="panel vstack items-center gap-2 xl:gap-3 mb-4 sm:mb-6 lg:mb-8 sm:max-w-600px lg:max-w-700px xl:max-w-800px mx-auto text-center"
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
-              <span
+               <span
                 className="fs-7 fw-bold py-narrow px-2 border border-tertiary-100 dark:border-white rounded-pill text-tertiary dark:text-white"
                 style={{ transform: "translateY(0px)", opacity: 1 }}
               >
-                DOUBLE IMPACT
+                STAY AHEAD OF THE CURVE
               </span>
               <h2 className="h3 lg:h2 xl:h1 m-0">
                 <span className="text-tertiary dark:text-primary">

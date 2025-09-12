@@ -18,8 +18,18 @@ export default function BrandSlider() {
               className="brands panel vstack gap-3 sm:gap-4 xl:gap-5 text-center"
               data-anime="onview: -200; translateY: [-16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 250;"
             >
+              <div className="items-center">
+
+              <span
+                className="fs-7 fw-bold py-narrow px-2 border border-tertiary-100 dark:border-white rounded-pill text-tertiary dark:text-white max-w-fc"
+                style={{ transform: "translateY(0px)", opacity: 1 }}
+                >
+                TRUSTED BY
+              </span>
+                </div>
               <p className="fs-5 lg:fs-4 fw-bold">
-                Brands That Put Their Growth in Our Hands
+              From Early Stage Startups to Fortune 500
+
               </p>
               <div className="panel">
                 <div className="element-brands text-gray-900 dark:text-white mask-x">

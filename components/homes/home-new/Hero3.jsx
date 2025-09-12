@@ -193,7 +193,7 @@ export default function Hero() {
                           className="h2 xl:display-5 mt-0 mb-4 text-center text-tertiary dark:text-white"
                           style={{ transform: "translateY(0px)", opacity: 1 }}
                         >
-                          World’s First Open Source Tool to Get Your Brand{" "}
+                          Monitor & Boost Your Brand’s Visibility on{" "}
                           <br />{" "}
                           <span
                             className="text-gray-500 dark:text-primary"
@@ -213,10 +213,8 @@ export default function Hero() {
                         </span> */}
                         </h1>
                         <h4>
-                          AI Monitor is the world's first open source tool for
-                          Answer Engine Optimization (AEO) or Artificial
-                          Intelligence Optimization (AIO) or Generative Engine
-                          Optimization (GEO).
+                        AI Monitor is an award-winning digital Marketing agency and Creator of the World’s First Open Source Tool for monitoring visibility on AI Search Engines. 
+
                         </h4>
                       </div>
 

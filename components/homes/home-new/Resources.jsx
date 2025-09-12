@@ -13,10 +13,10 @@ export default function Resources() {
             >
               <div className="cstack gap-1 py-1 px-2 border text-white border border-white rounded-pill">
                 {/* <span className="d-inline-block w-4px h-4px rounded-circle bg-primary dark:bg-secondary" /> */}
-                <span className="fs-8 fw-bold text-uppercase">Resources</span>
+                <span className="fs-8 fw-bold text-uppercase">Resource Center</span>
               </div>
               <h2 className="h3 lg:h2 xl:h1 m-0 px-2 text-white">
-                Everything You Need{" "}
+                Featured Resources{" "}
                 {/* <span className="d-inline-flex px-1 bg-secondary text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
                   You Need
                 </span>{" "} */}
@@ -50,7 +50,7 @@ export default function Resources() {
                       </p>
                     </div>
                     <a href="#" className="btn btn-sm btn-primary px-2 mt-2">
-                      <span>Latest Blogs</span>
+                      <span>Read Featured Blogs</span>
                       <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
                     </a>
                   </div>
@@ -67,7 +67,7 @@ export default function Resources() {
               </div>
               <div>
                 <div
-                  className="panel vstack items-start overflow-hidden bg-primary-700 rounded-2 lg:rounded-3 uc-dark"
+                  className="panel vstack items-start overflow-hidden bg-gradient-45 from-primary to-tertiary-700 rounded-2 lg:rounded-3 uc-dark"
                   data-anime="onview: -100; translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 100;"
                 >
                   <div
@@ -92,7 +92,7 @@ export default function Resources() {
                     data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
                   >
                     <div className="content vstack items-start gap-2">
-                      <h4 className="h4 m-0">Learning & Courses</h4>
+                      <h4 className="h4 m-0">Masterclasses & Certification</h4>
                       <p className="fs-6 lg:fs-5 dark:text-white">
                         We have structured courses and masterclasses to teach
                         you everything about Generative Engine Optimization
@@ -112,17 +112,9 @@ export default function Resources() {
               </div>
               <div>
                 <div
-                  className="panel vstack items-start overflow-hidden bg-gradient-45 from-primary to-tertiary-700 rounded-2 lg:rounded-3 uc-dark"
+                  className="panel vstack items-start overflow-hidden bg-black rounded-2 lg:rounded-3 uc-dark"
                   data-anime="onview: -100; translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 200;"
                 >
-                  <div
-                    className="position-cover opacity-70 bg-cover"
-                    style={{ backgroundPosition: "50% 85%" }}
-                    data-src="/assets/images/template/feature-06-bg-masked-2.png"
-                    data-uc-img=""
-                  />
-                  <div className="position-cover bg-gradient-to-t from-gray-800 via-transparent to-gray-900" />
-                  <div className="position-absolute d-inline-block w-500px h-500px rounded-circle bg-gradient-45 from-primary to-white start-50 blur-10 translate-middle blend-soft-light" />
                   <div className="panel px-3 lg:px-4 xl:px-6">
                     <Image
                       className="rounded-bottom-1-5 border border-top-0"
@@ -170,7 +162,7 @@ export default function Resources() {
                       where it matters most.
                     </p>
                     <a href="#" className="btn btn-sm btn-primary px-2 mt-2">
-                      <span>Latest Blogs</span>
+                      <span> Listen to the Latest Episode</span>
                       <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
                     </a>
                   </div>

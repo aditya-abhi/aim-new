@@ -27,10 +27,8 @@ export default function Purpose() {
                 </span>
               </h2>
               <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
-                We help marketers, SEO agencies, PR teams, and founders track,
-                optimize, and protect their brand’s presence across ChatGPT,
-                Google AI Overviews, Perplexity, Claude, and more so you can
-                stay ahead in the AI-driven search era.
+              We help <strong>SEO Experts, PR Professionals, startup Founders, and Inbound Marketers</strong> track, optimize, and protect their brand’s presence across <strong>ChatGPT, Google AI Overviews, Perplexity, Claude, and more,</strong> so you can stay ahead in the AI-driven search era.
+
               </p>
             </div>
             <div className="panel vstack gap-4 xl:gap-6">

@@ -40,10 +40,7 @@ export const timelineData = [
 ];
 
 export const comic = [
-  {
-    src: "/assets/images/template/c-1.webp",
-    alt: "Comic-style illustration of Avinash Tripathi, founder of AI Monitor, smiling while working under a desk lamp, with a robot graphic labeled AI in the background and a text bubble saying, 'Avinash was a builder. Not of houses or towers, but of brilliant ideas'",
-  },
+
   {
     src: "/assets/images/template/c-2.webp",
     alt: "Comic-style illustration of Avinash Tripathi, founder of AI Monitor, looking at a computer screen showing an angry AI robot icon. A speech bubble says 'This won’t do!' while another text bubble explains, 'He noticed his favorite company being misrepresented by the new AI search engine.'",
