@@ -7947,6 +7947,9 @@ textarea.form-control-lg {
   .lg\:w-800px {
     width: 800px !important;
   }
+  .lg\:container-80 {
+    max-width: 80%;
+  }
   .lg\:w-1\/6 {
     width: 16.6666667% !important;
   }

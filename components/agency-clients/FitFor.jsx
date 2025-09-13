@@ -89,8 +89,8 @@ export default function FitFor() {
                           <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
                             <Image
                               className="media-cover image"
-                              alt="A SEO professional poasing"
-                              src="/assets/images/template/seo.webp"
+                              alt="SEO professionals poasing"
+                              src="/assets/images/features/seo-agency.webp"
                               width="1200"
                               height="1200"
                             />
@@ -148,8 +148,8 @@ export default function FitFor() {
                           <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
                             <Image
                               className="media-cover image"
-                              alt="A PR professional doing media briefing"
-                              src="/assets/images/template/pr.webp"
+                              alt="PR professionals doing media briefing"
+                              src="/assets/images/features/pr-agency.webp"
                               width="1200"
                               height="1200"
                             />
@@ -207,8 +207,8 @@ export default function FitFor() {
                           <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
                             <Image
                               className="media-cover image"
-                              alt="A founder appearing in the newspaper article"
-                              src="/assets/images/template/founders.webp"
+                              alt="marketing professionals discussing strategy"
+                              src="/assets/images/features/marketing-agency.webp"
                               width="1200"
                               height="1200"
                             />

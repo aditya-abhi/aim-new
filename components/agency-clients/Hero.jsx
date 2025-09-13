@@ -179,13 +179,13 @@ export default function Hero() {
                   </div>
                   <div className="hero-scroll-scene panel max-w-850px mx-auto">
                     <div
-                      className="panel border shadow-lg rounded-1-5 p-1 bg-white dark:bg-gray-800 overflow-hidden"
+                      className="panel  rounded-1-5  overflow-hidden"
                       data-anime="translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 450; delay: 950;"
                     >
                       <Image
                         className="rounded-default"
                         alt="Hero image"
-                        src="/assets/images/template/home-10-hero.jpg"
+                        src="/assets/images/landing/agency-main.webp"
                         width={1500}
                         height={1020}
                       />
@@ -196,10 +196,10 @@ export default function Hero() {
                       style={{ top: "20%" }}
                     >
                       <Image
-                        className="rounded-2 shadow-lg border"
+                        className="rounded-2 "
                         alt="hero-image"
                         data-anime="onscroll: .hero-scroll-scene; onscroll-offset: -300; onscroll-trigger: 0; onscroll-duration: 700%; translateY: [-24, 180];"
-                        src="/assets/images/template/home-10-hero-02.png"
+                        src="/assets/images/landing/agency-2.webp"
                         width={845}
                         height={963}
                       />
@@ -222,16 +222,7 @@ export default function Hero() {
                       className="hero-ten-03 position-absolute w-150px d-none lg:d-block"
                       data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 750; delay: 750;"
                       style={{ top: "10%" }}
-                    >
-                      <Image
-                        className="rounded-2 shadow-lg border"
-                        alt="hero-image"
-                        data-anime="onscroll: .hero-scroll-scene; onscroll-offset: -300; onscroll-trigger: 0; onscroll-duration: 700%; translateY: [-24, 48];"
-                        src="/assets/images/template/home-10-hero-03.png"
-                        width={656}
-                        height={818}
-                      />
-                    </div>
+                    ></div>
                   </div>
                 </div>
               </div>

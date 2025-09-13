@@ -4,7 +4,7 @@ import React from "react";
 export default function Faqs() {
   return (
     <div id="faq" className="faq section panel">
-      <div className="section-outer panel">
+      <div className="section-outer panel mt-6 pt-6 bg-tertiary-700 lg:mx-2 lg:rounded-2">
         <div className="container lg:max-w-lg pb-6 lg:pb-8 xl:pb-10">
           <div
             className="section-inner panel"
@@ -13,7 +13,7 @@ export default function Faqs() {
             <div className="row child-cols-12 col-match g-4">
               <div>
                 <div className="vstack items-center text-center gap-2">
-                  <h2 className="h4 sm:h3 xl:h2 my-4">
+                  <h2 className="h4 sm:h3 xl:h2 my-4 text-white">
                     Frequently Asked Questions!
                   </h2>
                 </div>
@@ -24,7 +24,7 @@ export default function Faqs() {
                     className="uc-accordion gap-1 max-w-md mx-auto"
                     data-uc-accordion="targets: > li; multiple: false;"
                   >
-                    <Accordion parentClass="panel p-2 md:p-3 lg:p-4 bg-secondary dark:bg-tertiary-700 rounded-1-5" />
+                    <Accordion parentClass="panel p-2 md:p-3 lg:p-4 bg-secondary rounded-1-5" />
                   </ul>
                 </div>
               </div>

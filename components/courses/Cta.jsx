@@ -55,14 +55,14 @@ export default function Cta() {
               </p>
               <div className="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 lg:mt-2 flex-sm-column fdr">
                 <Link
-                  href={`/geo-course`}
+                  href={`/free-course/best-generative-engine-optimization-geo-course-for-free`}
                   target="_blank"
                   className="btn btn-md lg:btn-lg btn-tertiary hover:bg-primary hover:text-black text-white dark:bg-primary dark:text-gray-700 dark:hover:bg-secondary"
                 >
                   Enroll in the Free GEO Course
                 </Link>
                 <Link
-                  href={`/aeo-course`}
+                  href={`/free-courses/best-answer-engine-optimization-course-for-free/`}
                   target="_blank"
                   className="btn btn-md lg:btn-lg btn-tertiary hover:bg-primary hover:text-black text-white dark:bg-primary dark:text-gray-700 dark:hover:bg-secondary"
                 >

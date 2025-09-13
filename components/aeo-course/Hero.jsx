@@ -4,11 +4,8 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div
-      id="hero_header"
-      className="hero-header section panel overflow-hidden uc-dark"
-    >
-      <div className="section-outer panel py-8 lg:py-9 xl:py-10 dark:bg-tertiary-700 lg:rounded-2 lg:rounded-top-0 mx-2">
+    <div id="hero_header" className="hero-header section panel overflow-hidden">
+      <div className="section-outer panel py-8 lg:py-9 xl:py-10 bg-tertiary-700 lg:rounded-2 lg:rounded-top-0 mx-2">
         <div className="container">
           <div className="section-inner panel">
             <div className="row child-cols-12 justify-center items-center g-8">
@@ -35,13 +32,13 @@ export default function Hero() {
                                 <h1 className="h2 lg:h1 m-0 text-tertiary">
                                   Answer Engine Optimization (AEO) Course
                                 </h1>
-                                <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80 dark:text-gray-800 mb-0">
+                                <p className="fs-6 lg:fs-5 opacity-70 text-dark">
                                   Master the strategies to get your brand
                                   discovered in Google AI Overviews, Perplexity
                                   AI, ChatGPT, and other answer-driven
                                   platforms.
                                 </p>
-                                <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80 dark:text-gray-800 mt-0">
+                                <p className="fs-6 lg:fs-5 opacity-70 mt-0 text-dark">
                                   Answer Engine Optimization (AEO) focuses on
                                   making your content the go-to source for
                                   AI-generated answers by targeting direct,
@@ -65,12 +62,12 @@ export default function Hero() {
                                           />
                                         </span>
                                         <div className="vstack">
-                                          <span className="fs-2 fw-bold mb-narrow text-inherit">
+                                          <span className="fs-2 fw-bold mb-narrow text-inherit text-tertiary">
                                             4.7
                                           </span>
                                         </div>
                                       </div>
-                                      <span className="fs-7 fw-medium mb-narrow text-inherit">
+                                      <span className="fs-7 fw-medium mb-narrow text-dark">
                                         Average Rating
                                       </span>
                                     </div>
@@ -85,12 +82,12 @@ export default function Hero() {
                                           />
                                         </span>
                                         <div className="vstack">
-                                          <span className="fs-2 fw-bold mb-narrow text-inherit">
+                                          <span className="fs-2 fw-bold mb-narrow text-tertiary">
                                             7 Days
                                           </span>
                                         </div>
                                       </div>
-                                      <span className="fs-7 fw-medium mb-narrow text-inherit">
+                                      <span className="fs-7 fw-medium mb-narrow text-dark">
                                         Course Duration
                                       </span>
                                     </div>
@@ -105,12 +102,12 @@ export default function Hero() {
                                           />
                                         </span>
                                         <div className="vstack">
-                                          <span className="fs-2 fw-bold mb-narrow text-inherit">
+                                          <span className="fs-2 fw-bold mb-narrow text-tertiary">
                                             4000+
                                           </span>
                                         </div>
                                       </div>
-                                      <span className="fs-7 fw-medium mb-narrow text-inherit">
+                                      <span className="fs-7 fw-medium mb-narrow text-dark">
                                         Learners
                                       </span>
                                     </div>

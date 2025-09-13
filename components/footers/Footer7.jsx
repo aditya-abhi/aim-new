@@ -67,37 +67,41 @@ export default function Footer7() {
                   <ul className="nav-y gap-2 fw-medium dark:text-white">
                     <li className="fw-bold">What We Do</li>
                     <li>
-                      <Link href="/">Services</Link>
+                      <Link href="/generative-engine-optimization-tool-for-agencies">
+                        Agency Clients
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/">Features</Link>
+                      <Link href="/case-studies">Case Studies</Link>
                     </li>
                     <li>
-                      <Link href="/">Courses</Link>
+                      <Link href="/podcasts">Podcasts</Link>
                     </li>
                     <li>
-                      <Link href="/">Pricing</Link>
+                      <Link href="/most-comprehensive-generative-engine-optimization-geo-guide">
+                        GEO Guide
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/">Blogs</Link>
+                      <Link href="/testimonials">Testimonials</Link>
                     </li>
                   </ul>
                   <ul className="nav-y gap-2 fw-medium dark:text-white">
                     <li className="fw-bold">Boring Legal Stuff</li>
                     <li>
-                      <Link href="/">About</Link>
+                      <Link href="/about-us">About</Link>
                     </li>
                     <li>
-                      <Link href="/">Contact</Link>
+                      <Link href="/contact-us">Contact</Link>
                     </li>
                     <li>
-                      <Link href="/">Privacy Policy</Link>
+                      <Link href="/privacy-policy">Privacy Policy</Link>
                     </li>
                     <li>
-                      <Link href="/">Terms</Link>
+                      <Link href="/terms-conditions">Terms</Link>
                     </li>
                     <li>
-                      <Link href="/">Refund Policy</Link>
+                      <Link href="/refund-policy">Refund Policy</Link>
                     </li>
                   </ul>
                   <ul className="nav-y gap-0 fw-medium text-white d-none lg:d-block">

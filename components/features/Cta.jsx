@@ -40,7 +40,7 @@ export default function Cta() {
           </p>
           <div className="vstack md:hstack justify-center gap-2 mt-3">
             <a
-              href="#"
+              href="https://appt.link/ai-monitor/30-minutes-introductory-call"
               className="btn btn-md xl:btn-lg btn-tertiary dark:btn-secondary text-primary px-3 lg:px-5 fw-bold hover:contrast-shadow"
             >
               Book Your Demo Meeting

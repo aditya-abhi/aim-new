@@ -42,19 +42,19 @@ export default function Hero() {
                   data-anime="translateX: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
                 >
                   <Image
-                    className="ltr:d-block rtl:d-none"
-                    alt="hero-mockup"
+                    className=""
+                    alt="Generative Engine Optimization Guide illustration"
+                    src="/assets/images/landing/guide-hero.webp"
+                    width="1492"
+                    height="1250"
+                  />
+                  {/* <Image
+                    className=""
+                    alt="hero-mockup-rtl"
                     src="/assets/images/template/hero-mockup.png"
                     width="1492"
                     height="1250"
-                  />
-                  <Image
-                    className="ltr:d-none rtl:d-block"
-                    alt="hero-mockup-rtl"
-                    src="/assets/images/template/hero-mockup-rtl.png"
-                    width="1492"
-                    height="1250"
-                  />
+                  /> */}
                 </div>
               </div>
             </div>

@@ -86,7 +86,7 @@ export default function About() {
                     <Image
                       className="media-cover image"
                       alt="About image"
-                      src="/assets/images/template/hero-about-02.jpg"
+                      src="/assets/images/landing/about-hero.webp"
                       width="1000"
                       height="667"
                     />

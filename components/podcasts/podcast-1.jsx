@@ -136,14 +136,14 @@ export default function Podcast1({ blogItem }) {
             </div>
           </div>
         </div>
-        <div className="panel mt-4 lg:mt-6 xl:mt-9">
+        <div className="panel mt-6 lg:mt-6 xl:mt-9">
           <div className="container">
-            <div className="row child-cols-12 g-6 md:g-8 xl:g-6">
+            <div className="row child-cols-12 g-6 md:g-4 xl:g-6">
               <div
                 className="row child-cols col-match justify-center g-2 lg:g-4"
                 data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
               >
-                <div className="container container-80">
+                <div className="container lg:container-80">
                   <div className="feature-item panel px-3 lg:px-4 py-4 rounded-2 bg-gray-50 dark:bg-tertiary-700">
                     <div className="row child-cols-12 g-6 md:g-8 xl:g-6">
                       <div
@@ -201,7 +201,7 @@ export default function Podcast1({ blogItem }) {
                           <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
                             <Image
                               className="max-w-40px"
-                              src="/assets/images/icons/amazon-music.jpg"
+                              src="/assets/images/icons/amazon-music.png"
                               alt=""
                               width={50}
                               height={50}
@@ -287,7 +287,7 @@ export default function Podcast1({ blogItem }) {
                               width={50}
                               height={50}
                             />
-                            <h5 className="h6 m-0">Spotify</h5>
+                            <h5 className="h6 m-0 dark:text-dark">Spotify</h5>
                           </div>
                         </a>
                         <a
@@ -297,12 +297,14 @@ export default function Podcast1({ blogItem }) {
                           <div className="bg-white rounded-pill hstack gap-1 py-1 px-2 max-w-fc">
                             <Image
                               className="max-w-30px"
-                              src="/assets/images/icons/amazon-music.jpg"
+                              src="/assets/images/icons/amazon-music.png"
                               alt=""
                               width={50}
                               height={50}
                             />
-                            <h5 className="m-0 h6">Amazon Music</h5>
+                            <h5 className="m-0 h6 dark:text-dark">
+                              Amazon Music
+                            </h5>
                           </div>
                         </a>
                         <a href="#">
@@ -314,7 +316,9 @@ export default function Podcast1({ blogItem }) {
                               width={100}
                               height={100}
                             />
-                            <h5 className="m-0 h6">Apple Podcast</h5>
+                            <h5 className="m-0 h6 dark:text-dark">
+                              Apple Podcast
+                            </h5>
                           </div>
                         </a>
                         <a href="#">
@@ -326,7 +330,48 @@ export default function Podcast1({ blogItem }) {
                               width={100}
                               height={100}
                             />
-                            <h5 className="m-0 h6">Youtube</h5>
+                            <h5 className="m-0 h6 dark:text-dark">Youtube</h5>
+                          </div>
+                        </a>
+                        <a
+                          href="https://open.spotify.com/episode/1XC7JiRR5WGJ9Xt9dB9GwP?si=-apJMqF3SzizDY8ydtD1oA"
+                          target="_blank"
+                        >
+                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-2 max-w-fc">
+                            <Image
+                              className="max-w-30px"
+                              src="/assets/images/icons/overcast.svg"
+                              alt=""
+                              width={50}
+                              height={50}
+                            />
+                            <h5 className="m-0 h6 dark:text-dark">Overcast</h5>
+                          </div>
+                        </a>
+                        <a href="#">
+                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
+                            <Image
+                              className="max-w-30px"
+                              src="/assets/images/icons/pocket-casts.jpeg"
+                              alt=""
+                              width={100}
+                              height={100}
+                            />
+                            <h5 className="m-0 h6 dark:text-dark">
+                              Pocket Castst
+                            </h5>
+                          </div>
+                        </a>
+                        <a href="#">
+                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
+                            <Image
+                              className="max-w-30px"
+                              src="/assets/images/icons/castro.png"
+                              alt=""
+                              width={100}
+                              height={100}
+                            />
+                            <h5 className="m-0 h6 dark:text-dark">Castro</h5>
                           </div>
                         </a>
                       </div>

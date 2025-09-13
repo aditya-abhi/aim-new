@@ -21,7 +21,7 @@ export default function Blogs() {
             >
               <div>
                 <div className="heading vstack gap-2 justify-center items-center text-center panel">
-                  <h2 className="title h3 xl:h2 m-0 text-white">
+                  <h2 className="title h3 lg:h2 xl:h1 m-0 text-white">
                     Latest Updates from <br />
                     <span className="text-primary">our Blogs</span>
                   </h2>

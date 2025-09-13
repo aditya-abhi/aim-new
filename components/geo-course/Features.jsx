@@ -45,7 +45,7 @@ export default function Features() {
                         height={680}
                       />
                     </div>
-                    <div className="panel vstack items-start gap-2 p-3 lg:p-4">
+                    <div className="panel vstack items-start gap-2 p-3">
                       <h4 className="h4 m-0 text-inherit">{feature.title}</h4>
                       <a
                         href="#"

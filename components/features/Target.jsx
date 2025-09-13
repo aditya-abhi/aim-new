@@ -15,13 +15,15 @@ export default function Target() {
               className="panel vstack items-center gap-4 sm:gap-6 xl:gap-8"
               data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
-              <h2 className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto">
-                Built for Leaders in the AI Search Era
-              </h2>
-              <p>
-                Single platform to monitor, optimize, and lead in the age of AI
-                engines.
-              </p>
+              <div>
+                <h2 className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto">
+                  Built for Leaders in the AI Search Era
+                </h2>
+                <p className="fs-5 dark:text-white mt-3 lg:mt-4">
+                  Single platform to monitor, optimize, and lead in the age of
+                  AI engines.
+                </p>
+              </div>
               <div className="panel">
                 <div
                   className="row child-cols-12 sm:child-cols-6 lg:child-cols-4 xl:child-cols-4 items-center justify-center col-match g-3"

@@ -48,7 +48,7 @@ export default function Accordion({
           key={index}
         >
           <a
-            className="uc-accordion-title fs-5 sm:fs-4"
+            className="uc-accordion-title fs-5 sm:fs-4 text-dark"
             role="button"
             aria-disabled="false"
             ref={(el) => (questionRefs.current[index] = el)}
@@ -56,7 +56,7 @@ export default function Accordion({
             {item.question}
           </a>
           <div
-            className="uc-accordion-content text-tertiary dark:text-white"
+            className="uc-accordion-content text-tertiary"
             ref={(el) => (answerRefs.current[index] = el)}
           >
             <p>{item.answer}</p>

@@ -18,8 +18,8 @@ export default function Faqs() {
                   hidden=""
                 />
                 <div className="panel vstack items-start gap-2 uc-sticky">
-                  <h2 className="h3 lg:h2 m-0 text-gray-700 dark:text-white">
-                    Still Have any Question?
+                  <h2 className="title h3 lg:h2 xl:h1 m-0 text-dark dark:text-white">
+                    Still have <span className="text-primary">Questions?</span>
                   </h2>
                 </div>
               </div>
