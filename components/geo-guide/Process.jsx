@@ -37,7 +37,7 @@ export default function Process() {
                         <Image
                           className="media-cover image"
                           alt="image title"
-                          src="/assets/images/template/feature-1.webp"
+                          src="/assets/images/features/guide-feature-1.webp"
                           width="1200"
                           height="1200"
                         />
@@ -76,7 +76,7 @@ export default function Process() {
                         <Image
                           className="media-cover image"
                           alt="image title"
-                          src="/assets/images/template/feature-image-01.jpg"
+                          src="/assets/images/features/guide-feature-2.webp"
                           width="1200"
                           height="1200"
                         />

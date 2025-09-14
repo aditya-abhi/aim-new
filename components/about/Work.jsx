@@ -41,23 +41,25 @@ export default function Work() {
                   <div className="row child-cols-12 sm:child-cols-6 lg:child-cols-4 col-match g-2 lg:g-4 justify-between text-center">
                     {aboutWork.map((panel) => (
                       <div key={panel.id}>
-                        <div className="panel vstack items-center gap-2 p-4 lg:py-6 rounded-2 bg-white dark:bg-gray-800">
+                        <div className="panel vstack items-center gap-2 p-4 lg:py-6 rounded-2 bg-white dark:bg-secondary">
                           <Image
-                            className="w-64px lg:w-80px d-block dark:d-none"
+                            className="w-64px lg:w-80px "
                             src={panel.lightIcon}
                             width={100}
                             height={100}
                             alt={panel.altText}
                           />
-                          <Image
+                          {/* <Image
                             className="w-64px lg:w-80px d-none dark:d-block"
                             src={panel.darkIcon}
                             width={100}
                             height={100}
                             alt={panel.altText}
-                          />
-                          <h5 className="h5 lg:h4">{panel.title}</h5>
-                          <p className="fs-6 opacity-70 dark:opacity-80">
+                          /> */}
+                          <h5 className="h5 lg:h4 dark:text-dark">
+                            {panel.title}
+                          </h5>
+                          <p className="fs-6 opacity-70 dark:text-dark">
                             {panel.description}
                           </p>
                         </div>

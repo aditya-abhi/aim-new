@@ -266,23 +266,27 @@ export const featureItems = [
 
 export const courses = [
   {
-    imageSrc: "/assets/images/template/home-four-feature-02.png",
-    altText: "No more digging endless reports and spreadsheets",
+    imageSrc: "/assets/images/features/geo.webp",
+    altText:
+      "Generative Engine Optimization (GEO) - Optimize for AI Visibility",
     title: "Generative Engine Optimization (GEO) - Optimize for AI Visibility",
     description:
       "Learn how generative AI platforms like ChatGPT, Claude, Gemini, and Perplexity select sources, and how to get your brand cited, recommended, and visible across AI-driven platforms.",
     linkText: "See all spreadsheets",
     icon: "unicon-course",
+    link: "",
     reverseOrder: true,
   },
   {
-    imageSrc: "/assets/images/template/home-four-feature-01.png",
-    altText: "Ensuring timely delivery and maximum efficiency",
-    title: "Answer Engine Optimization (AEO) -  Optimize for Direct AI Answers",
+    imageSrc: "/assets/images/features/aeo.webp",
+    altText:
+      "Answer Engine Optimization (AEO) -  Optimize for Direct AI Answers",
+    title: "Answer Engine Optimization (AEO) - Optimize for Direct AI Answers",
     description:
       "Learn how answer engines like Google AI Overviews, Bing Copilot, and Perplexity rank content, and how to structure your brand using schema and entities to get cited and visible across AI platforms.",
     linkText: "Let's find out",
     icon: "unicon-cloud-download",
+    link: "",
     reverseOrder: false,
   },
 ];
@@ -630,7 +634,7 @@ export const features11 = [
 export const coursesNeed = [
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    src: "/assets/images/custom-icons/course-1.svg",
     alt: "feature-icon",
     title: "AI Dominance ",
     description:
@@ -638,7 +642,7 @@ export const coursesNeed = [
   },
   {
     order: "order-0",
-    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    src: "/assets/images/custom-icons/course-2.svg",
     alt: "feature-icon",
     title: "Visibility Risk",
     description:
@@ -646,7 +650,7 @@ export const coursesNeed = [
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    src: "/assets/images/custom-icons/course-3.svg",
     alt: "feature-icon",
     title: "Platform Control",
     description:
@@ -654,7 +658,7 @@ export const coursesNeed = [
   },
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    src: "/assets/images/custom-icons/course-4.svg",
     alt: "feature-icon",
     title: "LLM Advantage",
     description:
@@ -662,7 +666,7 @@ export const coursesNeed = [
   },
   {
     order: "order-3 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-05.svg",
+    src: "/assets/images/custom-icons/course-5.svg",
     alt: "feature-icon",
     title: "New SEO Era",
     description:
@@ -670,7 +674,7 @@ export const coursesNeed = [
   },
   {
     order: "order-2 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-06.svg",
+    src: "/assets/images/custom-icons/course-6.svg",
     alt: "feature-icon",
     title: "Strategic Adaptation",
     description:
@@ -1551,7 +1555,7 @@ export const services = [
 export const servicePage1 = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/ai-search-analytics.webp",
+    imgSrc: "/assets/images/services/s-1-1.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Comprehensive Intent Reports",
     description:
@@ -1559,7 +1563,7 @@ export const servicePage1 = [
   },
   {
     id: 2,
-    imgSrc: "/assets/images/template/geo.webp",
+    imgSrc: "/assets/images/services/s-1-2.webp",
     imgAlt: "Connect every part of your entire business",
     title: "Real-Time Trend Dashboards",
     description:
@@ -1568,7 +1572,7 @@ export const servicePage1 = [
   },
   {
     id: 3,
-    imgSrc: "/assets/images/template/aeo.webp",
+    imgSrc: "/assets/images/services/s-1-3.webp",
     imgAlt: "Maintain compliance and control your apps",
     title: "Content & Product Opportunity Maps",
     description:
@@ -1576,7 +1580,7 @@ export const servicePage1 = [
   },
   {
     id: 4,
-    imgSrc: "/assets/images/template/saas-seo.webp",
+    imgSrc: "/assets/images/services/s-1-4.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Strategic Consultation Sessions",
     description:
@@ -1587,7 +1591,7 @@ export const servicePage1 = [
 export const servicePage2 = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/ai-search-analytics.webp",
+    imgSrc: "/assets/images/services/s-2-1.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Comprehensive AI Query Reports",
     description:
@@ -1595,7 +1599,7 @@ export const servicePage2 = [
   },
   {
     id: 2,
-    imgSrc: "/assets/images/template/geo.webp",
+    imgSrc: "/assets/images/services/s-2-2.webp",
     imgAlt: "Connect every part of your entire business",
     title: "Real-Time Trend Dashboards",
     description:
@@ -1604,7 +1608,7 @@ export const servicePage2 = [
   },
   {
     id: 3,
-    imgSrc: "/assets/images/template/aeo.webp",
+    imgSrc: "/assets/images/services/s-2-3.webp",
     imgAlt: "Maintain compliance and control your apps",
     title: "Content & Opportunity Maps",
     description:
@@ -1612,7 +1616,7 @@ export const servicePage2 = [
   },
   {
     id: 4,
-    imgSrc: "/assets/images/template/saas-seo.webp",
+    imgSrc: "/assets/images/services/s-2-4.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Strategic GEO Consultation Sessions",
     description:
@@ -1623,14 +1627,14 @@ export const servicePage2 = [
 export const servicePage3 = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/ai-search-analytics.webp",
+    imgSrc: "/assets/images/services/s-3-1.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Comprehensive AI Query Reports",
     description: "Understand the exact questions users are asking AI engines.",
   },
   {
     id: 2,
-    imgSrc: "/assets/images/template/geo.webp",
+    imgSrc: "/assets/images/services/s-3-2.webp",
     imgAlt: "Connect every part of your entire business",
     title: "AI Citation & Visibility Dashboards",
     description:
@@ -1639,14 +1643,14 @@ export const servicePage3 = [
   },
   {
     id: 3,
-    imgSrc: "/assets/images/template/aeo.webp",
+    imgSrc: "/assets/images/services/s-3-3.webp",
     imgAlt: "Maintain compliance and control your apps",
     title: "Answer Opportunity Maps",
     description: "Find content gaps where AI engines expect better answers.",
   },
   {
     id: 4,
-    imgSrc: "/assets/images/template/saas-seo.webp",
+    imgSrc: "/assets/images/services/s-3-4.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Strategic AEO Consultations",
     description: "Hands-on optimization support to secure AI citations faster.",
@@ -1656,7 +1660,7 @@ export const servicePage3 = [
 export const servicePage4 = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/ai-search-analytics.webp",
+    imgSrc: "/assets/images/services/s-4-1.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "SaaS-Specific SEO Audits",
     description:
@@ -1664,7 +1668,7 @@ export const servicePage4 = [
   },
   {
     id: 2,
-    imgSrc: "/assets/images/template/geo.webp",
+    imgSrc: "/assets/images/services/s-4-2.webp",
     imgAlt: "Connect every part of your entire business",
     title: "AI Visibility Dashboards",
     description:
@@ -1673,7 +1677,7 @@ export const servicePage4 = [
   },
   {
     id: 3,
-    imgSrc: "/assets/images/template/aeo.webp",
+    imgSrc: "/assets/images/services/s-4-3.webp",
     imgAlt: "SaaS Content Opportunity Maps",
     title: "SaaS Content Opportunity Maps",
     description:
@@ -1681,7 +1685,7 @@ export const servicePage4 = [
   },
   {
     id: 4,
-    imgSrc: "/assets/images/template/saas-seo.webp",
+    imgSrc: "/assets/images/services/s-4-4.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "1:1 Growth Strategy Sessions",
     description:
@@ -1692,7 +1696,7 @@ export const servicePage4 = [
 export const servicePage5 = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/ai-search-analytics.webp",
+    imgSrc: "/assets/images/services/s-5-1.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Custom LLM SEO Files",
     description:
@@ -1700,7 +1704,7 @@ export const servicePage5 = [
   },
   {
     id: 2,
-    imgSrc: "/assets/images/template/geo.webp",
+    imgSrc: "/assets/images/services/s-5-2.webp",
     imgAlt: "Connect every part of your entire business",
     title: "AI Visibility Dashboards",
     description:
@@ -1709,7 +1713,7 @@ export const servicePage5 = [
   },
   {
     id: 3,
-    imgSrc: "/assets/images/template/aeo.webp",
+    imgSrc: "/assets/images/services/s-5-3.webp",
     imgAlt: "SaaS Content Opportunity Maps",
     title: "Entity & Prompt Opportunity Maps",
     description:
@@ -1717,7 +1721,7 @@ export const servicePage5 = [
   },
   {
     id: 4,
-    imgSrc: "/assets/images/template/saas-seo.webp",
+    imgSrc: "/assets/images/services/s-5-4.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "1:1 Strategic Consultation",
     description:
@@ -1728,7 +1732,7 @@ export const servicePage5 = [
 export const servicePage6 = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/ai-search-analytics.webp",
+    imgSrc: "/assets/images/services/s-6-1.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Prompt Performance Reports",
     description:
@@ -1736,7 +1740,7 @@ export const servicePage6 = [
   },
   {
     id: 2,
-    imgSrc: "/assets/images/template/geo.webp",
+    imgSrc: "/assets/images/services/s-6-2.webp",
     imgAlt: "Connect every part of your entire business",
     title: "Real-Time Prompt Anomaly Alerts",
     description:
@@ -1745,7 +1749,7 @@ export const servicePage6 = [
   },
   {
     id: 3,
-    imgSrc: "/assets/images/template/aeo.webp",
+    imgSrc: "/assets/images/services/s-6-3.webp",
     imgAlt: "SaaS Content Opportunity Maps",
     title: "Prompt Audit & Opportunity Map",
     description:
@@ -1753,7 +1757,7 @@ export const servicePage6 = [
   },
   {
     id: 4,
-    imgSrc: "/assets/images/template/saas-seo.webp",
+    imgSrc: "/assets/images/services/s-6-4.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Prompt Strategy Consultations",
     description:
@@ -1764,7 +1768,7 @@ export const servicePage6 = [
 export const servicePage7 = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/ai-search-analytics.webp",
+    imgSrc: "/assets/images/services/s-7-1.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Intent Insights Reports",
     description:
@@ -1772,7 +1776,7 @@ export const servicePage7 = [
   },
   {
     id: 2,
-    imgSrc: "/assets/images/template/geo.webp",
+    imgSrc: "/assets/images/services/s-7-2.webp",
     imgAlt: "Connect every part of your entire business",
     title: "Live Editorial Dashboards",
     description:
@@ -1781,7 +1785,7 @@ export const servicePage7 = [
   },
   {
     id: 3,
-    imgSrc: "/assets/images/template/aeo.webp",
+    imgSrc: "/assets/images/services/s-7-3.webp",
     imgAlt: "SaaS Content Opportunity Maps",
     title: "Content Opportunity Maps",
     description:
@@ -1789,7 +1793,7 @@ export const servicePage7 = [
   },
   {
     id: 4,
-    imgSrc: "/assets/images/template/saas-seo.webp",
+    imgSrc: "/assets/images/services/s-7-4.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Expert Strategy Sessions",
     description:
@@ -1800,7 +1804,7 @@ export const servicePage7 = [
 export const servicePage8 = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/ai-search-analytics.webp",
+    imgSrc: "/assets/images/services/s-8-1.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Comprehensive Reddit Intent Reports",
     description:
@@ -1808,7 +1812,7 @@ export const servicePage8 = [
   },
   {
     id: 2,
-    imgSrc: "/assets/images/template/geo.webp",
+    imgSrc: "/assets/images/services/s-8-2.webp",
     imgAlt: "Connect every part of your entire business",
     title: "Real-Time Reddit Trend Dashboards",
     description:
@@ -1817,7 +1821,7 @@ export const servicePage8 = [
   },
   {
     id: 3,
-    imgSrc: "/assets/images/template/aeo.webp",
+    imgSrc: "/assets/images/services/s-8-3.webp",
     imgAlt: "SaaS Content Opportunity Maps",
     title: "Reddit Content & Engagement Playbooks",
     description:
@@ -1825,7 +1829,7 @@ export const servicePage8 = [
   },
   {
     id: 4,
-    imgSrc: "/assets/images/template/saas-seo.webp",
+    imgSrc: "/assets/images/services/s-8-4.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Strategic Reddit Consultation Sessions",
     description:
@@ -1836,7 +1840,7 @@ export const servicePage8 = [
 export const servicePage9 = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/ai-search-analytics.webp",
+    imgSrc: "/assets/images/services/s-9-1.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Competitor Insight Reports",
     description:
@@ -1844,7 +1848,7 @@ export const servicePage9 = [
   },
   {
     id: 2,
-    imgSrc: "/assets/images/template/geo.webp",
+    imgSrc: "/assets/images/services/s-9-2.webp",
     imgAlt: "Connect every part of your entire business",
     title: "Dynamic Benchmark Dashboards",
     description:
@@ -1853,7 +1857,7 @@ export const servicePage9 = [
   },
   {
     id: 3,
-    imgSrc: "/assets/images/template/aeo.webp",
+    imgSrc: "/assets/images/services/s-9-3.webp",
     imgAlt: "SaaS Content Opportunity Maps",
     title: "Strategic Opportunity Maps",
     description:
@@ -1861,7 +1865,7 @@ export const servicePage9 = [
   },
   {
     id: 4,
-    imgSrc: "/assets/images/template/saas-seo.webp",
+    imgSrc: "/assets/images/services/s-9-4.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Expert Strategy Sessions",
     description:
@@ -1872,7 +1876,7 @@ export const servicePage9 = [
 export const servicePage10 = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/ai-search-analytics.webp",
+    imgSrc: "/assets/images/services/s-10-1.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Comprehensive Consumer Behavior Reports",
     description:
@@ -1880,7 +1884,7 @@ export const servicePage10 = [
   },
   {
     id: 2,
-    imgSrc: "/assets/images/template/geo.webp",
+    imgSrc: "/assets/images/services/s-10-2.webp",
     imgAlt: "Connect every part of your entire business",
     title: "Real-Time Trend Dashboards",
     description:
@@ -1889,7 +1893,7 @@ export const servicePage10 = [
   },
   {
     id: 3,
-    imgSrc: "/assets/images/template/aeo.webp",
+    imgSrc: "/assets/images/services/s-10-3.webp",
     imgAlt: "SaaS Content Opportunity Maps",
     title: "Campaign & Product Opportunity Maps",
     description:
@@ -1897,7 +1901,7 @@ export const servicePage10 = [
   },
   {
     id: 4,
-    imgSrc: "/assets/images/template/saas-seo.webp",
+    imgSrc: "/assets/images/services/s-10-4.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Strategic Consultation Sessions",
     description:
@@ -1908,7 +1912,7 @@ export const servicePage10 = [
 export const servicePage11 = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/ai-search-analytics.webp",
+    imgSrc: "/assets/images/services/s-11-1.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "In-Depth Local Intent Reports",
     description:
@@ -1916,7 +1920,7 @@ export const servicePage11 = [
   },
   {
     id: 2,
-    imgSrc: "/assets/images/template/geo.webp",
+    imgSrc: "/assets/images/services/s-11-2.webp",
     imgAlt: "Connect every part of your entire business",
     title: "Real-Time Local Trend Dashboards",
     description:
@@ -1925,7 +1929,7 @@ export const servicePage11 = [
   },
   {
     id: 3,
-    imgSrc: "/assets/images/template/aeo.webp",
+    imgSrc: "/assets/images/services/s-11-3.webp",
     imgAlt: "SaaS Content Opportunity Maps",
     title: "Local Opportunity Maps",
     description:
@@ -1933,7 +1937,7 @@ export const servicePage11 = [
   },
   {
     id: 4,
-    imgSrc: "/assets/images/template/saas-seo.webp",
+    imgSrc: "/assets/images/services/s-11-4.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Strategic Local Consultations",
     description:
@@ -1944,7 +1948,7 @@ export const servicePage11 = [
 export const servicePage12 = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/ai-search-analytics.webp",
+    imgSrc: "/assets/images/services/s-12-1.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "High-Authority Backlinks",
     description:
@@ -1952,7 +1956,7 @@ export const servicePage12 = [
   },
   {
     id: 2,
-    imgSrc: "/assets/images/template/geo.webp",
+    imgSrc: "/assets/images/services/s-12-2.webp",
     imgAlt: "Connect every part of your entire business",
     title: "Strategic Brand Mentions",
     description:
@@ -1961,7 +1965,7 @@ export const servicePage12 = [
   },
   {
     id: 3,
-    imgSrc: "/assets/images/template/aeo.webp",
+    imgSrc: "/assets/images/services/s-12-3.webp",
     imgAlt: "SaaS Content Opportunity Maps",
     title: "Backlink Gap Reports",
     description:
@@ -1969,7 +1973,7 @@ export const servicePage12 = [
   },
   {
     id: 4,
-    imgSrc: "/assets/images/template/saas-seo.webp",
+    imgSrc: "/assets/images/services/s-12-4.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Dedicated Consultation",
     description:
@@ -2032,7 +2036,7 @@ export const chooseUs = [
 export const searchAnalytics = [
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    src: "/assets/images/custom-icons/s-1-1.svg",
     alt: "feature-icon",
     title: "Content Gamble",
     description:
@@ -2040,7 +2044,7 @@ export const searchAnalytics = [
   },
   {
     order: "order-0",
-    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    src: "/assets/images/custom-icons/s-1-2.svg",
     alt: "feature-icon",
     title: "Reactive Strategy",
     description:
@@ -2048,7 +2052,7 @@ export const searchAnalytics = [
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    src: "/assets/images/custom-icons/s-1-3.svg",
     alt: "feature-icon",
     title: "Data Overload",
     description:
@@ -2056,7 +2060,7 @@ export const searchAnalytics = [
   },
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    src: "/assets/images/custom-icons/s-1-4.svg",
     alt: "feature-icon",
     title: "Generic Experience",
     description:
@@ -2067,7 +2071,7 @@ export const searchAnalytics = [
 export const geoService = [
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    src: "/assets/images/custom-icons/s-2-1.svg",
     alt: "feature-icon",
     title: "Adoption",
     description:
@@ -2075,7 +2079,7 @@ export const geoService = [
   },
   {
     order: "order-0",
-    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    src: "/assets/images/custom-icons/s-2-2.svg",
     alt: "feature-icon",
     title: "Decline",
     description:
@@ -2083,7 +2087,7 @@ export const geoService = [
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    src: "/assets/images/custom-icons/s-2-3.svg",
     alt: "feature-icon",
     title: "Disruption",
     description:
@@ -2091,7 +2095,7 @@ export const geoService = [
   },
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    src: "/assets/images/custom-icons/s-2-4.svg",
     alt: "feature-icon",
     title: "Shift",
     description:
@@ -2102,7 +2106,7 @@ export const geoService = [
 export const aeoService = [
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    src: "/assets/images/custom-icons/s-3-1.svg",
     alt: "feature-icon",
     title: "Decline",
     description:
@@ -2110,7 +2114,7 @@ export const aeoService = [
   },
   {
     order: "order-0",
-    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    src: "/assets/images/custom-icons/s-3-2.svg",
     alt: "feature-icon",
     title: "Collapse",
     description:
@@ -2118,7 +2122,7 @@ export const aeoService = [
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    src: "/assets/images/custom-icons/s-3-3.svg",
     alt: "feature-icon",
     title: "Downtrend",
     description:
@@ -2126,7 +2130,7 @@ export const aeoService = [
   },
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    src: "/assets/images/custom-icons/s-3-4.svg",
     alt: "feature-icon",
     title: "Leverage",
     description:
@@ -2137,7 +2141,7 @@ export const aeoService = [
 export const saasSeoService = [
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    src: "/assets/images/custom-icons/s-4-1.svg",
     alt: "feature-icon",
     title: "Content Gamble",
     description:
@@ -2145,7 +2149,7 @@ export const saasSeoService = [
   },
   {
     order: "order-0",
-    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    src: "/assets/images/custom-icons/s-4-2.svg",
     alt: "feature-icon",
     title: "Untapped",
     description:
@@ -2153,7 +2157,7 @@ export const saasSeoService = [
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    src: "/assets/images/custom-icons/s-4-3.svg",
     alt: "feature-icon",
     title: "Advantage",
     description:
@@ -2161,7 +2165,7 @@ export const saasSeoService = [
   },
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    src: "/assets/images/custom-icons/s-4-4.svg",
     alt: "feature-icon",
     title: "Limitations",
     description:
@@ -2172,7 +2176,7 @@ export const saasSeoService = [
 export const llmSeoService = [
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    src: "/assets/images/custom-icons/s-5-1.svg",
     alt: "feature-icon",
     title: "Market Expansion",
     description:
@@ -2180,7 +2184,7 @@ export const llmSeoService = [
   },
   {
     order: "order-0",
-    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    src: "/assets/images/custom-icons/s-5-2.svg",
     alt: "feature-icon",
     title: "Adoption Patterns",
     description:
@@ -2188,7 +2192,7 @@ export const llmSeoService = [
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    src: "/assets/images/custom-icons/s-5-3.svg",
     alt: "feature-icon",
     title: "AI-Sourced Traffic",
     description:
@@ -2196,7 +2200,7 @@ export const llmSeoService = [
   },
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    src: "/assets/images/custom-icons/s-5-4.svg",
     alt: "feature-icon",
     title: "Future Trends",
     description:
@@ -2207,7 +2211,7 @@ export const llmSeoService = [
 export const aiPromptService = [
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    src: "/assets/images/custom-icons/s-6-1.svg",
     alt: "feature-icon",
     title: "Unstructured Data Crisis",
     description:
@@ -2215,7 +2219,7 @@ export const aiPromptService = [
   },
   {
     order: "order-0",
-    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    src: "/assets/images/custom-icons/s-6-2.svg",
     alt: "feature-icon",
     title: "AI Roadblocks",
     description:
@@ -2223,7 +2227,7 @@ export const aiPromptService = [
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    src: "/assets/images/custom-icons/s-6-3.svg",
     alt: "feature-icon",
     title: "Generative AI Surge",
     description:
@@ -2231,7 +2235,7 @@ export const aiPromptService = [
   },
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    src: "/assets/images/custom-icons/s-6-4.svg",
     alt: "feature-icon",
     title: "AI Deployment Gap",
     description:
@@ -2242,7 +2246,7 @@ export const aiPromptService = [
 export const saasContent = [
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    src: "/assets/images/custom-icons/s-7-1.svg",
     alt: "feature-icon",
     title: "Effectiveness",
     description:
@@ -2250,7 +2254,7 @@ export const saasContent = [
   },
   {
     order: "order-0",
-    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    src: "/assets/images/custom-icons/s-7-2.svg",
     alt: "feature-icon",
     title: "Growth",
     description:
@@ -2258,7 +2262,7 @@ export const saasContent = [
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    src: "/assets/images/custom-icons/s-7-3.svg",
     alt: "feature-icon",
     title: "Returns",
     description:
@@ -2266,7 +2270,7 @@ export const saasContent = [
   },
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    src: "/assets/images/custom-icons/s-7-4.svg",
     alt: "feature-icon",
     title: "Trust",
     description:
@@ -2277,7 +2281,7 @@ export const saasContent = [
 export const marketingAnalytics = [
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    src: "/assets/images/custom-icons/s-10-1.svg",
     alt: "feature-icon",
     title: "Market Growth",
     description:
@@ -2285,7 +2289,7 @@ export const marketingAnalytics = [
   },
   {
     order: "order-0",
-    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    src: "/assets/images/custom-icons/s-10-2.svg",
     alt: "feature-icon",
     title: "Adoption Rates",
     description:
@@ -2293,7 +2297,7 @@ export const marketingAnalytics = [
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    src: "/assets/images/custom-icons/s-10-3.svg",
     alt: "feature-icon",
     title: "Performance Enhancement",
     description:
@@ -2301,7 +2305,7 @@ export const marketingAnalytics = [
   },
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    src: "/assets/images/custom-icons/s-10-4.svg",
     alt: "feature-icon",
     title: "Budget Allocation",
     description:
@@ -2312,7 +2316,7 @@ export const marketingAnalytics = [
 export const saasReddit = [
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    src: "/assets/images/custom-icons/s-8-1.svg",
     alt: "feature-icon",
     title: "Underutilized",
     description:
@@ -2320,7 +2324,7 @@ export const saasReddit = [
   },
   {
     order: "order-0",
-    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    src: "/assets/images/custom-icons/s-8-2.svg",
     alt: "feature-icon",
     title: "Missed",
     description:
@@ -2328,7 +2332,7 @@ export const saasReddit = [
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    src: "/assets/images/custom-icons/s-8-3.svg",
     alt: "feature-icon",
     title: "Untapped",
     description:
@@ -2336,7 +2340,7 @@ export const saasReddit = [
   },
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    src: "/assets/images/custom-icons/s-8-4.svg",
     alt: "feature-icon",
     title: "Undercounted",
     description:
@@ -2347,7 +2351,7 @@ export const saasReddit = [
 export const competitorBenchmarking = [
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    src: "/assets/images/custom-icons/s-9-1.svg",
     alt: "feature-icon",
     title: "Blindspots",
     description:
@@ -2355,7 +2359,7 @@ export const competitorBenchmarking = [
   },
   {
     order: "order-0",
-    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    src: "/assets/images/custom-icons/s-9-2.svg",
     alt: "feature-icon",
     title: "Stagnation",
     description:
@@ -2363,7 +2367,7 @@ export const competitorBenchmarking = [
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    src: "/assets/images/custom-icons/s-9-3.svg",
     alt: "feature-icon",
     title: "Misalignment",
     description:
@@ -2371,7 +2375,7 @@ export const competitorBenchmarking = [
   },
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    src: "/assets/images/custom-icons/s-9-4.svg",
     alt: "feature-icon",
     title: "Revenue-Loss",
     description:
@@ -2382,7 +2386,7 @@ export const competitorBenchmarking = [
 export const localSEO = [
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    src: "/assets/images/custom-icons/s-11-1.svg",
     alt: "feature-icon",
     title: "Conversions",
     description:
@@ -2390,7 +2394,7 @@ export const localSEO = [
   },
   {
     order: "order-0",
-    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    src: "/assets/images/custom-icons/s-11-2.svg",
     alt: "feature-icon",
     title: "Proactivity",
     description:
@@ -2398,7 +2402,7 @@ export const localSEO = [
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    src: "/assets/images/custom-icons/s-11-3.svg",
     alt: "feature-icon",
     title: "Discovery",
     description:
@@ -2406,7 +2410,7 @@ export const localSEO = [
   },
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    src: "/assets/images/custom-icons/s-11-4.svg",
     alt: "feature-icon",
     title: "Trust",
     description:
@@ -2417,7 +2421,7 @@ export const localSEO = [
 export const backlink = [
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    src: "/assets/images/custom-icons/s-12-1.svg",
     alt: "feature-icon",
     title: "Ranking",
     description:
@@ -2425,7 +2429,7 @@ export const backlink = [
   },
   {
     order: "order-0",
-    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    src: "/assets/images/custom-icons/s-12-2.svg",
     alt: "feature-icon",
     title: "Impact",
     description:
@@ -2433,7 +2437,7 @@ export const backlink = [
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    src: "/assets/images/custom-icons/s-12-3.svg",
     alt: "feature-icon",
     title: "Budget",
     description:
@@ -2441,7 +2445,7 @@ export const backlink = [
   },
   {
     order: "order-1 lg:order-0",
-    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    src: "/assets/images/custom-icons/s-12-4.svg",
     alt: "feature-icon",
     title: "Gap",
     description:
@@ -2487,8 +2491,8 @@ export const homeServices = [
 export const aboutWork = [
   {
     id: 1,
-    lightIcon: "/assets/images/template/icon-diamond.svg",
-    darkIcon: "/assets/images/template/icon-diamond-dark.svg",
+    lightIcon: "/assets/images/custom-icons/about-5.svg",
+    // darkIcon: "/assets/images/template/icon-diamond-dark.svg",
     altText: "impact-icon",
     title: "Create New Language",
     description:
@@ -2496,8 +2500,8 @@ export const aboutWork = [
   },
   {
     id: 2,
-    lightIcon: "/assets/images/template/icon-trophy.svg",
-    darkIcon: "/assets/images/template/icon-trophy-dark.svg",
+    lightIcon: "/assets/images/custom-icons/about-6.svg",
+    // darkIcon: "/assets/images/template/icon-trophy-dark.svg",
     altText: "crown-icon",
     title: "Ensure Understanding",
     description:
@@ -2505,8 +2509,8 @@ export const aboutWork = [
   },
   {
     id: 3,
-    lightIcon: "/assets/images/template/icon-crown.svg",
-    darkIcon: "/assets/images/template/icon-crown-dark.svg",
+    lightIcon: "/assets/images/custom-icons/about-7.svg",
+    // darkIcon: "/assets/images/template/icon-crown-dark.svg",
     altText: "empathy-icon",
     title: "Bring Brands to Life",
     description:
@@ -2765,5 +2769,195 @@ export const guideFocus = [
     title: "Innovation & Transparency",
     description:
       "We continuously refine our tools and techniques to match AI evolution while staying transparent, ethical, and focused on long-term success.",
+  },
+];
+
+export const featuresPage = [
+  {
+    imgSrc: "/assets/images/features/home-8-feature-01.png",
+    title: "AI Visibility Checker",
+    desc: "Tracks how your brand appears across AI platforms",
+    link: "/features/ai-visibility-checker",
+  },
+  {
+    imgSrc: "/assets/images/features/home-8-feature-05.png",
+    title: "AI Competitor Radar",
+    desc: "Monitors competitor presence and performance in AI",
+    link: "/features/ai-competitor-radar",
+  },
+  {
+    imgSrc: "/assets/images/features/home-8-feature-06.png",
+    title: "AI Crawlability Clinic",
+    desc: "Audits your site’s AI crawlability and indexability",
+    link: "/features/ai-crawlability-clinic",
+  },
+];
+
+export const learningsGEO = [
+  {
+    src: "/assets/images/features/geo-1.webp",
+    alt: "Industry Expertise",
+    title: "Industry Expertise",
+    desc: "Learn from seasoned professionals who shaped GEO, AEO, and LLM SEO practices for today’s leading global brands.",
+  },
+  {
+    src: "/assets/images/features/geo-2.webp",
+    alt: "Comprehensive Curriculum",
+    title: "Comprehensive Curriculum",
+    desc: "Explore every layer of GEO, from core foundations to advanced AI visibility strategies for ChatGPT, Perplexity, and Google AI.",
+  },
+  {
+    src: "/assets/images/features/geo-3.webp",
+    alt: "Practical Training",
+    title: "Practical Training",
+    desc: "Gain hands-on experience through live projects, detailed case studies, and guided exercises that prepare you for real-world success.",
+  },
+  {
+    src: "/assets/images/features/geo-4.webp",
+    alt: "Industry Connections",
+    title: "Industry Connections",
+    desc: "Expand your network by engaging with peers, mentors, and top industry leaders driving the future of AI-powered marketing.",
+  },
+  {
+    src: "/assets/images/features/geo-5.webp",
+    alt: "Recognized Certifications",
+    title: "Recognized Certifications",
+    desc: "Earn an accredited certification that validates your expertise and strengthens your authority in the digital marketplace.",
+  },
+  {
+    src: "/assets/images/features/geo-6.webp",
+    alt: "Paid Internship Opportunity",
+    title: "Paid Internship Opportunity",
+    desc: "Clear our interview round and secure a paid internship designed to provide genuine, career-advancing industry exposure.",
+  },
+];
+
+export const learningsAEO = [
+  {
+    src: "/assets/images/features/aeo-1.webp",
+    alt: "Industry Expertise",
+    title: "Industry Expertise",
+    desc: "Learn directly from experts who have pioneered AEO, GEO, and LLM SEO frameworks for today’s most influential digital brands.",
+  },
+  {
+    src: "/assets/images/features/aeo-2.webp",
+    alt: "Comprehensive Curriculum",
+    title: "Comprehensive Curriculum",
+    desc: "Master every aspect of AEO, from query intent to advanced optimization tactics designed for ChatGPT, Perplexity, and Google AI.",
+  },
+  {
+    src: "/assets/images/features/aeo-3.webp",
+    alt: "Practical Training",
+    title: "Practical Training",
+    desc: "Build expertise through real-world projects, immersive case studies, and hands-on exercises designed to make you career- and client-ready.",
+  },
+  {
+    src: "/assets/images/features/aeo-4.webp",
+    alt: "Industry Connections",
+    title: "Industry Connections",
+    desc: "Build strong networks with peers, mentors, and professionals leading the transformation of AI-powered search and discovery.",
+  },
+  {
+    src: "/assets/images/features/aeo-5.webp",
+    alt: "Recognized Certifications",
+    title: "Recognized Certifications",
+    desc: "Earn a professional certification that validates your authority and strengthens your credibility in competitive digital markets.",
+  },
+  {
+    src: "/assets/images/features/aeo-6.webp",
+    alt: "Paid Internship Opportunity",
+    title: "Paid Internship Opportunity",
+    desc: "Clear our interview round and secure a paid internship that provides real-world, career-enhancing industry experience.",
+  },
+];
+
+export const geoProblems = [
+  {
+    icon: "unicon-touch-interaction",
+    title: "AI Skips Traditional Signals",
+    description:
+      "Clicks, rankings, tags, and links don’t guarantee visibility. AI needs structured, smart content.",
+    backgroundColor: "bg-white dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-task-approved",
+    title: "Search Is Now Answer-First",
+    description:
+      "ChatGPT, Perplexity, and Google AI give direct answers. SEO is no longer the main event.",
+    backgroundColor: "bg-white dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-model",
+    title: "Brands Risk Invisible Presence",
+    description:
+      "Even top Google spots get skipped if content isn’t built for AI reuse and understanding.",
+    backgroundColor: "bg-white dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-document",
+    title: "GEO Solves the Visibility Gap",
+    description:
+      "Generative Engine Optimization helps AI cite, summarize, and surface your brand content.",
+    backgroundColor: "bg-white dark:bg-gray-800",
+  },
+];
+
+export const aeoProblems = [
+  {
+    icon: "unicon-touch-interaction",
+    title: "Built for Clicks, Not Answers",
+    description:
+      "SEO was made to climb Google and earn clicks, but AI engines broke the rules.",
+    backgroundColor: "bg-white dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-model",
+    title: "Answer Engines Change the Game",
+    description:
+      "ChatGPT, Perplexity, and Google AI skip links and give instant, direct answers.",
+    backgroundColor: "bg-white dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-task-approved",
+    title: "Rankings ≠ Visibility",
+    description:
+      "Even #1 on Google can vanish in AI results. Tags and links don’t earn citations.",
+    backgroundColor: "bg-white dark:bg-gray-800",
+  },
+  {
+    icon: "unicon-document",
+    title: "The New Standard: AEO",
+    description:
+      "AI favors structured, rich, reusable content. Answer Engine Optimization wins.",
+    backgroundColor: "bg-white dark:bg-gray-800",
+  },
+];
+
+export const coursesFeatures = [
+  {
+    order: "order-1 lg:order-0",
+    iconSrc: "/assets/images/common/icons/zap.svg",
+    alt: "feature-icon",
+    title: "Comprehensive Discovery",
+    description:
+      "Ensures your brand is visible across answer engines, generative platforms, and AI-driven search, leaving no gaps.",
+  },
+  {
+    order: "order-0",
+    iconSrc: "/assets/images/common/icons/database.svg",
+    alt: "feature-icon",
+    title: "Enhanced Credibility & Citations",
+    description:
+      "Positions your brand as a trusted source, increasing citations, mentions, and recommendations by AI systems.",
+    bgClass:
+      "bg-gradient-45 from-secondary to-transparent dark:from-tertiary-700 dark:to-tertiary sm:rounded-bottom-end-0 lg:rounded-2",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    iconSrc: "/assets/images/common/icons/puzzle.svg",
+    alt: "feature-icon",
+    title: "Sustained AI Presence",
+    description:
+      "Each strategy reinforces the others, creating long-term visibility and influence in AI-generated answers.",
   },
 ];

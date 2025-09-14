@@ -1229,12 +1229,12 @@ export const featuresHeader = [
 export const coursesHeader = [
   {
     title: "Generative Engine Optimization Course",
-    link: "/geo-course",
+    link: "/free-courses/best-generative-engine-optimization-geo-course-for-free",
     icon: "unicon-cube",
   },
   {
     title: "Answer Engine Optimization Course",
-    link: "/aeo-course",
+    link: "/free-courses/best-answer-engine-optimization-course-for-free/",
     icon: "unicon-gamification",
   },
 ];

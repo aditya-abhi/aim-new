@@ -12,7 +12,7 @@ export default function Testimonials() {
   return (
     <div
       id="clients_feedback"
-      className="clients-feedback section panel  scrollSpysection"
+      className="clients-feedback section panel scrollSpysection uc-dark"
     >
       <div className="section-outer panel py-6 lg:py-8 xl:py-10 lg:mx-2 rounded-2 bg-tertiary-700 lg:rounded-2 my-2">
         <div className="container xl:max-w-xl">
@@ -20,18 +20,10 @@ export default function Testimonials() {
             className="section-inner panel vstack items-center gap-4 md:gap-6 lg:gap-8 max-w-100"
             data-anime="onview: -100; targets: >*; translateY: [-40, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(200);"
           >
-            <div
-              className="panel vstack items-center gap-2 xl:gap-3 text-center"
-              data-anime="onview: -100; targets: >*; translateY: [-48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
-            >
-              <p className="h3 lg:h2 xl:h1 m-0 px-2 text-white">
-                Don't{" "}
-                <span className="d-inline-flex px-1 bg-primary text-secondary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
-                  just take our words
-                </span>{" "}
-                for it!
-              </p>
-            </div>
+            <h2 className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto">
+              Don't Just Take Our Words{" "}
+              <span className="text-tertiary dark:text-primary">For It!</span>
+            </h2>
             <div className="panel w-100 mask-x">
               <Swiper
                 className="swiper"

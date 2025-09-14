@@ -6,6 +6,7 @@ import Testimonials from "@/components/features/Testimonials";
 import Cta from "@/components/features/Cta";
 import Problem from "@/components/features/Problem";
 import Target from "@/components/features/Target";
+import Features from "@/components/features/Features";
 export const metadata = {
   title:
     "Features || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
@@ -22,6 +23,7 @@ export default function page() {
             <Hero />
             <Problem />
             <Target />
+            <Features />
             <Faq />
             <Testimonials />
             <Cta />

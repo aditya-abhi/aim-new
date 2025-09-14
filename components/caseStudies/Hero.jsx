@@ -4,11 +4,16 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
+    // <div
+    //   id="overview"
+    //   className="overview section panel overflow-hidden uc-dark lg:mx-2 lg:rounded-2 lg:rounded-top-0 scrollSpysection"
+    // >
+    //   <div className="position-cover bg-white dark:bg-gray-900" />
     <div
-      id="overview"
-      className="overview section panel overflow-hidden uc-dark lg:mx-2 lg:rounded-2 lg:rounded-top-0 scrollSpysection"
+      id="hero_header"
+      className="hero-header section panel overflow-hidden uc-dark"
     >
-      <div className="position-cover bg-white dark:bg-gray-900" />
+      <div className="position-absolute top-0 start-0 end-0 h-screen bg-secondary dark:bg-tertiary-700 lg:rounded-2 lg:rounded-top-0 lg:m-2 lg:mt-0" />
       <div
         className="position-cover opacity-70 bg-contain"
         style={{ backgroundPosition: "50% 85%" }}
@@ -16,7 +21,7 @@ export default function Hero() {
         data-alt="background"
         data-uc-img=""
       />
-      <div className="position-cover bg-gradient-to-t from-gray-800 via-transparent to-gray-900" />
+      {/* <div className="position-cover bg-gradient-to-t from-gray-800 via-transparent to-gray-900" /> */}
       <div
         className="position-absolute d-inline-block w-500px h-500px rounded-circle bg-gradient-45 from-primary to-white start-50 blur-10 translate-middle blend-color-dodge"
         style={{ top: "0%" }}
@@ -98,18 +103,19 @@ export default function Hero() {
                   data-anime="targets: >*:not(.dashboard-image); scale: [0.5, 1]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
                 >
                   <div
-                    className="dashboard-image max-w-lg mx-auto max-h-250px lg:max-h-550px overflow-hidden"
+                    className="panel rounded-2 p-1"
+                    // className="dashboard-image max-w-lg mx-auto max-h-250px lg:max-h-550px overflow-hidden"
                     data-anime="translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
                   >
                     <Image
-                      className="shadow-md lg:shadow-lg"
+                      // className="shadow-md lg:shadow-lg"
                       alt="app-dashboard"
                       src="/assets/images/template/case-study.webp"
                       width="1280"
                       height="853"
                     />
                   </div>
-                  <div className="position-absolute top-50 end-0 translate-middle-y mt-2 lg:me-5">
+                  {/* <div className="position-absolute top-50 end-0 translate-middle-y mt-2 lg:me-5">
                     <Image
                       className="w-100px text-primary lg:rounded-2 shadow-xl"
                       alt="app-dashboard-helper-1"
@@ -118,7 +124,7 @@ export default function Hero() {
                       width="306"
                       height="583"
                     />
-                  </div>
+                  </div> */}
                   {/* <div
                     className="position-absolute"
                     style={{ top: "74%", right: "7%" }}

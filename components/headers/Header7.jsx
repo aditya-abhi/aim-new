@@ -205,7 +205,7 @@ export default function Header7() {
                     </div>
                   </li>
                   <li className="has-dd-menu">
-                    <a href="/courses" role="button" aria-haspopup="true">
+                    <a href="/free-courses" role="button" aria-haspopup="true">
                       Courses{" "}
                       <span
                         data-uc-navbar-parent-icon=""

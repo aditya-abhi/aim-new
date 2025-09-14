@@ -40,8 +40,8 @@ export const panelsData = [
 export const aboutUs = [
   {
     id: 1,
-    lightImgSrc: "/assets/images/template/icon-diamond.svg",
-    darkImgSrc: "/assets/images/template/icon-diamond-dark.svg",
+    lightImgSrc: "/assets/images/custom-icons/about-1.svg",
+    darkImgSrc: "/assets/images/custom-icons/about-1.svg",
     altText: "impact-icon",
     title: "Own Your Visibility",
     description:
@@ -49,8 +49,8 @@ export const aboutUs = [
   },
   {
     id: 2,
-    lightImgSrc: "/assets/images/template/icon-trophy.svg",
-    darkImgSrc: "/assets/images/template/icon-trophy-dark.svg",
+    lightImgSrc: "/assets/images/custom-icons/about-2.svg",
+    darkImgSrc: "/assets/images/custom-icons/about-2.svg",
     altText: "crown-icon",
     title: "Redefine Discovery",
     description:
@@ -58,8 +58,8 @@ export const aboutUs = [
   },
   {
     id: 3,
-    lightImgSrc: "/assets/images/template/icon-globe.svg",
-    darkImgSrc: "/assets/images/template/icon-globe-dark.svg",
+    lightImgSrc: "/assets/images/custom-icons/about-3.svg",
+    darkImgSrc: "/assets/images/custom-icons/about-3.svg",
     altText: "fun-icon",
     title: "Be Everywhere",
     description:
@@ -67,8 +67,8 @@ export const aboutUs = [
   },
   {
     id: 4,
-    lightImgSrc: "/assets/images/template/icon-crown.svg",
-    darkImgSrc: "/assets/images/template/icon-crown-dark.svg",
+    lightImgSrc: "/assets/images/custom-icons/about-4.svg",
+    darkImgSrc: "/assets/images/custom-icons/about-4.svg",
     altText: "empathy-icon",
     title: "Growth Without Limits",
     description:

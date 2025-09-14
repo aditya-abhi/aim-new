@@ -760,3 +760,33 @@ export const agency = [
     position: "Lead Marketing",
   },
 ];
+
+export const testimonialsFeatures = [
+  {
+    brandImgSrc: "/assets/images/brands/brand-07.svg",
+    brandImgAlt: "Brand",
+    text: "“AI Crawlability Clinic flagged pages with poor internal linking and navigation issues that were affecting generative engine visibility. The technical insights were actionable and easy to implement.”",
+    avatarImgSrc: "/assets/images/avatars/01.png",
+    avatarImgAlt: "Shruti K",
+    name: "Shruti K",
+    position: "Head of Growth",
+  },
+  {
+    brandImgSrc: "/assets/images/brands/brand-06.svg",
+    brandImgAlt: "Brand",
+    text: "“As an SEO professional, I found Competitor Radar very valuable for benchmarking. It highlights overlap and missing citations in AI platforms, which helps us align our content strategy with real-time AI outputs.”",
+    avatarImgSrc: "/assets/images/avatars/04.png",
+    avatarImgAlt: "Manish Patel",
+    name: "Manish Patel",
+    position: "Senior SEO Strategist",
+  },
+  {
+    brandImgSrc: "/assets/images/brands/brand-08.svg",
+    brandImgAlt: "Brand",
+    text: "“I first tried the demo just to see how it worked, and I was honestly impressed with how clearly it showed our AI mentions. After that, upgrade to a paid plan. The AI Monitor team also helped me with the setup and walked me through everything.”",
+    avatarImgSrc: "/assets/images/avatars/03.png",
+    avatarImgAlt: "Rachel Kim",
+    name: "Rachel Kim",
+    position: "Marketing Manager",
+  },
+];

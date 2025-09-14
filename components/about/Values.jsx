@@ -24,7 +24,7 @@ export default function Values() {
               >
                 {aboutUs.map((panel) => (
                   <div key={panel.id}>
-                    <div className="panel vstack gap-2 p-4 lg:py-6 rounded-2 bg-white dark:bg-gray-800">
+                    <div className="panel vstack gap-2 p-4 lg:py-6 rounded-2 bg-white dark:bg-secondary">
                       <Image
                         className="w-64px lg:w-80px d-block dark:d-none"
                         src={panel.lightImgSrc}
@@ -39,8 +39,10 @@ export default function Values() {
                         height={100}
                         alt={panel.altText}
                       />
-                      <h5 className="h5 lg:h4 m-0">{panel.title}</h5>
-                      <p className="fs-6 opacity-70 dark:opacity-80">
+                      <h5 className="h5 lg:h4 m-0 dark:text-dark">
+                        {panel.title}
+                      </h5>
+                      <p className="fs-6 opacity-70 dark:text-dark">
                         {panel.description}
                       </p>
                     </div>

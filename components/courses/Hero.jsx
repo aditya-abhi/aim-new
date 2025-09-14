@@ -55,78 +55,15 @@ export default function Hero() {
                       AI Overviews decide who gets seen online. Learn how AEO
                       and GEO shape AI-driven search visibility in this new era.
                     </p>
-                    {/* <div
-                      className="vstack md:hstack justify-center gap-1 my-1 lg:my-3"
-                      data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 750;"
-                    >
-                      <a
-                        href="#"
-                        className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 w-auto"
-                      >
-                        <span>Start your free trial</span>
-                      </a>
-                    </div> */}
-                    {/* <div
-                      className="vstack sm:hstack justify-center gap-1 fs-6 text-gray-900 dark:text-white sm-flex-column"
-                      data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 850;"
-                    >
-                      <div className="hstack justify-center gap-2">
-                        <b>Exellent</b>
-                        <div className="rating panel">
-                          <div className="hstack justify-center gap-narrow">
-                            <i
-                              className="icon unicon-star-filled text-white p-narrow"
-                              style={{ backgroundColor: "#00b67a" }}
-                            />
-                            <i
-                              className="icon unicon-star-filled text-white p-narrow"
-                              style={{ backgroundColor: "#00b67a" }}
-                            />
-                            <i
-                              className="icon unicon-star-filled text-white p-narrow"
-                              style={{ backgroundColor: "#00b67a" }}
-                            />
-                            <i
-                              className="icon unicon-star-filled text-white p-narrow"
-                              style={{ backgroundColor: "#00b67a" }}
-                            />
-                            <i
-                              className="icon unicon-star-filled text-white p-narrow"
-                              style={{ backgroundColor: "#00b67a" }}
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div className="hstack justify-center gap-narrow">
-                        <span className="desc rtl:order-first">
-                          4,000+ reviews on
-                        </span>
-                        <div>
-                          <Image
-                            alt="Trustpilot"
-                            className="w-96px dark:d-none"
-                            src="/assets/images/review-logo/05.svg"
-                            width={138}
-                            height={42}
-                          />
-                          <Image
-                            alt="Trustpilot"
-                            className="w-96px d-none dark:d-inline-flex"
-                            src="/assets/images/review-logo/dark-05.svg"
-                            width={138}
-                            height={42}
-                          />
-                        </div>
-                      </div>
-                    </div> */}
                   </div>
                   <div
                     className="panel border shadow-lg rounded-2 p-1"
                     data-anime="translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 450; delay: 950;"
                   >
                     <Image
-                      alt="Dashboard Lexend"
-                      src="/assets/images/template/dashboard-8-home.png"
+                      className="rounded-1-5 lg:rounded-2"
+                      alt="AI Monitor Courses pahe hero image"
+                      src="/assets/images/template/courses-hero.webp"
                       width={1353}
                       height={978}
                     />

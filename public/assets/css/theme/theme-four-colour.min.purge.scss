@@ -5924,6 +5924,9 @@
   .max-w-48px {
     max-width: 48px !important;
   }
+  .max-w-64px {
+    max-width: 64px !important;
+  }
   .max-w-80px {
     max-width: 80px !important;
   }
@@ -7383,6 +7386,12 @@
   .min-w-48px {
     min-width: 48px !important;
   }
+  .min-w-64px {
+    min-width: 64px !important;
+  }
+  .min-w-80px {
+    min-width: 64px !important;
+  }
   .min-w-150px {
     min-width: 150px !important;
   }
@@ -8159,6 +8168,9 @@
     .lg\:max-w-350px {
       max-width: 350px !important;
     }
+    .lg\:max-w-400px {
+      max-width: 4000px !important;
+    }
     .lg\:max-w-500px {
       max-width: 500px !important;
     }
@@ -8616,6 +8628,9 @@
     .xl\:w-450px {
       width: 450px !important;
     }
+    .xl\:w-500px {
+      width: 500px !important;
+    }
     .xl\:w-600px {
       width: 600px !important;
     }
@@ -8985,6 +9000,13 @@
   :where(.uc-dark) .dark\:from-tertiary-700 {
     --uc-gradient-from: #01353c;
     --uc-gradient-stops: var(--uc-gradient-from), var(--uc-gradient-to);
+  }
+  :where(.uc-dark) .dark\:from-tertiary-500 {
+    --uc-gradient-from: #024650;
+    --uc-gradient-stops: var(--uc-gradient-from), var(--uc-gradient-to);
+  }
+  :where(.uc-dark) .dark\:to-tertiary-700 {
+    --uc-gradient-to: #01353c;
   }
   :where(.uc-dark) .dark\:to-tertiary-800 {
     --uc-gradient-to: #012328;
