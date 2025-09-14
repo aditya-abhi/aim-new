@@ -162,7 +162,7 @@ export default function Head({
           </figure>
         </div>
         <div className="container container-75 hstack gap-4 my-2 lg:pl-5">
-          <h2 className="h5">
+          <h2 className="h6">
             Published on:{" "}
             <span className="text-tertiary dark:text-primary">
               {publishedOn}{" "}

@@ -2,10 +2,16 @@ import { blogPosts2, blogPosts3, blogPosts7, posts2 } from "@/data/blogs";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import AISummaryButtons from "../components/AISummaryButtons";
 
 export default function RightSideTop() {
   return (
     <div className="uc-sidebar panel vstack gap-2 ">
+      {/* AI Summary Buttons Widget */}
+      <div className="widget ai-summary-widget mb-3">
+        <AISummaryButtons />
+      </div>
+      
       <div className="widget featured-widget vstack gap-2 lg:gap-4 p-2 py-3 lg:p-4 lg:py-5 rounded-1-5 lg:rounded-2 bg-gray-25 dark:bg-gray-800 mb-3">
         <div className="widget-title text-center">
           <h5 className="fs-7 m-0">Featured post</h5>
