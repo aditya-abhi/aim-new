@@ -202,8 +202,8 @@ export default function Hero() {
                             <TyperComponent
                               strings={[
                                 "ChatGPT",
-                                "Google AI Overview",
-                                "Microsoft Copilot",
+                                "AI Overview",
+                                "Copilot",
                                 "Perplexity",
                               ]}
                             />
