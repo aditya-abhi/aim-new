@@ -1,13 +1,20 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 export default function Head({
   pageName = "Blog Sidebar Left",
   publishedOn = "September 14, 2025",
-  updatedOn = "September 15, 2025",
+  updatedOn = "",
 }) {
+  const [isUpdated, setIsUpdated] = useState(false);
+  useEffect(() => {
+    if (updatedOn != "") {
+      setIsUpdated(true);
+    }
+  }, []);
+
   return (
     <>
       <div className="position-absolute top-0 start-0 end-0 min-h-700px xl:min-h-900px bg-tertiary-700 lg:rounded-2 lg:rounded-top-0 lg:mx-2 mt-0 z-0" />
@@ -161,7 +168,7 @@ export default function Head({
               {publishedOn}{" "}
             </span>{" "}
           </h2>
-          <div className={updatedOn ? "d-block" : "d-none"}>
+          <div className={isUpdated ? "d-block" : "d-none"}>
             <h2 className="h5">
               Updated on:{" "}
               <span className="text-tertiary dark:text-primary">

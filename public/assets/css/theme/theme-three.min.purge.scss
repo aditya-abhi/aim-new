@@ -4164,6 +4164,18 @@
     .lg\:col {
       flex: 1 0 0%;
     }
+    .lg\:col-1 {
+      --grid-total: 12;
+      --grid-count: 1;
+      flex: 0 0 auto;
+      width: 8.333%;
+    }
+    .lg\:col-2 {
+      --grid-total: 12;
+      --grid-count: 2;
+      flex: 0 0 auto;
+      width: 16.66%;
+    }
     .lg\:col-3 {
       --grid-total: 12;
       --grid-count: 3;
@@ -4205,6 +4217,12 @@
       --grid-count: 10;
       flex: 0 0 auto;
       width: 83.33333333%;
+    }
+    .lg\:col-11 {
+      --grid-total: 12;
+      --grid-count: 11;
+      flex: 0 0 auto;
+      width: 91.66666666%;
     }
     .lg\:g-0,
     .lg\:gx-0 {
@@ -5694,6 +5712,13 @@
   }
   .border-white {
     --bs-border-opacity: 1;
+    border-color: rgba(
+      var(--bs-white-rgb),
+      var(--bs-border-opacity)
+    ) !important;
+  }
+  :where(.uc-dark) .dark\:border-white {
+    --bs-border-opacity: 1 !important;
     border-color: rgba(
       var(--bs-white-rgb),
       var(--bs-border-opacity)

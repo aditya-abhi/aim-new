@@ -9,6 +9,9 @@ import Author from "@/components/blogs/components/Author";
 import Blog1Faqs from "@/components/blogs/faqs/Blog1Faqs";
 import NextPrevBlogs from "@/components/blogs/components/NextPrevBlogs";
 import RelatedBlogs from "@/components/blogs/components/RelatedBlogs";
+import AuthorBioShort from "@/components/blogs/components/AuthorBioShort";
+import Experiment1 from "@/components/blogs/components/Experiment1";
+import Experiment2 from "@/components/blogs/components/Experiment2";
 export const metadata = {
   title:
     "Blog Template || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
@@ -27,10 +30,12 @@ export default function page() {
           <Header7 staticPosition={true} />
           <div id="wrapper" className="wrap">
             <Head pageName="Blog Template" />
-            <Author />
+            <Experiment1 />
+            <AuthorBioShort />
             <BlogTemplate />
             <Author />
             <Blog1Faqs />
+            <Experiment2 />
             <NextPrevBlogs />
             <RelatedBlogs />
           </div>
