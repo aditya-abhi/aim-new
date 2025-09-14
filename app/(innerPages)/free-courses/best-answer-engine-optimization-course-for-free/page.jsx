@@ -14,6 +14,7 @@ import Instructor from "@/components/aeo-course/Instructor";
 import Testimonials from "@/components/aeo-course/Testimonials";
 import React from "react";
 import Learnings from "@/components/aeo-course/Learnings";
+import Certificate from "@/components/aeo-course/Certificate";
 export const metadata = {
   title: "AI Monitor || Answer Engine Optimization Course",
   description:
@@ -34,6 +35,7 @@ export default function page() {
               <About />
               <Content />
               <Achievements />
+              <Certificate />
               <Instructor />
               <BestFor />
               <Faqs />

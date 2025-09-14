@@ -30,12 +30,12 @@ export default function Features2() {
                 links. They generate direct responses. And that shift changes
                 everything.
               </p>
-              <h3 className="h5 lg:h4 m-0">
+              {/* <h3 className="h5 lg:h4 m-0">
                 Welcome to the era of{" "}
                 <span className="text-primary">
                   Generative Engine Optimization (GEO).
                 </span>
-              </h3>
+              </h3> */}
               <h3 className="h4 lg:h3 m-0 mt-4">
                 Why Traditional SEO Falls Short in 2025
               </h3>

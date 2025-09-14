@@ -20,7 +20,9 @@ export default function Instructor() {
                 style={{ transform: "translateY(0px)", opacity: 1 }}
               >
                 Meet Your Instructor:{" "}
-                <span className="text-primary">Avinash Tripathi</span>
+                <span className="text-tertiary dark:text-primary">
+                  Avinash Tripathi
+                </span>
               </h2>
               <div className="post-author panel py-4 px-3 sm:p-3 xl:p-4 bg-gray-25 dark:bg-opacity-5 rounded lg:rounded-2">
                 <div className="row g-4 items-center">

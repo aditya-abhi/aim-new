@@ -1086,6 +1086,7 @@
   --bs-gray-700-rgb: 29, 34, 35;
   --bs-gray-800-rgb: 20, 23, 23;
   --bs-gray-900-rgb: 10, 11, 12;
+  --bs-slate-rgb: 256, 256, 256;
   --bs-slate-rgb: 107, 114, 128;
   --bs-slate-10-rgb: 251, 251, 251;
   --bs-slate-25-rgb: 248, 248, 249;
@@ -6683,6 +6684,10 @@
   .text-primary {
     --bs-text-opacity: 1;
     color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  }
+  .text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
   }
   .text-secondary {
     --bs-text-opacity: 1;

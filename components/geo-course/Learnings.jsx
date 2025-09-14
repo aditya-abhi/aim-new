@@ -21,7 +21,7 @@ export default function Learnings() {
               {/* <span className="fs-7 fw-medium py-narrow px-2 bg-dark text-white dark:bg-primary dark:text-dark rounded-pill">
                 Main Features
               </span> */}
-              <h2 className="h3 lg:h1 m-0">
+              <h2 className="h3 lg:h2 m-0">
                 What You Will{" "}
                 <span className="text-tertiary dark:text-primary">Learn!</span>
               </h2>

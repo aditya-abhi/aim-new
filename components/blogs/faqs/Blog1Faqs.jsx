@@ -5,7 +5,7 @@ export default function Blog1Faqs() {
   return (
     <div id="faq" className="faq section panel">
       <div className="section-outer panel">
-        <div className="container lg:max-w-lg lg:pt-8">
+        <div className="container lg:max-w-lg lg:py-8">
           <div
             className="section-inner panel"
             data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"

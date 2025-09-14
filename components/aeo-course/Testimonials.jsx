@@ -19,8 +19,11 @@ export default function Testimonials() {
               data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100);"
             >
               <div className="section-header vstack items-center gap-2 lg:gap-3">
-                <h2 className="h3 sm:h1 lg:display-5 m-0 text-center max-w-650px mx-auto">
-                  What our Learners have to say about the Course!
+                <h2 className="h3 lg:h2 m-0 text-center max-w-650px mx-auto">
+                  What our Learners have to say{" "}
+                  <span className="text-tertiary dark:text-primary">
+                    about the Course!
+                  </span>
                 </h2>
               </div>
               <div className="panel w-100 swiper-parent">

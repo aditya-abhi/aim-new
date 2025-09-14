@@ -19,7 +19,11 @@ export default function BestFor() {
                 PERFECT FOR
               </span>
               <h2 className="h3 lg:h2 m-0">
-                Who Should Attend This Answer Engine Optimization (AEO) Course?
+                Who Should Attend This{" "}
+                <span className="text-primary">
+                  Answer Engine Optimization (AEO)
+                </span>{" "}
+                Course?
               </h2>
               <p className="fs-6 xl:fs-5 xl:px-8">
                 This course is Recommended for:

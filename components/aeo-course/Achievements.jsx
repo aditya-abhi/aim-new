@@ -19,8 +19,10 @@ export default function Achievements() {
                 />
                 <div className="panel vstack items-start gap-2 uc-sticky">
                   <h2 className="h3 lg:h2 m-0 text-white">
-                    What You’ll Achieve by the End of This Free, 7-Day Intensive
-                    AEO Course
+                    What You’ll Achieve by the End of This Free,{" "}
+                    <span className="text-primary">
+                      7-Day Intensive AEO Course
+                    </span>
                   </h2>
                 </div>
               </div>

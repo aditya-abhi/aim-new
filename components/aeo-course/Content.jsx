@@ -8,7 +8,11 @@ export default function Content() {
         <div className="container sm:max-w-md lg:max-w-lg xl:max-w-xl">
           <div className="panel text-center items-center justify-center mb-6 lg:mb-8 xl:mb-10">
             <h2 className="h3 lg:h2">
-              7-Day Answer Engine Optimization Course Structure
+              7-Day{" "}
+              <span className="text-tertiary dark:text-primary">
+                Answer Engine Optimization
+              </span>{" "}
+              Course Structure
             </h2>
           </div>
           <div className="section-inner panel">
@@ -32,7 +36,7 @@ export default function Content() {
                   <div className="col-12 sm:col-6 order-1 lg:order-0">
                     <div className="panel justify-center gap-4 sm:gap-6 h-100">
                       {/* <div className="items-center"> */}
-                      <div className="panel vstack">
+                      <div className="panel vstack lg:mt-6">
                         <h3 className="h4 lg:h4 xl:h3 m-0">
                           Day 1 : Introduction to AEO & Answer Engines
                         </h3>
@@ -178,7 +182,7 @@ export default function Content() {
                   <div className="col-12 sm:col-6 order-1 lg:order-0">
                     <div className="panel vstack justify-center gap-4 sm:gap-6 h-100">
                       <div>
-                        <div className="panel vstack">
+                        <div className="panel vstack lg:mt-6">
                           <h3 className="h4 lg:h4 xl:h3 m-0">
                             Day 3: SEO vs LLM SEO vs AEO
                           </h3>
@@ -243,7 +247,7 @@ export default function Content() {
                   <div className="col-12 sm:col-6 order-1 lg:order-0">
                     <div className="panel vstack justify-center gap-4 sm:gap-6 h-100">
                       <div>
-                        <div className="panel vstack">
+                        <div className="panel vstack lg:mt-6">
                           <h3 className="h4 lg:h4 xl:h3 m-0">
                             Day 4: Practical AEO Techniques That Work
                           </h3>
@@ -311,7 +315,7 @@ export default function Content() {
                     </div>
                   </div>
                   <div className="col-12 sm:col-6 order-1 lg:order-0">
-                    <div className="panel vstack justify-center gap-4 sm:gap-6 h-100">
+                    <div className="panel vstack justify-center gap-4 sm:gap-6 h-100 lg:mt-6">
                       <div>
                         <div className="panel vstack">
                           <h3 className="h4 lg:h4 xl:h3 m-0">
@@ -390,7 +394,7 @@ export default function Content() {
                   <div className="col-12 sm:col-6 order-1 lg:order-0">
                     <div className="panel vstack justify-center gap-4 sm:gap-6 h-100">
                       <div>
-                        <div className="panel vstack">
+                        <div className="panel vstack lg:mt-6">
                           <h3 className="h4 lg:h4 xl:h3 m-0">
                             Day 6: Strategies for Zero-Click Optimization
                           </h3>
@@ -459,7 +463,7 @@ export default function Content() {
                   <div className="col-12 sm:col-6 order-1 lg:order-0">
                     <div className="panel vstack justify-center gap-4 sm:gap-6 h-100">
                       <div>
-                        <div className="panel vstack">
+                        <div className="panel vstack lg:mt-6">
                           <h3 className="h4 lg:h4 xl:h3 m-0">
                             Day 7: Crafting Your AEO Roadmap
                           </h3>

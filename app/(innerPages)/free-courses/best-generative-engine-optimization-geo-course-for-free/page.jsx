@@ -15,6 +15,7 @@ import Testimonials from "@/components/geo-course/Testimonials";
 import React from "react";
 import WhatWillYouLearn from "@/components/geo-course/WhatWillYouLearn";
 import Learnings from "@/components/geo-course/Learnings";
+import Certificate from "@/components/geo-course/Certificate";
 export const metadata = {
   title: "AI Monitor || Generative Engine Optimization Course",
   description:
@@ -36,6 +37,7 @@ export default function page() {
               <About />
               <Content />
               <Achievements />
+              <Certificate />
               <Instructor />
               <BestFor />
               <Faqs />

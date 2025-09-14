@@ -28,12 +28,12 @@ export default function Features2() {
                 These <b>Answer Engines</b> don’t just rank pages; they{" "}
                 <b>generate responses</b> that aim to fully solve user queries.
               </p>
-              <h3 className="h5 lg:h4 m-0">
+              {/* <h3 className="h5 lg:h4 m-0">
                 Welcome to the era of{" "}
                 <span className="text-primary">
                   Answer Engine Optimization (AEO).
                 </span>
-              </h3>
+              </h3> */}
               <h3 className="h4 lg:h3 m-0 mt-4">
                 Why Traditional SEO Falls Short in 2025
               </h3>
@@ -50,12 +50,12 @@ export default function Features2() {
                       >
                         <div className="vstack panel min-h-250px">
                           <div className="vstack items-center text-center justify-between gap-2 h-100">
-                            <div className="cstack w-96px h-96px rounded-circle mt-2 bg-gray-900 dark:bg-white bg-opacity-5 dark:bg-opacity-15">
+                            <div className="cstack w-96px h-96px rounded-circle mt-2 bg-gray-700 dark:bg-white bg-opacity-5 dark:bg-opacity-15">
                               <i className={`icon icon-4 ${feature.icon}`} />
                             </div>
-                            <div className="panel">
+                            <div className="panel hover:text-dark">
                               <div className="vstack gap-1">
-                                <h3 className="title h5 m-0 text-inherit">
+                                <h3 className="title h5 m-0">
                                   {feature.title}
                                 </h3>
                                 <p className="desc fs-6 opacity-70">

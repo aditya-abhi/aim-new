@@ -5,7 +5,7 @@ export default function Faqs() {
   return (
     <div id="faq" className="faq section panel">
       <div className="section-outer panel">
-        <div className="container lg:max-w-lg py-6 lg:py-8 xl:py-10">
+        <div className="container lg:max-w-lg pt-6 lg:pt-8 xl:pt-10">
           <div
             className="section-inner panel"
             data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
@@ -14,7 +14,10 @@ export default function Faqs() {
               <div>
                 <div className="vstack items-center text-center gap-2">
                   <h2 className="h4 sm:h3 xl:h2 m-0">
-                    Frequently asked questions!
+                    Frequently Asked{" "}
+                    <spam className="text-tertiary dark:text-primary">
+                      Questions!
+                    </spam>
                   </h2>
                 </div>
               </div>
