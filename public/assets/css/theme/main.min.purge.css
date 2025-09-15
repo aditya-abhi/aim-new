@@ -2076,12 +2076,12 @@ hr {
   background: var(--color-primary);
   color: #fff;
 }
-.post-content p:first-child::first-letter {
+/* .post-content p:first-child::first-letter {
   font-size: 5em;
   float: left;
   line-height: 0.9em;
   margin-right: 16px;
-}
+} */
 .post-navigation .new-post:hover button {
   color: var(--color-primary) !important;
 }
