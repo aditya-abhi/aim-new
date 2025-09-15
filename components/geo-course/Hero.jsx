@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { mailer } from "@/utlis/mailer";
 import { openGeoEnrollModal } from "@/utlis/toggleGeoEnrollModal";
 
 export default function Hero() {
@@ -129,6 +130,13 @@ export default function Hero() {
                                     Free
                                   </span>
                                 </div>
+                                {/* <button
+                                  // class="ml-onclick-form"
+                                  className="button button-lg button-primary"
+                                  onclick="ml('show', '3ttGXK', true)"
+                                >
+                                  Click here to show form
+                                </button> */}
                               </div>
                             </div>
                           </div>

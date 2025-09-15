@@ -2961,3 +2961,54 @@ export const coursesFeatures = [
       "Each strategy reinforces the others, creating long-term visibility and influence in AI-generated answers.",
   },
 ];
+
+export const achievementsAEO = [
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    alt: "feature-icon",
+    title: "Become a Cited Source in AI Answers",
+    description:
+      " Position your content as an authoritative reference that answer engines like Google AI Overviews, ChatGPT, and Perplexity prefer to cite.",
+  },
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    alt: "feature-icon",
+    title: "Unlock Emerging AI Visibility Channels",
+    description:
+      "Gain exposure in emerging platforms like Gemini, Claude, and Perplexity—before your competitors catch up.",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    alt: "feature-icon",
+    title: "Future-Proof Your Search Strategy",
+    description:
+      "Adapt to the shift from search to answer engine discovery and stay competitive as SEO evolves into AEO.",
+  },
+  {
+    order: "order-0",
+    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    alt: "feature-icon",
+    title: "Zero-Click and High-Intent Traffic",
+    description:
+      "Reach users directly through AI-generated answers, even when they skip traditional search results.",
+  },
+  {
+    order: "order-3 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-05.svg",
+    alt: "feature-icon",
+    title: "Track and Improve Your AI Presence",
+    description:
+      "Measure your brand’s visibility and citations across answer engines, and refine your strategy with data-driven AEO tools.",
+  },
+  {
+    order: "order-2 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-06.svg",
+    alt: "feature-icon",
+    title: "Build an AI-Friendly Brand Language",
+    description:
+      "Craft messaging that resonates with both humans and machines—ensuring your brand is accurately represented across AI platforms.",
+  },
+];

@@ -43,7 +43,7 @@ export default function Purpose() {
             <div className="panel vstack gap-4 xl:gap-6">
               <div className="panel px-3 rounded-2 bg-secondary dark:bg-gray-800">
                 <ul
-                  className="main-features-nav hstack text-center overflow-auto"
+                  className="main-features-nav-narrow hstack text-center overflow-auto"
                   data-uc-switcher="connect: .main-features-switcher; active: 1; animation: uc-animation-fade;"
                   role="tablist"
                 >

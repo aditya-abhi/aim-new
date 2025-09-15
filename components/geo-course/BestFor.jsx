@@ -20,7 +20,10 @@ export default function BestFor() {
                 RECOMMENDED FOR
               </span>
               <h2 className="h3 lg:h2 m-0">
-                Who Should Attend This Generative Engine Optimization (GEO)
+                Who Should Attend This{" "}
+                <span className="text-primary">
+                  Generative Engine Optimization (GEO)
+                </span>{" "}
                 Course?
               </h2>
               <p className="fs-6 xl:fs-5 xl:px-8">

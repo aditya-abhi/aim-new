@@ -75,7 +75,7 @@ export const caseStudies = [
     imageUrl: "/assets/images/brands/loopBlack.svg",
     imageDark: "/assets/images/brands/loopWhite.svg",
     imageAlt: "Loop Earplugs Logo",
-    url: "/case-studies/loopearplugs",
+    url: "case-studies/loop-earplugs",
   },
   {
     id: 3,

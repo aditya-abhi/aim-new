@@ -15,7 +15,7 @@ export default function Instructor() {
           <div className="section-inner panel">
             <div className="panel vstack gap-4 lg:gap-6 xl:gap-8">
               <h2
-                className="h4 sm:h2 m-0 text-center"
+                className="h3 lg:h2 m-0 text-center"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 100;"
                 style={{ transform: "translateY(0px)", opacity: 1 }}
               >

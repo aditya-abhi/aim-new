@@ -1,8 +1,8 @@
 import Header2 from "@/components/headers/Header2";
 
 import Footer2 from "@/components/footers/Footer2";
-import Newsletter from "@/components/blog/Newsletter";
-import Blogs1 from "@/components/blog/Blogs1";
+import Newsletter from "@/components/blog-old/Newsletter";
+import Blogs1 from "@/components/blog-old/Blogs1";
 export const metadata = {
   title:
     "Blog 1 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",

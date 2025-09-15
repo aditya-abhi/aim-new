@@ -1060,7 +1060,7 @@ export const services = [
     icon: "unicon-glyph-square-fill",
     items: [
       {
-        icon: "unicon-checkmark",
+        icon: "unicon-search",
         title: "AI Search Analytics",
         description:
           "Managing multiple software and tools for different tasks.",

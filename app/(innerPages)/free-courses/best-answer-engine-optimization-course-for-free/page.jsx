@@ -6,7 +6,7 @@ import Faqs from "@/components/aeo-course/Faqs";
 import Hero from "@/components/aeo-course/Hero";
 import EnrollmentForm from "@/components/aeo-course/EnrollmentForm";
 import About from "@/components/aeo-course/About";
-import Achievements from "@/components/aeo-course/Achievements";
+// import Achievements from "@/components/aeo-course/Achievements";
 import Content from "@/components/aeo-course/Content";
 import Facts from "@/components/aeo-course/Facts";
 import BestFor from "@/components/aeo-course/BestFor";
@@ -15,6 +15,7 @@ import Testimonials from "@/components/aeo-course/Testimonials";
 import React from "react";
 import Learnings from "@/components/aeo-course/Learnings";
 import Certificate from "@/components/aeo-course/Certificate";
+import Achievements from "@/components/aeo-course/Achievements";
 export const metadata = {
   title: "AI Monitor || Answer Engine Optimization Course",
   description:
@@ -35,6 +36,7 @@ export default function page() {
               <About />
               <Content />
               <Achievements />
+              {/* <Achievements /> */}
               <Certificate />
               <Instructor />
               <BestFor />

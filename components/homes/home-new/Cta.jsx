@@ -119,7 +119,7 @@ export default function Cta() {
               >
                 <div className="mb-2 lg:mb-3">
                   <a
-                    href="#"
+                    href="https://appt.link/ai-monitor/30-minutes-introductory-call"
                     className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 w-auto"
                   >
                     <span className="text-tertiary">Book a Meeting</span>

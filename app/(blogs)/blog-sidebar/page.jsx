@@ -1,5 +1,5 @@
-import BlogSidebarRight from "@/components/blog/BlogSidebarRight";
-import Breadcumb3 from "@/components/blog/Breadcumb3";
+import BlogSidebarRight from "@/components/blog-old/BlogSidebarRight";
+import Breadcumb3 from "@/components/blog-old/Breadcumb3";
 import Footer6 from "@/components/footers/Footer6";
 import Header6 from "@/components/headers/Header6";
 import Topbar from "@/components/headers/Topbar";

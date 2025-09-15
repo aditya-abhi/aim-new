@@ -1,5 +1,5 @@
-import BlogDetails3 from "@/components/blog/BlogDetails3";
-import Newsletter from "@/components/blog/Newsletter";
+import BlogDetails3 from "@/components/blog-old/BlogDetails3";
+import Newsletter from "@/components/blog-old/Newsletter";
 import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
 import { allBlogs } from "@/data/blogs";

@@ -20,7 +20,7 @@ export default function BestFor() {
               </span>
               <h2 className="h3 lg:h2 m-0">
                 Who Should Attend This{" "}
-                <span className="text-primary">
+                <span className="text-primary dark:text-primary">
                   Answer Engine Optimization (AEO)
                 </span>{" "}
                 Course?

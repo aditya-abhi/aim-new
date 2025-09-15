@@ -46,7 +46,10 @@ export default function Resources() {
                         can make smarter decisions, faster.
                       </p>
                     </div>
-                    <a href="#" className="btn btn-sm btn-primary px-2 mt-2">
+                    <a
+                      href="/blogs"
+                      className="btn btn-sm btn-primary px-2 mt-2"
+                    >
                       <span>Read Featured Blogs</span>
                       <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
                     </a>
@@ -98,7 +101,7 @@ export default function Resources() {
                       </p>
                     </div>
                     <a
-                      href="#"
+                      href="/free-courses"
                       className="btn btn-sm btn-secondary text-tertiary px-2 mt-2"
                     >
                       <span>Explore Courses</span>
@@ -134,7 +137,7 @@ export default function Resources() {
                       </p>
                     </div>
                     <a
-                      href="#"
+                      href="/most-comprehensive-generative-engine-optimization-geo-guide"
                       className="btn btn-sm btn-secondary text-tertiary px-2 mt-2"
                     >
                       <span>Get the Guide</span>
@@ -158,7 +161,10 @@ export default function Resources() {
                       strategies, lessons, and insights to help you stay visible
                       where it matters most.
                     </p>
-                    <a href="#" className="btn btn-sm btn-primary px-2 mt-2">
+                    <a
+                      href="/podcasts"
+                      className="btn btn-sm btn-primary px-2 mt-2"
+                    >
                       <span> Listen to the Latest Episode</span>
                       <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
                     </a>

@@ -33,7 +33,7 @@ export default function Awards() {
               </div>
               <div className="content panel items-center text-center justify-center">
                 <div
-                  className="row child-cols-6 sm:child-cols-4 lg:child-cols-4 col-match gx-2 gy-4 xl:gx-4 xl:gy-6 items-center text-center "
+                  className="row child-cols-6 sm:child-cols-4 lg:child-cols-4 col-match gx-2 gy-4 xl:gx-4 xl:gy-6 items-center text-center justify-center"
                   data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 400});"
                 >
                   {awards.map((member, index) => (

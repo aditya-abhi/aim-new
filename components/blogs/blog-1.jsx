@@ -1,6 +1,6 @@
 "use client";
-import Sidebar from "@/components/blog/Sidebar";
-import RelatedBlogs from "../blog/RelatedBlogs";
+import Sidebar from "@/components/blog-old/Sidebar";
+import RelatedBlogs from "../blog-old/RelatedBlogs";
 import Image from "next/image";
 import Link from "next/link";
 import { Gallery, Item } from "react-photoswipe-gallery";

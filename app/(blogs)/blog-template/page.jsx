@@ -1,5 +1,5 @@
-import BlogTemplate from "@/components/blog/BlogTemplate";
-import Breadcumb3 from "@/components/blog/Breadcumb3";
+import BlogTemplate from "@/components/blog-old/BlogTemplate";
+import Breadcumb3 from "@/components/blog-old/Breadcumb3";
 import Footer6 from "@/components/footers/Footer6";
 import Header6 from "@/components/headers/Header7";
 import Topbar from "@/components/headers/Topbar";
@@ -31,5 +31,3 @@ export default function page() {
     </>
   );
 }
-
-

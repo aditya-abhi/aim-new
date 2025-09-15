@@ -9,7 +9,7 @@ export default function Impact() {
       id="key_features"
       className="key-features section panel overflow-hidden"
     >
-      <div className="section-outer panel lg:pt-10 text-gray-700 dark:text-white text-opacity-70">
+      <div className="section-outer panel pt-6 lg:pt-10 text-gray-700 dark:text-white text-opacity-70">
         <div className="container sm:max-w-lg">
           <div className="section-inner panel">
             <div

@@ -13,8 +13,11 @@ export default function Faqs() {
             <div className="row child-cols-12 col-match g-4">
               <div>
                 <div className="vstack items-center text-center gap-2">
-                  <h2 className="h4 sm:h3 xl:h2 m-0">
-                    Frequently asked questions!
+                  <h2 className="h3 lg:h2 m-0">
+                    Frequently Asked{" "}
+                    <span className="text-tertiary dark:text-primary">
+                      Questions!
+                    </span>
                   </h2>
                 </div>
               </div>

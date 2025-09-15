@@ -59,7 +59,7 @@ export default function Services() {
               ))}
             </div>
             <Link
-              href={`/page-features`}
+              href={`/services`}
               className="btn btn-md btn-outline-tertiary dark:text-primary border border-dark dark:border-white dark:border-opacity-15 px-3 mx-auto rounded-pill"
               data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 500;"
             >

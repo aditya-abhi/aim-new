@@ -1,7 +1,7 @@
 import Header2 from "@/components/headers/Header2";
-import Newsletter from "@/components/blog/Newsletter";
+import Newsletter from "@/components/blog-old/Newsletter";
 import Footer1 from "@/components/footers/Footer1";
-import BlogDetails1 from "@/components/blog/BlogDetails1";
+import BlogDetails1 from "@/components/blog-old/BlogDetails1";
 import { allBlogs } from "@/data/blogs";
 export const metadata = {
   title:
