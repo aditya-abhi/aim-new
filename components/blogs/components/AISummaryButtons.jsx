@@ -186,9 +186,9 @@ export default function AISummaryButtons() {
           <div className="position-relative" ref={dropdownRef}>
             <button
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-              className="btn bg-secondary hover:bg-secondary-600 dark:bg-tertiary-700 dark:hover:bg-tertiary border border-gray-300 dark:border-white rounded-pill px-4 py-2 hstack gap-2 items-center hover:shadow-md transition-all shadow-sm"
+              className="btn bg-secondary hover:bg-secondary-600 dark:bg-tertiary-700 dark:hover:bg-tertiary border border-gray-300 dark:border-white rounded-pill px-2 py-1 hstack gap-2 items-center hover:shadow-md transition-all shadow-sm"
               aria-label="Select AI action"
-              style={{ minWidth: "180px" }}
+              style={{ minWidth: "120px" }}
             >
               {/* <svg
                 width="16"
@@ -241,7 +241,7 @@ export default function AISummaryButtons() {
                 className="position-absolute top-100 start-0 mt-2 bg-secondary dark:bg-tertiary-800 border border-gray-200 dark:border-white rounded-lg shadow-xl overflow-hidden rounded-2"
                 style={{ minWidth: "240px", zIndex: 9999 }}
               >
-                <ul className="vstack gap-0 p-2 m-0">
+                <ul className="vstack gap-0 p-2 m-0 list-none" style={{ listStyleType: "none" }}>
                   {aiActions.map((action, index) => (
                     <li key={action.id} className="list-none">
                       <button
@@ -253,39 +253,6 @@ export default function AISummaryButtons() {
                         }`}
                       >
                         <span className="hstack gap-2 items-center">
-                          {action.id === "summarize" && (
-                            <span className="icon rounded">
-                              <Image
-                                className="w-32px rounded"
-                                alt="icon"
-                                width={24}
-                                height={24}
-                                src="/assets/images/custom-icons/summarize.svg"
-                              />
-                            </span>
-                          )}
-                          {action.id === "chat" && (
-                            <span className="icon rounded">
-                              <Image
-                                className="w-32px rounded"
-                                alt="icon"
-                                width={24}
-                                height={24}
-                                src="/assets/images/custom-icons/chat-fill.svg"
-                              />
-                            </span>
-                          )}
-                          {action.id === "outline" && (
-                            <span className="icon rounded">
-                              <Image
-                                className="w-32px rounded"
-                                alt="icon"
-                                width={24}
-                                height={24}
-                                src="/assets/images/custom-icons/outline.svg"
-                              />
-                            </span>
-                          )}
                           {action.label}
                         </span>
                       </button>
@@ -337,14 +304,13 @@ export default function AISummaryButtons() {
             the blog post using
           </div>
 
-          {/* Enhanced AI Platform buttons */}
-          <div className="row child-cols-6 g-2 mt-1 justify-center items-center text-center">
+          {/* AI Platform buttons in one line */}
+          <div className="hstack gap-2 justify-center items-center text-center flex-nowrap">
             {aiPlatforms.map((platform) => (
               <div key={platform.id}>
                 <button
                   onClick={() => handleButtonClick(platform.id)}
-                  // className={`btn w-100 ${platform.bgClass} border-2 ${platform.borderClass} px-3 py-2 rounded-pill ${platform.textClass} ${platform.hoverClass} ${platform.hoverTextClass} transition-all shadow-sm hover:shadow-md hover:scale-105 transform`}
-                  className={`btn bg-secondary hover:bg-secondary-600 border-2 border border-gray-300 dark:border-white dark:bg-tertiary-700 dark:hover:bg-tertiary rounded-circle transition-all shadow-sm hover:shadow-md hover:scale-105 transform`}
+                  className="bg-transparent border-0 p-0 hover:opacity-75 transition-all transform hover:scale-110"
                   aria-label={`${selectedAction} ${platform.name}`}
                 >
                   <span className="vstack gap-1 items-center">
