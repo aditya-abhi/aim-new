@@ -6866,6 +6866,10 @@
     --bs-text-opacity: 1;
     color: rgba(var(--bs-primary-600-rgb), var(--bs-text-opacity)) !important;
   }
+  .hover\:text-purple-600:hover {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-purple-600-rgb), var(--bs-text-opacity)) !important;
+  }
   .text-primary-700 {
     --bs-text-opacity: 1;
     color: rgba(var(--bs-primary-700-rgb), var(--bs-text-opacity)) !important;
@@ -6957,6 +6961,11 @@
   :where(.uc-dark) .dark\:text-primary {
     --bs-text-opacity: 1;
     color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  }
+  :where(.uc-dark) .dark\:hover\:text-purple-600:hover,
+  :where(.uc-dark) .dark\:text-purple-600 {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-purple-600-rgb), var(--bs-text-opacity)) !important;
   }
   :where(.uc-dark) .dark\:text-secondary {
     --bs-text-opacity: 1;
