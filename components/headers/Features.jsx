@@ -30,6 +30,7 @@ export default function Features() {
                     width={24}
                     height={24}
                     src={item.iconSrc}
+                    priority={true}
                   />
                 </span>
                 <div className="panel">

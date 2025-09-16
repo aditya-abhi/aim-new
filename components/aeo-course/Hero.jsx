@@ -1,8 +1,18 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 export default function Hero() {
+  const handleClick = () => {
+    if (window.ml) {
+      window.ml("show", "3ttGXK", true);
+    } else {
+      console.error("MailerLite script not loaded yet");
+    }
+  };
+
   return (
     <div id="hero_header" className="hero-header section panel overflow-hidden">
       <div className="section-outer panel py-8 lg:py-9 xl:py-10 bg-tertiary-700 lg:rounded-2 lg:rounded-top-0 mx-2">
@@ -114,12 +124,18 @@ export default function Hero() {
                                   </div>
                                 </div>
                                 <div className="panel mt-3 lg:mt-2">
-                                  <Link
+                                  {/* <Link
                                     href={`/page-integrations`}
                                     className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 w-auto"
                                   >
                                     Enroll Now
-                                  </Link>
+                                  </Link> */}
+                                  <a
+                                    onClick={handleClick}
+                                    className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 w-auto"
+                                  >
+                                    Enroll Now
+                                  </a>
                                   <span className="fs-7 text-dark text-opacity-70 ms-3 text-line-through text-center">
                                     $249
                                   </span>
