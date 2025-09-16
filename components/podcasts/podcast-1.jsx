@@ -201,7 +201,7 @@ export default function Podcast1({ blogItem }) {
                           <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
                             <Image
                               className="max-w-40px"
-                              src="/assets/images/icons/amazon-music.png"
+                              src="/assets/images/icons/amazon-music.jpg"
                               alt=""
                               width={50}
                               height={50}

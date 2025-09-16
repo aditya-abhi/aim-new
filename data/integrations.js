@@ -60,7 +60,7 @@ export const caseStudies = [
     name: "Relific",
     category: "SaaS",
     span: "33% MoM",
-    description: "33% Surge in MQLs, Driving Scalable Growth",
+    description: " Surge in MQLs, Driving Scalable Growth",
     imageUrl: "/assets/images/brands/relific.svg",
     imageDark: "/assets/images/brands/relificWhite.svg",
     imageAlt: "Relific Logo",
