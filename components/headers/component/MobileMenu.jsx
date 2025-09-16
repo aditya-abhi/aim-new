@@ -76,12 +76,12 @@ export default function MobileMenu() {
     >
       <div
         ref={elementRef}
-        className="uc-offcanvas-bar bg-white text-dark dark:bg-gray-900 dark:text-white uc-offcanvas-bar-animation uc-offcanvas-slide "
+        className="uc-offcanvas-bar bg-white text-dark dark:bg-tertiary-700 dark:text-white uc-offcanvas-bar-animation uc-offcanvas-slide "
         role="dialog"
         aria-modal="true"
         style={{ maxWidth: 876 }}
       >
-        <header className="uc-offcanvas-header hstack justify-between items-center pb-2 bg-white dark:bg-gray-900">
+        <header className="uc-offcanvas-header hstack justify-between items-center pb-2">
           <div className="uc-logo">
             <Link
               href={`/`}
@@ -104,7 +104,7 @@ export default function MobileMenu() {
             </Link>
           </div>
           <button
-            className="uc-offcanvas-close rtl:end-auto rtl:start-0 m-1 mt-2 icon-3 btn border-0 dark:text-white dark:text-opacity-50 hover:text-primary hover:rotate-90 duration-150 transition-all"
+            className="uc-offcanvas-close rtl:end-auto rtl:start-0 m-1 mt-2 icon-3 btn border-0 text-dark dark:text-white dark:text-opacity-50 hover:text-primary hover:rotate-90 duration-150 transition-all"
             type="button"
             onClick={closeMobileMenu}
           >
@@ -241,7 +241,7 @@ export default function MobileMenu() {
             </li>
           </ul>
           <div
-            className="py-2 hstack gap-2 mt-4 bg-white dark:bg-gray-900 uc-sticky uc-active uc-sticky-fixed"
+            className="py-2 hstack gap-2 mt-4 uc-sticky uc-active uc-sticky-fixed"
             data-uc-sticky="position: bottom"
           >
             <div className="vstack gap-1">

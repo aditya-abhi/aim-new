@@ -9,7 +9,7 @@ export default function RelatedBlogs() {
       <div className="container container-80">
         <div className="post-related panel border-top pt-2 my-6 xl:my-9">
           <h2 className="h5 xl:h4 mb-5 xl:mb-6">Related to this topic:</h2>
-          <div className="row child-cols-6 md:child-cols-4 gx-2 gy-4 sm:gx-3 sm:gy-6">
+          <div className="row child-cols-6 md:child-cols-4 gx-2 gy-4 sm:gx-3 sm:gy-6 justify-center items-center">
             {blogsPosts4.slice(7, 10).map((elm, i) => (
               <div key={i}>
                 <article className="post type-post panel vstack gap-2">

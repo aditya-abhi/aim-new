@@ -1,6 +1,6 @@
 "use client";
 // import Toc from "./Toc";
-import RelatedBlogs from "../blog-old/RelatedBlogs";
+import RelatedBlogs from "../blogs/RelatedBlogs";
 import Image from "next/image";
 import Link from "next/link";
 import { Gallery, Item } from "react-photoswipe-gallery";
@@ -18,14 +18,7 @@ export default function Podcast1({ blogItem }) {
 
   return (
     <>
-      <div
-        className="position-absolute top-0 start-0 end-0 min-h-450px xl:min-h-900px bg-tertiary-700 lg:rounded-2 lg:rounded-top-0 lg:mx-2 lg:mt-0 z-0"
-        // className={
-        //   isExpanded
-        //     ? "position-absolute top-0 start-0 end-0 min-h-1000px xl:min-h-1100px bg-tertiary-700 lg:rounded-2 lg:rounded-top-0 lg:mx-2 lg:mt-0 z-0"
-        //     : "position-absolute top-0 start-0 end-0 min-h-700px xl:min-h-900px bg-tertiary-700 lg:rounded-2 lg:rounded-top-0 lg:mx-2 lg:mt-0 z-0"
-        // }
-      />{" "}
+      <div className="position-absolute top-0 start-0 end-0 min-h-450px xl:min-h-900px bg-tertiary-700 lg:rounded-2 lg:rounded-top-0 lg:mx-2 lg:mt-0 z-0" />{" "}
       <div className="breadcrumbs panel z-1 py-2 dark:bg-opacity-5 text-white mt-9 lg:mt-10">
         <div className="container max-w-xl">
           <ul className="breadcrumb nav-x justify-center items-center gap-1 fs-7 m-0 fw-bold">
@@ -110,17 +103,6 @@ export default function Podcast1({ blogItem }) {
                   </li>
                 </ul>
               </div>
-              {/* <figure className="featured-image m-0">
-                <figure className="featured-image m-0 rounded ratio ratio-2x1 rounded uc-transition-toggle overflow-hidden">
-                  <Image
-                    className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                    alt="Maximizing your reach with marketing strategies"
-                    src="/assets/images/blog/post-full.jpg"
-                    width="1280"
-                    height="853"
-                  />
-                </figure>
-              </figure> */}
               <figure className="featured-image m-0">
                 <figure className="featured-image m-0 rounded ratio ratio-16x9 rounded uc-transition-toggle overflow-hidden">
                   <iframe
@@ -183,195 +165,154 @@ export default function Podcast1({ blogItem }) {
                           href="https://open.spotify.com/episode/1XC7JiRR5WGJ9Xt9dB9GwP?si=-apJMqF3SzizDY8ydtD1oA"
                           target="_blank"
                         >
-                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
+                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-2 max-w-fc">
                             <Image
                               className="max-w-40px"
-                              src="/assets/images/icons/spotify.png"
+                              src="/assets/images/custom-icons/spotify.webp"
                               alt=""
                               width={50}
                               height={50}
                             />
-                            <h5 className="m-0">Spotify</h5>
+                            <h5 className="m-0 text-dark">Spotify</h5>
                           </div>
                         </a>
                         <a
                           href="https://open.spotify.com/episode/1XC7JiRR5WGJ9Xt9dB9GwP?si=-apJMqF3SzizDY8ydtD1oA"
                           target="_blank"
                         >
-                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
+                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-2 max-w-fc">
                             <Image
                               className="max-w-40px"
-                              src="/assets/images/icons/amazon-music.jpg"
+                              src="/assets/images/custom-icons/amazon-music.webp"
                               alt=""
                               width={50}
                               height={50}
                             />
-                            <h5 className="m-0">Amazon Music</h5>
+                            <h5 className="m-0 text-dark">Amazon Music</h5>
                           </div>
                         </a>
                         <a href="#">
-                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
+                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-2 max-w-fc">
                             <Image
                               className="max-w-40px"
-                              src="/assets/images/icons/apple-podcast.png"
+                              src="/assets/images/custom-icons/apple-podcast.webp"
                               alt=""
                               width={100}
                               height={100}
                             />
-                            <h5 className="m-0">Apple Podcast</h5>
+                            <h5 className="m-0 text-dark">Apple Podcast</h5>
                           </div>
                         </a>
                         <a href="#">
-                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
+                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-2 max-w-fc">
                             <Image
                               className="max-w-40px"
-                              src="/assets/images/icons/youtube.png"
+                              src="/assets/images/custom-icons/youtube.webp"
                               alt=""
                               width={100}
                               height={100}
                             />
-                            <h5 className="m-0">Youtube</h5>
+                            <h5 className="m-0 text-dark">Youtube</h5>
                           </div>
                         </a>
                       </div>
                       <div className="hstack gap-4 mt-2 justify-center">
                         <a href="#">
-                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
+                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-2 max-w-fc">
                             <Image
                               className="max-w-40px"
-                              src="/assets/images/icons/overcast.svg"
+                              src="/assets/images/custom-icons/overcast.webp"
                               alt=""
                               width={100}
                               height={100}
                             />
-                            <h5 className="m-0">Overcast</h5>
+                            <h5 className="m-0 text-dark">Overcast</h5>
                           </div>
                         </a>
                         <a href="#">
-                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
+                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-2 max-w-fc">
                             <Image
                               className="max-w-40px"
-                              src="/assets/images/icons/pocket-casts.jpeg"
+                              src="/assets/images/custom-icons/pocketcasts.webp"
                               alt=""
                               width={100}
                               height={100}
                             />
-                            <h5 className="m-0">Pocket Casts</h5>
+                            <h5 className="m-0 text-dark">Pocket Casts</h5>
                           </div>
                         </a>
                         <a href="#">
-                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
+                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-2 max-w-fc">
                             <Image
                               className="max-w-40px"
-                              src="/assets/images/icons/castro.png"
+                              src="/assets/images/custom-icons/castro.webp"
                               alt=""
                               width={100}
                               height={100}
                             />
-                            <h5 className="m-0">Castro</h5>
+                            <h5 className="m-0 text-dark">Castro</h5>
                           </div>
                         </a>
                       </div>
                     </div>
                     <div className="d-block lg:d-none">
-                      <div className="vstack justify-center gap-1 items-center mt-1">
+                      <div className="hstack justify-center gap-2 items-center mt-1">
                         <a
                           href="https://open.spotify.com/episode/1XC7JiRR5WGJ9Xt9dB9GwP?si=-apJMqF3SzizDY8ydtD1oA"
                           target="_blank"
                         >
-                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-2 max-w-fc">
+                          <div className="bg-white rounded-circle hstack gap-1 py-1 px-1 max-w-fc">
                             <Image
                               className="max-w-30px"
-                              src="/assets/images/icons/spotify.png"
+                              src="/assets/images/custom-icons/spotify.webp"
                               alt=""
                               width={50}
                               height={50}
                             />
-                            <h5 className="h6 m-0 dark:text-dark">Spotify</h5>
+                            {/* <h5 className="h6 m-0 dark:text-dark">Spotify</h5> */}
                           </div>
                         </a>
                         <a
                           href="https://open.spotify.com/episode/1XC7JiRR5WGJ9Xt9dB9GwP?si=-apJMqF3SzizDY8ydtD1oA"
                           target="_blank"
                         >
-                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-2 max-w-fc">
+                          <div className="bg-white rounded-circle hstack gap-1 py-1 px-1 max-w-fc">
                             <Image
                               className="max-w-30px"
-                              src="/assets/images/icons/amazon-music.png"
+                              src="/assets/images/custom-icons/amazon-music.webp"
                               alt=""
                               width={50}
                               height={50}
                             />
-                            <h5 className="m-0 h6 dark:text-dark">
+                            {/* <h5 className="m-0 h6 dark:text-dark">
                               Amazon Music
-                            </h5>
+                            </h5> */}
                           </div>
                         </a>
                         <a href="#">
-                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
+                          <div className="bg-white rounded-circle hstack gap-1 py-1 px-1 max-w-fc">
                             <Image
                               className="max-w-30px"
-                              src="/assets/images/icons/apple-podcast.png"
+                              src="/assets/images/custom-icons/apple-podcast.webp"
                               alt=""
                               width={100}
                               height={100}
                             />
-                            <h5 className="m-0 h6 dark:text-dark">
+                            {/* <h5 className="m-0 h6 dark:text-dark">
                               Apple Podcast
-                            </h5>
+                            </h5> */}
                           </div>
                         </a>
                         <a href="#">
-                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
+                          <div className="bg-white rounded-circle hstack gap-1 py-1 px-1 max-w-fc">
                             <Image
                               className="max-w-30px"
-                              src="/assets/images/icons/youtube.png"
+                              src="/assets/images/custom-icons/youtube.webp"
                               alt=""
                               width={100}
                               height={100}
                             />
-                            <h5 className="m-0 h6 dark:text-dark">Youtube</h5>
-                          </div>
-                        </a>
-                        <a
-                          href="https://open.spotify.com/episode/1XC7JiRR5WGJ9Xt9dB9GwP?si=-apJMqF3SzizDY8ydtD1oA"
-                          target="_blank"
-                        >
-                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-2 max-w-fc">
-                            <Image
-                              className="max-w-30px"
-                              src="/assets/images/icons/overcast.svg"
-                              alt=""
-                              width={50}
-                              height={50}
-                            />
-                            <h5 className="m-0 h6 dark:text-dark">Overcast</h5>
-                          </div>
-                        </a>
-                        <a href="#">
-                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
-                            <Image
-                              className="max-w-30px"
-                              src="/assets/images/icons/pocket-casts.jpeg"
-                              alt=""
-                              width={100}
-                              height={100}
-                            />
-                            <h5 className="m-0 h6 dark:text-dark">
-                              Pocket Castst
-                            </h5>
-                          </div>
-                        </a>
-                        <a href="#">
-                          <div className="bg-white rounded-pill hstack gap-1 py-1 px-3 max-w-fc">
-                            <Image
-                              className="max-w-30px"
-                              src="/assets/images/icons/castro.png"
-                              alt=""
-                              width={100}
-                              height={100}
-                            />
-                            <h5 className="m-0 h6 dark:text-dark">Castro</h5>
+                            {/* <h5 className="m-0 h6 dark:text-dark">Youtube</h5> */}
                           </div>
                         </a>
                       </div>
@@ -381,9 +322,9 @@ export default function Podcast1({ blogItem }) {
                 <div className="col-12 ">
                   <div className="uc-main panel" role="main">
                     <div className="panel vstack gap-4 xl:gap-6">
-                      <div className="panel px-3 rounded-2 bg-secondary dark:bg-gray-800">
+                      <div className="panel px-3 rounded-2 bg-secondary dark:bg-tertiary-700">
                         <ul
-                          className="main-features-nav hstack text-center overflow-auto"
+                          className="main-features-nav-narrow hstack text-center overflow-auto"
                           data-uc-switcher="connect: .main-features-switcher; active: 1; animation: uc-animation-fade;"
                           role="tablist"
                         >
@@ -1635,56 +1576,6 @@ export default function Podcast1({ blogItem }) {
                 </li>
               </ul>
             </div>
-            <div className="post-author panel py-4 px-3 sm:p-3 xl:p-4 bg-gray-25 dark:bg-opacity-5 rounded lg:rounded-2">
-              <div className="row g-4 items-center">
-                <div className="col-12 sm:col-5 xl:col-3">
-                  <figure className="featured-image m-0 rounded ratio ratio-1x1 uc-transition-toggle overflow-hidden">
-                    <Image
-                      className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                      alt="Avinash Tripathi Image"
-                      src="/assets/images/avatars/avinash.webp"
-                      width="1000"
-                      height="667"
-                    />
-                  </figure>
-                </div>
-                <div className="col">
-                  <div className="panel vstack items-start gap-2 md:gap-3">
-                    <h4 className="h5 m-0">Avinash Tripathi</h4>
-                    <p className="fs-6">
-                      My journey into Generative Engine Optimization (GEO) began
-                      with a fortunate accident. I was happily working as an
-                      entrepreneur when one day, while researching, I noticed
-                      that Microsoft Copilot made a negative comment about my
-                      startup. Instead of ignoring what Copilot said, I chose to
-                      understand, learn, and understand how AI-driven search
-                      works, even though a lot of people around me felt that it
-                      was beyond my competence. My persistence paid off as my
-                      work has been featured by leading media companies such as
-                      The Hindu, Yahoo, and Scroll. Most recently, I was awarded
-                      the #1 GEO Consultant by YesUsers
-                    </p>
-                    <ul className="nav-x gap-1 text-gray-400 dark:text-white">
-                      <li>
-                        <a href="#medium">
-                          <i className="icon-2 unicon-logo-medium" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#x">
-                          <i className="icon-2 unicon-logo-x-filled" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#instagram">
-                          <i className="icon-2 unicon-logo-linkedin" />
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div className="post-navigation panel vstack sm:hstack justify-between gap-2 mt-8 xl:mt-9 fdr-min-600">
               <div className="new-post panel hstack w-100 sm:w-1/2">
                 <div className="panel hstack justify-center w-100px h-100px">
@@ -1746,16 +1637,16 @@ export default function Podcast1({ blogItem }) {
             {/* <GEOCourseCTA /> */}
             <div className="post-related panel border-top pt-2 mt-8 xl:mt-9">
               <h2 className="h5 xl:h4 mb-5 xl:mb-6">Related to this topic:</h2>
-              <div className="row child-cols-6 md:child-cols-4 gx-2 gy-4 sm:gx-3 sm:gy-6">
+              <div className="row child-cols-6 md:child-cols-4 gx-2 gy-4 sm:gx-3 sm:gy-6 justify-center items-center">
                 <RelatedBlogs />
               </div>
             </div>
-            <a
+            {/* <a
               href="#commont"
               className="btn h-56px w-100 mt-8 xl:mt-9 text-black dark:text-white border border-gray-200 dark:border-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800"
             >
               <span>Be the first to write a comment.</span>
-            </a>
+            </a> */}
           </div>
         </div>
       </article>

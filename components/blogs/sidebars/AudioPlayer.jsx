@@ -12,7 +12,7 @@ const DEFAULT_TRACKS = [
     cover: "/assets/images/blog/post-6.jpg",
     // Remote audio so we don't need to commit binary files to the repo
     src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
-  }
+  },
 ];
 
 export default function AudioPlayer({
@@ -143,27 +143,29 @@ export default function AudioPlayer({
   };
 
   return (
-    <div className="uc-sidebar panel">
+    <div className="uc-sidebar panel mb-3">
       {/* Card */}
       {/*
-        * Add universal background image for both light and dark modes
-        * Tailwind background utilities provide a translucent overlay colour
-        * while the inline style sets the actual image.
-        */}
+       * Add universal background image for both light and dark modes
+       * Tailwind background utilities provide a translucent overlay colour
+       * while the inline style sets the actual image.
+       */}
       <div
         className="widget vstack gap-3 p-4 rounded-3 bg-[#F4F5FA]/80 dark:bg-gray-800/80"
         style={{
           backgroundImage: "url('/assets/images/common/audio-player-bg.webp')",
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         {/* Header row */}
         <div className="panel hstack justify-between items-start">
           {/* Titles */}
           <div className="vstack gap-0">
-            <span className="fw-semibold fs-5" style={{ color: '#01353C' }}>Listen to this Blog</span>
-            <span className="fs-7" style={{ color: '#01353C' }}>
+            <span className="fw-semibold fs-5" style={{ color: "#01353C" }}>
+              Listen to this Blog
+            </span>
+            <span className="fs-7" style={{ color: "#01353C" }}>
               {headingText || currentTrack.title}
             </span>
           </div>
@@ -187,10 +189,26 @@ export default function AudioPlayer({
           <button
             onClick={() => handleSkip(-10)}
             className="btn btn-sm vstack align-items-center justify-center gap-0"
-            style={{ color: "#01353C", width: 40, background: "transparent", border: "none", zIndex: 2, position: "relative" }}
+            style={{
+              color: "#01353C",
+              width: 40,
+              background: "transparent",
+              border: "none",
+              zIndex: 2,
+              position: "relative",
+            }}
           >
             {/* curved arrow back */}
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
               <path d="M9 17L4 12L9 7" />
               <path d="M20 18v-1a4 4 0 0 0-4-4H4" />
             </svg>
@@ -206,17 +224,38 @@ export default function AudioPlayer({
             value={currentTime}
             onChange={handleSeek}
             className="flex-grow-1 audio-slider"
-            style={{ WebkitAppearance: "none", height: 4, background: "#01353C", borderRadius: 2 }}
+            style={{
+              WebkitAppearance: "none",
+              height: 4,
+              background: "#01353C",
+              borderRadius: 2,
+            }}
           />
 
           {/* Forward 10s */}
           <button
             onClick={() => handleSkip(30)}
             className="btn btn-sm vstack align-items-center justify-center gap-0"
-            style={{ color: "#01353C", width: 40, background: "transparent", border: "none", zIndex: 2, position: "relative" }}
+            style={{
+              color: "#01353C",
+              width: 40,
+              background: "transparent",
+              border: "none",
+              zIndex: 2,
+              position: "relative",
+            }}
           >
             {/* curved arrow forward */}
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
               <path d="M15 7l5 5-5 5" />
               <path d="M4 6v1a4 4 0 0 0 4 4h12" />
             </svg>
@@ -248,7 +287,7 @@ export default function AudioPlayer({
           width: 12px;
           height: 12px;
           border-radius: 50%;
-          background: #01353C;
+          background: #01353c;
           cursor: pointer;
           border: none;
           margin-top: -4px; /* centers thumb with 4px track */
@@ -257,7 +296,7 @@ export default function AudioPlayer({
           width: 12px;
           height: 12px;
           border-radius: 50%;
-          background: #01353C;
+          background: #01353c;
           cursor: pointer;
           border: none;
         }

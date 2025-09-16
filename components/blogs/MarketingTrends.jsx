@@ -199,7 +199,7 @@ export default function MarketingTrends({ blogItem }) {
                   <Image
                     className="media-cover image uc-transition-scale-up uc-transition-opaque"
                     alt="Maximizing your reach with marketing strategies"
-                    src="/assets/images/blog/post-full.jpg"
+                    src="/assets/images/blog/MarketingTrends.webp"
                     width="1280"
                     height="853"
                   />

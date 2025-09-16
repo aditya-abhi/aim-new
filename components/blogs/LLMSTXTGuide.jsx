@@ -6,9 +6,8 @@ import Link from "next/link";
 import { Gallery, Item } from "react-photoswipe-gallery";
 import { useState } from "react";
 import Blog1Faqs from "./faqs/Blog1Faqs";
-import GEOCourseCTA from "@/components/common/GeoCTA";
 
-export default function StepbyStepGuide({ blogItem }) {
+export default function LLMSTXTGuide({ blogItem }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const toggleAuthorDetails = () => {
@@ -141,7 +140,8 @@ export default function StepbyStepGuide({ blogItem }) {
             <div className="panel vstack gap-4 md:gap-6 xl:gap-9 text-center">
               <div className="panel vstack items-center max-w-400px sm:max-w-500px xl:max-w-md mx-auto gap-2 md:gap-3">
                 <h1 className="h4 sm:h3 xl:h1 mt-4 lg:mt-6">
-                  {blogItem.title}
+                  Step by Step Guide: How to Create and Implement an llms.txt
+                  File
                 </h1>
                 <ul className="post-share-icons nav-x mt-2 gap-1 dark:text-white">
                   <li>
@@ -199,7 +199,8 @@ export default function StepbyStepGuide({ blogItem }) {
                   <Image
                     className="media-cover image uc-transition-scale-up uc-transition-opaque"
                     alt="Maximizing your reach with marketing strategies"
-                    src="/assets/images/blog/Implement an llms.txt File.webp"
+                    src="/assets/images/blog/ImplementllmsFile.webp"
+                    thumbnail="/assets/images/blog/ImplementllmsFile.webp"
                     width="1280"
                     height="853"
                   />

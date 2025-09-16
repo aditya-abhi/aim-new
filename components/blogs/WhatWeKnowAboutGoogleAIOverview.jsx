@@ -8,7 +8,7 @@ import { useState } from "react";
 import Blog1Faqs from "./faqs/Blog1Faqs";
 import GEOCourseCTA from "@/components/common/GeoCTA";
 
-export default function BlogGoogleAI({ blogItem }) {
+export default function WhatWeKnowAboutGoogleAIOverview({ blogItem }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const toggleAuthorDetails = () => {
@@ -199,7 +199,8 @@ export default function BlogGoogleAI({ blogItem }) {
                   <Image
                     className="media-cover image uc-transition-scale-up uc-transition-opaque"
                     alt="Maximizing your reach with marketing strategies"
-                    src="/assets/images/blog/blog-5-thumbnail.jpg"
+                    src="/assets/images/blog/GoogleAIOverview.webp"
+                    thumbnail="/assets/images/blog/GoogleAIOverview.webp"
                     width="1280"
                     height="853"
                   />

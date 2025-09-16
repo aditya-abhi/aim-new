@@ -95,7 +95,7 @@ export default function BacktoTop() {
       {/* Floating TOC Panel */}
       {isBlogPage && isVisible && isTOCOpen && (
         <div
-          className="position-fixed bottom-0 start-0 z-98 m-2 ms-20 bg-white dark:bg-gray-800 rounded-2 shadow-lg border border-gray-200 dark:border-gray-700 max-h-400px overflow-y-auto"
+          className="position-fixed bottom-0 start-0 z-98 m-2 ms-20 bg-white dark:bg-gray-800 rounded-2 shadow-lg border border-gray-200 dark:border-gray-700 max-h-400px overflow-y-auto d-block lg:d-none"
           style={{ width: "280px" }}
         >
           <div className="p-3 border-bottom border-gray-200 dark:border-gray-700">

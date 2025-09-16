@@ -264,7 +264,7 @@ export default function Header7() {
                   Get-Started
                 </Link>
                 <a
-                  className="btn btn-md btn-tertiary w-48px h-48px d-inline-flex lg:d-none"
+                  className="btn btn-md btn-tertiary text-white w-48px h-48px d-inline-flex lg:d-none"
                   onClick={openMobileMenu}
                 >
                   <i className="icon icon-2 unicon-menu" />

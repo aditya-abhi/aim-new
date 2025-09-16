@@ -229,8 +229,8 @@ export default function AEOvsSEO({ blogItem }) {
                         <div className="panel mt-3">
                           <figure className="float-end ms-3 mb-1">
                             <Item
-                              original="/assets/images/blog/AEO vs SEO.webp"
-                              thumbnail="/assets/images/blog/post-1.jpg"
+                              original="/assets/images/blog/AEOvsSEO.webp"
+                              thumbnail="/assets/images/blog/AEOvsSEO.webp"
                               width="1280"
                               height="853"
                             >

@@ -8,7 +8,7 @@ export default function RelatedBlogs() {
     <>
       {blogsPosts4.slice(7, 10).map((elm, i) => (
         <div key={i}>
-          <article className="post type-post panel vstack gap-2">
+          <article className="post type-post panel vstack gap-2 items-center justify-center">
             <figure className="featured-image m-0 rounded ratio ratio-4x3 uc-transition-toggle overflow-hidden">
               <Image
                 className="media-cover image uc-transition-scale-up uc-transition-opaque"

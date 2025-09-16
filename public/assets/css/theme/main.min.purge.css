@@ -2560,6 +2560,39 @@ header.uc-header.header-six > .uc-navbar-sticky .uc-navbar-main .uc-navbar {
   width: 100%;
   transition-duration: 0.5s;
 }
+.main-features-nav-narrow {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.main-features-nav-narrow > li {
+  position: relative;
+  width: 100%;
+}
+.main-features-nav-narrow > li > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  line-height: 80px !important;
+  padding: 0 10px;
+}
+.main-features-nav-narrow > li::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 3px solid transparent;
+  width: 0%;
+  transition: 0s cubic-bezier(1, 0, 0, 1);
+}
+.main-features-nav-narrow > li.uc-active::before {
+  border-color: var(--color-primary);
+  width: 100%;
+  transition-duration: 0.5s;
+}
 .uc-link {
   font-weight: 500;
 }
