@@ -1,6 +1,4 @@
-import BlogDetails3 from "@/components/blog/BlogDetails3";
-import Blog2 from "@/components/blogs/blog-2";
-import Newsletter from "@/components/blog/Newsletter";
+import Newsletter from "@/components/blogs/Newsletter";
 import Footer7 from "@/components/footers/Footer7";
 import Header7 from "@/components/headers/Header7";
 import { allBlogs } from "@/data/blogs";
@@ -20,7 +18,7 @@ export default async function Blog2Page(props) {
       <div className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-tertiary-800 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready">
         <Header7 />
         <div id="wrapper" className="wrap">
-          <StepbyStepGuide  blogItem={blogItem} />
+          <StepbyStepGuide blogItem={blogItem} />
           <Newsletter />
         </div>
         <Footer7 />

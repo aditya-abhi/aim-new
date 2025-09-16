@@ -1,6 +1,6 @@
 import BlogTemplate from "@/components/blogs/BlogTemplate";
-import Breadcumb3 from "@/components/blogs/components/Head";
-import Topbar from "@/components/headers/Topbar";
+// import Breadcumb3 from "@/components/blogs/components/Head";
+// import Topbar from "@/components/headers/Topbar";
 import React from "react";
 import Footer7 from "@/components/footers/Footer7";
 import Header7 from "@/components/headers/Header7";
