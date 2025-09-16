@@ -1,9 +1,6 @@
 import Blog3 from "@/components/blogs/blog-3";
-import BlogDetails3 from "@/components/blog-old/BlogDetails3";
-import Newsletter from "@/components/blog-old/Newsletter";
-import Footer1 from "@/components/footers/Footer1";
+import Newsletter from "@/components/blogs/Newsletter";
 import Footer7 from "@/components/footers/Footer7";
-import Header1 from "@/components/headers/Header1";
 import Header7 from "@/components/headers/Header7";
 import { allBlogs } from "@/data/blogs";
 export const metadata = {
