@@ -199,7 +199,7 @@ export default function ZeroClickSearches({ blogItem }) {
                   <Image
                     className="media-cover image uc-transition-scale-up uc-transition-opaque"
                     alt="Maximizing your reach with marketing strategies"
-                    src="/assets/images/blog/post-full.jpg"
+                    src="/assets/images/blog/zero-click search-main-image.webp"
                     width="1280"
                     height="853"
                   />
@@ -255,7 +255,6 @@ export default function ZeroClickSearches({ blogItem }) {
                           leaky faucet?” or “What’s the future of AI in
                           marketing?”
                         </p>
-
                         <p>
                           The kicker? While Google’s zero-click answers might
                           cost you short-term traffic, GEO offers indirect brand
@@ -269,15 +268,14 @@ export default function ZeroClickSearches({ blogItem }) {
                           searches works, why it’s important for businesses and
                           content creators, and what you can do to adapt.
                         </p>
-
                         <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                           Zero-Click Searches: How Traditional SEO & Generative
                           AI Are Changing Search Behavior
                         </h2>
                         <figure className="my-3 sm:my-4">
                           <Item
-                            original="/assets/images/blog/post-2.jpg"
-                            thumbnail="/assets/images/blog/post-2.jpg"
+                            original="/assets/images/blog/zero-click search-2-image.webp"
+                            thumbnail="/assets/images/blog/zero-click search-2-image.webp"
                             width="1280"
                             height="853"
                           >
@@ -286,7 +284,7 @@ export default function ZeroClickSearches({ blogItem }) {
                                 <Image
                                   className="media-cover image uc-transition-scale-up uc-transition-opaque"
                                   alt="Pink Marketing, by Mak"
-                                  src="/assets/images/blog/post-2.jpg"
+                                  src="/assets/images/blog/zero-click search-2-image.webp"
                                   width="1280"
                                   height="853"
                                   ref={ref}
@@ -317,7 +315,6 @@ export default function ZeroClickSearches({ blogItem }) {
                           1. Traditional Zero-Click Searches (Google & Classic
                           SEO)
                         </h3>
-
                         <p className="mt-3">
                           Search engines like Google have long provided quick
                           answers through:
@@ -341,7 +338,6 @@ export default function ZeroClickSearches({ blogItem }) {
                           website traffic since the answer appears right on the
                           SERP.
                         </p>
-
                         <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                           2. Generative AI Zero-Click Searches (ChatGPT, Gemini,
                           AI Overviews)
@@ -351,7 +347,6 @@ export default function ZeroClickSearches({ blogItem }) {
                           answers instead of just curating them. Key
                           differences:
                         </p>
-
                         <ul className="mt-1">
                           <li>
                             Dynamic Responses – AI doesn’t just pull a snippet;
@@ -367,15 +362,12 @@ export default function ZeroClickSearches({ blogItem }) {
                             for external clicks entirely.
                           </li>
                         </ul>
-
                         <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                           The Big Shift:
                         </h3>
-
                         <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                           Capital of Texas3
                         </h2>
-
                         <ul className="mt-1">
                           <li>
                             Traditional SEO → Optimizing for rankings and
@@ -409,10 +401,10 @@ export default function ZeroClickSearches({ blogItem }) {
                           ✅ Exploring direct engagement strategies (e.g.,
                           chatbots, APIs) since organic traffic may decline.
                         </p>
-
                         <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                           So why does this matter?
                         </h3>
+
                         <p>
                           Well, the shift towards AI tools like ChatGPT is
                           massive. According to{" "}
@@ -448,55 +440,240 @@ export default function ZeroClickSearches({ blogItem }) {
                           SEO, it also unlocks new opportunities in GEO. Here’s
                           how the landscape is changing.
                         </p>
+                        <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
+                          The SEO Challenge: Fewer Clicks, More Competition
+                        </h3>
                         <p className="mt-3">
-                          While Denver sits at the base of the Rocky Mountains,
-                          it's not considered a mountain town since it takes
-                          considered at least an hour to get to the Rockies for
-                          snowboarding and ski activities, a local expert
-                          explained sits at the base of the Rocky Mountains,
-                          it's not considered a mountain town since it takes at
-                          least an hour to get to the Rockies for snowboarding
-                          and ski activities, a local expert explained.
+                          With Google’s featured snippets, knowledge panels, and
+                          AI Overviews providing instant answers, users no
+                          longer need to click through to websites for simple
+                          queries. This trend has two major implications:
+                        </p>
+                        <ol className="mt-2">
+                          <li>Declining Organic Click-Through Rates (CTR)</li>
+                          <ul>
+                            <li className="mt-1">
+                              If users get answers directly on the SERP, why
+                              would they visit your site?
+                            </li>
+                            <li className="mt-1">
+                              Study from{" "}
+                              <a
+                                href="https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/"
+                                target="_blank"
+                                className="text-blue"
+                              >
+                                SparkToro
+                              </a>{" "}
+                              show that nearly 60% of Google searches in the US
+                              and EU were zero-click in 2024. A number that will
+                              only grow as AI integrations expand.
+                            </li>
+                          </ul>
+
+                          <li className="mt-1">
+                            {" "}
+                            Brand Authority vs. Lost Traffic
+                          </li>
+                          <ul>
+                            <li className="mt-1">
+                              While appearing in a featured snippet boosts
+                              credibility, it doesn’t guarantee traffic.
+                            </li>
+                            <li className="mt-1">
+                              As zero-click dominance grows, ranking #1 may no
+                              longer be enough—you must also own the answer
+                              directly on the SERP.
+                            </li>
+                          </ul>
+                        </ol>
+                        <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
+                          The GEO Opportunity: Brand Visibility Beyond Clicks
+                        </h3>
+                        <p>
+                          Generative AI tools like ChatGPT, Gemini, and
+                          Perplexity don’t just curate answers—they generate
+                          them. This creates a new layer of exposure:
+                        </p>
+                        <p className="mt-2">
+                          <b>Indirect Brand Recognition</b>
+                        </p>
+                        <ul>
+                          <li>
+                            Even if users don’t click, AI may cite your brand as
+                            a source, reinforcing authority.
+                          </li>
+                          <li>
+                            Example: If ChatGPT answers, “According to
+                            [YourBrand], the best SEO strategy in 2024 is…”, you
+                            gain visibility without a visit.
+                          </li>
+                        </ul>
+                        <p>
+                          <b>The Trust Factor</b>
+                        </p>
+                        <ul>
+                          <li>
+                            AI models prioritize well-structured, authoritative
+                            sources.
+                          </li>
+                          <li>
+                            By optimizing for GEO, you increase the chances of
+                            being referenced—keeping your brand in the
+                            conversation.
+                          </li>
+                        </ul>
+                        <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                          Key Difference: SEO vs. GEO
+                        </h2>
+                        <div className="panel mt-2 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-black overflowx-auto">
+                          <table className="uc-table uc-table-divider">
+                            <thead className="table-head sticky-top z-1 ">
+                              <tr className="table-row dark:border-white border-gray-900">
+                                <th className="table-header-cell" scope="row">
+                                  <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                                    SEO (Search Engine Optimization)
+                                  </span>
+                                </th>
+                                <th className="table-header-cell" scope="row">
+                                  <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                                    GEO (Generative Engine Optimization)
+                                  </span>
+                                </th>
+                              </tr>
+                            </thead>
+                            <tbody className="table-body">
+                              <tr className="table-row border-gray-900 dark:border-white">
+                                <td>
+                                  <span className="dark:text-white">
+                                    Goal: Drive traffic to your website.
+                                  </span>
+                                </td>
+                                <td>
+                                  <span className="dark:text-white">
+                                    Goal: Ensure AI cites your content.
+                                  </span>
+                                </td>
+                              </tr>
+                              <tr className="table-row border-gray-900 dark:border-white">
+                                <td>
+                                  <span className="dark:text-white">
+                                    Success = High rankings + clicks
+                                  </span>
+                                </td>
+                                <td>
+                                  <span className="dark:text-white">
+                                    Success = Accurate AI references + brand
+                                    mentions.
+                                  </span>
+                                </td>
+                              </tr>
+                              <tr className="table-row border-gray-900 dark:border-white">
+                                <td>
+                                  <span className="dark:text-white">
+                                    Relies on Google’s algorithm.
+                                  </span>
+                                </td>
+                                <td>
+                                  <span className="dark:text-white">
+                                    Depends on AI training data & real-time
+                                    retrieval.
+                                  </span>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
+                          The Hybrid Future: Optimizing for Both Worlds
+                        </h3>
+                        <p>
+                          As users split searches between Google and AI
+                          chatbots, businesses must adopt a dual strategy:
+                        </p>
+                        <ul>
+                          <li className="mt-1">
+                            <b>For SEO:</b> Structure content for featured
+                            snippets, schema markup, and voice search.
+                          </li>
+                          <li>
+                            <b>For GEO:</b> Focus on authoritative sourcing,
+                            clear citations, and conversational formatting that
+                            AI can easily extract.
+                          </li>
+                        </ul>
+                        <p>
+                          The brands that adapt fastest will stay visible,
+                          whether their answers appear on Google’s SERP or
+                          ChatGPT’s response box.
                         </p>
                         <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                          Capital of Texas4
+                          Impact of Zero-Click on SEO & Generative Engines
                         </h2>
                         <p>
-                          Visual storytelling is simply the way most brands will
-                          decide to go in 2016 &amp; beyond, as they try to tell
-                          their story to their customers the oldest and most
-                          important unwritten rule in film industry says that
-                          you shouldn’t rely much on words to tell your story.
-                          In fact, you should rely on them as less as possible.
-                          It’s no coincidence that Buster Keaton and Charlot’s
-                          movies remain among the biggest classic movies of all
-                          time. In fact, not being able to rely on spoken word
-                          made them better storytellers. They fully understood
-                          and used the power of showing without words.
+                          Zero-click searches are changing how both traditional
+                          SEO and generative engines operate. Here’s how each is
+                          affected:
                         </p>
-                        <p className="mt-3">
-                          While Denver sits at the base of the Rocky Mountains,
-                          it’s not considered a mountain town since it takes at
-                          least an hour to get to the Rockies for snowboarding
-                          and ski activities, a local expert explained sits at
-                          the base of the Rocky Mountains, it’s not considered a
-                          mountain town since it takes at least an hour to get
-                          to the Rockies for snowboarding and ski activities, a
-                          local expert explained.
-                        </p>
+                        <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
+                          Impact on Traditional SEO
+                        </h3>
+                        <ul>
+                          <li>
+                            <b>User Intent Over Keywords:</b> Google is
+                            increasingly focusing on user intent. It’s not just
+                            about keywords anymore—Google wants to understand
+                            what people are actually looking for.
+                          </li>
+                          <li>
+                            <b>
+                              Reduced Organic Traffic for Informational Queries:
+                            </b>{" "}
+                            Traditional SEO relied on ranking highly to drive
+                            clicks, but zero-click features like featured
+                            snippets, knowledge panels, or “People Also Ask”
+                            boxes provide instant answers.
+                          </li>
+                        </ul>
+                        <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
+                          Impact on Generative Engines (GEO)
+                        </h3>
+                        <ul>
+                          <li>
+                            <b>
+                              Brand Authority and Source Attribution Become
+                              Critical:
+                            </b>
+                            Generative AI often cites or paraphrases trusted
+                            sources (e.g., government sites, academic journals,
+                            established brands).
+                          </li>
+                          <li>
+                            <b>
+                              Rise of Conversational and Long-Tail Keyword
+                              Targeting:
+                            </b>
+                            Users interact with generative engines using natural
+                            language (e.g., “Explain quantum computing in simple
+                            terms”).
+                          </li>
+                        </ul>
+                        <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                          Does Zero-Click Increase Traffic? The Reality
+                        </h2>
                         <figure className="my-3 sm:my-4">
                           <Item
-                            original="/assets/images/blog/post-2.jpg"
-                            thumbnail="/assets/images/blog/post-2.jpg"
+                            original="/assets/images/blog/zero-click search-3-image.webp"
+                            thumbnail="/assets/images/zero-click search-3-image.webp"
                             width="1280"
                             height="853"
                           >
                             {({ ref, open }) => (
-                              <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
+                              <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
                                 <Image
                                   className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                                  alt="Pink Marketing, by Mak"
-                                  src="/assets/images/blog/post-2.jpg"
+                                  alt=""
+                                  src="/assets/images/blog/zero-click search-3-image.webp"
                                   width="1280"
                                   height="853"
                                   ref={ref}
@@ -504,66 +681,7 @@ export default function ZeroClickSearches({ blogItem }) {
                                 <a
                                   onClick={open}
                                   className="position-cover"
-                                  data-caption="Pink Marketing, by Mak"
-                                ></a>
-                              </figure>
-                            )}
-                          </Item>
-                          <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                            Pink Marketing, by Mak
-                          </figcaption>
-                        </figure>
-                        <p>
-                          get to the Rockies for snowboarding and ski
-                          activities, a local expert explained.
-                        </p>
-                        <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                          Capital of Texas5
-                        </h2>
-                        <p>
-                          Visual storytelling is simply the way most brands will
-                          decide to go in 2016 &amp; beyond, as they try to tell
-                          their story to their customers the oldest and most
-                          important unwritten rule in film industry says that
-                          you shouldn’t rely much on words to tell your story.
-                          In fact, you should rely on them as less as possible.
-                          It’s no coincidence that Buster Keaton and Charlot’s
-                          movies remain among the biggest classic movies of all
-                          time. In fact, not being able to rely on spoken word
-                          made them better storytellers. They fully understood
-                          and used the power of showing without words.
-                        </p>
-                        <p className="mt-3">
-                          While Denver sits at the base of the Rocky Mountains,
-                          it’s not considered a mountain town since it takes at
-                          least an hour to get to the Rockies for snowboarding
-                          and ski activities, a local expert explained sits at
-                          the base of the Rocky Mountains, it’s not considered a
-                          mountain town since it takes at least an hour to get
-                          to the Rockies for snowboarding and ski activities, a
-                          local expert explained.
-                        </p>
-                        <figure className="my-3 sm:my-4">
-                          <Item
-                            original="/assets/images/blog/post-2.jpg"
-                            thumbnail="/assets/images/blog/post-2.jpg"
-                            width="1280"
-                            height="853"
-                          >
-                            {({ ref, open }) => (
-                              <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
-                                <Image
-                                  className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                                  alt="Pink Marketing, by Mak"
-                                  src="/assets/images/blog/post-2.jpg"
-                                  width="1280"
-                                  height="853"
-                                  ref={ref}
-                                />
-                                <a
-                                  onClick={open}
-                                  className="position-cover"
-                                  data-caption="Pink Marketing, by Mak"
+                                  data-caption=""
                                 ></a>
                                 <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
                                   Pink Marketing, by Mak
@@ -572,162 +690,148 @@ export default function ZeroClickSearches({ blogItem }) {
                             )}
                           </Item>
                         </figure>
+                        <p className="mt-3">
+                          So, does zero-click lead to more traffic? Well, it’s a
+                          bit of a mixed bag.
+                        </p>
+                        <ul className="mt-2">
+                          <li className="mt-1">
+                            <b>Short-Term Traffic Loss:</b>
+                            Since users can get the answer directly from Google,
+                            they might not click through to your website.
+                          </li>
+                          <li className="mt-1">
+                            <b>Long-Term Authority Gains:</b>
+                            But appearing in a featured snippet or answer box
+                            can increase your brand’s authority. Users might
+                            search for your brand specifically later on, driving
+                            more traffic to your site.
+                          </li>
+                          <li className="mt-1">
+                            For generative engines, traffic is a bit trickier.
+                            It depends on whether the AI tool credits your
+                            website or brand. Some AI tools, like Perplexity.ai,
+                            include source links, but tools like ChatGPT don’t
+                            unless plugins are used.
+                          </li>
+                        </ul>
+                        <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
+                          Actionable Insight to make your site AI Crush
+                        </h3>
+                        <p>
+                          Instead of focusing on clicks, think about building
+                          brand trust. If AI tools see your brand as an
+                          authoritative source, it will pay off in the long run.
+                        </p>
                         <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                          Great Schools and Entertainment 2
+                          How to Optimize for Zero-Click (SEO + GEO)
+                        </h2>
+                        <p className="mt-3">
+                          To succeed in this new world, you’ll need to optimize
+                          for both traditional SEO and generative engine
+                          optimization. Here are some practical tips:
+                        </p>
+                        <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
+                          A. Traditional SEO Tactics
+                        </h3>
+                        <ul>
+                          <li>
+                            <b>Mobile Optimization:</b> Mobile zero-click rates
+                            hit 75%, demanding mobile-first
+                            optimization(Conductor | Scrum Digital), so ensure
+                            your site is mobile-friendly.
+                          </li>
+                          <li>
+                            <b>Use Snippet-Friendly Formatting:</b> Use bullet
+                            points, numbered lists, and headers (H2/H3) to
+                            increase your chances of showing up in featured
+                            snippets.
+                          </li>
+                        </ul>
+                        <p>
+                          <b>Voice Search Optimization:</b> Many voice searches
+                          are question-based, so optimize your content to sound
+                          natural and conversational.
+                        </p>
+                        <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
+                          B. Generative Engine Optimization (GEO) Tactics
+                        </h3>
+                        <ul>
+                          <li>
+                            <b>Target Question-Based Keywords:</b> Focus on
+                            long-tail keywords that reflect how people phrase
+                            their questions, like “What is the best tool for
+                            X?”.
+                          </li>
+                          <li>
+                            <b>Write In-Depth Guides:</b> AI tools love
+                            well-structured, step-by-step guides. The clearer
+                            your content, the more likely it is to be cited by
+                            AI.
+                          </li>
+                          <li>
+                            <b>Content Quality:</b> Publish original research,
+                            case studies, and data-driven insights. AI tools
+                            prioritize credible sources, so the better your
+                            content, the more likely it is to be used.
+                          </li>
+                          <li>
+                            <b>Boosts AI Trustworthiness:</b> Search engines and
+                            AI models prioritize content from reliable sources,
+                            enhancing visibility and ranking within Generative
+                            Engine Optimization (GEO).
+                          </li>
+                        </ul>
+                        <p>
+                          <b>Schema Markup: </b> Use schema markup to help AI
+                          understand your content’s context, making it easier
+                          for them to generate accurate answers.
+                        </p>
+                        <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
+                          Authority Signals
+                        </h4>
+                        <ul>
+                          <li>
+                            <b>Earn Backlinks:</b>Backlinks and citations from
+                            high-authority websites and publication houses
+                            signal trustworthiness, which AI tools value.
+                          </li>
+                          <li>
+                            <b>E-E-A-T:</b> Make sure your content reflects
+                            Experience, Expertise, Authoritativeness, and
+                            Trustworthiness to gain AI’s trust.
+                          </li>
+                          <li>
+                            <b>Use Reddit & Quora: </b> Reddit and Quora boost
+                            zero-click search by providing conversational Q&A
+                            content that matches natural language queries,
+                            feeding featured snippets and AI answers.
+                          </li>
+                        </ul>
+                        <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                          Conclusion
                         </h2>
                         <p>
-                          Education is a high point when it comes to analyzing
-                          the quality of life factors that make Ann Arbor one of
-                          the best places to live. The University of Michigan,
-                          which has 43,000 students, makes Ann Arbor a perennial
-                          candidate for our annual ranking of the best college
-                          towns and plays a big role in the city’s economy and
-                          culture.
+                          So, here’s the tea: Zero-click searches aren’t going
+                          anywhere, whether you’re battling Google’s snippets or
+                          AI’s auto-generated essays. Traditional SEO? It’s like
+                          playing a game of chess with Google, where clicks are
+                          your checkmate. But GEO? That’s the wildcard, where
+                          being quoted by a chatbot is the new flex.
                         </p>
-                        <p className="mt-3">
-                          While Denver sits at the base of the Rocky Mountains,
-                          it’s not considered a mountain town since it takes
-                          considered at least an hour to get to the Rockies for
-                          snowboarding and ski activities, a local expert
-                          explained sits at the base of the Rocky Mountains,
-                          it’s not considered a mountain town since it takes at
-                          least an hour to get to the Rockies for snowboarding
-                          and ski activities, a local expert explained.
-                        </p>
-                        <h4 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                          Great Schools and Entertainment
-                        </h4>
                         <p>
-                          Education is a high point when it comes to analyzing
-                          the quality of life factors that make Ann Arbor one of
-                          the best places to live. The University of Michigan,
-                          which has 43,000 students, makes Ann Arbor a perennial
-                          candidate for our annual ranking of the best college
-                          towns and plays a big role in the city’s economy and
-                          culture.
+                          You can’t put all your eggs in one basket. Double down
+                          on zero-click searches and cozy up to GEO by creating
+                          content so sharp, even AI can’t resist name-dropping
+                          you. After all, why choose between traffic and
+                          authority when you can have both?
                         </p>
-                        <p className="mt-3">
-                          While Denver sits at the base of the Rocky Mountains,
-                          it’s not considered a mountain town since it takes
-                          considered at least an hour to get to the Rockies for
-                          snowboarding and ski activities, a local expert
-                          explained sits at the base of the Rocky Mountains,
-                          it’s not considered a mountain town since it takes at
-                          least an hour to get to the Rockies for snowboarding
-                          and ski activities, a local expert explained.
-                        </p>
-                        <div className="panel my-3">
-                          <figure className="float-start me-3 mb-0">
-                            <Item
-                              original="/assets/images/blog/post-3.jpg"
-                              thumbnail="/assets/images/blog/post-3.jpg"
-                              width="1280"
-                              height="853"
-                            >
-                              {({ ref, open }) => (
-                                <figure className="featured-image m-0 rounded ratio ratio-1x1 sm:w-300px uc-transition-toggle overflow-hidden">
-                                  <Image
-                                    className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                                    alt="Great Schools and Entertainment"
-                                    src="/assets/images/blog/post-3.jpg"
-                                    width="1280"
-                                    height="854"
-                                    ref={ref}
-                                  />
-                                  <a
-                                    onClick={open}
-                                    className="position-cover"
-                                    data-caption="Great Schools and Entertainment"
-                                  ></a>
-                                </figure>
-                              )}
-                            </Item>
-                            <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                              Great Schools and Entertainment
-                            </figcaption>
-                          </figure>
-                          <h4 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                            Great Schools and Entertainment
-                          </h4>
-                          <p>
-                            Education is a high point when it comes to analyzing
-                            the quality of life factors that make Ann Arbor one
-                            of the best places to live. The University of
-                            Michigan, which has 43,000 students, makes Ann Arbor
-                            a perennial candidate for our annual ranking of the
-                            best college towns and plays a big role in the
-                            city’s economy and culture.
-                          </p>
-                          <p className="mt-3">
-                            While Denver sits at the base of the Rocky
-                            Mountains, it’s not considered a mountain town since
-                            it takes considered at least an hour to get to the
-                            Rockies for snowboarding and ski activities, a local
-                            expert explained sits at the base of the Rocky
-                            Mountains, it’s not considered a mountain town since
-                            it takes at least an hour to get to the Rockies for
-                            snowboarding and ski activities, a local expert
-                            explained.
-                          </p>
-                          <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                            Great Schools and Entertainment 5
-                          </h2>
-                          <p>
-                            Education is a high point when it comes to analyzing
-                            the quality of life factors that make Ann Arbor one
-                            of the best places to live. The University of
-                            Michigan, which has 43,000 students, makes Ann Arbor
-                            a perennial candidate for our annual ranking of the
-                            best college towns and plays a big role in the
-                            city’s economy and culture.
-                          </p>
-                          <p className="mt-3">
-                            While Denver sits at the base of the Rocky
-                            Mountains, it’s not considered a mountain town since
-                            it takes considered at least an hour to get to the
-                            Rockies for snowboarding and ski activities, a local
-                            expert explained sits at the base of the Rocky
-                            Mountains, it’s not considered a mountain town since
-                            it takes at least an hour to get to the Rockies for
-                            snowboarding and ski activities, a local expert
-                            explained.
-                          </p>
-                          <p>
-                            Bike paths and sidewalks make getting to and from
-                            the city's many festivals, museums, restaurants and
-                            music venues easy. A range of amenities provides
-                            many things to do in Bellevue. About 40 percent of
-                            the city's population are minorities, which
-                            contributes to an overall diverse range of
-                            lifestyles and ideas.
-                          </p>
-                          <p className="mt-3">
-                            While Denver sits at the base of the Rocky
-                            Mountains, it's not considered a mountain town since
-                            it takes at least an hour to get to the Rockies for
-                            snowboarding and ski activities, a local expert
-                            explained. Olympic mountain bikers, musicians, and
-                            award-winning chefs about what exactly makes their
-                            hometowns so special and fun. In fact, not being
-                            able to rely on spoken word made them better
-                            storytellers. They fully understood and used the
-                            power of showing without words. They fully
-                            understood and used the power of showing without
-                            words.
-                          </p>
-                        </div>
                         <p>
-                          Probably the oldest and most important unwritten rule
-                          in film industry says that you shouldn’t rely much on
-                          words to tell your story. In fact, you should rely on
-                          them as less as possible is simply the way most brands
-                          will decide to go in 2016 &amp; beyond, as they try to
-                          tell their story to their customers.
-                        </p>
-                        <p className="mt-3">
-                          I talked to climbers, Olympic mountain bikers,
-                          musicians, and award-winning chefs about what exactly
-                          makes their hometowns so special and fun.
+                          Future-proof your strategy, stay ahead of the
+                          algorithms, and remember: in a world where answers
+                          come before clicks, being the source is the ultimate
+                          win. Now is the time to start working to make Google
+                          and ChatGPT your biggest fans. 🚀
                         </p>
                       </div>
                     </Gallery>
