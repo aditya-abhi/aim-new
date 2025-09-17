@@ -3,11 +3,21 @@ import Footer7 from "@/components/footers/Footer7";
 import Header7 from "@/components/headers/Header7";
 import { allBlogs } from "@/data/blogs";
 import AEOTools from "@/components/blogs/AEOTools";
+import AEOToolsNew from "@/components/blogs/AEOToolsNew";
+import Head from "@/components/blogs/components/Head";
+import Author from "@/components/blogs/components/Author";
+import Blog1Faqs from "@/components/blogs/faqs/Blog1Faqs";
+import NextPrevBlogs from "@/components/blogs/components/NextPrevBlogs";
+import RelatedBlogs from "@/components/blogs/components/RelatedBlogs";
+import AuthorBioShort from "@/components/blogs/components/AuthorBioShort";
+import Experiment1 from "@/components/blogs/components/Experiment1";
+import Experiment2 from "@/components/blogs/components/Experiment2";
+import AEOToolsNewCopy from "@/components/blogs/AEOToolsNewCopy";
 export const metadata = {
   title:
-    "Blog 2 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Here are the top 10 answer engine optimization tools that boost search visibility and dominate AI-powered search results in 2025.",
 };
 export default async function Blog2Page(props) {
   const params = await props.params;
@@ -15,11 +25,25 @@ export default async function Blog2Page(props) {
   const blogItem = allBlogs.filter((elm) => elm.id == id)[0] || allBlogs[0];
   return (
     <>
-      <div className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-tertiary-800 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready">
-        <Header7 />
-        <div id="wrapper" className="wrap">
-          <AEOTools blogItem={blogItem} />
-          <Newsletter />
+      <div className="theme-3 ">
+        <div
+          className="bp-xs page-wrapper bp-sm bp-md bp-lg bp-xl dom-ready bp-xxl-max uni-body panel uni-body panel bg-white text-gray-900 dark:bg-tertiary-800 dark:text-gray-200 disable-cursor"
+          style={{ overflowX: "clip" }}
+        >
+          <Header7 />
+          <Head
+            pageName="Answer Engine Optimization Tools: The Shocking Truth About AI
+                  Monitor"
+          />
+          <Experiment1 />
+          <AuthorBioShort />
+          <AEOToolsNew />
+          {/* <AEOToolsNewCopy /> */}
+          <Author />
+          <Blog1Faqs />
+          <Experiment2 />
+          <NextPrevBlogs />
+          <RelatedBlogs />
         </div>
         <Footer7 />
       </div>

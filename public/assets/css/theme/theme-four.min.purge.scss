@@ -9201,6 +9201,9 @@
   .to-tertiary-700 {
     --uc-gradient-to: #01353c;
   }
+  .to-tertiary-800 {
+    --uc-gradient-to: #012328;
+  }
   .to-primary-800 {
     --uc-gradient-to: #3b5d26;
   }
@@ -9355,4 +9358,8 @@ html[dir="rtl"] .theme-4 .uc-navbar-left {
 .rounded-bottom-0 {
   border-bottom-right-radius: 0 !important;
   border-bottom-left-radius: 0 !important;
+}
+
+.list-style-none {
+  list-style: none !important;
 }

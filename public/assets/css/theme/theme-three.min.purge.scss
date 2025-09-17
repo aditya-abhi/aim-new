@@ -156,19 +156,18 @@
   --color-slate-700: #40444d;
   --color-slate-800: #2b2e33;
   --color-slate-900: #15171a;
-  --color-primary: #16404b;
-  --color-primary-10: #f8f9fa;
-  --color-primary-25: #f3f5f6;
-  --color-primary-50: #e8eced;
-  --color-primary-100: #d0d9db;
-  --color-primary-200: #a2b3b7;
-  --color-primary-300: #738c93;
-  --color-primary-400: #45666f;
+  --color-primary-10: #fcfefa;
+  --color-primary-25: #fafef7;
+  --color-primary-50: #f4fdef;
+  --color-primary-100: #e9fadf;
+  --color-primary-200: #d4f6bf;
+  --color-primary-300: #bef19f;
+  --color-primary-400: #a9ed7f;
   --color-primary-500: var(--color-primary);
-  --color-primary-600: #12333c;
-  --color-primary-700: #0d262d;
-  --color-primary-800: #091a1e;
-  --color-primary-900: #040d0f;
+  --color-primary-600: #76ba4c;
+  --color-primary-700: #588b39;
+  --color-primary-800: #3b5d26;
+  --color-primary-900: #1d2e13;
   --color-secondary: #fcf0e7;
   --color-secondary-10: #fffffe;
   --color-secondary-25: #fffefe;
@@ -1100,18 +1099,18 @@
   --bs-slate-700-rgb: 64, 68, 77;
   --bs-slate-800-rgb: 43, 46, 51;
   --bs-slate-900-rgb: 21, 23, 26;
-  --bs-primary-10-rgb: 248, 249, 250;
-  --bs-primary-25-rgb: 243, 245, 246;
-  --bs-primary-50-rgb: 232, 236, 237;
-  --bs-primary-100-rgb: 208, 217, 219;
-  --bs-primary-200-rgb: 162, 179, 183;
-  --bs-primary-300-rgb: 115, 140, 147;
-  --bs-primary-400-rgb: 69, 102, 111;
-  --bs-primary-500-rgb: 22, 64, 75;
-  --bs-primary-600-rgb: 18, 51, 60;
-  --bs-primary-700-rgb: 13, 38, 45;
-  --bs-primary-800-rgb: 9, 26, 30;
-  --bs-primary-900-rgb: 4, 13, 15;
+  --bs-primary-10-rgb: 252, 254, 250;
+  --bs-primary-25-rgb: 250, 254, 247;
+  --bs-primary-50-rgb: 244, 253, 239;
+  --bs-primary-100-rgb: 233, 250, 223;
+  --bs-primary-200-rgb: 212, 246, 191;
+  --bs-primary-300-rgb: 190, 241, 159;
+  --bs-primary-400-rgb: 169, 237, 127;
+  --bs-primary-500-rgb: var(--color-primary-rgb);
+  --bs-primary-600-rgb: 118, 186, 76;
+  --bs-primary-700-rgb: 88, 139, 57;
+  --bs-primary-800-rgb: 59, 93, 38;
+  --bs-primary-900-rgb: 29, 46, 19;
   --bs-secondary-10-rgb: 255, 255, 254;
   --bs-secondary-25-rgb: 255, 254, 254;
   --bs-secondary-50-rgb: 255, 254, 253;
@@ -2042,6 +2041,9 @@
     letter-spacing: 0;
   }
   .fs-2 {
+    letter-spacing: 0;
+  }
+  .fs-3 {
     letter-spacing: 0;
   }
   .fs-4 {
@@ -3295,7 +3297,7 @@
   h4,
   h5,
   h6 {
-    margin-top: 0;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     font-family: var(--font-family-secondary);
     font-weight: 700;
@@ -6647,6 +6649,9 @@
   .fs-2 {
     font-size: 1.75rem !important;
   }
+  .fs-3 {
+    font-size: 1.5rem !important;
+  }
   .fs-4 {
     font-size: 1.25rem !important;
   }
@@ -7917,6 +7922,9 @@
     .sm\:gap-8 {
       gap: 4rem !important;
     }
+    .sm\:fs-3 {
+      font-size: 1.5rem !important;
+    }
     .sm\:fs-4 {
       font-size: 1.25rem !important;
     }
@@ -9089,4 +9097,12 @@ html[dir="rtl"] .theme-3 {
     margin-right: unset;
     margin-left: auto;
   }
+}
+
+.half-width-column {
+  width: 50%;
+}
+
+.full-width-table {
+  width: 100%;
 }
