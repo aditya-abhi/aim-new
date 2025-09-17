@@ -1,6 +1,6 @@
 "use client";
 import Toc from "./Toc";
-import RelatedBlogs from "../blog/RelatedBlogs";
+import RelatedBlogs from "./RelatedBlogs";
 import Image from "next/image";
 import Link from "next/link";
 import { Gallery, Item } from "react-photoswipe-gallery";
@@ -8,7 +8,7 @@ import { useState } from "react";
 import Blog1Faqs from "../blogs/faqs/Blog1Faqs";
 import GEOCourseCTA from "@/components/common/GeoCTA";
 
-export default function Blog2({ blogItem }) {
+export default function News&({ blogItem }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const toggleAuthorDetails = () => {
@@ -195,7 +195,7 @@ export default function Blog2({ blogItem }) {
                 </ul>
               </div>
               <figure className="featured-image m-0">
-                <figure className="featured-image m-0 rounded ratio ratio-2x1 rounded uc-transition-toggle overflow-hidden">
+                <figure className="featured-image m-0 rounded ratio ratio-16x9 rounded uc-transition-toggle overflow-hidden">
                   <Image
                     className="media-cover image uc-transition-scale-up uc-transition-opaque"
                     alt="Maximizing your reach with marketing strategies"
@@ -210,8 +210,6 @@ export default function Blog2({ blogItem }) {
         </div>
         <div className="panel mt-4 lg:mt-6 xl:mt-9">
           <div className="container">
-            {/* <div className="row child-cols justify-center lg:justify-between items-center gx-0"> */}
-            {/* <div className="col-12 lg:col-2 xl:col-2 d-none lg:d-block lg:min-h-800px"></div> */}
             <div className="row child-cols-12 g-6 md:g-8 xl:g-6">
               <div
                 className="row child-cols col-match justify-center g-2 lg:g-4"
@@ -221,13 +219,13 @@ export default function Blog2({ blogItem }) {
                   <div className="uc-main panel" role="main">
                     <Gallery>
                       <div
-                        className="post-content panel fs-6 md:fs-5"
+                        className="post-content panel fs-6 md:fs-5 ml-2"
                         data-uc-lightbox="animation: scale"
                       >
                         <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                           Introduction
                         </h2>
-                        <p>
+                        <p className="">
                           She started her blog exactly six months before I
                           launched Camels &amp; Chocolate, and she really set
                           the bar high for my own blog birthday, Y’all this

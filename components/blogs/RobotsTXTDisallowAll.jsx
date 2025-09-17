@@ -200,7 +200,8 @@ export default function RobotsTXTDisallowAll({ blogItem }) {
                   <Image
                     className="media-cover image uc-transition-scale-up uc-transition-opaque"
                     alt="Maximizing your reach with marketing strategies"
-                    src="/assets/images/blog/Robots.txt Disallow All.webp"
+                    src="/assets/images/blog/Robots-txtDisallowAll.webp"
+                    thumbnail="/assets/images/blog/Robots-txtDisallowAll.webp"
                     width="1280"
                     height="853"
                   />

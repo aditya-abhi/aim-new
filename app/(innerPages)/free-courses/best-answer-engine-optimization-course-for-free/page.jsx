@@ -1,3 +1,4 @@
+import Script from "next/script";
 import Footer7 from "@/components/footers/Footer7";
 import Header7 from "@/components/headers/Header7";
 import Blogs from "@/components/aeo-course/Blogs";
@@ -16,6 +17,7 @@ import React from "react";
 import Learnings from "@/components/aeo-course/Learnings";
 import Certificate from "@/components/aeo-course/Certificate";
 import Achievements from "@/components/aeo-course/Achievements";
+import MailerLiteFormButton from "@/components/common/MailerButton";
 export const metadata = {
   title: "AI Monitor || Answer Engine Optimization Course",
   description:
@@ -40,6 +42,7 @@ export default function page() {
               <Certificate />
               <Instructor />
               <BestFor />
+              {/* <MailerLiteFormButton /> */}
               <Faqs />
               <Testimonials />
               <Blogs />
@@ -49,6 +52,15 @@ export default function page() {
           </div>{" "}
         </div>
       </div>
+      <Script id="mailerlite-universal" strategy="afterInteractive">
+        {`
+          (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+          .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+          n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+          (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+          ml('account', '1771466');
+        `}
+      </Script>
     </>
   );
 }

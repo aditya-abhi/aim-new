@@ -1057,10 +1057,11 @@ export const categories = [
 export const services = [
   {
     title: "Pillars of Growth",
-    icon: "unicon-glyph-square-fill",
+    icon: "unicon-glyph-circle-fill",
     items: [
       {
         icon: "unicon-search",
+        image: "/assets/images/custom-icons/ai-search.svg",
         title: "AI Search Analytics",
         description:
           "Managing multiple software and tools for different tasks.",
@@ -1068,30 +1069,35 @@ export const services = [
       },
       {
         icon: "unicon-chart-pie",
+        image: "/assets/images/custom-icons/geo.svg",
         title: "GEO Services",
         description: "The latest industry reports, updates and info.",
         link: "/services/generative-engine-optimization-geo-service",
       },
       {
         icon: "unicon-increase-level",
+        image: "/assets/images/custom-icons/seo.svg",
         title: "LLM SEO Services",
         description: "Suite of tools that cover all aspects of your business.",
         link: "/services/large-language-model-llm-seo-service",
       },
       {
         icon: "unicon-increase-level",
+        image: "/assets/images/custom-icons/competitor.svg",
         title: "Competitor Benchmarking",
         description: "Suite of tools that cover all aspects of your business.",
         link: "/services/competitor-benchmarking-for-ai-search",
       },
       {
         icon: "unicon-increase-level",
+        image: "/assets/images/custom-icons/prompt.svg",
         title: "AI Prompt Monitoring",
         description: "Suite of tools that cover all aspects of your business.",
         link: "/services/ai-prompt-monitoring-service",
       },
       {
         icon: "unicon-increase-level",
+        image: "/assets/images/custom-icons/local.svg",
         title: "Local SEO and GEO",
         description: "Suite of tools that cover all aspects of your business.",
         link: "/services/local-search-engine-optimization-and-generative-engine-optimization",
@@ -1104,18 +1110,21 @@ export const services = [
     items: [
       {
         icon: "unicon-chart-venn-diagram",
+        image: "/assets/images/custom-icons/saas.svg",
         title: "SaaS SEO Services",
         description: "Assign tasks, share files with your team.",
         link: "/services/saas-search-engine-optimization-service",
       },
       {
         icon: "unicon-chat",
+        image: "/assets/images/custom-icons/aeo.svg",
         title: "AEO Services",
         description: "Assign tasks, share files with your team.",
         link: "/services/answer-engine-optimization-aeo-service",
       },
       {
         icon: "unicon-checkmark",
+        image: "/assets/images/custom-icons/marketing.svg",
         title: "Marketing Analytics",
         description:
           "Managing multiple software and tools for different tasks.",
@@ -1123,6 +1132,7 @@ export const services = [
       },
       {
         icon: "unicon-checkmark",
+        image: "/assets/images/custom-icons/reddit.svg",
         title: "SaaS Reddit Marketing",
         description:
           "Managing multiple software and tools for different tasks.",
@@ -1130,6 +1140,7 @@ export const services = [
       },
       {
         icon: "unicon-checkmark",
+        image: "/assets/images/custom-icons/content.svg",
         title: "SaaS Content Marketing",
         description:
           "Managing multiple software and tools for different tasks.",
@@ -1137,6 +1148,7 @@ export const services = [
       },
       {
         icon: "unicon-checkmark",
+        image: "/assets/images/custom-icons/brand-mention.svg",
         title: "Backlinks & Brand Mentions",
         description:
           "Managing multiple software and tools for different tasks.",

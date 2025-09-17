@@ -17,9 +17,9 @@ export default function Head({
 
   return (
     <>
-      <div className="position-absolute top-0 start-0 end-0 min-h-700px xl:min-h-900px bg-tertiary-700 lg:rounded-2 lg:rounded-top-0 lg:mx-2 mt-0 z-0" />
+      <div className="position-absolute top-0 start-0 end-0 min-h-350px xl:min-h-900px bg-tertiary-700 lg:rounded-2 lg:rounded-top-0 lg:mx-2 mt-0 z-0" />
       <div>
-        <ul className="breadcrumb nav-x justify-center items-center fs-7 m-0 fw-bold text-white mt-6 lg:mt-8 xl:mt-10">
+        <ul className="breadcrumb nav-x justify-center items-center fs-7 m-0 fw-bold text-white pt-6 mt-8 lg:mt-8">
           <li>
             <span className="opacity-90 text-white">
               <Image
@@ -150,7 +150,7 @@ export default function Head({
           height={900}
           className="rounded-2 h-auto"
         /> */}
-        <div className="container container-75 mt-4">
+        <div className="container lg:container-75 mt-4 mb-4">
           <figure className="rounded=2 ratio ratio-16x9 uc-transition-toggle overflow-hidden">
             <Image
               className="rounded-2"
@@ -161,7 +161,7 @@ export default function Head({
             />
           </figure>
         </div>
-        <div className="container container-75 hstack gap-4 my-2 lg:pl-5">
+        <div className="container lg:container-75 hstack gap-4 mt-2 mb-4 lg:pl-5">
           <h2 className="h6">
             Published on:{" "}
             <span className="text-tertiary dark:text-primary">
@@ -169,7 +169,7 @@ export default function Head({
             </span>{" "}
           </h2>
           <div className={isUpdated ? "d-block" : "d-none"}>
-            <h2 className="h5">
+            <h2 className="h6">
               Updated on:{" "}
               <span className="text-tertiary dark:text-primary">
                 {updatedOn}

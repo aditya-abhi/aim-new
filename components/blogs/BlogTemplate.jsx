@@ -9,7 +9,7 @@ import Toc from "./Toc";
 
 export default function BlogTemplate() {
   return (
-    <div className="section panel mx-5">
+    <div className="section panel mr-5">
       <div className="container container-full mx-3">
         <div className="panel py-4 lg:py-6 xl:py-8">
           <div className="row child-cols-12 ">

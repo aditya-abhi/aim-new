@@ -200,6 +200,7 @@ export default function GoogleSEGRansRAG({ blogItem }) {
                     className="media-cover image uc-transition-scale-up uc-transition-opaque"
                     alt="Maximizing your reach with marketing strategies"
                     src="/assets/images/blog/Blog-sge-&-rag.webp"
+                    thumbnail="/assets/images/blog/Blog-sge-&-rag.webp"
                     width="1280"
                     height="853"
                   />

@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Notfound() {
   return (
     <div className="section py-6 sm:py-9">
-      <div className="container max-w-xl">
+      <div className="container max-w-xl mt-5 lg:mt-6 xl:mt-8">
         <div className="panel vstack justify-center items-center gap-2 sm:gap-4 text-center">
           <h2 className="display-5 sm:display-2 fw-normal text-gray-200">
             404
@@ -21,12 +21,12 @@ export default function Notfound() {
           >
             Go back home
           </Link>
-          <p>
+          {/* <p>
             Why Not try to search again?
             <a className="uc-link" onClick={openSearchModal} data-uc-toggle>
               Search now
             </a>
-          </p>
+          </p> */}
         </div>
       </div>
     </div>
