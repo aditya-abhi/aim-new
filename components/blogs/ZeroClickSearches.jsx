@@ -414,36 +414,39 @@ export default function ZeroClickSearches({ blogItem }) {
                           So why does this matter?
                         </h3>
                         <p>
-                          While Denver sits at the base of the Rocky Mountains,
-                          it’s not considered a mountain town since it takes at
-                          least an hour to get to the Rockies for snowboarding
-                          and ski activities, a local expert explained. Olympic
-                          mountain bikers, musicians, and award-winning chefs
-                          about what exactly makes their hometowns so special
-                          and fun. <br />
-                          In fact, not being able to rely on spoken word made
-                          them better storytellers. They fully understood and
-                          used the power of showing without words.
+                          Well, the shift towards AI tools like ChatGPT is
+                          massive. According to{" "}
+                          <a
+                            href="https://magecomp.com/blog/chatgpt-statistics/#:~:text=ChatGPT%20handles%20over%201%20billion%20queries%20per%20day%2C%20showcasing%20its%20robust%20infrastructure."
+                            target="_blank"
+                            className="text-blue"
+                          >
+                            MageComp,
+                          </a>{" "}
+                          ChatGPT handles over 1 billion queries per day. To put
+                          that into perspective—if you take just 5 minutes to
+                          read this blog, around 3.5 million people will have
+                          already gotten their answers from ChatGPT in that same
+                          time.
                         </p>
                         <p className="mt-3">
-                          Probably the oldest and most important unwritten rule
-                          in film industry says that you shouldn’t rely much on
-                          words to tell your story. In fact, you should rely on
-                          them as less as possible is simply the way most brands
-                          will decide to go in 2016 &amp; beyond, as they try to
-                          tell their story to their customers.
+                          Zero-click isn’t disappearing—it’s evolving. People
+                          love the instant answers, and AI powered search
+                          engines and chatbots are becoming a go-to for many
+                          search queries. Winning in this new landscape means
+                          playing by the rules of both traditional SEO and
+                          generative AI.
                         </p>
                         <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                          Great Schools and Entertainment1
+                          Why Zero-Click Searches Matter for Both SEO & GEO
                         </h2>
                         <p>
-                          Education is a high point when it comes to analyzing
-                          the quality of life factors that make Ann Arbor one of
-                          the best places to live. The University of Michigan,
-                          which has 43,000 students, makes Ann Arbor a perennial
-                          candidate for our annual ranking of the best college
-                          towns and plays a big role in the city’s economy and
-                          culture.
+                          The rise of zero-click searches is reshaping digital
+                          visibility—forcing businesses to rethink strategy
+                          across both traditional search engines and generative
+                          AI platforms. While this shift presents challenges for
+                          SEO, it also unlocks new opportunities in GEO. Here’s
+                          how the landscape is changing.
                         </p>
                         <p className="mt-3">
                           While Denver sits at the base of the Rocky Mountains,
