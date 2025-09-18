@@ -6,7 +6,7 @@ import React from "react";
 export default function RightSideBottom() {
   return (
     <div className="uc-sidebar panel vstack gap-2 ">
-      <div className="widget featured-widget vstack gap-2 lg:gap-4 p-2 py-3 lg:p-4 lg:py-5 rounded-1-5 lg:rounded-2 bg-gray-25 dark:bg-gray-800 mb-3">
+      <div className="widget featured-widget vstack gap-2 lg:gap-4 p-2 py-3 lg:p-4 lg:py-5 rounded-1-5 lg:rounded-2 bg-secondary dark:bg-tertiary-700 mb-3">
         <div className="widget-title text-center">
           <h5 className="fs-7 m-0">Featured post</h5>
         </div>
@@ -34,7 +34,7 @@ export default function RightSideBottom() {
               </h4>
               <p className="fs-6">{post.description}</p>
               <Link
-                className="btn btn-text text-primary dark:text-tertiary border-bottom mt-3"
+                className="btn btn-text text-primary dark:text-primary border-bottom mt-3"
                 href={`/blog-details/${post.id}`}
               >
                 Read more

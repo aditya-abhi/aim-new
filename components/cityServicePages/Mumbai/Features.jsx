@@ -8,7 +8,7 @@ export default function Features() {
       id="main_features"
       className="main-features section panel overflow-hidden"
     >
-      <div className="section-outer panel py-6 md:py-8 lg:mb-10">
+      <div className="section-outer panel py-6 md:py-8 lg:mb-10 bg-tertiary-700 mx-2 rounded-2">
         <div className="container">
           <div className="section-inner panel">
             <div
@@ -18,13 +18,11 @@ export default function Features() {
               {/* <span className="fs-7 fw-medium py-narrow px-2 border rounded-pill">
                 Features
               </span> */}
-              <h2 className="h3 lg:h2 m-0">
+              <h2 className="h3 lg:h2 m-0 text-white">
                 3 Powerful Features.{" "}
-                <span className="text-tertiary dark:text-primary">
-                  1 Open-Source Platform.
-                </span>
+                <span className="text-primary">1 Open-Source Platform.</span>
               </h2>
-              <p className="fs-6 xl:fs-5 xl:px-8 dark:text-white">
+              <p className="fs-6 xl:fs-5 xl:px-8 text-white">
                 Cover every angle of AI visibility with purpose-built monitors
                 for your brand, traffic, and bots.
               </p>
@@ -35,7 +33,7 @@ export default function Features() {
             >
               {featuresPage.map((feature, index) => (
                 <div key={index}>
-                  <div className="panel overflow-hidden bg-secondary text-gray-900 dark:bg-tertiary-700 dark:text-white rounded-2 lg:rounded-3">
+                  <div className="panel overflow-hidden bg-secondary text-gray-900 rounded-2">
                     <div className="panel p-2 pb-0">
                       <Image
                         className="rounded-1-5"

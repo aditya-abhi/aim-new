@@ -503,14 +503,17 @@ export const features8 = [
   {
     imgSrc: "/assets/images/features/home-8-feature-01.png",
     title: "Seamless integrations with your existing tools",
+    link: ",",
   },
   {
     imgSrc: "/assets/images/features/home-8-feature-05.png",
     title: "Intuitive dashboard for at-a-glance insights",
+    link: "",
   },
   {
     imgSrc: "/assets/images/features/home-8-feature-06.png",
     title: "Automated data analysis and reporting",
+    link: "",
   },
 ];
 
@@ -2774,19 +2777,19 @@ export const guideFocus = [
 
 export const featuresPage = [
   {
-    imgSrc: "/assets/images/features/home-8-feature-01.png",
+    imgSrc: "/assets/images/features/visibility-checker.webp",
     title: "AI Visibility Checker",
     desc: "Tracks how your brand appears across AI platforms",
     link: "/features/ai-visibility-checker",
   },
   {
-    imgSrc: "/assets/images/features/home-8-feature-05.png",
+    imgSrc: "/assets/images/features/competitor-radar.webp",
     title: "AI Competitor Radar",
     desc: "Monitors competitor presence and performance in AI",
     link: "/features/ai-competitor-radar",
   },
   {
-    imgSrc: "/assets/images/features/home-8-feature-06.png",
+    imgSrc: "/assets/images/features/crawlability-clinic.webp",
     title: "AI Crawlability Clinic",
     desc: "Audits your site’s AI crawlability and indexability",
     link: "/features/ai-crawlability-clinic",

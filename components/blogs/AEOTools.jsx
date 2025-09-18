@@ -228,16 +228,16 @@ export default function AEOTools({ blogItem }) {
                           Tools
                         </h2>
                         <p>Raise your hand if you’ve ever:</p>
-                        <ul className="mt-2">
-                          <li>
+                        <ul>
+                          <li className="mt-2">
                             Wasted hours tweaking SEO, only to watch Google’s AI
                             Overviews bury your content.
                           </li>
-                          <li>
+                          <li className="mt-2">
                             Panicked as competitors hijacked ChatGPT answers
                             while your brand vanished.
                           </li>
-                          <li>
+                          <li className="mt-2">
                             Wondered if “AEO tools” are just SEO tools with a
                             ChatGPT sticker slapped on.
                           </li>
@@ -251,75 +251,18 @@ export default function AEOTools({ blogItem }) {
                           platforms like ChatGPT, Claude, and Google AI
                           Overviews.
                         </p>
-                        <p>
+                        <p className="mt-3">
                           Think of AEO tools as your compass through the AI
                           maze. They don’t just track keywords; they track how
                           your brand appears in AI answers, recommendations, and
                           summaries, helping you reclaim visibility before your
                           competitors do.
                         </p>
-                        <p>
+                        <p className="mt-3">
                           In this guide, we’ll explore the top AEO tools of
                           2025, how they work, and why they’ve become essential
                           for brands navigating the AI-driven search revolution.
                         </p>
-                        {/* <div className="panel mt-3">
-                          <figure className="float-end ms-3 mb-1">
-                            <Item
-                              original="/assets/images/blog/post-1.jpg"
-                              thumbnail="/assets/images/blog/post-1.jpg"
-                              width="1280"
-                              height="853"
-                            >
-                              {({ ref, open }) => (
-                                <figure className="featured-image m-0 rounded ratio ratio-1x1 sm:w-300px uc-transition-toggle overflow-hidden">
-                                  <Image
-                                    className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                                    alt="Holding flower, by Anthony Tran"
-                                    src="/assets/images/blog/post-1.jpg"
-                                    width="1280"
-                                    height="853"
-                                    ref={ref}
-                                  />
-                                  <a
-                                    onClick={open}
-                                    className="position-cover"
-                                    data-caption="Holding flower, by Anthony Tran"
-                                  ></a>
-                                </figure>
-                              )}
-                            </Item>
-                            <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                              Holding flower, by Anthony Tran
-                            </figcaption>
-                          </figure>
-                          <p>
-                            Bike paths and sidewalks make getting to and from
-                            the city’s many festivals, museums, restaurants and
-                            music venues easy. A range of amenities provides
-                            many things to do in Bellevue. About 40 percent of
-                            the city’s population are minorities, which
-                            contributes to an overall diverse range of
-                            lifestyles and ideas.
-                          </p>
-                          <p className="mt-3">
-                            While Denver sits at the base of the Rocky
-                            Mountains, it’s not considered a mountain town since
-                            it takes at least an hour to get to the Rockies for
-                            snowboarding and ski activities, a local expert
-                            explained. Olympic mountain bikers, musicians, and
-                            award-winning chefs about what exactly makes their
-                            hometowns so special and fun.
-                          </p>
-                          <p className="mt-3">
-                            In fact, not being able to rely on spoken word made
-                            them better storytellers. They fully understood and
-                            used the power of showing without words. They fully
-                            understood and used the power of showing without
-                            words. They fully understood and used the power of
-                            showing without words.
-                          </p>
-                        </div> */}
                         <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                           2. What Are Answer Engine Optimization (AEO) Tools?
                         </h2>
@@ -335,17 +278,17 @@ export default function AEOTools({ blogItem }) {
                         <p className="mt-3">
                           Here’s what makes them different:
                         </p>
-                        <ul className="mt-2">
-                          <li>
+                        <ul>
+                          <li className="mt-2">
                             <b>Decode AI Preferences →</b> Understand why
                             Gemini, ChatGPT, or Perplexity prefer citing your
                             competitors instead of you.
                           </li>
-                          <li>
+                          <li className="mt-2">
                             <b>Track Sentiment → </b>Spot when Claude calls your
                             software “buggy” instead of “best-in-class.{" "}
                           </li>
-                          <li>
+                          <li className="mt-2">
                             <b>Dominate Zero-Click Answers → </b>With 77% of
                             queries ending with AI-generated responses
                             (BrightEdge, 2024), AEO tools help ensure your brand
@@ -356,35 +299,6 @@ export default function AEOTools({ blogItem }) {
                           Think of AEO tools as your brand’s AI publicist; they
                           make sure when robots speak, they speak your story.
                         </p>
-                        {/* <figure className="my-3 sm:my-4">
-                          <Item
-                            original="/assets/images/blog/post-2.jpg"
-                            thumbnail="/assets/images/blog/post-2.jpg"
-                            width="1280"
-                            height="853"
-                          >
-                            {({ ref, open }) => (
-                              <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
-                                <Image
-                                  className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                                  alt="Pink Marketing, by Mak"
-                                  src="/assets/images/blog/post-2.jpg"
-                                  width="1280"
-                                  height="853"
-                                  ref={ref}
-                                />
-                                <a
-                                  onClick={open}
-                                  className="position-cover"
-                                  data-caption="Pink Marketing, by Mak"
-                                ></a>
-                              </figure>
-                            )}
-                          </Item>
-                          <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                            Pink Marketing, by Mak
-                          </figcaption>
-                        </figure> */}
                         <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                           3. How to Evaluate AEO Tools: 3 Non-Negotiables
                         </h2>
@@ -398,19 +312,23 @@ export default function AEOTools({ blogItem }) {
                         <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
                           3.1. AI Platform Coverage (Beyond Google)
                         </h3>
-                        <p className="mt-3">
+                        <p>
                           If your AEO tool only optimizes for Google AI
                           Overviews, you’re already behind. In 2025, AI-driven
                           discovery happens everywhere on ChatGPT, Perplexity,
                           Claude, Microsoft Copilot, and more.
                         </p>
-                        <p>A strong AEO tool should:</p>
+                        <p className="mt-3">A strong AEO tool should:</p>
                         <ul>
-                          <li>
+                          <li className="mt-2">
                             Monitor brand mentions across multiple AI platforms
                           </li>
-                          <li>Track how your competitors are being cited</li>
-                          <li>Surface visibility gaps in real time</li>
+                          <li className="mt-2">
+                            Track how your competitors are being cited
+                          </li>
+                          <li className="mt-2">
+                            Surface visibility gaps in real time
+                          </li>
                         </ul>
                         <p>
                           <b>Example: </b> AI Monitor instantly alerts you when
@@ -429,21 +347,21 @@ export default function AEOTools({ blogItem }) {
                           brand narrative. The best AEO tools don’t just track
                           what’s said; they analyze how it’s said. Look for:
                         </p>
-                        <ul className="mt-2">
-                          <li>
+                        <ul>
+                          <li className="mt-2">
                             <b>AI sentiment tracking →</b> Positive vs. negative
                             mentions
                           </li>
-                          <li>
+                          <li className="mt-2">
                             <b>Narrative control →</b> Which key phrases,
                             features, or reviews are AI engines highlighting
                           </li>
-                          <li>
+                          <li className="mt-2">
                             <b>Competitive positioning →</b> Whether you’re
                             labeled “market leader” or “budget alternative”
                           </li>
                         </ul>
-                        <p>
+                        <p className="mt-2">
                           <b>Pro Tip: </b> Prioritise tools that provide
                           context-rich sentiment dashboards so you know when to
                           celebrate or intervene.
@@ -456,38 +374,13 @@ export default function AEOTools({ blogItem }) {
                           but the real game-changers influence what they say.
                           This is where AI training integrations come in.
                         </p>
-                        <p className="mt-2">Instead of static reports like:</p>
-                        {/* <figure className="my-3 sm:my-4">
-                          <Item
-                            original="/assets/images/blog/post-2.jpg"
-                            thumbnail="/assets/images/blog/post-2.jpg"
-                            width="1280"
-                            height="853"
-                          >
-                            {({ ref, open }) => (
-                              <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
-                                <Image
-                                  className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                                  alt="Pink Marketing, by Mak"
-                                  src="/assets/images/blog/post-2.jpg"
-                                  width="1280"
-                                  height="853"
-                                  ref={ref}
-                                />
-                                <a
-                                  onClick={open}
-                                  className="position-cover"
-                                  data-caption="Pink Marketing, by Mak"
-                                ></a>
-                              </figure>
-                            )}
-                          </Item>
-                          <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                            Pink Marketing, by Mak
-                          </figcaption>
-                        </figure> */}
-                        <p>“Your FAQ ranked #8 in ChatGPT last month.”</p>
-                        <p>
+                        <p className="mt-3 fw-bold">
+                          Instead of static reports like:
+                        </p>
+                        <p className="mx-4">
+                          “Your FAQ ranked #8 in ChatGPT last month.”
+                        </p>
+                        <p className="mx-4">
                           …the next generation of AEO tools goes further. They
                           feed structured, AI-friendly content directly into the
                           ecosystem, helping engines learn your preferred
@@ -497,39 +390,38 @@ export default function AEOTools({ blogItem }) {
                           <b>What elite tools do:</b>{" "}
                         </p>
                         <ul>
-                          <li>
+                          <li className="mt-2">
                             <b>Leverage live prompt trends →</b> Analyze
                             real-time user queries and generate content briefs
                             optimized for AI engines.
                           </li>
-                          <li>
+                          <li className="mt-2">
                             <b>Push structured data to AI systems →</b> Ensuring
                             your product specs, FAQs, and pricing are easily
                             digestible for LLMs.
                           </li>
-                          <li>
+                          <li className="mt-2">
                             <b>Shape AI outputs at the source →</b> Aligning
                             your messaging with what AI engines highlight in
                             their summaries.
                           </li>
                         </ul>
-                        <p>
+                        <p className="mt-3">
                           <b>Example:</b> Tools like Profound automatically
                           create AI-ready content briefs based on emerging
                           prompt trends, giving your content the best chance of
                           being cited in ChatGPT, Perplexity, and Gemini
                           responses.
                         </p>
-                        <p className="mt-2">
+                        <p className="mt-3">
                           <b>Pro Tip:</b>
                           Look for AEO tools that don’t just report rankings but
                           actively help you train AI engines to favor your
                           content.
                         </p>
-                        <p>
+                        <p className="mt-3">
                           <b>Bottom Line</b>
-                        </p>
-                        <p>
+                          <br />
                           If an AEO tool can’t track, analyze, and influence
                           your brand’s visibility across multi-platform AI
                           ecosystems, it’s not built for 2025. These three
@@ -988,25 +880,20 @@ export default function AEOTools({ blogItem }) {
                             </tbody>
                           </table>
                         </div>
-                        <p className="mt-3">
-                          <b>Legend:</b>
-                        </p>
-                        <uL>
+                        <h4 className="h6 lg:h5 mt-2 mb-2">Legend:</h4>
+                        <ul className="list-style-none">
                           <li>✅ = Strong capability</li>
                           <li>⚠️ = Limited or partial capability</li>
                           <li>❌ = Minimal or missing capability</li>
-                        </uL>
+                        </ul>
                         <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                           5. Top 10 Answer Engine Optimization Tools to Dominate
                           AI Search: A Comprehensive Guide
                         </h2>
-                        <h3 classname="h5 xl:h4 mt-4 mb-2 xl:mb-3">
+                        <h4 classname="h6 xl:h5 mb-2">
                           Spoiler: #1 Takes the Crown, But Everyone Deserves a
                           Spotlight
-                        </h3>
-                        <h3 classname="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                          5.1. AI Monitor — # 1 AEO Tool
-                        </h3>
+                        </h4>
                         <p>
                           The rise of Answer Engine Optimization (AEO) is
                           transforming how brands compete in AI-driven search.
@@ -1015,6 +902,78 @@ export default function AEOTools({ blogItem }) {
                           Let’s explore the contenders.
                         </p>
                         <h3 classname="h5 xl:h4 mt-4 mb-2 xl:mb-3">
+                          5.1. AI Monitor — # 1 AEO Tool
+                        </h3>
+                        <figure className="my-3 sm:my-4">
+                          <Item
+                            original="/assets/images/blog/internal/AIM-webpage.webp"
+                            thumbnail="/assets/images/blog/internal/AIM-webpage.webp"
+                            width="1280"
+                            height="853"
+                          >
+                            {({ ref, open }) => (
+                              <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
+                                <Image
+                                  className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                  alt="Pink Marketing, by Mak"
+                                  src="/assets/images/blog/internal/AIM-webpage.webp"
+                                  width="1280"
+                                  height="853"
+                                  ref={ref}
+                                />
+                                <a
+                                  onClick={open}
+                                  className="position-cover"
+                                ></a>
+                              </figure>
+                            )}
+                          </Item>
+                        </figure>
+                        <p className="fs-4 fw-light">
+                          "Unmatched Results That Speak for Themselves"
+                        </p>
+                        <p>
+                          <strong>
+                            AI Monitor is the #1 Answer Engine Optimization
+                            (AEO) tool for B2B SaaS companies, digital marketing
+                            agencies, and startups.
+                          </strong>{" "}
+                          Built with a{" "}
+                          <strong>
+                            GEO-first (Generative Engine Optimization)
+                          </strong>{" "}
+                          approach, it helps you track how{" "}
+                          <strong>
+                            AI engines perceive, cite, and summarize your brand
+                          </strong>{" "}
+                          across platforms like{" "}
+                          <strong>
+                            ChatGPT, Google Gemini, Perplexity, Claude, and
+                            Microsoft Copilot.
+                          </strong>
+                          <strong>
+                            From real-time sentiment tracking to competitive
+                            benchmarking,
+                          </strong>{" "}
+                          it ensures your brand stays visible, relevant, and
+                          accurately represented in AI-generated answers.
+                        </p>
+                        <h4 classname="h6 xl:h5 mt-2 mb-2">5.1.1 Best For</h4>
+                        <ul>
+                          <li className="mt-2">
+                            Startups, brands, and agencies want multi-platform
+                            AI visibility
+                          </li>
+                          <li className="mt-2">
+                            Marketers seeking actionable insights into AI-driven
+                            responses
+                          </li>
+                          <li className="mt-2">
+                            SEO teams are adapting to the shift from search
+                            engines to answer engines
+                          </li>
+                        </ul>
+                        <h3 classname="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                           6.1. AI Monitor — # 1 AEO Tool
                         </h3>
                         <p className="mt-3">
@@ -1041,35 +1000,6 @@ export default function AEOTools({ blogItem }) {
                           ROI Potential: High brands report up to 500%
                           visibility growth.
                         </p>
-                        {/* <figure className="my-3 sm:my-4">
-                          <Item
-                            original="/assets/images/blog/post-2.jpg"
-                            thumbnail="/assets/images/blog/post-2.jpg"
-                            width="1280"
-                            height="853"
-                          >
-                            {({ ref, open }) => (
-                              <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
-                                <Image
-                                  className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                                  alt="Pink Marketing, by Mak"
-                                  src="/assets/images/blog/post-2.jpg"
-                                  width="1280"
-                                  height="853"
-                                  ref={ref}
-                                />
-                                <a
-                                  onClick={open}
-                                  className="position-cover"
-                                  data-caption="Pink Marketing, by Mak"
-                                ></a>
-                              </figure>
-                            )}
-                          </Item>
-                          <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                            Pink Marketing, by Mak
-                          </figcaption>
-                        </figure> */}
                         <p>ROI Rating: ★★★★☆ (4.5/5)</p>
                         <p>Overall Rating: ⭐⭐⭐⭐⭐ (5/5) </p>
                         <p>

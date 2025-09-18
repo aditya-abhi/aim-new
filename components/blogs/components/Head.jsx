@@ -48,7 +48,7 @@ export default function Head({
         <div className="container max-w-xl">
           <div className="post-header uc-dark">
             <div className="panel vstack gap-4 md:gap-6 xl:gap-9 text-center">
-              <div className="panel vstack items-center max-w-400px sm:max-w-500px xl:max-w-md mx-auto gap-2 md:gap-3">
+              <div className="panel vstack items-center max-w-400px sm:max-w-500px xl:max-w-lg mx-auto gap-2 md:gap-3">
                 <h1 className="h4 sm:h3 xl:h1 my-4 lg:my-6">{pageName}</h1>
               </div>
             </div>

@@ -10,12 +10,12 @@ export default function Footer7() {
       id="uc-footer"
       className="uc-footer panel overflow-hidden uc-dark uc-dark"
     >
-      <div className="footer-outer py-6 lg:py-8 xl:py-9 bg-tertiary-700 text-white text-opacity-70 m-2 mt-0 rounded-2">
+      <div className="footer-outer py-6 lg:pt-8 xl:pt-9 bg-tertiary-700 text-white text-opacity-70 m-2 mt-0 rounded-2">
         <div className="uc-footer-content">
           <div className="container xl:max-w-xl">
-            <div className="uc-footer-inner vstack gap-4 lg:gap-6 xl:gap-8">
+            <div className="uc-footer-inner vstack gap-4 lg:gap-4">
               <div className="uc-footer-widgets panel">
-                <div className="row child-cols-6 md:child-cols col-match g-4">
+                <div className="row child-cols-6 md:child-cols col-match g-2">
                   <div className="col-12 lg:col-6">
                     <div className="panel vstack items-start gap-3 xl:gap-4 lg:max-w-1/2">
                       <div>
@@ -128,7 +128,171 @@ export default function Footer7() {
                   </ul>
                 </div>
               </div>
-              <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-between pt-4 lg:pt-6 mt-6 border-top">
+              <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-between pt-4 lg:pt-6 border-top ">
+                <ul className="nav-x justify-center gap-2 lg:gap-4">
+                  <li>
+                    <a
+                      href="/best-generative-engine-optimization-geo-agency-in-delhi"
+                      className="duration-150 hover:text-primary fs-5"
+                    >
+                      Delhi
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/best-generative-engine-optimization-geo-agency-in-mumbai"
+                      className="duration-150 hover:text-primary fs-5"
+                    >
+                      Mumbai
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/best-generative-engine-optimization-geo-agency-bengaluru"
+                      className="duration-150 hover:text-primary fs-5"
+                    >
+                      Bengaluru
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/best-generative-engine-optimization-geo-agency-in-hyderabad"
+                      className="duration-150 hover:text-primary fs-5"
+                    >
+                      Hydrabad
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/best-generative-engine-optimization-geo-agency-chennai"
+                      className="duration-150 hover:text-primary fs-5"
+                    >
+                      Chennai
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/best-generative-engine-optimization-geo-agency-in-ahmedabad"
+                      className="duration-150 hover:text-primary fs-5"
+                    >
+                      Ahmedabad
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/best-generative-engine-optimization-geo-agency-kolkata"
+                      className="duration-150 hover:text-primary fs-5"
+                    >
+                      Kolkata
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/best-generative-engine-optimization-geo-agency-in-chandigarh"
+                      className="duration-150 hover:text-primary fs-5"
+                    >
+                      Chandigrah
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/best-generative-engine-optimization-geo-agency-in-gurgaon"
+                      className="duration-150 hover:text-primary fs-5"
+                    >
+                      Gurgaon
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/best-generative-engine-optimization-geo-agency-in-noida"
+                      className="duration-150 hover:text-primary fs-5"
+                    >
+                      Noida
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/best-generative-engine-optimization-geo-agency-in-lucknow"
+                      className="duration-150 hover:text-primary fs-5"
+                    >
+                      Lucknow
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/best-generative-engine-optimization-geo-agency-jaipur"
+                      className="duration-150 hover:text-primary fs-5"
+                    >
+                      Jaipur
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/best-generative-engine-optimization-geo-agency-in-bhubaneswar"
+                      className="duration-150 hover:text-primary fs-5"
+                    >
+                      Bhubaneswar
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/best-generative-engine-optimization-geo-agency-in-kochi"
+                      className="duration-150 hover:text-primary fs-5"
+                    >
+                      Kochi
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/best-generative-engine-optimization-geo-agency-in-bareilly"
+                      className="duration-150 hover:text-primary fs-5"
+                    >
+                      Bareilly
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/best-generative-engine-optimization-geo-agency-amritsar"
+                      className="duration-150 hover:text-primary fs-5"
+                    >
+                      Amritsar
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/best-generative-engine-optimization-geo-agency-goa"
+                      className="duration-150 hover:text-primary fs-5"
+                    >
+                      Goa
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/best-generative-engine-optimization-geo-agency-srinagar"
+                      className="duration-150 hover:text-primary fs-5"
+                    >
+                      Srinagar
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/best-generative-engine-optimization-geo-agency-in-dhaka"
+                      className="duration-150 hover:text-primary fs-5"
+                    >
+                      Dhaka
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/best-generative-engine-optimization-geo-agency-in-rangpur"
+                      className="duration-150 hover:text-primary fs-5"
+                    >
+                      Rangpur
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-between pt-4 lg:pt-6 border-top">
                 <p>
                   Amtolit Inc. DBA AI Monitor © {new Date().getFullYear()}, All
                   rights reserved.
