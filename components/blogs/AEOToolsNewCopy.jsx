@@ -3,7 +3,7 @@ import React from "react";
 import Sidebar from "./sidebars/Sidebar";
 import Image from "next/image";
 import AudioPlayer from "./sidebars/AudioPlayer";
-import TableOfContents from "./sidebars/TableOfContents";
+import TableOfContentsServer from "./sidebars/TableOfContentsServer";
 import RightSideBottom from "./sidebars/RightSideBottom";
 import RightSideTop from "./sidebars/RightSideTop";
 import Toc from "./Toc";
@@ -33,7 +33,7 @@ export default function AEOToolsNewCopy() {
             </div>
             <div className="d-none lg:d-block lg:col-3 order-2 lg:order-0 sticky-element3">
               <AudioPlayer />
-              <TableOfContents />
+              <TableOfContentsServer />
             </div>
             <div className="d-none lg:d-block lg:col-3 order-2 lg:order-2 sticky-element3">
               <RightSideTop />
