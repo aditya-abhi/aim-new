@@ -3,14 +3,14 @@
 import { useContextElement } from "@/context/Context";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
-import InlineToc from "@/components/blogs/InlineToc";
+import MobileTableOfContent from "@/components/blogs/components/MobileTableOfContent";
 
 export default function BacktoTop() {
   const { isDark, handleToggle } = useContextElement();
   const pathname = usePathname();
 
   const [isVisible, setIsVisible] = useState(false);
-  const [isTOCOpen, setIsTOCOpen] = useState(true);
+  const [isTOCOpen, setIsTOCOpen] = useState(false);
   const isBlogPage =
     pathname?.startsWith("/blogs/") || pathname?.startsWith("/blog/");
 
@@ -52,26 +52,46 @@ export default function BacktoTop() {
         }`}
       >
         {isBlogPage && isVisible && (
-          <a
-            className={`btn btn-sm w-40px h-40px rounded-circle mb-1 ${
-              isTOCOpen ? "bg-primary text-white" : "!bg-[#93e85f] !text-black"
+          <button
+            className={`btn btn-sm w-40px h-40px rounded-circle mb-1 border-0 transition-all duration-200 ${
+              isTOCOpen 
+                ? "shadow-lg" 
+                : "bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 shadow-md hover:shadow-lg"
             }`}
-            style={
-              isTOCOpen
-                ? {}
-                : {
-                    backgroundColor: "#93e85f",
-                    color: "#000000",
-                    zIndex: 100,
-                  }
-            }
+            style={{
+              backgroundColor: isTOCOpen ? "#025864" : undefined,
+              color: isTOCOpen ? "#ffffff" : undefined
+            }}
             onClick={toggleTOC}
-            title={
-              isTOCOpen ? "Close Table of Contents" : "Open Table of Contents"
-            }
+            title={isTOCOpen ? "Close Table of Contents" : "Open Table of Contents"}
           >
-            <i className="icon-2 unicon-list"></i>
-          </a>
+            {isTOCOpen ? (
+              <span 
+                style={{
+                  color: "#ffffff",
+                  fontSize: "20px",
+                  fontWeight: "normal",
+                  lineHeight: "1",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  width: "100%",
+                  height: "100%",
+                  zIndex: 1000
+                }}
+              >
+                ×
+              </span>
+            ) : (
+              <i 
+                className="icon-2 unicon-list"
+                style={{
+                  fontSize: "16px",
+                  zIndex: 1000
+                }}
+              />
+            )}
+          </button>
         )}
         <div
           className="darkmode-trigger cstack w-40px h-40px rounded-circle text-none bg-gray-100 dark:bg-gray-700 dark:text-white"
@@ -92,35 +112,13 @@ export default function BacktoTop() {
         </a>
       </div>
 
-      {/* Floating TOC Panel */}
-      {isBlogPage && isVisible && isTOCOpen && (
-        <div
-          className="position-fixed bottom-0 start-0 z-98 m-2 ms-20 bg-white dark:bg-gray-800 rounded-2 shadow-lg border border-gray-200 dark:border-gray-700 max-h-400px overflow-y-auto d-block lg:d-none"
-          style={{ width: "280px" }}
-        >
-          <div className="p-3 border-bottom border-gray-200 dark:border-gray-700">
-            <div className="d-flex justify-between items-center">
-              <h6 className="h6 m-0 text-gray-900 dark:text-white">
-                Table of Contents
-              </h6>
-              <button
-                className="w-6 h-6 flex items-center justify-center rounded-full hover:bg-red-50 dark:hover:bg-red-900/20 transition-all z-10 relative border-0 bg-transparent font-bold text-lg !text-red-600 dark:!text-red-400 hover:!text-red-700 dark:hover:!text-red-300"
-                onClick={() => setIsTOCOpen(false)}
-                title="Close"
-                style={{
-                  fontSize: "18px",
-                  lineHeight: "1",
-                  color: "rgb(220 38 38)", // fallback red color
-                }}
-              >
-                ×
-              </button>
-            </div>
-          </div>
-          <div className="p-3">
-            <InlineToc />
-          </div>
-        </div>
+      {/* Mobile TOC - Bottom-anchored expandable */}
+      {isBlogPage && (
+        <MobileTableOfContent
+          isOpen={isTOCOpen}
+          onToggle={toggleTOC}
+          onClose={() => setIsTOCOpen(false)}
+        />
       )}
     </>
   );
