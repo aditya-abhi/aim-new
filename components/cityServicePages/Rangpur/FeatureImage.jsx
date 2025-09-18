@@ -35,13 +35,13 @@ export default function FeatureImage() {
                 >
                   <img
                     className="d-block dark:d-none"
-                    src="/assets/images/cities/delhi-light.webp"
-                    alt="Best-Generative-Engine-Optimization-Agency-in-Delhi"
+                    src="/assets/images/cities/rangpur-light.webp"
+                    alt="Best-Generative-Engine-Optimization-Agency-in-Rangpur"
                   />
                   <img
                     className="d-none dark:d-block"
-                    src="/assets/images/cities/delhi-dark.webp"
-                    alt="Best-Generative-Engine-Optimization-Agency-in-Delhi"
+                    src="/assets/images/cities/rangpur-dark.webp"
+                    alt="Best-Generative-Engine-Optimization-Agency-in-Rangpur"
                   />
                 </div>
               </div>

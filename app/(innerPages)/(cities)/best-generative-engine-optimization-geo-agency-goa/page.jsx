@@ -11,9 +11,9 @@ import CaseStudies from "@/components/cityServicePages/Goa/CaseStudies";
 import Testimonials from "@/components/cityServicePages/Goa/Testimonials";
 import Cta from "@/components/cityServicePages/Goa/Cta";
 export const metadata = {
-  title: "AI Monitor Best Generative Engine Optimization Agency in Delhi",
+  title: "AI Monitor Best Generative Engine Optimization Agency in Goa",
   description:
-    "Boost your brand’s AI visibility with AI Monitor, Delhi’s leading Generative Engine Optimization GEO agency. Get discovered by AI-tools.",
+    "Boost your brand’s AI visibility with AI Monitor, Goa’s leading Generative Engine Optimization GEO agency. Get discovered by AI-tools.",
 };
 export default function page() {
   return (

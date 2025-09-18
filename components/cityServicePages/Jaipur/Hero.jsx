@@ -26,11 +26,13 @@ export default function Hero() {
                 data-anime="translateY: [0, 15]; easing: linear; loop: true; direction: alternate; delay: 50;"
               >
                 <Image
-                  className="p-2"
-                  alt="brand"
-                  src="/assets/images/apps/zapier.svg"
+                  className=""
+                  alt="chatGPT logo"
+                  src="/assets/images/apps/gpt.webp"
                   width={800}
                   height={800}
+                  priority={true}
+                  fetchPriority="high"
                 />
               </div>
               <div
@@ -39,11 +41,13 @@ export default function Hero() {
                 data-anime="translateY: [0, 5]; easing: linear; loop: true; direction: alternate; delay: 25;"
               >
                 <Image
-                  className="p-2"
-                  alt="brand"
-                  src="/assets/images/apps/stipe.svg"
+                  className=""
+                  alt="gemini logo"
+                  src="/assets/images/apps/gemini.webp"
                   width={800}
                   height={800}
+                  priority={true}
+                  fetchPriority="high"
                 />
               </div>
               <div
@@ -52,11 +56,13 @@ export default function Hero() {
                 data-anime="translateY: [0, 10]; easing: linear; loop: true; direction: alternate; delay: 0;"
               >
                 <Image
-                  className="p-2"
-                  alt="brand"
-                  src="/assets/images/apps/asana.svg"
+                  className=""
+                  alt="copilot"
+                  src="/assets/images/apps/copilot.webp"
                   width={2500}
                   height={2311}
+                  priority={true}
+                  fetchPriority="high"
                 />
               </div>
               <div
@@ -65,12 +71,13 @@ export default function Hero() {
                 data-anime="translateY: [0, 5]; easing: linear; loop: true; direction: alternate; delay: 50;"
               >
                 <Image
-                  className="p-2 text-dark dark:text-yellow-400"
-                  alt="brand"
-                  data-uc-svg=""
-                  src="/assets/images/apps/mailchimp.svg"
+                  className=""
+                  alt="perplexity logo"
+                  src="/assets/images/apps/perplexity.webp"
                   width={351}
                   height={373}
+                  priority={true}
+                  fetchPriority="high"
                 />
               </div>
               <div
@@ -79,11 +86,13 @@ export default function Hero() {
                 data-anime="translateY: [0, 15]; easing: linear; loop: true; direction: alternate; delay: 25;"
               >
                 <Image
-                  className="p-2"
-                  alt="brand"
-                  src="/assets/images/apps/drive.svg"
+                  className=""
+                  alt="deepseak logo"
+                  src="/assets/images/apps/deepseak.webp"
                   width={800}
                   height={800}
+                  priority={true}
+                  fetchPriority="high"
                 />
               </div>
               <div
@@ -92,11 +101,13 @@ export default function Hero() {
                 data-anime="translateY: [0, 10]; easing: linear; loop: true; direction: alternate; delay: 50;"
               >
                 <Image
-                  className="p-2"
-                  alt="brand"
-                  src="/assets/images/apps/bitbucket.svg"
+                  className=""
+                  alt="grok logo"
+                  src="/assets/images/apps/grok.webp"
                   width={333}
                   height={300}
+                  priority={true}
+                  fetchPriority="high"
                 />
               </div>
             </div>
@@ -124,7 +135,8 @@ export default function Hero() {
               <p className="fs-5 lg:fs-4 text-white opacity-80">
                 At AI Monitor, we are proud to be rated the world’s best &
                 largest Generative Engine Optimization Agency for Enterprises
-                based in Delhi (don’t ask us how—we’re still figuring that out).
+                based in Jaipur (don’t ask us how—we’re still figuring that
+                out).
               </p>
               <div className="panel vstack items-center gap-1 max-w-400px lg:max-w-750px mx-auto text-center mt-2 xl:mt-4">
                 <div className="mb-2 lg:mb-3">

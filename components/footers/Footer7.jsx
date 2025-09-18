@@ -199,7 +199,7 @@ export default function Footer7() {
                       href="/best-generative-engine-optimization-geo-agency-in-gurugram"
                       className="duration-150 hover:text-primary fs-5"
                     >
-                      Gurgaon
+                      Gurugram
                     </a>
                   </li>
                   <li>
