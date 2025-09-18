@@ -13,6 +13,7 @@ import AuthorBioShort from "@/components/blogs/components/AuthorBioShort";
 import Experiment1 from "@/components/blogs/components/Experiment1";
 import Experiment2 from "@/components/blogs/components/Experiment2";
 import AEOToolsNewCopy from "@/components/blogs/AEOToolsNewCopy";
+import GetFeaturedbyPerplexity from "@/components/blogs/GetFeaturedbyPerplexity";
 export const metadata = {
   title:
     "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
@@ -32,14 +33,12 @@ export default async function Blog2Page(props) {
         >
           <Header7 />
           <Head
-            pageName="Answer Engine Optimization Tools: The Shocking Truth About AI
-                  Monitor"
+            pageName="How to Get Featured by Perplexity AI in 2025: The Complete Interactive Guide"
             src="/assets/images/blog/blog-1.webp"
           />
           <Experiment1 />
           <AuthorBioShort />
-          <AEOToolsNew />
-          {/* <AEOToolsNewCopy /> */}
+          <GetFeaturedbyPerplexity />
           <Author />
           <Blog1Faqs />
           <Experiment2 />
