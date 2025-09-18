@@ -20,6 +20,7 @@ import ContactModal from "@/components/modals/ContactModal";
 import NewsletterModal from "@/components/modals/NewsletterModal";
 import SearchModal from "@/components/modals/SearchModal";
 import GeoEnrollModal from "@/components/modals/GeoEnrollModal";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function RootLayout({ children }) {
   const pathname = usePathname();
@@ -110,6 +111,7 @@ export default function RootLayout({ children }) {
         {" "}
         <Context>
           <ParallaxProvider>{children}</ParallaxProvider>
+          <SpeedInsights />
           <MobileMenu />
           <ContactModal />
           <NewsletterModal />
