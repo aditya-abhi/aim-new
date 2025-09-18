@@ -117,14 +117,15 @@ export default function Hero() {
                 className="h2 xl:display-3 text-center text-tertiary dark:text-primary"
                 data-uc-typed="typeSpeed: 80; backSpeed: 50; backDelay: 1500; loop: true;"
               >
-                <TyperComponent strings={["Delhi", "दिल्ली", "ਦਿੱਲੀ"]} />
+                <TyperComponent strings={["Lucknow", "लखनऊ", "لکھنؤ"]} />
                 {/* </span> */}
               </h2>
 
               <p className="fs-5 lg:fs-4 text-white opacity-80">
                 At AI Monitor, we are proud to be rated the world’s best &
                 largest Generative Engine Optimization Agency for Enterprises
-                based in Delhi (don’t ask us how—we’re still figuring that out).
+                based in Lucknow (don’t ask us how—we’re still figuring that
+                out).
               </p>
               <div className="panel vstack items-center gap-1 max-w-400px lg:max-w-750px mx-auto text-center mt-2 xl:mt-4">
                 <div className="mb-2 lg:mb-3">

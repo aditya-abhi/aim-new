@@ -196,7 +196,7 @@ export default function Footer7() {
                   </li>
                   <li>
                     <a
-                      href="/best-generative-engine-optimization-geo-agency-in-gurgaon"
+                      href="/best-generative-engine-optimization-geo-agency-in-gurugram"
                       className="duration-150 hover:text-primary fs-5"
                     >
                       Gurgaon

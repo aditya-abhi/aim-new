@@ -117,7 +117,7 @@ export default function Hero() {
                 className="h2 xl:display-3 text-center text-tertiary dark:text-primary"
                 data-uc-typed="typeSpeed: 80; backSpeed: 50; backDelay: 1500; loop: true;"
               >
-                <TyperComponent strings={["Delhi", "दिल्ली", "ਦਿੱਲੀ"]} />
+                <TyperComponent strings={["Jaipur", "जयपुर"]} />
                 {/* </span> */}
               </h2>
 
