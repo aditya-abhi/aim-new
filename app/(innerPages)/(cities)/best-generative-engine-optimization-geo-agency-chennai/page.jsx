@@ -11,9 +11,9 @@ import CaseStudies from "@/components/cityServicePages/Chennai/CaseStudies";
 import Testimonials from "@/components/cityServicePages/Chennai/Testimonials";
 import Cta from "@/components/cityServicePages/Chennai/Cta";
 export const metadata = {
-  title: "AI Monitor Best Generative Engine Optimization Agency in Delhi",
+  title: "AI Monitor Best Generative Engine Optimization Agency in Chennai",
   description:
-    "Boost your brand’s AI visibility with AI Monitor, Delhi’s leading Generative Engine Optimization GEO agency. Get discovered by AI-tools.",
+    "Boost your brand’s AI visibility with AI Monitor, Chennai’s leading Generative Engine Optimization GEO agency. Get discovered by AI-tools.",
 };
 export default function page() {
   return (

@@ -11,9 +11,9 @@ import CaseStudies from "@/components/cityServicePages/Hydrabad/CaseStudies";
 import Testimonials from "@/components/cityServicePages/Hydrabad/Testimonials";
 import Cta from "@/components/cityServicePages/Hydrabad/Cta";
 export const metadata = {
-  title: "AI Monitor Best Generative Engine Optimization Agency in Hydrabad",
+  title: "AI Monitor Best Generative Engine Optimization Agency in Hyderabad",
   description:
-    "Boost your brand’s AI visibility with AI Monitor, Hydrabad's leading Generative Engine Optimization GEO agency. Get discovered by AI-tools.",
+    "Boost your brand’s AI visibility with AI Monitor, Hyderabad's leading Generative Engine Optimization GEO agency. Get discovered by AI-tools.",
 };
 export default function page() {
   return (

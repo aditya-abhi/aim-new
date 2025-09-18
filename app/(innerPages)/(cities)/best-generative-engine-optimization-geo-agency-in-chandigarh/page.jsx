@@ -11,9 +11,9 @@ import CaseStudies from "@/components/cityServicePages/Chandigarh/CaseStudies";
 import Testimonials from "@/components/cityServicePages/Chandigarh/Testimonials";
 import Cta from "@/components/cityServicePages/Chandigarh/Cta";
 export const metadata = {
-  title: "AI Monitor Best Generative Engine Optimization Agency in Delhi",
+  title: "AI Monitor Best Generative Engine Optimization Agency in Chandigarh",
   description:
-    "Boost your brand’s AI visibility with AI Monitor, Delhi’s leading Generative Engine Optimization GEO agency. Get discovered by AI-tools.",
+    "Boost your brand’s AI visibility with AI Monitor, Chandigarh’s leading Generative Engine Optimization GEO agency. Get discovered by AI-tools.",
 };
 export default function page() {
   return (
