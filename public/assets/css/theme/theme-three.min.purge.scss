@@ -2748,12 +2748,12 @@
     background: var(--color-primary);
     color: #fff;
   }
-  .post-content p:first-child::first-letter {
-    font-size: 5em;
-    float: left;
-    line-height: 0.9em;
-    margin-right: 16px;
-  }
+  // .post-content p:first-child::first-letter {
+  //   font-size: 5em;
+  //   float: left;
+  //   line-height: 0.9em;
+  //   margin-right: 16px;
+  // }
   .post-navigation .new-post:hover button {
     color: var(--color-primary) !important;
   }
@@ -9131,4 +9131,12 @@ html[dir="rtl"] .theme-3 {
 
 .full-width-table {
   width: 100%;
+}
+
+.lower-roman-list {
+  list-style-type: lower-roman;
+}
+
+.roman-list {
+  list-style-type:upper-roman;
 }
