@@ -13,7 +13,8 @@ import AuthorBioShort from "@/components/blogs/components/AuthorBioShort";
 import Experiment1 from "@/components/blogs/components/Experiment1";
 import Experiment2 from "@/components/blogs/components/Experiment2";
 import AEOToolsNewCopy from "@/components/blogs/AEOToolsNewCopy";
-import GetFeaturedbyPerplexity from "@/components/blogs/GetFeaturedbyPerplexity";
+import WhatisGEO from "@/components/blogs/WhatisGEO";
+import WhatisGEO2 from "@/components/blogs/WhatisGEO2";
 export const metadata = {
   title:
     "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
@@ -33,12 +34,14 @@ export default async function Blog2Page(props) {
         >
           <Header7 />
           <Head
-            pageName="How to Get Featured by Perplexity AI in 2025: The Complete Interactive Guide"
-            src="/assets/images/blog/perplexity-main-image.webp"
+            pageName="What is Generative Engine Optimization (GEO)? All you need to know in 2025 
+"
+            src="/assets/images/blog/what-is-geo.webp"
           />
           <Experiment1 />
           <AuthorBioShort />
-          <GetFeaturedbyPerplexity />
+          <WhatisGEO />
+          {/* <WhatisGEO2 /> */}
           <Author />
           <Blog1Faqs />
           <Experiment2 />
