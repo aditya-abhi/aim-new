@@ -418,6 +418,7 @@
   --color-quaternary-700: #7f8174;
   --color-quaternary-800: #55564e;
   --color-quaternary-900: #2a2b27;
+  --color-table-green: #D7F3A0;
   --colors-accent-primary: var(--color-primary);
   --colors-accent-secondary: var(--color-secondary);
   --colors-accent-success: var(--color-success);
@@ -1356,6 +1357,7 @@
   --bs-quaternary-700-rgb: 127, 129, 116;
   --bs-quaternary-800-rgb: 85, 86, 78;
   --bs-quaternary-900-rgb: 42, 43, 39;
+  --bs-table-green-rgb: 215, 243, 160;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
@@ -7210,6 +7212,27 @@
       var(--bs-bg-opacity)
     ) !important;
   }
+  .bg-lime-400 {
+    --bs-bg-opacity: 1;
+    background-color: rgba(
+      var(--bs-lime-400-rgb),
+      var(--bs-bg-opacity)
+    ) !important;
+  }
+  .bg-lime-100 {
+    --bs-bg-opacity: 1;
+    background-color: rgba(
+      var(--bs-lime-100-rgb),
+      var(--bs-bg-opacity)
+    ) !important;
+  }
+  .bg-table-green {
+    --bs-bg-opacity: 1;
+    background-color: rgba(
+      var(--bs-table-green-rgb),
+      var(--bs-bg-opacity)
+    ) !important;
+  }
   .bg-white,
   .hover\:bg-white:hover {
     --bs-bg-opacity: 1;
@@ -9108,4 +9131,12 @@ html[dir="rtl"] .theme-3 {
 
 .full-width-table {
   width: 100%;
+}
+
+.lower-roman-list {
+  list-style-type: lower-roman;
+}
+
+.roman-list {
+  list-style-type:upper-roman;
 }

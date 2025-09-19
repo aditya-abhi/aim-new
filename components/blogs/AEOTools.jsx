@@ -890,7 +890,7 @@ export default function AEOTools({ blogItem }) {
                           5. Top 10 Answer Engine Optimization Tools to Dominate
                           AI Search: A Comprehensive Guide
                         </h2>
-                        <h4 classname="h6 xl:h5 mb-2">
+                        <h4 className="h6 xl:h5 mb-2">
                           Spoiler: #1 Takes the Crown, But Everyone Deserves a
                           Spotlight
                         </h4>
@@ -901,7 +901,7 @@ export default function AEOTools({ blogItem }) {
                           tools, evaluating their features, pricing, and ROI.
                           Let’s explore the contenders.
                         </p>
-                        <h3 classname="h5 xl:h4 mt-4 mb-2 xl:mb-3">
+                        <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
                           5.1. AI Monitor — # 1 AEO Tool
                         </h3>
                         <figure className="my-3 sm:my-4">
@@ -958,7 +958,7 @@ export default function AEOTools({ blogItem }) {
                           it ensures your brand stays visible, relevant, and
                           accurately represented in AI-generated answers.
                         </p>
-                        <h4 classname="h6 xl:h5 mt-2 mb-2">5.1.1 Best For</h4>
+                        <h4 className="h6 xl:h5 mt-2 mb-2">5.1.1 Best For</h4>
                         <ul>
                           <li className="mt-2">
                             Startups, brands, and agencies want multi-platform
@@ -973,7 +973,7 @@ export default function AEOTools({ blogItem }) {
                             engines to answer engines
                           </li>
                         </ul>
-                        <h3 classname="h5 xl:h4 mt-3 mb-2 xl:mb-3">
+                        <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                           6.1. AI Monitor — # 1 AEO Tool
                         </h3>
                         <p className="mt-3">
