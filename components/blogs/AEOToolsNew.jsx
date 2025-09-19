@@ -28,7 +28,7 @@ export default function AEOToolsNew() {
                       data-uc-lightbox="animation: scale"
                     >
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        1 Simplify the AI Maze with Answer Engine Optimization
+                        1. Simplify the AI Maze with Answer Engine Optimization
                         Tools
                       </h2>
                       <p>Raise your hand if you’ve ever:</p>
@@ -231,447 +231,441 @@ export default function AEOToolsNew() {
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         4. List of Top 10 Answer Engine Optimization Tools
                       </h2>
-                      <div className="panel mt-2 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
-                        <table className="uc-table uc-table-divider">
-                          <thead className="table-head sticky-top z-1 ">
-                            <tr className="table-row dark:border-white border-gray-900">
-                              <th className="table-header-cell" scope="row">
-                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                      <div className="panel mt-4 border rounded-2 lg:rounded-3 dark:border-gray-600 dark:bg-tertiary-700 shadow-sm">
+                        {/* Desktop Table View */}
+                        <div className="d-none d-lg-block overflow-x-auto">
+                          <table className="uc-table uc-table-divider w-100" style={{minWidth: '1000px'}}>
+                          <thead className="table-head sticky-top z-1 bg-gray-50 dark:bg-tertiary-800">
+                            <tr className="table-row border-b-2 border-gray-200 dark:border-gray-600">
+                              <th className="table-header-cell text-left p-2 lg:p-3" scope="col" style={{width: '12%'}}>
+                                <span className="fw-bold fs-6 lg:fs-5 text-gray-900 dark:text-white">
                                   Tool
                                 </span>
                               </th>
-                              <th className="table-header-cell" scope="row">
-                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                              <th className="table-header-cell text-left p-2 lg:p-3" scope="col" style={{width: '18%'}}>
+                                <span className="fw-bold fs-6 lg:fs-5 text-gray-900 dark:text-white">
                                   Primary Use Case
                                 </span>
                               </th>
-                              <th className="table-header-cell" scope="row">
-                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                              <th className="table-header-cell text-left p-2 lg:p-3" scope="col" style={{width: '16%'}}>
+                                <span className="fw-bold fs-6 lg:fs-5 text-gray-900 dark:text-white">
                                   AI Platform Coverage
                                 </span>
                               </th>
-                              <th className="table-header-cell" scope="row">
-                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                              <th className="table-header-cell text-center p-2 lg:p-3" scope="col" style={{width: '14%'}}>
+                                <span className="fw-bold fs-6 lg:fs-5 text-gray-900 dark:text-white">
                                   Sentiment Intelligence
                                 </span>
                               </th>
-                              <th className="table-header-cell" scope="row">
-                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                              <th className="table-header-cell text-center p-2 lg:p-3" scope="col" style={{width: '14%'}}>
+                                <span className="fw-bold fs-6 lg:fs-5 text-gray-900 dark:text-white">
                                   AI Training / Content Briefs
                                 </span>
                               </th>
-                              <th className="table-header-cell" scope="row">
-                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                              <th className="table-header-cell text-center p-2 lg:p-3" scope="col" style={{width: '14%'}}>
+                                <span className="fw-bold fs-6 lg:fs-5 text-gray-900 dark:text-white">
                                   Zero-Click Optimization
                                 </span>
                               </th>
-                              <th className="table-header-cell" scope="row">
-                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                              <th className="table-header-cell text-left p-2 lg:p-3" scope="col" style={{width: '12%'}}>
+                                <span className="fw-bold fs-6 lg:fs-5 text-gray-900 dark:text-white">
                                   Ideal For
                                 </span>
                               </th>
                             </tr>
                           </thead>
                           <tbody className="table-body">
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                            <tr className="table-row border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-tertiary-750 transition-colors">
+                              <th className="p-2 lg:p-3 text-left" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-6 lg:fs-5 fw-bold text-primary-600 dark:text-primary-400">
                                     AI Monitor
                                   </span>
                                 </div>
                               </th>
-                              <td>
-                                <span className="dark:text-white">
-                                  Real-time brand visibility tracking,
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
+                                  Real-time brand visibility tracking
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
-                                  ChatGPT, Google AI Overviews, Perplexity,
-                                  Claude, Copilot
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
+                                  ChatGPT, Google AI Overviews, Perplexity, Claude, Copilot
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3 text-center">
+                                <span className="text-green-600 dark:text-green-400 fw-medium fs-7 lg:fs-6">
                                   ✅ Deep sentiment analytics
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3 text-center">
+                                <span className="text-green-600 dark:text-green-400 fw-medium fs-7 lg:fs-6">
                                   ✅ Uses structured data feeds
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
-                                  C✅ High AI citation control
+                              <td className="p-2 lg:p-3 text-center">
+                                <span className="text-green-600 dark:text-green-400 fw-medium fs-7 lg:fs-6">
+                                  ✅ High AI citation control
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
-                                  B2B SaaS companies, digital marketing
-                                  agencies, and startups.
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
+                                  B2B SaaS companies, digital marketing agencies, and startups
                                 </span>
                               </td>
                             </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                            <tr className="table-row border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-tertiary-750 transition-colors">
+                              <th className="p-2 lg:p-3 text-left" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-6 lg:fs-5 fw-bold text-gray-900 dark:text-white">
                                     Profound
                                   </span>
                                 </div>
                               </th>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   AI prompt trend analysis + content briefs
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   ChatGPT, Gemini, Claude, Perplexity
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3 text-center">
+                                <span className="text-green-600 dark:text-green-400 fw-medium fs-7 lg:fs-6">
                                   ✅ Emotional tone mapping
                                 </span>
                               </td>
-
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3 text-center">
+                                <span className="text-green-600 dark:text-green-400 fw-medium fs-7 lg:fs-6">
                                   ✅ Auto-generates AI-friendly briefs
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3 text-center">
+                                <span className="text-green-600 dark:text-green-400 fw-medium fs-7 lg:fs-6">
                                   ✅ Optimizes for AI summaries
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   Content Teams, GEO Strategists
                                 </span>
                               </td>
                             </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                            <tr className="table-row border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-tertiary-750 transition-colors">
+                              <th className="p-2 lg:p-3 text-left" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-6 lg:fs-5 fw-bold text-gray-900 dark:text-white">
                                     Semrush
                                   </span>
                                 </div>
                               </th>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   Hybrid SEO + early-stage AEO
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   Google AI Overviews, Bing Copilot
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-3 text-center">
+                                <span className="text-yellow-600 dark:text-yellow-400 fw-medium fs-7 lg:fs-6">
                                   ⚠️ Basic keyword sentiment only
                                 </span>
                               </td>
-
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-3 text-center">
+                                <span className="text-red-600 dark:text-red-400 fw-medium fs-7 lg:fs-6">
                                   ❌ Manual content setup
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3 text-center">
+                                <span className="text-green-600 dark:text-green-400 fw-medium fs-7 lg:fs-6">
                                   ✅ Schema-based SERP & AI prep
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   SEO Professionals
                                 </span>
                               </td>
                             </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                            <tr className="table-row border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-tertiary-750 transition-colors">
+                              <th className="p-2 lg:p-3 text-left" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-6 lg:fs-5 fw-bold text-gray-900 dark:text-white">
                                     WriteSonic
                                   </span>
                                 </div>
                               </th>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   AI-driven content creation
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   ChatGPT, Gemini, Claude
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white justify-center">
+                              <td className="p-3 text-center">
+                                <span className="text-yellow-600 dark:text-yellow-400 fw-medium fs-7 lg:fs-6">
                                   ⚠️ Limited sentiment
                                 </span>
                               </td>
-
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-3 text-center">
+                                <span className="text-red-600 dark:text-red-400 fw-medium fs-7 lg:fs-6">
                                   ❌ No live AI training
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3 text-center">
+                                <span className="text-green-600 dark:text-green-400 fw-medium fs-7 lg:fs-6">
                                   ✅ Generates AI-optimised copy
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white justify-center">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   Marketing Teams, Bloggers
                                 </span>
                               </td>
                             </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                            <tr className="table-row border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-tertiary-750 transition-colors">
+                              <th className="p-2 lg:p-3 text-left" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-6 lg:fs-5 fw-bold text-gray-900 dark:text-white">
                                     Otterly.AI
                                   </span>
                                 </div>
                               </th>
-                              <td>
-                                <span className="dark:text-white">
-                                  Optimizes transcripts & meetings for AI
-                                  visibility
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
+                                  Optimizes transcripts & meetings for AI visibility
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   ChatGPT, Copilot, Gemini
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white justify-center">
+                              <td className="p-2 lg:p-3 text-center">
+                                <span className="text-green-600 dark:text-green-400 fw-medium fs-7 lg:fs-6">
                                   ✅ Context-aware sentiment tagging
                                 </span>
                               </td>
-
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-3 text-center">
+                                <span className="text-red-600 dark:text-red-400 fw-medium fs-7 lg:fs-6">
                                   ❌ No AI briefs
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-3 text-center">
+                                <span className="text-yellow-600 dark:text-yellow-400 fw-medium fs-7 lg:fs-6">
                                   ⚠️ Limited zero-click readiness
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white justify-center">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   SaaS Teams, Product Marketers
                                 </span>
                               </td>
                             </tr>
 
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                            <tr className="table-row border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-tertiary-750 transition-colors">
+                              <th className="p-2 lg:p-3 text-left" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-6 lg:fs-5 fw-bold text-gray-900 dark:text-white">
                                     SERanking
                                   </span>
                                 </div>
                               </th>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   SEO + AEO tracking hybrid
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   Google AI Overviews, basic ChatGPT integration
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white justify-center">
-                                  ⚠️ Partial
+                              <td className="p-3 text-center">
+                                <span className="text-yellow-600 dark:text-yellow-400 fw-medium fs-7 lg:fs-6">
+                                  ⚠️ Partial sentiment analysis
                                 </span>
                               </td>
-
-                              <td>
-                                <span className="dark:text-white">❌</span>
+                              <td className="p-3 text-center">
+                                <span className="text-red-600 dark:text-red-400 fw-medium fs-7 lg:fs-6">
+                                  ❌ No AI training capabilities
+                                </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3 text-center">
+                                <span className="text-green-600 dark:text-green-400 fw-medium fs-7 lg:fs-6">
                                   ✅ Structured schema optimization
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white justify-center">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   SMBs, Growth Teams
                                 </span>
                               </td>
                             </tr>
 
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                            <tr className="table-row border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-tertiary-750 transition-colors">
+                              <th className="p-2 lg:p-3 text-left" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-6 lg:fs-5 fw-bold text-gray-900 dark:text-white">
                                     RankScale
                                   </span>
                                 </div>
                               </th>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   Brand positioning inside AI ecosystems
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   ChatGPT, Perplexity, Gemini, Claude
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white justify-center">
+                              <td className="p-2 lg:p-3 text-center">
+                                <span className="text-green-600 dark:text-green-400 fw-medium fs-7 lg:fs-6">
                                   ✅ Deep narrative analysis
                                 </span>
                               </td>
-
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3 text-center">
+                                <span className="text-green-600 dark:text-green-400 fw-medium fs-7 lg:fs-6">
                                   ✅ AI-targeted content modelling
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3 text-center">
+                                <span className="text-green-600 dark:text-green-400 fw-medium fs-7 lg:fs-6">
                                   ✅ Ensures brand dominance in AI
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white justify-center">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   Startups, Product-Led Growth Brands
                                 </span>
                               </td>
                             </tr>
 
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                            <tr className="table-row border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-tertiary-750 transition-colors">
+                              <th className="p-2 lg:p-3 text-left" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-6 lg:fs-5 fw-bold text-gray-900 dark:text-white">
                                     BrandRank.ai
                                   </span>
                                 </div>
                               </th>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   AI sentiment & brand positioning
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   ChatGPT, Gemini, Copilot
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white justify-center">
+                              <td className="p-2 lg:p-3 text-center">
+                                <span className="text-green-600 dark:text-green-400 fw-medium fs-7 lg:fs-6">
                                   ✅ Market sentiment intelligence
                                 </span>
                               </td>
-
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-3 text-center">
+                                <span className="text-yellow-600 dark:text-yellow-400 fw-medium fs-7 lg:fs-6">
                                   ⚠️ Limited AI briefing
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3 text-center">
+                                <span className="text-green-600 dark:text-green-400 fw-medium fs-7 lg:fs-6">
                                   ✅ AI-friendly structured positioning
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white justify-center">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   PR Teams, Brand Managers
                                 </span>
                               </td>
                             </tr>
 
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                            <tr className="table-row border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-tertiary-750 transition-colors">
+                              <th className="p-2 lg:p-3 text-left" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-6 lg:fs-5 fw-bold text-gray-900 dark:text-white">
                                     Nightwatch
                                   </span>
                                 </div>
                               </th>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   GEO-focused SEO tracking
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   Google AI Overviews, ChatGPT, You.com
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white justify-center">
-                                  ⚠️ Limited sentiment
+                              <td className="p-3 text-center">
+                                <span className="text-yellow-600 dark:text-yellow-400 fw-medium fs-7 lg:fs-6">
+                                  ⚠️ Limited sentiment analysis
                                 </span>
                               </td>
-
-                              <td>
-                                <span className="dark:text-white">❌</span>
+                              <td className="p-3 text-center">
+                                <span className="text-red-600 dark:text-red-400 fw-medium fs-7 lg:fs-6">
+                                  ❌ No AI training features
+                                </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3 text-center">
+                                <span className="text-green-600 dark:text-green-400 fw-medium fs-7 lg:fs-6">
                                   ✅ Schema + AI visibility enhancement
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white justify-center">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   Mid-Market SEO Teams
                                 </span>
                               </td>
                             </tr>
 
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                            <tr className="table-row border-b-0 hover:bg-gray-50 dark:hover:bg-tertiary-750 transition-colors">
+                              <th className="p-2 lg:p-3 text-left" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-6 lg:fs-5 fw-bold text-gray-900 dark:text-white">
                                     Ziptie.dev
                                   </span>
                                 </div>
                               </th>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   AI schema + structured data feeds
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   Google AI Overviews, AI scrapers, ChatGPT
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white justify-center">
-                                  ❌ None
+                              <td className="p-3 text-center">
+                                <span className="text-red-600 dark:text-red-400 fw-medium fs-7 lg:fs-6">
+                                  ❌ No sentiment analysis
                                 </span>
                               </td>
-
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3 text-center">
+                                <span className="text-green-600 dark:text-green-400 fw-medium fs-7 lg:fs-6">
                                   ✅ Pushes structured LLM-friendly data
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="p-2 lg:p-3 text-center">
+                                <span className="text-green-600 dark:text-green-400 fw-medium fs-7 lg:fs-6">
                                   ✅ Designed for zero-click inclusion
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white justify-center">
+                              <td className="p-2 lg:p-3">
+                                <span className="text-gray-800 dark:text-gray-200 fs-7 lg:fs-6">
                                   Developers, Tech-First Brands
                                 </span>
                               </td>
@@ -679,17 +673,384 @@ export default function AEOToolsNew() {
                           </tbody>
                         </table>
                       </div>
-                      <h4 className="h6 lg:h5 mt-2 mb-2">Legend:</h4>
-                      <ul className="list-style-none">
-                        <li>✅ = Strong capability</li>
-                        <li>⚠️ = Limited or partial capability</li>
-                        <li>❌ = Minimal or missing capability</li>
+                        
+                        {/* Mobile Card View */}
+                        <div className="d-lg-none">
+                          <div className="p-3">
+                            {/* AI Monitor */}
+                              <div className="mb-4 p-4 bg-white dark:bg-tertiary-800 rounded-2 border border-gray-200 dark:border-gray-600" style={{boxShadow: '0 1px 3px 0 rgba(215, 243, 160, 0.20), 0 1px 2px 0 rgba(215, 243, 160, 0.20)'}}>
+                              <h5 className="fs-5 fw-bold text-primary-600 dark:text-primary-400 mb-3">AI Monitor</h5>
+                              <div className="d-flex flex-column gap-2">
+                                <div>
+                                  <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6">Primary Use Case:</span>
+                                  <p className="mb-0 text-gray-800 dark:text-gray-200">Real-time brand visibility tracking</p>
+                                </div>
+                                <div>
+                                  <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6">AI Platform Coverage:</span>
+                                  <p className="mb-0 text-gray-800 dark:text-gray-200">ChatGPT, Google AI Overviews, Perplexity, Claude, Copilot</p>
+                                </div>
+                                <div className="d-flex flex-wrap gap-3 mt-2">
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Sentiment Intelligence:</span>
+                                    <span className="text-green-600 dark:text-green-400 fw-medium">✅ Deep sentiment analytics</span>
+                                  </div>
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">AI Training:</span>
+                                    <span className="text-green-600 dark:text-green-400 fw-medium">✅ Uses structured data feeds</span>
+                                  </div>
+                                </div>
+                                <div className="d-flex flex-wrap gap-3">
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Zero-Click Optimization:</span>
+                                    <span className="text-green-600 dark:text-green-400 fw-medium">✅ High AI citation control</span>
+                                  </div>
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Ideal For:</span>
+                                    <span className="text-gray-800 dark:text-gray-200">B2B SaaS companies, digital marketing agencies, and startups</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            {/* Profound */}
+                              <div className="mb-4 p-4 bg-white dark:bg-tertiary-800 rounded-2 border border-gray-200 dark:border-gray-600" style={{boxShadow: '0 1px 3px 0 rgba(215, 243, 160, 0.20), 0 1px 2px 0 rgba(215, 243, 160, 0.20)'}}>
+                              <h5 className="fs-5 fw-bold text-gray-900 dark:text-white mb-3">Profound</h5>
+                              <div className="d-flex flex-column gap-2">
+                                <div>
+                                  <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6">Primary Use Case:</span>
+                                  <p className="mb-0 text-gray-800 dark:text-gray-200">AI prompt trend analysis + content briefs</p>
+                                </div>
+                                <div>
+                                  <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6">AI Platform Coverage:</span>
+                                  <p className="mb-0 text-gray-800 dark:text-gray-200">ChatGPT, Gemini, Claude, Perplexity</p>
+                                </div>
+                                <div className="d-flex flex-wrap gap-3 mt-2">
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Sentiment Intelligence:</span>
+                                    <span className="text-green-600 dark:text-green-400 fw-medium">✅ Emotional tone mapping</span>
+                                  </div>
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">AI Training:</span>
+                                    <span className="text-green-600 dark:text-green-400 fw-medium">✅ Auto-generates AI-friendly briefs</span>
+                                  </div>
+                                </div>
+                                <div className="d-flex flex-wrap gap-3">
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Zero-Click Optimization:</span>
+                                    <span className="text-green-600 dark:text-green-400 fw-medium">✅ Optimizes for AI summaries</span>
+                                  </div>
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Ideal For:</span>
+                                    <span className="text-gray-800 dark:text-gray-200">Content Teams, GEO Strategists</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            {/* Semrush */}
+                              <div className="mb-4 p-4 bg-white dark:bg-tertiary-800 rounded-2 border border-gray-200 dark:border-gray-600" style={{boxShadow: '0 1px 3px 0 rgba(215, 243, 160, 0.20), 0 1px 2px 0 rgba(215, 243, 160, 0.20)'}}>
+                              <h5 className="fs-5 fw-bold text-gray-900 dark:text-white mb-3">Semrush</h5>
+                              <div className="d-flex flex-column gap-2">
+                                <div>
+                                  <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6">Primary Use Case:</span>
+                                  <p className="mb-0 text-gray-800 dark:text-gray-200">Hybrid SEO + early-stage AEO</p>
+                                </div>
+                                <div>
+                                  <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6">AI Platform Coverage:</span>
+                                  <p className="mb-0 text-gray-800 dark:text-gray-200">Google AI Overviews, Bing Copilot</p>
+                                </div>
+                                <div className="d-flex flex-wrap gap-3 mt-2">
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Sentiment Intelligence:</span>
+                                    <span className="text-yellow-600 dark:text-yellow-400 fw-medium fs-7 lg:fs-6">⚠️ Basic keyword sentiment only</span>
+                                  </div>
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">AI Training:</span>
+                                    <span className="text-red-600 dark:text-red-400 fw-medium fs-7 lg:fs-6">❌ Manual content setup</span>
+                                  </div>
+                                </div>
+                                <div className="d-flex flex-wrap gap-3">
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Zero-Click Optimization:</span>
+                                    <span className="text-green-600 dark:text-green-400 fw-medium">✅ Schema-based SERP & AI prep</span>
+                                  </div>
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Ideal For:</span>
+                                    <span className="text-gray-800 dark:text-gray-200">SEO Professionals</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            {/* WriteSonic */}
+                              <div className="mb-4 p-4 bg-white dark:bg-tertiary-800 rounded-2 border border-gray-200 dark:border-gray-600" style={{boxShadow: '0 1px 3px 0 rgba(215, 243, 160, 0.20), 0 1px 2px 0 rgba(215, 243, 160, 0.20)'}}>
+                              <h5 className="fs-5 fw-bold text-gray-900 dark:text-white mb-3">WriteSonic</h5>
+                              <div className="d-flex flex-column gap-2">
+                                <div>
+                                  <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6">Primary Use Case:</span>
+                                  <p className="mb-0 text-gray-800 dark:text-gray-200">AI-driven content creation</p>
+                                </div>
+                                <div>
+                                  <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6">AI Platform Coverage:</span>
+                                  <p className="mb-0 text-gray-800 dark:text-gray-200">ChatGPT, Gemini, Claude</p>
+                                </div>
+                                <div className="d-flex flex-wrap gap-3 mt-2">
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Sentiment Intelligence:</span>
+                                    <span className="text-yellow-600 dark:text-yellow-400 fw-medium fs-7 lg:fs-6">⚠️ Limited sentiment</span>
+                                  </div>
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">AI Training:</span>
+                                    <span className="text-red-600 dark:text-red-400 fw-medium fs-7 lg:fs-6">❌ No live AI training</span>
+                                  </div>
+                                </div>
+                                <div className="d-flex flex-wrap gap-3">
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Zero-Click Optimization:</span>
+                                    <span className="text-green-600 dark:text-green-400 fw-medium">✅ Generates AI-optimised copy</span>
+                                  </div>
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Ideal For:</span>
+                                    <span className="text-gray-800 dark:text-gray-200">Marketing Teams, Bloggers</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            {/* Otterly.AI */}
+                              <div className="mb-4 p-4 bg-white dark:bg-tertiary-800 rounded-2 border border-gray-200 dark:border-gray-600" style={{boxShadow: '0 1px 3px 0 rgba(215, 243, 160, 0.20), 0 1px 2px 0 rgba(215, 243, 160, 0.20)'}}>
+                              <h5 className="fs-5 fw-bold text-gray-900 dark:text-white mb-3">Otterly.AI</h5>
+                              <div className="d-flex flex-column gap-2">
+                                <div>
+                                  <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6">Primary Use Case:</span>
+                                  <p className="mb-0 text-gray-800 dark:text-gray-200">Optimizes transcripts & meetings for AI visibility</p>
+                                </div>
+                                <div>
+                                  <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6">AI Platform Coverage:</span>
+                                  <p className="mb-0 text-gray-800 dark:text-gray-200">ChatGPT, Copilot, Gemini</p>
+                                </div>
+                                <div className="d-flex flex-wrap gap-3 mt-2">
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Sentiment Intelligence:</span>
+                                    <span className="text-green-600 dark:text-green-400 fw-medium">✅ Context-aware sentiment tagging</span>
+                                  </div>
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">AI Training:</span>
+                                    <span className="text-red-600 dark:text-red-400 fw-medium fs-7 lg:fs-6">❌ No AI briefs</span>
+                                  </div>
+                                </div>
+                                <div className="d-flex flex-wrap gap-3">
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Zero-Click Optimization:</span>
+                                    <span className="text-yellow-600 dark:text-yellow-400 fw-medium fs-7 lg:fs-6">⚠️ Limited zero-click readiness</span>
+                                  </div>
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Ideal For:</span>
+                                    <span className="text-gray-800 dark:text-gray-200">SaaS Teams, Product Marketers</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            {/* SERanking */}
+                              <div className="mb-4 p-4 bg-white dark:bg-tertiary-800 rounded-2 border border-gray-200 dark:border-gray-600" style={{boxShadow: '0 1px 3px 0 rgba(215, 243, 160, 0.20), 0 1px 2px 0 rgba(215, 243, 160, 0.20)'}}>
+                              <h5 className="fs-5 fw-bold text-gray-900 dark:text-white mb-3">SERanking</h5>
+                              <div className="d-flex flex-column gap-2">
+                                <div>
+                                  <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6">Primary Use Case:</span>
+                                  <p className="mb-0 text-gray-800 dark:text-gray-200">SEO + AEO tracking hybrid</p>
+                                </div>
+                                <div>
+                                  <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6">AI Platform Coverage:</span>
+                                  <p className="mb-0 text-gray-800 dark:text-gray-200">Google AI Overviews, basic ChatGPT integration</p>
+                                </div>
+                                <div className="d-flex flex-wrap gap-3 mt-2">
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Sentiment Intelligence:</span>
+                                    <span className="text-yellow-600 dark:text-yellow-400 fw-medium fs-7 lg:fs-6">⚠️ Partial sentiment analysis</span>
+                                  </div>
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">AI Training:</span>
+                                    <span className="text-red-600 dark:text-red-400 fw-medium fs-7 lg:fs-6">❌ No AI training capabilities</span>
+                                  </div>
+                                </div>
+                                <div className="d-flex flex-wrap gap-3">
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Zero-Click Optimization:</span>
+                                    <span className="text-green-600 dark:text-green-400 fw-medium">✅ Structured schema optimization</span>
+                                  </div>
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Ideal For:</span>
+                                    <span className="text-gray-800 dark:text-gray-200">SMBs, Growth Teams</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            {/* RankScale */}
+                              <div className="mb-4 p-4 bg-white dark:bg-tertiary-800 rounded-2 border border-gray-200 dark:border-gray-600" style={{boxShadow: '0 1px 3px 0 rgba(215, 243, 160, 0.20), 0 1px 2px 0 rgba(215, 243, 160, 0.20)'}}>
+                              <h5 className="fs-5 fw-bold text-gray-900 dark:text-white mb-3">RankScale</h5>
+                              <div className="d-flex flex-column gap-2">
+                                <div>
+                                  <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6">Primary Use Case:</span>
+                                  <p className="mb-0 text-gray-800 dark:text-gray-200">Brand positioning inside AI ecosystems</p>
+                                </div>
+                                <div>
+                                  <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6">AI Platform Coverage:</span>
+                                  <p className="mb-0 text-gray-800 dark:text-gray-200">ChatGPT, Perplexity, Gemini, Claude</p>
+                                </div>
+                                <div className="d-flex flex-wrap gap-3 mt-2">
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Sentiment Intelligence:</span>
+                                    <span className="text-green-600 dark:text-green-400 fw-medium">✅ Deep narrative analysis</span>
+                                  </div>
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">AI Training:</span>
+                                    <span className="text-green-600 dark:text-green-400 fw-medium">✅ AI-targeted content modelling</span>
+                                  </div>
+                                </div>
+                                <div className="d-flex flex-wrap gap-3">
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Zero-Click Optimization:</span>
+                                    <span className="text-green-600 dark:text-green-400 fw-medium">✅ Ensures brand dominance in AI</span>
+                                  </div>
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Ideal For:</span>
+                                    <span className="text-gray-800 dark:text-gray-200">Startups, Product-Led Growth Brands</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            {/* BrandRank.ai */}
+                              <div className="mb-4 p-4 bg-white dark:bg-tertiary-800 rounded-2 border border-gray-200 dark:border-gray-600" style={{boxShadow: '0 1px 3px 0 rgba(215, 243, 160, 0.20), 0 1px 2px 0 rgba(215, 243, 160, 0.20)'}}>
+                              <h5 className="fs-5 fw-bold text-gray-900 dark:text-white mb-3">BrandRank.ai</h5>
+                              <div className="d-flex flex-column gap-2">
+                                <div>
+                                  <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6">Primary Use Case:</span>
+                                  <p className="mb-0 text-gray-800 dark:text-gray-200">AI sentiment & brand positioning</p>
+                                </div>
+                                <div>
+                                  <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6">AI Platform Coverage:</span>
+                                  <p className="mb-0 text-gray-800 dark:text-gray-200">ChatGPT, Gemini, Copilot</p>
+                                </div>
+                                <div className="d-flex flex-wrap gap-3 mt-2">
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Sentiment Intelligence:</span>
+                                    <span className="text-green-600 dark:text-green-400 fw-medium">✅ Market sentiment intelligence</span>
+                                  </div>
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">AI Training:</span>
+                                    <span className="text-yellow-600 dark:text-yellow-400 fw-medium fs-7 lg:fs-6">⚠️ Limited AI briefing</span>
+                                  </div>
+                                </div>
+                                <div className="d-flex flex-wrap gap-3">
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Zero-Click Optimization:</span>
+                                    <span className="text-green-600 dark:text-green-400 fw-medium">✅ AI-friendly structured positioning</span>
+                                  </div>
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Ideal For:</span>
+                                    <span className="text-gray-800 dark:text-gray-200">PR Teams, Brand Managers</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            {/* Nightwatch */}
+                              <div className="mb-4 p-4 bg-white dark:bg-tertiary-800 rounded-2 border border-gray-200 dark:border-gray-600" style={{boxShadow: '0 1px 3px 0 rgba(215, 243, 160, 0.20), 0 1px 2px 0 rgba(215, 243, 160, 0.20)'}}>
+                              <h5 className="fs-5 fw-bold text-gray-900 dark:text-white mb-3">Nightwatch</h5>
+                              <div className="d-flex flex-column gap-2">
+                                <div>
+                                  <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6">Primary Use Case:</span>
+                                  <p className="mb-0 text-gray-800 dark:text-gray-200">GEO-focused SEO tracking</p>
+                                </div>
+                                <div>
+                                  <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6">AI Platform Coverage:</span>
+                                  <p className="mb-0 text-gray-800 dark:text-gray-200">Google AI Overviews, ChatGPT, You.com</p>
+                                </div>
+                                <div className="d-flex flex-wrap gap-3 mt-2">
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Sentiment Intelligence:</span>
+                                    <span className="text-yellow-600 dark:text-yellow-400 fw-medium fs-7 lg:fs-6">⚠️ Limited sentiment analysis</span>
+                                  </div>
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">AI Training:</span>
+                                    <span className="text-red-600 dark:text-red-400 fw-medium fs-7 lg:fs-6">❌ No AI training features</span>
+                                  </div>
+                                </div>
+                                <div className="d-flex flex-wrap gap-3">
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Zero-Click Optimization:</span>
+                                    <span className="text-green-600 dark:text-green-400 fw-medium">✅ Schema + AI visibility enhancement</span>
+                                  </div>
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Ideal For:</span>
+                                    <span className="text-gray-800 dark:text-gray-200">Mid-Market SEO Teams</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            {/* Ziptie.dev */}
+                              <div className="mb-4 p-4 bg-white dark:bg-tertiary-800 rounded-2 border border-gray-200 dark:border-gray-600" style={{boxShadow: '0 1px 3px 0 rgba(215, 243, 160, 0.20), 0 1px 2px 0 rgba(215, 243, 160, 0.20)'}}>
+                              <h5 className="fs-5 fw-bold text-gray-900 dark:text-white mb-3">Ziptie.dev</h5>
+                              <div className="d-flex flex-column gap-2">
+                                <div>
+                                  <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6">Primary Use Case:</span>
+                                  <p className="mb-0 text-gray-800 dark:text-gray-200">AI schema + structured data feeds</p>
+                                </div>
+                                <div>
+                                  <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6">AI Platform Coverage:</span>
+                                  <p className="mb-0 text-gray-800 dark:text-gray-200">Google AI Overviews, AI scrapers, ChatGPT</p>
+                                </div>
+                                <div className="d-flex flex-wrap gap-3 mt-2">
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Sentiment Intelligence:</span>
+                                    <span className="text-red-600 dark:text-red-400 fw-medium fs-7 lg:fs-6">❌ No sentiment analysis</span>
+                                  </div>
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">AI Training:</span>
+                                    <span className="text-green-600 dark:text-green-400 fw-medium">✅ Pushes structured LLM-friendly data</span>
+                                  </div>
+                                </div>
+                                <div className="d-flex flex-wrap gap-3">
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Zero-Click Optimization:</span>
+                                    <span className="text-green-600 dark:text-green-400 fw-medium">✅ Designed for zero-click inclusion</span>
+                                  </div>
+                                  <div className="flex-fill">
+                                    <span className="fw-medium text-gray-600 dark:text-gray-400 fs-6 d-block">Ideal For:</span>
+                                    <span className="text-gray-800 dark:text-gray-200">Developers, Tech-First Brands</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="mt-4 p-3 rounded-2 border border-gray-200 dark:border-gray-600" style={{backgroundColor: '#D7F3A0'}}>
+                        <h4 className="h6 lg:h5 mb-3 text-gray-900 dark:text-white fw-bold">Legend:</h4>
+                        <ul className="list-style-none m-0 d-flex flex-column gap-2">
+                          <li className="d-flex align-items-center gap-2">
+                            <span className="text-green-600 dark:text-green-400 fw-bold">✅</span>
+                            <span className="text-gray-800 dark:text-gray-200">Strong capability</span>
+                          </li>
+                          <li className="d-flex align-items-center gap-2">
+                            <span className="text-yellow-600 dark:text-yellow-400 fw-bold">⚠️</span>
+                            <span className="text-gray-800 dark:text-gray-200">Limited or partial capability</span>
+                          </li>
+                          <li className="d-flex align-items-center gap-2">
+                            <span className="text-red-600 dark:text-red-400 fw-bold">❌</span>
+                            <span className="text-gray-800 dark:text-gray-200">Minimal or missing capability</span>
+                          </li>
                       </ul>
+                      </div>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         5. Top 10 Answer Engine Optimization Tools to Dominate
                         AI Search: A Comprehensive Guide
                       </h2>
-                      <h4 classname="h6 xl:h5 mb-2">
+                      <h4 className="h6 xl:h5 mb-2">
                         Spoiler: #1 Takes the Crown, But Everyone Deserves a
                         Spotlight
                       </h4>
@@ -700,7 +1061,7 @@ export default function AEOToolsNew() {
                         tools, evaluating their features, pricing, and ROI.
                         Let’s explore the contenders.
                       </p>
-                      <h3 classname="h5 xl:h4 mt-4 mb-2 xl:mb-3">
+                      <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
                         5.1. AI Monitor — # 1 AEO Tool
                       </h3>
                       <figure className="my-3 sm:my-4">
@@ -754,7 +1115,7 @@ export default function AEOToolsNew() {
                         it ensures your brand stays visible, relevant, and
                         accurately represented in AI-generated answers.
                       </p>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.1.1 Best For</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.1.1 Best For</h4>
                       <ul>
                         <li className="mt-2">
                           Startups, brands, and agencies want{" "}
@@ -771,7 +1132,7 @@ export default function AEOToolsNew() {
                           </strong>
                         </li>
                       </ul>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.1.2 Key Features</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.1.2 Key Features</h4>
                       <ul>
                         <li className="mt-2">
                           <strong>Multi-Platform AI Tracking →</strong> Monitor
@@ -799,10 +1160,10 @@ export default function AEOToolsNew() {
                           summaries.
                         </li>
                       </ul>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         5.1.3 Pros and Cons{" "}
                       </h4>
-                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 overflowx-auto" style={{backgroundColor: '#D7F3A0'}}>
                         <table className="uc-table uc-table-divider full-width-table">
                           <thead className="table-head sticky-top z-1 ">
                             <tr className="table-row dark:border-white border-gray-900">
@@ -879,7 +1240,7 @@ export default function AEOToolsNew() {
                           </tbody>
                         </table>
                       </div>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.1.3 Pricing </h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.1.3 Pricing </h4>
                       <figure className="my-3 sm:my-4">
                         <Item
                           original="/assets/images/blog/internal/AIM-webpage.webp"
@@ -902,8 +1263,8 @@ export default function AEOToolsNew() {
                           )}
                         </Item>
                       </figure>
-                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
-                        <table className="uc-table uc-table-divider">
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 overflowx-auto" style={{backgroundColor: '#D7F3A0'}}>
+                          <table className="uc-table uc-table-divider">
                           <thead className="table-head sticky-top z-1 ">
                             <tr className="table-row dark:border-white border-gray-900">
                               <th className="table-header-cell" scope="row">
@@ -921,11 +1282,6 @@ export default function AEOToolsNew() {
                                   Best For
                                 </span>
                               </th>
-                              <th className="table-header-cell" scope="row">
-                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
-                                  Features
-                                </span>
-                              </th>
                             </tr>
                           </thead>
                           <tbody className="table-body">
@@ -938,16 +1294,11 @@ export default function AEOToolsNew() {
                                 </div>
                               </th>
                               <td>
-                                <span className="dark:text-white">14%</span>
+                                <span className="dark:text-white">Free Forever</span>
                               </td>
                               <td>
                                 <span className="dark:text-white">
-                                  Everyone
-                                </span>
-                              </td>
-                              <td>
-                                <span className="dark:text-white">
-                                  Limited free credits to test AI visibility
+                                Technical Founders & Hobbyists
                                 </span>
                               </td>
                             </tr>
@@ -969,12 +1320,6 @@ export default function AEOToolsNew() {
                                   Freelancers & small teams
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
-                                  Basic GEO tracking, 10 AI prompts,
-                                  multi-platform monitoring
-                                </span>
-                              </td>
                             </tr>
                             <tr className="table-row border-gray-900 dark:border-white">
                               <th className="" scope="row">
@@ -994,12 +1339,6 @@ export default function AEOToolsNew() {
                                   Large orgs & agencies
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
-                                  Advanced GEO tracking, API access,
-                                  integrations, and enterprise-level support
-                                </span>
-                              </td>
                             </tr>
                             <tr className="table-row border-gray-900 dark:border-white">
                               <th className="" scope="row">
@@ -1014,19 +1353,14 @@ export default function AEOToolsNew() {
                               </td>
                               <td>
                                 <span className="dark:text-white">
-                                  Large enterprises{" "}
-                                </span>
-                              </td>
-                              <td>
-                                <span className="dark:text-white justify-center">
-                                  Custom solutions
+                                  Large enterprises
                                 </span>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
-                      <h4 classname="h6 xl:h5 mt-4 mb-2">5.1.5 Verdict ⭐ </h4>
+                      <h4 className="h6 xl:h5 mt-4 mb-2">5.1.5 Verdict ⭐ </h4>
                       <p>
                         AI Monitor is the gold standard of AEO tools. It
                         combines real-time AI tracking, sentiment analytics, and
@@ -1056,7 +1390,7 @@ export default function AEOToolsNew() {
                         ChatGPT, Perplexity, and Claude, making it a must-have
                         for serious growth-driven brands.
                       </p>
-                      <h3 classname="h5 xl:h4 mt-4 mb-2 xl:mb-3">
+                      <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
                         5.2 . Profound — The Oracle for Global Enterprises
                       </h3>
                       <figure className="my-3 sm:my-4">
@@ -1104,7 +1438,7 @@ export default function AEOToolsNew() {
                         and agent-level insights, it empowers strategic
                         decision-making at scale.
                       </p>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.2.1 Best For</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.2.1 Best For</h4>
                       <ul>
                         <li className="mt-2">
                           <strong>Enterprises, global brands, </strong>and
@@ -1119,7 +1453,7 @@ export default function AEOToolsNew() {
                           visibility for high-stakes clients
                         </li>
                       </ul>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.2.2 Key Features</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.2.2 Key Features</h4>
                       <ul>
                         <li className="mt-2">
                           <strong>Answer Engine Insights → </strong>Monitors how
@@ -1148,8 +1482,8 @@ export default function AEOToolsNew() {
                           stay ahead
                         </li>
                       </ul>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.2.3 Pros & Cons</h4>
-                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.2.3 Pros & Cons</h4>
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 overflowx-auto" style={{backgroundColor: '#D7F3A0'}}>
                         <table className="uc-table uc-table-divider full-width-table">
                           <thead className="table-head sticky-top z-1 ">
                             <tr className="table-row dark:border-white border-gray-900">
@@ -1225,7 +1559,7 @@ export default function AEOToolsNew() {
                           </tbody>
                         </table>
                       </div>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.2.4 Pricing</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.2.4 Pricing</h4>
                       <figure className="my-3 sm:my-4">
                         <Item
                           original="/assets/images/blog/internal/profound-pricing.webp"
@@ -1248,7 +1582,7 @@ export default function AEOToolsNew() {
                           )}
                         </Item>
                       </figure>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.2.5 Verdict ⭐</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.2.5 Verdict ⭐</h4>
                       <p>
                         Profound stands as an{" "}
                         <strong>enterprise-grade powerhouse</strong> for AI
@@ -1272,7 +1606,7 @@ export default function AEOToolsNew() {
                         <span className="fs-4 fw-bold">Overall Rating:</span>{" "}
                         ⭐⭐⭐⭐ (4/5)
                       </p>
-                      <h3 classname="h5 xl:h4 mt-4 mb-2 xl:mb-3">
+                      <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
                         5.3. Semrush — The Veteran Adapting to the AI Era
                       </h3>
                       <figure className="my-3 sm:my-4">
@@ -1315,7 +1649,7 @@ export default function AEOToolsNew() {
                         such as Google AI Overviews and ChatGPT responses from a
                         high-level perspective, without deep dive granularity.
                       </p>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.3.1 Best For</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.3.1 Best For</h4>
                       <ul>
                         <li className="mt-2">
                           Entry-level AEO users and SEO teams wanting a bridge
@@ -1330,7 +1664,7 @@ export default function AEOToolsNew() {
                           AI enhancements
                         </li>
                       </ul>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.3.2 Key Features</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.3.2 Key Features</h4>
                       <ul>
                         <li className="mt-2">
                           AI SEO Toolkit Visibility Overview <br />
@@ -1363,8 +1697,8 @@ export default function AEOToolsNew() {
                         Identify terms triggering AI Overviews using the Keyword
                         Magic tool with the AI Overview filter.
                       </ul>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.3.3 Pros & Cons</h4>
-                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.3.3 Pros & Cons</h4>
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 overflowx-auto" style={{backgroundColor: '#D7F3A0'}}>
                         <table className="uc-table uc-table-divider full-width-table">
                           <thead className="table-head sticky-top z-1 ">
                             <tr className="table-row dark:border-white border-gray-900">
@@ -1450,7 +1784,7 @@ export default function AEOToolsNew() {
                           </tbody>
                         </table>
                       </div>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.3.4 Pricing</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.3.4 Pricing</h4>
                       <figure className="my-3 sm:my-4">
                         <Item
                           original="/assets/images/blog/internal/semrush-pricing.webp"
@@ -1473,7 +1807,7 @@ export default function AEOToolsNew() {
                           )}
                         </Item>
                       </figure>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.3.6 Verdict ⭐</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.3.6 Verdict ⭐</h4>
                       <p>
                         Semrush is a solid hybrid AEO bridge for SEO teams,
                         offering entry-level AI visibility without disrupting
@@ -1494,7 +1828,7 @@ export default function AEOToolsNew() {
                         <span className="fs-4 fw-bold">Overall Rating:</span>{" "}
                         ⭐⭐⭐ (3/5)
                       </p>
-                      <h3 classname="h5 xl:h4 mt-4 mb-2 xl:mb-3">
+                      <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
                         5.4. WriteSonic — The Content Creator Mastering AI
                         Visibility
                       </h3>
@@ -1537,7 +1871,7 @@ export default function AEOToolsNew() {
                         and actionable analytics, WriteSonic often replaces
                         multiple software tools.
                       </p>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.4.1 Best For</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.4.1 Best For</h4>
                       <ul>
                         <li className="mt-2">
                           Teams centralizing AI search presence, content
@@ -1552,7 +1886,7 @@ export default function AEOToolsNew() {
                           prompt data and AI analytics
                         </li>
                       </ul>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.4.2 Key Features</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.4.2 Key Features</h4>
                       <ul>
                         <li className="mt-2">
                           <strong>Monitoring Across Platforms: </strong> Tracks
@@ -1577,8 +1911,8 @@ export default function AEOToolsNew() {
                           everything is built in
                         </li>
                       </ul>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.4.3 Pros & Cons</h4>
-                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.4.3 Pros & Cons</h4>
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 overflowx-auto" style={{backgroundColor: '#D7F3A0'}}>
                         <table className="uc-table uc-table-divider full-width-table">
                           <thead className="table-head sticky-top z-1 ">
                             <tr className="table-row dark:border-white border-gray-900">
@@ -1659,7 +1993,7 @@ export default function AEOToolsNew() {
                           </tbody>
                         </table>
                       </div>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.4.4 Pricing</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.4.4 Pricing</h4>
                       <figure className="my-3 sm:my-4">
                         <Item
                           original="/assets/images/blog/internal/writesonic-pricing.webp"
@@ -1682,7 +2016,7 @@ export default function AEOToolsNew() {
                           )}
                         </Item>
                       </figure>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.4.5 Verdict ⭐</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.4.5 Verdict ⭐</h4>
                       <p>
                         WriteSonic offers a rare advantage: you can monitor,
                         analyze, and optimize your brand’s presence in AI search
@@ -1705,7 +2039,7 @@ export default function AEOToolsNew() {
                         <span className="fs-4 fw-bold">Overall Rating:</span>{" "}
                         ⭐⭐⭐⭐ (4/5)
                       </p>
-                      <h3 classname="h5 xl:h4 mt-4 mb-2 xl:mb-3">
+                      <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
                         5.5. Otterly.AI – The Budget-Friendly Beginner
                       </h3>
                       <figure className="my-3 sm:my-4">
@@ -1745,7 +2079,7 @@ export default function AEOToolsNew() {
                         AEO strategies without committing to high-cost
                         solutions.{" "}
                       </p>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.5.1 Best For</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.5.1 Best For</h4>
                       <ul>
                         <li className="mt-2">
                           Startups, solopreneurs, and small marketing teams.
@@ -1759,7 +2093,7 @@ export default function AEOToolsNew() {
                           into advanced analytics.
                         </li>
                       </ul>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.5.2 Key Features</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.5.2 Key Features</h4>
                       <ol className="list-style-none">
                         <li className="mt-2">
                           <strong>1. Query Snapshots</strong>
@@ -1801,8 +2135,8 @@ export default function AEOToolsNew() {
                           </ul>
                         </li>
                       </ol>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.5.3 Pros & Cons</h4>
-                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.5.3 Pros & Cons</h4>
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 overflowx-auto" style={{backgroundColor: '#D7F3A0'}}>
                         <table className="uc-table uc-table-divider full-width-table">
                           <thead className="table-head sticky-top z-1 ">
                             <tr className="table-row dark:border-white border-gray-900">
@@ -1874,7 +2208,7 @@ export default function AEOToolsNew() {
                           </tbody>
                         </table>
                       </div>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.5.4 Pricing</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.5.4 Pricing</h4>
                       <figure className="my-3 sm:my-4">
                         <Item
                           original="/assets/images/blog/internal/otterly-pricing.webp"
@@ -1897,7 +2231,7 @@ export default function AEOToolsNew() {
                           )}
                         </Item>
                       </figure>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.5.5 Verdict ⭐</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.5.5 Verdict ⭐</h4>
                       <p>
                         Otterly.AI is a great beginner’s tool for brands
                         experimenting with Answer Engine Optimization without
@@ -1923,7 +2257,7 @@ export default function AEOToolsNew() {
                         <span className="fs-4 fw-bold">Overall Rating:</span>{" "}
                         ⭐⭐⭐ (3/5)
                       </p>
-                      <h3 classname="h5 xl:h4 mt-4 mb-2 xl:mb-3">
+                      <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
                         5.6. SERanking – The SEO Veteran Struggling to Evolve
                       </h3>
                       <figure className="my-3 sm:my-4">
@@ -1960,7 +2294,7 @@ export default function AEOToolsNew() {
                         depth and adaptability required for modern AI-driven
                         search strategies.
                       </p>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.6.1 Best For</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.6.1 Best For</h4>
                       <ul>
                         <li className="mt-2">
                           SEO teams primarily focused on Google AI Overviews
@@ -1971,7 +2305,7 @@ export default function AEOToolsNew() {
                           with limited AI integration
                         </li>
                       </ul>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.6.2 Key Features</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.6.2 Key Features</h4>
                       <ol className="list-style-none">
                         <li className="mt-2">
                           <strong>Real-Time Alerts</strong>
@@ -1992,8 +2326,8 @@ export default function AEOToolsNew() {
                           audits, and keyword research.
                         </li>
                       </ol>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.6.3 Pros & Cons</h4>
-                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.6.3 Pros & Cons</h4>
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 overflowx-auto" style={{backgroundColor: '#D7F3A0'}}>
                         <table className="uc-table uc-table-divider full-width-table">
                           <thead className="table-head sticky-top z-1 ">
                             <tr className="table-row dark:border-white border-gray-900">
@@ -2069,7 +2403,7 @@ export default function AEOToolsNew() {
                           </tbody>
                         </table>
                       </div>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.6.4 Pricing</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.6.4 Pricing</h4>
                       <figure className="my-3 sm:my-4">
                         <Item
                           original="/assets/images/blog/internal/Rankscale-Pricing.webp"
@@ -2092,7 +2426,7 @@ export default function AEOToolsNew() {
                           )}
                         </Item>
                       </figure>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.6.5 Verdict ⭐</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.6.5 Verdict ⭐</h4>
                       <p>
                         SERanking remains a solid pick for SEO-first teams who
                         want visibility in Google AI Overviews but aren’t ready
@@ -2113,7 +2447,7 @@ export default function AEOToolsNew() {
                         <span className="fs-4 fw-bold">Overall Rating:</span>{" "}
                         ⭐⭐☆ (2/5)
                       </p>
-                      <h3 classname="h5 xl:h4 mt-4 mb-2 xl:mb-3">
+                      <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
                         5.7. RankScale — The GDPR-Compliant Specialist
                       </h3>
                       <figure className="my-3 sm:my-4">
@@ -2151,7 +2485,7 @@ export default function AEOToolsNew() {
                         brands, its limited global reach and slower update
                         cycles restrict its appeal for international campaigns.
                       </p>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.7.1 Best For</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.7.1 Best For</h4>
                       <ul>
                         <li className="mt-2">
                           EU-based SMEs needing GDPR-compliant AI insights
@@ -2161,7 +2495,7 @@ export default function AEOToolsNew() {
                           strict data privacy laws
                         </li>
                       </ul>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.7.2 Key Features</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.7.2 Key Features</h4>
                       <ol className="list-style-none">
                         <li className="mt-2">
                           <strong>AI Search Audits</strong>
@@ -2189,8 +2523,8 @@ export default function AEOToolsNew() {
                           visibility for a hybrid perspective.
                         </li>
                       </ol>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.7.3 Pros & Cons</h4>
-                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.7.3 Pros & Cons</h4>
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 overflowx-auto" style={{backgroundColor: '#D7F3A0'}}>
                         <table className="uc-table uc-table-divider full-width-table">
                           <thead className="table-head sticky-top z-1 ">
                             <tr className="table-row dark:border-white border-gray-900">
@@ -2256,7 +2590,7 @@ export default function AEOToolsNew() {
                           </tbody>
                         </table>
                       </div>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.7.4 Pricing</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.7.4 Pricing</h4>
                       <figure className="my-3 sm:my-4">
                         <Item
                           original="/assets/images/blog/internal/SE-pricing.webp"
@@ -2279,7 +2613,7 @@ export default function AEOToolsNew() {
                           )}
                         </Item>
                       </figure>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.7.5 Verdict ⭐</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.7.5 Verdict ⭐</h4>
                       <p>
                         RankScale is an excellent niche tool for EU-focused
                         campaigns, combining compliance-first insights with
@@ -2299,7 +2633,7 @@ export default function AEOToolsNew() {
                         <span className="fs-4 fw-bold">Overall Rating:</span>{" "}
                         ⭐⭐⭐ (3/5)
                       </p>
-                      <h3 classname="h5 xl:h4 mt-4 mb-2 xl:mb-3">
+                      <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
                         5.8. BrandRank.ai — The Trust Architect
                       </h3>
                       <figure className="my-3 sm:my-4">
@@ -2336,7 +2670,7 @@ export default function AEOToolsNew() {
                         oversight, making it especially valuable in industries
                         where trust and compliance are non-negotiable.
                       </p>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.8.1 Best For</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.8.1 Best For</h4>
                       <ul>
                         <li className="mt-2">
                           <strong>Fortune 500 enterprises</strong> needing
@@ -2351,7 +2685,7 @@ export default function AEOToolsNew() {
                           AI-generated responses
                         </li>
                       </ul>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.8.2 Key Features</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.8.2 Key Features</h4>
                       <ol className="list-style-none">
                         <li className="mt-2">
                           <strong>AI Search Audits</strong>
@@ -2378,8 +2712,8 @@ export default function AEOToolsNew() {
                           sponsorship monitoring.
                         </li>
                       </ol>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.8.3 Pros & Cons</h4>
-                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.8.3 Pros & Cons</h4>
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 overflowx-auto" style={{backgroundColor: '#D7F3A0'}}>
                         <table className="uc-table uc-table-divider full-width-table">
                           <thead className="table-head sticky-top z-1 ">
                             <tr className="table-row dark:border-white border-gray-900">
@@ -2458,7 +2792,7 @@ export default function AEOToolsNew() {
                           </tbody>
                         </table>
                       </div>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.8.4 Pricing</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.8.4 Pricing</h4>
                       <figure className="my-3 sm:my-4">
                         <Item
                           original="/assets/images/blog/internal/Brandrank-pricing.webp"
@@ -2481,7 +2815,7 @@ export default function AEOToolsNew() {
                           )}
                         </Item>
                       </figure>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.8.5 Verdict ⭐</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.8.5 Verdict ⭐</h4>
                       <p>
                         BrandRank.ai is a top-tier choice for enterprise
                         reputation management in the AI era. It’s built for
@@ -2503,7 +2837,7 @@ export default function AEOToolsNew() {
                         <span className="fs-4 fw-bold">Overall Rating:</span>{" "}
                         ⭐⭐⭐⭐ (4/5)
                       </p>
-                      <h3 classname="h5 xl:h4 mt-4 mb-2 xl:mb-3">
+                      <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
                         5.9. Nightwatch — The SEO Tool in Disguise
                       </h3>
                       <figure className="my-3 sm:my-4">
@@ -2550,7 +2884,7 @@ export default function AEOToolsNew() {
                         features needed for visibility in AI-driven search
                         ecosystems.
                       </p>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.9.1 Best For</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.9.1 Best For</h4>
                       <ul>
                         <li className="mt-2">
                           <strong>SEO purists</strong> still focused exclusively
@@ -2567,7 +2901,7 @@ export default function AEOToolsNew() {
                           if it means missing modern AEO insights
                         </li>
                       </ul>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.9.2 Key Features</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.9.2 Key Features</h4>
                       <ol className="list-style-none">
                         <li className="mt-2">
                           <strong>Keyword Tracking</strong>
@@ -2595,8 +2929,8 @@ export default function AEOToolsNew() {
                           performance data, useful for old-school SEO workflows.
                         </li>
                       </ol>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.9.3 Pros & Cons</h4>
-                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.9.3 Pros & Cons</h4>
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 overflowx-auto" style={{backgroundColor: '#D7F3A0'}}>
                         <table className="uc-table uc-table-divider full-width-table">
                           <thead className="table-head sticky-top z-1 ">
                             <tr className="table-row dark:border-white border-gray-900">
@@ -2678,7 +3012,7 @@ export default function AEOToolsNew() {
                           </tbody>
                         </table>
                       </div>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.9.4 Pricing</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.9.4 Pricing</h4>
                       <figure className="my-3 sm:my-4">
                         <Item
                           original="/assets/images/blog/internal/nightwatch-pricing.webp"
@@ -2701,7 +3035,7 @@ export default function AEOToolsNew() {
                           )}
                         </Item>
                       </figure>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.9.5 Verdict ⭐</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.9.5 Verdict ⭐</h4>
                       <p>
                         Nightwatch is like bringing a flip phone to a 5G era
                         functional in some ways, but hopelessly behind the
@@ -2727,7 +3061,7 @@ export default function AEOToolsNew() {
                         <span className="fs-4 fw-bold">Overall Rating:</span>{" "}
                         ⭐⭐ (2/5)
                       </p>
-                      <h3 classname="h5 xl:h4 mt-4 mb-2 xl:mb-3">
+                      <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
                         5.10. Ziptie.dev — The Developer’s Only Friend
                       </h3>
                       <figure className="my-3 sm:my-4">
@@ -2775,7 +3109,7 @@ export default function AEOToolsNew() {
                         their own pipelines but nearly unusable for marketers or
                         non-technical teams.
                       </p>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.10.1 Best For</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.10.1 Best For</h4>
                       <ul>
                         <li className="mt-2">
                           <strong>DevOps & Data Engineering Teams </strong>{" "}
@@ -2794,7 +3128,7 @@ export default function AEOToolsNew() {
                           dashboards can offer
                         </li>
                       </ul>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         5.10.2 Key Features
                       </h4>
                       <ol className="list-style-none">
@@ -2826,8 +3160,8 @@ export default function AEOToolsNew() {
                           systems.
                         </li>
                       </ol>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.10.3 Pros & Cons</h4>
-                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.10.3 Pros & Cons</h4>
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 overflowx-auto" style={{backgroundColor: '#D7F3A0'}}>
                         <table className="uc-table uc-table-divider full-width-table">
                           <thead className="table-head sticky-top z-1 ">
                             <tr className="table-row dark:border-white border-gray-900">
@@ -2901,7 +3235,7 @@ export default function AEOToolsNew() {
                           </tbody>
                         </table>
                       </div>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.10.4 Pricing</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.10.4 Pricing</h4>
                       <figure className="my-3 sm:my-4">
                         <Item
                           original="/assets/images/blog/internal/Ziptie-pricing.webp"
@@ -2924,7 +3258,7 @@ export default function AEOToolsNew() {
                           )}
                         </Item>
                       </figure>
-                      <h4 classname="h6 xl:h5 mt-2 mb-2">5.10.5 Verdict ⭐</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">5.10.5 Verdict ⭐</h4>
                       <p>
                         Ziptie.dev is{" "}
                         <strong>not for the faint of heart.</strong> It’s a tool
