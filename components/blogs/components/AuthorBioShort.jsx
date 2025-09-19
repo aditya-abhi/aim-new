@@ -4,7 +4,7 @@ import React from "react";
 export default function AuthorBioShort() {
   return (
     <div className="container">
-      <div className="post-author panel py-2 px-2 sm:p-1 xl:p-2 border border-dark dark:border-white rounded lg:rounded-2 my-2 d-none lg:d-block">
+      <div className="post-author panel py-2 px-2 sm:p-1 xl:p-2 border dark:border-white rounded lg:rounded-2 my-2 d-none lg:d-block">
         <div className="row g-2 items-center">
           <div className="col-12 sm:col-2 lg:col-1">
             {/* <figure className="m-0 rounded ratio ratio-1x1 uc-transition-toggle overflow-hidden"> */}

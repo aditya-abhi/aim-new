@@ -895,7 +895,7 @@ export default function GetFeaturedbyPerplexity() {
                         and zero ad interference. That means your citations are
                         <b>earned, not auctioned.</b>
                       </p>
-                      <h3 classname="h5 xl:h4 mt-3 mb-2 xl:mb-3">
+                      <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         Optimize for Perplexity Like a Pro
                       </h3>
                       Table

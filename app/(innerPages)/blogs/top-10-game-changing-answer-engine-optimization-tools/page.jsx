@@ -45,8 +45,8 @@ export default async function Blog2Page(props) {
           <Experiment2 />
           <NextPrevBlogs />
           <RelatedBlogs />
+          <Footer7 />
         </div>
-        <Footer7 />
       </div>
     </>
   );

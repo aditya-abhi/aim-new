@@ -1,6 +1,12 @@
 "use client";
 
-import React, { useEffect, useState, useRef, useCallback, useMemo } from "react";
+import React, {
+  useEffect,
+  useState,
+  useRef,
+  useCallback,
+  useMemo,
+} from "react";
 import "./MobileTableOfContent.css";
 
 function slugify(text) {
@@ -19,7 +25,7 @@ export default function MobileTableOfContent({ isOpen, onToggle, onClose }) {
   const [readingProgress, setReadingProgress] = useState(0);
   const [estimatedReadTime, setEstimatedReadTime] = useState(0);
   const [expandedSections, setExpandedSections] = useState(new Set());
-  const [scrollBounce, setScrollBounce] = useState('');
+  const [scrollBounce, setScrollBounce] = useState("");
   const itemsRef = useRef([]);
   const observerRef = useRef(null);
   const tocRef = useRef(null);
@@ -27,11 +33,15 @@ export default function MobileTableOfContent({ isOpen, onToggle, onClose }) {
 
   // Extract headings from content
   useEffect(() => {
-    const content = document.querySelector(".uc-main") || document.querySelector(".post-content");
+    const content =
+      document.querySelector(".uc-main") ||
+      document.querySelector(".post-content");
     if (!content) return;
 
     // Support multi-level headings (h1-h6)
-    const headings = Array.from(content.querySelectorAll("h1, h2, h3, h4, h5, h6"));
+    const headings = Array.from(
+      content.querySelectorAll("h1, h2, h3, h4, h5, h6")
+    );
 
     const collected = headings
       .map((el, index) => {
@@ -96,12 +106,19 @@ export default function MobileTableOfContent({ isOpen, onToggle, onClose }) {
 
       // Calculate reading progress
       const scrollTop = window.pageYOffset;
-      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-      const progress = Math.min(100, Math.max(0, (scrollTop / docHeight) * 100));
+      const docHeight =
+        document.documentElement.scrollHeight - window.innerHeight;
+      const progress = Math.min(
+        100,
+        Math.max(0, (scrollTop / docHeight) * 100)
+      );
       setReadingProgress(progress);
     };
 
-    const observer = new IntersectionObserver(observerCallback, observerOptions);
+    const observer = new IntersectionObserver(
+      observerCallback,
+      observerOptions
+    );
     observerRef.current = observer;
 
     // Observe all headings
@@ -123,25 +140,29 @@ export default function MobileTableOfContent({ isOpen, onToggle, onClose }) {
   }, [items]);
 
   // Smooth scroll to heading
-  const scrollToHeading = useCallback((headingId, event) => {
-    event?.preventDefault();
-    const element = document.getElementById(headingId);
-    if (element) {
-      const headerOffset = 80; // Account for any fixed headers
-      const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+  const scrollToHeading = useCallback(
+    (headingId, event) => {
+      event?.preventDefault();
+      const element = document.getElementById(headingId);
+      if (element) {
+        const headerOffset = 80; // Account for any fixed headers
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition =
+          elementPosition + window.pageYOffset - headerOffset;
 
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: "smooth",
-      });
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth",
+        });
 
-      // Close TOC after navigation on mobile
-      if (onClose && window.innerWidth < 768) {
-        setTimeout(onClose, 300);
+        // Close TOC after navigation on mobile
+        if (onClose && window.innerWidth < 768) {
+          setTimeout(onClose, 300);
+        }
       }
-    }
-  }, [onClose]);
+    },
+    [onClose]
+  );
 
   // Handle backdrop click
   const handleBackdropClick = (e) => {
@@ -182,7 +203,7 @@ export default function MobileTableOfContent({ isOpen, onToggle, onClose }) {
       setScrollBounce(direction);
       clearTimeout(bounceTimeout);
       bounceTimeout = setTimeout(() => {
-        setScrollBounce('');
+        setScrollBounce("");
       }, 350);
     };
 
@@ -193,20 +214,20 @@ export default function MobileTableOfContent({ isOpen, onToggle, onClose }) {
 
     const handleTouchMove = (e) => {
       if (!isDragging) return;
-      
+
       const currentY = e.touches[0].clientY;
       const deltaY = touchStartY - currentY;
       const { scrollTop, scrollHeight, clientHeight } = scrollContainer;
-      
+
       // Check for overscroll at top
       if (scrollTop <= 0 && deltaY < -30) {
         e.preventDefault();
-        triggerBounce('top');
+        triggerBounce("top");
       }
       // Check for overscroll at bottom
       else if (scrollTop + clientHeight >= scrollHeight - 1 && deltaY > 30) {
         e.preventDefault();
-        triggerBounce('bottom');
+        triggerBounce("bottom");
       }
     };
 
@@ -217,27 +238,33 @@ export default function MobileTableOfContent({ isOpen, onToggle, onClose }) {
     // Mouse wheel support for desktop testing
     const handleWheel = (e) => {
       const { scrollTop, scrollHeight, clientHeight } = scrollContainer;
-      
+
       if (scrollTop <= 0 && e.deltaY < 0) {
         e.preventDefault();
-        triggerBounce('top');
+        triggerBounce("top");
       } else if (scrollTop + clientHeight >= scrollHeight - 1 && e.deltaY > 0) {
         e.preventDefault();
-        triggerBounce('bottom');
+        triggerBounce("bottom");
       }
     };
 
     // Add event listeners
-    scrollContainer.addEventListener('touchstart', handleTouchStart, { passive: true });
-    scrollContainer.addEventListener('touchmove', handleTouchMove, { passive: false });
-    scrollContainer.addEventListener('touchend', handleTouchEnd, { passive: true });
-    scrollContainer.addEventListener('wheel', handleWheel, { passive: false });
+    scrollContainer.addEventListener("touchstart", handleTouchStart, {
+      passive: true,
+    });
+    scrollContainer.addEventListener("touchmove", handleTouchMove, {
+      passive: false,
+    });
+    scrollContainer.addEventListener("touchend", handleTouchEnd, {
+      passive: true,
+    });
+    scrollContainer.addEventListener("wheel", handleWheel, { passive: false });
 
     return () => {
-      scrollContainer.removeEventListener('touchstart', handleTouchStart);
-      scrollContainer.removeEventListener('touchmove', handleTouchMove);
-      scrollContainer.removeEventListener('touchend', handleTouchEnd);
-      scrollContainer.removeEventListener('wheel', handleWheel);
+      scrollContainer.removeEventListener("touchstart", handleTouchStart);
+      scrollContainer.removeEventListener("touchmove", handleTouchMove);
+      scrollContainer.removeEventListener("touchend", handleTouchEnd);
+      scrollContainer.removeEventListener("wheel", handleWheel);
       clearTimeout(bounceTimeout);
     };
   }, [isOpen]);
@@ -245,12 +272,12 @@ export default function MobileTableOfContent({ isOpen, onToggle, onClose }) {
   // Group items by hierarchy
   const structuredItems = useMemo(() => {
     const structured = [];
-    
+
     for (let i = 0; i < items.length; i++) {
       const item = items[i];
       const isActive = activeId === item.id;
       const isExpanded = expandedSections.has(item.id);
-      
+
       // Find children (next items with higher level)
       const children = [];
       let j = i + 1;
@@ -263,7 +290,7 @@ export default function MobileTableOfContent({ isOpen, onToggle, onClose }) {
         }
         j++;
       }
-      
+
       structured.push({
         ...item,
         isActive,
@@ -272,7 +299,7 @@ export default function MobileTableOfContent({ isOpen, onToggle, onClose }) {
         hasChildren: children.length > 0,
       });
     }
-    
+
     return structured;
   }, [items, activeId, expandedSections]);
 
@@ -301,70 +328,72 @@ export default function MobileTableOfContent({ isOpen, onToggle, onClose }) {
           transform: isOpen ? "translateY(0)" : "translateY(100%)",
         }}
       >
-         {/* Handle Bar */}
-         <div className="d-flex justify-center py-3">
-           <div
-             className="mobile-toc-handle bg-gray-400 dark:bg-gray-500 rounded-pill opacity-60"
-             style={{ 
-               width: "36px", 
-               height: "3px",
-               transition: "all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)"
-             }}
-           />
-         </div>
+        {/* Handle Bar */}
+        <div className="d-flex justify-center py-3">
+          <div
+            className="mobile-toc-handle bg-gray-400 dark:bg-gray-500 rounded-pill opacity-60"
+            style={{
+              width: "36px",
+              height: "3px",
+              transition: "all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)",
+            }}
+          />
+        </div>
 
         {/* Header with close button - matching desktop style */}
-        <div className="widget-title text-center px-4 py-3 position-relative">
+        <div className="widget-title text-center px-4 pb-3 position-relative dark:text-white">
           <h5 className="fs-7 m-0">Table of Content</h5>
-          
-           {/* Close button - inline with header */}
-           <button
-             className="mobile-toc-close-btn"
-             onClick={onClose}
-             title="Close"
-             style={{ 
-               position: "absolute",
-               top: "50%",
-               right: "16px",
-               transform: "translateY(-50%)",
-               width: "28px", 
-               height: "28px",
-               backgroundColor: "transparent",
-               border: "1.5px solid #dc2626",
-               borderRadius: "50%",
-               color: "#dc2626",
-               zIndex: 99999,
-               cursor: "pointer",
-               display: "flex",
-               alignItems: "center",
-               justifyContent: "center",
-               fontSize: "14px",
-               fontWeight: "400",
-               lineHeight: "1",
-               transition: "all 0.2s ease-in-out",
-               padding: "0",
-               margin: "0"
-             }}
-           >
-             <span style={{ 
-               display: "flex", 
-               alignItems: "center", 
-               justifyContent: "center",
-               width: "100%",
-               height: "100%",
-               fontSize: "16px",
-               fontWeight: "300",
-               lineHeight: "1"
-             }}>
-               ×
-             </span>
-           </button>
+
+          {/* Close button - inline with header */}
+          <button
+            className="mobile-toc-close-btn"
+            onClick={onClose}
+            title="Close"
+            style={{
+              position: "absolute",
+              top: "50%",
+              right: "16px",
+              transform: "translateY(-50%)",
+              width: "28px",
+              height: "28px",
+              backgroundColor: "transparent",
+              //  border: "1.5px solid #dc2626",
+              borderRadius: "50%",
+              //  color: "#dc2626",
+              zIndex: 99999,
+              cursor: "pointer",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              fontSize: "14px",
+              fontWeight: "400",
+              lineHeight: "1",
+              transition: "all 0.2s ease-in-out",
+              padding: "0",
+              margin: "0",
+            }}
+          >
+            <span
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                width: "100%",
+                height: "100%",
+                fontSize: "16px",
+                fontWeight: "300",
+                lineHeight: "1",
+              }}
+            >
+              ×
+            </span>
+          </button>
         </div>
-        
+
         {/* Reading Progress Bar - matching desktop style */}
         <div className="progress-container mt-2 px-4">
           <div className="d-flex justify-between items-center mb-1">
-            <span className="fs-8 text-gray-600 dark:text-gray-400">
+            <span className="fs-8 text-gray-600 dark:text-white">
               Reading Progress
             </span>
             <span className="fs-8 fw-medium text-dark dark:text-white">
@@ -379,17 +408,19 @@ export default function MobileTableOfContent({ isOpen, onToggle, onClose }) {
           </div>
         </div>
 
-         {/* TOC Content - matching desktop widget structure */}
-         <div className="widget-content">
-           <div 
-             ref={scrollContainerRef}
-             className={`mobile-toc-content overflow-y-auto overflow-x-hidden px-2 py-3 ${scrollBounce ? `bounce-${scrollBounce}` : ''}`}
-             style={{ 
-               maxHeight: "calc(70vh - 160px)",
-               WebkitOverflowScrolling: "touch",
-               overscrollBehavior: "none"
-             }}
-           >
+        {/* TOC Content - matching desktop widget structure */}
+        <div className="widget-content">
+          <div
+            ref={scrollContainerRef}
+            className={`mobile-toc-content overflow-y-auto overflow-x-hidden px-2 py-3 ${
+              scrollBounce ? `bounce-${scrollBounce}` : ""
+            }`}
+            style={{
+              maxHeight: "calc(70vh - 160px)",
+              WebkitOverflowScrolling: "touch",
+              overscrollBehavior: "none",
+            }}
+          >
             <div className="row child-cols-12 gx-4 gy-2 sep-x">
               {structuredItems.map((item, index) => (
                 <div key={item.id}>
@@ -398,32 +429,44 @@ export default function MobileTableOfContent({ isOpen, onToggle, onClose }) {
                       <div>
                         {/* Main heading - matching desktop style */}
                         <div className="hstack items-start gap-2">
-                          <span className={`fs-7 text-center m-0 min-w-20px ${item.isActive ? 'text-primary fw-bold' : 'text-dark dark:text-white'}`}>
+                          <span
+                            className={`fs-7 text-center m-0 min-w-20px ${
+                              item.isActive
+                                ? "text-primary fw-bold"
+                                : "text-dark dark:text-white"
+                            }`}
+                          >
                             {index + 1}
                           </span>
-                          
+
                           <div className="post-header panel vstack justify-between gap-1 flex-1">
                             <div className="d-flex items-center justify-between w-100">
-                              <h3 className={`post-title fs-7 m-0 flex-1 ${item.isActive ? 'fw-bold' : ''}`}>
+                              <h3
+                                className={`post-title fs-7 m-0 flex-1 ${
+                                  item.isActive ? "fw-bold" : ""
+                                }`}
+                              >
                                 <a
                                   href={`#${item.id}`}
                                   onClick={(e) => scrollToHeading(item.id, e)}
                                   className={`text-none transition-colors duration-200 ${
-                                    item.isActive 
-                                      ? 'text-primary' 
-                                      : 'text-dark dark:text-white hover:text-primary'
+                                    item.isActive
+                                      ? "text-primary"
+                                      : "text-dark dark:text-white hover:text-primary"
                                   }`}
                                 >
                                   {item.text}
                                 </a>
                               </h3>
-                              
+
                               {/* Accordion toggle button - matching desktop */}
                               {item.hasChildren && (
                                 <button
                                   onClick={(e) => {
                                     e.preventDefault();
-                                    const newExpanded = new Set(expandedSections);
+                                    const newExpanded = new Set(
+                                      expandedSections
+                                    );
                                     if (newExpanded.has(item.id)) {
                                       newExpanded.delete(item.id);
                                     } else {
@@ -433,41 +476,62 @@ export default function MobileTableOfContent({ isOpen, onToggle, onClose }) {
                                   }}
                                   className="btn btn-xs p-0 ms-2 rounded-circle d-flex align-items-center justify-content-center"
                                   style={{
-                                    backgroundColor: '#025864',
-                                    border: 'none',
-                                    width: '20px',
-                                    height: '20px',
-                                    minWidth: '20px'
+                                    backgroundColor: "#025864",
+                                    border: "none",
+                                    width: "20px",
+                                    height: "20px",
+                                    minWidth: "20px",
                                   }}
-                                  title={item.isExpanded ? "Collapse" : "Expand"}
+                                  title={
+                                    item.isExpanded ? "Collapse" : "Expand"
+                                  }
                                 >
-                                  <i 
-                                    className={`unicon-chevron-${item.isExpanded ? 'up' : 'down'} text-white`} 
-                                    style={{ fontSize: '10px' }}
+                                  <i
+                                    className={`unicon-chevron-${
+                                      item.isExpanded ? "up" : "down"
+                                    } text-white`}
+                                    style={{ fontSize: "10px" }}
                                   />
                                 </button>
                               )}
                             </div>
                           </div>
                         </div>
-                        
+
                         {/* Sub-headings (children) - matching desktop */}
                         {item.hasChildren && item.isExpanded && (
                           <div className="sub-headings mt-2 ms-4 ps-2">
                             {item.children.map((child, childIndex) => (
-                              <div key={child.id} className="sub-heading-item mb-1">
+                              <div
+                                key={child.id}
+                                className="sub-heading-item mb-1"
+                              >
                                 <div className="hstack items-start gap-2">
-                                  <span className={`fs-8 text-center m-0 min-w-16px ${child.isActive ? 'text-primary fw-bold' : 'text-gray-500'}`}>
+                                  <span
+                                    className={`fs-8 text-center m-0 min-w-16px ${
+                                      child.isActive
+                                        ? "text-primary fw-bold"
+                                        : "text-gray-500"
+                                    }`}
+                                  >
                                     {index + 1}.{childIndex + 1}
                                   </span>
-                                  <h4 className={`fs-8 m-0 ${child.isActive ? 'fw-bold text-primary' : 'text-gray-700 dark:text-gray-300'}`}>
+                                  <h4
+                                    className={`fs-8 m-0 ${
+                                      child.isActive
+                                        ? "fw-bold text-primary"
+                                        : "text-gray-700 dark:text-gray-300"
+                                    }`}
+                                  >
                                     <a
                                       href={`#${child.id}`}
-                                      onClick={(e) => scrollToHeading(child.id, e)}
+                                      onClick={(e) =>
+                                        scrollToHeading(child.id, e)
+                                      }
                                       className={`text-none transition-colors duration-200 ${
-                                        child.isActive 
-                                          ? 'text-primary' 
-                                          : 'hover:text-primary'
+                                        child.isActive
+                                          ? "text-primary"
+                                          : "hover:text-primary"
                                       }`}
                                     >
                                       {child.text}
@@ -501,7 +565,7 @@ export default function MobileTableOfContent({ isOpen, onToggle, onClose }) {
               <span>Back to Top</span>
             </button>
             <div className="text-sm text-gray-600 dark:text-gray-400">
-              {items.length} section{items.length !== 1 ? 's' : ''}
+              {items.length} section{items.length !== 1 ? "s" : ""}
             </div>
           </div>
         </div>

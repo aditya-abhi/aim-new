@@ -6,7 +6,7 @@ import React from "react";
 export default function RightSideBottom() {
   return (
     <div className="uc-sidebar panel vstack gap-2 ">
-      <div className="widget featured-widget vstack gap-2 lg:gap-4 p-2 py-3 lg:p-4 lg:py-5 rounded-1-5 lg:rounded-2 bg-secondary dark:bg-tertiary-700 mb-3">
+      <div className="widget featured-widget vstack gap-2 lg:gap-4 p-2 py-3 lg:p-4 lg:py-5 rounded-1-5 lg:rounded-2 border mb-3">
         <div className="widget-title text-center">
           <h5 className="fs-7 m-0">Featured post</h5>
         </div>

@@ -10,7 +10,7 @@ export default function Courses() {
       {coursesHeader.map((section, index) => (
         <div key={index} className="vstack gap-3">
           <Link href={section.link}>
-            <h6 className="h6 m-0">
+            <h6 className="h6 m-0 hover:text-primary">
               <i
                 className={`fs-7 ${section.icon} ltr:me-narrow rtl:ms-narrow`}
               />

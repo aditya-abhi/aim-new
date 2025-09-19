@@ -566,7 +566,7 @@ export default function ChatGPTSEO() {
                         5. Top 10 Answer Engine Optimization Tools to Dominate
                         AI Search: A Comprehensive Guide
                       </h2>
-                      <h4 classname="h6 xl:h5 mb-2">
+                      <h4 className="h6 xl:h5 mb-2">
                         Spoiler: #1 Takes the Crown, But Everyone Deserves a
                         Spotlight
                       </h4>
@@ -577,7 +577,7 @@ export default function ChatGPTSEO() {
                         tools, evaluating their features, pricing, and ROI.
                         Let’s explore the contenders.
                       </p>
-                      <h3 classname="h5 xl:h4 mt-4 mb-2 xl:mb-3">
+                      <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
                         5.1. AI Monitor — # 1 AEO Tool
                       </h3>
                       <figure className="my-3 sm:my-4">
