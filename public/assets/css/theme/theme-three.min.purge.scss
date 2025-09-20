@@ -7490,6 +7490,9 @@
   .min-w-150px {
     min-width: 150px !important;
   }
+  .min-w-160px {
+    min-width: 160px !important;
+  }
   .min-w-300px {
     min-width: 300px !important;
   }
@@ -8698,6 +8701,9 @@
     .lg\:ratio-1x1 {
       --bs-aspect-ratio: 100% !important;
     }
+    .lg\:text-none {
+      text-decoration: none !important;
+    }
   }
   @media (min-width: 1200px) {
     .xl\:d-block {
@@ -8717,6 +8723,9 @@
     }
     .xl\:w-32px {
       width: 32px !important;
+    }
+    .xl\:w-40px {
+      width: 40px !important;
     }
     .xl\:w-48px {
       width: 48px !important;
