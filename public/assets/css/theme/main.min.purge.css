@@ -5720,6 +5720,9 @@ textarea.form-control-lg {
 .w-24px {
   width: 24px !important;
 }
+.w-28px {
+  width: 28px !important;
+}
 .w-32px {
   width: 32px !important;
 }
@@ -5896,6 +5899,9 @@ textarea.form-control-lg {
 }
 .h-24px {
   height: 24px !important;
+}
+.h-28px {
+  height: 28px !important;
 }
 .h-32px {
   height: 32px !important;
@@ -7234,6 +7240,9 @@ textarea.form-control-lg {
 }
 .min-w-24px {
   min-width: 24px !important;
+}
+.min-w-28px {
+  min-width: 28px !important;
 }
 .min-w-32px {
   min-width: 32px !important;

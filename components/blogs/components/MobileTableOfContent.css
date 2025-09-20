@@ -52,13 +52,18 @@
 
 /* Enhanced panel styling */
 .mobile-toc-panel::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.1), transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(0, 0, 0, 0.1),
+    transparent
+  );
 }
 
 /* Scrollable content area - global styles */
@@ -118,21 +123,21 @@
     -webkit-overflow-scrolling: touch;
     overscroll-behavior: contain;
   }
-  
+
   /* Scrollable content area */
   .mobile-toc-content {
     -webkit-overflow-scrolling: touch;
     overscroll-behavior: contain;
     scroll-behavior: smooth;
   }
-  
+
   /* Larger touch targets for mobile */
   .mobile-toc-item {
     min-height: 44px;
     display: flex;
     align-items: center;
   }
-  
+
   /* Improve tap highlighting */
   .mobile-toc-link {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
@@ -168,8 +173,8 @@
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
   /* Force visibility with highest priority */
   background-color: transparent !important;
-  border: 1.5px solid #dc2626 !important;
-  color: #dc2626 !important;
+  /* border: 1.5px solid #dc2626 !important; */
+  /* color: #dc2626 !important; */
   z-index: 99999 !important;
   opacity: 1 !important;
   visibility: visible !important;
@@ -240,12 +245,24 @@
   animation: contentSlideIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
 }
 
-.mobile-toc-content .post:nth-child(1) { animation-delay: 0.1s; }
-.mobile-toc-content .post:nth-child(2) { animation-delay: 0.15s; }
-.mobile-toc-content .post:nth-child(3) { animation-delay: 0.2s; }
-.mobile-toc-content .post:nth-child(4) { animation-delay: 0.25s; }
-.mobile-toc-content .post:nth-child(5) { animation-delay: 0.3s; }
-.mobile-toc-content .post:nth-child(n+6) { animation-delay: 0.35s; }
+.mobile-toc-content .post:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.mobile-toc-content .post:nth-child(2) {
+  animation-delay: 0.15s;
+}
+.mobile-toc-content .post:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.mobile-toc-content .post:nth-child(4) {
+  animation-delay: 0.25s;
+}
+.mobile-toc-content .post:nth-child(5) {
+  animation-delay: 0.3s;
+}
+.mobile-toc-content .post:nth-child(n + 6) {
+  animation-delay: 0.35s;
+}
 
 @keyframes contentSlideIn {
   0% {
@@ -274,9 +291,15 @@
 }
 
 @keyframes buttonPulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.15); }
-  100% { transform: scale(1.1); }
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1.1);
+  }
 }
 
 /* TOC Links spring hover effects */
@@ -311,11 +334,13 @@
 
 /* Scroll bounce feedback animations with highlight color #93E85F - faster spring back */
 .mobile-toc-content.bounce-top {
-  animation: scrollBounceTop 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+  animation: scrollBounceTop 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+    forwards;
 }
 
 .mobile-toc-content.bounce-bottom {
-  animation: scrollBounceBottom 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+  animation: scrollBounceBottom 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+    forwards;
 }
 
 @keyframes scrollBounceTop {
@@ -357,7 +382,7 @@
 /* Bounce visual feedback with highlight color gradient - only edges */
 .mobile-toc-content.bounce-top::before,
 .mobile-toc-content.bounce-bottom::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -370,19 +395,23 @@
 
 .mobile-toc-content.bounce-top::before {
   top: 0;
-  background: linear-gradient(to bottom, 
-    rgba(147, 232, 95, 0.4) 0%, 
+  background: linear-gradient(
+    to bottom,
+    rgba(147, 232, 95, 0.4) 0%,
     rgba(147, 232, 95, 0.2) 30%,
-    transparent 100%);
+    transparent 100%
+  );
   border-radius: 0 0 8px 8px;
 }
 
 .mobile-toc-content.bounce-bottom::after {
   bottom: 0;
-  background: linear-gradient(to top, 
-    rgba(147, 232, 95, 0.4) 0%, 
+  background: linear-gradient(
+    to top,
+    rgba(147, 232, 95, 0.4) 0%,
     rgba(147, 232, 95, 0.2) 30%,
-    transparent 100%);
+    transparent 100%
+  );
   border-radius: 8px 8px 0 0;
 }
 
@@ -430,7 +459,7 @@
     color: var(--bs-primary);
   }
   60% {
-    color: #93E85F;
+    color: #93e85f;
     text-shadow: 0 0 6px rgba(147, 232, 95, 0.3);
   }
   100% {
@@ -443,7 +472,7 @@
   .mobile-toc-panel {
     border: 2px solid;
   }
-  
+
   .mobile-toc-link:hover,
   .mobile-toc-link:focus {
     background-color: highlight;

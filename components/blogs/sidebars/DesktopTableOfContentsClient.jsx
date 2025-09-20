@@ -455,7 +455,7 @@ export default function DesktopTableOfContentsClient() {
                         <span
                           className={`fs-7 text-center m-0 min-w-20px ${
                             item.isActive
-                              ? "text-primary fw-bold"
+                              ? "text-tertiary dark:text-primary fw-bold"
                               : "text-dark dark:text-white"
                           }`}
                         >
@@ -466,7 +466,9 @@ export default function DesktopTableOfContentsClient() {
                           <div className="d-flex items-center justify-between w-100">
                             <h3
                               className={`post-title fs-7 m-0 flex-1 ${
-                                item.isActive ? "fw-bold" : ""
+                                item.isActive
+                                  ? "fw-bold text-tertiary dark:text-primary"
+                                  : ""
                               }`}
                             >
                               <a
@@ -474,8 +476,8 @@ export default function DesktopTableOfContentsClient() {
                                 onClick={(e) => scrollToHeading(item.id, e)}
                                 className={`text-none transition-colors duration-200 ${
                                   item.isActive
-                                    ? "text-tertiary"
-                                    : "text-dark dark:text-white hover:text-primary"
+                                    ? "text-tertiary dark:text-primary"
+                                    : "text-dark dark:text-white hover:text-tertiary dark:hover:text-primary"
                                 }`}
                               >
                                 {item.text}
@@ -523,7 +525,7 @@ export default function DesktopTableOfContentsClient() {
                                 <span
                                   className={`fs-8 text-center m-0 min-w-16px ${
                                     child.isActive
-                                      ? "text-primary fw-bold"
+                                      ? "text-tertiary dark:text-primary fw-bold"
                                       : "text-gray-500"
                                   }`}
                                 >
@@ -532,7 +534,7 @@ export default function DesktopTableOfContentsClient() {
                                 <h4
                                   className={`fs-8 m-0 ${
                                     child.isActive
-                                      ? "fw-bold text-primary"
+                                      ? "fw-bold text-tertiary dark:text-primary"
                                       : "text-gray-700 dark:text-gray-300"
                                   }`}
                                 >
@@ -543,8 +545,8 @@ export default function DesktopTableOfContentsClient() {
                                     }
                                     className={`text-none transition-colors duration-200 ${
                                       child.isActive
-                                        ? "text-primary"
-                                        : "hover:text-primary"
+                                        ? "text-tertiary dark:text-primary"
+                                        : "hover:text-tertiary dark:hover:text-primary"
                                     }`}
                                   >
                                     {child.text}

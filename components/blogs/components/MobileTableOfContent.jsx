@@ -346,7 +346,7 @@ export default function MobileTableOfContent({ isOpen, onToggle, onClose }) {
 
           {/* Close button - inline with header */}
           <button
-            className="mobile-toc-close-btn text-red dark-text-orange"
+            className="mobile-toc-close-btn text-red w-28px h-28px dark:text-white fw-bold"
             onClick={onClose}
             title="Close"
             style={{
@@ -354,8 +354,8 @@ export default function MobileTableOfContent({ isOpen, onToggle, onClose }) {
               top: "50%",
               right: "16px",
               transform: "translateY(-50%)",
-              width: "28px",
-              height: "28px",
+              // width: "28px",
+              // height: "28px",
               backgroundColor: "transparent",
               //  border: "1.5px solid #dc2626",
               borderRadius: "50%",
