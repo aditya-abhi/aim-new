@@ -137,6 +137,7 @@ export default function Podcast1({ blogItem }) {
                             src="/assets/images/icons/Conquer-AI-Search-with-AI.webp"
                             width={150}
                             height={150}
+                            alt="Conquer AI Search With AI Podcast logo"
                           />
                         </div>
                         <div className="col-12 md:col-8 lg:col-8">
