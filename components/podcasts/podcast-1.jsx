@@ -153,7 +153,7 @@ export default function Podcast1({ blogItem }) {
                       <audio
                         className="min-w-100 px-2"
                         controls
-                        src="https://getaimonitor.com/wp-content/uploads/2025/06/Conquer-AI-Podcast-Final-Audio.mp3"
+                        src="/assets/audio/Episode-17-Final-audio-file.mp3"
                       ></audio>
                       {/* </figure> */}
                       <hr className="w-100 m-0 d-block mt-4" />

@@ -376,8 +376,13 @@ export default function WhatisGEO() {
                       <p>
                         Generative search engines work by using advanced AI to
                         understand and directly answer your questions, rather
-                        than just providing a list of links.15 Here’s a
-                        breakdown of how they do it:
+                        than just providing a list of links.
+                        <sup>
+                          <a href="#link1" className="text-blue">
+                            15
+                          </a>
+                        </sup>{" "}
+                        Here’s a breakdown of how they do it:
                       </p>
                       <ul>
                         <li className="mt-2">
@@ -492,10 +497,13 @@ export default function WhatisGEO() {
                                 </span>
                               </td>
                             </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
-                                <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25">
+                              <th className="top" scope="row">
+                                <div className="hstack gap-1 justify-start top">
+                                  <span
+                                    className="fs-5 fw-bold text-dark dark:text-white"
+                                    style={{ alignItems: "flex-start" }}
+                                  >
                                     Perplexity AI
                                   </span>
                                 </div>
@@ -3386,6 +3394,37 @@ export default function WhatisGEO() {
                         <b>AI-driven discovery.</b> The future is generative
                         make sure you’re leading, not following.
                       </p>
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 overflowx-auto bg-gray-25 dark:bg-tertiary-700 scroll-margin">
+                        <h2 className="text-center scroll-margin">
+                          Works Cited
+                        </h2>
+                        <ol>
+                          <li id="link1" className="scroll-margin">
+                            Generative Engine Optimization: Everything You Need
+                            to Know …, accessed July 02, 2025,
+                            <br />
+                            <a
+                              href="https://mangools.com/blog/generative-engine-optimization/"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://mangools.com/blog/generative-engine-optimization/
+                            </a>
+                          </li>
+                          <li id="link2" className="mt-2">
+                            SEO vs GEO: Understanding the Key Differences in
+                            2025 …, accessed July 08, 2025,
+                            <br />
+                            <a
+                              href="https://boomcycle.com/blog/seo-vs-geo-understanding-the-key-differences/"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://boomcycle.com/blog/seo-vs-geo-understanding-the-key-differences/
+                            </a>
+                          </li>
+                        </ol>
+                      </div>
                     </div>
                   </Gallery>
                 </div>

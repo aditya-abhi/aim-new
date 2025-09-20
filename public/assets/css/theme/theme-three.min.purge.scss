@@ -418,7 +418,7 @@
   --color-quaternary-700: #7f8174;
   --color-quaternary-800: #55564e;
   --color-quaternary-900: #2a2b27;
-  --color-table-green: #D7F3A0;
+  --color-table-green: #d7f3a0;
   --colors-accent-primary: var(--color-primary);
   --colors-accent-secondary: var(--color-secondary);
   --colors-accent-success: var(--color-success);
@@ -9138,5 +9138,10 @@ html[dir="rtl"] .theme-3 {
 }
 
 .roman-list {
-  list-style-type:upper-roman;
+  list-style-type: upper-roman;
+}
+
+.scroll-margin {
+  scroll-padding-top: 5rem;
+  scroll-margin-top: 5rem;
 }
