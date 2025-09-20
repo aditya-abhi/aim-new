@@ -38,7 +38,7 @@ export default function AuthorBioShort() {
         </div>
       </div>
       <div
-        className="row child-cols-12 sm:child-cols-6 xl:child-cols-4 d-block lg:d-none justify-center col-match g-2 lg:g-3"
+        className="row d-block lg:d-none justify-center col-match g-2 lg:g-3"
         data-uc-grid=""
       >
         <div className="px-3 sm:px-4 py-4 panel vstack justify-between gap-3 rounded-2 border dark:border-white">

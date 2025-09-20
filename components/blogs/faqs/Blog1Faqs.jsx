@@ -21,10 +21,10 @@ export default function Blog1Faqs() {
               <div>
                 <div className="panel">
                   <ul
-                    className="uc-accordion gap-1 max-w-md mx-auto"
+                    className="uc-accordion gap-1 max-w-lg p-0"
                     data-uc-accordion="targets: > li; multiple: false;"
                   >
-                    <Blog1 parentClass="panel p-2 md:p-3 lg:p-4 bg-secondary dark:bg-tertiary-700 rounded-1-5" />
+                    <Blog1 parentClass="panel p-2 lg:p-4 bg-secondary dark:bg-tertiary-700 rounded-1-5" />
                   </ul>
                 </div>
               </div>

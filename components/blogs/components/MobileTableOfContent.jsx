@@ -341,12 +341,12 @@ export default function MobileTableOfContent({ isOpen, onToggle, onClose }) {
         </div>
 
         {/* Header with close button - matching desktop style */}
-        <div className="widget-title text-center px-4 pb-3 position-relative dark:text-white">
-          <h5 className="fs-7 m-0">Table of Content</h5>
+        <div className="widget-title text-center px-4 pb-3 position-relative">
+          <h5 className="fs-7 m-0 dark:text-white">Table of Content</h5>
 
           {/* Close button - inline with header */}
           <button
-            className="mobile-toc-close-btn"
+            className="mobile-toc-close-btn text-red dark-text-orange"
             onClick={onClose}
             title="Close"
             style={{

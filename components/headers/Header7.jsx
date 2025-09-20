@@ -170,7 +170,7 @@ export default function Header7() {
                       </div>
                     </div>
                   </li>
-                  <li className="has-dd-menu">
+                  <li className="has-dd-menu hover:text-primary-600">
                     <a href="/features" role="button" aria-haspopup="true">
                       Features{" "}
                       <span

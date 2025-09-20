@@ -128,13 +128,13 @@ function StaticTableOfContents({ items = staticTocItems }) {
                     <div>
                       {/* Main heading */}
                       <div className="hstack items-start gap-2">
-                        <span className="h5 lg:h4 fst-italic text-center text-primary m-0 min-w-20px">
+                        <span className="h5 lg:h4 fst-italic text-center text-tertiary dark:text-primary m-0 min-w-20px">
                           {i + 1}
                         </span>
 
                         <div className="post-header panel vstack justify-between gap-1 flex-1">
                           <div className="d-flex items-center justify-between w-100">
-                            <h3 className="post-title fs-7 m-0 flex-1 hover:text-primary">
+                            <h3 className="post-title fs-7 m-0 flex-1">
                               <a href={`#${item.id}`} className="text-none">
                                 {item.text}
                               </a>

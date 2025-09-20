@@ -15,7 +15,7 @@ export default function AEOToolsNew() {
       <div className="container container-full mx-3">
         <div className="panel py-4 lg:py-6 xl:py-8">
           <div className="row child-cols-12 ">
-            <div className="sm:col-12 md:col-12 lg:col-6 order-1">
+            <div className="sm:col-12 md:col-12 lg:col-6 order-1 mb-3">
               <div
                 className="uc-main panel"
                 role="main"
@@ -4264,17 +4264,20 @@ export default function AEOToolsNew() {
                 </div>
               </div>
             </div>
-            <div className="d-none lg:d-block lg:col-3 order-2 lg:order-0 sticky-element3">
+            <hr className="w-100 m-0 d-block mt-4 lg:mt-6 xl:mt-8 " />
+            <div className="lg:col-3 order-2 lg:order-0 sticky-element3 sm:mt-3">
               <AudioPlayer />
-              <TableOfContentsServer />
+              <span className="">
+                <TableOfContentsServer />
+              </span>
             </div>
             <div className="d-none lg:d-block lg:col-3 order-2 lg:order-2 sticky-element3">
               <RightSideTop />
               <RightSideBottom />
             </div>
-            <div className="d-block lg:d-none">
+            {/* <div className="d-block lg:d-none">
               <Toc />
-            </div>
+            </div> */}
           </div>
           {/* <hr className="w-100 m-0 d-block mt-4 lg:mt-6 xl:mt-8" /> */}
           <div className="post-footer panel vstack sm:hstack gap-3 justify-between justifybetween border-top py-4 mt-4">

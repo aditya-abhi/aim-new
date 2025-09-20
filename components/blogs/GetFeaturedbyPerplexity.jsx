@@ -1394,7 +1394,7 @@ export default function GetFeaturedbyPerplexity() {
               </div>
             </div>
             <div className="d-none lg:d-block lg:col-3 order-2 lg:order-0 sticky-element3">
-              <AudioPlayer />
+              <AudioPlayer />-
               <TableOfContentsServer />
             </div>
             <div className="d-none lg:d-block lg:col-3 order-2 lg:order-2 sticky-element3">

@@ -34,7 +34,6 @@ export default async function Blog2Page(props) {
           <Head
             pageName="Answer Engine Optimization Tools: The Shocking Truth About AI
                   Monitor"
-            src="/assets/images/blog/blog-1.webp"
           />
           <Experiment1 />
           <AuthorBioShort />
