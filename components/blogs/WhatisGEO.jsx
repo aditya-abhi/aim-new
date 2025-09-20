@@ -3407,8 +3407,8 @@ export default function WhatisGEO() {
                         </h2>
                         <ol>
                           <li id="link1" className="mt-2">
-                            Generative Engine Optimization: Everything You Need
-                            to Know …, accessed July 02, 2025,
+                            Semrush: Zero-Click Searches, accessed September 20,
+                            2025,
                             <br />
                             <a
                               href="https://mangools.com/blog/generative-engine-optimization/"
