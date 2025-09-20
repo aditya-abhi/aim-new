@@ -4844,7 +4844,7 @@
     vertical-align: inherit;
   }
   .table > thead {
-    vertical-align: bottom;
+    // vertical-align: bottom;
   }
   .form-label {
     margin-bottom: 0.5rem;
@@ -6567,8 +6567,14 @@
   .pt-6 {
     padding-top: 3rem !important;
   }
+  .pt-7 {
+    padding-top: 3.5rem !important;
+  }
   .pt-8 {
     padding-top: 4rem !important;
+  }
+  .pt-8-5 {
+    padding-top: 5rem !important;
   }
   .pt-9 {
     padding-top: 6rem !important;
@@ -7924,6 +7930,9 @@
     .sm\:pt-8 {
       padding-top: 4rem !important;
     }
+    .sm\:pt-9 {
+      padding-top: 7rem !important;
+    }
     .sm\:pt-10 {
       padding-top: 8rem !important;
     }
@@ -8125,6 +8134,9 @@
     }
     .md\:pt-8 {
       padding-top: 4rem !important;
+    }
+    .md\:pt-9 {
+      padding-top: 7rem !important;
     }
     [dir="ltr"] .ltr\:md\:pe-8 {
       padding-right: 4rem !important;
@@ -8515,6 +8527,9 @@
     .lg\:pt-0 {
       padding-top: 0 !important;
     }
+    .lg\:pt-1 {
+      padding-top: 1rem !important;
+    }
     .lg\:pt-2 {
       padding-top: 1rem !important;
     }
@@ -8896,6 +8911,9 @@
     }
     .xl\:pt-0 {
       padding-top: 0 !important;
+    }
+    .xl\:pt-1 {
+      padding-top: 1rem !important;
     }
     .xl\:pt-9 {
       padding-top: 6rem !important;
