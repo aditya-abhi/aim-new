@@ -16,7 +16,10 @@ export default function Features() {
                 className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
               >
-                Search Has Changed. Have You?
+                Search Has Changed.{" "}
+                <span className="text-tertiary dark:text-primary">
+                  Have You?
+                </span>
                 {/* <span className="text-primary"> Lexend.</span> */}
               </h2>
               <div className=" text-center">
@@ -35,7 +38,7 @@ export default function Features() {
               </div>
               <div className="panel">
                 <div
-                  className="row child-cols-12 sm:child-cols-6 lg:child-cols-4 col-match g-3"
+                  className="row child-cols-12 sm:child-cols-6 lg:child-cols-4 col-match g-3 items-center justify-center"
                   data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
                 >
                   {servicesFeature.map((feature, index) => (

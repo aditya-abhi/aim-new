@@ -8,6 +8,7 @@ import RightSideBottom from "./sidebars/RightSideBottom";
 import RightSideTop from "./sidebars/RightSideTop";
 import Toc from "./Toc";
 import { Gallery, Item } from "react-photoswipe-gallery";
+import KeyTakeaways from "./sidebars/KeyTakeaways";
 
 export default function WhatisGEO() {
   return (
@@ -21,6 +22,9 @@ export default function WhatisGEO() {
                 role="main"
                 style={{ minHeight: "120vh" }}
               >
+                <div className="m-1">
+                  <KeyTakeaways />
+                </div>
                 <div className="panel vstack gap-3 lg:gap-4 xl:gap-5 mr-3">
                   <Gallery>
                     <div
@@ -376,13 +380,8 @@ export default function WhatisGEO() {
                       <p>
                         Generative search engines work by using advanced AI to
                         understand and directly answer your questions, rather
-                        than just providing a list of links.
-                        <sup>
-                          <a href="#link1" className="text-blue">
-                            15
-                          </a>
-                        </sup>{" "}
-                        Here’s a breakdown of how they do it:
+                        than just providing a list of links. Here’s a breakdown
+                        of how they do it:
                       </p>
                       <ul>
                         <li className="mt-2">
@@ -440,7 +439,7 @@ export default function WhatisGEO() {
                                 className="table-header-cell top pt-0 lg:pt-1"
                                 scope="row"
                               >
-                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary text-underline lg:text-none">
                                   Platform Name
                                 </span>
                               </th>
@@ -483,7 +482,7 @@ export default function WhatisGEO() {
                             <tr className="table-row border-gray-900 dark:border-white">
                               <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     ChatGPT
                                   </span>
                                 </div>
@@ -515,7 +514,7 @@ export default function WhatisGEO() {
                             <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
                               <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     Perplexity AI
                                   </span>
                                 </div>
@@ -547,7 +546,7 @@ export default function WhatisGEO() {
                             <tr className="table-row border-gray-900 dark:border-white">
                               <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     Google AI Overview
                                   </span>
                                 </div>
@@ -579,7 +578,7 @@ export default function WhatisGEO() {
                             <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
                               <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     Microsoft Copilot
                                   </span>
                                 </div>
@@ -611,7 +610,7 @@ export default function WhatisGEO() {
                             <tr className="table-row border-gray-900 dark:border-white">
                               <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     DeepSeek AI
                                   </span>
                                 </div>
@@ -647,7 +646,7 @@ export default function WhatisGEO() {
                             <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
                               <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     Grok AI
                                   </span>
                                 </div>
@@ -990,10 +989,16 @@ export default function WhatisGEO() {
                         The term Generative Engine Optimization “GEO” was coined
                         by Pranjal Aggarwal and Vishvak Murahari, along with
                         their co-authors from IIT Delhi and Princeton
-                        University, in their 2023 research paper. The goal of
-                        their effort was to make sure that content creators are
-                        not left behind as users’ online experiences are
-                        increasingly shaped by AI-generated responses.
+                        University, in their 2023 research paper{" "}
+                        <sup>
+                          <a href="#link15" className="text-blue">
+                            15
+                          </a>
+                        </sup>{" "}
+                        . The goal of their effort was to make sure that content
+                        creators are not left behind as users’ online
+                        experiences are increasingly shaped by AI-generated
+                        responses.
                       </p>
                       <p>
                         In their words, GEO is “a novel paradigm to aid content
@@ -3513,13 +3518,11 @@ export default function WhatisGEO() {
               <AudioPlayer />
               <TableOfContentsServer />
             </div>
-            <div className="d-none lg:d-block lg:col-3 order-2 lg:order-2 sticky-element3">
+            <div className="lg:col-3 order-2 lg:order-2 sticky-element3">
               <RightSideTop />
               <RightSideBottom />
             </div>
-            <div className="d-block lg:d-none">
-              <Toc />
-            </div>
+            <div className="d-block lg:d-none">{/* <Toc /> */}</div>
           </div>
           {/* <hr className="w-100 m-0 d-block mt-4 lg:mt-6 xl:mt-8" /> */}
           <div className="post-footer panel vstack sm:hstack gap-3 justify-between justifybetween border-top py-4 mt-4">
