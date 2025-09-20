@@ -4741,7 +4741,7 @@ fieldset:disabled .btn {
   vertical-align: inherit;
 }
 .table > thead {
-  vertical-align: bottom;
+  /* vertical-align: bottom; */
 }
 .form-label {
   margin-bottom: 0.5rem;
@@ -7694,6 +7694,9 @@ textarea.form-control-lg {
   .sm\:pt-8 {
     padding-top: 4rem !important;
   }
+  .sm\:pt-9 {
+    padding-top: 7rem !important;
+  }
   .sm\:pt-10 {
     padding-top: 8rem !important;
   }
@@ -7892,6 +7895,9 @@ textarea.form-control-lg {
   }
   .md\:pt-8 {
     padding-top: 4rem !important;
+  }
+  .md\:pt-9 {
+    padding-top: 7rem !important;
   }
   [dir="ltr"] .ltr\:md\:pe-8 {
     padding-right: 4rem !important;
@@ -8883,10 +8889,11 @@ th:first-child,
 td:first-child {
   position: sticky;
   left: 0;
-  background-color: white; /* Ensure visibility over scrolling content */
-  z-index: 1; /* Keep it above other cells during scroll */
+  /* background-color: white; */
+  z-index: 1;
 }
 
 .top {
   top: 0;
+  vertical-align: top !important;
 }

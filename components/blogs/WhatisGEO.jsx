@@ -404,7 +404,7 @@ export default function WhatisGEO() {
                               ideas are related, helping the AI provide more
                               meaningful and context-aware answers.
                             </li>
-                            <li>
+                            <li className="mt-2">
                               <b>Embeddings:</b>This process turns words and
                               phrases into numerical values (vectors), allowing
                               the machine to compare concepts based on meaning,
@@ -435,29 +435,44 @@ export default function WhatisGEO() {
                       <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
                         <table className="uc-table uc-table-divider">
                           <thead className="table-head sticky-top z-1 ">
-                            <tr className="table-row dark:border-white border-gray-900">
-                              <th className="table-header-cell" scope="row">
+                            <tr className="table-row dark:border-white border-gray-900 bg-gray-25 dark:bg-tertiary-700">
+                              <th
+                                className="table-header-cell top pt-0 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
                                   Platform Name
                                 </span>
                               </th>
-                              <th className="table-header-cell" scope="row">
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
                                   Primary Search Approach
                                 </span>
                               </th>
-                              <th className="table-header-cell" scope="row">
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
                                   Key Differentiating Features
                                 </span>
                               </th>
-                              <th className="table-header-cell" scope="row">
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
                                   Underlying AI Technologies
                                 </span>
                               </th>
 
-                              <th className="table-header-cell" scope="row">
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
                                   Impact on User Interaction/Content Discovery
                                 </span>
@@ -466,30 +481,30 @@ export default function WhatisGEO() {
                           </thead>
                           <tbody className="table-body">
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
                                   <span className="fs-5 fw-bold text-dark dark:text-white">
                                     ChatGPT
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-4 lg:pt-1">
                                 <span className="dark:text-white">
                                   Conversational Q&A
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-4 lg:pt-1">
                                 <span className="dark:text-white">
                                   Avg. 23-word prompts, Hybrid internal/external
                                   knowledge, Younger/male demographic
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-4 lg:pt-1">
                                 <span className="dark:text-white">
                                   LLMs, NLP
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-4 lg:pt-1">
                                 <span className="dark:text-white">
                                   Direct answers, new search intents
                                   (problem-solving, brainstorming), specific
@@ -497,36 +512,32 @@ export default function WhatisGEO() {
                                 </span>
                               </td>
                             </tr>
-                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25">
-                              <th className="top" scope="row">
-                                <div className="hstack gap-1 justify-start top">
-                                  <span
-                                    className="fs-5 fw-bold text-dark dark:text-white"
-                                    style={{ alignItems: "flex-start" }}
-                                  >
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-700">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white">
                                     Perplexity AI
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Citation-Focused Research
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Real-time search, Explicit citations for every
                                   response, Focus Modes, Context-aware
                                   follow-ups
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   LLMs, NLP, ML
                                 </span>
                               </td>
-
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Quick, verifiable answers, reduced clicks,
                                   valuable for academic/professional research
@@ -534,65 +545,63 @@ export default function WhatisGEO() {
                               </td>
                             </tr>
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
                                   <span className="fs-5 fw-bold text-dark dark:text-white">
                                     Google AI Overview
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Search & Multimodal Conversation focused
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Direct access to Google’s search Algorithms
                                   and user interaction data and capable of
                                   Multimodal input (text, image, video, audio),
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   LLMs (Gemini 2.5), NLP, ML
                                 </span>
                               </td>
-
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Immediate, contextually relevant answers,
                                   reduced clicks, personalized results
                                 </span>
                               </td>
                             </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-700">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
                                   <span className="fs-5 fw-bold text-dark dark:text-white">
                                     Microsoft Copilot
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Semantic Indexing for Enterprise
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Semantic indexing of organizational data,
                                   Microsoft Graph integration, Copilot
                                   connectors for third-party data
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white justify-center">
                                   ⚠LLMs, Semantic Indexing, Microsoft Graph
                                 </span>
                               </td>
-
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Precise, secure, and personalized information
                                   retrieval within the Microsoft 365 ecosystem
@@ -600,19 +609,19 @@ export default function WhatisGEO() {
                               </td>
                             </tr>
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
                                   <span className="fs-5 fw-bold text-dark dark:text-white">
                                     DeepSeek AI
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Inference-Based Reasoning
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Mixture of Experts (MoE) architecture, Pure
                                   Reinforcement Learning (RL), Massive context
@@ -621,13 +630,12 @@ export default function WhatisGEO() {
                                   cost)
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white justify-center">
                                   LLMs, MoE, Pure RL, Transformers
                                 </span>
                               </td>
-
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Understands user intent without explicit
                                   prompts, cost-effective for complex tasks, and
@@ -636,20 +644,20 @@ export default function WhatisGEO() {
                               </td>
                             </tr>
 
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-700">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
                                   <span className="fs-5 fw-bold text-dark dark:text-white">
                                     Grok AI
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-4 lg:pt-1">
                                 <span className="dark:text-white">
                                   Real-time Social Data & Deep Research
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-4 lg:pt-1">
                                 <span className="dark:text-white">
                                   Direct real-time access to X (Twitter),
                                   DeepSearch (human-like research), Hybrid
@@ -657,13 +665,12 @@ export default function WhatisGEO() {
                                   Mode”
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-4 lg:pt-1">
                                 <span className="dark:text-white justify-center">
                                   LLMs, MoE
                                 </span>
                               </td>
-
-                              <td>
+                              <td className="pt-4 lg:pt-1">
                                 <span className="dark:text-white">
                                   Up-to-date info on current events,
                                   comprehensive answers for complex queries,
