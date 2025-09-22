@@ -155,7 +155,7 @@ export default function StopWritingforRobots({ blogItem }) {
                       <audio
                         className="min-w-100 px-2"
                         controls
-                        src="/assets/audio/EP-15-Final-Audio.mp3"
+                        src="https://audio.getaimonitor.com/ConquerAISearchWithAI/EP-15-Final-Audio.mp3"
                       ></audio>
                       {/* </figure> */}
                       <hr className="w-100 m-0 d-block mt-4" />

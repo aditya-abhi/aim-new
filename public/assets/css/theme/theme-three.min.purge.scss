@@ -6536,6 +6536,10 @@
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
   }
+  .py-4 {
+    padding-top: 2.5rem !important;
+    padding-bottom: 2.5rem !important;
+  }
   .py-6 {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
@@ -9171,4 +9175,39 @@ html[dir="rtl"] .theme-3 {
 .scroll-margin {
   scroll-padding-top: 5rem;
   scroll-margin-top: 5rem;
+}
+
+.code-block-container {
+  position: relative;
+  /* background-color: #282c34; */
+  /* color: #abb2bf; */
+  border-radius: 5rem !important;
+  /* margin: 2em 0; */
+  font-family: "Fira Code", "Courier New", monospace;
+}
+
+.code-block-container pre {
+  padding: 20px;
+  overflow-x: auto;
+  margin: 0;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.copy-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 6px 12px;
+  background-color: #4f5666;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.2s ease;
+}
+
+.copy-button:hover {
+  background-color: #6d7589;
 }

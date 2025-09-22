@@ -154,13 +154,14 @@ export default function Podcast1({ blogItem }) {
                       <audio
                         className="min-w-100 px-2"
                         controls
-                        src="/assets/audio/Episode-17-Final-audio-file.mp3"
+                        src="https://audio.getaimonitor.com/ConquerAISearchWithAI/Episode-17-Final-audio-file.mp3"
                       ></audio>
                       {/* </figure> */}
                       <hr className="w-100 m-0 d-block mt-4" />
                     </div>
                     <p className="mt-2">Also Available on:</p>
                     <div className="d-none lg:d-block">
+                      {/* <div className="row child-cols-3 sm:child-cols-6 xl:child-cols-3 col-match g-2 justify-between hstack mt-2"> */}
                       <div className="hstack gap-4 mt-2 justify-center">
                         <a
                           href="https://open.spotify.com/episode/1XC7JiRR5WGJ9Xt9dB9GwP?si=-apJMqF3SzizDY8ydtD1oA"
@@ -255,6 +256,7 @@ export default function Podcast1({ blogItem }) {
                           </div>
                         </a>
                       </div>
+                      {/* </div> */}
                     </div>
                     <div className="d-block lg:d-none">
                       <div className="hstack justify-center gap-2 items-center mt-1">

@@ -19,7 +19,7 @@ export default function AuthorBioShort() {
             </div>
             {/* </figure> */}
           </div>
-          <div className="col-12 sm:col-8 lg:col-10">
+          <div className="col-12 sm:col-8 lg:col-11">
             <div className="panel vstack items-start">
               <h3 className="h4 m-0">
                 Author:{" "}

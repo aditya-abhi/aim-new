@@ -155,7 +155,7 @@ export default function LongTailKeywords({ blogItem }) {
                       <audio
                         className="min-w-100 px-2"
                         controls
-                        src="/assets/audio/Episode-16-Conquer-AI-Search-With-AI.mp3"
+                        src="https://audio.getaimonitor.com/ConquerAISearchWithAI/Episode-16-Conquer-AI-Search-With-AI.mp3"
                       ></audio>
                       {/* </figure> */}
                       <hr className="w-100 m-0 d-block mt-4" />
