@@ -165,7 +165,7 @@ export default function WhatisGEO2() {
                         AI-friendly and increase the chances it will be featured
                         in generative engine answers.
                       </p>
-                      <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         6.5.1 Structure Data for Both People and Generative AI
                       </h4>
                       <p>
@@ -209,7 +209,7 @@ export default function WhatisGEO2() {
                         being part of the <b>AI-generated answers</b> that
                         people now trust more than ever.
                       </p>
-                      <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         6.5.2 . Build Credibility with Citations and Trustworthy
                         Content
                       </h4>
@@ -284,7 +284,7 @@ export default function WhatisGEO2() {
                         voice your audience hears first.
                       </p>
                       <p>Here’s how to make them work together:</p>
-                      <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         6.6.1. Start with SEO Foundations.
                       </h4>
                       <p>
@@ -295,7 +295,7 @@ export default function WhatisGEO2() {
                         the clean, well-lit stage; GEO is the performance that
                         happens on it.
                       </p>
-                      <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         6.6.2. Optimize for Entities, Not Just Keywords.
                       </h4>
                       <p>
@@ -306,7 +306,7 @@ export default function WhatisGEO2() {
                         helps you rank in Google and earn citations in AI
                         answers.
                       </p>
-                      <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         6.6.3. Publish Content Worth Quoting.
                       </h4>
                       <p>
@@ -317,7 +317,7 @@ export default function WhatisGEO2() {
                         that both Google and GPT-4o will treat as a definitive
                         source.
                       </p>
-                      <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         6.6.4. Leverage Structured Data for Double Impact.
                       </h4>
                       <p>
@@ -326,7 +326,7 @@ export default function WhatisGEO2() {
                         rich results and makes it easier for AI models to
                         extract and attribute your information correctly.
                       </p>
-                      <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         6.6.5. Track Rankings and Citations.
                       </h4>
                       <p>
@@ -336,7 +336,7 @@ export default function WhatisGEO2() {
                         answers. Over time, you’ll see where SEO fuels GEO wins,
                         and vice versa.
                       </p>
-                      <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         6.6.6. Repurpose Across Channels
                       </h4>
                       <p>
@@ -463,9 +463,7 @@ export default function WhatisGEO2() {
                         more factual your data, the more likely you’ll be
                         quoted.
                       </p>
-                      <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        6.8.1 Action Steps
-                      </h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">6.8.1 Action Steps</h4>
                       <ul>
                         <li>
                           Include <b> 2–3 well-sourced statistics</b> for every
@@ -485,7 +483,7 @@ export default function WhatisGEO2() {
                           fresh and accurate.
                         </li>
                       </ul>
-                      <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         6.8.2 Consequences of Not Applying:
                       </h4>
                       <ul>
@@ -545,7 +543,7 @@ export default function WhatisGEO2() {
                         recognize your material as trustworthy and worth
                         referencing.
                       </p>
-                      <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         6.9.2 Pro Tips to Use Quotes Effectively:
                       </h4>
                       <ol>
@@ -624,7 +622,7 @@ export default function WhatisGEO2() {
                         dramatically increase your visibility and click-through
                         rates.
                       </p>
-                      <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         6.10.2 How to Optimize for Auto-Completion:
                       </h4>
                       <ul>
@@ -645,7 +643,7 @@ export default function WhatisGEO2() {
                           quick, relevant answers.
                         </li>
                       </ul>
-                      <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         6.10.2 How to Optimize for Auto-Completion:
                       </h4>
                       <ul>
@@ -687,7 +685,7 @@ export default function WhatisGEO2() {
                         attract traffic and earn citations from AI tools long
                         after publication.
                       </p>
-                      <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         6.11.1 Why Future-Proof Content Matters:
                       </h4>
                       <ul>
@@ -706,7 +704,7 @@ export default function WhatisGEO2() {
                           without losing its core value.
                         </li>
                       </ul>
-                      <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         6.11.2 How to Create Future-Proof Content:
                       </h4>
                       <ul>
@@ -760,7 +758,7 @@ export default function WhatisGEO2() {
                         user interactions, including feedback on the quality,
                         relevance, and accuracy of the answers generated.
                       </p>
-                      <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         6.12.1 Why Giving Feedback Matters:
                       </h4>
                       <ul>
@@ -781,7 +779,7 @@ export default function WhatisGEO2() {
                           citation algorithms, indirectly benefiting your SEO.
                         </li>
                       </ul>
-                      <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         6.12.2 How to Give Effective Feedback:
                       </h4>
                       <ul>
@@ -860,7 +858,7 @@ export default function WhatisGEO2() {
                         zero-click optimization is essential to maximize your
                         brand’s visibility and authority.
                       </p>
-                      <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         6.13.1 Why Target Zero-Click Searches?
                       </h4>
                       <ul>
@@ -880,7 +878,7 @@ export default function WhatisGEO2() {
                           across multiple platforms and devices.
                         </li>
                       </ul>
-                      <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         6.13.2 How to Optimize for Zero-Click Searches:
                       </h4>
                       <ul>
@@ -925,7 +923,7 @@ export default function WhatisGEO2() {
                         research offers unique, data-backed insights that AI
                         engines and human audiences highly value.
                       </p>
-                      <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         6.14.1 Why Publish Your Own Research?
                       </h4>
                       <ul>
@@ -951,7 +949,7 @@ export default function WhatisGEO2() {
                           search rankings.
                         </li>
                       </ul>
-                      <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         6.13.2 How to Optimize for Zero-Click Searches:
                       </h4>
                       <ul>

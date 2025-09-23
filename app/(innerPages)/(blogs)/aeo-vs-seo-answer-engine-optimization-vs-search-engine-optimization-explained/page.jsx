@@ -15,6 +15,7 @@ import Experiment2 from "@/components/blogs/components/Experiment2";
 import AEOToolsNewCopy from "@/components/blogs/AEOToolsNewCopy";
 import WhatisAEO from "@/components/blogs/WhatisAEO";
 import AEOvsSEO from "@/components/blogs/AEOvsSEO";
+import AEOvsSEOFaq from "@/components/blogs/faqs/AEOvsSEOFaq";
 export const metadata = {
   title:
     "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
@@ -34,7 +35,7 @@ export default async function Blog2Page(props) {
         >
           <Header7 />
           <Head
-            pageName="Answer Engine Optimization (AEO) in 2025: The Complete Guide to Dominating AI Search
+            pageName="AEO vs SEO: Answer Engine Optimization vs Search Engine Optimization Explained 
 "
             src="/assets/images/blog/blog-1.webp"
             publishedOn="May 27, 2025"
@@ -44,7 +45,7 @@ export default async function Blog2Page(props) {
           <AuthorBioShort />
           <AEOvsSEO />
           <Author />
-          <Blog1Faqs />
+          <AEOvsSEOFaq />
           <Experiment2 />
           <NextPrevBlogs />
           <RelatedBlogs />

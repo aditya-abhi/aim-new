@@ -10,6 +10,7 @@ import AuthorBioShort from "@/components/blogs/components/AuthorBioShort";
 import Experiment1 from "@/components/blogs/components/Experiment1";
 import Experiment2 from "@/components/blogs/components/Experiment2";
 import LLMSTXTGuide from "@/components/blogs/LLMSTXTGuide";
+import StepbyStepGuideFaq from "@/components/blogs/faqs/StepbyStepGuideFaq";
 export const metadata = {
   title:
     "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
@@ -29,7 +30,7 @@ export default async function Blog2Page(props) {
         >
           <Header7 />
           <Head
-            pageName="ChatGPT SEO: How to Rank in ChatGPT Responses in 2025"
+            pageName="Step by Step Guide: How to Create and Implement an llms.txt File"
             src="/assets/images/blog/Chat-GPT-SEO.webp"
             publishedOn="May 27, 2025"
             updatedOn=""
@@ -38,7 +39,7 @@ export default async function Blog2Page(props) {
           <AuthorBioShort />
           <LLMSTXTGuide />
           <Author />
-          <Blog1Faqs />
+          <StepbyStepGuideFaq />
           <Experiment2 />
           <NextPrevBlogs />
           <RelatedBlogs />

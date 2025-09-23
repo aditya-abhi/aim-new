@@ -15,6 +15,7 @@ import Experiment2 from "@/components/blogs/components/Experiment2";
 import AEOToolsNewCopy from "@/components/blogs/AEOToolsNewCopy";
 import WhatisGEO from "@/components/blogs/WhatisGEO";
 import WhatisGEO2 from "@/components/blogs/WhatisGEO2";
+import WhatisGEOFaq from "@/components/blogs/faqs/WhatisGEOFaq";
 export const metadata = {
   title:
     "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
@@ -45,7 +46,7 @@ export default async function Blog2Page(props) {
           <WhatisGEO />
           {/* <WhatisGEO2 /> */}
           <Author />
-          <Blog1Faqs />
+          <WhatisGEOFaq />
           <Experiment2 />
           <NextPrevBlogs />
           <RelatedBlogs />

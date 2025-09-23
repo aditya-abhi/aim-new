@@ -10,6 +10,7 @@ import AuthorBioShort from "@/components/blogs/components/AuthorBioShort";
 import Experiment1 from "@/components/blogs/components/Experiment1";
 import Experiment2 from "@/components/blogs/components/Experiment2";
 import ChatGPTSEO from "@/components/blogs/ChatGPT-SEO";
+import ChatGPTSEOfaq from "@/components/blogs/faqs/ChatGPTSEOFaq";
 export const metadata = {
   title:
     "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
@@ -38,7 +39,7 @@ export default async function Blog2Page(props) {
           <AuthorBioShort />
           <ChatGPTSEO />
           <Author />
-          <Blog1Faqs />
+          <ChatGPTSEOfaq />
           <Experiment2 />
           <NextPrevBlogs />
           <RelatedBlogs />

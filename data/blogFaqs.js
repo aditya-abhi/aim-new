@@ -398,3 +398,556 @@ export const futureProofYourContentFaq = [
     expanded: false,
   },
 ];
+
+export const whatisGEO = [
+  {
+    id: 1,
+    question: "What is Generative Engine Optimization (GEO)?",
+    answer:
+      "GEO is the process of optimizing your content and digital presence to rank well and get featured in AI-powered generative search engines like ChatGPT, Perplexity, and Gemini. It focuses on appearing in AI-generated answers rather than just traditional search results.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "How is GEO different from traditional SEO?",
+    answer:
+      "While traditional SEO targets keyword rankings and website traffic primarily from search engines like Google, GEO targets visibility within AI answer engines. It emphasizes content that AI tools select as trustworthy and useful when generating direct answers to user queries.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: " Why is GEO important for my brand?",
+    answer:
+      "AI-driven search is becoming the primary way people find information online. Being featured in AI-generated responses increases your brand’s authority, drives targeted traffic, and improves user engagement in this emerging search landscape.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "What kind of content works best for GEO?",
+    answer:
+      "Content that directly answers natural, conversational questions with clear, authoritative information performs best. Structured data, FAQs, and detailed, well-researched articles that reflect user intent are highly favored.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "How can I track my success in GEO?",
+    answer:
+      "Monitor AI mentions and citations of your content, track referral traffic from AI tools, measure engagement on AI-driven traffic, and use specialized GEO monitoring tools to stay ahead.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Which tools are essential for GEO success?",
+    answer:
+      "Tools like AI Traffic Monitor, generative search analytics platforms, and backlink trackers help you monitor your content’s performance in AI answers and optimize your GEO strategy effectively.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: " How soon can I expect results from GEO efforts?",
+    answer:
+      "GEO is still evolving, but consistent optimization and using the right tools can start showing results in visibility and engagement within a few months. Long-term commitment brings sustained benefits.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+];
+
+export const chatGPTSEO = [
+  {
+    id: 1,
+    question: "What is ChatGPT SEO?",
+    answer:
+      "ChatGPT SEO is the practice of optimizing your content, brand, or website so that it gets referenced or recommended in ChatGPT responses. Instead of ranking on a search results page like Google, you’re aiming to become the answer ChatGPT gives when someone asks a question in a conversational prompt like “best tools for remote teams” or “top alternatives to Notion.”It’s all about helping AI recognize, trust, and mention your brand.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "Can I pay to get my brand mentioned in ChatGPT?",
+    answer:
+      "No. Paid placements, advertisements, or sponsorships are not accepted in ChatGPT's answers. Instead, it uses citations from reliable public sources, structured information, and training data. Earned exposure through forums, content, and PR is crucial for this reason.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "How does ChatGPT decide which brands to mention?",
+    answer:
+      "Brands are mentioned by ChatGPT based on its training knowledge, publicly quoted online content, and, when browsing is enabled, real-time data from structured websites and APIs. Getting regular, reliable mentions from sites like Wikipedia, Reddit, Medium, Crunchbase, and high-authority blogs makes it more likely that people will mention your business.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question:
+      "What’s the difference between SEO and GEO (Generative Engine Optimization)?",
+    answer:
+      "Optimizing for search engines like Google is the main goal of SEO. The goal of GEO is to organize your brand's visibility so that ChatGPT, Claude, and Perplexity, among other AI technologies, can recognize it. In addition to keywords and backlinks, GEO includes structured data, AI-ingestible information, public relations, and visibility across forums and reliable sources.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "Is manual prompt testing still worth doing?",
+    answer:
+      "Yes, particularly as a place to start. Understanding how your brand looks, what language works, and how competitors are positioned is all made easier using manual quick testing. It provides qualitative information that tools can't always display, but for scale, it should be used in conjunction with AI Monitor or a similar tool.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "What is AI Monitor, and how does it work?",
+    answer:
+      "AI Monitor is a specialized tool that tracks the frequency and location of brand appearances in AI-generated content, such as Claude, Perplexity, ChatGPT, and Google AI Overviews. No traditional SEO tool can achieve what it does now: it provides you with genuine visibility into prompts, citations, tone, and even competitive benchmarking.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "How long does it take to start getting featured in ChatGPT?",
+    answer:
+      "It depends. Within a few weeks, you may begin to show up in pertinent prompts if your brand is already discussed on reliable sites. Otherwise, be prepared to invest many months in developing topical authority, obtaining citations, and organizing your content in a way that is AI-friendly. The secret is consistency.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 8,
+    question: "Does schema markup help with AI visibility?",
+    answer:
+      "Yes. Schema helps AI tools better comprehend your pages by making your content machine-readable, even while it doesn't ensure AI citation. Using the FAQ, HowTo, Product, and BlogPosting schema increases the likelihood that your material will appear in both conventional search snippets and AI replies.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 9,
+    question: "How do I know if my brand is showing up in ChatGPT?",
+    answer:
+      "The simplest way to check your visibility in AI search is to ask it yourself using the same prompts your audience might use. You can also try tools like AI Monitor (which tracks brand mentions in AI responses), ChatGPT plugins like SEO.app, or even ask direct prompts such as “What’s a good [your category] tool?”—and if your name doesn’t show up, that’s your signal to optimize.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+];
+
+export const gEOvsSEO = [
+  {
+    id: 1,
+    question: "Can I ignore SEO if I focus on GEO?",
+    answer:
+      "No—SEO drives direct traffic, while GEO enhances brand visibility in AI answers. Combine both.",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "How do I measure GEO success?",
+    answer:
+      "Monitor AI citations via tools like AI Monitor and track referral traffic from AI platforms.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "How technical is GEO compared to SEO?",
+    answer:
+      "GEO focuses less on technical elements like site speed or mobile optimization and more on content authority, structured data, and AI readability. However, basic technical SEO (e.g., schema markup) still supports GEO success.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "Can small businesses compete with large brands in GEO?",
+    answer:
+      "Yes! GEO rewards niche expertise and well-structured content over domain authority. Case studies like Flyhomes and Brainly show how focused, intent-driven content can outperform larger competitors.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question:
+      "Does GEO require creating entirely new content, or can I repurpose existing SEO content?",
+    answer:
+      "Most SEO content can be adapted for GEO by restructuring it with clear headers, adding schema markup, and emphasizing question-and-answer formatting. Tools like AI Monitor help automate this process.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "How does voice search optimization relate to GEO?",
+    answer:
+      "Voice search queries are conversational, similar to how users interact with AI engines. Optimizing for natural language in GEO inherently improves voice search visibility.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "Are there industries where GEO matters more than SEO?",
+    answer:
+      "GEO is critical for industries where users seek instant answers (e.g., healthcare, finance, tech). However, SEO remains vital for transactional queries (e.g., e-commerce).",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 8,
+    question: "Can GEO work without backlinks?",
+    answer:
+      "While GEO prioritizes authority, AI models may still cite content with strong topical expertise and structured data, even without backlinks. However, backlinks boost credibility for both SEO and GEO.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 9,
+    question:
+      "How do I handle duplicate content issues when optimizing for both GEO and SEO?",
+    answer:
+      "Use canonical tags for similar content and focus on unique value. For example, turn a keyword-heavy SEO page into a GEO-optimized FAQ or step-by-step guide.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 10,
+    question:
+      " Is there a risk of AI search engines misinterpreting my content?",
+    answer:
+      "Yes—clear structure and schema markup minimize this risk. Regularly test how AI tools like ChatGPT cite your content and adjust formatting for clarity.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 11,
+    question: "Does GEO favor short-form or long-form content?",
+    answer:
+      "AI engines prioritize concise, direct answers (short-form), but long-form content with in-depth analysis can be cited if it’s well-structured with summarized key points.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 12,
+    question: "How do I balance local SEO with GEO strategies?",
+    answer:
+      "Optimize local SEO for “near me” queries and GEO for broader, informational intent (e.g., “best practices for X industry”). Use local schema markup (e.g., LocalBusiness) to enhance GEO visibility.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+];
+
+export const aEOvsSEOFaq = [
+  {
+    id: 1,
+    question: "What is Answer Engine Optimization (AEO)?",
+    answer:
+      "AEO is the practice of optimizing content to appear in AI-generated answers, featured snippets, and voice search results. It focuses on providing direct, concise responses to user queries in platforms like Google’s AI Overviews, ChatGPT, and voice assistants.",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "Difference between AEO and SEO?",
+    answer:
+      "While SEO aims to rank websites in traditional search results, AEO targets zero-click visibility in AI answers. SEO uses keywords, backlinks, and long-form content, while AEO prioritizes structured data, conversational queries, and succinct answers.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Why is AEO becoming critical in 2025?",
+    answer:
+      "With 84% of Google searches triggering AI Overviews (March 2025 data) and 50% of U.S. adults using voice search daily, users increasingly rely on instant answers rather than clicking links.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "Can I use AEO and SEO together?",
+    answer:
+      "Yes! For example, optimize long-form blog content (SEO) while adding FAQ schema and concise Q&A sections (AEO). Brands like MedAnswers saw 65% of traffic from AI Overviews by combining both strategies.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "What technical steps are needed for AEO?",
+    answer:
+      "Implement structured data (FAQ, How-To, or Q&A schema), optimize for natural language keywords, and ensure mobile-friendliness. Pages with schema markup are 50% more likely to appear in featured snippets.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "How do I measure AEO success?",
+    answer:
+      "The track featured snippet rankings, Google Search Console’s “AI Overview impressions,” and voice search traffic. Tools like SEMrush and Ahrefs now include AEO-specific metrics.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "Which industries benefit most from AEO?",
+    answer:
+      "Healthcare, finance, and tech—industries with high informational queries. For instance, MedAnswers grew featured snippet appearances by 50% using medical schema markup.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 8,
+    question: "Does voice search optimization require AEO?",
+    answer:
+      "Yes. Voice searches are conversational (e.g., “How do I lower cholesterol?”), so AEO tactics like natural language answers and local intent targeting (e.g., “near me”) are essential.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 9,
+    question: "How does E-E-A-T impact AEO?",
+    answer:
+      "Google prioritizes content with Experience, Expertise, Authoritativeness, and Trustworthiness. Expert-reviewed content (e.g., physician-cited articles) earns 3x more AI Overview inclusions.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 10,
+    question: " Will AEO replace SEO in the future?",
+    answer:
+      "No—SEO remains vital for long-term authority, while AEO captures immediate AI-driven visibility. Brands like EcoGear combined both to drive 300% organic traffic and dominate AI Overviews.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+];
+
+export const stepbyStepGuideFaq = [
+  {
+    id: 1,
+    question: "What is an llms.txt file, and why should I care?",
+    answer:
+      "An llms.txt file is a simple Markdown-formatted text file placed in your website’s root directory. It acts as a guide for AI models (like ChatGPT or Claude), helping them understand and prioritize your content. Without it, your site risks being ignored by large language models (LLMs), potentially missing out on AI-driven traffic and citations.",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "How is llms.txt different from robots.txt?",
+    answer:
+      "While robots.txt controls search engine crawlers (like Googlebot), llms.txt is designed specifically for AI models. It doesn’t block access but instead provides context—highlighting key pages, relationships between content, and sections that require careful handling.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Do I need technical skills to create an llms.txt file?",
+    answer:
+      "No! It’s a plain text file written in Markdown (a simple formatting syntax). You can create it using Notepad, VS Code, or any text editor. Just follow a structured template (like the one provided in this guide) and upload it to your site’s root folder.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "Will llms.txt improve my SEO rankings?",
+    answer:
+      "Not directly—it’s not a ranking factor for search engines. However, it helps AI models cite your content more accurately, which can indirectly boost visibility in AI-generated responses (like ChatGPT answers) and drive referral traffic.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: " What’s the ideal length for an llms.txt file?",
+    answer:
+      "IKeep it concise—around 5-10 key links for the standard llms.txt. If you need deeper guidance, use llms-full.txt for comprehensive documentation (like API references or detailed FAQs).",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Can llms.txt protect my private or paywalled content?",
+    answer:
+      "Yes! You can specify which pages AI should ignore (e.g., member-only areas) or treat cautiously (e.g., outdated articles). This helps prevent misuse while still allowing AI to engage with public content.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "How often should I update my llms.txt file?",
+    answer:
+      "Review it quarterly—or sooner—whenever you add or remove major content, restructure your site, or notice AI misrepresenting your pages.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 8,
+    question: "What happens if I don’t use llms.txt?",
+    answer:
+      "Your content may still be crawled by LLMs, but without proper guidance they could misinterpret outdated or low-priority pages, overlook your most valuable resources, or fail to cite your site accurately in AI responses.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+];
+
+export const goodSEOImpactFaq = [
+  {
+    id: 1,
+    question: "Will GEO replace traditional SEO, or do I need both?",
+    answer:
+      "SEO isn’t dead—it’s evolving. GEO complements SEO by optimizing for AI-generated answers (like ChatGPT or Google’s AI Overviews). Brands that combine both strategies dominate both traditional search results and AI responses, future-proofing their visibility.",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "Can I rank in AI answers if I’m not on Google’s first page?",
+    answer:
+      "Absolutely! A BrightEdge study found 60% of AI answers pull from sources outside Google’s top 10 results. By optimizing for GEO (structured content, long-tail keywords, and authority signals), you can win AI visibility even without #1 rankings.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Why are long-tail keywords critical for GEO?",
+    answer:
+      "AI tools prioritize specific, question-based queries (e.g., “best AI tools for startups” vs. “AI tools”). Long-tail keywords make up 70% of search traffic and align with how users phrase questions in chatbots, making them essential for GEO success.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "How do I tweak my on-page SEO for AI?",
+    answer:
+      "Focus on headers (H1/H2/H3), FAQ schema, and clear formatting. AI scans content for structure and relevance—pages with proper headers rank 36% better. Add alt text, meta descriptions, and HowTo schemas to help AI understand and cite your content.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "Why does my website’s UX matter for AI-generated answers?",
+    answer:
+      "Slow or unresponsive sites get ignored by both Google and AI. Over 53% of users abandon slow-loading pages, and AI crawlers prioritize sites with fast speeds, mobile-friendliness, and intuitive navigation to ensure reliable answers.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "What type of content do AI tools love?",
+    answer:
+      "AI favors authoritative, evergreen content with clear answers. Think in-depth guides, comparison tables, and step-by-step breakdowns (e.g., “The Ultimate Guide to Local SEO in 2024”). HubSpot found that evergreen content generates 3x more leads over time.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "How can I start with GEO without overhauling my SEO strategy?",
+    answer:
+      "Upgrade your existing SEO content for GEO by adding FAQ schema to top-performing pages, expanding guides with expert quotes and data, optimizing for long-tail questions (like “What’s the easiest project management tool?”), and fixing AI crawlability issues across your website.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 8,
+    question: "What happens if I don’t use llms.txt?",
+    answer:
+      "Your content may still be crawled by LLMs, but without proper guidance they could misinterpret outdated or low-priority pages, overlook your most valuable resources, or fail to cite your site accurately in AI responses.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+];
+
+export const useQuotesLikeProFaq = [
+  {
+    id: 1,
+    question:
+      "Wait, why do quotes even matter for GEO? Can’t I just write original content?",
+    answer:
+      "Great question! While original content is key, quotes act like trust badges for AI systems. Generative engines prioritize content backed by credible voices (like experts or recent studies) because they’re trained to value authority. Quotes signal, “Hey, this isn’t just my opinion—it’s validated by pros!” No quotes? Your content might get flagged as “thin” or unsubstantiated by AI.",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "How is GEO different from regular SEO?",
+    answer:
+      "SEO is about ranking higher on search engine results pages (SERPs). GEO is about optimizing for the AI tools that generate those answers (like chatbots or AI Overviews). SEO cares about keywords and backlinks; GEO cares about authority, freshness, and how easily AI can “quote” your content. Think of it as SEO for the robot answer factories.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Can I just use any quote I find on Twitter or Reddit?",
+    answer:
+      "Nope—AI tools sniff out credibility like bloodhounds. Pulling quotes from random social media rants or unvetted sources won’t cut it. Instead, stick to industry leaders (e.g., “According to Sundar Pichai, CEO of Google…”), peer-reviewed studies or recent reports (e.g., “A 2024 Harvard study found…”), and recognized publications like Forbes or MIT Tech Review.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "How many quotes should I include? Is there a magic number?",
+    answer:
+      "No magic number, but aim for balance. Too few? Missed authority boost. Too many? Your content feels like a quote collage. A good rule: Use quotes to back up key claims (stats, controversial opinions, trends). If 10-20% of your content is quotes, you’re golden.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question:
+      "5. Do I need to update quotes constantly? What if my old ones still work?",
+    answer:
+      "Depends on your niche! Tech or marketing? Refresh quotes yearly (or whenever trends shift). Evergreen topics (leadership, psychology)? Older quotes from timeless experts (like Einstein or Brené Brown) can still work. But always ask: Does this quote feel relevant today? If not, swap it for a 2024 take.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Can quotes really help avoid AI plagiarism flags?",
+    answer:
+      "Yep! AI tools penalize content that’s too generic or matches existing AI-generated text. Quotes (with proper attribution) add a unique, human-approved flavor. Pair them with your own analysis to create a “remix” that’s harder for algorithms to flag as duplicate.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+];
+
+export const autoCompletePromptsFaq = [
+  {
+    id: 1,
+    question: "Wait, isn’t GEO just SEO with a fancy name?",
+    answer:
+      "Nope. SEO is like trying to impress a librarian with your Dewey Decimal skills. GEO is hacking the library’s AI system to make it recommend your book to everyone who walks in. It’s less about keywords and more about teaching algorithms to see your content as the definitive answer to what humans (and bots) are craving.",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question:
+      "How do I even start optimizing for auto-complete? Do I need a PhD in AI?",
+    answer:
+      "Zero PhDs required. Start by stalking Google’s autocomplete like it’s your ex’s Instagram. Type seed keywords related to your niche (“best AI tools for…”) and see what pops up. Tools like AnswerThePublic or SEMrush can help you mine these gold nuggets. Then, craft content that answers those queries conversationally—like you’re explaining it to a curious friend.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "But what if my niche is super niche? Can GEO even help?",
+    answer:
+      "Especially if your niche is niche. GEO thrives on long-tail, hyper-specific queries (think “how to train AI for underwater basket-weaving SEO”). These low-competition phrases are where AI’s autocomplete gets weirdly precise—and where you can swoop in to own the narrative.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "Does this mean I should ignore traditional SEO?",
+    answer:
+      "Nah, don’t ghost SEO—just evolve it. Keep your site fast and mobile-friendly, but layer GEO tactics on top. Think of SEO as the foundation and GEO as the flashy neon sign that makes AI algorithms scream, “THIS CONTENT IS LIT.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "How do I know if my GEO efforts are working?",
+    answer:
+      "You should track two key things to measure your visibility in AI-driven search. First, AI love — check if your quotes, snippets, or content are appearing in answers generated by tools like ChatGPT or Bard. This shows whether AI systems consider your content credible enough to surface. Second, focus on autocomplete real estate — see if your target keywords and phrases show up as suggestions when typing related terms into search bars. Both signals reflect growing authority and influence in search ecosystems. To monitor this effectively, you can use SEO tools like Ahrefs or simply perform manual Google searches to spot progress.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Can small businesses compete with big brands here?",
+    answer:
+      "YES. Big brands are slow dinosaurs. GEO rewards agility and specificity. While they’re busy optimizing for “best shoes,” you’re dominating “best vegan hiking boots for AI-powered trail maps.” Autocomplete doesn’t care about your budget—just how well you align with what the algorithm thinks users want.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+];

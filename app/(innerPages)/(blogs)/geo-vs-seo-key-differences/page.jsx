@@ -10,6 +10,7 @@ import AuthorBioShort from "@/components/blogs/components/AuthorBioShort";
 import Experiment1 from "@/components/blogs/components/Experiment1";
 import Experiment2 from "@/components/blogs/components/Experiment2";
 import GEOvsSEO from "@/components/blogs/GEOvsSEO";
+import GEOvsSEOFaq from "@/components/blogs/faqs/GEOvsSEOFaq";
 export const metadata = {
   title:
     "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
@@ -29,7 +30,7 @@ export default async function Blog2Page(props) {
         >
           <Header7 />
           <Head
-            pageName="ChatGPT SEO: How to Rank in ChatGPT Responses in 2025"
+            pageName="GEO vs SEO: Key Differences, Optimization Strategies, and Future Trends 1"
             src="/assets/images/blog/Chat-GPT-SEO.webp"
             publishedOn="May 27, 2025"
             updatedOn=""
@@ -38,7 +39,7 @@ export default async function Blog2Page(props) {
           <AuthorBioShort />
           <GEOvsSEO />
           <Author />
-          <Blog1Faqs />
+          <GEOvsSEOFaq />
           <Experiment2 />
           <NextPrevBlogs />
           <RelatedBlogs />
