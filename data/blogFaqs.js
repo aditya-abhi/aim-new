@@ -147,3 +147,62 @@ export const aeoTools = [
     expanded: false,
   },
 ];
+
+export const whatIsAEO = [
+  {
+    id: 1,
+    question: "What is Answer Engine Optimization?",
+    answer:
+      "Answer Engine Optimization is the process of making your content the preferred source for AI-driven tools like ChatGPT, Perplexity, and Google’s AI Overviews. Instead of just ranking in search results, AEO ensures your brand appears directly in AI-generated answers - often without a click to your site.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "How is AEO different from traditional SEO?",
+    answer:
+      "SEO aims to improve visibility in search engine rankings, while AEO focuses on becoming the quoted answer in AI outputs. SEO depends on keyword placement and backlinks; AEO depends on structured, authoritative, and up-to-date information that AI systems can easily parse.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Who benefits most from AEO?",
+    answer:
+      "Companies in AI-focused industries, software, and fast-moving sectors gain the most because their audiences increasingly rely on AI assistants for information and recommendations. Being featured directly in AI answers builds instant authority and trust.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "How can I implement AEO effectively?",
+    answer:
+      "To optimize for generative engines, begin answers upfront and follow with supporting details to enhance clarity and relevance. Implement schema markup for FAQs, How-To guides, and product data to improve structure and discoverability. Ensure factual accuracy by keeping content regularly updated. Build entity-rich pages that clearly define key concepts, people, and brands to strengthen contextual signals. Finally, monitor AI-generated mentions and sentiment to continuously refine your brand’s positioning across answer engines.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "What tools can help with AEO?",
+    answer:
+      "Specialized tools like AI Traffic Monitor and AI Brand Monitor track when and how AI references your content. Keyword discovery tools (e.g., AnswerThePublic) and structured data generators (e.g., Schema.org) ensure your content is machine-readable.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "What are the top strategies for 2025?",
+    answer:
+      "Prioritize entity-based optimization rather than relying on keyword stuffing to align with how generative engines interpret content. Develop authoritative knowledge hubs that serve as trusted sources of information. Structure your content around conversational search patterns to match the way users interact with AI platforms. To build lasting credibility, invest in original research and ensure verified authorship across your content assets.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "Where is AEO headed next?",
+    answer:
+      "Expect AI systems to place more weight on brand trust scores, verified credentials, and real-time accuracy. The brands that win will be the ones offering fresh, well-structured, and credible information consistently.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+];

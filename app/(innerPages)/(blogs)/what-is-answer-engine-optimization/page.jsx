@@ -16,6 +16,7 @@ import AEOToolsNewCopy from "@/components/blogs/AEOToolsNewCopy";
 import WhatisAEO from "@/components/blogs/WhatisAEO";
 import WhatisAEO2 from "@/components/blogs/WhatisAEO2";
 import WhatisAEO3 from "@/components/blogs/WhatisAEO3";
+import WhatisAEOFaq from "@/components/blogs/faqs/WhatisAEOFaq";
 export const metadata = {
   title:
     "What is Answer Engine Optimization? Future of SEO in 2025 || AI Monitor",
@@ -47,7 +48,7 @@ export default async function Blog2Page(props) {
           {/* <WhatisAEO2 /> */}
           {/* <WhatisAEO3 /> */}
           <Author />
-          <Blog1Faqs />
+          <WhatisAEOFaq />
           <Experiment2 />
           <NextPrevBlogs />
           <RelatedBlogs />

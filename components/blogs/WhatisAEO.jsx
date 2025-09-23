@@ -971,10 +971,10 @@ export default function WhatisAEO() {
                           Best Cold Brew Coffees 2025]."
                         </li>
                       </ul>
-                      <p className="mt-3">You just became the answer.</p>
-                      <p className="m-0">
-                        You just became the answer. No scrolling, no clicking
-                        through five pages, just your content, front and center.
+                      <p className="mt-3">
+                        <strong>You just became the answer.</strong> <br />
+                        No scrolling, no clicking through five pages, just your
+                        content, front and center.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         When the Shift Happened
@@ -1346,24 +1346,26 @@ export default function WhatisAEO() {
                         collects data, is breaking down. In its place, new
                         strategies are emerging:
                       </p>
-                      <li className="mt-2">
-                        <b>AI-Centric Sponsorships</b> – Brands are
-                        experimenting with partnerships where their content is
-                        optimized specifically for AI citation, turning mentions
-                        into measurable value.
-                      </li>
-                      <li className="mt-2">
-                        <b> Direct-to-AI Content Feeds</b> – Some companies are
-                        providing structured data and verified content directly
-                        to AI platforms in exchange for attribution and
-                        visibility.
-                      </li>
-                      <li className="mt-2">
-                        <b> Premium “Deep-Dive” Content</b> – With surface-level
-                        answers free via AI, businesses are reserving in-depth,
-                        niche expertise for paid subscribers or gated
-                        experiences.
-                      </li>
+                      <ul>
+                        <li className="mt-2">
+                          <b>AI-Centric Sponsorships</b> – Brands are
+                          experimenting with partnerships where their content is
+                          optimized specifically for AI citation, turning
+                          mentions into measurable value.
+                        </li>
+                        <li className="mt-2">
+                          <b> Direct-to-AI Content Feeds</b> – Some companies
+                          are providing structured data and verified content
+                          directly to AI platforms in exchange for attribution
+                          and visibility.
+                        </li>
+                        <li className="mt-2">
+                          <b> Premium “Deep-Dive” Content</b> – With
+                          surface-level answers free via AI, businesses are
+                          reserving in-depth, niche expertise for paid
+                          subscribers or gated experiences.
+                        </li>
+                      </ul>
                       <p className="mt-3">
                         But with these opportunities come ethical questions. If
                         AI is summarizing your work without driving traffic
@@ -1427,13 +1429,15 @@ export default function WhatisAEO() {
                         Whereas SEO allowed you to rank #1–10 and still receive
                         traffic, AEO is a game where one winner takes most.
                       </p>
-                      <li className="mt-2">
-                        AI models tend to cite only one or two top sources.
-                      </li>
-                      <li className="mt-2">
-                        If you're not among that short list, you're not seen in
-                        that interaction.
-                      </li>
+                      <ul>
+                        <li className="mt-2">
+                          AI models tend to cite only one or two top sources.
+                        </li>
+                        <li className="mt-2">
+                          If you're not among that short list, you're not seen
+                          in that interaction.
+                        </li>
+                      </ul>
                       <p className="mt-2">
                         This leads to intense competition for high-authority
                         citations, particularly in niches such as finance,
