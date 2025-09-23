@@ -620,12 +620,12 @@ export default function WhatisAEO() {
                         SEO helps people find your site. AEO helps AI find and
                         utilize your answer.
                       </p>
-                      <h4 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         Example: "What's the Best Coffee for Cold Brew?"
                       </h4>
                       <p>Video</p>
                       <p className="mt-3">Let's compare:</p>
-                      <h4 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         Traditional Google Search (SEO)
                       </h4>
                       <ul>
@@ -736,7 +736,7 @@ export default function WhatisAEO() {
                         undergoing a seismic shift, and the window to adapt is
                         narrowing fast.
                       </p>
-                      <h4 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         Changing User Behavior
                       </h4>
                       <p>
@@ -751,7 +751,7 @@ export default function WhatisAEO() {
                         complete, conversational responses in seconds, no
                         scrolling, no tabs, no ads.
                       </p>
-                      <h4 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         AI as the New Gateway
                       </h4>
                       <p>
@@ -765,7 +765,7 @@ export default function WhatisAEO() {
                         inside those AI-generated answers, you’re invisible to
                         nearly half of potential searchers.
                       </p>
-                      <h4 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         Winner-Takes-Most Model
                       </h4>
                       <p>
@@ -1399,7 +1399,7 @@ export default function WhatisAEO() {
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         Writing Content That AI Loves
                       </h3>
-                      <h4 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         Use Natural, Question-Led Language
                       </h4>
                       <p>
@@ -1417,7 +1417,7 @@ export default function WhatisAEO() {
                         When your content reads naturally, it stands out to both
                         readers and the AI summarizing it.
                       </p>
-                      <h4 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         Build Trust with E-E-A-T s{" "}
                       </h4>
                       <p>
@@ -1456,7 +1456,7 @@ export default function WhatisAEO() {
                           thinking
                         </li>
                       </ul>
-                      <h4 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         Focus on Search Intent, Not Keyword Stuffing s{" "}
                       </h4>
                       <p>
@@ -1488,7 +1488,7 @@ export default function WhatisAEO() {
                         and delivers the exact answer they need, it’s far more
                         likely to land in AI’s top spot.
                       </p>
-                      <h4 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         Structure Content for AI Readability
                       </h4>
                       <p>
@@ -1519,7 +1519,7 @@ export default function WhatisAEO() {
                           can display instantly.
                         </li>
                       </ul>
-                      <h4 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
+                      <h4 className="h6 xl:h5 mt-2 mb-2">
                         Optimize for Direct Answers & Voice Search
                       </h4>
                       <p>

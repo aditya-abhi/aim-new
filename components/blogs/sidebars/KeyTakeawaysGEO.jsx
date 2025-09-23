@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-export default function KeyTakeaways() {
+export default function KeyTakeawaysGEO() {
   return (
     <div className="uc-sidebar panel vstack gap-2 ">
       <div className="widget popular-widget vstack gap-2 p-2 py-3 lg:p-4 lg:py-5 rounded-1-5 lg:rounded-2 bg-lime-100 dark:bg-tertiary-700">

@@ -8,7 +8,7 @@ import RightSideBottom from "./sidebars/RightSideBottom";
 import RightSideTop from "./sidebars/RightSideTop";
 import Toc from "./Toc";
 import { Gallery, Item } from "react-photoswipe-gallery";
-import KeyTakeaways from "./sidebars/KeyTakeaways";
+import KeyTakeawaysGEO from "./sidebars/KeyTakeawaysGEO";
 
 export default function WhatisGEO() {
   return (
@@ -23,7 +23,7 @@ export default function WhatisGEO() {
                 style={{ minHeight: "120vh" }}
               >
                 <div className="m-1">
-                  <KeyTakeaways />
+                  <KeyTakeawaysGEO />
                 </div>
                 <div className="panel vstack gap-3 lg:gap-4 xl:gap-5 mr-3">
                   <Gallery>

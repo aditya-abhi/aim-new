@@ -1545,7 +1545,7 @@ export default function AEOToolsNew() {
                           “outdated.”
                         </li>
                         <li className="mt-2">
-                          <storng>AI Prompt Volume Tracking → </storng>
+                          <strong>AI Prompt Volume Tracking → </strong>
                           Understand what users are asking in your niche and
                           optimize accordingly.
                         </li>
@@ -1989,7 +1989,7 @@ export default function AEOToolsNew() {
                                       traditional SEO professionals.
                                     </li>
                                     <li className="mt-2">
-                                      <stronng>High Complexity → </stronng>
+                                      <strong>High Complexity → </strong>
                                       Enterprise-grade dashboards and predictive
                                       features require experienced teams to
                                       manage.
@@ -2255,9 +2255,9 @@ export default function AEOToolsNew() {
                                       prompt monitoring deep dive.
                                     </li>
                                     <li className="mt-2">
-                                      <stronng>
+                                      <strong>
                                         Shallow Visibility Insights →
-                                      </stronng>
+                                      </strong>
                                       Doesn’t reveal where or how AI systems
                                       like ChatGPT mention your brand.
                                     </li>
@@ -2527,9 +2527,9 @@ export default function AEOToolsNew() {
                                       overwhelming initially
                                     </li>
                                     <li className="mt-2">
-                                      <stronng>
+                                      <strong>
                                         Advanced Features Require Higher Plans →{" "}
-                                      </stronng>
+                                      </strong>
                                       Some valuable capabilities like Action
                                       Centre and AI Traffic Analytics are locked
                                       behind Professional or Advanced tiers
@@ -2786,9 +2786,9 @@ export default function AEOToolsNew() {
                                       Google and Perplexity.
                                     </li>
                                     <li className="mt-2">
-                                      <stronng>
+                                      <strong>
                                         Minimal Tracking Capabilities →
-                                      </stronng>
+                                      </strong>
                                       Cannot monitor AI agents crawling or
                                       referencing your site.
                                     </li>
@@ -3022,7 +3022,7 @@ export default function AEOToolsNew() {
                                       other answer engines.
                                     </li>
                                     <li className="mt-2">
-                                      <stronng>Overpriced → </stronng>
+                                      <strong>Overpriced → </strong>
                                       $119/month feels steep given its limited
                                       AI scope.
                                     </li>
@@ -3264,7 +3264,7 @@ export default function AEOToolsNew() {
                                       sentiment trends.
                                     </li>
                                     <li className="mt-2">
-                                      <stronng>Slower Updates → </stronng>
+                                      <strong>Slower Updates → </strong>
                                       12–24 hour lag compared to competitors’
                                       real-time dashboards
                                     </li>
@@ -3495,15 +3495,15 @@ export default function AEOToolsNew() {
                                       Tailored for large brands, not SMBs.
                                     </li>
                                     <li className="mt-2">
-                                      <stronng>
+                                      <strong>
                                         Limited Transparency on Pricing →
-                                      </stronng>
+                                      </strong>
                                       No public pricing details available.
                                     </li>
                                     <li className="mt-2">
-                                      <stronng>
+                                      <strong>
                                         Daily, Not Real-Time Updates →
-                                      </stronng>
+                                      </strong>
                                       24-hour refresh cycle vs. competitors
                                       offering instant dashboards.
                                     </li>
@@ -3753,22 +3753,22 @@ export default function AEOToolsNew() {
                                       ChatGPT, Claude, Bing AI, or Gemini.
                                     </li>
                                     <li className="mt-2">
-                                      <stronng>Outdated Focus → </stronng>
+                                      <strong>Outdated Focus → </strong>
                                       Still prioritizes SERP positions and
                                       “domain authority,” metrics that have
                                       declining relevance in an AI-led search
                                       world.
                                     </li>
                                     <li className="mt-2">
-                                      <stronng>Keyword Caps → </stronng>
+                                      <strong>Keyword Caps → </strong>
                                       Entry plan supports only 250 keywords,
                                       limiting scalability for serious SEO or
                                       AEO campaigns.
                                     </li>
                                     <li className="mt-2">
-                                      <stronng>
+                                      <strong>
                                         No Sentiment or Entity Tracking →
-                                      </stronng>
+                                      </strong>
                                       Cannot reveal how brands are perceived in
                                       AI conversations, a critical gap in modern
                                       strategies.
@@ -4036,17 +4036,17 @@ export default function AEOToolsNew() {
                                       from 2005.
                                     </li>
                                     <li className="mt-2">
-                                      <stronng>Sparse Documentation → </stronng>
+                                      <strong>Sparse Documentation → </strong>
                                       Assumes you’re a pro; no guides for
                                       beginners.
                                     </li>
                                     <li className="mt-2">
-                                      <stronng>Expensive → </stronng>
+                                      <strong>Expensive → </strong>
                                       At $679/month, it costs more than most
                                       “done-for-you” tools.
                                     </li>
                                     <li className="mt-2">
-                                      <stronng>Time-Heavy Setup → </stronng>
+                                      <strong>Time-Heavy Setup → </strong>
                                       Building pipelines can take days or weeks
                                       before producing insights.
                                     </li>
@@ -4264,7 +4264,6 @@ export default function AEOToolsNew() {
                 </div>
               </div>
             </div>
-            <hr className="w-100 m-0 d-block mt-4 lg:mt-6 xl:mt-8 " />
             <div className="lg:col-3 order-2 lg:order-0 sticky-element3 sm:mt-3">
               <AudioPlayer />
               <span className="">
