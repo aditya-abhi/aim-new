@@ -41,14 +41,15 @@ export default function ImportanceOfStatistics() {
                           target="_blank"
                         >
                           {" "}
-                          The Decoder)''
-                        </a>{" "}
+                          The Decoder
+                        </a>
+                        ) "{" "}
                       </p>
                       <p className="mt-3">
                         How do you stand out in this sea of content? “
                         <b>Stats</b>
                         Are Your Secret Weapon”
-                      </p>{" "}
+                      </p>
                       <p>
                         In the age of generative AIs like ChatGPT, Gemini or AI
                         overviews, content does not just compete for human
@@ -62,12 +63,12 @@ export default function ImportanceOfStatistics() {
                         data-driven improvements for enhanced performance and
                         visibility.
                       </p>
-                      <p>
+                      <p className="mt-3">
                         How do you signal trustworthiness to AI? In this Blog,
                         we are going to show you the importance of statistics in
                         GEO to dominate AI Search Results.
-                      </p>{" "}
-                      <p>
+                      </p>
+                      <p className="mt-3">
                         <b> A data-driven approach</b> is your answer. Numbers
                         act as trust signals, and imply to AI models that “This
                         content is backed by real data.” A claim like “Brands
@@ -75,7 +76,7 @@ export default function ImportanceOfStatistics() {
                         customer engagement” is far more compelling for the AI
                         than a vague statement like “AI improves marketing.”
                       </p>
-                      <p>
+                      <p className="mt-3">
                         But do not for a moment think that all statistics carry
                         the same weight. Generative AI cross-references data
                         with authoritative sources, for example: Google Scholar,
@@ -84,14 +85,14 @@ export default function ImportanceOfStatistics() {
                         strategic, well-sourced statistics that enhance
                         credibility.
                       </p>
-                      <p>
+                      <p className="mt-3">
                         By the end of this article, you’ll know exactly why
                         statistics are so important and how you can leverage
                         data to rank higher in AI search, engage readers, and
                         establish authority, not just for algorithms, but also
                         for your regular readers.
                       </p>
-                      <h2 className="mt-3">
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         Why Generative Engines Crave Statistics
                       </h2>
                       <p>
@@ -109,11 +110,12 @@ export default function ImportanceOfStatistics() {
                         Statistics also provide signals on content such as,
                         “Look here! This is trusted!”
                       </p>
-                      <h3 className="mt-3">
-                        The Importance of Credible Sources
+                      <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
+                        Below are some pointers of why statistics are
+                        indispensable:
                       </h3>
-                      <ol className="mt-2">
-                        <li>
+                      <ol className="">
+                        <li className="mt-2">
                           <b>Pattern Recognition</b> – LLMs analyze statistical
                           relationships between words, phrases, and concepts to
                           generate coherent and contextually relevant responses.
@@ -131,19 +133,18 @@ export default function ImportanceOfStatistics() {
                           user by providing direct answers
                         </li>
                         <li className="mt-2">
-                          {" "}
                           <b>Optimization for AI Search </b>– Generative Engine
                           Optimization (GEO) is an emerging strategy that
                           ensures content is structured in a way that LLMs can
                           easily process and reference.
                         </li>
                       </ol>
-                      <p>
+                      <p className="mt-3">
                         Since AI models prioritize factual accuracy and
                         structured data, articles containing well-sourced
                         statistics tend to be favored when generating responses.
                       </p>
-                      <p>
+                      <p className="mt-2">
                         For example, a blog that says “Brands using AI-powered
                         personalization see a 30% increase in customer
                         engagement” is far more compelling than a vague
@@ -163,13 +164,13 @@ export default function ImportanceOfStatistics() {
                       </h2>
                       <figure className="my-3 sm:my-4">
                         <Item
-                          original="/assets/images/blog/post-2.jpg"
-                          thumbnail="/assets/images/blog/post-2.jpg"
+                          original="/assets/images/blog/internal/Importanceofstatistics1.webp"
+                          thumbnail="/assets/images/blog/internal/Importanceofstatistics1.webp"
                           width="1280"
                           height="853"
                         >
                           {({ ref, open }) => (
-                            <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
                               <Image
                                 className="media-cover image uc-transition-scale-up uc-transition-opaque"
                                 alt="Pink Marketing, by Mak"
@@ -197,49 +198,58 @@ export default function ImportanceOfStatistics() {
                         affects the outcomes, a better source will always
                         produce better outcomes.
                       </p>
-                      <h3 className="mt-3">
+                      <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         Some examples of trustworthy sources include:
                       </h3>
-                      <ul className="mt-1">
-                        <li>
+                      <ul className="">
+                        <li className="mt-2">
                           {" "}
                           ‘.<b>gov</b>’ and ‘.<b>edu</b>’ websites
                         </li>
 
-                        <li>
+                        <li className="mt-2">
                           Industry reports from trusted firms and publications
                           like Statista or Nielsen
                         </li>
-                        <li> Scholarly articles and peer-reviewed journals</li>
+                        <li className="mt-2">
+                          {" "}
+                          Scholarly articles and peer-reviewed journals
+                        </li>
                       </ul>
-                      <p>
+                      <p className="mt-2">
                         Make sure to always link back to the original study or
                         research. This ensures that the statistic is easily
                         verifiable and transparent. If you have some original
                         content, you need to make sure that you back your claims
                         with data and hard facts.
                       </p>
-                      <h2 className="mt-3">
-                        Putting It All Together: A Case Study
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                          Putting It All Together: A Case Study s{" "}
+                        </h2>{" "}
                       </h2>
                       <p>
                         For an exercise to understand the impact of statistics,
                         let us compare two approaches to the same topic:
                         “eco-friendly fashion”.
                       </p>
-                      <h3 className="mt-3">Weak Approach:</h3>
+                      <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
+                        Weak Approach:{" "}
+                      </h3>
                       <p className="fw-bold">
                         “Sustainable brands are growing. 65% of shoppers check
                         for ethical labels.”
                       </p>
-                      <p>
+                      <p className="mt-3">
                         {" "}
                         This statement sounds vague. It tells us that
                         sustainable brands are on the rise, but it doesn’t
                         explain why this is so. It also lists out some data, but
                         does not back it up with sources.
                       </p>
-                      <h3 className="mt-3">Strong Approach:</h3>
+                      <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
+                        Strong Approach:
+                      </h3>
                       <p className="fw-bold">
                         “Fast fashion’s environmental toll is driving a seismic
                         shift: 65% of shoppers now actively check for ethical
@@ -248,7 +258,7 @@ export default function ImportanceOfStatistics() {
                         into their storytelling—proving that transparency isn’t
                         just ethical, it’s profitable.”
                       </p>
-                      <p>
+                      <p className="mt-3">
                         This can be considered a much stronger approach. It
                         combines a credible statistic, which is listed with a
                         source (McKinsey, 2023), and real-world examples like
@@ -257,19 +267,19 @@ export default function ImportanceOfStatistics() {
                         “2023”, which ensures that the readers and AI can
                         determine for what time the data is relevant for.
                       </p>
-                      <h2 className="mt-3">
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         How Statistics Help in Generative Engine Optimization
                         (GEO)
                       </h2>
                       <figure className="my-3 sm:my-4">
                         <Item
                           original="/assets/images/blog/internal/Importanceofstatistics2.webp"
-                          thumbnail="/assets/images/blog/post-2.jpg"
+                          thumbnail="/assets/images/blog/internal/Importanceofstatistics2.webp"
                           width="1280"
                           height="853"
                         >
                           {({ ref, open }) => (
-                            <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
                               <Image
                                 className="media-cover image uc-transition-scale-up uc-transition-opaque"
                                 alt="Pink Marketing, by Mak"
@@ -281,7 +291,7 @@ export default function ImportanceOfStatistics() {
                               <a
                                 onClick={open}
                                 className="position-cover"
-                                data-caption="Pink Marketing, by Mak"
+                                data-caption=""
                               ></a>
                             </figure>
                           )}
@@ -305,14 +315,14 @@ export default function ImportanceOfStatistics() {
                         themselves effectively within the training data and
                         contextual outputs of Generative AI.
                       </p>
-                      <p>
+                      <p className="mt-3">
                         GEO is transforming digital visibility in an AI-first
                         world. As users increasingly turn to AI-generated
                         summaries and chat-based interactions for research and
                         decision-making, optimizing content for Generative
                         Engines ensures brands remain relevant and discoverable.
                       </p>
-                      <p>
+                      <p className="mt-3">
                         Platforms like ChatGPT and Google Gemini focus on
                         credibility which makes Experience, Expertise,
                         Authoritativeness, Trustworthiness (E-E-A-T) a major
@@ -320,7 +330,9 @@ export default function ImportanceOfStatistics() {
                         mastery has become a fundamental business strategy
                         during this era of AI search and lead generation.
                       </p>
-                      <h3 className="mt-3">Statistics as Trust Signals</h3>
+                      <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
+                        Statistics as Trust Signals
+                      </h3>{" "}
                       <p>
                         <b>Reliable and relevant statistics</b> act as powerful
                         indicators of trust. When your content is supported by
@@ -333,7 +345,7 @@ export default function ImportanceOfStatistics() {
                         overall experience making the content more spenn
                         engaging.
                       </p>
-                      <p>
+                      <p className="mt-3">
                         For example, if you write about the growing trend of
                         sustainable fashion and back it up with a statistic such
                         as{" "}
@@ -345,8 +357,10 @@ export default function ImportanceOfStatistics() {
                         increases its chances of ranking higher in search
                         results.
                       </p>
-                      <h3 className="mt-3">
-                        Improving Engagement and User Trust
+                      <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
+                        <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
+                          Improving Engagement and User Trust
+                        </h3>{" "}
                       </h3>
                       <p>
                         When users come across verifiable statistics, it
@@ -361,7 +375,7 @@ export default function ImportanceOfStatistics() {
                         not just relevant and purposeful, but valuable as a
                         blend of resource and demand.
                       </p>
-                      <p>
+                      <p className="mt-3">
                         By strategically integrating statistics, you not only
                         cater to the algorithm but also to human readers,
                         enhancing both <b>SEO </b>and <b>user experience</b>.
@@ -370,8 +384,10 @@ export default function ImportanceOfStatistics() {
                         your content more authoritative, engaging, and
                         trustworthy.
                       </p>
-                      <h2 className=" mt-3 ">
-                        6 Rules to Master Statistical Storytelling
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                          6 Rules to Master Statistical Storytelling
+                        </h2>{" "}
                       </h2>
                       <figure className="my-3 sm:my-4">
                         <Item
@@ -405,8 +421,10 @@ export default function ImportanceOfStatistics() {
                         guiding rules to aid you in story-telling using
                         statistics:
                       </p>
-                      <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        1. Hook First, Stat Second
+                      <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
+                        <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
+                          1. Hook First, Stat Second
+                        </h3>{" "}
                       </h3>
                       <p>
                         Start with a problem or trend that resonates with your
@@ -414,18 +432,18 @@ export default function ImportanceOfStatistics() {
                         statistic should act as proof of your claim, not the
                         focal point of your argument.
                       </p>
-                      <h4 className="mt-3">Example:</h4>
+                      <h4 className="h6 xl:h5 mt-2 mb-2">Example:</h4>{" "}
                       <p>
                         “Remote work isn’t just a trend—it’s a productivity
                         game-changer. 82% of employees report lower stress
                         levels when given schedule flexibility (Gallup, 2023).”
                       </p>
-                      <p>
+                      <p className="mt-3">
                         The statistic acts as evidence for the opening
                         statement, and it validates the trend that you’re
                         discussing.
                       </p>
-                      <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                      <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
                         2. Befriend Visuals (But Keep Them Simple)
                       </h3>
                       <p>
@@ -441,7 +459,7 @@ export default function ImportanceOfStatistics() {
                         the visuals straightforward and relevant to your
                         message.
                       </p>
-                      <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                      <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
                         3. The “Goldilocks” Rule of Quantity
                       </h3>
                       <p>
@@ -452,12 +470,12 @@ export default function ImportanceOfStatistics() {
                         A good rule of thumb is to aim for{" "}
                         <b>1-2 stats per 300-400 words.</b>
                       </p>
-                      <p>
+                      <p className="mt-2">
                         You should focus on quality over quantity. A single,
                         well-placed stat can be more impactful than a random
                         list of numbers.
                       </p>
-                      <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                      <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
                         4. Source Like a Pro
                       </h3>
                       <p>
@@ -467,10 +485,12 @@ export default function ImportanceOfStatistics() {
                         unreliable sources can hurt your rankings.
                       </p>
                       <p className="mt-3"> Use reputable sources such as:</p>
-                      <ul className="mt-3 fw-bold">
-                        <li>Government websites (.gov)</li>
-                        <li>Educational institutions (.edu)</li>
-                        <li>
+                      <ul className="fw-bold">
+                        <li className="mt-2">Government websites (.gov)</li>
+                        <li className="mt-2">
+                          Educational institutions (.edu)
+                        </li>
+                        <li className="mt-2">
                           Industry leaders and research firms (e.g., Statista,
                           Nielsen)
                         </li>
@@ -480,7 +500,7 @@ export default function ImportanceOfStatistics() {
                         provide transparency and trustworthiness.
                       </p>
                       {/* css CTA */}
-                      <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                      <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
                         5. Humanize the Numbers
                       </h3>
                       <p>
@@ -489,17 +509,17 @@ export default function ImportanceOfStatistics() {
                         examples and case studies that resonate with the
                         intended audience.
                       </p>
-                      <h4 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">Example:</h4>
+                      <h4 className="h6 xl:h5 mt-4 mb-2 xl:mb-3">Example:</h4>
                       <p>
                         “While 70% of startups fail, Lisa’s eco-apparel brand
                         thrived by targeting Gen Z’s $360B spending power.”
                       </p>
-                      <p>
+                      <p className="mt-3">
                         A personal anecdote can change the way we perceive facts
                         and make them much more interesting, and add a lasting
                         impression in the reader’s mind.
                       </p>
-                      <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                      <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
                         6. Update or Bust
                       </h3>
                       <p>
@@ -508,7 +528,7 @@ export default function ImportanceOfStatistics() {
                         possible. Stale statistics can hurt your dependability
                         with AI and increase distrust in your content.
                       </p>
-                      <p>
+                      <p className="mt-3">
                         A good practice is to{" "}
                         <b>refresh your statistics every 6–12 months</b> to stay
                         relevant and AI-friendly.
@@ -532,30 +552,30 @@ export default function ImportanceOfStatistics() {
                       </p>
                       <p className="mt-3 fw-bold">Key Takeaways:</p>
                       <ul>
-                        <li className="mt-3">
+                        <li className="mt-2">
                           <b>AI prioritizes verifiable data:</b> credible
                           statistics strengthen Experience, Expertise,
                           Authoritativeness, Trustworthiness (E-E-A-T).
                         </li>
-                        <li className="mt-3">
+                        <li className="mt-2">
                           <b>Quality over quantity:</b> Well-sourced information
                           from authoritative sources (eg : .gov or .edu), which
                           is recent and relevant to the topic, carries the most
                           weight.
                         </li>
-                        <li className="mt-3">
+                        <li className="mt-2">
                           <b> Storytelling matters:</b> pairing stats with
                           real-world examples and visuals makes content more
                           engaging for both AI and Humans.
                         </li>
-                        <li className="mt-3">
+                        <li className="mt-2">
                           <b>Balance is key:</b> excessive or outdated
                           statistics can have a negative impact on your
                           credibility, timely updates ensure long-term
                           relevance.
                         </li>
                       </ul>
-                      <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                      <h3 className="h xl:h4 mt-4 mb-2 xl:mb-3">
                         What’s Next?
                       </h3>
                       <p>
@@ -565,27 +585,30 @@ export default function ImportanceOfStatistics() {
                         </b>
                       </p>
                       <ul>
-                        <li className="mt-3">
+                        <li className="mt-2">
                           Is your information <b>trustworthy and credible</b>?
                         </li>
-                        <li>
+                        <li className="mt-2">
                           visuals or stories? Are your sources{" "}
                           <b>properly linked and reputable</b>?
                         </li>
-                        <li>
+                        <li className="mt-2">
                           Would your data be more effective if it were
                           represented through <b>visuals or stories</b>?
                         </li>
                       </ul>
-                      <p>
+                      <p className="mt-3">
                         The future of search is smarter, faster, and more
                         data-driven than ever. The future of your discovery
                         depends very heavily on the question: will your content
                         be the one generative engines choose to surface?
                       </p>
-                      <p>
-                        Make sure you follow the right strategies. Optimize
-                        wisely. Stay ahead of others while ranking higher.
+                      <p className="mt-3">
+                        <b>
+                          {" "}
+                          Make sure you follow the right strategies. Optimize
+                          wisely. Stay ahead of others while ranking higher.
+                        </b>
                       </p>
                       {/*  */}
                     </div>
