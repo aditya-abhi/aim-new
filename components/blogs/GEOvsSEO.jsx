@@ -30,7 +30,7 @@ export default function GEOvsSEO() {
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         Introduction
                       </h2>
-                      <p className="mt-3">
+                      <p className="">
                         Let me paint you a picture. Last week, I spent 3 hours
                         optimizing a blog post about “Most Effective AI, LLM
                         SEO, GEO Techniques” using every SEO trick in the book.

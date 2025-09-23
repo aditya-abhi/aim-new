@@ -14,11 +14,14 @@ import Experiment1 from "@/components/blogs/components/Experiment1";
 import Experiment2 from "@/components/blogs/components/Experiment2";
 import AEOToolsNewCopy from "@/components/blogs/AEOToolsNewCopy";
 import WhatisAEO from "@/components/blogs/WhatisAEO";
+import WhatisAEO2 from "@/components/blogs/WhatisAEO2";
+import WhatisAEO3 from "@/components/blogs/WhatisAEO3";
+import WhatisAEOFaq from "@/components/blogs/faqs/WhatisAEOFaq";
 export const metadata = {
   title:
-    "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
+    "What is Answer Engine Optimization? Future of SEO in 2025 || AI Monitor",
   description:
-    "Here are the top 10 answer engine optimization tools that boost search visibility and dominate AI-powered search results in 2025.",
+    "Discover Answer Engine Optimization (AEO) and how it will shape the future of SEO in 2025. Learn how AI-driven search is changing rankings and online visibility.",
 };
 export default async function Blog2Page(props) {
   const params = await props.params;
@@ -35,15 +38,17 @@ export default async function Blog2Page(props) {
           <Head
             pageName="Answer Engine Optimization (AEO) in 2025: The Complete Guide to Dominating AI Search
 "
-            src="/assets/images/blog/blog-1.webp"
-            publishedOn="May 27, 2025"
+            src="/assets/images/blog/what-is-aeo.webp"
+            publishedOn="Feb 19, 2025"
             updatedOn=""
           />
           <Experiment1 />
           <AuthorBioShort />
           <WhatisAEO />
+          {/* <WhatisAEO2 /> */}
+          {/* <WhatisAEO3 /> */}
           <Author />
-          <Blog1Faqs />
+          <WhatisAEOFaq />
           <Experiment2 />
           <NextPrevBlogs />
           <RelatedBlogs />

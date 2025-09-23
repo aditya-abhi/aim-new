@@ -1,18 +1,17 @@
-import Newsletter from "@/components/blogs/Newsletter";
 import Footer7 from "@/components/footers/Footer7";
 import Header7 from "@/components/headers/Header7";
 import { allBlogs } from "@/data/blogs";
-import AEOTools from "@/components/blogs/AEOTools";
 import AEOToolsNew from "@/components/blogs/AEOToolsNew";
 import Head from "@/components/blogs/components/Head";
 import Author from "@/components/blogs/components/Author";
-import Blog1Faqs from "@/components/blogs/faqs/Blog1Faqs";
 import NextPrevBlogs from "@/components/blogs/components/NextPrevBlogs";
 import RelatedBlogs from "@/components/blogs/components/RelatedBlogs";
 import AuthorBioShort from "@/components/blogs/components/AuthorBioShort";
 import Experiment1 from "@/components/blogs/components/Experiment1";
 import Experiment2 from "@/components/blogs/components/Experiment2";
 import AEOToolsNewCopy from "@/components/blogs/AEOToolsNewCopy";
+import BlogTestFaq from "@/components/blogs/faqs/BlogTestFaq";
+import AEOToolsFaq from "@/components/blogs/faqs/AEOToolsFaq";
 export const metadata = {
   title:
     "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
@@ -34,7 +33,7 @@ export default async function Blog2Page(props) {
           <Head
             pageName="Answer Engine Optimization Tools: The Shocking Truth About AI
                   Monitor"
-            src=""
+            src="/assets/images/blog/aeo-tools.webp"
             publishedOn="May 27, 2025"
             updatedOn=""
           />
@@ -42,9 +41,9 @@ export default async function Blog2Page(props) {
           <AuthorBioShort />
           <AEOToolsNew />
           <Author />
-          <Blog1Faqs />
+          <AEOToolsFaq />
           <Experiment2 />
-          <NextPrevBlogs />
+          {/* <NextPrevBlogs /> */}
           <RelatedBlogs />
           <Footer7 />
         </div>

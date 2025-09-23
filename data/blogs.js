@@ -813,4 +813,17 @@ export const blogPostList = [
     date: "Apr 3, 2024",
     link: "/blogs/robots-txt-disallow-all-is-killing-your-traffic-see-how/",
   },
+  {
+        id: 26,
+    category: "Strategy",
+    imgSrc: "/assets/images/blog/img-01.jpg",
+    imgAlt: "Top 5 reasons to invest in marketing",
+    imgCaption: "Top 5 reasons to invest in marketing",
+    title: "Top 5 reasons to invest in marketing",
+    authorImg: "/assets/images/avatars/02.png",
+    authorAlt: "David",
+    desc: "Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit..",
+    authorName: "David",
+    date: "Apr 26, 2024",
+  }
 ];
