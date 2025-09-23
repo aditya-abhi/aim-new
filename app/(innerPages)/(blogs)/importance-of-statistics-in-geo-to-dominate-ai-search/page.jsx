@@ -10,6 +10,7 @@ import AuthorBioShort from "@/components/blogs/components/AuthorBioShort";
 import Experiment1 from "@/components/blogs/components/Experiment1";
 import Experiment2 from "@/components/blogs/components/Experiment2";
 import ImportanceOfStatistics from "@/components/blogs/Importanceofstatistics";
+import ImportanceofstatisticsFaq from "@/components/blogs/faqs/ImportanceofstatisticsFaq";
 export const metadata = {
   title:
     "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
@@ -29,8 +30,8 @@ export default async function Blog2Page(props) {
         >
           <Header7 />
           <Head
-            pageName="ChatGPT SEO: How to Rank in ChatGPT Responses in 2025"
-            src="/assets/images/blog/Chat-GPT-SEO.webp"
+            pageName="Importance of Statistics in GEO to Dominate AI Search Results (and Captivate Readers)"
+            src="/assets/images/blog/Importanceofstatistics.webp"
             publishedOn="May 27, 2025"
             updatedOn=""
           />
@@ -38,7 +39,7 @@ export default async function Blog2Page(props) {
           <AuthorBioShort />
           <ImportanceOfStatistics />
           <Author />
-          <Blog1Faqs />
+          <ImportanceofstatisticsFaq />
           <Experiment2 />
           <NextPrevBlogs />
           <RelatedBlogs />
