@@ -191,25 +191,22 @@ export default function AISummaryButtons() {
         }
       `}</style>
       <div className="panel">
-          {/* Header */}
-          <div className="text-center mb-3">
-            <h6 className="fs-7 fw-medium text-gray-700 dark:text-gray-300 m-0">
-              Ask Questions / Get a Summary
-            </h6>
-          </div>
-          <div className="vstack gap-3 items-center">
+        {/* Header */}
+        <div className="text-center mb-3">
+          <h6 className="fs-7 fw-medium text-gray-700 dark:text-gray-300 m-0">
+            Ask Questions / Get a Summary
+          </h6>
+        </div>
+        <div className="vstack gap-3 items-center">
           {/* Dropdown squared button with icon */}
           <div className="position-relative" ref={dropdownRef}>
             <button
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-              className="btn btn-primary text-white px-3 py-0 hstack gap-2 items-center shadow-sm rounded-1"
+              className="btn btn-primary text-white px-3 py-0 hstack gap-2 items-center shadow-sm rounded-1 min-w-160px bg-tertiary rounded-1-5"
               aria-label="Select AI action"
-              style={{ 
-                minWidth: "160px", 
-                backgroundColor: "#2D7A7B", 
-                borderColor: "#2D7A7B",
+              style={{
                 transition: "transform 0.2s ease",
-                transform: "scale(1)"
+                transform: "scale(1)",
               }}
               onMouseEnter={(e) => {
                 e.target.style.transform = "scale(1.02)";
@@ -242,9 +239,12 @@ export default function AISummaryButtons() {
                   src={selectedActionSvg}
                 />
               </span>
-              <span className="fs-7 fw-semibold text-white flex-grow text-start" style={{
-                letterSpacing: "0.025em"
-              }}>
+              <span
+                className="fs-7 fw-semibold text-white flex-grow text-start"
+                style={{
+                  letterSpacing: "0.025em",
+                }}
+              >
                 {selectedAction}
               </span>
               <svg
@@ -254,7 +254,7 @@ export default function AISummaryButtons() {
                 className="text-white"
                 style={{
                   transition: "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
-                  transform: isDropdownOpen ? "rotate(180deg)" : "rotate(0deg)"
+                  transform: isDropdownOpen ? "rotate(180deg)" : "rotate(0deg)",
                 }}
                 fill="none"
               >
@@ -270,15 +270,19 @@ export default function AISummaryButtons() {
             {/* Enhanced Dropdown menu */}
             {isDropdownOpen && (
               <div
-                className="position-absolute top-100 start-0 mt-2 rounded-lg shadow-xl overflow-hidden rounded-2"
-                style={{ 
-                  minWidth: "240px", 
+                className="position-absolute top-100 start-0 mt-2 rounded-lg shadow-xl overflow-hidden rounded-2 bg-tertiary"
+                style={{
+                  minWidth: "240px",
                   zIndex: 9999,
-                  animation: "dropdownBounce 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55)",
-                  backgroundColor: "#2D7A7B"
+                  animation:
+                    "dropdownBounce 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55)",
+                  // backgroundColor: "#2D7A7B",
                 }}
               >
-                <ul className="vstack gap-0 p-2 m-0 list-none" style={{ listStyleType: "none" }}>
+                <ul
+                  className="vstack gap-0 p-2 m-0 list-none"
+                  style={{ listStyleType: "none" }}
+                >
                   {aiActions.map((action, index) => (
                     <li key={action.id} className="list-none">
                       <button
@@ -288,7 +292,11 @@ export default function AISummaryButtons() {
                             ? "bg-transparent fw-semibold"
                             : "bg-transparent text-white hover:bg-white hover:bg-opacity-10"
                         }`}
-                        style={selectedAction === action.label ? { color: "#00FF41" } : { color: "white" }}
+                        style={
+                          selectedAction === action.label
+                            ? { color: "#00FF41" }
+                            : { color: "white" }
+                        }
                       >
                         <span className="hstack gap-2 items-center">
                           {action.label}
@@ -296,7 +304,6 @@ export default function AISummaryButtons() {
                       </button>
                     </li>
                   ))}
-
                 </ul>
               </div>
             )}
@@ -306,37 +313,41 @@ export default function AISummaryButtons() {
           </div>
 
           {/* AI Platform buttons in one line */}
-          <div className="hstack gap-2 justify-center items-center text-center flex-nowrap">
-            {aiPlatforms.map((platform) => (
-              <div key={platform.id}>
-                 <button
-                   onClick={() => handleButtonClick(platform.id)}
-                   className="bg-transparent border-0 p-0 hover:opacity-75 transition-all transform hover:scale-110"
-                   aria-label={`${selectedAction} ${platform.name}`}
-                 >
-                   <span className="vstack gap-1 items-center">
-                     <div 
-                       className="rounded-2 p-2 d-flex align-items-center justify-content-center"
-                       style={{
-                         backgroundColor: "#2D7A7B",
-                         width: "64px",
-                         height: "64px"
-                       }}
-                     >
-                       <span className="icon rounded">
-                         <Image
-                           className="w-48px rounded"
-                           alt="icon"
-                           width={48}
-                           height={48}
-                           src={platform.iconDark}
-                         />
-                       </span>
-                     </div>
-                   </span>
-                 </button>
+          <div className="panel">
+            <div className="hstack gap-2 justify-center items-center text-center">
+              <div className="row child-cols-3 sm:child-cols-6 xl:child-cols-3 col-match g-2 items-center justify-center">
+                {aiPlatforms.map((platform) => (
+                  <div key={platform.id}>
+                    <button
+                      onClick={() => handleButtonClick(platform.id)}
+                      className="bg-transparent border-0 p-0 hover:opacity-75 transition-all transform hover:scale-110"
+                      aria-label={`${selectedAction} ${platform.name}`}
+                    >
+                      <span className="vstack gap-1 items-center">
+                        <div
+                          className="rounded-2 p-2 d-flex align-items-center justify-content-center bg-tertiary"
+                          //  style={{
+                          //    backgroundColor: "#2D7A7B",
+                          //    width: "64px",
+                          //    height: "64px"
+                          //  }}
+                        >
+                          <span className="icon rounded">
+                            <Image
+                              className="w-32px min-w-24px rounded"
+                              alt="icon"
+                              width={40}
+                              height={40}
+                              src={platform.iconDark}
+                            />
+                          </span>
+                        </div>
+                      </span>
+                    </button>
+                  </div>
+                ))}
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </div>

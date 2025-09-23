@@ -7,6 +7,7 @@ export default function Head({
   pageName = "Blog Sidebar Left",
   publishedOn = "September 14, 2025",
   updatedOn = "",
+  src = "",
 }) {
   const [isUpdated, setIsUpdated] = useState(false);
   useEffect(() => {
@@ -155,7 +156,7 @@ export default function Head({
             <Image
               className="rounded-2"
               alt="Maximizing your reach with marketing strategies"
-              src="/assets/images/blog/blog-1.webp"
+              src={src}
               width={1600}
               height={900}
             />

@@ -158,6 +158,12 @@
   --bs-primary-rgb: 147, 232, 95;
   --btn-hover-bg: #0f604d;
   --btn-hover-border-color: #0e5a49;
+  --color-primary: #93e85f;
+  --color-tertiary-rgb: 2, 88, 100;
+  --color-primary-rgb: 147, 232, 95;
+  --bs-primary-rgb: 147, 232, 95;
+  --btn-hover-bg: #0f604d;
+  --btn-hover-border-color: #0e5a49;
   --color-tertiary-rgb: 2, 88, 100;
   --color-primary-rgb: 147, 232, 95;
   /* --color-primary: #12715b;
@@ -8896,4 +8902,40 @@ td:first-child {
 .top {
   top: 0;
   vertical-align: top !important;
+}
+
+/* Container holds the button and the code block */
+.code-block-container {
+  position: relative;
+  /* background-color: #282c34; */
+  /* color: #abb2bf; */
+  /* border-radius: 8px; */
+  /* margin: 2em 0; */
+  font-family: "Fira Code", "Courier New", monospace;
+}
+
+.code-block-container pre {
+  padding: 20px;
+  overflow-x: auto;
+  margin: 0;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.copy-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 6px 12px;
+  background-color: #4f5666;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.2s ease;
+}
+
+.copy-button:hover {
+  background-color: #6d7589;
 }

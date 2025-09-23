@@ -138,6 +138,7 @@ export default function OnlineReviews({ blogItem }) {
                             src="/assets/images/icons/Conquer-AI-Search-with-AI.webp"
                             width={150}
                             height={150}
+                            alt="Conquer AI Search With AI Podcast logo"
                           />
                         </div>
                         <div className="col-12 md:col-8 lg:col-8">
@@ -154,7 +155,7 @@ export default function OnlineReviews({ blogItem }) {
                       <audio
                         className="min-w-100 px-2"
                         controls
-                        src="/assets/audio/Episode-17-Final-audio-file.mp3"
+                        src="https://audio.getaimonitor.com/ConquerAISearchWithAI/Episode-17-Final-audio-file.mp3"
                       ></audio>
                       {/* </figure> */}
                       <hr className="w-100 m-0 d-block mt-4" />

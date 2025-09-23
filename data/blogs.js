@@ -510,6 +510,7 @@ export const blogPosts6 = [
     title: "Leading work from tasks management",
   },
 ];
+
 export const posts2 = [
   {
     id: 53,

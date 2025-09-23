@@ -6542,6 +6542,10 @@
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
   }
+  .py-4 {
+    padding-top: 2.5rem !important;
+    padding-bottom: 2.5rem !important;
+  }
   .py-6 {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
@@ -7495,6 +7499,9 @@
   }
   .min-w-150px {
     min-width: 150px !important;
+  }
+  .min-w-160px {
+    min-width: 160px !important;
   }
   .min-w-300px {
     min-width: 300px !important;
@@ -8704,6 +8711,9 @@
     .lg\:ratio-1x1 {
       --bs-aspect-ratio: 100% !important;
     }
+    .lg\:text-none {
+      text-decoration: none !important;
+    }
   }
   @media (min-width: 1200px) {
     .xl\:d-block {
@@ -8723,6 +8733,9 @@
     }
     .xl\:w-32px {
       width: 32px !important;
+    }
+    .xl\:w-40px {
+      width: 40px !important;
     }
     .xl\:w-48px {
       width: 48px !important;
@@ -9168,4 +9181,39 @@ html[dir="rtl"] .theme-3 {
 .scroll-margin {
   scroll-padding-top: 5rem;
   scroll-margin-top: 5rem;
+}
+
+.code-block-container {
+  position: relative;
+  /* background-color: #282c34; */
+  /* color: #abb2bf; */
+  border-radius: 5rem !important;
+  /* margin: 2em 0; */
+  font-family: "Fira Code", "Courier New", monospace;
+}
+
+.code-block-container pre {
+  padding: 20px;
+  overflow-x: auto;
+  margin: 0;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.copy-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 6px 12px;
+  background-color: #4f5666;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.2s ease;
+}
+
+.copy-button:hover {
+  background-color: #6d7589;
 }
