@@ -6432,6 +6432,9 @@ textarea.form-control-lg {
 .pt-9 {
   padding-top: 6rem !important;
 }
+.pt-special {
+  padding-top: 8.5rem !important;
+}
 .pe-3 {
   padding-right: 1.5rem !important;
 }

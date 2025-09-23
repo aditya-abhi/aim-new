@@ -8,8 +8,9 @@ import RightSideBottom from "./sidebars/RightSideBottom";
 import RightSideTop from "./sidebars/RightSideTop";
 import Toc from "./Toc";
 import { Gallery, Item } from "react-photoswipe-gallery";
+import KeyTakeawaysAEO from "./sidebars/KeyTakeawaysAEO";
 
-export default function WhatisAEO2() {
+export default function WhatisAEO3() {
   return (
     <div className="section panel mr-5">
       <div className="container container-full mx-3">
@@ -21,15 +22,8 @@ export default function WhatisAEO2() {
                 role="main"
                 style={{ minHeight: "120vh" }}
               >
-                <div className="panel vstack gap-3 lg:gap-4 xl:gap-5 mr-3">
-                  <Gallery>
-                    <div
-                      className="post-content panel fs-6 md:fs-5 ml-2"
-                      data-uc-lightbox="animation: scale"
-                    >
-                      {/*  */}
-                    </div>
-                  </Gallery>
+                <div className="m-1">
+                  <KeyTakeawaysAEO />
                 </div>
               </div>
             </div>
