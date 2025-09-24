@@ -11,7 +11,7 @@ import Experiment1 from "@/components/blogs/components/Experiment1";
 import Experiment2 from "@/components/blogs/components/Experiment2";
 import MarketingTrendsNew from "@/components/blogs/MarketingTrendsNew";
 export const metadata = {
-  title: "10 Marketing Trends and Predictions for 2025 || Blogs || AI Monitor",
+  title: "10 Marketing Trends and Predictions for 2025 || AI Monitor",
   description:
     "Discover the top 10 marketing trends for 2025, from AI-driven strategies to evolving consumer behavior. Stay ahead in the digital landscape!",
 };
@@ -29,8 +29,8 @@ export default async function Blog2Page(props) {
           <Header7 />
           <Head
             pageName="10 Marketing Trends and Predictions for 2025"
-            src="/assets/images/blog/blog-1.webp"
-            publishedOn="May 27, 2025"
+            src="/assets/images/blog/MarketingTrends.webp"
+            publishedOn="Jan 29, 2025"
             updatedOn=""
           />
           <Experiment1 />

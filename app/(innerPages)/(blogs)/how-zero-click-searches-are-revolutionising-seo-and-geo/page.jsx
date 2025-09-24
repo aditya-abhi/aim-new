@@ -3,18 +3,18 @@ import Header7 from "@/components/headers/Header7";
 import { allBlogs } from "@/data/blogs";
 import Head from "@/components/blogs/components/Head";
 import Author from "@/components/blogs/components/Author";
-import Blog1Faqs from "@/components/blogs/faqs/Blog1Faqs";
 import NextPrevBlogs from "@/components/blogs/components/NextPrevBlogs";
 import RelatedBlogs from "@/components/blogs/components/RelatedBlogs";
 import AuthorBioShort from "@/components/blogs/components/AuthorBioShort";
 import Experiment1 from "@/components/blogs/components/Experiment1";
 import Experiment2 from "@/components/blogs/components/Experiment2";
 import ZeroClickSearches from "@/components/blogs/ZeroClickSearches";
+import ZeroClickSearchesFaq from "@/components/blogs/faqs/ZeroClickSearchesFaq";
 export const metadata = {
   title:
-    "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
+    "How Zero Click Searches are Revolutionising SEO and GEO || AI Monitor",
   description:
-    "Here are the top 10 answer engine optimization tools that boost search visibility and dominate AI-powered search results in 2025.",
+    "Master zero click searches in the AI era! Learn how GEO replaces traditional SEO as 65% of searches now end without clicks. Adapt your strategy today.",
 };
 export default async function Blog2Page(props) {
   const params = await props.params;
@@ -30,7 +30,7 @@ export default async function Blog2Page(props) {
           <Header7 />
           <Head
             pageName="How Zero-Click Searches are Revolutionising SEO and GEO"
-            src="/assets/images/blog/zero-click search-main-image.webp"
+            src="/assets/images/blog/zero-click-search-main-image.webp"
             publishedOn="May 28, 2025"
             updatedOn=""
           />
@@ -38,7 +38,7 @@ export default async function Blog2Page(props) {
           <AuthorBioShort />
           <ZeroClickSearches />
           <Author />
-          <Blog1Faqs />
+          <ZeroClickSearchesFaq />
           <Experiment2 />
           {/* <NextPrevBlogs /> */}
           <RelatedBlogs

@@ -13,9 +13,9 @@ import FutureProofYourContent from "@/components/blogs/FutureProofYourContent";
 import FutureProofYourContentFaq from "@/components/blogs/faqs/FutureProofYourContentFaq";
 export const metadata = {
   title:
-    "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
+    "Future Proof Your Content: 4 Strategies to Dominate AI Search || AI Monitor",
   description:
-    "Here are the top 10 answer engine optimization tools that boost search visibility and dominate AI-powered search results in 2025.",
+    "Discover 4 proven strategies to future proof your content against AI dominance. Leverage GEO, human storytelling, and data to stay visible.",
 };
 export default async function Blog2Page(props) {
   const params = await props.params;

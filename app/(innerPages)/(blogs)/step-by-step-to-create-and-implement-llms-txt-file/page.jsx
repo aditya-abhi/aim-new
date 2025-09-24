@@ -13,9 +13,9 @@ import LLMSTXTGuide from "@/components/blogs/LLMSTXTGuide";
 import StepbyStepGuideFaq from "@/components/blogs/faqs/StepbyStepGuideFaq";
 export const metadata = {
   title:
-    "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
+    "How to Create and Set Up an llms.txt File | Step by Step Guide || AI Monitor",
   description:
-    "Here are the top 10 answer engine optimization tools that boost search visibility and dominate AI-powered search results in 2025.",
+    "A clear, step-by-step tutorial on setting up an llms.txt file to manage large language model (LLM) access and permissions effectively.",
 };
 export default async function Blog2Page(props) {
   const params = await props.params;
@@ -31,8 +31,8 @@ export default async function Blog2Page(props) {
           <Header7 />
           <Head
             pageName="Step by Step Guide: How to Create and Implement an llms.txt File"
-            src="/assets/images/blog/Chat-GPT-SEO.webp"
-            publishedOn="May 27, 2025"
+            src="/assets/images/blog/ImplementllmsFile.webp"
+            publishedOn="Apr 16, 2025"
             updatedOn=""
           />
           <Experiment1 />

@@ -34,7 +34,7 @@ export default async function Blog2Page(props) {
             pageName="Answer Engine Optimization Tools: The Shocking Truth About AI
                   Monitor"
             src="/assets/images/blog/aeo-tools.webp"
-            publishedOn="May 27, 2025"
+            publishedOn="Apr 25, 2025"
             updatedOn=""
           />
           <Experiment1 />

@@ -11,10 +11,9 @@ import Experiment1 from "@/components/blogs/components/Experiment1";
 import Experiment2 from "@/components/blogs/components/Experiment2";
 import GoogleSGEansRAG from "@/components/blogs/GoogleSGEandRAG";
 export const metadata = {
-  title:
-    "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
+  title: "Google SGE and RAG in AI: The Future of Search and SEO || AI Monitor",
   description:
-    "Here are the top 10 answer engine optimization tools that boost search visibility and dominate AI-powered search results in 2025.",
+    "Discover how Google’s SGE and RAG technology are transforming search and SEO. Learn what these AI advancements mean for digital marketing.",
 };
 export default async function Blog2Page(props) {
   const params = await props.params;

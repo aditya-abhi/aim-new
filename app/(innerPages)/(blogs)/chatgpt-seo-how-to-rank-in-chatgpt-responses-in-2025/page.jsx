@@ -12,10 +12,9 @@ import Experiment2 from "@/components/blogs/components/Experiment2";
 import ChatGPTSEO from "@/components/blogs/ChatGPT-SEO";
 import ChatGPTSEOfaq from "@/components/blogs/faqs/ChatGPTSEOFaq";
 export const metadata = {
-  title:
-    "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
+  title: "How to Rank in ChatGpt Responses With ChatGpt SEO || AI Monitor",
   description:
-    "Here are the top 10 answer engine optimization tools that boost search visibility and dominate AI-powered search results in 2025.",
+    "Learn proven ChatGPT SEO strategies to rank your content in ChatGPT responses in 2025. Discover how AI impacts search and how to optimize for AI-driven answers.",
 };
 export default async function Blog2Page(props) {
   const params = await props.params;
@@ -32,7 +31,7 @@ export default async function Blog2Page(props) {
           <Head
             pageName="ChatGPT SEO: How to Rank in ChatGPT Responses in 2025"
             src="/assets/images/blog/Chat-GPT-SEO.webp"
-            publishedOn="May 27, 2025"
+            publishedOn="Aug 08, 2025"
             updatedOn=""
           />
           <Experiment1 />

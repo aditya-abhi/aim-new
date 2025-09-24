@@ -11,10 +11,9 @@ import Experiment1 from "@/components/blogs/components/Experiment1";
 import Experiment2 from "@/components/blogs/components/Experiment2";
 import WhatWeKnowAboutGoogleAIOverview from "@/components/blogs/WhatWeKnowAboutGoogleAIOverview";
 export const metadata = {
-  title:
-    "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
+  title: "Google AI Overviews: Key Insights &amp; Latest Updates || AI Monitor",
   description:
-    "Here are the top 10 answer engine optimization tools that boost search visibility and dominate AI-powered search results in 2025.",
+    "Explore Google AI Overviews, how they work, their impact on search results, and what users and businesses need to know so far.",
 };
 export default async function Blog2Page(props) {
   const params = await props.params;
@@ -29,18 +28,18 @@ export default async function Blog2Page(props) {
         >
           <Header7 />
           <Head
-            pageName="ChatGPT SEO: How to Rank in ChatGPT Responses in 2025"
-            src="/assets/images/blog/Chat-GPT-SEO.webp"
-            publishedOn="May 27, 2025"
+            pageName="Google AI Overviews: What We Know So Far"
+            src="/assets/images/blog/GoogleAIOverview.webp"
+            publishedOn="May 14, 2025"
             updatedOn=""
           />
           <Experiment1 />
           <AuthorBioShort />
           <WhatWeKnowAboutGoogleAIOverview />
           <Author />
-          <Blog1Faqs />
+          {/* <Blog1Faqs /> */}
           <Experiment2 />
-          <NextPrevBlogs />
+          {/* <NextPrevBlogs /> */}
           <RelatedBlogs
             currentBlogLink={"/google-ai-overviews-what-we-know-so-far/"}
           />

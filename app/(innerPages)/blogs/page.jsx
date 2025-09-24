@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Dive into expert blogs on AI Search Optimization, Generative Engine Optimization (GEO), Answer Engine Optimization (AEO), and the evolving landscape of AI search. Discover cutting-edge tools, actionable techniques, and strategic insights to boost your brand’s visibility in generative platforms.",
 };
-export default function Blog3ColsPage() {
+export default function Blogs() {
   return (
     <>
       <div className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready">

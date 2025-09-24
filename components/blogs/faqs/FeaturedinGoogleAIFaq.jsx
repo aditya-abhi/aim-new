@@ -1,5 +1,5 @@
 "use client";
-import { aeoTools } from "@/data/blogFaqs";
+import { featuredinGoogleAIFaq } from "@/data/blogFaqs";
 import { useEffect, useRef, useState } from "react";
 import React from "react";
 
@@ -58,7 +58,7 @@ export default function FeaturedinGoogleAIFaq() {
                   >
                     {/* <Blog1 parentClass="panel p-2 lg:p-4 bg-secondary dark:bg-tertiary-700 rounded-1-5" /> */}
                     <div className="">
-                      {aeoTools.map((item, index) => (
+                      {featuredinGoogleAIFaq.map((item, index) => (
                         <li
                           ref={(el) => (parentRefs.current[index] = el)}
                           className={`${

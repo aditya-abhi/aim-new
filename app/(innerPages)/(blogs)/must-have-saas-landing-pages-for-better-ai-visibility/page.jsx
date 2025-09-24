@@ -13,9 +13,9 @@ import SaasLandingPages from "@/components/blogs/SaasLandingPages";
 import SaasLandingPagesFaq from "@/components/blogs/faqs/SaasLandingPagesFaq";
 export const metadata = {
   title:
-    "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
+    "The Landing Pages that are a Must Have for SaaS Website for AI Visibility || AI Monitor",
   description:
-    "Here are the top 10 answer engine optimization tools that boost search visibility and dominate AI-powered search results in 2025.",
+    "Discover key SaaS landing pages to boost AI visibility, drive conversions, and enhance your site’s performance in AI-powered search results.",
 };
 export default async function Blog2Page(props) {
   const params = await props.params;

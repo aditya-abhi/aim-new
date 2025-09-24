@@ -12,10 +12,9 @@ import Experiment2 from "@/components/blogs/components/Experiment2";
 import ImportanceOfStatistics from "@/components/blogs/Importanceofstatistics";
 import ImportanceofstatisticsFaq from "@/components/blogs/faqs/ImportanceofstatisticsFaq";
 export const metadata = {
-  title:
-    "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
+  title: "Importance of Statistics in GEO to Dominate AI Search || AI Monitor",
   description:
-    "Here are the top 10 answer engine optimization tools that boost search visibility and dominate AI-powered search results in 2025.",
+    "Learn the importance of statistics in GEO for AI search success. Use credible data from trusted sources to boost authority and ranks higher.",
 };
 export default async function Blog2Page(props) {
   const params = await props.params;
@@ -32,7 +31,7 @@ export default async function Blog2Page(props) {
           <Head
             pageName="Importance of Statistics in GEO to Dominate AI Search Results (and Captivate Readers)"
             src="/assets/images/blog/Importanceofstatistics.webp"
-            publishedOn="May 27, 2025"
+            publishedOn="May 12, 2025"
             updatedOn=""
           />
           <Experiment1 />

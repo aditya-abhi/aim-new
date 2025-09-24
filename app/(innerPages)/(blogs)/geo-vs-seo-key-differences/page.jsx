@@ -13,9 +13,9 @@ import GEOvsSEO from "@/components/blogs/GEOvsSEO";
 import GEOvsSEOFaq from "@/components/blogs/faqs/GEOvsSEOFaq";
 export const metadata = {
   title:
-    "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
+    "GEO vs SEO: Mastering AI-Driven Search Optimization in 2025 || AI Monitor",
   description:
-    "Here are the top 10 answer engine optimization tools that boost search visibility and dominate AI-powered search results in 2025.",
+    "Explore the key differences between GEO and SEO in 2025. Learn how AI-driven search optimization is transforming digital visibility on SERP.",
 };
 export default async function Blog2Page(props) {
   const params = await props.params;
@@ -30,9 +30,9 @@ export default async function Blog2Page(props) {
         >
           <Header7 />
           <Head
-            pageName="GEO vs SEO: Key Differences, Optimization Strategies, and Future Trends 1"
+            pageName="GEO vs SEO: Key Differences, Optimization Strategies, and Future Trends"
             src="/assets/images/blog/Chat-GPT-SEO.webp"
-            publishedOn="May 27, 2025"
+            publishedOn="Feb 24, 2025"
             updatedOn=""
           />
           <Experiment1 />

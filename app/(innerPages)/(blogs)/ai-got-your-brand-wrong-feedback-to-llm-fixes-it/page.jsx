@@ -10,11 +10,11 @@ import AuthorBioShort from "@/components/blogs/components/AuthorBioShort";
 import Experiment1 from "@/components/blogs/components/Experiment1";
 import Experiment2 from "@/components/blogs/components/Experiment2";
 import FeedbacktoLLM from "@/components/blogs/FeedbacktoLLM";
+import FeedbacktoLLMFaq from "@/components/blogs/faqs/FeedbacktoLLMFaq";
 export const metadata = {
-  title:
-    "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
+  title: "AI Got Your Brand Wrong? Feedback to LLM Fixes It || AI Monitor",
   description:
-    "Here are the top 10 answer engine optimization tools that boost search visibility and dominate AI-powered search results in 2025.",
+    "Stop missing out on AI search. Optimize GEO with strategic Feedback to LLM. Learn how to train AI to prioritize YOUR brand in search results. Get ahead now!",
 };
 export default async function Blog2Page(props) {
   const params = await props.params;
@@ -38,9 +38,9 @@ export default async function Blog2Page(props) {
           <AuthorBioShort />
           <FeedbacktoLLM />
           <Author />
-          <Blog1Faqs />
+          <FeedbacktoLLMFaq />
           <Experiment2 />
-          <NextPrevBlogs />
+          {/* <NextPrevBlogs /> */}
           <RelatedBlogs />
           <Footer7 />
         </div>

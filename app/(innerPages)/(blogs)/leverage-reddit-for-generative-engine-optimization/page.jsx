@@ -10,11 +10,12 @@ import AuthorBioShort from "@/components/blogs/components/AuthorBioShort";
 import Experiment1 from "@/components/blogs/components/Experiment1";
 import Experiment2 from "@/components/blogs/components/Experiment2";
 import LeverageReddit from "@/components/blogs/LeverageReddit";
+import LeverageRedditFaq from "@/components/blogs/faqs/LeverageRedditFaq";
 export const metadata = {
   title:
-    "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
+    "How to Leverage Reddit for Generative Engine Optimization || AI Monitor",
   description:
-    "Here are the top 10 answer engine optimization tools that boost search visibility and dominate AI-powered search results in 2025.",
+    "Discover the advantages of Reddit for Generative Engine Optimization to boost your brand presence in AI-generated results.",
 };
 export default async function Blog2Page(props) {
   const params = await props.params;
@@ -38,7 +39,7 @@ export default async function Blog2Page(props) {
           <AuthorBioShort />
           <LeverageReddit />
           <Author />
-          <Blog1Faqs />
+          <LeverageRedditFaq />
           <Experiment2 />
           {/* <NextPrevBlogs /> */}
           <RelatedBlogs

@@ -38,7 +38,7 @@ export default async function Blog2Page(props) {
 "
             src="/assets/images/blog/what-is-aeo.webp"
             publishedOn="Feb 19, 2025"
-            updatedOn=""
+            updatedOn="Sep 15, 2025"
           />
           <Experiment1 />
           <AuthorBioShort />
@@ -50,7 +50,7 @@ export default async function Blog2Page(props) {
           <Experiment2 />
           {/* <NextPrevBlogs /> */}
           <RelatedBlogs
-            currentBlogLink={"/use-quotes-like-a-pro-best-hack-for-geo/"}
+            currentBlogLink={"/what-is-answer-engine-optimization/"}
           />
           <Footer7 />
         </div>

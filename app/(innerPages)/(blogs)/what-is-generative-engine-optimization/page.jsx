@@ -1,13 +1,8 @@
-import Newsletter from "@/components/blogs/Newsletter";
 import Footer7 from "@/components/footers/Footer7";
 import Header7 from "@/components/headers/Header7";
 import { allBlogs } from "@/data/blogs";
-import AEOTools from "@/components/blogs/AEOTools";
-import AEOToolsNew from "@/components/blogs/AEOToolsNew";
 import Head from "@/components/blogs/components/Head";
 import Author from "@/components/blogs/components/Author";
-import Blog1Faqs from "@/components/blogs/faqs/Blog1Faqs";
-import NextPrevBlogs from "@/components/blogs/components/NextPrevBlogs";
 import RelatedBlogs from "@/components/blogs/components/RelatedBlogs";
 import AuthorBioShort from "@/components/blogs/components/AuthorBioShort";
 import Experiment1 from "@/components/blogs/components/Experiment1";
@@ -18,9 +13,9 @@ import WhatisGEO2 from "@/components/blogs/WhatisGEO2";
 import WhatisGEOFaq from "@/components/blogs/faqs/WhatisGEOFaq";
 export const metadata = {
   title:
-    "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
+    "What is Generative Engine Optimization)? All you need to know in 2025 || AI Monitor",
   description:
-    "Here are the top 10 answer engine optimization tools that boost search visibility and dominate AI-powered search results in 2025.",
+    "Want to crack AI Search Algorithm? Explore these top 11 Generative Engine Optimization techniques and master GEO inside out in 2025!",
 };
 export default async function Blog2Page(props) {
   const params = await props.params;
@@ -38,8 +33,8 @@ export default async function Blog2Page(props) {
             pageName="What is Generative Engine Optimization (GEO)? All you need to know in 2025 
 "
             src="/assets/images/blog/what-is-geo.webp"
-            publishedOn="May 27, 2025"
-            updatedOn=""
+            publishedOn="Jul 08 , 2025"
+            updatedOn="Sep 07, 2025"
           />
           <Experiment1 />
           <AuthorBioShort />

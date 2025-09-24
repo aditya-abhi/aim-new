@@ -13,9 +13,9 @@ import RobotsTXTDisallowAll from "@/components/blogs/RobotsTXTDisallowAll";
 import RobotsTXTDisallowAllFaq from "@/components/blogs/faqs/RobotsTXTDisallowAllFaq";
 export const metadata = {
   title:
-    "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
+    "Robots.txt Disallow all is killing your AI Search Traffic || AI Monitor",
   description:
-    "Here are the top 10 answer engine optimization tools that boost search visibility and dominate AI-powered search results in 2025.",
+    "Blocking AI bots with robots.txt disallow all can cripple site visibility—just like blocking Google did in the 90s. Optimize for AI crawlers &amp; boost SEO now",
 };
 export default async function Blog2Page(props) {
   const params = await props.params;
@@ -32,7 +32,7 @@ export default async function Blog2Page(props) {
           <Head
             pageName="Robots.txt Disallow All: Blocking AI Bots is as misguided as blocking Google in the 90s!"
             src="/assets/images/blog/Robots-txtDisallowAll.webp"
-            publishedOn="May 27, 2025"
+            publishedOn="Apr 23, 2025"
             updatedOn=""
           />
           <Experiment1 />

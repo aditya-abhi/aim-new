@@ -4,7 +4,7 @@ import Newsletter from "@/components/blog-old/Newsletter";
 import Footer7 from "@/components/footers/Footer7";
 import Header7 from "@/components/headers/Header7";
 import { allBlogs } from "@/data/blogs";
-import Podcast1 from "@/components/podcasts/podcast-1";
+import Podcast1 from "@/components/podcasts/EntityOptimization";
 import AEORedefiningAIPoweredSearch from "@/components/podcasts/AEORedefiningAIPoweredSearch";
 export const metadata = {
   title:

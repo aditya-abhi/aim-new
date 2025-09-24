@@ -21,7 +21,7 @@ export default function RightSideBottom() {
             <div className="panel text-center" key={index}>
               <div className="ratio ratio-16x9 rounded lg:rounded-1-5 uc-transition-toggle overflow-hidden">
                 <Image
-                  className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                  className="media-cover image uc-transition-scale-up uc-transition-opaque mt-3"
                   alt={post.imgAlt}
                   src={post.imgSrc}
                   width="768"
@@ -38,13 +38,14 @@ export default function RightSideBottom() {
                   {post.title}
                 </Link>
               </h4>
-              <p className="fs-6">{post.description}</p>
+              {/* <p className="fs-6">{post.description}</p> */}
               <Link
-                className="btn btn-text text-primary dark:text-primary border-bottom mt-3"
+                className="btn btn-text text-primary dark:text-primary border-bottom"
                 href={`${post.link}`}
               >
                 Read more
               </Link>
+              <hr />
             </div>
           ))}
         </div>

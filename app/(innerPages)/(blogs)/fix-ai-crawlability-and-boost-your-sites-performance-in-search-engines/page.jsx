@@ -10,11 +10,12 @@ import AuthorBioShort from "@/components/blogs/components/AuthorBioShort";
 import Experiment1 from "@/components/blogs/components/Experiment1";
 import Experiment2 from "@/components/blogs/components/Experiment2";
 import FixaiCrawlability from "@/components/blogs/FixaiCrawlability";
+import FixaiCrawlabilityFaq from "@/components/blogs/faqs/FixaiCrawlabilityFaq";
 export const metadata = {
   title:
-    "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
+    "How to Fix AI Crawlability and Boost Your Site's Performance || AI Monitor",
   description:
-    "Here are the top 10 answer engine optimization tools that boost search visibility and dominate AI-powered search results in 2025.",
+    "Can AI bots understand your site? Fix AI Crawlability now! Stop losing traffic. Learn robots.txt fixes, llms.txt &amp; schema markup to win in this AI era.",
 };
 export default async function Blog2Page(props) {
   const params = await props.params;
@@ -38,7 +39,7 @@ export default async function Blog2Page(props) {
           <AuthorBioShort />
           <FixaiCrawlability />
           <Author />
-          <Blog1Faqs />
+          <FixaiCrawlabilityFaq />
           <Experiment2 />
           {/* <NextPrevBlogs /> */}
           <RelatedBlogs

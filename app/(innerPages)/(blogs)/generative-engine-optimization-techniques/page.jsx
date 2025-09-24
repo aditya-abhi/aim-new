@@ -12,9 +12,9 @@ import Experiment2 from "@/components/blogs/components/Experiment2";
 import GEOLeaderboard from "@/components/blogs/GEOLeaderboard";
 export const metadata = {
   title:
-    "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
+    "Top Generative Engine Optimization (GEO) techniques in 2025 || AI Monitor",
   description:
-    "Here are the top 10 answer engine optimization tools that boost search visibility and dominate AI-powered search results in 2025.",
+    "The World's largest collection of Generative Engine Optimization (GEO) techniques for 2025. Optimize your website and boost your AI search visibility.",
 };
 export default async function Blog2Page(props) {
   const params = await props.params;
@@ -29,16 +29,16 @@ export default async function Blog2Page(props) {
         >
           <Header7 />
           <Head
-            pageName="ChatGPT SEO: How to Rank in ChatGPT Responses in 2025"
+            pageName="Generative Engine Optimization Leaderboard"
             src="/assets/images/blog/Chat-GPT-SEO.webp"
-            publishedOn="May 27, 2025"
+            publishedOn="Feb 19, 2025"
             updatedOn=""
           />
           <Experiment1 />
           <AuthorBioShort />
           <GEOLeaderboard />
           <Author />
-          <Blog1Faqs />
+          {/* <Blog1Faqs /> */}
           <Experiment2 />
           {/* <NextPrevBlogs /> */}
           <RelatedBlogs

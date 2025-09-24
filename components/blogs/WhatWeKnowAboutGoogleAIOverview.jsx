@@ -6,7 +6,6 @@ import AudioPlayer from "./sidebars/AudioPlayer";
 import TableOfContentsServer from "./sidebars/TableOfContentsServer";
 import RightSideBottom from "./sidebars/RightSideBottom";
 import RightSideTop from "./sidebars/RightSideTop";
-import Toc from "./Toc";
 import { Gallery, Item } from "react-photoswipe-gallery";
 import Link from "next/link";
 
@@ -77,62 +76,6 @@ export default function WhatWeKnowAboutGoogleAIOverview() {
                         with plans for global expansion, casual users and
                         professionals in fields like marketing should notice.
                       </p>
-                      {/* <div className="panel mt-3">
-                        <figure className="float-end ms-3 mb-1">
-                          <Item
-                            original="/assets/images/blog/post-1.jpg"
-                            thumbnail="/assets/images/blog/post-1.jpg"
-                            width="1280"
-                            height="853"
-                          >
-                            {({ ref, open }) => (
-                              <figure className="featured-image m-0 rounded ratio ratio-1x1 sm:w-300px uc-transition-toggle overflow-hidden">
-                                <Image
-                                  className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                                  alt="Holding flower, by Anthony Tran"
-                                  src="/assets/images/blog/post-1.jpg"
-                                  width="1280"
-                                  height="853"
-                                  ref={ref}
-                                />
-                                <a
-                                  onClick={open}
-                                  className="position-cover"
-                                  data-caption="Holding flower, by Anthony Tran"
-                                ></a>
-                              </figure>
-                            )}
-                          </Item>
-                          <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                            Holding flower, by Anthony Tran
-                          </figcaption>
-                        </figure>
-                        <p>
-                          Bike paths and sidewalks make getting to and from the
-                          city’s many festivals, museums, restaurants and music
-                          venues easy. A range of amenities provides many things
-                          to do in Bellevue. About 40 percent of the city’s
-                          population are minorities, which contributes to an
-                          overall diverse range of lifestyles and ideas.
-                        </p>
-                        <p className="mt-3">
-                          While Denver sits at the base of the Rocky Mountains,
-                          it’s not considered a mountain town since it takes at
-                          least an hour to get to the Rockies for snowboarding
-                          and ski activities, a local expert explained. Olympic
-                          mountain bikers, musicians, and award-winning chefs
-                          about what exactly makes their hometowns so special
-                          and fun.
-                        </p>
-                        <p className="mt-3">
-                          In fact, not being able to rely on spoken word made
-                          them better storytellers. They fully understood and
-                          used the power of showing without words. They fully
-                          understood and used the power of showing without
-                          words. They fully understood and used the power of
-                          showing without words.
-                        </p>
-                      </div> */}
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         What Are Google’s AI Overviews?
                       </h2>
@@ -181,9 +124,6 @@ export default function WhatWeKnowAboutGoogleAIOverview() {
                             </figure>
                           )}
                         </Item>
-                        {/* <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                          Pink Marketing, by Mak
-                        </figcaption> */}
                       </figure>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         How Do AI Overviews Work?
@@ -228,35 +168,6 @@ export default function WhatWeKnowAboutGoogleAIOverview() {
                         AI summary varies considerably across domains,
                         fluctuating between 1% and 25%.
                       </p>
-                      {/* <figure className="my-3 sm:my-4">
-                        <Item
-                          original="/assets/images/blog/post-2.jpg"
-                          thumbnail="/assets/images/blog/post-2.jpg"
-                          width="1280"
-                          height="853"
-                        >
-                          {({ ref, open }) => (
-                            <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
-                              <Image
-                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                                alt="Pink Marketing, by Mak"
-                                src="/assets/images/blog/post-2.jpg"
-                                width="1280"
-                                height="853"
-                                ref={ref}
-                              />
-                              <a
-                                onClick={open}
-                                className="position-cover"
-                                data-caption="Pink Marketing, by Mak"
-                              ></a>
-                            </figure>
-                          )}
-                        </Item>
-                        <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                          Pink Marketing, by Mak
-                        </figcaption>
-                      </figure> */}
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         User Concerns
                       </h2>
@@ -275,35 +186,6 @@ export default function WhatWeKnowAboutGoogleAIOverview() {
                         will impact their organic rankings and overall SEO
                         performance.
                       </p>
-                      {/* <figure className="my-3 sm:my-4">
-                        <Item
-                          original="/assets/images/blog/post-2.jpg"
-                          thumbnail="/assets/images/blog/post-2.jpg"
-                          width="1280"
-                          height="853"
-                        >
-                          {({ ref, open }) => (
-                            <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
-                              <Image
-                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                                alt="Pink Marketing, by Mak"
-                                src="/assets/images/blog/post-2.jpg"
-                                width="1280"
-                                height="853"
-                                ref={ref}
-                              />
-                              <a
-                                onClick={open}
-                                className="position-cover"
-                                data-caption="Pink Marketing, by Mak"
-                              ></a>
-                            </figure>
-                          )}
-                        </Item>
-                        <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                          Pink Marketing, by Mak
-                        </figcaption>
-                      </figure> */}
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         Concerns for Publishers
                       </h2>
@@ -469,7 +351,7 @@ export default function WhatWeKnowAboutGoogleAIOverview() {
                 <TableOfContentsServer />
               </span>
             </div>
-            <div className="d-none lg:d-block lg:col-3 order-2 lg:order-2 sticky-element3">
+            <div className="lg:col-3 order-2 lg:order-2 sticky-element3">
               <RightSideTop />
               <RightSideBottom />
             </div>

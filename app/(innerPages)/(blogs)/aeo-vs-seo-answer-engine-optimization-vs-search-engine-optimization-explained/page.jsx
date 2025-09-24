@@ -18,9 +18,9 @@ import AEOvsSEO from "@/components/blogs/AEOvsSEO";
 import AEOvsSEOFaq from "@/components/blogs/faqs/AEOvsSEOFaq";
 export const metadata = {
   title:
-    "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
+    "AEO vs SEO | Best Explanation and Key Differences in 2025 || AI Monitor",
   description:
-    "Here are the top 10 answer engine optimization tools that boost search visibility and dominate AI-powered search results in 2025.",
+    "Explore the key differences between AEO and SEO in 2025. Learn how each strategy impacts search rankings and which is best for your business.",
 };
 export default async function Blog2Page(props) {
   const params = await props.params;
@@ -37,8 +37,8 @@ export default async function Blog2Page(props) {
           <Head
             pageName="AEO vs SEO: Answer Engine Optimization vs Search Engine Optimization Explained 
 "
-            src="/assets/images/blog/blog-1.webp"
-            publishedOn="May 27, 2025"
+            src="/assets/images/blog/AEOvsSEO.webp"
+            publishedOn="Mar 17, 2025"
             updatedOn=""
           />
           <Experiment1 />
@@ -47,7 +47,7 @@ export default async function Blog2Page(props) {
           <Author />
           <AEOvsSEOFaq />
           <Experiment2 />
-          <NextPrevBlogs />
+          {/* <NextPrevBlogs /> */}
           <RelatedBlogs />
           <Footer7 />
         </div>
