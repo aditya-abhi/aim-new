@@ -44,7 +44,11 @@ export default async function Blog2Page(props) {
           <AEOToolsFaq />
           <Experiment2 />
           {/* <NextPrevBlogs /> */}
-          <RelatedBlogs />
+          <RelatedBlogs
+            currentBlogLink={
+              "/top-10-game-changing-answer-engine-optimization-tools/"
+            }
+          />
           <Footer7 />
         </div>
       </div>

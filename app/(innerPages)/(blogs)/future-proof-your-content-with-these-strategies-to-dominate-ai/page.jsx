@@ -41,8 +41,12 @@ export default async function Blog2Page(props) {
           <Author />
           <FutureProofYourContentFaq />
           <Experiment2 />
-          <NextPrevBlogs />
-          <RelatedBlogs />
+          {/* <NextPrevBlogs /> */}
+          <RelatedBlogs
+            currentBlogLink={
+              "/future-proof-your-content-with-these-strategies-to-dominate-ai/"
+            }
+          />
           <Footer7 />
         </div>
       </div>

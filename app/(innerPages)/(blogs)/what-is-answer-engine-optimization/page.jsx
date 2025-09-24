@@ -1,4 +1,3 @@
-import Newsletter from "@/components/blogs/Newsletter";
 import Footer7 from "@/components/footers/Footer7";
 import Header7 from "@/components/headers/Header7";
 import { allBlogs } from "@/data/blogs";
@@ -12,7 +11,6 @@ import RelatedBlogs from "@/components/blogs/components/RelatedBlogs";
 import AuthorBioShort from "@/components/blogs/components/AuthorBioShort";
 import Experiment1 from "@/components/blogs/components/Experiment1";
 import Experiment2 from "@/components/blogs/components/Experiment2";
-import AEOToolsNewCopy from "@/components/blogs/AEOToolsNewCopy";
 import WhatisAEO from "@/components/blogs/WhatisAEO";
 import WhatisAEO2 from "@/components/blogs/WhatisAEO2";
 import WhatisAEO3 from "@/components/blogs/WhatisAEO3";
@@ -50,8 +48,10 @@ export default async function Blog2Page(props) {
           <Author />
           <WhatisAEOFaq />
           <Experiment2 />
-          <NextPrevBlogs />
-          <RelatedBlogs />
+          {/* <NextPrevBlogs /> */}
+          <RelatedBlogs
+            currentBlogLink={"/use-quotes-like-a-pro-best-hack-for-geo/"}
+          />
           <Footer7 />
         </div>
       </div>

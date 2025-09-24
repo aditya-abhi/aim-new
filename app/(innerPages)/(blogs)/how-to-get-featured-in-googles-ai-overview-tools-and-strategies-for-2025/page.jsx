@@ -40,8 +40,12 @@ export default async function Blog2Page(props) {
           <Author />
           <Blog1Faqs />
           <Experiment2 />
-          <NextPrevBlogs />
-          <RelatedBlogs />
+          {/* <NextPrevBlogs /> */}
+          <RelatedBlogs
+            currentBlogLink={
+              "/how-to-get-featured-by-perplexity-ai-in-2025-the-complete-interactive-guide/"
+            }
+          />
           <Footer7 />
         </div>
       </div>

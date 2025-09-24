@@ -41,8 +41,8 @@ export default async function Blog2Page(props) {
           <Author />
           <GEOvsSEOFaq />
           <Experiment2 />
-          <NextPrevBlogs />
-          <RelatedBlogs />
+          {/* <NextPrevBlogs /> */}
+          <RelatedBlogs currentBlogLink={"/geo-vs-seo-key-differences/"} />
           <Footer7 />
         </div>
       </div>

@@ -40,8 +40,12 @@ export default async function Blog2Page(props) {
           <Author />
           <Blog1Faqs />
           <Experiment2 />
-          <NextPrevBlogs />
-          <RelatedBlogs />
+          {/* <NextPrevBlogs /> */}
+          <RelatedBlogs
+            currentBlogLink={
+              "/fix-ai-crawlability-and-boost-your-sites-performance-in-search-engines/"
+            }
+          />
           <Footer7 />
         </div>
       </div>

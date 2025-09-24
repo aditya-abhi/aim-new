@@ -42,8 +42,10 @@ export default async function Blog2Page(props) {
           <Author />
           <UseQuotesLikeProFaq />
           <Experiment2 />
-          <NextPrevBlogs />
-          <RelatedBlogs />
+          {/* <NextPrevBlogs /> */}
+          <RelatedBlogs
+            currentBlogLink={"/use-quotes-like-a-pro-best-hack-for-geo"}
+          />
           <Footer7 />
         </div>
       </div>

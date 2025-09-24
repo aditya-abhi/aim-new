@@ -1877,7 +1877,7 @@ export default function ChatGPTSEO() {
                 <TableOfContentsServer />
               </span>
             </div>
-            <div className="d-none lg:d-block lg:col-3 order-2 lg:order-2 sticky-element3">
+            <div className="lg:col-3 order-2 sticky-element3">
               <RightSideTop />
               <RightSideBottom />
             </div>

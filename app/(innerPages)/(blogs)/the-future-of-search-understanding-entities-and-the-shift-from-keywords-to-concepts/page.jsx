@@ -40,8 +40,12 @@ export default async function Blog2Page(props) {
           <Author />
           <Blog1Faqs />
           <Experiment2 />
-          <NextPrevBlogs />
-          <RelatedBlogs />
+          {/* <NextPrevBlogs /> */}
+          <RelatedBlogs
+            currentBlogLink={
+              "/the-future-of-search-understanding-entities-and-the-shift-from-keywords-to-concepts/"
+            }
+          />
           <Footer7 />
         </div>
       </div>

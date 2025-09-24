@@ -29,19 +29,23 @@ export default async function Blog2Page(props) {
         >
           <Header7 />
           <Head
-            pageName="ChatGPT SEO: How to Rank in ChatGPT Responses in 2025"
-            src="/assets/images/blog/Chat-GPT-SEO.webp"
-            publishedOn="May 27, 2025"
+            pageName="Google SGE and RAG in AI: How Search and SEO Are Changing Forever"
+            src="/assets/images/blog/Blog-sge-&-rag.webp"
+            publishedOn="Jan 05, 2025"
             updatedOn=""
           />
           <Experiment1 />
           <AuthorBioShort />
           <GoogleSGEansRAG />
           <Author />
-          <Blog1Faqs />
+          {/* <Blog1Faqs /> */}
           <Experiment2 />
-          <NextPrevBlogs />
-          <RelatedBlogs />
+          {/* <NextPrevBlogs /> */}
+          <RelatedBlogs
+            currentBlogLink={
+              "/google-sge-and-rag-in-ai-how-search-and-seo-are-changing-forever/"
+            }
+          />
           <Footer7 />
         </div>
       </div>

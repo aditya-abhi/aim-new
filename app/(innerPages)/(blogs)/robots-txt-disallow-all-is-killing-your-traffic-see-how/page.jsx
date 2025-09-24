@@ -40,9 +40,13 @@ export default async function Blog2Page(props) {
           <Author />
           <Blog1Faqs />
           <Experiment2 />
-          <NextPrevBlogs />
-          <RelatedBlogs />
-        <Footer7 />
+          {/* <NextPrevBlogs /> */}
+          <RelatedBlogs
+            currentBlogLink={
+              "/robots-txt-disallow-all-is-killing-your-traffic-see-how/"
+            }
+          />
+          <Footer7 />
         </div>
       </div>
     </>

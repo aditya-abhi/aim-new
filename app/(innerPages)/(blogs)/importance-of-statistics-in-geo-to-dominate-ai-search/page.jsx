@@ -41,8 +41,12 @@ export default async function Blog2Page(props) {
           <Author />
           <ImportanceofstatisticsFaq />
           <Experiment2 />
-          <NextPrevBlogs />
-          <RelatedBlogs />
+          {/* <NextPrevBlogs /> */}
+          <RelatedBlogs
+            currentBlogLink={
+              "/importance-of-statistics-in-geo-to-dominate-ai-search/"
+            }
+          />
           <Footer7 />
         </div>
       </div>

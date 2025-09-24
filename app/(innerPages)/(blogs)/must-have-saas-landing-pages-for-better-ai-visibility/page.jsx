@@ -40,8 +40,12 @@ export default async function Blog2Page(props) {
           <Author />
           <Blog1Faqs />
           <Experiment2 />
-          <NextPrevBlogs />
-          <RelatedBlogs />
+          {/* <NextPrevBlogs /> */}
+          <RelatedBlogs
+            currentBlogLink={
+              "/must-have-saas-landing-pages-for-better-ai-visibility/"
+            }
+          />
           <Footer7 />
         </div>
       </div>

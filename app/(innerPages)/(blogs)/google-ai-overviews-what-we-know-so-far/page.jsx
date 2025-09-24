@@ -41,7 +41,9 @@ export default async function Blog2Page(props) {
           <Blog1Faqs />
           <Experiment2 />
           <NextPrevBlogs />
-          <RelatedBlogs />
+          <RelatedBlogs
+            currentBlogLink={"/google-ai-overviews-what-we-know-so-far/"}
+          />
           <Footer7 />
         </div>
       </div>

@@ -577,10 +577,10 @@ export const blogPostList = [
     desc: "What Are Google’s AI Overviews, and what do we know about it for sure!...",
     authorName: "Avinash Tripathi",
     date: "May 14, 2024",
-    link: "/blogs/google-ai-overviews-what-we-know-so-far/",
+    link: "/google-ai-overviews-what-we-know-so-far/",
   },
   {
-    id: 3,
+    id: 2,
     category: "AI Optimization",
     imgSrc: "/assets/images/blog/Blog-sge-&-rag.webp",
     imgAlt: "Google SGE and RAG in AI: How Search and SEO Are Changing Forever",
@@ -591,10 +591,10 @@ export const blogPostList = [
     desc: "Google SGE and RAG in AI: How Search and SEO Are Changing Forever...",
     authorName: "Avinash Tripathi",
     date: "Jan 05, 2025",
-    link: "/blogs/google-sge-and-rag-in-ai-how-search-and-seo-are-changing-forever/",
+    link: "/google-sge-and-rag-in-ai-how-search-and-seo-are-changing-forever/",
   },
   {
-    id: 4,
+    id: 3,
     category: "AI Optimization",
     imgSrc: "/assets/images/blog/MarketingTrends.webp",
     imgAlt: "10 Marketing Trends and Predictions for 2025",
@@ -605,10 +605,10 @@ export const blogPostList = [
     desc: "10 Marketing Trends and Predictions for 2025...",
     authorName: "Avinash Tripathi",
     date: "Jan 19, 2025",
-    link: "/blogs/10-marketing-trends-and-predictions-for-2025/",
+    link: "/10-marketing-trends-and-predictions-for-2025/",
   },
   {
-    id: 5,
+    id: 4,
     category: "AI Optimization",
     imgSrc: "/assets/images/blog/Geo-leaderboard.webp",
     imgAlt: "Generative Engine Optimization Leaderboard",
@@ -619,7 +619,7 @@ export const blogPostList = [
     desc: "Generative Engine Optimization Leaderboard...",
     authorName: "Avinash Tripathi",
     date: "Feb 19, 2025",
-    link: "/blogs/generative-engine-optimization-techniques/",
+    link: "/generative-engine-optimization-techniques/",
   },
   {
     id: 6,
@@ -636,7 +636,7 @@ export const blogPostList = [
     desc: "GEO vs SEO: Key Differences, Optimization Strategies, and Future Trends...",
     authorName: "Avinash Tripathi",
     date: "Feb 24, 2025",
-    link: "/blogs/geo-vs-seo-key-differences/",
+    link: "/geo-vs-seo-key-differences/",
   },
   {
     id: 7,
@@ -653,7 +653,7 @@ export const blogPostList = [
     desc: "GEO vs SEO: Key Differences, Optimization Strategies, and Future Trends...",
     authorName: "Avinash Tripathi",
     date: "Mar 17, 2025",
-    link: "/blogs/aeo-vs-seo-answer-engine-optimization-vs-search-engine-optimization-explained/",
+    link: "/aeo-vs-seo-answer-engine-optimization-vs-search-engine-optimization-explained/",
   },
   {
     id: 8,
@@ -668,7 +668,7 @@ export const blogPostList = [
     desc: "Step by Step Guide: How to Create and Implement an llms.txt File...",
     authorName: "Avinash Tripathi",
     date: "Apr 16, 2025",
-    link: "/blogs/step-by-step-to-create-and-implement-llms-txt-file/",
+    link: "/step-by-step-to-create-and-implement-llms-txt-file/",
   },
   {
     id: 10,
@@ -685,7 +685,7 @@ export const blogPostList = [
     desc: "Robots.txt Disallow All: Blocking AI Bots is as misguided as blocking Google in the 90s!...",
     authorName: "Avinash Tripathi",
     date: "Apr 25, 2025",
-    link: "/blogs/robots-txt-disallow-all-is-killing-your-traffic-see-how/",
+    link: "/robots-txt-disallow-all-is-killing-your-traffic-see-how/",
   },
   {
     id: 28,
@@ -699,7 +699,7 @@ export const blogPostList = [
     desc: "Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit..",
     authorName: "Sarah",
     date: "Apr 22, 2024",
-    link: "/blogs/robots-txt-disallow-all-is-killing-your-traffic-see-how/",
+    link: "/robots-txt-disallow-all-is-killing-your-traffic-see-how/",
   },
   {
     id: 29,
@@ -713,7 +713,7 @@ export const blogPostList = [
     desc: "Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit..",
     authorName: "Amir",
     date: "Apr 20, 2024",
-    link: "/blogs/robots-txt-disallow-all-is-killing-your-traffic-see-how/",
+    link: "/robots-txt-disallow-all-is-killing-your-traffic-see-how/",
   },
   {
     id: 30,
@@ -727,7 +727,7 @@ export const blogPostList = [
     desc: "Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit..",
     authorName: "David",
     date: "Apr 15, 2024",
-    link: "/blogs/robots-txt-disallow-all-is-killing-your-traffic-see-how/",
+    link: "/robots-txt-disallow-all-is-killing-your-traffic-see-how/",
   },
   {
     id: 31,
@@ -741,7 +741,7 @@ export const blogPostList = [
     desc: "Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit..",
     authorName: "Sarah",
     date: "Apr 12, 2024",
-    link: "/blogs/robots-txt-disallow-all-is-killing-your-traffic-see-how/",
+    link: "/robots-txt-disallow-all-is-killing-your-traffic-see-how/",
   },
   {
     id: 32,
@@ -755,7 +755,7 @@ export const blogPostList = [
     desc: "Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit..",
     authorName: "Kevin",
     date: "Apr 12, 2024",
-    link: "/blogs/robots-txt-disallow-all-is-killing-your-traffic-see-how/",
+    link: "/robots-txt-disallow-all-is-killing-your-traffic-see-how/",
   },
   {
     id: 33,
@@ -769,7 +769,7 @@ export const blogPostList = [
     desc: "Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit..",
     authorName: "Amir",
     date: "Apr 10, 2024",
-    link: "/blogs/robots-txt-disallow-all-is-killing-your-traffic-see-how/",
+    link: "/robots-txt-disallow-all-is-killing-your-traffic-see-how/",
   },
   {
     id: 34,
@@ -783,7 +783,7 @@ export const blogPostList = [
     desc: "Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit..",
     authorName: "Amir",
     date: "Apr 8, 2024",
-    link: "/blogs/robots-txt-disallow-all-is-killing-your-traffic-see-how/",
+    link: "/robots-txt-disallow-all-is-killing-your-traffic-see-how/",
   },
   {
     id: 35,
@@ -797,7 +797,7 @@ export const blogPostList = [
     desc: "Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit..",
     authorName: "Allen",
     date: "Apr 4, 2024",
-    link: "/blogs/robots-txt-disallow-all-is-killing-your-traffic-see-how/",
+    link: "/robots-txt-disallow-all-is-killing-your-traffic-see-how/",
   },
   {
     id: 36,
@@ -811,19 +811,6 @@ export const blogPostList = [
     desc: "Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit..",
     authorName: "Allen",
     date: "Apr 3, 2024",
-    link: "/blogs/robots-txt-disallow-all-is-killing-your-traffic-see-how/",
+    link: "/robots-txt-disallow-all-is-killing-your-traffic-see-how/",
   },
-  {
-        id: 26,
-    category: "Strategy",
-    imgSrc: "/assets/images/blog/img-01.jpg",
-    imgAlt: "Top 5 reasons to invest in marketing",
-    imgCaption: "Top 5 reasons to invest in marketing",
-    title: "Top 5 reasons to invest in marketing",
-    authorImg: "/assets/images/avatars/02.png",
-    authorAlt: "David",
-    desc: "Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit..",
-    authorName: "David",
-    date: "Apr 26, 2024",
-  }
 ];

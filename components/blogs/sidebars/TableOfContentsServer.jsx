@@ -206,7 +206,7 @@ function StaticTableOfContents({ items = staticTocItems }) {
 // Main server component that renders static content and hydrates with client functionality
 export default function TableOfContentsServer() {
   return (
-    <>
+    <div className="d-none xl:d-block">
       {/* Server-rendered static content */}
       <div className="toc-server-rendered">
         <StaticTableOfContents />
@@ -214,6 +214,6 @@ export default function TableOfContentsServer() {
 
       {/* Client-side enhancement that will replace the static version */}
       <DesktopTableOfContentsClient />
-    </>
+    </div>
   );
 }

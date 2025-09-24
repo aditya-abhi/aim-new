@@ -41,8 +41,12 @@ export default async function Blog2Page(props) {
           <Author />
           <StepbyStepGuideFaq />
           <Experiment2 />
-          <NextPrevBlogs />
-          <RelatedBlogs />
+          {/* <NextPrevBlogs /> */}
+          <RelatedBlogs
+            currentBlogLink={
+              "/step-by-step-to-create-and-implement-llms-txt-file/"
+            }
+          />
           <Footer7 />
         </div>
       </div>

@@ -48,8 +48,10 @@ export default async function Blog2Page(props) {
           <Author />
           <WhatisGEOFaq />
           <Experiment2 />
-          <NextPrevBlogs />
-          <RelatedBlogs />
+          {/* <NextPrevBlogs /> */}
+          <RelatedBlogs
+            currentBlogLink={"/what-is-generative-engine-optimization/"}
+          />
           <Footer7 />
         </div>
       </div>

@@ -41,8 +41,10 @@ export default async function Blog2Page(props) {
           <Author />
           <LLMvsGenerativeAIFaq />
           <Experiment2 />
-          <NextPrevBlogs />
-          <RelatedBlogs />
+          {/* <NextPrevBlogs /> */}
+          <RelatedBlogs
+            currentBlogLink={"/llm-vs-generative-ai-what-should-you-pick/"}
+          />
           <Footer7 />
         </div>
       </div>
