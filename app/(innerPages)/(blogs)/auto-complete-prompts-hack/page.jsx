@@ -32,8 +32,8 @@ export default async function Blog2Page(props) {
           <Head
             pageName="Auto Complete Prompts Hack: Predict The User’s Query Before They Think
 "
-            src="/assets/images/blog/blog-1.webp"
-            publishedOn="May 27, 2025"
+            src="/assets/images/blog/autocompletepromptshack.webp"
+            publishedOn="May 23, 2025"
             updatedOn=""
           />
           <Experiment1 />

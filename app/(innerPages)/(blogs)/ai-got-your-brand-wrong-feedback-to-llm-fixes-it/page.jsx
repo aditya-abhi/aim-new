@@ -9,7 +9,7 @@ import RelatedBlogs from "@/components/blogs/components/RelatedBlogs";
 import AuthorBioShort from "@/components/blogs/components/AuthorBioShort";
 import Experiment1 from "@/components/blogs/components/Experiment1";
 import Experiment2 from "@/components/blogs/components/Experiment2";
-import FeedbacktoLLM from "@/components/blogs/Feedback to LLM";
+import FeedbacktoLLM from "@/components/blogs/FeedbacktoLLM";
 export const metadata = {
   title:
     "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
@@ -42,7 +42,7 @@ export default async function Blog2Page(props) {
           <Experiment2 />
           <NextPrevBlogs />
           <RelatedBlogs />
-        <Footer7 />
+          <Footer7 />
         </div>
       </div>
     </>

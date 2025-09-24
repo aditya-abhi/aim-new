@@ -29,9 +29,9 @@ export default async function Blog2Page(props) {
         >
           <Header7 />
           <Head
-            pageName="ChatGPT SEO: How to Rank in ChatGPT Responses in 2025"
-            src="/assets/images/blog/Chat-GPT-SEO.webp"
-            publishedOn="May 27, 2025"
+            pageName="Leverage Reddit for Generative Engine Optimization: Boost Your Brand with Strategic Reddit Geo Marketing"
+            src="/assets/images/blog/reddit-main-image.webp"
+            publishedOn="July 05, 2025"
             updatedOn=""
           />
           <Experiment1 />

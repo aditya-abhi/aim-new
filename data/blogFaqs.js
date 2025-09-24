@@ -951,3 +951,553 @@ export const autoCompletePromptsFaq = [
     expanded: false,
   },
 ];
+export const feedbacktoLLMFaq = [
+  {
+    id: 1,
+    question: " What is Generative Engine Optimization (GEO)?",
+    answer:
+      " GEO is the process of optimizing your content to be more relevant and visible to AI-driven search tools like ChatGPT and other large language models.",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "How does feedback impact LLMs?",
+    answer:
+      " Feedback from users helps refine LLM outputs, making the content more accurate, relevant, and aligned with current information. This, in turn, boosts the visibility of content that aligns with user feedback.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Where can I leave feedback for LLMs?",
+    answer:
+      "You can leave feedback through AI chat interfaces, search engine tools, and community forums where LLMs interact with users.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: " Why should I give specific feedback?",
+    answer:
+      " Specific feedback helps AI models understand exactly what needs to be changed, improving the chances that your content will be prioritized in future search results.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "How can GEO improve my brand’s visibility?",
+    answer:
+      "By optimizing your content for GEO, you ensure it surfaces in valuable AI-driven spaces like autocomplete, voice search, and zero-click results, increasing your brand’s visibility and authority.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+
+export const zeroClickSearchesFaq = [
+  {
+    id: 1,
+    question: " What are zero-click searches?",
+    answer:
+      " Zero-click searches happen when users get answers directly from a search engine or AI tool without clicking any results.",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "How does feedback impact seo?",
+    answer:
+      "AI tools like ChatGPT provide answers without linking to your site, which can affect referral traffic. But they also offer new opportunities for brand recognition.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "How can I optimize for both SEO and GEO?",
+    answer:
+      "Focus on creating high-quality, authoritative content. Use structured data, target question-based keywords, and ensure your content is clear and well-structured for both search engines and AI tools.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "Does zero-click increase website traffic?",
+    answer:
+      "Zero-click searches may decrease immediate traffic, but they can boost brand authority and lead to more branded searches later on.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+];
+export const fixaiCrawlabilityFaq = [
+  {
+    id: 1,
+    question: "What is the biggest mistake affecting my AI crawlability?",
+    answer:
+      "If your Robot.txt disallow all rule is too restrictive, you could be shutting out essential AI crawlers—like Googlebot and GPT-4’s bots—from indexing your content. Instead of a blanket block, fine-tune your robots.txt and even add an llms.txt file to ensure AI crawlers get VIP access. Don’t let a Robot.txt disallow all approach hurt your visibility—optimize for AI today!",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question:
+      "How do I enable AI Crawlability without rebuilding my whole site?",
+    answer:
+      "Start small! Add schema markup (like FAQ or How-To) to your key pages. It’s like giving AI bots a cheat sheet to understand your content. 📚 Bonus: Fix broken links and speed up load times—it’s low-hanging fruit!",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Does AI hate my mobile-unfriendly site?",
+    answer:
+      "Hate’s a strong word… but yes. 😬 AI uses mobile-first indexing, so if your site’s not responsive, you’re invisible. Use Google’s Mobile-Friendly Test tool—it takes 5 minutes and saves your rankings.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "Can I use AI to write content AND rank in AI Overviews?",
+    answer:
+      "Yes, but context is king. AI-generated content needs a clear structure (headings!), keyword clusters, and human editing to avoid sounding robotic. Think “helpful assistant,” not “text generator.”",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "How do I know if AI bots even visit my site?",
+    answer:
+      "Tools like AI Monitor or Google Search Console’s “Crawl Stats” show bot traffic. No visits? Time to audit your server errors and meta tags. 🔍 Pro tip: AI bots love fast, clean code—ditch clunky JavaScript!",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Will fixing AI crawlability help with voice search?",
+    answer:
+      "100%! Voice search relies on AI to understand your content. Optimize for natural language (long-tail keywords, conversational Q&A) and watch both voice and AI Overviews traffic spike.",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "Is duplicate content a death sentence for AI crawlability?",
+    answer:
+      "YNot if you handle it! Use canonical tags to point bots to your “main” version. AI hates confusion—consolidate thin content into beefy, value-packed guides. Your traffic (and bots) will thank you.",
+    expanded: false,
+  },
+];
+export const saasLandingPagesFaq = [
+  {
+    id: 1,
+    question: "What are the most effective SaaS landing pages for conversions?",
+    answer:
+      "The most effective SaaS landing pages are those designed for specific buyer intents, such as Alternatives Pages, Comparison Pages, Migration Pages, Feature Pages, and Solution Pages. These 'money pages' target users at the bottom of the funnel and can convert 2 to 3 times better than general product or pricing pages.",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question:
+      "Why do “Alternative” pages convert better than standard product pages?",
+    answer:
+      "Because visitors searching for “[Tool] alternatives” already know what they want, they are unhappy with a competitor and ready to change. These users have bottom-of-funnel intent, which makes them very likely to convert with the right positioning.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "How can Reddit threads help my SaaS business grow organically?",
+    answer:
+      "Reddit threads frequently show up on Google for long-tail, intent-driven queries. By participating genuinely in relevant subreddits and casually mentioning your product, you can build trust, improve SEO visibility, and attract steady, unpaid traffic.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "What should a SaaS migration page include?",
+    answer:
+      "A migration page should make the process easier by tackling issues like downtime, data loss, and complicated onboarding. Use clear benefit-focused calls to action, step-by-step comparisons, testimonials from those who have made the switch, and even setup bonuses to increase conversions.",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "Are comparison pages risky for my brand?",
+    answer:
+      "Not if done right. Comparison pages provide buyers with clarity when choosing between two tools. If you don't create them, affiliates and competitors will, and you'll miss the opportunity to highlight your strengths. The best brands succeed in this area by being honest, organized, and focused on value.",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "How do feature pages differ from solution pages?",
+    answer:
+      "Feature pages focus on specific functions, detailing what the tool does. Solution pages show how those features address real-world problems for various user roles or industries, explaining why it is important. Both are critical for supporting different stages of the buyer's journey.",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "Can a free course really improve SaaS signups?",
+    answer:
+      "Yes, course pages build trust and show prospects how to get value from your tool before they commit. They serve as a gentle introduction and help reduce churn by boosting product confidence. Additionally, educational content usually performs well in search results and is often shared.",
+    expanded: false,
+  },
+  {
+    id: 8,
+    question: "What are “money pages” in SaaS marketing?",
+    answer:
+      "“Money pages” are focused web pages that aim to meet specific search needs, such as finding alternatives, making comparisons, or switching tools. They typically convert three to five times better than regular marketing pages because they connect with users at the right stage of their buying journey.",
+    expanded: false,
+  },
+  {
+    id: 9,
+    question: "How do I structure a high-converting SaaS landing page?",
+    answer:
+      "Start with a hero section that highlights the benefits. Present a clear value proposition and use visuals that guide attention to the CTAs. Follow this with benefits, social proof, and interactive elements. Finish with a strong call to action and relevant FAQs to address concerns and increase time on the site.",
+    expanded: false,
+  },
+  {
+    id: 10,
+    question:
+      "What’s the fastest way to increase SaaS conversions without more traffic?",
+    answer:
+      "Optimize your existing traffic with pages that convert better. Adding just 2 or 3 of the right “money pages” can double your conversions. Focus first on alternative and comparison pages. They provide the biggest boost with the clearest buyer signals.",
+    expanded: false,
+  },
+];
+
+export const leverageRedditFaq = [
+  {
+    id: 1,
+    question: "What is Generative Engine Optimization (GEO)?",
+    answer:
+      "Optimizing the visibility of your brand to appear in AI-generated responses from programs like ChatGPT, Google AI Overview, and Perplexity is known as generative engine optimization, or GEO. In contrast to SEO, GEO concentrates on changing the way AI models learn and suggest content.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "Why is Reddit important for AI search visibility?",
+    answer:
+      "Reddit is a community-driven, highly trusted website that provides AI training data directly. Reddit material is one of the most important sources for AI-generated responses since platforms like OpenAI and Google use it to train their models.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question:
+      "How does Reddit affect ChatGPT and Google’s AI Overview results?",
+    answer:
+      "Reddit threads that discuss, upvote, and reference a brand or product have a higher chance of showing up in AI responses. AI systems view Reddit discussions as reliable, and they frequently rank higher in Google than traditional websites.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "Can Reddit posts help my brand rank in ChatGPT responses?",
+    answer:
+      "Yes. Your brand may start to be cited as a suggested solution by AI technologies like ChatGPT if it is referenced favorably and constructively in pertinent Reddit posts, particularly ones with upvotes and engagement.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "How can I optimize Reddit posts for AI visibility?",
+    answer:
+      "To build meaningful visibility on Reddit, start by joining relevant subreddits where your audience is active. Focus on answering niche, long-tail questions with genuine, helpful responses—avoiding hard sales language. Share valuable resources like tools, templates, or personal stories to foster trust and engagement. Consider hosting or participating in AMAs to deepen community connections. And don’t forget to monitor sentiment around your brand and actively engage with feedback to refine your positioning. Let me know if you'd like this adapted for a playbook, pitch, or onboarding guide.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Is Reddit better than traditional SEO for AI visibility?",
+    answer:
+      "Reddit enhances SEO. Reddit increases context and trust, which generative engines favor more when creating answers, but traditional SEO aids in ranks. While both are significant, Reddit might have a greater impact on AI. ",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "What types of Reddit threads get picked up by AI tools?",
+    answer:
+      "Look for threads that show strong engagement through upvotes and comments, especially those offering helpful answers to product-related or comparison questions. Prioritize honest discussions that share real use-case insights, and pay attention to mentions of brands that feel organic—without overt promotion. These types of threads tend to foster trust and resonate more deeply with Reddit’s community-driven culture.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 8,
+    question: "Do AI models like ChatGPT use Reddit to train?",
+    answer:
+      "Yes. Reddit-linked content provides a sizable amount of the training data for models such as GPT-3 and GPT-4. Reddit has also inked licensing agreements with OpenAI and Google to gain direct access to its data stream.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 9,
+    question: "How do upvotes on Reddit influence AI recommendations?",
+    answer:
+      "Upvotes are seen as social evidence. The possibility that upvoted content will be cited in subsequent responses increases when AI models perceive them as indications of authority, significance, and credibility.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 10,
+    question: "Can Reddit help my brand appear in Google’s AI Overview?",
+    answer:
+      "Yes. Google's AI Overview may cite or summarize Reddit discussions that address common search questions if your brand is referenced in them, putting your brand in front of users at the top of search results.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 11,
+    question: "What’s an example of a brand winning with Reddit GEO?",
+    answer:
+      "Through natural Reddit conversations in subreddits like r/productivity and r/Notion, Notion rose to prominence as a recommended AI tool in ChatGPT, rather than through conventional SEO. The community's feedback taught the AI to trust Notion.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 12,
+    question: "How do I find the right subreddits for my GEO strategy?",
+    answer:
+      "Use specialized tools to enhance your Reddit outreach and monitoring. GummySearch helps you discover relevant subreddits tailored to your niche, while Reddit Keyword Monitor tracks specific phrases and questions in real time. Tools like Brand24 or Pulse allow you to monitor brand mentions and sentiment across Reddit. Focus your efforts on niche subreddits where your ideal users openly share pain points, product feedback, and candid discussions—these are goldmines for authentic engagement and insight.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+
+export const featuredinGoogleAIFaq = [
+  {
+    id: 1,
+    question: "How To Rank in Google AI Overview",
+    answer:
+      "Here are the most common questions about ranking or featured in Google AI Overviews, including strategies, tools, and best practices for 2025.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question:
+      "What is Google AI Overview, and how is it different from traditional search?",
+    answer:
+      "Google AI Overview is an AI-powered search feature that gives detailed summaries from various sources. Unlike traditional search results that show individual webpage links, AI Overview produces a combined answer that shows above the regular results. This can change the click-through rates to individual sites.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Can Google AI Overview hurt my website traffic?",
+    answer:
+      "Yes, since users may get answers directly from AI Overviews, click-through rates can drop. However, being featured in Google AI Overview can boost brand visibility and authority.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "Is Google AI Overview replacing featured snippets?",
+    answer:
+      "Not entirely. AI Overviews are more advanced and often appear above featured snippets, but both can coexist.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "What is Generative Engine Optimization (GEO)?",
+    answer:
+      "GEO is the practice of optimizing content specifically for AI-powered search engines. It focuses on making content more likely to be selected and cited in AI-generated responses, going beyond traditional SEO practices to consider how AI models interpret and synthesize information.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Why is my content not showing in Google AI Overview?",
+    answer:
+      "Google AI Overviews may fail to display information due to insufficient authority and unclear response to user questions and problems in structure, and outdated information and content.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "How to see if my site is in Google AI Overview?",
+    answer:
+      "Utilize tools like AI Monitor, SEMrush AI Toolkit, and Otterly AI to comprehend what users are saying about your company and to determine if your brand is being mentioned.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 8,
+    question: "How often should I monitor AI Overview rankings?",
+    answer:
+      "Regular monitoring (at least weekly) is recommended as AI Overview results can change frequently. Use automated tools to track changes and adjust strategies accordingly.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 9,
+    question: "How does AI Monitor help with Generative Engine Optimization?",
+    answer:
+      "AI Monitor provides a comprehensive suite of capabilities designed to optimize your brand’s presence across generative platforms. It offers real-time citation tracking to monitor where and how your brand is mentioned, competitive comparisons to benchmark against industry peers, and sentiment analysis to gauge how AI platforms perceive and recommend you. Additionally, it delivers actionable improvement suggestions and tracks performance across multiple AI ecosystems, helping you refine strategy and stay ahead in the evolving landscape of answer engines.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 10,
+    question: "Does website speed affect Google AI Overview rankings?",
+    answer:
+      "Yes, sites that load quickly and are mobile-friendly are more likely to be crawled by LLM bots like GPTBot and included in AI Overviews.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 11,
+    question: "Is Google AI Overview biased toward big websites?",
+    answer:
+      "While having authority helps, smaller sites with high-quality, unique content can also be featured. 48% of sources in AI Overviews are not in the top 10 organic results.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 12,
+    question: "Should I rewrite my old posts for the Google AI Overview?",
+    answer:
+      "Absolutely! Keeping content fresh is important because Google AI Overview favors up-to-date information. Regular updates, recent statistics, and new examples increase the chances of being chosen as a source.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+
+export const getFeaturedbyPerplexityFaq = [
+  {
+    id: 1,
+    question: "How does Perplexity AI choose which sources to cite?",
+    answer:
+      "Perplexity references content that is clear-headed, well-structured, trustworthy, and frequently mentioned. Among its sources are reputable websites such as GitHub, Reddit, Wikipedia, Tripadvisor, and well-structured blog entries with schema markup",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: "Does Perplexity index websites like Google?",
+    answer:
+      "Not exactly. Despite using web scraping, Perplexity produces responses from a carefully selected pool of reliable sources and frequently favors platforms that employ structured data or have a high citation count.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "Can I pay to be featured on Perplexity?",
+    answer:
+      "No, there isn't any paid placement at the moment. Perplexity does, however, provide enterprise connectors and a Pro edition. The quality, organization, and relevancy of the content are the only factors that determine whether it is featured.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "How do I check if my site is being cited?",
+    answer:
+      "You can leverage tools like AI Monitor or Semrush’s GEO report to track how your brand appears across generative platforms. For deeper insights, run manual queries in Perplexity to see how your content is being surfaced and interpreted. Additionally, use search engines with queries like site:yourdomain.com Perplexity to identify citations, mentions, and context in which your domain is referenced—helping you monitor visibility and refine your optimization strategy.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "How often should I update content to stay visible?",
+    answer:
+      "At least every 90 days. New, up-to-date sources are preferred by perplexity. For AI-generated responses to remain competitive, include recent trends, fresh instances, or updated data.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "Is schema markup necessary to get cited by Perplexity?",
+    answer:
+      "Using schema.org markup is not technically necessary, but it makes your material easier for Perplexity to comprehend, digest, and trust. This is especially true for authors, articles, and frequently asked questions. It makes it more likely that you will be drawn into an AI-generated response.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 7,
+    question: "What types of content get featured most often in Perplexity?",
+    answer:
+      "Content that performs best in generative engines is designed to answer specific questions—such as “how,” “why,” and “what”—with clarity and depth. It often includes original research, relevant statistics, or expert commentary to establish authority and trust. Sources from well-maintained websites or communities like Reddit, Quora, and Wikipedia tend to be favored for their credibility and user engagement. Long-form, reference-style content that’s genuinely helpful and comprehensive consistently ranks higher and earns more citations across AI platforms.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 8,
+    question:
+      "Can smaller websites get featured, or is it just for big brands?",
+    answer:
+      "Yes, definitely. Perplexity is not just ranked by domain authority. AI replies can feature even a small blog or startup site if the content is well-structured, semantically rich, and externally cited.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 9,
+    question:
+      "How is Perplexity different from Google AI Overviews or ChatGPT search?",
+    answer:
+      "Perplexity AI gives real-time answers with clickable citations from sources like Reddit, GitHub, and Wikipedia—transparent and community-driven. Google AI Overviews focus on authority, citing high-DR sites like Forbes and Mayo Clinic, but are less transparent. ChatGPT summarizes from internal knowledge unless browsing is enabled, with limited source linking.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 10,
+    question: "Does content type matter (e.g., video, audio, written)?",
+    answer:
+      "Yes. The majority of Perplexity citations are still written, structured content. Although it is beginning to recognize YouTube transcripts and podcasts, these are typically only mentioned in conjunction with an article or summary. If you release audio or video, include a blog post or transcript to boost the likelihood of citations.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 11,
+    question: "What’s the role of Reddit and forums in visibility?",
+    answer:
+      "Reddit is a key source for Perplexity, especially for software, finance, and tech queries. If your blog, tool, or idea gets mentioned in a relevant subreddit, that link becomes visible to Perplexity’s models. Forum citations = backlink + visibility signal.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+export const robotsTXTDisallowAllFaq = [
+  {
+    id: 1,
+    question: "Why is blocking all AI bots like GPTBot a bad idea?",
+    answer:
+      "The act of blocking all AI bots resembles the historic practice of banning Google search engines because it removes your business from AI search capabilities. The action of blocking content from training LLMs results in your brand becoming invisible in generated AI answers which leads to reduced engagement opportunities and visitor traffic.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question:
+      "Is robots.txt a foolproof way to stop AI bots from scraping my site?",
+    answer:
+      "No. Robots.txt is a suggestion, not a security measure. Ethical bots (like Googlebot or GPTBot) respect it, but malicious scrapers may ignore it. For sensitive data, use stronger protections like authentication, paywalls, or legal measures (e.g., terms of service).",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "How do I check if my site is blocking AI crawlers??",
+    answer:
+      "To check if your site is blocked, you need to visit yoursite.com/robots.txt and verify the presence of either User-agent: GPTBot or Disallow: / entries. The use of Disallow: / for all bots will completely conceal your site from every type of interstellar and artificial intelligence tool.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "What’s the ideal crawl delay to prevent server overload?",
+    answer:
+      "A 10-second delay (Crawl-delay: 10) is a good balance—it reduces server strain while letting bots index your content efficiently. Adjust based on your site’s traffic and hosting capacity.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question:
+      "Will AI bots index my site even if I don’t mention them in robots.txt?",
+    answer:
+      "Yes! Most artificial intelligence crawlers, including GPTBot, execute the User-agent: * command. Crawlers will access your site as regular bots do if you do not precisely block them from your robots.txt file. You should block GPTBot by deploying User-agent: GPTBot Disallow: /.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "How can I future-proof my robots.txt for AI?",
+    answer:
+      "Use User-agent: * in your robots.txt file to allow broad bot access. Make sure public content like /blog/ is accessible to AI crawlers, while sensitive directories such as /private/ are blocked. Include a sitemap to help bots navigate your site efficiently. To stay informed, monitor bot activity using tools like AI Bot Monitor—this helps you track engagement, spot anomalies, and optimize your crawl strategy over time.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+];

@@ -29,9 +29,9 @@ export default async function Blog2Page(props) {
         >
           <Header7 />
           <Head
-            pageName="ChatGPT SEO: How to Rank in ChatGPT Responses in 2025"
-            src="/assets/images/blog/Chat-GPT-SEO.webp"
-            publishedOn="May 27, 2025"
+            pageName="How to Get Featured in Google’s AI Overview? Tools and Strategies for 20255"
+            src="/assets/images/blog/FeaturedinGoogleAI.webp"
+            publishedOn="July 07, 2025"
             updatedOn=""
           />
           <Experiment1 />

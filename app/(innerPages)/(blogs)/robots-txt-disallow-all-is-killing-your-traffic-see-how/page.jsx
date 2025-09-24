@@ -10,6 +10,7 @@ import AuthorBioShort from "@/components/blogs/components/AuthorBioShort";
 import Experiment1 from "@/components/blogs/components/Experiment1";
 import Experiment2 from "@/components/blogs/components/Experiment2";
 import RobotsTXTDisallowAll from "@/components/blogs/RobotsTXTDisallowAll";
+import RobotsTXTDisallowAllFaq from "@/components/blogs/faqs/RobotsTXTDisallowAllFaq";
 export const metadata = {
   title:
     "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
@@ -29,8 +30,8 @@ export default async function Blog2Page(props) {
         >
           <Header7 />
           <Head
-            pageName="ChatGPT SEO: How to Rank in ChatGPT Responses in 2025"
-            src="/assets/images/blog/Chat-GPT-SEO.webp"
+            pageName="Robots.txt Disallow All: Blocking AI Bots is as misguided as blocking Google in the 90s!"
+            src="/assets/images/blog/Robots-txtDisallowAll.webp"
             publishedOn="May 27, 2025"
             updatedOn=""
           />
@@ -38,7 +39,7 @@ export default async function Blog2Page(props) {
           <AuthorBioShort />
           <RobotsTXTDisallowAll />
           <Author />
-          <Blog1Faqs />
+          <RobotsTXTDisallowAllFaq />
           <Experiment2 />
           {/* <NextPrevBlogs /> */}
           <RelatedBlogs

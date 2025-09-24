@@ -31,7 +31,7 @@ export default async function Blog2Page(props) {
           <Head
             pageName="How to Get Featured by Perplexity AI in 2025: The Complete Interactive Guide"
             src="/assets/images/blog/perplexity-main-image.webp"
-            publishedOn="May 27, 2025"
+            publishedOn="July 22, 2025"
             updatedOn=""
           />
           <Experiment1 />

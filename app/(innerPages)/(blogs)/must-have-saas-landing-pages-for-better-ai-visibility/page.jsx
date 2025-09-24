@@ -10,6 +10,7 @@ import AuthorBioShort from "@/components/blogs/components/AuthorBioShort";
 import Experiment1 from "@/components/blogs/components/Experiment1";
 import Experiment2 from "@/components/blogs/components/Experiment2";
 import SaasLandingPages from "@/components/blogs/SaasLandingPages";
+import SaasLandingPagesFaq from "@/components/blogs/faqs/SaasLandingPagesFaq";
 export const metadata = {
   title:
     "Top 10 Game Changing Answer Engine Optimization Tools | 2025 || AI Monitor",
@@ -29,16 +30,16 @@ export default async function Blog2Page(props) {
         >
           <Header7 />
           <Head
-            pageName="ChatGPT SEO: How to Rank in ChatGPT Responses in 2025"
-            src="/assets/images/blog/Chat-GPT-SEO.webp"
-            publishedOn="May 27, 2025"
+            pageName="Must Have SaaS Landing Pages for Better AI Visibility"
+            src="/assets/images/blog/SaasLandingPages.webp"
+            publishedOn="July 02, 2025"
             updatedOn=""
           />
           <Experiment1 />
           <AuthorBioShort />
           <SaasLandingPages />
           <Author />
-          <Blog1Faqs />
+          <SaasLandingPagesFaq />
           <Experiment2 />
           {/* <NextPrevBlogs /> */}
           <RelatedBlogs

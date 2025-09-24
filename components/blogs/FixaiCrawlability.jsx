@@ -274,13 +274,10 @@ export default function FixaiCrawlability() {
                           Orphaned pages that AI bots might miss
                         </li>
                       </ul>
-                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        Capital of Texas5
-                      </h2>
                       <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         B. Technical Fixes
                       </h3>{" "}
-                      <h4 className="h5 xl:h4 mt-2 mb-2 xl:mb-2">
+                      <h4 className="h6 xl:h4 mt-2 mb-2 xl:mb-2">
                         Update Robots.txt
                       </h4>
                       <p>

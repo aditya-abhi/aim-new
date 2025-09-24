@@ -75,14 +75,21 @@ export default function FeaturedinGoogleAI() {
                       <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         What this blog addresses:
                       </h3>
-                      <li className="mt-2">What is the Google AI Overview?</li>
-                      <li className="mt-2">How it chooses what to summarize</li>
-                      <li className="mt-2">
-                        What Generative Engine Optimization (GEO) means in 2025
-                      </li>
-                      <li className="mt-2">
-                        The best tools to track your mentions
-                      </li>
+                      <ul>
+                        <li className="mt-2">
+                          What is the Google AI Overview?
+                        </li>
+                        <li className="mt-2">
+                          How it chooses what to summarize
+                        </li>
+                        <li className="mt-2">
+                          What Generative Engine Optimization (GEO) means in
+                          2025
+                        </li>
+                        <li className="mt-2">
+                          The best tools to track your mentions
+                        </li>
+                      </ul>
                       <p className="mt-3">
                         Let’s dive into the future of search and learn how to
                         turn AI’s spotlight onto your content.
@@ -316,7 +323,7 @@ export default function FeaturedinGoogleAI() {
                           </tbody>
                         </table>
                       </div>
-                      <p className="mt-n2">
+                      <p className="mt-mt-1">
                         Source:{" "}
                         <a
                           href="https://ahrefs.com/blog/google-ai-overviews/"
