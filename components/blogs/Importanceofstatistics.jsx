@@ -423,7 +423,7 @@ export default function ImportanceOfStatistics() {
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                          1. Hook First, Stat Second
+                          Hook First, Stat Second
                         </h3>{" "}
                       </h3>
                       <p>
@@ -444,7 +444,7 @@ export default function ImportanceOfStatistics() {
                         discussing.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        2. Befriend Visuals (But Keep Them Simple)
+                        Befriend Visuals (But Keep Them Simple)
                       </h3>
                       <p>
                         With the right visuals, your sense may be much more
@@ -460,7 +460,7 @@ export default function ImportanceOfStatistics() {
                         message.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        3. The “Goldilocks” Rule of Quantity
+                        The “Goldilocks” Rule of Quantity
                       </h3>
                       <p>
                         Less is more when it comes to statistics. Too few stats
@@ -476,7 +476,7 @@ export default function ImportanceOfStatistics() {
                         list of numbers.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        4. Source Like a Pro
+                        Source Like a Pro
                       </h3>
                       <p>
                         The trustworthiness of your statistics is directly tied
@@ -501,7 +501,7 @@ export default function ImportanceOfStatistics() {
                       </p>
                       {/* css CTA */}
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        5. Humanize the Numbers
+                        Humanize the Numbers
                       </h3>
                       <p>
                         Statistics and numbers can come off as dry and
@@ -520,7 +520,7 @@ export default function ImportanceOfStatistics() {
                         impression in the reader’s mind.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        6. Update or Bust
+                        Update or Bust
                       </h3>
                       <p>
                         Your data automatically becomes irrelevant if it is

@@ -355,9 +355,6 @@ export default function FeedbacktoLLM() {
                         actively rewrites the algorithms that determine
                         visibility.
                       </p>
-                      <h4 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        Great Schools and Entertainment
-                      </h4>
                       <p>
                         Every time you refine an AI response, upvote a helpful
                         answer, or even reformulate your search query, you’re

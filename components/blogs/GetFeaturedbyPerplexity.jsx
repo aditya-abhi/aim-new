@@ -35,17 +35,17 @@ export default function GetFeaturedbyPerplexity() {
                         <a
                           href="https://www.perplexity.ai/page/ceo-says-perplexity-hit-780m-q-dENgiYOuTfaMEpxLQc2bIQ?utm_source=chatgpt.com"
                           target="_blank"
-                          className="text-blue"
+                          className="text-blue fw-bold"
                         >
                           Aravind Srinivas
-                        </a>
-                        Aravind Srinivas stated in a keynote address at
-                        Bloomberg’s Tech Summit in May 2025 that the company had
-                        handled over 780 million queries the previous month.
+                        </a>{" "}
+                        stated in a keynote address at Bloomberg’s Tech Summit
+                        in May 2025 that the company had handled over 780
+                        million queries the previous month.
                         <a
                           href="https://www.perplexity.ai/page/ceo-says-perplexity-hit-780m-q-dENgiYOuTfaMEpxLQc2bIQ?login-source=oneTapPage&login-new=false"
                           target="_blank"
-                          className="text-blue"
+                          className="text-blue fw-bold"
                         >
                           (source: Perplexity.ai).
                         </a>
@@ -57,17 +57,32 @@ export default function GetFeaturedbyPerplexity() {
                         <a
                           href="https://www.theverge.com/2025/1/9/24339020/perplexity-tripadvisor-integration-hotels?utm_source=chatgpt.com"
                           target="_blank"
-                          className="text-blue"
+                          className="text-blue fw-bold"
                         >
                           The Verge.
                         </a>
                       </p>
                       <p>
-                        According to Axios and Wired, prominent media outlets
-                        filed lawsuits against Perplexity AI in 2024 after
-                        Forbes and CNBC claimed that the company had copied
-                        their articles without giving due credit. That’s not
-                        clickbait, that’s the{" "}
+                        According to{" "}
+                        <a
+                          href="https://www.axios.com/2024/06/18/forbes-perplexity-ai-legal-action-copyright?utm_source=chatgpt.com"
+                          target="_blank"
+                          className="text-blue fw-bold"
+                        >
+                          Axios
+                        </a>{" "}
+                        and{" "}
+                        <a
+                          href="https://www.wired.com/story/dow-jones-new-york-post-sue-perplexity?utm_source=chatgpt.com"
+                          target="_blank"
+                          className="text-blue fw-bold"
+                        >
+                          Wired
+                        </a>
+                        , prominent media outlets filed lawsuits against
+                        Perplexity AI in 2024 after Forbes and CNBC claimed that
+                        the company had copied their articles without giving due
+                        credit. That’s not clickbait, that’s the{" "}
                         <b>AI-powered search battleground of 2025.</b>
                       </p>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
@@ -426,7 +441,7 @@ export default function GetFeaturedbyPerplexity() {
                           className="text-blue"
                         >
                           BrightEdge study
-                        </a>
+                        </a>{" "}
                         (first of its kind),{" "}
                         <b>
                           comparing Perplexity, Google AI Overviews, and
@@ -435,317 +450,323 @@ export default function GetFeaturedbyPerplexity() {
                         we now know how these platforms think, cite, and refer
                         traffic. Here’s what every marketer, SEO, and content
                         strategist needs to know:
+                        <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
+                          <table className="uc-table uc-table-divider">
+                            <thead className="table-head sticky-top z-1 ">
+                              <tr className="table-row dark:border-white border-gray-900 bg-gray-25 dark:bg-tertiary-800">
+                                <th
+                                  className="table-header-cell top pt-0 lg:pt-1"
+                                  scope="row"
+                                >
+                                  <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary text-underline lg:text-none">
+                                    Feature{" "}
+                                  </span>
+                                </th>
+                                <th
+                                  className="table-header-cell pt-8 lg:pt-1"
+                                  scope="row"
+                                >
+                                  <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                                    Google AI (SGE)
+                                  </span>
+                                </th>
+                                <th
+                                  className="table-header-cell pt-8 lg:pt-1"
+                                  scope="row"
+                                >
+                                  <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                                    Perplexity
+                                  </span>
+                                </th>
+                                <th
+                                  className="table-header-cell pt-8 lg:pt-1"
+                                  scope="row"
+                                >
+                                  <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                                    ChatGPT
+                                  </span>
+                                </th>
+                              </tr>
+                            </thead>
+                            <tbody className="table-body">
+                              <tr className="table-row border-gray-900 dark:border-white">
+                                <th className="top pt-0 lg:pt-1" scope="row">
+                                  <div className="hstack gap-1 justify-start">
+                                    <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                      Primary Purpose
+                                    </span>
+                                  </div>
+                                </th>
+                                <td className="pt-8 lg:pt-1">
+                                  <span className="dark:text-white">
+                                    Traditional search + AI-enhanced results{" "}
+                                  </span>
+                                </td>
+                                <td className="pt-8 lg:pt-1">
+                                  <span className="dark:text-white">
+                                    AI-native answer engine
+                                  </span>
+                                </td>
+                                <td className="pt-8 lg:pt-1">
+                                  <span className="dark:text-white">
+                                    Conversational AI assistant
+                                  </span>
+                                </td>
+                              </tr>
+                              <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                                <th className="top pt-0 lg:pt-1" scope="row">
+                                  <div className="hstack gap-1 justify-start">
+                                    <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                      Core Function{" "}
+                                    </span>
+                                  </div>
+                                </th>
+                                <td className="pt-7 lg:pt-1">
+                                  <span className="dark:text-white">
+                                    Hybrid search (organic + AI summaries){" "}
+                                  </span>
+                                </td>
+                                <td className="pt-7 lg:pt-1">
+                                  <span className="dark:text-white">
+                                    Research-focused Q&A with citations
+                                  </span>
+                                </td>
+                                <td className="pt-7 lg:pt-1">
+                                  <span className="dark:text-white">
+                                    Content generation & task assistance
+                                  </span>
+                                </td>
+                              </tr>
+                              <tr className="table-row border-gray-900 dark:border-white">
+                                <th className="top pt-0 lg:pt-1" scope="row">
+                                  <div className="hstack gap-1 justify-start">
+                                    <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                      Revenue Mode{" "}
+                                    </span>
+                                  </div>
+                                </th>
+                                <td className="pt-7 lg:pt-1">
+                                  <span className="dark:text-white">
+                                    Ad-supported (promoted results in answers){" "}
+                                  </span>
+                                </td>
+                                <td className="pt-7 lg:pt-1">
+                                  <span className="dark:text-white">
+                                    Ad-free (potential subscription model)
+                                  </span>
+                                </td>
+                                <td className="pt-7 lg:pt-1">
+                                  <span className="dark:text-white">
+                                    Freemium (Plus subscription)
+                                  </span>
+                                </td>
+                              </tr>
+                              <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                                <th className="top pt-0 lg:pt-1" scope="row">
+                                  <div className="hstack gap-1 justify-start">
+                                    <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                      Citation Approach{" "}
+                                    </span>
+                                  </div>
+                                </th>
+                                <td className="pt-7 lg:pt-1">
+                                  <span className="dark:text-white">
+                                    3-5 citations per answer (blends
+                                    high-authority + commercial sites){" "}
+                                  </span>
+                                </td>
+                                <td className="pt-7 lg:pt-1">
+                                  <span className="dark:text-white">
+                                    5.28 avg citations (prioritizes
+                                    Reddit/forums in 7/9 industries)
+                                  </span>
+                                </td>
+                                <td className="pt-7 lg:pt-1">
+                                  <span className="dark:text-white justify-center">
+                                    Optional web citations (browsing feature
+                                    required)
+                                  </span>
+                                </td>
+                              </tr>
+                              <tr className="table-row border-gray-900 dark:border-white">
+                                <th className="top pt-0 lg:pt-1" scope="row">
+                                  <div className="hstack gap-1 justify-start">
+                                    <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                      Traffic Referrals{" "}
+                                    </span>
+                                  </div>
+                                </th>
+                                <td className="pt-7 lg:pt-1">
+                                  <span className="dark:text-white">
+                                    Declining traditional CTR (AI answers keep
+                                    users on SERP){" "}
+                                  </span>
+                                </td>
+                                <td className="pt-7 lg:pt-1">
+                                  <span className="dark:text-white">
+                                    39% MoM referral growth (Jan 2024+)
+                                  </span>
+                                </td>
+                                <td className="pt-7 lg:pt-1">
+                                  <span className="dark:text-white justify-center">
+                                    Minimal direct website referrals
+                                  </span>
+                                </td>
+                              </tr>
+                              <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                                <th className="top pt-0 lg:pt-1" scope="row">
+                                  <div className="hstack gap-1 justify-start">
+                                    <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                      Content Sources{" "}
+                                    </span>
+                                  </div>
+                                </th>
+                                <td className="pt-8 lg:pt-1">
+                                  <span className="dark:text-white">
+                                    High-authority sites (Mayo Clinic,
+                                    Wikipedia) + commercial domains{" "}
+                                  </span>
+                                </td>
+                                <td className="pt-8 lg:pt-1">
+                                  <span className="dark:text-white">
+                                    Community-driven (Reddit-heavy except
+                                    Healthcare/Finance)
+                                  </span>
+                                </td>
+                                <td className="pt-8 lg:pt-1">
+                                  <span className="dark:text-white justify-center">
+                                    Training data + optional web access
+                                  </span>
+                                </td>
+                              </tr>{" "}
+                              <tr className="table-row border-gray-900 dark:border-white">
+                                <th className="top pt-0 lg:pt-1" scope="row">
+                                  <div className="hstack gap-1 justify-start">
+                                    <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                      Industry Focus{" "}
+                                    </span>
+                                  </div>
+                                </th>
+                                <td className="pt-7 lg:pt-1">
+                                  <span className="dark:text-white">
+                                    Healthcare (82% domain overlap with
+                                    Perplexity), E-commerce
+                                  </span>
+                                </td>
+                                <td className="pt-7 lg:pt-1">
+                                  <span className="dark:text-white">
+                                    Travel/Restaurants (most citations), Finance
+                                    (Yahoo/CNN){" "}
+                                  </span>
+                                </td>
+                                <td className="pt-7 lg:pt-1">
+                                  <span className="dark:text-white justify-center">
+                                    Universal (no industry specialization)
+                                  </span>
+                                </td>
+                              </tr>
+                              <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                                <th className="top pt-0 lg:pt-1" scope="row">
+                                  <div className="hstack gap-1 justify-start">
+                                    <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                      Response Format{" "}
+                                    </span>
+                                  </div>
+                                </th>
+                                <td className="pt-8 lg:pt-1">
+                                  <span className="dark:text-white">
+                                    AI snapshots + traditional blue links
+                                  </span>
+                                </td>
+                                <td className="pt-8 lg:pt-1">
+                                  <span className="dark:text-white">
+                                    Conversational flow + footnote citations
+                                  </span>
+                                </td>
+                                <td className="pt-8 lg:pt-1">
+                                  <span className="dark:text-white justify-center">
+                                    Paragraph-style responses
+                                  </span>
+                                </td>
+                              </tr>{" "}
+                              <tr className="table-row border-gray-900 dark:border-white">
+                                <th className="top pt-0 lg:pt-1" scope="row">
+                                  <div className="hstack gap-1 justify-start">
+                                    <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                      Marketer Value{" "}
+                                    </span>
+                                  </div>
+                                </th>
+                                <td className="pt-7 lg:pt-1">
+                                  <span className="dark:text-white">
+                                    Requires hybrid SEO (authority +
+                                    conversational content)
+                                  </span>
+                                </td>
+                                <td className="pt-7 lg:pt-1">
+                                  <span className="dark:text-white">
+                                    Emerging organic channel (citation
+                                    optimization)
+                                  </span>
+                                </td>
+                                <td className="pt-7 lg:pt-1">
+                                  <span className="dark:text-white justify-center">
+                                    Brand awareness / content ideation
+                                  </span>
+                                </td>
+                              </tr>
+                              <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                                <th className="top pt-0 lg:pt-1" scope="row">
+                                  <div className="hstack gap-1 justify-start">
+                                    <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                      User Experience{" "}
+                                    </span>
+                                  </div>
+                                </th>
+                                <td className="pt-8 lg:pt-1">
+                                  <span className="dark:text-white">
+                                    Visual carousels + product listings{" "}
+                                  </span>
+                                </td>
+                                <td className="pt-8 lg:pt-1">
+                                  <span className="dark:text-white">
+                                    Text-focused with source transparency{" "}
+                                  </span>
+                                </td>
+                                <td className="pt-8 lg:pt-1">
+                                  <span className="dark:text-white justify-center">
+                                    Chat interface
+                                  </span>
+                                </td>
+                              </tr>
+                              <tr className="table-row border-gray-900 dark:border-white">
+                                <th className="top pt-0 lg:pt-1" scope="row">
+                                  <div className="hstack gap-1 justify-start">
+                                    <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                      Key Differentiator{" "}
+                                    </span>
+                                  </div>
+                                </th>
+                                <td className="pt-7 lg:pt-1">
+                                  <span className="dark:text-white">
+                                    Market dominance with AI integration
+                                  </span>
+                                </td>
+                                <td className="pt-7 lg:pt-1">
+                                  <span className="dark:text-white">
+                                    Rapid referral growth + citation density
+                                  </span>
+                                </td>
+                                <td className="pt-7 lg:pt-1">
+                                  <span className="dark:text-white justify-center">
+                                    Creative content generation
+                                  </span>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
                       </p>
-                      <div className="panel mt-2 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
-                        <table className="uc-table uc-table-divider">
-                          <thead className="table-head sticky-top z-1 ">
-                            <tr className="table-row dark:border-white border-gray-900">
-                              <th className="table-header-cell" scope="row">
-                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
-                                  Feature
-                                </span>
-                              </th>
-                              <th className="table-header-cell" scope="row">
-                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
-                                  Google AI (SGE)
-                                </span>
-                              </th>
-                              <th className="table-header-cell" scope="row">
-                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
-                                  Perplexity
-                                </span>
-                              </th>
-                              <th className="table-header-cell" scope="row">
-                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
-                                  ChatGPT
-                                </span>
-                              </th>
-                            </tr>
-                          </thead>
-                          <tbody className="table-body">
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
-                                <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    Primary Purpose
-                                  </span>
-                                </div>
-                              </th>
-                              <td>
-                                <span className="dark:text-white">
-                                  Traditional search + AI-enhanced results
-                                </span>
-                              </td>
-                              <td>
-                                <span className="dark:text-white">
-                                  AI-native answer engine
-                                </span>
-                              </td>
-                              <td>
-                                <span className="dark:text-white">
-                                  Conversational AI assistant
-                                </span>
-                              </td>
-                            </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
-                                <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    Core Function
-                                  </span>
-                                </div>
-                              </th>
-                              <td>
-                                <span className="dark:text-white">
-                                  Hybrid search (organic + AI summaries)
-                                </span>
-                              </td>
-                              <td>
-                                <span className="dark:text-white">
-                                  Research-focused Q&A with citations
-                                </span>
-                              </td>
-                              <td>
-                                <span className="dark:text-white">
-                                  Content generation & task assistance
-                                </span>
-                              </td>
-                            </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
-                                <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    Revenue Model
-                                  </span>
-                                </div>
-                              </th>
-                              <td>
-                                <span className="dark:text-white">
-                                  Ad-supported (promoted results in answers)
-                                </span>
-                              </td>
-                              <td>
-                                <span className="dark:text-white">
-                                  Ad-free (potential subscription model)
-                                </span>
-                              </td>
-                              <td>
-                                <span className="dark:text-white">
-                                  Freemium (Plus subscription)
-                                </span>
-                              </td>
-                            </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
-                                <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    Citation Approach
-                                  </span>
-                                </div>
-                              </th>
-                              <td>
-                                <span className="dark:text-white">
-                                  3-5 citations per answer (blends
-                                  high-authority + commercial sites)
-                                </span>
-                              </td>
-                              <td>
-                                <span className="dark:text-white">
-                                  5.28 avg citations (prioritizes Reddit/forums
-                                  in 7/9 industries)
-                                </span>
-                              </td>
-                              <td>
-                                <span className="dark:text-white justify-center">
-                                  Optional web citations (browsing feature
-                                  required)
-                                </span>
-                              </td>
-                            </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
-                                <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    Traffic Referrals
-                                  </span>
-                                </div>
-                              </th>
-                              <td>
-                                <span className="dark:text-white">
-                                  Declining traditional CTR (AI answers keep
-                                  users on SERP)
-                                </span>
-                              </td>
-                              <td>
-                                <span className="dark:text-white">
-                                  39% MoM referral growth (Jan 2024+)
-                                </span>
-                              </td>
-                              <td>
-                                <span className="dark:text-white justify-center">
-                                  Minimal direct website referrals
-                                </span>
-                              </td>
-                            </tr>
-
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
-                                <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    Content Sources
-                                  </span>
-                                </div>
-                              </th>
-                              <td>
-                                <span className="dark:text-white">
-                                  High-authority sites (Mayo Clinic, Wikipedia)
-                                  + commercial domains
-                                </span>
-                              </td>
-                              <td>
-                                <span className="dark:text-white">
-                                  Community-driven (Reddit-heavy except
-                                  Healthcare/Finance)
-                                </span>
-                              </td>
-                              <td>
-                                <span className="dark:text-white justify-center">
-                                  Training data + optional web access
-                                </span>
-                              </td>
-                            </tr>
-
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
-                                <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    Industry Focus
-                                  </span>
-                                </div>
-                              </th>
-                              <td>
-                                <span className="dark:text-white">
-                                  Healthcare (82% domain overlap with
-                                  Perplexity), E-commerce
-                                </span>
-                              </td>
-                              <td>
-                                <span className="dark:text-white">
-                                  Travel/Restaurants (most citations), Finance
-                                  (Yahoo/CNN)
-                                </span>
-                              </td>
-                              <td>
-                                <span className="dark:text-white justify-center">
-                                  Universal (no industry specialization)
-                                </span>
-                              </td>
-                            </tr>
-
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
-                                <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    Response Format
-                                  </span>
-                                </div>
-                              </th>
-                              <td>
-                                <span className="dark:text-white">
-                                  AI snapshots + traditional blue links
-                                </span>
-                              </td>
-                              <td>
-                                <span className="dark:text-white">
-                                  Conversational flow + footnote citations
-                                </span>
-                              </td>
-                              <td>
-                                <span className="dark:text-white justify-center">
-                                  Paragraph-style responses
-                                </span>
-                              </td>
-                            </tr>
-
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
-                                <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    Marketer Value
-                                  </span>
-                                </div>
-                              </th>
-                              <td>
-                                <span className="dark:text-white">
-                                  Requires hybrid SEO (authority +
-                                  conversational content)
-                                </span>
-                              </td>
-                              <td>
-                                <span className="dark:text-white">
-                                  Emerging organic channel (citation
-                                  optimization)
-                                </span>
-                              </td>
-                              <td>
-                                <span className="dark:text-white justify-center">
-                                  Brand awareness / content ideation
-                                </span>
-                              </td>
-                            </tr>
-
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
-                                <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    User Experience
-                                  </span>
-                                </div>
-                              </th>
-                              <td>
-                                <span className="dark:text-white">
-                                  Visual carousels + product listings
-                                </span>
-                              </td>
-                              <td>
-                                <span className="dark:text-white">
-                                  Text-focused with source transparency
-                                </span>
-                              </td>
-                              <td>
-                                <span className="dark:text-white justify-center">
-                                  Chat interface
-                                </span>
-                              </td>
-                            </tr>
-
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
-                                <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    Key Differentiator
-                                  </span>
-                                </div>
-                              </th>
-                              <td>
-                                <span className="dark:text-white">
-                                  Market dominance with AI integration
-                                </span>
-                              </td>
-                              <td>
-                                <span className="dark:text-white">
-                                  Rapid referral growth + citation density
-                                </span>
-                              </td>
-                              <td>
-                                <span className="dark:text-white justify-center">
-                                  Creative content generation
-                                </span>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
                       <p>
                         Perplexity loves <b>Reddit-style content</b> – personal,
                         in-depth, community-validated.{" "}
@@ -759,53 +780,65 @@ export default function GetFeaturedbyPerplexity() {
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         Optimize for Perplexity Like a Pro
                       </h3>
-                      <div className="panel mt-2 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
                         <table className="uc-table uc-table-divider">
                           <thead className="table-head sticky-top z-1 ">
-                            <tr className="table-row dark:border-white border-gray-900">
-                              <th className="table-header-cell" scope="row">
-                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
-                                  Step
+                            <tr className="table-row dark:border-white border-gray-900 bg-gray-25 dark:bg-tertiary-800">
+                              <th
+                                className="table-header-cell top pt-0 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary text-underline lg:text-none">
+                                  Step{" "}
                                 </span>
                               </th>
-                              <th className="table-header-cell" scope="row">
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
                                   Action Item
                                 </span>
                               </th>
-                              <th className="table-header-cell" scope="row">
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
                                   Why It Works (Data-Backed Insight)
                                 </span>
                               </th>
-                              <th className="table-header-cell" scope="row">
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
-                                  Pro Tip
+                                  Why It Works (Data-Backed Insight) Pro Tip
                                 </span>
                               </th>
                             </tr>
                           </thead>
                           <tbody className="table-body">
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    1
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    1.{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-4 lg:pt-1">
                                 <span className="dark:text-white">
-                                  Optimize for Reddit/Forum Sourcing
+                                  Optimize for Reddit/Forum Sourcing{" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-4 lg:pt-1">
                                 <span className="dark:text-white">
                                   Perplexity cites Reddit in 7/9 top industries
-                                  (excl. Healthcare/Finance)
+                                  (excl. Healthcare/Finance){" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-4 lg:pt-1">
                                 <span className="dark:text-white">
                                   Embed Reddit testimonials in your content. Use
                                   headers like "Reddit Users Confirm: [Your
@@ -813,26 +846,26 @@ export default function GetFeaturedbyPerplexity() {
                                 </span>
                               </td>
                             </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    2
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    2.{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
-                                  Become a "Citation Magnet"
+                                  Become a "Citation Magnet"{" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Perplexity delivers 5.28 citations per answer
                                   (vs. Google AI Overview’s 3-5)
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Structure content with clear, statistic-heavy
                                   sections. Use footnotes linking to primary
@@ -841,51 +874,51 @@ export default function GetFeaturedbyPerplexity() {
                               </td>
                             </tr>
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    3
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    3.
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
-                                  Dominate Healthcare/Finance Differently
+                                  Dominate Healthcare/Finance Differently{" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Healthcare has an 82% domain overlap with
                                   Google (e.g., Mayo Clinic, NIH)
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   For these niches, prioritize .edu/.gov
                                   backlinks and clinical study citations.
                                 </span>
                               </td>
                             </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    1
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    4.{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Target Travel/Restaurant Niches Aggressively
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Perplexity shows drastically more citations in
                                   these verticals
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white justify-center">
                                   Create location-based guides with embedded
                                   maps, reservation links, and crowd-sourced
@@ -894,30 +927,29 @@ export default function GetFeaturedbyPerplexity() {
                               </td>
                             </tr>
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    5
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    5.{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
-                                  Adopt Conversational Q&A Format
+                                  Adopt Conversational Q&A Format{" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Perplexity users engage with AI-summarized +
                                   cited answers
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white justify-center">
-                                  Perplexity users engage with AI-summarized +
-                                  cited answers Structure content as: Question →
-                                  Concise Answer → Deep Dive (with sources) →
-                                  Key Takeaways.
+                                  Structure content as: Question → Concise
+                                  Answer → Deep Dive (with sources) → Key
+                                  Takeaways.
                                 </span>
                               </td>
                             </tr>
@@ -1098,7 +1130,7 @@ export default function GetFeaturedbyPerplexity() {
                         high-authority domains, the higher your chances of being
                         surfaced in AI-generated responses.
                       </p>
-                      <p>
+                      <p className="mt-3">
                         These external references act as credibility signals,
                         helping Perplexity identify your site as a reliable
                         source worth including. Building backlinks from
@@ -1154,7 +1186,7 @@ export default function GetFeaturedbyPerplexity() {
                         information all play a critical role in helping these
                         models understand and trust your content.{" "}
                       </p>
-                      <p>
+                      <p className="mt-3">
                         When your pages are organized with clean headings,
                         semantic HTML, inclusion of Schema and consistent
                         formatting, it signals clarity and reliability, giving
@@ -1164,16 +1196,16 @@ export default function GetFeaturedbyPerplexity() {
                         content.
                       </p>
                       <p>Best practices:</p>
-                      <ul className="mt-2">
-                        <li>
+                      <ul>
+                        <li className="mt-2">
                           Use schema markup for{" "}
                           <b>FAQs, articles, and authors.</b>
                         </li>
-                        <li>
+                        <li className="mt-2">
                           Format with <b>semantic headings</b> that mirror
                           search questions.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           Add <b>bullet points, tables, and summaries</b> to
                           make your data more digestible.
                         </li>
@@ -1281,10 +1313,12 @@ export default function GetFeaturedbyPerplexity() {
                         information is current, relevant, and actively
                         maintained. Staying visible means staying updated.
                       </p>
-                      <p ClassNamae="mt-2">To stay relevant:</p>
+                      <p ClassNamae="mt-3">To stay relevant:</p>
                       <ul>
-                        <li>Update high-value posts every 90 days.</li>
-                        <li>
+                        <li className="mt-2">
+                          Update high-value posts every 90 days.
+                        </li>
+                        <li className="mt-2">
                           Add
                           <b>2025-relevant stats, examples, or frameworks.</b>
                         </li>
@@ -1307,7 +1341,7 @@ export default function GetFeaturedbyPerplexity() {
                       </p>
                       <p>Here’s a brief recap:</p>
                       <ul className="mt-2">
-                        <li>
+                        <li className="mt-2">
                           Write articles that are insightful, data-rich, and
                           well-structured enough to be cited.
                         </li>
@@ -1315,11 +1349,11 @@ export default function GetFeaturedbyPerplexity() {
                           Use semantic headings, clarity, and schema to organize
                           it for AI reading.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           Boost your citation gravity by being mentioned on
                           forums, Reddit, and other platforms.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           Monitor, revise, and refine just as AI engines change
                           quickly, so should your material.
                         </li>
@@ -1346,24 +1380,24 @@ export default function GetFeaturedbyPerplexity() {
                         keywords or gaming backlinks. They’re the ones:
                       </p>
                       <ul className="mt-2">
-                        <li>
+                        <li className="mt-2">
                           <b>
                             Writing like a Wikipedia entry, not a sales pitch:
                           </b>{" "}
                           clear, authoritative, and genuinely helpful.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Structuring content for humans and machines:</b>
                           using FAQs, schema markup, and bullet points that make
                           answers easy to extract.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Building real-world authority:</b> clear, getting
                           discussed on Reddit, cited in forums, and mentioned by
                           third parties (because if people don’t trust you, AI
                           won’t either).
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Treating content as a living thing:</b> updating
                           old posts, tracking where they’re cited, and refining
                           based on what sticks.
@@ -1374,9 +1408,9 @@ export default function GetFeaturedbyPerplexity() {
                         something fundamentally different. Whether you call it
                         AEO (Answer Engine Optimization), AIO (Artificial
                         Intelligence Optimization), or GEO (Generative Engine
-                        Optimization), the terminology is still evolving. But
-                        one thing is clear: its impact is real, and it’s
-                        reshaping how visibility works online.{" "}
+                        Optimization), the terminology is still evolving.{" "}
+                        <b>But one thing is clear:</b> its impact is real, and
+                        it’s reshaping how visibility works online.{" "}
                       </p>
                       <p lassName="mt-2">
                         These new engines reward content that’s genuinely

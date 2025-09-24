@@ -95,7 +95,7 @@ export default function SaasLandingPages() {
                       </h2>
                       <p className="m-0">(Follow This Flow)</p>
                       <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        1. Hero Section
+                        Hero Section
                       </h3>
                       <ul>
                         <li className="mt-2">
@@ -112,7 +112,7 @@ export default function SaasLandingPages() {
                         </li>
                       </ul>
                       <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        2. Features → Benefits
+                        Features → Benefits
                       </h3>
                       <p>
                         Mention the top features of your product and how it will
@@ -126,7 +126,7 @@ export default function SaasLandingPages() {
                         </li>
                       </ol>
                       <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        3. Social Proof
+                        Social Proof
                       </h3>
                       <ul>
                         <li className="mt-2">
@@ -141,7 +141,7 @@ export default function SaasLandingPages() {
                         </li>
                       </ul>
                       <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        4. Strategic CTAs{" "}
+                        Strategic CTAs{" "}
                       </h3>
                       <ul>
                         <li className="mt-2">
@@ -198,7 +198,7 @@ export default function SaasLandingPages() {
                       </h3>
                       <p>Build trust by teaching—not pitching</p>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        1. Alternative Pages: Your Shortcut to Stealing Market
+                        Alternative Pages: Your Shortcut to Stealing Market
                         Share (Ethically)
                       </h2>
                       <p>
@@ -360,7 +360,7 @@ export default function SaasLandingPages() {
                         </Item>
                       </figure>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        2. Reddit Threads / Subreddit / Id as an Organic Channel
+                        Reddit Threads / Subreddit / Id as an Organic Channel
                         (User-Generated SEO Goldmine)
                       </h2>
                       <p>
@@ -454,7 +454,7 @@ export default function SaasLandingPages() {
                         and community trust
                       </p>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        3 Software Migration Pages
+                        Software Migration Pages
                       </h2>
                       <p>
                         Let’s be honest, switching software is stressful. That’s
@@ -560,8 +560,8 @@ export default function SaasLandingPages() {
                         line.
                       </p>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        4. Comparison Pages: Win Where Buyers Are Stuck Between
-                        Two Choices
+                        Comparison Pages: Win Where Buyers Are Stuck Between Two
+                        Choices
                       </h2>
                       <p>
                         Let’s be real: most SaaS companies hate the idea of
@@ -685,7 +685,7 @@ export default function SaasLandingPages() {
                         decision.
                       </p>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        5. Feature Pages: Translate Functionality Into Buyer
+                        Feature Pages: Translate Functionality Into Buyer
                         Confidence
                       </h2>
                       <p>
@@ -754,58 +754,71 @@ export default function SaasLandingPages() {
                       <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         Breakdown (Real Performance)
                       </h3>
-                      <div className="panel mt-2 mb-2p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-black overflow-x-auto">
-                        <table className="uc-table uc-table-divider w-full text-left">
-                          <thead className="table-head sticky top-0 z-10 bg-white dark:bg-black">
-                            <tr className="table-row dark:border-white border-gray-900">
-                              <th className="table-header-cell p-3">
-                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
+                        <table className="uc-table uc-table-divider">
+                          <thead className="table-head sticky-top z-1 ">
+                            <tr className="table-row dark:border-white border-gray-900 bg-gray-25 dark:bg-tertiary-800">
+                              <th
+                                className="table-header-cell top pt-0 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary text-underline lg:text-none">
                                   Metric
                                 </span>
                               </th>
-                              <th className="table-header-cell p-3 text-center">
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
                                   Data
                                 </span>
                               </th>
                             </tr>
                           </thead>
-
                           <tbody className="table-body">
-                            <tr className="table-row border-gray-900 dark:border-white even:bg-gray-50 dark:even:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 transition">
-                              <th
-                                scope="row"
-                                className="p-3 fs-5 fw-bold text-dark dark:text-white"
-                              >
-                                Organic traffic to the “Tone Detector” page
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Organic traffic to the “Tone Detector” page{" "}
+                                  </span>
+                                </div>
                               </th>
-                              <td className="text-center dark:text-white">
-                                ~7,300+ visits/month
+                              <td className="pt-4 lg:pt-1">
+                                <span className="dark:text-white">
+                                  ~7,300+ visits/month
+                                </span>
                               </td>
                             </tr>
-
-                            <tr className="table-row border-gray-900 dark:border-white even:bg-gray-50 dark:even:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 transition">
-                              <th
-                                scope="row"
-                                className="p-3 fs-5 fw-bold text-dark dark:text-white"
-                              >
-                                Conversion estimate (1.2%)
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Conversion estimate (1.2%){" "}
+                                  </span>
+                                </div>
                               </th>
-                              <td className="text-center dark:text-white">
-                                ~87 new users/month
+
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  ~87 new users/month
+                                </span>
                               </td>
                             </tr>
-
-                            <tr className="table-row border-gray-900 dark:border-white even:bg-gray-50 dark:even:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 transition">
-                              <th
-                                scope="row"
-                                className="p-3 fs-5 fw-bold text-dark dark:text-white"
-                              >
-                                Ranking keywords
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Ranking keywords{" "}
+                                  </span>
+                                </div>
                               </th>
-                              <td className="text-center dark:text-white">
-                                “email tone checker”, “how to sound more
-                                professional”, “grammarly tone”
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  “email tone checker”, “how to sound more
+                                  professional”, “grammarly tone”
+                                </span>
                               </td>
                             </tr>
                           </tbody>
@@ -824,8 +837,7 @@ export default function SaasLandingPages() {
                       </p>
                       <p>That stat builds trust fast. And the soft CTA?</p>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        6. Solution Page: Speak to the People, Not Just the
-                        Product
+                        Solution Page: Speak to the People, Not Just the Product
                       </h2>
                       <p>
                         While feature pages show <b>what your tool does,</b>{" "}
@@ -884,7 +896,7 @@ export default function SaasLandingPages() {
                         <li className="mt-2">Feels helpful—not pushy</li>
                       </ul>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        7. Course Page: Share Your Smarts, Scale Your Impact
+                        Course Page: Share Your Smarts, Scale Your Impact
                       </h2>
                       <p>
                         Let me be real with you, most people don’t read manuals.
@@ -974,7 +986,7 @@ export default function SaasLandingPages() {
                         </Item>
                       </figure>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        8 Add-On: FAQ + CTA Placement Guide
+                        Add-On: FAQ + CTA Placement Guide
                       </h2>
                       <p>
                         <b>Purpose:</b> Increase SEO and GEO value + reduce

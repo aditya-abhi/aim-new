@@ -236,68 +236,111 @@ export default function LLMvsGenerativeAI() {
                         system can do and what it is primarily used for, which
                         will be discussed in the following sections.
                       </p>
-                      <div className="panel mt-2 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-black overflow-x-auto">
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
                         <table className="uc-table uc-table-divider">
-                          <thead className="table-head sticky-top z-1">
-                            <tr className="table-row dark:border-white border-gray-900">
-                              <th className="table-header-cell" scope="col">
-                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
-                                  Feature
+                          <thead className="table-head sticky-top z-1 ">
+                            <tr className="table-row dark:border-white border-gray-900 bg-gray-25 dark:bg-tertiary-800">
+                              <th
+                                className="table-header-cell top pt-0 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary text-underline lg:text-none">
+                                  Feature{" "}
                                 </span>
                               </th>
-                              <th className="table-header-cell" scope="col">
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
                                   Generative AI
                                 </span>
                               </th>
-                              <th className="table-header-cell" scope="col">
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
                                   Large Language Models (LLMs)
                                 </span>
                               </th>
                             </tr>
                           </thead>
-
                           <tbody className="table-body">
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <td className="dark:text-white">Content Type</td>
-                              <td className="dark:text-white">
-                                Creates text, images, videos, and code
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Content Type{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-8 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Creates text, images, videos, and code{" "}
+                                </span>
                               </td>
-                              <td className="dark:text-white">
-                                Primarily creates text
-                              </td>
-                            </tr>
-
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <td className="dark:text-white">Training Data</td>
-                              <td className="dark:text-white">
-                                Multimodal (text, images, video, etc.)
-                              </td>
-                              <td className="dark:text-white">
-                                Text-only datasets
-                              </td>
-                            </tr>
-
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <td className="dark:text-white">Applications</td>
-                              <td className="dark:text-white">
-                                Image generation, music, and video
-                              </td>
-                              <td className="dark:text-white">
-                                Text generation, chatbots, translation
+                              <td className="pt-8 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Primarily creates text
+                                </span>
                               </td>
                             </tr>
-
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Training Data{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Multimodal (text, images, video, etc.){" "}
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Text-only datasets
+                                </span>
+                              </td>
+                            </tr>{" "}
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <td className="dark:text-white">
-                                Core Technology
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Applications{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Image generation, music, and video{" "}
+                                </span>
                               </td>
-                              <td className="dark:text-white">
-                                GANs, VAEs, Transformers
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Text generation, chatbots, translation
+                                </span>
                               </td>
-                              <td className="dark:text-white">
-                                Transformer architecture
+                            </tr>{" "}
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Core Technology{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  GANs, VAEs, Transformers{" "}
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Transformer architecture
+                                </span>
                               </td>
                             </tr>
                           </tbody>

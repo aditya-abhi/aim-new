@@ -238,7 +238,7 @@ export default function FutureProofYourContent() {
                         trust, and other non-perishables. Here’s how:
                       </p>
                       <h3 className="h4 xl:h4 mt-4 mb-2 xl:m-3">
-                        1. Get Real with Collaboration: “Hey, We’re Humans Too!”
+                        Get Real with Collaboration: “Hey, We’re Humans Too!”
                       </h3>
                       <p className="mt-3">
                         AI can’t high-five your team or ugly-cry during a
@@ -275,7 +275,7 @@ export default function FutureProofYourContent() {
                         </li>
                       </ol>
                       <h3 className="h4 xl:h4 mt-4 mb-2 xl:m-3">
-                        2. Founder Videos: Ditch the Script, Keep the Awkward
+                        Founder Videos: Ditch the Script, Keep the Awkward
                         Pauses
                       </h3>
                       <p>
@@ -314,7 +314,7 @@ export default function FutureProofYourContent() {
                         </li>
                       </ol>
                       <h3 className="h4 xl:h4 mt-4 mb-2 xl:m-3">
-                        3. Publish Research: Be the Sherlock Holmes of Your
+                        Publish Research: Be the Sherlock Holmes of Your
                         Industry
                       </h3>
                       <p>
@@ -335,7 +335,7 @@ export default function FutureProofYourContent() {
                         source.
                       </p>
                       <h3 className="h4 xl:h4 mt-4 mb-2 xl:m-3">
-                        4. Evergreen Content: The Strategy That Keeps Giving
+                        Evergreen Content: The Strategy That Keeps Giving
                       </h3>
                       <p>
                         While many like to chase trends, you build authority
