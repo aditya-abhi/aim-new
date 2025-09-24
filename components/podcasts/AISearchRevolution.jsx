@@ -1599,7 +1599,7 @@ export default function AISearchRevolution({ blogItem }) {
               </div>
             </div>
             <hr className="w-100 m-0 d-block mt-4 lg:mt-6 xl:mt-8" />
-            <Blog1Faqs />
+            {/* <Blog1Faqs /> */}
             <div className="post-footer panel vstack sm:hstack gap-3 justify-between justifybetween border-top py-4 mt-4 xl:py-9 xl:mt-9">
               <ul className="nav-x gap-narrow text-primary">
                 <li>
