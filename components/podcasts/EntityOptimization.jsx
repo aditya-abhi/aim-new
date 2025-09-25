@@ -121,6 +121,14 @@ export default function EntityOptimization({ blogItem }) {
             </div>
           </div>
         </div>
+        <div className="container mt-3 text-center">
+          <h2 className="h6 text-dark dark:text-white">
+            Published on:{" "}
+            <span className="text-tertiary dark:text-primary">
+              Aug 02, 2025{" "}
+            </span>{" "}
+          </h2>
+        </div>
         <div className="panel mt-6 lg:mt-6 xl:mt-9">
           <div className="container">
             <div className="row child-cols-12 g-6 md:g-4 xl:g-6">
@@ -1388,7 +1396,8 @@ export default function EntityOptimization({ blogItem }) {
                                 <ul className="fs-5">
                                   <li className="mt-2">
                                     Wittypen. (n.d.). SEO case studies.
-                                    Retrieved from{" "}
+                                    Retrieved from
+                                    <br />
                                     <a
                                       href="https://wittypen.com/blog/seo-case-studies/"
                                       className="text-blue"
@@ -1399,7 +1408,8 @@ export default function EntityOptimization({ blogItem }) {
                                   </li>
                                   <li className="mt-2">
                                     AdLift. (n.d.). A beginner’s guide to
-                                    semantic search. Retrieved from{" "}
+                                    semantic search. Retrieved from
+                                    <br />
                                     <a
                                       href="https://www.adlift.com/in/blog/a-beginners-guide-to-semantic-search/s/"
                                       className="text-blue"
@@ -1424,7 +1434,8 @@ export default function EntityOptimization({ blogItem }) {
                                     Computing Community Consortium. (2024,
                                     December). Future of information retrieval
                                     research in the age of generative AI [PDF].
-                                    Retrieved from{" "}
+                                    Retrieved from
+                                    <br></br>
                                     <a
                                       href="https://cra.org/ccc/wp-content/uploads/sites/2/2024/12/CCC-Report_-Future-of-Information-Retrieval-Research-in-the-Age-of-Generative-AI_FINAL.pdf"
                                       className="text-blue"
@@ -1435,7 +1446,7 @@ export default function EntityOptimization({ blogItem }) {
                                   </li>
                                   <li className="mt-2">
                                     The SEO Works. (n.d.). Entity SEO. Retrieved
-                                    from{" "}
+                                    from <br />
                                     <a
                                       href="https://www.seoworks.co.uk/entity-seo/"
                                       className="text-blue"
@@ -1470,7 +1481,8 @@ export default function EntityOptimization({ blogItem }) {
                                   </li>
                                   <li className="mt-2">
                                     Rush Analytics. (n.d.). Google SEO entities.
-                                    Retrieved from{" "}
+                                    Retrieved from
+                                    <br />
                                     <a
                                       href="https://rush-analytics.com/blog/google-seo-entities"
                                       className="text-blue"
@@ -1481,7 +1493,8 @@ export default function EntityOptimization({ blogItem }) {
                                   </li>
                                   <li className="mt-2">
                                     IMMWIT. (n.d.). NLP query understanding.
-                                    Retrieved from{" "}
+                                    Retrieved from
+                                    <br />
                                     <a
                                       href="https://www.immwit.com/wiki/nlp-query-understanding/"
                                       className="text-blue"
@@ -1504,7 +1517,8 @@ export default function EntityOptimization({ blogItem }) {
                                   </li>
                                   <li className="mt-2">
                                     Surfer SEO. (n.d.). Entity SEO. Retrieved
-                                    from{" "}
+                                    from
+                                    <br />
                                     <a
                                       href="https://surferseo.com/blog/entity-seo/"
                                       className="text-blue"
@@ -1515,7 +1529,8 @@ export default function EntityOptimization({ blogItem }) {
                                   </li>
                                   <li className="mt-2">
                                     Clearscope. (n.d.). What is an entity in
-                                    SEO?. Retrieved from{" "}
+                                    SEO?. Retrieved from
+                                    <br />
                                     <a
                                       href="https://www.clearscope.io/blog/what-is-an-entity-in-SEO"
                                       className="text-blue"
@@ -1526,7 +1541,8 @@ export default function EntityOptimization({ blogItem }) {
                                   </li>
                                   <li className="mt-2">
                                     AI Monitor. (n.d.). What is answer engine
-                                    optimization?. Retrieved from{" "}
+                                    optimization?. Retrieved from
+                                    <br />
                                     <a
                                       href="https://getaimonitor.com/what-is-answer-engine-optimization/"
                                       className="text-blue"
@@ -1537,7 +1553,8 @@ export default function EntityOptimization({ blogItem }) {
                                   </li>
                                   <li className="mt-2">
                                     Syntactics Inc. (n.d.). Keywords and
-                                    entities. Retrieved from{" "}
+                                    entities. Retrieved from
+                                    <br />
                                     <a
                                       href="https://www.syntacticsinc.com/news-articles-cat/keywords-and-entities/#google_vignette"
                                       className="text-blue"

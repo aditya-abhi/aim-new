@@ -27,62 +27,6 @@ export default function GEOChecklist() {
                       className="post-content panel fs-6 md:fs-5 ml-2"
                       data-uc-lightbox="animation: scale"
                     >
-                      <p className="">
-                        Imagine this: you’ve poured weeks into crafting the
-                        perfect blog post, packed with keywords, SEO brilliance,
-                        and polished to perfection. Then, like a scene straight
-                        out of The Terminator, ChatGPT storms in, rewrites it in
-                        mere seconds, and just like that, your masterpiece
-                        becomes another ripple in the AI ocean. Sound familiar?
-                      </p>
-                      <p className="mt-3">
-                        The demand for future-proof, original content has never
-                        been more urgent. In this AI-driven era, if content
-                        creation is at the core of your work or if your platform
-                        relies on content for visibility, then securing your
-                        content’s relevance is not just important, but
-                        essential. Now is the time to ensure your content stands
-                        out and remains valuable in an evolving digital
-                        landscape.
-                      </p>
-                      <p className="mt-3">
-                        The sheer volume of AI-generated content is predicted to
-                        reach 60% of everything published online by the end of
-                        2025. And this is when the online world becomes
-                        massively cluttered. In this article, we explore key
-                        strategies for crafting evergreen content that remains
-                        relevant over time, helping you stand out in the
-                        evolving landscape of AI-driven search.
-                      </p>
-                      <figure className="my-3 sm:my-4">
-                        <Item
-                          original="/assets/images/blog/post-2.jpg"
-                          thumbnail="/assets/images/blog/post-2.jpg"
-                          width="1280"
-                          height="853"
-                        >
-                          {({ ref, open }) => (
-                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
-                              <Image
-                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                                alt="Pink Marketing, by Mak"
-                                src="/assets/images/blog/internal/FutureProofYourContent1.webp"
-                                width="1280"
-                                height="853"
-                                ref={ref}
-                              />
-                              <a
-                                onClick={open}
-                                className="position-cover"
-                                data-caption="Pink Marketing, by Mak"
-                              ></a>
-                            </figure>
-                          )}
-                        </Item>
-                      </figure>
-                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        Introduction
-                      </h2>
                       <p className="fw-bold ">
                         Goodbye, SEO—Hello, GEO! The New Era of Search Has
                         Arrived

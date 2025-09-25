@@ -118,6 +118,14 @@ export default function AEORedefiningAIPoweredSearch({ blogItem }) {
             </div>
           </div>
         </div>
+        <div className="container mt-3 text-center">
+          <h2 className="h6 text-dark dark:text-white">
+            Published on:{" "}
+            <span className="text-tertiary dark:text-primary">
+              May 24, 2025{" "}
+            </span>{" "}
+          </h2>
+        </div>
         <div className="panel mt-6 lg:mt-6 xl:mt-9">
           <div className="container">
             <div className="row child-cols-12 g-6 md:g-4 xl:g-6">
@@ -1702,6 +1710,7 @@ export default function AEORedefiningAIPoweredSearch({ blogItem }) {
                                   <li>
                                     AEO vs. GEO: Why They're the Same Thing (and
                                     Why We Prefer AEO) (Profound):
+                                    <br />
                                     <a
                                       href="https://www.tryprofound.com/blog/aeo-vs-geo 
 "
@@ -1713,6 +1722,7 @@ export default function AEORedefiningAIPoweredSearch({ blogItem }) {
                                   </li>
                                   <li className="mt-2">
                                     AI Overviews (Wikipedia):
+                                    <br />
                                     <a
                                       href="https://en.wikipedia.org/w/index.php?title=AI_Overviews&oldid=1312165534 
 
@@ -1726,6 +1736,7 @@ export default function AEORedefiningAIPoweredSearch({ blogItem }) {
                                   <li className="mt-2">
                                     AI Overviews, Vanishing Clicks, and the New
                                     Math of Commerce Content (Martech Record):
+                                    <br />
                                     <a
                                       href="https://martechrecord.com/analysis-and-opinion/ai-overviews-vanishing-clicks-and-the-new-math-of-commerce-content/ 
 "
@@ -1738,6 +1749,7 @@ export default function AEORedefiningAIPoweredSearch({ blogItem }) {
                                   <li className="mt-2">
                                     Artificial intelligence optimization
                                     (Wikipedia):
+                                    <br />
                                     <a
                                       href="https://en.wikipedia.org/w/index.php?title=Artificial_intelligence_optimization&oldid=1311686459
 "
@@ -1750,6 +1762,7 @@ export default function AEORedefiningAIPoweredSearch({ blogItem }) {
                                   <li className="mt-2">
                                     AI Features and Your Website (Google Search
                                     Central Documentation):
+                                    <br />
                                     <a
                                       href="https://developers.google.com/search/docs/appearance/ai-features 
 "
@@ -1762,6 +1775,7 @@ export default function AEORedefiningAIPoweredSearch({ blogItem }) {
                                   <li className="mt-2">
                                     Generative Engine Optimization: 10 Tips To
                                     Boost AI Visibility in 2025 (Writesonic):
+                                    <br />
                                     <a
                                       href="https://writesonic.com/blog/generative-engine-optimization-geo-tips
 "
@@ -1774,6 +1788,7 @@ export default function AEORedefiningAIPoweredSearch({ blogItem }) {
                                   <li className="mt-2">
                                     How Google’s AI Overviews Choose Sources
                                     (and How to Become One) (LinkBuilder.io):
+                                    <br />
                                     <a
                                       href="https://linkbuilder.io/google-ai-overviews/ 
 "
@@ -1786,6 +1801,7 @@ export default function AEORedefiningAIPoweredSearch({ blogItem }) {
                                   <li className="mt-2">
                                     AI Features and Your Website (Google Search
                                     Central Documentation):
+                                    <br />
                                     <a
                                       href="https://developers.google.com/search/docs/appearance/ai-features 
 "
@@ -1798,6 +1814,7 @@ export default function AEORedefiningAIPoweredSearch({ blogItem }) {
                                   <li className="mt-2">
                                     How Google’s E-E-A-T Framework Impacts Brand
                                     Visibility in AI Search Results (Yext):
+                                    <br />
                                     <a
                                       href="https://www.yext.com/blog/2025/07/how-google-e-e-a-t-framework-impacts-ai-visibility 
 "
@@ -1811,6 +1828,7 @@ export default function AEORedefiningAIPoweredSearch({ blogItem }) {
                                     How SEO, AEO, and GEO Are Reshaping Digital
                                     Marketing (Academic/Research Article, but
                                     listed as coming from
+                                    <br />
                                     <a
                                       href="https://ai-seoservices.com/seo-aeo-geo-reshaping-digital-marketing/ 
 "
@@ -1823,6 +1841,7 @@ export default function AEORedefiningAIPoweredSearch({ blogItem }) {
                                   <li className="mt-2">
                                     How to Optimise E-E-A-T for AI Search
                                     (Targeted SEO):
+                                    <br />
                                     <a
                                       href="https://targetedseo.co.uk/how-to-optimise-e-e-a-t-for-ai-search/
 "
@@ -1835,6 +1854,7 @@ export default function AEORedefiningAIPoweredSearch({ blogItem }) {
                                   <li className="mt-2">
                                     Long-Tail Keyword Optimization for AI
                                     (BrightEdge SEO Blog):
+                                    <br />
                                     <a
                                       href="https://www.brightedge.com/blog/long-tail-keyword-optimization-ai
 "
@@ -1847,6 +1867,7 @@ export default function AEORedefiningAIPoweredSearch({ blogItem }) {
                                   <li className="mt-2">
                                     New data: Google AI Overviews are hurting
                                     click-through rates (Search Engine Land):
+                                    <br />
                                     <a
                                       href="https://searchengineland.com/goo 
 "

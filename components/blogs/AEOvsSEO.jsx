@@ -27,10 +27,10 @@ export default function AEOvsSEO() {
                       className="post-content panel fs-6 md:fs-5 ml-2"
                       data-uc-lightbox="animation: scale"
                     >
-                      <h2 className="mt-3">
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         Introduction: AEO vs SEO in the Age of AI-Driven Search
                       </h2>
-                      <p className="mt-3">
+                      <p>
                         Imagine this: You’re Googling “
                         <strong>best hiking boots for rocky terrain.</strong>”
                         In 2015, you’d scroll through 10 blue links. In 2025?
@@ -48,11 +48,10 @@ export default function AEOvsSEO() {
                         skill. In this blog, we are going to cover the
                         difference between AEO and SEO.
                       </p>
-
-                      <h2 className="mt-3">
+                      <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         What is AEO? Answer Engine Optimization for AI Search
-                      </h2>
-                      <p className="mt-3">
+                      </h3>
+                      <p>
                         If SEO is the librarian who helps you find the right
                         book, AEO is the friend who just hands you the exact
                         page you need.{" "}
@@ -61,26 +60,27 @@ export default function AEOvsSEO() {
                         direct answers in AI-generated summaries, voice search,
                         and zero-click results.
                       </p>
-                      <h3 className="mt-3">Example of AEO:</h3>
-                      <ul className="mt-3">
-                        <li>
+                      <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
+                        Example of AEO:
+                      </h3>{" "}
+                      <ul>
+                        <li className="mt-2">
                           <strong> AI Overviews:</strong> These are the
                           summaries you see at the top of Google’s search
                           results. Want a deep on on What Google AI Overview
                           is?, visit this post.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <strong>Voice Search Responses</strong>: Think Alexa,
                           Siri, or Google Assistant answering your questions.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <strong>Zero-Click Results:</strong> Featured snippets
                           that give users the info they need without clicking
                           through.
                         </li>
                       </ul>
                       {/* css image */}
-
                       <p className="mt-3">
                         If the examples above sound bland to you, let me give
                         you a culinary analogy to explain the concept of Answer
@@ -112,9 +112,10 @@ export default function AEOvsSEO() {
                         dinner before your smoke alarm does.
                       </p>
                       {/* CSS Image */}
-
-                      <h2 className="mt-3">SEO: The O.G. Hustler </h2>
-                      <p className="mt-3">
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        SEO: The O.G. Hustler
+                      </h2>
+                      <p>
                         Remember, the days when you could boost rankings simply
                         by jamming keywords into every possible nook and cranny?
                         That was the era of keyword stuffing, a strategy that
@@ -122,7 +123,6 @@ export default function AEOvsSEO() {
                         coffee maker” fifty times was considered savvy. Can you
                         imagine?
                       </p>
-
                       <p className="mt-3">
                         But those days are over. Google has outsmarted such
                         tactics. Today’s SEO landscape demands finesse. It’s no
@@ -144,64 +144,66 @@ export default function AEOvsSEO() {
                           Ignore SEO
                         </strong>
                       </p>
-                      <p className="mt-1">
+                      <p className="mt-3">
                         SEO is like a long-term relationship. You’ve got to
                         nurture it, put in the effort, and keep things fresh.
                         Neglect it, and you’ll find yourself ghosted by Google
                         faster than a bad Tinder date.
                       </p>
-
                       {/*Css Image  */}
-
-                      <h2 className="mt-3">
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         How to Marry AEO & SEO (My Hacks That Actually Work)
                       </h2>
-                      <h3 className="mt-3">
+                      <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         AEO Hack #1: Layer Structured Data on SEO-Optimized
                         Pages
                       </h3>
-                      <p className="mt-3">
+                      <p>
                         Example: SaaS company FlowPath added HowTo schema to its
                         “Project Management Guide,” earning a 40% CTR boost from
                         position-zero snippets.
                       </p>
-                      <h3 className="mt-3">
+                      <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         AEO Hack #2 Repurpose Top Content for Voice Search
                       </h3>
-                      <p className="mt-3">
+                      <p>
                         Tactic: Turn “How to Start a Podcast” into a Q&A format
                         targeting Alexa/Google Assistant queries.
                       </p>
-                      <h3 className="mt-3">
+                      <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         AEO Hack #3 Answer Questions Upfront, Then Dive Deep
                       </h3>
-                      <p className="mt-3">
+                      <p>
                         Use headers like “What is [Topic]?” to capture AEO
                         snippets, followed by detailed SEO-optimized sections.
                       </p>
-                      <h3 className="mt-3">
+                      <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         AEO Hack #4 Build Authority with E-E-AOT (Experience,
                         Expertise, Authoritativeness, Trustworthiness)
                       </h3>
-                      <p className="mt-3">
+                      <p>
                         Case Study: FinTech startup MoneySphere increased demo
                         requests by 70% by adding “As seen in TechCrunch” badges
                         and founder video explainers.
                       </p>
-                      <h3 className="mt-3">
-                        Hack #5 Optimize for Both Keyword AI Prompts{" "}
+                      <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
+                        Hack #5 Optimize for Both Keyword AI Prompts s{" "}
                       </h3>
-                      <p className="mt-3">
+                      <p>
                         Target short-tail keywords (SEO) and long-tail questions
                         (AEO) like “How does AEO work?”.
                       </p>
-                      <h3 className="mt-3">Hack #6 Repurpose Top Content</h3>
-                      <p className="mt-3">
+                      <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
+                        Hack #6 Repurpose Top Content
+                      </h3>
+                      <p>
                         Turn blog posts into voice-search-friendly Q&A guides or
                         video summaries.
                       </p>
-                      <h3 className="mt-3">Hack #7 Leverage Structured Data</h3>
-                      <p className="mt-3">
+                      <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
+                        Hack #7 Leverage Structured Data
+                      </h3>
+                      <p>
                         Implement FAQ, How-To, and Q&A schema markup to boost
                         AEO visibility.
                         <strong>
@@ -210,10 +212,10 @@ export default function AEOvsSEO() {
                           more likely to appear in ChatGPT and Perplexity AI.
                         </strong>
                       </p>
-                      <h3 className="mt-3">
+                      <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         Hack #8 Collaborate With Third Party Review Sites
                       </h3>
-                      <p className="mt-3">
+                      <p>
                         Third-party reviews and comparison sites such as
                         TrustPilot and ReveiwRecap.io highly influence results
                         generated by Answer Engines. As per our latest study,
@@ -221,14 +223,10 @@ export default function AEOvsSEO() {
                         before purchasing or visiting local shops.
                       </p>
                       {/* CSS Image */}
-
-                      <h2 className="mt-3">
-                        <strong>
-                          Conclusion: Future-Proof Your Strategy with AEO and
-                          SEO
-                        </strong>
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        Conclusion: Future-Proof Your Strategy with AEO and SEO
                       </h2>
-                      <p className="mt-3">
+                      <p>
                         <strong>AEO vs SEO</strong> isn’t a battle—it’s a
                         partnership. To survive AI search, you need both: SEO
                         for the deep divers, AEO for the “I-need-this-now”
@@ -242,7 +240,7 @@ export default function AEOvsSEO() {
                         answers (AEO), brands can thrive in both traditional and
                         AI-powered Answer Engines.
                       </p>
-                      <p className="mt-3">
+                      <p>
                         <strong>Ready to optimize for both?</strong> Start by
                         auditing your content for AEO opportunities and
                         partnering with an SEO agency versed in AI search

@@ -116,6 +116,14 @@ export default function AISearchRevolution({ blogItem }) {
             </div>
           </div>
         </div>
+        <div className="container mt-3 text-center">
+          <h2 className="h6 text-dark dark:text-white">
+            Published on:{" "}
+            <span className="text-tertiary dark:text-primary">
+              May 31, 2025{" "}
+            </span>{" "}
+          </h2>
+        </div>
         <div className="panel mt-6 lg:mt-6 xl:mt-9">
           <div className="container">
             <div className="row child-cols-12 g-6 md:g-4 xl:g-6">
@@ -1537,6 +1545,7 @@ export default function AISearchRevolution({ blogItem }) {
                                   <li className="mt-1">
                                     Step by Step Guide: How to Create and
                                     Implement an llms.txt File - AI Monitor
+                                    <br />
                                     <a
                                       href="https://getaimonitor.com/step-by-step-to-create-and-implement-llms-txt-file/
 "
@@ -1548,6 +1557,7 @@ export default function AISearchRevolution({ blogItem }) {
                                   </li>
                                   <li className="mt-1">
                                     GEO: Generative Engine Optimization - arXiv
+                                    <br />
                                     <a
                                       href="https://generative-engines.com/GEO/
 "
@@ -1559,6 +1569,7 @@ export default function AISearchRevolution({ blogItem }) {
                                   </li>
                                   <li className="mt-1">
                                     What is Llms.txt File and What Does It Do?
+                                    <br />
                                     <a
                                       href="https://llmstxt.org/ "
                                       className="text-blue"
@@ -1571,6 +1582,7 @@ export default function AISearchRevolution({ blogItem }) {
                                     A Strategic Outlook on LLM SEO: Using
                                     File-Format Logic to Guide AI-Optimized
                                     Content Design
+                                    <br />
                                     <a
                                       href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5375528"
                                       className="text-blue"

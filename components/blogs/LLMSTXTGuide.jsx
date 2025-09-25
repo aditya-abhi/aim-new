@@ -394,26 +394,38 @@ Our tested recipes and in-depth guides help home cooks master plant-based cookin
                         Key Differences Between llms.txt and Traditional SEO
                         Files
                       </h2>
-                      <div className="panel mt-2 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-black overflow-x-auto">
-                        <table className="uc-table uc-table-divider w-full">
-                          <thead className="table-head sticky-top z-1">
-                            <tr className="table-row dark:border-white border-gray-900">
-                              <th className="table-header-cell">
-                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
-                                  Factor
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
+                        <table className="uc-table uc-table-divider">
+                          <thead className="table-head sticky-top z-1 ">
+                            <tr className="table-row dark:border-white border-gray-900 bg-gray-25 dark:bg-tertiary-800">
+                              <th
+                                className="table-header-cell top pt-0 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary text-underline lg:text-none">
+                                  Feature
                                 </span>
                               </th>
-                              <th className="table-header-cell">
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
                                   llms.txt
                                 </span>
                               </th>
-                              <th className="table-header-cell">
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
                                   robots.txt
                                 </span>
                               </th>
-                              <th className="table-header-cell">
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
                                   sitemap.xml
                                 </span>
@@ -421,129 +433,120 @@ Our tested recipes and in-depth guides help home cooks master plant-based cookin
                             </tr>
                           </thead>
                           <tbody className="table-body">
-                            {/* Row 1 */}
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <th scope="row">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     Primary Purpose
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-4 lg:pt-1">
                                 <span className="dark:text-white">
                                   Guides AI understanding
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-4 lg:pt-1">
                                 <span className="dark:text-white">
                                   Blocks or allows crawlers
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-4 lg:pt-1">
                                 <span className="dark:text-white">
                                   Lists crawlable pages
                                 </span>
                               </td>
                             </tr>
-
-                            {/* Row 2 */}
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th scope="row">
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     Format
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Markdown
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Plain text
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">XML</span>
                               </td>
                             </tr>
-
-                            {/* Row 3 */}
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <th scope="row">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     Audience
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   LLMs (ChatGPT, Claude)
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Search engine bots
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
-                                  Search engines (Google, Bing)
+                                  Search engines such as Google or Bing
                                 </span>
                               </td>
                             </tr>
-
-                            {/* Row 4 */}
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th scope="row">
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     Content
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Priorities + context
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Access restrictions
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white justify-center">
                                   URL inventory
                                 </span>
                               </td>
                             </tr>
-
-                            {/* Row 5 */}
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <th scope="row">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     Impact
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   AI recommendations
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Search visibility
                                 </span>
                               </td>
-                              <td>
-                                <span className="dark:text-white">
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white justify-center">
                                   Indexing
                                 </span>
                               </td>
@@ -1136,12 +1139,18 @@ Our tested recipes and in-depth guides help home cooks master plant-based cookin
                         strategy. By taking the time to:
                       </p>
                       <ol className="">
-                        <li className="mt-1">Properly structure your file</li>
                         <li className="mt-1">
-                          Thoughtfully prioritize content
+                          <b>Properly structure</b> your file
                         </li>
-                        <li className="mt-1">Provide meaningful context</li>
-                        <li className="mt-1">Maintain and update regularly</li>
+                        <li className="mt-1">
+                          <b> Thoughtfully prioritize</b> content
+                        </li>
+                        <li className="mt-1">
+                          <b>Provide meaningful context</b>
+                        </li>
+                        <li className="mt-1">
+                          <b>Maintain and update</b> regularly
+                        </li>
                       </ol>
                       <p className="mt-3">
                         You position your website to thrive in an increasingly

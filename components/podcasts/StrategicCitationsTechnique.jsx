@@ -119,6 +119,14 @@ export default function StrategicCitationsTechnique({ blogItem }) {
             </div>
           </div>
         </div>
+        <div className="container mt-3 text-center">
+          <h2 className="h6 text-dark dark:text-white">
+            Published on:{" "}
+            <span className="text-tertiary dark:text-primary">
+              June 14, 2025{" "}
+            </span>{" "}
+          </h2>
+        </div>
         <div className="panel mt-6 lg:mt-6 xl:mt-9">
           <div className="container">
             <div className="row child-cols-12 g-6 md:g-4 xl:g-6">
@@ -1256,6 +1264,7 @@ export default function StrategicCitationsTechnique({ blogItem }) {
                                   <li className="mt-3">
                                     WPBeginner. (n.d.). How to get your
                                     WordPress content cited by AI tools.
+                                    <br />
                                     <a
                                       href="https://www.wpbeginner.com/beginners-guide/how-to-get-your-wordpress-content-cited-by-ai-tools/"
                                       className="text-blue"
@@ -1266,6 +1275,7 @@ export default function StrategicCitationsTechnique({ blogItem }) {
                                   </li>
                                   <li className="mt-3">
                                     Omnius. (n.d.). How to get cited by AI.
+                                    <br />
                                     <a
                                       href="https://www.omnius.so/blog/how-to-get-cited-by-ai"
                                       className="text-blue"
@@ -1277,6 +1287,7 @@ export default function StrategicCitationsTechnique({ blogItem }) {
                                   <li className="mt-3">
                                     Segment SEO. (n.d.). How to get cited by AI:
                                     The complete B2B SaaS guide.
+                                    <br />
                                     <a
                                       href="https://www.segmentseo.com/blog/how-to-get-cited-by-ai-the-complete-b2b-saas-guide"
                                       className="text-blue"
@@ -1288,6 +1299,7 @@ export default function StrategicCitationsTechnique({ blogItem }) {
                                   <li className="mt-3">
                                     University of Florida Libraries. (n.d.). FAQ
                                     on generative AI citations.
+                                    <br />
                                     <a
                                       href="https://answers.businesslibrary.uflib.ufl.edu/genai/faq/413612"
                                       className="text-blue"
@@ -1300,6 +1312,7 @@ export default function StrategicCitationsTechnique({ blogItem }) {
                                     BlueText. (n.d.). Answer Engine Optimization
                                     (AEO) for B2B SaaS: How to stay competitive
                                     in the AI-driven marketplace.
+                                    <br />
                                     <a
                                       href="https://bluetext.com/blog/answer-engine-optimization-aeo-for-b2b-saas-how-to-stay-competitive-in-the-ai-driven-marketplace/"
                                       className="text-blue"
@@ -1311,6 +1324,7 @@ export default function StrategicCitationsTechnique({ blogItem }) {
                                   <li className="mt-3">
                                     Arxiv.org. (2023). [PDF] Generative AI
                                     citation strategies.
+                                    <br />
                                     <a
                                       href="https://arxiv.org/pdf/2311.09735"
                                       className="text-blue"
@@ -1322,6 +1336,7 @@ export default function StrategicCitationsTechnique({ blogItem }) {
                                   <li className="mt-3">
                                     Evolve IQ Newsletter. (n.d.). B2B guide to
                                     GEO.
+                                    <br />
                                     <a
                                       href="https://newsletter.evolve-iq.com/p/b2b-guide-to-geo"
                                       className="text-blue"
@@ -1333,6 +1348,7 @@ export default function StrategicCitationsTechnique({ blogItem }) {
                                   <li className="mt-3">
                                     Terakeet. (n.d.). Content strategy for
                                     Generative Engine Optimization (GEO).
+                                    <br />
                                     <a
                                       href="https://terakeet.com/blog/content-strategy-for-generative-engine-optimization-geo/"
                                       className="text-blue"
@@ -1344,6 +1360,7 @@ export default function StrategicCitationsTechnique({ blogItem }) {
                                   <li className="mt-3">
                                     Wikipedia. (n.d.). Artificial intelligence
                                     optimization.
+                                    <br />
                                     <a
                                       href="https://en.wikipedia.org/wiki/Artificial_intelligence_optimization
 "
@@ -1356,6 +1373,7 @@ export default function StrategicCitationsTechnique({ blogItem }) {
                                   <li className="mt-3">
                                     Generative Engines. (n.d.). GEO (Generative
                                     Engine Optimization).
+                                    <br />
                                     <a
                                       href="https://generative-engines.com/GEO/
 "
@@ -1368,6 +1386,7 @@ export default function StrategicCitationsTechnique({ blogItem }) {
                                   <li className="mt-3">
                                     ACM Digital Library. (2023). DOI:
                                     10.1145/3637528.3671900.
+                                    <br />
                                     <a
                                       href="https://doi.org/10.1145/3637528.3671900
 "
@@ -1380,6 +1399,7 @@ export default function StrategicCitationsTechnique({ blogItem }) {
                                   <li className="mt-3">
                                     Search Engine Land. (n.d.). How to get cited
                                     by AI: SEO insights from 8,000 AI citations.
+                                    <br />
                                     <a
                                       href="https://searchengineland.com/how-to-get-cited-by-ai-seo-insights-from-8000-ai-citations-455284
 "
@@ -1392,6 +1412,7 @@ export default function StrategicCitationsTechnique({ blogItem }) {
                                   <li className="mt-3">
                                     PR Agency One. (2025). AI optimisation
                                     report.
+                                    <br />
                                     <a
                                       href="https://www.pragencyone.co.uk/wp-content/uploads/2025/08/AI-optimisation-paper-report-PR-Agency-One.pdf
 "
@@ -1405,6 +1426,7 @@ export default function StrategicCitationsTechnique({ blogItem }) {
                                     Forbes. (2025, September 12). PR is your
                                     megaphone: The visibility imperative for
                                     AI-era brands.
+                                    <br />
                                     <a
                                       href="https://forbes.com/councils/forbesagencycouncil/2025/09/12/pr-is-your-megaphone-the-visibility-imperative-for-ai-era-brands/
 "
@@ -1417,6 +1439,7 @@ export default function StrategicCitationsTechnique({ blogItem }) {
                                   <li className="mt-3">
                                     Wikipedia. (n.d.). Retrieval-augmented
                                     generation.
+                                    <br />
                                     <a
                                       href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation
 "
@@ -1429,6 +1452,7 @@ export default function StrategicCitationsTechnique({ blogItem }) {
                                   <li className="mt-3">
                                     Jagran Josh. (n.d.). Differences and
                                     similarities between SEO and GEO.
+                                    <br />
                                     <a
                                       href="https://www.jagranjosh.com/general-knowledge/differences-and-similarities-between-seo-and-geo-
 "
@@ -1440,6 +1464,7 @@ export default function StrategicCitationsTechnique({ blogItem }) {
                                   </li>
                                   <li className="mt-3">
                                     Ahrefs. (n.d.). SEO vs GEO.
+                                    <br />
                                     <a
                                       href="https://ahrefs.com/blog/seo-vs-geo/1820002698-1
 "
@@ -1454,6 +1479,7 @@ export default function StrategicCitationsTechnique({ blogItem }) {
                                     technique #3 for Generative Engine
                                     Optimization (GEO) — Mastery Series Episode
                                     11.
+                                    <br />
                                     <a
                                       href="https://ahrefs.com/blog/seo-vs-geo/1820002698-1
 "
@@ -1466,6 +1492,7 @@ export default function StrategicCitationsTechnique({ blogItem }) {
                                   <li className="mt-3">
                                     GoVisible.ai. (n.d.). The best Generative
                                     Engine Optimization (GEO) tools.
+                                    <br />
                                     <a
                                       href="https://govisible.ai/blog/the-best-generative-engine-optimization-geo-tools/
 "
@@ -1478,6 +1505,7 @@ export default function StrategicCitationsTechnique({ blogItem }) {
                                   <li className="mt-3">
                                     Xfunnel.ai. (n.d.). What sources do AI
                                     search engines choose?
+                                    <br />
                                     <a
                                       href="https://www.xfunnel.ai/blog/what-sources-do-ai-search-engines-choose
 "

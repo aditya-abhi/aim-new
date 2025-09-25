@@ -116,6 +116,14 @@ export default function RedditShapingAISearch({ blogItem }) {
             </div>
           </div>
         </div>
+        <div className="container mt-3 text-center">
+          <h2 className="h6 text-dark dark:text-white">
+            Published on:{" "}
+            <span className="text-tertiary dark:text-primary">
+              June 07, 2025{" "}
+            </span>{" "}
+          </h2>
+        </div>
         <div className="panel mt-6 lg:mt-6 xl:mt-9">
           <div className="container">
             <div className="row child-cols-12 g-6 md:g-4 xl:g-6">
@@ -1620,6 +1628,7 @@ export default function RedditShapingAISearch({ blogItem }) {
                                   <li>
                                     Excerpts from "Actual marketing strategy? :
                                     r/marketing - Reddit"
+                                    <br />
                                     <a
                                       href="https://www.reddit.com/r/marketing/comments/ul8x14/actual_marketing_strategy/ "
                                       className="text-blue"
@@ -1631,6 +1640,7 @@ export default function RedditShapingAISearch({ blogItem }) {
                                   <li>
                                     Excerpts from "Generative Engine
                                     Optimization : r/TechSEO - Reddit"
+                                    <br />
                                     <a
                                       href="https://www.reddit.com/r/TechSEO/comments/1c3ft15/generative_engine_optimization/"
                                       className="text-blue"
@@ -1643,6 +1653,7 @@ export default function RedditShapingAISearch({ blogItem }) {
                                     Excerpts from "Geo Marketing Strategies:
                                     Boost Sales with Location-Based Insights -
                                     42Signals"
+                                    <br />
                                     <a
                                       href="https://www.42signals.com/blog/geomarketing-strategies/"
                                       className="text-blue"
@@ -1655,6 +1666,7 @@ export default function RedditShapingAISearch({ blogItem }) {
                                     Excerpts from "Geotargeting: A Guide to
                                     Creating High-Performing Ads - Reddit for
                                     Business"
+                                    <br />
                                     <a
                                       href="https://www.redditforbusiness.com/blog/geotargeting-guide"
                                       className="text-blue"
@@ -1666,6 +1678,7 @@ export default function RedditShapingAISearch({ blogItem }) {
                                   <li>
                                     Excerpts from "How AI Is Redefining
                                     Reputation Management - WisdomInterface"
+                                    <br />
                                     <a
                                       href="https://wisdominterface.com/how-ai-is-redefining-reputation-management/"
                                       className="text-blue"
@@ -1677,6 +1690,7 @@ export default function RedditShapingAISearch({ blogItem }) {
                                   <li>
                                     Excerpts from "How to Track Reddit Mentions?
                                     - Brand24"
+                                    <br />
                                     <a
                                       href="https://brand24.com/blog/how-to-track-reddit-mentions/"
                                       className="text-blue"
@@ -1689,6 +1703,7 @@ export default function RedditShapingAISearch({ blogItem }) {
                                     Excerpts from "Leverage Reddit for
                                     Generative Engine Optimization in 2025 - AI
                                     Monitor"
+                                    <br />
                                     <a
                                       href="https://www.aimonitor.com/leverage-reddit-for-generative-engine-optimization-boost-your-brand-with-strategic-reddit-geo-marketing/"
                                       className="text-blue"
@@ -1701,6 +1716,7 @@ export default function RedditShapingAISearch({ blogItem }) {
                                     Excerpts from "Measuring the ROI of Reddit
                                     Marketing Efforts for Agencies: Tools,
                                     Tactics, and Best Practices - Subtle"
+                                    <br />
                                     <a
                                       href="https://subtle.com/blog/measuring-the-roi-of-reddit-marketing-efforts-for-agencies-tools-tactics-and-best-practices"
                                       className="text-blue"
@@ -1717,6 +1733,7 @@ export default function RedditShapingAISearch({ blogItem }) {
                                     https://aioseo.com/optimizing-for-google-sge/
                                     Excerpts from "Reddit Marketing Strategies |
                                     Should Your Business Market on Reddit?"
+                                    <br />
                                     <a
                                       href="https://www.lairedigital.com/blog/reddit-marketing-strategy"
                                       className="text-blue"
@@ -1728,6 +1745,7 @@ export default function RedditShapingAISearch({ blogItem }) {
                                   <li>
                                     Excerpts from "Reddit Marketing Strategy —
                                     Leveraging Reddit for Success - Brafton"
+                                    <br />
                                     <a
                                       href="https://www.brafton.com/blog/social-media/reddit-marketing-strategy/"
                                       className="text-blue"
@@ -1740,6 +1758,7 @@ export default function RedditShapingAISearch({ blogItem }) {
                                     Excerpts from "The Essential Reddit
                                     Marketing Guide: Strategies for Success -
                                     Brandwatch",
+                                    <br />
                                     <a
                                       href="https://www.brandwatch.com/blog/reddit-marketing-guide/"
                                       className="text-blue"
@@ -1751,6 +1770,7 @@ export default function RedditShapingAISearch({ blogItem }) {
                                   <li>
                                     Excerpts from "Using Reddit to help build
                                     brand visibility"
+                                    <br />
                                     <a
                                       href="https://surferseo.com/blog/answer-engine-optimization-aeo/"
                                       className="text-blue"
@@ -1763,6 +1783,7 @@ export default function RedditShapingAISearch({ blogItem }) {
                                     Excerpts from "What Is Answer Engine
                                     Optimization (AEO)? 6 Steps To Elevate Your
                                     Reach - Surfer SEO"
+                                    <br />
                                     <a
                                       href="https://surferseo.com/blog/answer-engine-optimization-aeo/"
                                       className="text-blue"

@@ -110,67 +110,78 @@ export default function GEOvsSEO() {
                         </li>
                       </ul>
 
-                      <p className="mt-2">
+                      <p className="mt-3">
                         <span className="fw-bold">Example:</span> A search for
                         “coffee brewing methods” returns a list of ranked links
                         based on relevance and authority.
                       </p>
 
-                      <h2 className="mt-3">
-                        What is GEO? The New Kid on the Block{" "}
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        What is GEO? The New Kid on the Block
                       </h2>
 
-                      <p className="mt-3">
+                      <p>
                         GEO is SEO’s cooler younger sibling. The one who shows
                         up to brunch with ChatGPT-generated poetry and a side
                         hustle selling AI art. It’s not about ranking—it’s about
                         becoming the teacher’s pet of AI models
                       </p>
-                      <p className="mt-2">
+                      <p className="mt-3">
                         <strong>Generative Engine Optimization (GEO)</strong>{" "}
                         tailors content for AI-driven search engines (ChatGPT,
                         Perplexity) to secure citations in AI-generated answers.
                       </p>
-                      <p className="mt-2">Why it matters now:</p>
+                      <p className="mt-3">Why it matters now:</p>
                       <ul>
                         <li className="mt-2">
                           <b>Authority Building:</b> Becoming a trusted source
                           for AI models.{" "}
                         </li>
 
-                        <li className="mt-1">
+                        <li className="mt-2">
                           <b>Structured Data:</b> Using schema markup for easy
                           content extraction.
                         </li>
 
-                        <li className="mt-1">
+                        <li className="mt-2">
                           <strong>Intent Optimization:</strong> Answering
                           questions directly and conversationally.
                         </li>
                       </ul>
 
-                      <p className="mt-2">
+                      <p className="mt-3">
                         <span className="fw-bold">Example:</span> If you ask
                         Google for Best Generative Engine Optimization tool, you
                         would get the following response.
                       </p>
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        GEO vs SEO: Key Differences
+                      </h2>
 
-                      <h2 className="mt-3">GEO vs SEO: Key Differences</h2>
-                      <div className="panel mt-2 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-black overflowx-auto">
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
                         <table className="uc-table uc-table-divider">
                           <thead className="table-head sticky-top z-1 ">
-                            <tr className="table-row dark:border-white border-gray-900">
-                              <th className="table-header-cell" scope="row">
-                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
-                                  Factor
+                            <tr className="table-row dark:border-white border-gray-900 bg-gray-25 dark:bg-tertiary-800">
+                              <th
+                                className="table-header-cell top pt-0 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary text-underline lg:text-none">
+                                  Factor{" "}
                                 </span>
                               </th>
-                              <th className="table-header-cell" scope="row">
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
-                                  SEO
+                                  SEO{" "}
                                 </span>
                               </th>
-                              <th className="table-header-cell" scope="row">
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
                                   GEO
                                 </span>
@@ -179,76 +190,85 @@ export default function GEOvsSEO() {
                           </thead>
                           <tbody className="table-body">
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    Search Engine Type
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Search Engine Type{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-4 lg:pt-1">
                                 <span className="dark:text-white">
-                                  Google, Bing
+                                  Google, Bing{" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-4 lg:pt-1">
                                 <span className="dark:text-white">
                                   ChatGPT, AI Overviews, Perplexity
                                 </span>
                               </td>
                             </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    Content Visibility
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Content Visibility{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
-                                  Ranked links in SERPs
+                                  Ranked links in SERPs{" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Citations in AI-generated answers
                                 </span>
                               </td>
                             </tr>
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    Optimization Focus
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Optimization Focus{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
-                                  Keywords, backlinks, metadata
+                                  Keywords, backlinks, metadata{" "}
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Authority, entity recognition
                                 </span>
                               </td>
                             </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    Authority, entity recognition
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    User Behavior{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
-                                  Necessary for Contract
+                                  Click-through to websites{" "}
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Zero-click instant answers
                                 </span>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
-
-                      <p className="mt-4">
+                      <p className="mt-3">
                         The <strong>plot twist</strong>: Google’s own data shows{" "}
                         <strong>
                           AI Overviews now answer 30% of searches without a
@@ -271,24 +291,25 @@ export default function GEOvsSEO() {
                           Gartner predicts a 25% drop in traditional search
                           traffic by 2026.
                         </li>
-                        <li className="MT-1">
+                        <li className="MT-2">
                           AI Overviews dominate SERPs, pushing organic links
                           below the fold.
                         </li>
                       </ul>
 
-                      <h2 className="mt-3">
-                        Actionable GEO Strategies (That Actually Worked){" "}
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        Actionable GEO Strategies (That Actually Worked)
                       </h2>
-                      <h3 className="mt-3">
-                        1. Target Search Intent, Not Just Keywords
+
+                      <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
+                        Target Search Intent, Not Just Keywords
                       </h3>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           Structure content around questions (e.g., “How does
                           GEO work?”).
                         </li>
-                        <li>
+                        <li className="mt-2">
                           Use tools like HubSpot’s{" "}
                           <a
                             href="https://www.hubspot.com/ai-search-grader"
@@ -301,8 +322,8 @@ export default function GEOvsSEO() {
                           AI Search Grader to align with AI readability.
                         </li>
                       </ul>
-                      {/*baad me dekhenge  */}
-                      <p className="mt-6">
+
+                      <p className="mt-3">
                         <span className="fst-center">
                           {" "}
                           Flyhomes (Real Estate){" "}
@@ -341,30 +362,32 @@ export default function GEOvsSEO() {
                         </figcaption>
                       </figure>
                       <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        2. Optimize for AI Readability
+                        Optimize for AI Readability
                       </h3>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           Short paragraphs, bullet points, and clear headers
                           (H2/H3).
                         </li>
-                        <li>
+                        <li className="mt-2">
                           Tools like <strong>AI Monitor</strong> automate
                           GEO-friendly structuring.
                         </li>
                       </ul>
                       <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        3. Schema Markup: Not Just for Nerds
+                        Schema Markup: Not Just for Nerds
                       </h3>
                       <ul>
-                        <li>Implement FAQ, HowTo, and Organization schemas.</li>
+                        <li className="mt-2">
+                          Implement FAQ, HowTo, and Organization schemas.
+                        </li>
                         <li>
                           Validate with Google’s{" "}
                           <strong>Rich Results Test.</strong>
                         </li>
                       </ul>
-                      {/* table */}
-                      <p className="mt-3 font-center">
+
+                      <p className="mt-3 text-center">
                         <strong>Brainly (Education)</strong>
                       </p>
                       <p>
@@ -397,61 +420,60 @@ export default function GEOvsSEO() {
                             </figure>
                           )}
                         </Item>
-                        <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                          AI Monitor
-                        </figcaption>
                       </figure>
 
                       <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        4. Build Authority
+                        Build Authority
                       </h3>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           Cite peer-reviewed studies and update content
                           quarterly.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           Earn backlinks from .edu or .gov domains for trust
                           signals.
                         </li>
                       </ul>
-                      <h2 className="mt-3">
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         Future Trends: AI’s Search Evolution
                       </h2>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           <strong>Voice Search Integration:</strong> GEO will
                           prioritize conversational queries.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <strong>Multimodal AI:</strong> Optimize for
                           image/video citations in AI answers.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <strong>Personalization:</strong> AI will tailor
                           responses using user data, demanding hyper-relevant
                           content.
                         </li>
                       </ul>
-                      <h2 className="mt-3">Tools for GEO Success</h2>
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        Tools for GEO Success
+                      </h2>
                       <ol>
-                        <li>
+                        <li className="mt-2">
                           <strong>AI Monitor:</strong> Track citations across
                           ChatGPT, Perplexity, and Copilot.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <strong>ProQuo AI:</strong> Analyze brand visibility
                           in AI-generated answers.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <strong>Surfer SEO:</strong> Merge keyword gaps with
                           AI intent optimization.
                         </li>
                       </ol>
-                      <h2 className="mt-3">
-                        <strong>Final Thought</strong>
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                        Final Thought
                       </h2>
-                      <p className="mt-3">
+                      <p className="">
                         SEO is grammar. GEO is poetry. You need both to write
                         the future of search—or risk becoming a digital ghost.
                         Now if you’ll excuse me, I need to go train ChatGPT to

@@ -130,15 +130,15 @@ export default function GoogleSGEansRAG() {
                         already using it for:
                       </p>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           Customer support chatbots (finally, ones that don’t
                           give robotic vibes).
                         </li>
-                        <li>
+                        <li className="mt-2">
                           Content creation (hello, SEO-friendly blogs like this
                           one).
                         </li>
-                        <li>
+                        <li className="mt-2">
                           Complex problem-solving (because math still haunts
                           me).
                         </li>
@@ -147,15 +147,15 @@ export default function GoogleSGEansRAG() {
                         Why It’s a Game-Changer
                       </h2>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           <b>Fast Answers:</b>No need to scroll endlessly.
                           Boom—your answer is right there.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Tailored Results:</b>Google’s AI reads between the
                           lines of your search intent (spooky but cool).
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Interactive Visuals:</b>Think of it as Instagram
                           meets Wikipedia.
                         </li>
@@ -169,15 +169,15 @@ export default function GoogleSGEansRAG() {
                         already using it for:
                       </p>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           Customer support chatbots (finally, ones that don’t
                           give robotic vibes).
                         </li>
-                        <li>
+                        <li className="mt-2">
                           Content creation (hello, SEO-friendly blogs like this
                           one).
                         </li>
-                        <li>
+                        <li className="mt-2">
                           Complex problem-solving (because math still haunts
                           me).
                         </li>
@@ -187,13 +187,102 @@ export default function GoogleSGEansRAG() {
                         SGE vs. Google Search: The Face-Off
                       </h2>
 
-                      <p className="mt-3">
+                      <p>
                         Okay, here’s an analogy for you: Consider the
                         traditional search as a treasure hunt—you dig through a
                         pile of sources in hopes of finding the right
                         information. In contrast with SGE: you receive both the
                         map and the treasure chest all at once.
                       </p>
+
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
+                        <table className="uc-table uc-table-divider">
+                          <thead className="table-head sticky-top z-1 ">
+                            <tr className="table-row dark:border-white border-gray-900 bg-gray-25 dark:bg-tertiary-800">
+                              <th
+                                className="table-header-cell top pt-0 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary text-underline lg:text-none">
+                                  Feature{" "}
+                                </span>
+                              </th>
+                              <th
+                                className="table-header-cell pt-4 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                                  Traditional Search{" "}
+                                </span>
+                              </th>
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                                  Google SGE
+                                </span>
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody className="table-body">
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Experience{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-8 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Click-intensive & passive{" "}
+                                </span>
+                              </td>
+                              <td className="pt-8 lg:pt-1">
+                                <span className="dark:text-white">
+                                  No clicks required, summarized &
+                                  conversational
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Time Needed{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">Longer </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Lightning-fast
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Traffic to Websites{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">High </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Potentially lower
+                                </span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                       <p className="mt-3">
                         While SGE simplifies life for searchers, it’s throwing
                         SEO pros into a frenzy. Think of it as a chef losing

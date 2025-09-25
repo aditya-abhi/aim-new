@@ -117,6 +117,15 @@ export default function WhyAmericansMightLaugh({ blogItem }) {
             </div>
           </div>
         </div>
+
+        <div className="container mt-3 text-center">
+          <h2 className="h6 text-dark dark:text-white">
+            Published on:{" "}
+            <span className="text-tertiary dark:text-primary">
+              April 26, 2025{" "}
+            </span>{" "}
+          </h2>
+        </div>
         <div className="panel mt-6 lg:mt-6 xl:mt-9">
           <div className="container">
             <div className="row child-cols-12 g-6 md:g-4 xl:g-6">
@@ -1241,8 +1250,9 @@ export default function WhyAmericansMightLaugh({ blogItem }) {
                                 <h2 className="text-center">📚 Sources:</h2>
                                 <ul className="fs-5">
                                   <li className="mt-2">
-                                    episode #4 11 Actionable Ways to Build
+                                    Episode #4 11 Actionable Ways to Build
                                     Client Relationships That Last - WordStream:
+                                    <br />
                                     <a
                                       href="https://www.wordstream.com/blog/ws/2021/06/21/build-client-relationships"
                                       className="text-blue"
@@ -1254,6 +1264,7 @@ export default function WhyAmericansMightLaugh({ blogItem }) {
                                   <li className="mt-2">
                                     AI And The Future Of Search: How We Broke
                                     The Web And What Comes Next - Forbes:
+                                    <br />
                                     <a
                                       href="https://bestofai.com/article/ai-and-the-future-of-search-how-we-broke-the-web-and-what-comes-next"
                                       className="text-blue"
@@ -1265,6 +1276,7 @@ export default function WhyAmericansMightLaugh({ blogItem }) {
                                   <li className="mt-2">
                                     Google antitrust case explained: What's
                                     next? - TechTarget:
+                                    <br />
                                     <a
                                       href="https://www.techtarget.com/whatis/feature/Google-antitrust-case-explained"
                                       className="text-blue"
@@ -1277,6 +1289,7 @@ export default function WhyAmericansMightLaugh({ blogItem }) {
                                   <li className="mt-2">
                                     Google on trial: The future of Chrome, AI,
                                     search, and the internet | Mashable:
+                                    <br />
                                     <a
                                       href="https://sea.mashable.com/tech/37360/google-on-trial-the-future-of-chrome-ai-search-and-the-internet"
                                       className="text-blue"
@@ -1288,6 +1301,7 @@ export default function WhyAmericansMightLaugh({ blogItem }) {
                                   <li className="mt-2">
                                     How a Google “Breakup” Could Affect Your
                                     Marketing | Navitas Blog:
+                                    <br />
                                     <a
                                       href="https://navitasmarketing.com/blog/"
                                       className="text-blue"
@@ -1299,6 +1313,7 @@ export default function WhyAmericansMightLaugh({ blogItem }) {
                                   <li className="mt-2">
                                     How to prepare for and succeed in the
                                     cookieless marketing era - Insider:
+                                    <br />
                                     <a
                                       href="https://useinsider.com/cookieless-marketing/"
                                       className="text-blue"
@@ -1310,6 +1325,7 @@ export default function WhyAmericansMightLaugh({ blogItem }) {
                                   <li className="mt-2">
                                     Inbound Marketing in 2025: Benefits,
                                     Strategies, and Examples - Backlinko:
+                                    <br />
                                     <a
                                       href="https://backlinko.com/inbound-marketing"
                                       className="text-blue"
@@ -1321,6 +1337,7 @@ export default function WhyAmericansMightLaugh({ blogItem }) {
                                   <li className="mt-2">
                                     OpenAI Interested in Buying Google Chrome,
                                     Says ChatGPT Product Head | AIM Media House:
+                                    <br />
                                     <a
                                       href="https://analyticsindiamag.com/ai-news-updates/openai-interested-in-buying-google-chrome-says-chatgpt-product-head/"
                                       className="text-blue"
@@ -1333,6 +1350,7 @@ export default function WhyAmericansMightLaugh({ blogItem }) {
                                     OpenAI signals interest in buying Google’s
                                     Chrome if breakup is ordered: ChatGPT exec
                                     testifies - The Economic Times:
+                                    <br />
                                     <a
                                       href="https://m.economictimes.com/tech/technology/openai-would-buy-googles-chrome-exec-testifies-at-trial/articleshow/120534980.cms"
                                       className="text-blue"
@@ -1344,6 +1362,7 @@ export default function WhyAmericansMightLaugh({ blogItem }) {
                                   <li className="mt-2">
                                     Will the Google Breakup Affect SEO and
                                     Content Marketing?:
+                                    <br />
                                     <a
                                       href="https://www.blink-tech.com/google/google-breakup-affect-seo-content-marketing/"
                                       className="text-blue"
@@ -1355,6 +1374,7 @@ export default function WhyAmericansMightLaugh({ blogItem }) {
                                   <li className="mt-2">
                                     Simple Analytics: The privacy-first Google
                                     Analytics alternative:
+                                    <br />
                                     <a
                                       href="https://simpleanalytics.com/freemium?ref=highsignal.io"
                                       className="text-blue"

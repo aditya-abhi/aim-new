@@ -11,6 +11,7 @@ import Experiment1 from "@/components/blogs/components/Experiment1";
 import Experiment2 from "@/components/blogs/components/Experiment2";
 import ChatGPTSEO from "@/components/blogs/ChatGPT-SEO";
 import ChatGPTSEOfaq from "@/components/blogs/faqs/ChatGPTSEOFaq";
+import ChatGPTSEO2 from "@/components/blogs/ChatGPT-SEO2";
 export const metadata = {
   title: "How to Rank in ChatGpt Responses With ChatGpt SEO || AI Monitor",
   description:
@@ -37,6 +38,7 @@ export default async function Blog2Page(props) {
           <Experiment1 />
           <AuthorBioShort />
           <ChatGPTSEO />
+          {/* <ChatGPTSEO2 /> */}
           <Author />
           <ChatGPTSEOfaq />
           <Experiment2 />

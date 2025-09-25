@@ -781,6 +781,22 @@ export const stepbyStepGuideFaq = [
     controls: "uc-accordion-30",
     expanded: false,
   },
+  {
+    id: 9,
+    question: "Can I use llms.txt for e-commerce or blogs?",
+    answer:
+      "Absolutely! For e-commerce, highlight top products, FAQs, and policies. For blogs, prioritize pillar content and series. ",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 10,
+    question: "How do I check if my llms.txt is working?",
+    answer:
+      "Visit yourdomain.com/llms.txt to confirm it’s live. Test queries in ChatGPT/Claude to see if responses reference your content better. Monitor server logs for AI crawlers (e.g., OpenAI’s user agent).",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
 ];
 
 export const goodSEOImpactFaq = [

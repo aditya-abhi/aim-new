@@ -6426,11 +6426,20 @@ textarea.form-control-lg {
 .pt-6 {
   padding-top: 3rem !important;
 }
+.pt-7 {
+  padding-top: 3.5rem !important;
+}
 .pt-8 {
   padding-top: 4rem !important;
 }
+.pt-8-5 {
+  padding-top: 4=5rem !important;
+}
 .pt-9 {
   padding-top: 6rem !important;
+}
+.pt-10 {
+  padding-top: 7rem !important;
 }
 .pt-special {
   padding-top: 8.5rem !important;
@@ -6590,6 +6599,10 @@ textarea.form-control-lg {
 .text-secondary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+}
+.text-tertiary {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-tertiary-rgb), var(--bs-text-opacity)) !important;
 }
 .text-success {
   --bs-text-opacity: 1;

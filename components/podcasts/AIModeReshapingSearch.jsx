@@ -118,6 +118,14 @@ export default function AIModeReshapingSearch({ blogItem }) {
             </div>
           </div>
         </div>
+        <div className="container mt-3 text-center">
+          <h2 className="h6 text-dark dark:text-white">
+            Published on:{" "}
+            <span className="text-tertiary dark:text-primary">
+              May 03, 2025{" "}
+            </span>{" "}
+          </h2>
+        </div>
         <div className="panel mt-6 lg:mt-6 xl:mt-9">
           <div className="container">
             <div className="row child-cols-12 g-6 md:g-4 xl:g-6">
@@ -1530,6 +1538,7 @@ export default function AIModeReshapingSearch({ blogItem }) {
                                   <li>
                                     Expanding AI Overviews and introducing AI
                                     Mode (Google Blog, The Keyword):
+                                    <br />
                                     <a
                                       href="https://search.google/pdf/google-about-AI-overviews-AI-Mode.pdf
 "
@@ -1541,7 +1550,8 @@ export default function AIModeReshapingSearch({ blogItem }) {
                                   </li>
                                   <li className="mt-3">
                                     AI Overviews, SGE and SEO: Differences,
-                                    Challenges and the Path Forward (CMS Wire):
+                                    Challenges and the Path Forward (CMS Wire)
+                                    <br />
                                     <a
                                       href="https://www.cmswire.com/digital-marketing/ai-overviews-sge-and-seo-differences-challenges-and-the-path-forward/"
                                       className="text-blue"
@@ -1554,6 +1564,7 @@ export default function AIModeReshapingSearch({ blogItem }) {
                                     Google's AI Mode may be the upgrade Search
                                     desperately needs - how to try it for free
                                     (ZDNET):
+                                    <br />
                                     <a
                                       href=" https://www.zdnet.com/article/how-to-get-rid-of-ai-overviews-in-google-search-4-easy-ways/"
                                       className="text-blue"
@@ -1565,6 +1576,7 @@ export default function AIModeReshapingSearch({ blogItem }) {
                                   <li className="mt-2">
                                     Google's new AI Mode is a preview of the
                                     future of search (Platformer):
+                                    <br />
                                     <a
                                       href=" https://www.platformer.news/google-ai-mode-hands-on/
 "
@@ -1578,6 +1590,7 @@ export default function AIModeReshapingSearch({ blogItem }) {
                                     New ways for marketers to reach customers
                                     with AI Overviews and Lens (Google Ads &
                                     Commerce Blog):
+                                    <br />
                                     <a
                                       href="https://business.google.com/uk/think/ai-excellence/google-marketing-live-2025/"
                                       className="text-blue"
@@ -1589,6 +1602,7 @@ export default function AIModeReshapingSearch({ blogItem }) {
                                   <li className="mt-2">
                                     New ways to interact with information in AI
                                     Mode (Google Blog, The Keyword):
+                                    <br />
                                     <a
                                       href="https://aristasystems.in/blog/the-rise-of-ai-mode-how-google-is-redefining-search-and-productivi"
                                       className="text-blue"
@@ -1600,6 +1614,7 @@ export default function AIModeReshapingSearch({ blogItem }) {
                                   <li className="mt-2">
                                     Weekly Prompt: Google brings ads to AI
                                     Overviews and more (Mindshare):
+                                    <br />
                                     <a
                                       href="https://www.mindshareworld.com/switzerland-fr/news/weekly-prompt-google-brings-ads-to-ai-overviews-and-more"
                                       className="text-blue"
@@ -1612,6 +1627,7 @@ export default function AIModeReshapingSearch({ blogItem }) {
                                     The Future of AI and Google Search & Ads:
                                     Key Takeaways from Google Marketing Live
                                     2024 (IOI Ventures):
+                                    <br />
                                     <a
                                       href=" https://www.grocat.in/blog/google-marketing-live-2024-key-takeaways-and-highlights"
                                       className="text-blue"
@@ -1623,6 +1639,7 @@ export default function AIModeReshapingSearch({ blogItem }) {
                                   <li className="mt-2">
                                     Google’s AI Mode: What is it and how will it
                                     impact search? (Varn):
+                                    <br />
                                     <a
                                       href="https://varn.co.uk/insights/googles-ai-mode-what-is-it-and-how-will-it-impact-search/ "
                                       className="text-blue"

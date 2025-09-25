@@ -121,6 +121,14 @@ export default function ({ blogItem }) {
             </div>
           </div>
         </div>
+        <div className="container mt-3 text-center">
+          <h2 className="h6 text-dark dark:text-white">
+            Published on:{" "}
+            <span className="text-tertiary dark:text-primary">
+              Aug 02, 2025{" "}
+            </span>{" "}
+          </h2>
+        </div>
         <div className="panel mt-6 lg:mt-6 xl:mt-9">
           <div className="container">
             <div className="row child-cols-12 g-6 md:g-4 xl:g-6">
@@ -2097,7 +2105,7 @@ export default function ({ blogItem }) {
                                 <ul className="fs-5">
                                   <li className="mt-2">
                                     MonsterAPI. (n.d.). Common LLM fine-tuning
-                                    mistakes. Retrieved from{" "}
+                                    mistakes. Retrieved from <br />
                                     <a
                                       href="https://blog.monsterapi.ai/common-llm-fine-tuning-mistakes/"
                                       className="text-blue"
@@ -2110,7 +2118,8 @@ export default function ({ blogItem }) {
                                     UPES Editorial Team. (2025, February 6).
                                     What are some ethical considerations when
                                     using generative AI? UPES Blog. Retrieved
-                                    from{" "}
+                                    from
+                                    <br />
                                     <a
                                       href="https://www.upes.ac.in/blog/computer-science/what-are-some-ethical-considerations-when-using-generative-ai upes"
                                       className="text-blue"
@@ -2125,7 +2134,7 @@ export default function ({ blogItem }) {
                                     I., Goldberg, B., Isaac, W., … (2024).
                                     Generative AI Misuse: A Taxonomy of Tactics
                                     and Insights from Real-World Data (arXiv
-                                    preprint). arXiv. Retrieved from{" "}
+                                    preprint). arXiv. Retrieved from <br />
                                     <a
                                       href="https://arxiv.org/html/2406.13843v2 arXiv"
                                       className="text-blue"
@@ -2137,7 +2146,7 @@ export default function ({ blogItem }) {
                                   <li className="mt-2">
                                     First Page Sage. (n.d.). Generative Engine
                                     Optimization Best Practices in 2025.
-                                    Retrieved from{" "}
+                                    Retrieved from <br />
                                     <a
                                       href="https://firstpagesage.com/seo-blog/generative-engine-optimization-best-practices/ First Page Sage"
                                       className="text-blue"
@@ -2150,6 +2159,7 @@ export default function ({ blogItem }) {
                                   <li className="mt-2">
                                     Otterly AI. (n.d.). Generative Engine
                                     Optimization Guide (PDF). Retrieved from{" "}
+                                    <br />
                                     <a
                                       href="https://otterly.ai/research/OtterlyAI_Generative_Engine_Optimization_Guide.pdf"
                                       className="text-blue"
@@ -2162,6 +2172,7 @@ export default function ({ blogItem }) {
                                     Amazon Web Services (AWS). (n.d.).
                                     Navigating the security landscape of
                                     generative AI (Whitepaper). Retrieved from{" "}
+                                    <br />
                                     <a
                                       href="https://docs.aws.amazon.com/pdfs/whitepapers/latest/navigating-security-landscape-genai/navigating-security-landscape-genai.pdf AWS Documentation"
                                       className="text-blue"
@@ -2173,7 +2184,7 @@ export default function ({ blogItem }) {
                                   </li>
                                   <li className="mt-2">
                                     IBM. (n.d.). What Is a Prompt Injection
-                                    Attack? Retrieved from{" "}
+                                    Attack? Retrieved from <br />
                                     <a
                                       href="https://www.ibm.com/think/topics/prompt-injection IBM"
                                       className="text-blue"
@@ -2188,7 +2199,7 @@ export default function ({ blogItem }) {
                                     practices for avoiding prompt injection
                                     attacks in LLMs with tool call access to
                                     external APIs? Reddit (r/googlecloud).
-                                    Retrieved from{" "}
+                                    Retrieved from <br />
                                     <a
                                       href="https://www.reddit.com/r/googlecloud/comments/1df7lhn/what_are_current_best_practices_for_avoiding/ Reddit"
                                       className="text-blue"
@@ -2196,11 +2207,13 @@ export default function ({ blogItem }) {
                                     >
                                       https://www.reddit.com/r/googlecloud/comments/1df7lhn/what_are_current_best_practices_for_avoiding/
                                       Reddit
+                                      <br />
                                     </a>
                                   </li>
                                   <li className="mt-2">
                                     Writesonic. (n.d.). 10 GEO Mistakes That Are
                                     Killing Your AI Visibility. Retrieved from{" "}
+                                    <br />
                                     <a
                                       href="https://writesonic.com/blog/geo-generative-engine-optimization-mistakes Writesonic"
                                       className="text-blue"
@@ -2214,7 +2227,7 @@ export default function ({ blogItem }) {
                                     National Institute of Standards and
                                     Technology (NIST). (n.d.). Artificial
                                     Intelligence Risk Management Framework (AI
-                                    RMF 1.0) (PDF). Retrieved from{" "}
+                                    <br />
                                     <a
                                       href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf"
                                       className="text-blue"

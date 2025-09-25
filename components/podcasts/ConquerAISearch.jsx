@@ -118,6 +118,14 @@ export default function ConquerAISearch({ blogItem }) {
             </div>
           </div>
         </div>
+        <div className="container mt-3 text-center">
+          <h2 className="h6 text-dark dark:text-white">
+            Published on:{" "}
+            <span className="text-tertiary dark:text-primary">
+              May 17, 2025{" "}
+            </span>{" "}
+          </h2>
+        </div>
         <div className="panel mt-6 lg:mt-6 xl:mt-9">
           <div className="container">
             <div className="row child-cols-12 g-6 md:g-4 xl:g-6">
@@ -1657,6 +1665,7 @@ export default function ConquerAISearch({ blogItem }) {
                                   <li className="mt-2">
                                     AI Monitor | Best Tool for Generative Engine
                                     Optimization(GEO)
+                                    <br />
                                     <a
                                       href="https://getaimonitor.com/"
                                       className="text-blue"
@@ -1668,6 +1677,7 @@ export default function ConquerAISearch({ blogItem }) {
                                   <li className="mt-2">
                                     AI Overviews Decimate MailOnline Search
                                     Traffic
+                                    <br />
                                     <a
                                       href="https://www.amsivedigital.com/insights/in-the-news/daily-mail-ceo-rich-caccappolo-on-ai-overviews/"
                                       className="text-blue"
@@ -1679,6 +1689,7 @@ export default function ConquerAISearch({ blogItem }) {
                                   <li className="mt-2">
                                     AI Readability Optimization: The Key to AI
                                     Search Traffic - Gravitate Design
+                                    <br />
                                     <a
                                       href="https://gravitatedesign.com/blog/ai-readability-optimization-the-key-to-ai-search-traffic/"
                                       className="text-blue"
@@ -1690,6 +1701,7 @@ export default function ConquerAISearch({ blogItem }) {
                                   <li className="mt-2">
                                     AI Search Optimization Case Studies for Auto
                                     Parts Websites - Hedges & Company.
+                                    <br />
                                     <a
                                       href="https://hedgescompany.com/blog/2024/05/ai-search-optimization/"
                                       className="text-blue"
@@ -1701,7 +1713,7 @@ export default function ConquerAISearch({ blogItem }) {
                                   <li className="mt-2">
                                     AI Traffic Monitor | AI Monitor | Get Your
                                     Brand Recommended by ChatGPT & Google AI
-                                    Overview
+                                    Overview <br />
                                     <a
                                       href="https://getaimonitor.com/products/ai-traffic-monitor/"
                                       className="text-blue"
@@ -1713,6 +1725,7 @@ export default function ConquerAISearch({ blogItem }) {
                                   <li className="mt-2">
                                     Generative Engine Optimization: Content for
                                     AI Search - Creaitor
+                                    <br />
                                     <a
                                       href="https://www.creaitor.ai/content-creation/generative-engine-optimization-content-for-ai-search/"
                                       className="text-blue"
@@ -1723,6 +1736,7 @@ export default function ConquerAISearch({ blogItem }) {
                                   </li>
                                   <li className="mt-2">
                                     Generative engine optimization - Wikipedia
+                                    <br />
                                     <a
                                       href="https://en.wikipedia.org/wiki/Generative_engine_optimization"
                                       className="text-blue"
@@ -1733,6 +1747,7 @@ export default function ConquerAISearch({ blogItem }) {
                                   </li>
                                   <li className="mt-2">
                                     Google's AI Max Ad Tool Explained
+                                    <br />
                                     <a
                                       href="https://searchengineland.com/google-ai-max-ad-tool-445832"
                                       className="text-blue"
@@ -1744,6 +1759,7 @@ export default function ConquerAISearch({ blogItem }) {
                                   <li className="mt-2">
                                     How to optimize product content for large
                                     language models - Talkoot
+                                    <br />
                                     <a
                                       href="https://talkoot.com/resources/how-to-optimize-product-content-for-large-language-models"
                                       className="text-blue"
@@ -1754,6 +1770,7 @@ export default function ConquerAISearch({ blogItem }) {
                                   </li>
                                   <li className="mt-2">
                                     PR Leads the Way in AI Search Visibility
+                                    <br />
                                     <a
                                       href="https://www.prsa.org/prof-dev/strategies-and-tactics/2024/08/26/pr-leads-the-way-in-ai-search-visibility"
                                       className="text-blue"
@@ -1764,7 +1781,9 @@ export default function ConquerAISearch({ blogItem }) {
                                   </li>
                                   <li className="mt-2">
                                     SEO VS GEO: Optimizing for Traditional vs AI
+                                    <br />
                                     Search - Aleyda Solis
+                                    <br />
                                     <a
                                       href="https://www.aleydasolis.com/en/search-engine-optimization/seo-vs-geo/"
                                       className="text-blue"
@@ -1776,6 +1795,7 @@ export default function ConquerAISearch({ blogItem }) {
                                   <li className="mt-2">
                                     SEO for AI Adapting Content Strategies for
                                     AI Driven Search - LexiConn
+                                    <br />
                                     <a
                                       href="https://www.lexiconn.in/blogs/seo-for-ai-adapting-content-strategies-for-ai-driven-search/"
                                       className="text-blue"
@@ -1788,6 +1808,7 @@ export default function ConquerAISearch({ blogItem }) {
                                     The Future of SEO: How AI Is Already
                                     Changing Search Engine Optimization -
                                     ResearchFDI
+                                    <br />
                                     <a
                                       href="https://www.researchfdi.com/the-future-of-seo-how-ai-is-already-changing-search-engine-optimization/"
                                       className="text-blue"
@@ -1875,7 +1896,6 @@ export default function ConquerAISearch({ blogItem }) {
                 </li>
               </ul>
             </div>
-            
           </div>
         </div>
       </article>
