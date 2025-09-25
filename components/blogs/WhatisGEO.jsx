@@ -32,7 +32,7 @@ export default function WhatisGEO() {
                       data-uc-lightbox="animation: scale"
                     >
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        1. Why GEO Is a Game-Changer for Marketers in 2025
+                        Why GEO Is a Game-Changer for Marketers in 2025
                       </h2>
                       <p>
                         The rise of “zero-click” answers is fundamentally
@@ -179,17 +179,17 @@ export default function WhatisGEO() {
                       </div>
                       <figure className="my-3 sm:my-4">
                         <Item
-                          original="/assets/images/blog/post-2.jpg"
-                          thumbnail="/assets/images/blog/post-2.jpg"
+                          original="/assets/images/blog/internal/geo-1.webp"
+                          thumbnail="/assets/images/blog/internal/geo-1.webp"
                           width="1280"
                           height="853"
                         >
                           {({ ref, open }) => (
-                            <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
                               <Image
                                 className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                                alt="Pink Marketing, by Mak"
-                                src="/assets/images/blog/post-2.jpg"
+                                alt=""
+                                src="/assets/images/blog/internal/geo-1.webp"
                                 width="1280"
                                 height="853"
                                 ref={ref}
@@ -197,7 +197,7 @@ export default function WhatisGEO() {
                               <a
                                 onClick={open}
                                 className="position-cover"
-                                data-caption="Pink Marketing, by Mak"
+                                data-caption=""
                               ></a>
                             </figure>
                           )}
@@ -261,7 +261,7 @@ export default function WhatisGEO() {
                         </li>
                       </ul>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        1.1 In this guide, you will learn:
+                        In this guide, you will learn:
                       </h3>
                       <ul className="mt-2">
                         <li>
@@ -311,7 +311,7 @@ export default function WhatisGEO() {
                         </li>
                       </ul>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        2. What is Generative Engine Optimization and How to
+                        What is Generative Engine Optimization and How to
                         implement it​ ?
                       </h2>
                       <p>
@@ -344,7 +344,7 @@ export default function WhatisGEO() {
                         voice that AI actively
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        2.1 What Are Generative Engines?
+                        What Are Generative Engines?
                       </h3>
                       <p>
                         Generative engines like{" "}
@@ -375,7 +375,7 @@ export default function WhatisGEO() {
                         <b>seen, cited, and trusted</b> by AI systems.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        2.2 How Generative Engines Work
+                        How Generative Engines Work
                       </h3>
                       <p>
                         Generative search engines work by using advanced AI to
@@ -397,7 +397,7 @@ export default function WhatisGEO() {
                           <b>Connecting Ideas Intelligently:</b>AI uses two key
                           tools to make sense of information:
                           <ul>
-                            <li>
+                            <li className="mt-1">
                               <b>Knowledge Graphs:</b> Think of this as a
                               digital map that shows how different topics and
                               ideas are related, helping the AI provide more
@@ -428,7 +428,7 @@ export default function WhatisGEO() {
                         <b>Generative Engine Optimization (GEO).</b>
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        2.3 Table: Key Features and Search Approaches of Leading
+                        Table: Key Features and Search Approaches of Leading
                         Generative Engines
                       </h3>
                       <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
@@ -685,17 +685,17 @@ export default function WhatisGEO() {
                       </h3>
                       <figure className="my-3 sm:my-4">
                         <Item
-                          original="/assets/images/blog/post-2.jpg"
-                          thumbnail="/assets/images/blog/post-2.jpg"
+                          original="/assets/images/blog/internal/geo-2.webp"
+                          thumbnail="/assets/images/blog/internal/geo-2.webp"
                           width="1280"
                           height="853"
                         >
                           {({ ref, open }) => (
-                            <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
                               <Image
                                 className="media-cover image uc-transition-scale-up uc-transition-opaque"
                                 alt="Pink Marketing, by Mak"
-                                src="/assets/images/blog/post-2.jpg"
+                                src="/assets/images/blog/internal/geo-2.webp"
                                 width="1280"
                                 height="853"
                                 ref={ref}
@@ -703,18 +703,15 @@ export default function WhatisGEO() {
                               <a
                                 onClick={open}
                                 className="position-cover"
-                                data-caption="Pink Marketing, by Mak"
+                                data-caption=""
                               ></a>
-                              <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                                Pink Marketing, by Mak
-                              </figcaption>
                             </figure>
                           )}
                         </Item>
                       </figure>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        2.4.1 Era 1: The Classic Age of SEO (Late 1990s -
-                        Mid-2010s) - The Game of Keywords and Links
+                        Era 1: The Classic Age of SEO (Late 1990s - Mid-2010s) -
+                        The Game of Keywords and Links
                       </h4>
                       <p>
                         For most of its history, SEO was a game played between
@@ -728,7 +725,7 @@ export default function WhatisGEO() {
                           <b>Keyword Focus:</b> The earliest SEO was about
                           repeating specific keywords on a page.
                         </li>
-                        <li className="mt-1">
+                        <li className="mt-2">
                           <b>The Rise of Backlinks:</b> Google's PageRank
                           algorithm revolutionized search by using backlinks
                           (links from other sites) as a primary signal of
@@ -736,7 +733,7 @@ export default function WhatisGEO() {
                           higher you ranked. SEO became a massive effort in
                           link-building.
                         </li>
-                        <li className="mt-1">
+                        <li className="mt-2">
                           <b>Content for Ranking:</b> Content was created
                           primarily to rank. It needed to have the right
                           keywords, the right length, and attract links.7 The
@@ -750,8 +747,8 @@ export default function WhatisGEO() {
                         and authoritative result for a specific search query.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        2.4.2 Era 2: The Shift to User Experience (Mid-2010s -
-                        Early 2020s) - The Precursor to AI
+                        Era 2: The Shift to User Experience (Mid-2010s - Early
+                        2020s) - The Precursor to AI
                       </h4>
                       <p>
                         Google's algorithms became much smarter. They started to
@@ -797,8 +794,8 @@ export default function WhatisGEO() {
                         optimizing for answers, not just links.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        2.4.3 The Disruption: The Generative Engine Enters the
-                        Game (Late 2022)
+                        The Disruption: The Generative Engine Enters the Game
+                        (Late 2022)
                       </h4>
                       <p>The game changed almost overnight.</p>
                       <p className="mt-2 fw-bold">
@@ -817,8 +814,8 @@ export default function WhatisGEO() {
                         paradigm for information access.8
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        2.4.4 The Reaction: Search Engines Become Generative
-                        Engines (2023)
+                        The Reaction: Search Engines Become Generative Engines
+                        (2023)
                       </h4>
                       <p>
                         The major search players knew this was a seismic shift.
@@ -853,8 +850,8 @@ export default function WhatisGEO() {
                         <b>generative engines.</b>
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        2.4.5 The Birth of GEO: The New Rules of the Game (Late
-                        2023 - Today)
+                        The Birth of GEO: The New Rules of the Game (Late 2023 -
+                        Today)
                       </h4>
                       <p>
                         With AI generating the primary answer, the old goal of
@@ -865,16 +862,16 @@ export default function WhatisGEO() {
                         kind of optimization:{" "}
                         <b>Generative Engine Optimization (GEO).</b>
                       </p>
-                      <p className="mt-2">The focus shifted from:</p>
-                      <p>
-                        <b>"How do I rank my link at the top?"</b>
+                      <p className="mt-2">
+                        <b>The focus shifted from:</b>
                       </p>
-                      <p className="mt-2">to:</p>
+                      <p>"How do I rank my link at the top?"</p>
+                      <p className="mt-2">
+                        <b>to:</b>
+                      </p>
                       <p>
-                        <b>
-                          "How do I get the AI to cite my website and use my
-                          information in its generated answer?"
-                        </b>
+                        "How do I get the AI to cite my website and use my
+                        information in its generated answer?"
                       </p>
                       <p>
                         GEO is the practice of making your content so
@@ -892,22 +889,22 @@ export default function WhatisGEO() {
                         completely rewrote the rules.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        2.5 Generative Engine Optimization (GEO): A New Paradigm
-                        for Digital Visibility
+                        Generative Engine Optimization (GEO): A New Paradigm for
+                        Digital Visibility
                       </h3>
                       <figure className="my-3 sm:my-4">
                         <Item
-                          original="/assets/images/blog/post-2.jpg"
-                          thumbnail="/assets/images/blog/post-2.jpg"
+                          original="/assets/images/blog/internal/geo-3.webp"
+                          thumbnail="/assets/images/blog/internal/geo-3.webp"
                           width="1280"
                           height="853"
                         >
                           {({ ref, open }) => (
-                            <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
                               <Image
                                 className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                                alt="Pink Marketing, by Mak"
-                                src="/assets/images/blog/post-2.jpg"
+                                alt=""
+                                src="/assets/images/blog/internal/geo-3.webp"
                                 width="1280"
                                 height="853"
                                 ref={ref}
@@ -915,11 +912,8 @@ export default function WhatisGEO() {
                               <a
                                 onClick={open}
                                 className="position-cover"
-                                data-caption="Pink Marketing, by Mak"
+                                data-caption=""
                               ></a>
-                              <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                                Pink Marketing, by Mak
-                              </figcaption>
                             </figure>
                           )}
                         </Item>
@@ -953,22 +947,22 @@ export default function WhatisGEO() {
                         every single day.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        2.6 Who Coined the Term Generative Engine Optimization
+                        Who Coined the Term Generative Engine Optimization
                         (GEO)?
                       </h3>
                       <figure className="my-3 sm:my-4">
                         <Item
-                          original="/assets/images/blog/post-2.jpg"
-                          thumbnail="/assets/images/blog/post-2.jpg"
+                          original="/assets/images/blog/internal/geo-4.webp"
+                          thumbnail="/assets/images/blog/internal/geo-4.webp"
                           width="1280"
                           height="853"
                         >
                           {({ ref, open }) => (
-                            <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
                               <Image
                                 className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                                alt="Pink Marketing, by Mak"
-                                src="/assets/images/blog/post-2.jpg"
+                                alt=""
+                                src="/assets/images/blog/internal/geo-4.webp"
                                 width="1280"
                                 height="853"
                                 ref={ref}
@@ -978,9 +972,6 @@ export default function WhatisGEO() {
                                 className="position-cover"
                                 data-caption="Pink Marketing, by Mak"
                               ></a>
-                              <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                                Pink Marketing, by Mak
-                              </figcaption>
                             </figure>
                           )}
                         </Item>
@@ -1013,20 +1004,20 @@ export default function WhatisGEO() {
                         directly in AI responses.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        2.7 What are the benefits of GEO?
+                        What are the benefits of GEO?
                       </h3>
-                      <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-1">
-                        2.7.1 Increased AI-Generated Visibility
+                      <h4 className="h6 xl:h5 mt-2 mb-1 xl:mb-1">
+                        Increased AI-Generated Visibility
                       </h4>
-                      <p>
+                      <p className="mb-2">
                         GEO ensures your brand or content gets cited or embedded
                         in AI-generated answers from tools like{" "}
                         <b>ChatGPT, Perplexity, Gemini,</b> or Claude. This
                         extends your reach beyond traditional search engines,
                         allowing you to appear in the very answers people trust.
                       </p>
-                      <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-1">
-                        2.7.2 Long-Term Authority Building
+                      <h4 className="h6 xl:h5 mt-2 mb-1 xl:mb-1">
+                        Long-Term Authority Building
                       </h4>
                       <p>
                         Once AI models recognize and cite your content, that
@@ -1037,7 +1028,7 @@ export default function WhatisGEO() {
                         search.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-1">
-                        2.7.3. Higher Conversion Potential
+                        Higher Conversion Potential
                       </h4>
                       <p>
                         AI-generated answers often appear in{" "}
@@ -1048,7 +1039,7 @@ export default function WhatisGEO() {
                         and more likely to convert.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-1">
-                        2.7.4 Competitive Advantage
+                        Competitive Advantage
                       </h4>
                       <p>
                         Most brands are still focused on traditional SEO. Early
@@ -1057,7 +1048,7 @@ export default function WhatisGEO() {
                         crowded.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-1">
-                        2.7.5 Reputation Boost
+                        Reputation Boost
                       </h4>
                       <p>
                         When authoritative AI systems cite your content, it’s an
@@ -1069,11 +1060,11 @@ export default function WhatisGEO() {
                         </b>
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        2.7.6 Key Impacts of GEO on Digital Marketing
+                        Key Impacts of GEO on Digital Marketing
                       </h4>
                       table
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        3. Difference between SEO vs GEO
+                        Difference between SEO vs GEO
                       </h2>
                       <p>
                         “If backlinks were the backbone of SEO, modeled after
@@ -1105,21 +1096,21 @@ export default function WhatisGEO() {
                         invisible.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        3.1 Why This Shift Matters
+                        Why This Shift Matters
                       </h3>
                       <figure className="my-3 sm:my-4">
                         <Item
-                          original="/assets/images/blog/post-2.jpg"
-                          thumbnail="/assets/images/blog/post-2.jpg"
+                          original="/assets/images/blog/internal/geo-5.webp"
+                          thumbnail="/assets/images/blog/internal/geo-5.webp"
                           width="1280"
                           height="853"
                         >
                           {({ ref, open }) => (
-                            <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
                               <Image
                                 className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                                alt="Pink Marketing, by Mak"
-                                src="/assets/images/blog/post-2.jpg"
+                                alt=""
+                                src="/assets/images/blog/internal/geo-5.webp"
                                 width="1280"
                                 height="853"
                                 ref={ref}
@@ -1127,11 +1118,8 @@ export default function WhatisGEO() {
                               <a
                                 onClick={open}
                                 className="position-cover"
-                                data-caption="Pink Marketing, by Mak"
+                                data-caption=""
                               ></a>
-                              <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                                Pink Marketing, by Mak
-                              </figcaption>
                             </figure>
                           )}
                         </Item>
@@ -1172,18 +1160,18 @@ export default function WhatisGEO() {
                           winning over your toughest critic than chasing
                           shortcuts.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           These generative engines don’t just scan links; they
                           read, reason, and summarize content deeply.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           To succeed in GEO, your content must be worth quoting,
                           not just worth ranking.
                         </li>
                       </ul>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        3.2 How GEO is Similar to SEO And Why That Matters for
-                        Your Strategy
+                        How GEO is Similar to SEO And Why That Matters for Your
+                        Strategy
                       </h3>
                       <p>
                         If you’ve been living in the SEO world for years,
@@ -1259,7 +1247,7 @@ export default function WhatisGEO() {
                         own the AI answer box.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        3.3 How GEO is Different from SEO - The New Rules of
+                        How GEO is Different from SEO - The New Rules of
                         Visibility
                       </h3>
                       <p>
@@ -1342,12 +1330,12 @@ export default function WhatisGEO() {
                         remember.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        3.4 Table: Showing the difference between SEO & GEO on
+                        Table: Showing the difference between SEO & GEO on
                         different parameters
                       </h3>
                       table
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        3.5 The Great Disconnect: Why Good SEO Isn't Enough
+                        The Great Disconnect: Why Good SEO Isn't Enough
                       </h3>
                       <p>
                         A high Google ranking no longer guarantees visibility in
@@ -1357,21 +1345,21 @@ export default function WhatisGEO() {
                       </p>
                       Code Block
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        4. Challenges Marketers Face While Doing GEO
+                        Challenges Marketers Face While Doing GEO
                       </h2>
                       <figure className="my-3 sm:my-4">
                         <Item
-                          original="/assets/images/blog/post-2.jpg"
-                          thumbnail="/assets/images/blog/post-2.jpg"
+                          original="/assets/images/blog/internal/geo-6.webp"
+                          thumbnail="/assets/images/blog/internal/geo-6.webp"
                           width="1280"
                           height="853"
                         >
                           {({ ref, open }) => (
-                            <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
                               <Image
                                 className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                                alt="Pink Marketing, by Mak"
-                                src="/assets/images/blog/post-2.jpg"
+                                alt=""
+                                src="/assets/images/blog/internal/geo-6.webp"
                                 width="1280"
                                 height="853"
                                 ref={ref}
@@ -1381,9 +1369,6 @@ export default function WhatisGEO() {
                                 className="position-cover"
                                 data-caption="Pink Marketing, by Mak"
                               ></a>
-                              <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                                Pink Marketing, by Mak
-                              </figcaption>
                             </figure>
                           )}
                         </Item>
@@ -1401,7 +1386,7 @@ export default function WhatisGEO() {
                         marketers face:
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        4.1. Lack of Transparency in Generative Algorithms
+                        Lack of Transparency in Generative Algorithms
                       </h3>
                       <p>
                         Unlike Google’s search algorithm which, though complex,
@@ -1412,9 +1397,13 @@ export default function WhatisGEO() {
                         cited. It is hard to pinpoint:
                       </p>
                       <ul>
-                        <li>What sources and content do they prioritize?</li>
-                        <li>How do they decide what to cite?</li>
-                        <li>
+                        <li className="mt-1">
+                          What sources and content do they prioritize?
+                        </li>
+                        <li className="mt-1">
+                          How do they decide what to cite?
+                        </li>
+                        <li className="mt-1">
                           Why is certain content surfaced while others are
                           ignored?
                         </li>
@@ -1426,7 +1415,7 @@ export default function WhatisGEO() {
                         Perplexity to see what is actually being cited.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        4.2. Decline in Traditional Traffic
+                        Decline in Traditional Traffic
                       </h3>
                       <p>
                         With AI providing instant answers, most people don’t
@@ -1436,7 +1425,7 @@ export default function WhatisGEO() {
                         <li>
                           <b>Zero-click experiences</b> =Zero-click experiences
                         </li>
-                        <li>
+                        <li className="mt-2">
                           Traffic numbers that drop overnight, even when you
                           still hold the top spot.
                         </li>
@@ -1450,7 +1439,7 @@ export default function WhatisGEO() {
                         <b>visibility within answers equals influence.</b>
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        4.3. Constantly Evolving AI Models
+                        Constantly Evolving AI Models
                       </h3>
                       <p>
                         Generative engines are still in their early stages and
@@ -1476,7 +1465,7 @@ export default function WhatisGEO() {
                         refresh your pieces before they go stale.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        4.4. Content Structure & Format Limitations
+                        Content Structure & Format Limitations
                       </h3>
                       <p>
                         A lot of marketers still rely on traditional formats:
@@ -1500,7 +1489,7 @@ export default function WhatisGEO() {
                         <b>machine readability</b> and <b>semantic clarity.</b>
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        4.5. No Established Benchmarks or Analytics
+                        No Established Benchmarks or Analytics
                       </h3>
                       <p>
                         Unlike SEO (with tools like Google Analytics, GSC,
@@ -1530,7 +1519,7 @@ export default function WhatisGEO() {
                         </a>
                       </p>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        5. Top generative engine optimization strategies for ai
+                        Top generative engine optimization strategies for ai
                         visibility
                       </h2>
                       <p>
@@ -1548,7 +1537,7 @@ export default function WhatisGEO() {
                         Here’s what a strong GEO strategy looks like in 2025:
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        5.1 Don’t Fake It
+                        Don’t Fake It
                       </h3>
                       <p>
                         AI is like that brutally honest friend who can sniff out
@@ -1566,37 +1555,9 @@ export default function WhatisGEO() {
                         authentic, you don’t need to beg for trust AI (and
                         people) will give it to you naturally.
                       </p>
-                      <figure className="my-3 sm:my-4">
-                        <Item
-                          original="/assets/images/blog/post-2.jpg"
-                          thumbnail="/assets/images/blog/post-2.jpg"
-                          width="1280"
-                          height="853"
-                        >
-                          {({ ref, open }) => (
-                            <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
-                              <Image
-                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                                alt="Pink Marketing, by Mak"
-                                src="/assets/images/blog/post-2.jpg"
-                                width="1280"
-                                height="853"
-                                ref={ref}
-                              />
-                              <a
-                                onClick={open}
-                                className="position-cover"
-                                data-caption="Pink Marketing, by Mak"
-                              ></a>
-                              <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                                Pink Marketing, by Mak
-                              </figcaption>
-                            </figure>
-                          )}
-                        </Item>
-                      </figure>
+                      quote
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        5.2. Establish E-E-A-T (Experience, Expertise,
+                        Establish E-E-A-T (Experience, Expertise,
                         Authoritativeness, Trustworthiness)
                       </h3>
                       <p>
@@ -1619,8 +1580,8 @@ export default function WhatisGEO() {
                         and start becoming the answer.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        5.3. Create Future-Proof Content (Write for Humans,
-                        Optimize for Bots)
+                        Create Future-Proof Content (Write for Humans, Optimize
+                        for Bots)
                       </h3>
                       <p>
                         The golden rule? Write like a human, think like a bot.
@@ -1641,7 +1602,7 @@ export default function WhatisGEO() {
                         next algorithm shift it’ll thrive in it.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        5.4 Be Helpful - Always
+                        Be Helpful - Always
                       </h3>
                       <p>
                         If your content reads like a sales pitch, you’ve already
@@ -1659,7 +1620,7 @@ export default function WhatisGEO() {
                         trust, and watch both people and AI reward you for it.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        5.5 . Leverage Traditional PR & Branding to Boost AI
+                        Leverage Traditional PR & Branding to Boost AI
                         Visibility
                       </h3>
                       <p>
@@ -1677,12 +1638,12 @@ export default function WhatisGEO() {
                           magazines, websites, and news outlets to build
                           credibility and get your name out there.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Publish thought leadership content</b> like
                           whitepapers, webinars, or expert interviews to
                           position your brand as an authority in your field.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Increase brand mentions</b>across trustworthy sites
                           and directories to expand your digital footprint and
                           show AI that your brand is recognized and respected.
@@ -1694,7 +1655,7 @@ export default function WhatisGEO() {
                         and reference.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        5.6 Follow SEO Best Practices
+                        Follow SEO Best Practices
                       </h3>
                       <p>
                         GEO might be the new game, but the old rules of SEO
@@ -1711,8 +1672,8 @@ export default function WhatisGEO() {
                         replacing SEO; it’s about building on top of it.
                       </p>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        6. Generative Engine Optimization (GEO) Techniques: How
-                        to Implement GEO in 2025 – Everything We Know So Far
+                        Generative Engine Optimization (GEO) Techniques: How to
+                        Implement GEO in 2025 – Everything We Know So Far
                       </h2>
                       <p>
                         In today’s AI-driven search landscape, traditional SEO
@@ -1740,8 +1701,7 @@ export default function WhatisGEO() {
                         there.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        6.1. Optimize AI-Bot Crawlability & Technical
-                        Foundations
+                        Optimize AI-Bot Crawlability & Technical Foundations
                       </h3>
                       <p>
                         When it comes to Generative Engine Optimization (GEO),
@@ -1835,8 +1795,8 @@ export default function WhatisGEO() {
                         answers.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        6.2. Use Rich, Structured Data Markup (Schema) to Help
-                        AI Understand Your Content
+                        Use Rich, Structured Data Markup (Schema) to Help AI
+                        Understand Your Content
                       </h3>
                       <p>
                         Think of schema markup as a way to “label” your content
@@ -1856,13 +1816,13 @@ export default function WhatisGEO() {
                           and step-by-step guides), and Product (for details
                           like pricing and reviews).
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Use Speakable Schema</b> if you want your content
                           to be picked up by voice assistants like Google
                           Assistant or Alexa. This tells them which parts of
                           your content are good for reading aloud.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Localize your schema</b> if you serve different
                           languages or regions. Make sure to use hreflang tags
                           and language-specific fields so AI knows which version
@@ -1879,21 +1839,21 @@ export default function WhatisGEO() {
                         make a big difference in how AI picks up your site.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        6.3 Strengthen Reviews on Trusted Platforms
+                        Strengthen Reviews on Trusted Platforms
                       </h3>
                       <figure className="my-3 sm:my-4">
                         <Item
-                          original="/assets/images/blog/post-2.jpg"
-                          thumbnail="/assets/images/blog/post-2.jpg"
+                          original="/assets/images/blog/internal/geo-7.webp"
+                          thumbnail="/assets/images/blog/internal/geo-7.webp"
                           width="1280"
                           height="853"
                         >
                           {({ ref, open }) => (
-                            <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
                               <Image
                                 className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                                alt="Pink Marketing, by Mak"
-                                src="/assets/images/blog/post-2.jpg"
+                                alt=""
+                                src="/assets/images/blog/internal/geo-7.webp"
                                 width="1280"
                                 height="853"
                                 ref={ref}
@@ -1903,9 +1863,6 @@ export default function WhatisGEO() {
                                 className="position-cover"
                                 data-caption="Pink Marketing, by Mak"
                               ></a>
-                              <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                                Pink Marketing, by Mak
-                              </figcaption>
                             </figure>
                           )}
                         </Item>
@@ -1918,17 +1875,17 @@ export default function WhatisGEO() {
                       </p>
                       <p>Here’s what you can do:</p>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           Encourage genuine reviews on popular sites like
                           Reddit, Yelp, G2, or niche-specific platforms where
                           your audience hangs out.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           Focus on detailed feedback reviews that go beyond a
                           quick star rating and explain what customers loved (or
                           didn’t).
                         </li>
-                        <li>
+                        <li className="mt-2">
                           Stay engaged by monitoring your reviews regularly and
                           responding thoughtfully. This not only builds trust
                           with potential customers but also signals to AI that
@@ -1941,22 +1898,22 @@ export default function WhatisGEO() {
                         AI engines that rely on those signals.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        6.4 . Join Niche Communities (Like Reddit) to Build
+                        Join Niche Communities (Like Reddit) to Build
                         Authenticity
                       </h3>
                       <figure className="my-3 sm:my-4">
                         <Item
-                          original="/assets/images/blog/post-2.jpg"
-                          thumbnail="/assets/images/blog/post-2.jpg"
+                          original="/assets/images/blog/internal/geo-8.webp"
+                          thumbnail="/assets/images/blog/internal/geo-8.webp"
                           width="1280"
                           height="853"
                         >
                           {({ ref, open }) => (
-                            <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
                               <Image
                                 className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                                alt="Pink Marketing, by Mak"
-                                src="/assets/images/blog/post-2.jpg"
+                                alt=""
+                                src="/assets/images/blog/internal/geo-8.webp"
                                 width="1280"
                                 height="853"
                                 ref={ref}
@@ -1966,9 +1923,6 @@ export default function WhatisGEO() {
                                 className="position-cover"
                                 data-caption="Pink Marketing, by Mak"
                               ></a>
-                              <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                                Pink Marketing, by Mak
-                              </figcaption>
                             </figure>
                           )}
                         </Item>
@@ -2007,8 +1961,8 @@ export default function WhatisGEO() {
                         the AI systems that learn from these conversations.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        6.5. what content formats work best for generative
-                        engine optimization​
+                        what content formats work best for generative engine
+                        optimization​
                       </h3>
                       <p>
                         To succeed in GEO, your content needs to be more than
@@ -2056,7 +2010,7 @@ export default function WhatisGEO() {
                         in generative engine answers.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        6.5.1 Structure Data for Both People and Generative AI
+                        Structure Data for Both People and Generative AI
                       </h4>
                       <p>
                         In the age of AI-driven search, Generative Engine
@@ -2075,17 +2029,17 @@ export default function WhatisGEO() {
                       </p>
                       <p>Here’s how to make that happen:</p>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           <b>Keep it clean and clear —</b> Use headings, short
                           paragraphs, and bullet points so AI (and humans) can
                           spot the main ideas instantly.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Stay consistent —</b> Follow a predictable
                           structure across all your articles so AI knows what to
                           expect.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Add structured data —</b> Use schema markup to give
                           AI extra context about your content.
                         </li>
@@ -2100,9 +2054,34 @@ export default function WhatisGEO() {
                         people now trust more than ever.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        6.5.2 . Build Credibility with Citations and Trustworthy
-                        Content
+                        Build Credibility with Citations and Trustworthy Content
                       </h4>
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/internal/geo-9.webp"
+                          thumbnail="/assets/images/blog/internal/geo-9.webp"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt="Pink Marketing, by Mak"
+                                src="/assets/images/blog/internal/geo-9.webp"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption="Pink Marketing, by Mak"
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                      </figure>
                       <p>
                         AI systems prefer to pull information from sources they
                         trust and that means your content needs to show it’s
@@ -2111,17 +2090,17 @@ export default function WhatisGEO() {
                       </p>
                       <p>Here’s how you can strengthen your trustworthiness:</p>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           <b>Always cite reputable sources,</b> like academic
                           studies, expert journals, or well-known authors in
                           your industry. This shows AI (and your readers) that
                           your content is backed by solid evidence.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Include quotes or insights from experts</b> to add
                           authority and depth to your content.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Publish original research or deep-dive analyses</b>{" "}
                           that offer unique value this helps set your content
                           apart as a go-to resource.
@@ -2147,25 +2126,25 @@ export default function WhatisGEO() {
                         Here’s how to make your content contextually relevant:
                       </p>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           <b>Focus on long-tail, conversational phrases</b>{" "}
                           think about the full questions or phrases people use
                           when talking to AI assistants, rather than just short
                           keyword snippets.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Group related terms together</b> to form semantic
                           clusters. This helps AI understand the broader topic
                           and how different ideas connect.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Cover your topics comprehensively</b> by creating
                           content hubs or “topic clusters” that explore various
                           angles and subtopics in depth.
                         </li>
                       </ul>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        6.6 Integrating GEO with SEO Playing Both Games to Win
+                        Integrating GEO with SEO Playing Both Games to Win
                       </h3>
                       <p>
                         The smartest brands in 2025 aren’t choosing between GEO
@@ -2175,7 +2154,7 @@ export default function WhatisGEO() {
                       </p>
                       <p>Here’s how to make them work together:</p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        6.6.1. Start with SEO Foundations.
+                        Start with SEO Foundations.
                       </h4>
                       <p>
                         A strong SEO strategy ensures your site is technically
@@ -2186,7 +2165,7 @@ export default function WhatisGEO() {
                         happens on it.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        6.6.2. Optimize for Entities, Not Just Keywords.
+                        Optimize for Entities, Not Just Keywords.
                       </h4>
                       <p>
                         Keep your keyword research, but layer in entity
@@ -2197,7 +2176,7 @@ export default function WhatisGEO() {
                         answers.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        6.6.3. Publish Content Worth Quoting.
+                        Publish Content Worth Quoting.
                       </h4>
                       <p>
                         SEO content often aims to satisfy an algorithm’s
@@ -2208,7 +2187,7 @@ export default function WhatisGEO() {
                         source.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        6.6.4. Leverage Structured Data for Double Impact.
+                        Leverage Structured Data for Double Impact.
                       </h4>
                       <p>
                         Schema markup is SEO gold, but it’s also an underused
@@ -2217,7 +2196,7 @@ export default function WhatisGEO() {
                         extract and attribute your information correctly.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        6.6.5. Track Rankings and Citations.
+                        Track Rankings and Citations.
                       </h4>
                       <p>
                         Use your SEO tools to monitor SERP visibility, but add
@@ -2227,7 +2206,7 @@ export default function WhatisGEO() {
                         and vice versa.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        6.6.6. Repurpose Across Channels
+                        Repurpose Across Channels
                       </h4>
                       <p>
                         A well-performing SEO article can be adapted into the
@@ -2245,8 +2224,34 @@ export default function WhatisGEO() {
                         your audience is searching or asking.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        6.7 GEO Hack #1: Implement llms.txt
+                        GEO Hack #1: Implement llms.txt
                       </h3>
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/internal/geo-10.webp"
+                          thumbnail="/assets/images/blog/internal/geo-10.webp"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt=""
+                                src="/assets/images/blog/internal/geo-10.webp"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption=""
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                      </figure>
                       <p>
                         In the age of AI-driven search, your content isn’t just
                         competing for Google rankings it’s competing for AI
@@ -2266,15 +2271,15 @@ export default function WhatisGEO() {
                         their reach. Done right, it:
                       </p>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           <b>Boosts AI-generated visibility</b> by ensuring
                           crawlers focus on your best assets.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Improves content accuracy</b> by directing AI
                           toward fresh, trusted information.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Puts you in control </b> of how large language
                           models interpret and summarize your site.
                         </li>
@@ -2287,17 +2292,17 @@ export default function WhatisGEO() {
                           <b>Create a /llms.txt file </b> in your website’s root
                           directory.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Add clear directives,</b> for example: <br />
                           Allow: /blog/
                           <br />
                           Disallow: /private/
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Validate</b> the file using AI crawler simulators
                           to ensure it’s working.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Update quarterly</b> or whenever major content
                           changes occur.
                         </li>
@@ -2306,15 +2311,15 @@ export default function WhatisGEO() {
                         6.7.3 What Happens If You Skip This
                       </h4>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           AI bots may <b>index irrelevant or private pages,</b>{" "}
                           hurting brand perception.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Key content could be ignored</b> in favor of
                           competitors’ well-structured sites.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>
                             Outdated or incorrect info could{" "}
                             <b>circulate in AI-generated answers,</b> damaging
@@ -2323,8 +2328,34 @@ export default function WhatisGEO() {
                         </li>
                       </ul>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        6.8 Sprinkle Statistics Like Magic
+                        Sprinkle Statistics Like Magic
                       </h3>
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/internal/geo-11.webp"
+                          thumbnail="/assets/images/blog/internal/geo-11.webp"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt=""
+                                src="/assets/images/blog/internal/geo-11.webp"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption=""
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                      </figure>
                       <p>
                         When it comes to Generative Engine Optimization (GEO),
                         facts speak louder than opinions. Research shows that
@@ -2336,14 +2367,14 @@ export default function WhatisGEO() {
                       </p>
                       <p>By integrating statistics, you:</p>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           <b>Build instant authority </b>in your niche.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           Align with AI’s preference for{" "}
                           <b>reliable and factual sources.</b>
                         </li>
-                        <li>
+                        <li className="mt-2">
                           Create <b>ready-to-use snippets</b> for knowledge
                           panels and answer boxes.
                         </li>
@@ -2354,40 +2385,40 @@ export default function WhatisGEO() {
                         quoted.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        6.8.1 Action Steps
+                        Action Steps
                       </h4>
                       <ul>
                         <li>
                           Include <b> 2–3 well-sourced statistics</b> for every
                           1,000 words.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           Use trusted platforms like
                           <b> Statista, Pew Research, or JAMA.</b>
                         </li>
-                        <li>
+                        <li className="mt-2">
                           Format numbers for easy extraction (e.g., “47% of
                           marketers…” instead of hiding stats in long
                           paragraphs).
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b> Update older content regularly</b> to keep data
                           fresh and accurate.
                         </li>
                       </ul>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        6.8.2 Consequences of Not Applying:
+                        Consequences of Not Applying:
                       </h4>
                       <ul>
                         <li>
                           Your content will feel less authoritative compared to
                           stat-rich competitors.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           Lower chances of appearing in{" "}
                           <b>AI summaries, overviews, and featured snippets.</b>
                         </li>
-                        <li>
+                        <li className="mt-2">
                           Missed opportunities to build{" "}
                           <b>
                             trust with both AI algorithms and human readers.
@@ -2395,21 +2426,21 @@ export default function WhatisGEO() {
                         </li>
                       </ul>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        6.9 Use Quotes Like a Pro
+                        Use Quotes Like a Pro
                       </h3>
                       <figure className="my-3 sm:my-4">
                         <Item
-                          original="/assets/images/blog/post-2.jpg"
-                          thumbnail="/assets/images/blog/post-2.jpg"
+                          original="/assets/images/blog/internal/geo-12.webp"
+                          thumbnail="/assets/images/blog/internal/geo-12.webp"
                           width="1280"
                           height="853"
                         >
                           {({ ref, open }) => (
-                            <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
                               <Image
                                 className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                                alt="Pink Marketing, by Mak"
-                                src="/assets/images/blog/post-2.jpg"
+                                alt=""
+                                src="/assets/images/blog/internal/geo-12.webp"
                                 width="1280"
                                 height="853"
                                 ref={ref}
@@ -2417,11 +2448,8 @@ export default function WhatisGEO() {
                               <a
                                 onClick={open}
                                 className="position-cover"
-                                data-caption="Pink Marketing, by Mak"
+                                data-caption=""
                               ></a>
-                              <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                                Pink Marketing, by Mak
-                              </figcaption>
                             </figure>
                           )}
                         </Item>
@@ -2436,7 +2464,7 @@ export default function WhatisGEO() {
                         referencing.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        6.9.2 Pro Tips to Use Quotes Effectively:
+                        Pro Tips to Use Quotes Effectively:
                       </h4>
                       <ol>
                         <li>
@@ -2444,16 +2472,16 @@ export default function WhatisGEO() {
                           recognized experts, research papers, or reputable
                           organizations related to your niche.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Keep Quotes Relevant and Concise:</b> AI engines
                           favor quotes that are on-topic and easy to extract.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Attribute Properly:</b> Mention the source’s name
                           and credentials clearly, which adds to the credibility
                           factor.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Mix Quotes with Your Own Insights:</b> Don’t rely
                           solely on quotes; blend them with original analysis to
                           demonstrate your unique expertise.
@@ -2474,21 +2502,21 @@ export default function WhatisGEO() {
                         source for quotes and information.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        6.10 Optimize for Auto-Completion
+                        Optimize for Auto-Completion
                       </h3>
                       <figure className="my-3 sm:my-4">
                         <Item
-                          original="/assets/images/blog/post-2.jpg"
-                          thumbnail="/assets/images/blog/post-2.jpg"
+                          original="/assets/images/blog/internal/geo-14.webp"
+                          thumbnail="/assets/images/blog/internal/geo-14.webp"
                           width="1280"
                           height="853"
                         >
                           {({ ref, open }) => (
-                            <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
                               <Image
                                 className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                                alt="Pink Marketing, by Mak"
-                                src="/assets/images/blog/post-2.jpg"
+                                alt=""
+                                src="/assets/images/blog/internal/geo-14.webp"
                                 width="1280"
                                 height="853"
                                 ref={ref}
@@ -2498,9 +2526,6 @@ export default function WhatisGEO() {
                                 className="position-cover"
                                 data-caption="Pink Marketing, by Mak"
                               ></a>
-                              <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                                Pink Marketing, by Mak
-                              </figcaption>
                             </figure>
                           )}
                         </Item>
@@ -2515,7 +2540,7 @@ export default function WhatisGEO() {
                         rates.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        6.10.1 Why Optimize for Auto-Completion:
+                        Why Optimize for Auto-Completion:
                       </h4>
                       <ul>
                         <li>
@@ -2524,19 +2549,19 @@ export default function WhatisGEO() {
                           content is more likely to appear early in search
                           predictions.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>User Intent Matching:</b> Auto-completion reflects
                           real user queries, helping you tailor your content to
                           what users actually want to find.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Increased Traffic Potential: </b> Users tend to
                           click on auto-complete suggestions because they offer
                           quick, relevant answers.
                         </li>
                       </ul>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        6.10.2 How to Optimize for Auto-Completion:
+                        How to Optimize for Auto-Completion:
                       </h4>
                       <ul>
                         <li>
@@ -2545,29 +2570,29 @@ export default function WhatisGEO() {
                           planners to identify popular auto-complete suggestions
                           in your niche.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Use Natural Language:</b> Write your content in
                           conversational, natural phrasing that matches how
                           people type queries.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Incorporate Long-Tail Keywords:</b> Auto-complete
                           often suggests long-tail queries, so include these in
                           your headings and body text.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Answer Partial Queries:</b> Address questions or
                           phrases that users might start typing but not finish,
                           ensuring your content completes their search intent.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Keep Content Structured: </b> Use clear headings,
                           bullet points, and summaries to help AI extract
                           relevant auto-complete-ready snippets.
                         </li>
                       </ul>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        6.11 Create Future-Proof Content
+                        Create Future-Proof Content
                       </h3>
                       <p>
                         In the rapidly evolving world of AI-powered search and
@@ -2578,26 +2603,27 @@ export default function WhatisGEO() {
                         after publication.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        6.11.1 Why Future-Proof Content Matters:
+                        Why Future-Proof Content Matters:
                       </h4>
                       <ul>
                         <li>
                           <b>Longevity:</b> Content that stays relevant saves
                           you time and resources on frequent updates.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Sustained Authority:</b> Evergreen and
                           well-researched content builds lasting trust with both
                           AI engines and your audience.
                         </li>
                         <li>
+                          className="mt-2"
                           <b>Adaptability:</b> Future-proof content is flexible
                           enough to incorporate new trends, data, and insights
                           without losing its core value.
                         </li>
                       </ul>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        6.11.2 How to Create Future-Proof Content:
+                        How to Create Future-Proof Content:
                       </h4>
                       <ul>
                         <li>
@@ -2605,22 +2631,22 @@ export default function WhatisGEO() {
                           have lasting interest and importance within your
                           niche.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Use Data-Backed Information:</b> Incorporate
                           reliable statistics, studies, and references that
                           remain valid over time or are regularly updated.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Write with Depth and Detail: </b> Comprehensive,
                           well-structured content is more likely to be
                           referenced by AI for a variety of related queries.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Plan for Updates:</b> Build a content refresh
                           strategy to revisit and update facts, stats, and
                           examples regularly.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>void Overly Trendy Jargon:</b> While mentioning
                           current trends can be helpful, don’t overload your
                           content with fleeting buzzwords that may quickly
@@ -2640,7 +2666,7 @@ export default function WhatisGEO() {
                         Generative Engine Optimization.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        6.12 Give Feedback to LLMs
+                        Give Feedback to LLMs
                       </h3>
                       <p>
                         One of the most underrated yet powerful strategies to
@@ -2651,51 +2677,51 @@ export default function WhatisGEO() {
                         relevance, and accuracy of the answers generated.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        6.12.1 Why Giving Feedback Matters:
+                        Why Giving Feedback Matters:
                       </h4>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           <b>Influence AI Training: </b> Your feedback helps
                           fine-tune the AI’s understanding of quality content
                           and reliable sources.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Boosts Your Content’s Trustworthiness:</b>
                           Highlighting when your content is accurate or
                           correcting misattributions can improve future
                           referencing of your brand or work.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Builds Relationships with Platforms: </b>Some AI
                           tools incorporate user feedback into their ranking and
                           citation algorithms, indirectly benefiting your SEO.
                         </li>
                       </ul>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        6.12.2 How to Give Effective Feedback:
+                        How to Give Effective Feedback:
                       </h4>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           <b>Engage with AI Outputs:</b> Whenever you use AI
                           tools like ChatGPT, Perplexity, or others, take a
                           moment to rate or comment on the responses related to
                           your content or niche.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Correct Misinformation:</b> Politely flag errors or
                           outdated info that affect your content’s reputation.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Suggest Improvements:</b> Provide constructive
                           feedback that helps AI models understand nuances or
                           emerging trends better.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Participate in Beta Programs:</b> Join user
                           communities or beta testing groups for AI platforms to
                           influence their development firsthand.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Encourage Your Audience: </b> Motivate your
                           followers or readers to give feedback when your
                           content is featured or referenced.
@@ -2706,17 +2732,17 @@ export default function WhatisGEO() {
                       </p>
                       <figure className="my-3 sm:my-4">
                         <Item
-                          original="/assets/images/blog/post-2.jpg"
-                          thumbnail="/assets/images/blog/post-2.jpg"
+                          original="/assets/images/blog/internal/geo-13.webp"
+                          thumbnail="/assets/images/blog/internal/geo-13.webp"
                           width="1280"
                           height="853"
                         >
                           {({ ref, open }) => (
-                            <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
                               <Image
                                 className="media-cover image uc-transition-scale-up uc-transition-opaque"
                                 alt="Pink Marketing, by Mak"
-                                src="/assets/images/blog/post-2.jpg"
+                                src="/assets/images/blog/internal/geo-13.webp"
                                 width="1280"
                                 height="853"
                                 ref={ref}
@@ -2726,9 +2752,6 @@ export default function WhatisGEO() {
                                 className="position-cover"
                                 data-caption="Pink Marketing, by Mak"
                               ></a>
-                              <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                                Pink Marketing, by Mak
-                              </figcaption>
                             </figure>
                           )}
                         </Item>
@@ -2740,7 +2763,7 @@ export default function WhatisGEO() {
                         represent your content to others.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        6.13 Target Zero-Click Searches
+                        Target Zero-Click Searches
                       </h3>
                       <p>
                         Zero-click searches are queries where users get the
@@ -2751,27 +2774,27 @@ export default function WhatisGEO() {
                         brand’s visibility and authority.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        6.13.1 Why Target Zero-Click Searches?
+                        Why Target Zero-Click Searches?
                       </h4>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           <b>Instant Visibility:</b> Your content can be
                           featured prominently in AI snippets, knowledge panels,
                           or answer boxes.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Brand Authority:</b>
                           Even without clicks, being the source of the answer
                           builds trust and recognition.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Traffic Diversification: </b>While clicks may
                           decrease, zero-click presence increases your reach
                           across multiple platforms and devices.
                         </li>
                       </ul>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        6.13.2 How to Optimize for Zero-Click Searches:
+                        How to Optimize for Zero-Click Searches:
                       </h4>
                       <ul>
                         <li>
@@ -2779,17 +2802,17 @@ export default function WhatisGEO() {
                           straightforward, well-structured answers that directly
                           address common user queries.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Use Structured Data Markup:</b> Implement schema to
                           help search engines and AI better understand and
                           extract your content.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Leverage Lists and Tables:</b> Formats like
                           numbered lists or comparison tables are highly favored
                           in featured snippets and AI answers.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Focus on Featured Snippet Optimization: </b>{" "}
                           Research common snippet formats and tailor your
                           content to match those patterns.
@@ -2805,7 +2828,7 @@ export default function WhatisGEO() {
                         even without a user clicking your page.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        6.14 Publish Original Research Papers
+                        Publish Original Research Papers
                       </h3>
                       <p>
                         Creating and publishing original research is one of the
@@ -2816,7 +2839,7 @@ export default function WhatisGEO() {
                         engines and human audiences highly value.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        6.14.1 Why Publish Your Own Research?
+                        Why Publish Your Own Research?
                       </h4>
                       <ul>
                         <li>
@@ -2824,25 +2847,25 @@ export default function WhatisGEO() {
                           cannot be easily replicated, giving you a distinct
                           advantage over competitors.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Higher Trust & Citations:</b>
                           AI models prefer to source information from primary
                           research, boosting your chances of being cited in
                           AI-generated responses.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Thought Leadership:</b>Publishing research
                           positions you or your brand as an expert, increasing
                           credibility and long-term authority.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>SEO Benefits:</b>Research papers attract backlinks,
                           references, and social shares, improving your overall
                           search rankings.
                         </li>
                       </ul>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
-                        6.14.2 How to Get Started:
+                        How to Get Started:
                       </h4>
                       <ul>
                         <li>
@@ -2850,30 +2873,30 @@ export default function WhatisGEO() {
                           Focus on a gap or emerging trend in your field that
                           lacks comprehensive data or analysis.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Design a Rigorous Study:</b> Use clear
                           methodologies and ensure data integrity to produce
                           reliable results.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Document Your Findings Clearly:</b> Write with
                           precision and provide visual aids like charts, graphs,
                           and tables to enhance understanding.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Publish on Reputable Platforms:</b> Use academic
                           journals, preprint servers like arXiv, or
                           industry-specific publications to reach the right
                           audience.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Promote Your Research:</b> Share summaries, blog
                           posts, and social media snippets to increase
                           visibility and engagement.
                         </li>
                       </ul>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        7. Optimize Like a Pro: Tips for Perplexity AI, ChatGPT,
+                        Optimize Like a Pro: Tips for Perplexity AI, ChatGPT,
                         and Google AI Overview
                       </h2>
                       <p>
@@ -2889,7 +2912,7 @@ export default function WhatisGEO() {
                         right audience.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        7.1 Optimization Tips for{" "}
+                        Optimization Tips for{" "}
                         <a
                           href="https://getaimonitor.com/how-to-get-featured-by-perplexity-ai-in-2025-the-complete-interactive-guide/"
                           target="_blank"
@@ -2899,34 +2922,34 @@ export default function WhatisGEO() {
                         </a>
                       </h3>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           <b>Be Factual and Source-Backed:</b>
                           Perplexity AI prioritizes information that’s
                           verifiable and well-cited. Always include credible
                           references.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Keep Answers Concise:</b> Short, clear, and precise
                           content helps Perplexity generate effective summaries
                           and answers.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Use Lists and Bullet Points:</b> Structured
                           information is easier for Perplexity to extract and
                           display.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Address Popular User Queries:</b> Focus on
                           answering common questions in your niche to increase
                           chances of featuring.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Provide Clear Citations:</b> Back up your claims
                           with trustworthy sources to boost credibility.
                         </li>
                       </ul>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        7.2 Optimization Tips for
+                        Optimization Tips for
                         <a
                           href="https://getaimonitor.com/chatgpt-seo-how-to-rank-in-chatgpt-responses-in-2025/"
                           target="_blank"
@@ -2936,33 +2959,33 @@ export default function WhatisGEO() {
                         </a>
                       </h3>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           <b>Write Clear and Concise Answers:</b>
                           ChatGPT prefers straightforward language that’s easy
                           to understand.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Use Step-by-Step Explanations:</b> Breaking down
                           complex ideas into simple steps helps ChatGPT generate
                           accurate responses.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Include Examples and Analogies:</b> These improve
                           the relatability and clarity of answers.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Provide Context Early:</b> Give relevant background
                           information to help ChatGPT understand the topic
                           better.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Incorporate FAQs:</b> Using question-answer formats
                           increases your chances of appearing in AI-generated
                           answers.
                         </li>
                       </ul>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        7.3 Optimization Tips for
+                        Optimization Tips for
                         <a
                           href="https://getaimonitor.com/how-to-get-featured-in-googles-ai-overview-tools-and-strategies-for-2025/"
                           target="_blank"
@@ -2972,31 +2995,31 @@ export default function WhatisGEO() {
                         </a>
                       </h3>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           <b>Align Content with Search Intent:</b> Google
                           Overview pulls from authoritative, well-structured
                           content that matches what users want.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Use Structured Data:</b> Schema markup helps Google
                           Overview extract key facts and display rich results.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Focus on “How” and “Why” Content:</b> Explanatory
                           and detailed answers are favored
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Keep Content Fresh:</b> Regular updates improve
                           your chances of being referenced.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Mention Recognized Entities:</b> Referencing
                           well-known people, places, or brands helps Google
                           understand context.
                         </li>
                       </ul>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        8. Measuring Success in Generative Engine Optimization
+                        Measuring Success in Generative Engine Optimization
                         (GEO)
                       </h2>
                       <p>
@@ -3015,48 +3038,48 @@ export default function WhatisGEO() {
                         break it down together:
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        8.1. Presence in AI-Generated Answers
+                        Presence in AI-Generated Answers
                       </h3>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           <b>Track mentions in AI responses:</b> Use tools or
                           manual searches to see if your brand or content
                           appears in AI-generated answers on platforms like
                           ChatGPT, Bing AI, Perplexity, or Google’s AI snippets.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Featured snippets & knowledge panels:</b> Monitor
                           whether your content gets selected as a direct answer
                           or cited source in these AI responses.
                         </li>
                       </ul>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        8.2. Traffic from Generative Search Sources
+                        Traffic from Generative Search Sources
                       </h3>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           <b>Referral traffic from AI tools: </b> Use analytics
                           tools (Google Analytics, or advanced tracking with AI
                           monitoring tools) to identify how much traffic comes
                           from AI-powered platforms or generative search
                           features.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>User journey tracking:</b> Understand how users
                           interact after arriving via generative search results
                           bounce rate, session duration, conversions.
                         </li>
                       </ul>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        8.3. Engagement Metrics on AI-Enhanced Content
+                        Engagement Metrics on AI-Enhanced Content
                       </h3>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           <b>Content interaction:</b> Measure how users engage
                           with content optimized for GEO -comments, shares,
                           dwell time, repeat visits.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Conversational engagement: </b> If your brand
                           integrates with chatbots or AI assistants, track
                           conversation length, user satisfaction, and completion
@@ -3064,71 +3087,71 @@ export default function WhatisGEO() {
                         </li>
                       </ul>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        8.4. Keyword & Intent Alignment in AI Queries
+                        Keyword & Intent Alignment in AI Queries
                       </h3>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           <b>Ranking for question-based queries:</b>Monitor how
                           your content answers natural language questions or
                           prompts used by AI.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Intent match accuracy:</b> Ensure your content
                           aligns closely with user intent that generative
                           engines recognize.
                         </li>
                       </ul>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        8.5. Authority & Citation Metrics
+                        Authority & Citation Metrics
                       </h3>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           <b>Backlinks from AI content:</b> Check if your
                           content is referenced or cited by AI-generated
                           summaries or answers.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Domain authority & topical relevance: </b> These
                           still matter because AI often prefers credible,
                           authoritative sources.
                         </li>
                       </ul>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        8.6. Use of Specialized GEO Tools
+                        Use of Specialized GEO Tools
                       </h3>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           <b>AI Monitoring tools:</b> Platforms like AI Traffic
                           Monitor can help track AI mentions, citation
                           frequency, and performance in generative engines.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>SERP and AI engine tracking:</b> Tools that track
                           how AI engines display your content, how often it’s
                           recommended, and in what context.
                         </li>
                       </ul>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        8.7. Conversion and Business Impact
+                        Conversion and Business Impact
                       </h3>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           <b>Lead generation and sales from GEO traffic:</b>{" "}
                           Track how AI-driven traffic contributes to actual
                           business outcomes.
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Brand awareness lift:</b> Surveys or brand tracking
                           studies can assess if AI-generated answers boost your
                           brand recall.
                         </li>
                       </ul>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        8.8. Presence in AI-Generated Answers
+                        Presence in AI-Generated Answers
                       </h3>
                       Table
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        9. Tools That Enhance the Generative Engine Optimization
+                        Tools That Enhance the Generative Engine Optimization
                         (GEO) Process
                       </h2>
                       <p>
@@ -3147,7 +3170,7 @@ export default function WhatisGEO() {
                         shine in the evolving AI search landscape.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        9.1 . AI Monitor – The GEO Powerhouse
+                        AI Monitor – The GEO Powerhouse
                       </h3>
                       <p>
                         AI Monitor offers real-time tracking of your brand’s
@@ -3161,7 +3184,7 @@ export default function WhatisGEO() {
                         Used by top agencies to drive 500%+ visibility gains.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        9.2. Semrush – The Trusted SEO Tool with GEO Add-Ons
+                        Semrush – The Trusted SEO Tool with GEO Add-Ons
                       </h3>
                       <p>
                         Semrush rolled out GEO-friendly tweaks like prompt
@@ -3173,7 +3196,7 @@ export default function WhatisGEO() {
                         Starter plans kick off at $99/month.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        9.3. Otterly.AI – The Budget-Friendly Option
+                        Otterly.AI – The Budget-Friendly Option
                       </h3>
                       <p>
                         Otterly.AI is an affordable tool that provides basic
@@ -3186,7 +3209,7 @@ export default function WhatisGEO() {
                         campaigns, this approach pays off.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        9.4. Profound – The Enterprise Intelligence Engine
+                        Profound – The Enterprise Intelligence Engine
                       </h3>
                       <p>
                         Profound delivers high-end AI behavior mapping, brand
@@ -3198,7 +3221,7 @@ export default function WhatisGEO() {
                         Requires premium licensing and advanced onboarding.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        9.5. BrandRank.ai – The Reputation Guardian
+                        BrandRank.ai – The Reputation Guardian
                       </h3>
                       <p>
                         BrandRank.ai offers a hybrid approach: AI monitoring
@@ -3208,8 +3231,34 @@ export default function WhatisGEO() {
                         government orgs.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        9.6. Ziptie.dev – The Developer’s Playground
+                        Ziptie.dev – The Developer’s Playground
                       </h3>
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/internal/geo-15.webp"
+                          thumbnail="/assets/images/blog/internal/geo-15.webp"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt=""
+                                src="/assets/images/blog/internal/geo-15.webp"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption=""
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                      </figure>
                       <p>
                         Ziptie.dev is a developer-first API toolkit for tracking
                         generative engines at a technical level.You can build
@@ -3228,46 +3277,16 @@ export default function WhatisGEO() {
                         Generative Engine Optimization tools on the planet, your
                         one-stop resource to stay ahead in the game.
                       </p>
-                      <figure className="my-3 sm:my-4">
-                        <Item
-                          original="/assets/images/blog/post-2.jpg"
-                          thumbnail="/assets/images/blog/post-2.jpg"
-                          width="1280"
-                          height="853"
-                        >
-                          {({ ref, open }) => (
-                            <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
-                              <Image
-                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                                alt="Pink Marketing, by Mak"
-                                src="/assets/images/blog/post-2.jpg"
-                                width="1280"
-                                height="853"
-                                ref={ref}
-                              />
-                              <a
-                                onClick={open}
-                                className="position-cover"
-                                data-caption="Pink Marketing, by Mak"
-                              ></a>
-                              <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                                Pink Marketing, by Mak
-                              </figcaption>
-                            </figure>
-                          )}
-                        </Item>
-                      </figure>
                       <p>
                         Got a GEO tool we haven’t included yet? Drop us an
                         email, and we’ll make sure it gets the spotlight it
                         deserves
                       </p>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        10. Real-World GEO Success Stories
+                        Real-World GEO Success Stories
                       </h2>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        10.1 A Personal Story: How GEO Became My Unexpected
-                        Calling
+                        A Personal Story: How GEO Became My Unexpected Calling
                       </h3>
                       <p>
                         So here’s the thing back then, I was actually a lawyer
@@ -3321,7 +3340,7 @@ export default function WhatisGEO() {
                         legal drama and a lot more smart strategy.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        10.2 Relixir & a YC-Backed Fintech
+                        Relixir & a YC-Backed Fintech
                       </h3>
                       <p>
                         A fintech startup working with <b>Relixir</b> launched a
@@ -3339,7 +3358,7 @@ export default function WhatisGEO() {
                         proving the rapid ROI potential of GEO.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        10.3 Reddit-Featured SaaS Startup
+                        Reddit-Featured SaaS Startup
                       </h3>
                       <p>
                         A SaaS startup shared on Reddit how they
@@ -3352,7 +3371,7 @@ export default function WhatisGEO() {
                         Claude.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        10.4 Healthline’s Healthcare SEO Overhaul
+                        Healthline’s Healthcare SEO Overhaul
                       </h3>
                       <p>
                         In the healthcare sector, Healthline restructured its
@@ -3365,7 +3384,7 @@ export default function WhatisGEO() {
                         </b>
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        10.5 HubSpot’s Data-Driven Authority Play
+                        HubSpot’s Data-Driven Authority Play
                       </h3>
                       <p>
                         B2B leader <b>HubSpot</b> published original research
@@ -3377,9 +3396,7 @@ export default function WhatisGEO() {
                           platforms.
                         </b>
                       </p>
-                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        11. Conclusion
-                      </h2>
+                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">Conclusion</h2>
                       <p>
                         In today’s fast-evolving digital landscape,{" "}
                         <b>Generative Engine Optimization (GEO)</b> is the game
