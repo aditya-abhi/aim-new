@@ -31,7 +31,7 @@ export default async function Blog2Page(props) {
           <Header7 />
           <Head
             pageName="GEO vs SEO: Key Differences, Optimization Strategies, and Future Trends"
-            src="/assets/images/blog/Chat-GPT-SEO.webp"
+            src="/assets/images/blog/geo-vs-seo-key-differences.webp"
             publishedOn="Feb 24, 2025"
             updatedOn=""
           />

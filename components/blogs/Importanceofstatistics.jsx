@@ -102,7 +102,6 @@ export default function ImportanceOfStatistics() {
                         within it. They prioritize content that showcases
                         authority and credibility.
                       </p>
-                      <h3 className="mt-3"></h3>
                       <p>
                         They are trained to detect signals that suggest the
                         content provided is very useful. Some of these signals
@@ -111,8 +110,7 @@ export default function ImportanceOfStatistics() {
                         “Look here! This is trusted!”
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        Below are some pointers of why statistics are
-                        indispensable:
+                        The Importance of Credible Sources
                       </h3>
                       <ol className="">
                         <li className="mt-2">

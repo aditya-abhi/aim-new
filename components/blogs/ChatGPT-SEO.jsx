@@ -28,8 +28,10 @@ export default function ChatGPTSEO() {
                       data-uc-lightbox="animation: scale"
                     >
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        1. Introduction{" "}
+                        Introduction
                       </h2>
+                      {/* CSS Element */}
+                      CSS Element
                       <p>
                         I’m sure you’ve wondered at some point why does ChatGPT
                         recommend my competitors but not me? Or maybe that’s
@@ -84,7 +86,7 @@ export default function ChatGPTSEO() {
                         for staying competitive in the age of answer engines.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        1.1 The Risk of Staying Invisible
+                        The Risk of Staying Invisible
                       </h3>
                       <p>
                         It’s not just visibility you’re losing when your brand
@@ -97,7 +99,6 @@ export default function ChatGPTSEO() {
                       </p>
                       <p className="mt-3">What is at stake here:</p>
                       <p className="mt-3">
-                        1.1.1{" "}
                         <a
                           href="https://getaimonitor.com/how-zero-click-searches-are-revolutionising-seo-and-geo/"
                           className="fw-bold text-blue hover:text-purple-600"
@@ -113,7 +114,7 @@ export default function ChatGPTSEO() {
                         traffi,c you’re missing the entire conversation.
                       </p>
                       <p className="mt-3">
-                        1.1.2 <b>Credibility Through AI Endorsement</b>
+                        <b>Credibility Through AI Endorsement</b>
                       </p>
                       <p>
                         When ChatGPT drops a brand’s name, it’s like getting a
@@ -123,7 +124,7 @@ export default function ChatGPTSEO() {
                         duplicate it. 0.
                       </p>
                       <p className="mt-3">
-                        1.1.3 <b> Organic Referrals from High-Intent Queries</b>
+                        <b> Organic Referrals from High-Intent Queries</b>
                       </p>
                       <p>
                         Users turn to AI for fast, reliable solutions. If your
@@ -134,7 +135,7 @@ export default function ChatGPTSEO() {
                         losing market share and revenue.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        1.2 By the end of this guide, you’ll know :
+                        By the end of this guide, you’ll know :
                       </h3>
                       <ul>
                         <li className="mt-1">
@@ -161,8 +162,7 @@ export default function ChatGPTSEO() {
                         by using innovative tools.
                       </p>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        2. How ChatGPT (and ChatGPT Search) Actually Works in
-                        2025
+                        How ChatGPT (and ChatGPT Search) Actually Works in 2025
                       </h2>
                       <p className="m-0">
                         <b>
@@ -228,7 +228,7 @@ export default function ChatGPTSEO() {
                       </p>
                       <p className="mt-3">Let’s break it down.</p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        2.1 Step 1: It’s Trained on (Most of) the Internet
+                        Step 1: It’s Trained on (Most of) the Internet
                       </h3>
                       <p>
                         At the foundation of ChatGPT is a powerful large
@@ -254,8 +254,8 @@ export default function ChatGPTSEO() {
                         is where the real transformation begins. s
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        2.2 Step 2: When You Need Fresh Info, That’s Where
-                        ChatGPT Search (aka Search GPT) Comes In
+                        Step 2: When You Need Fresh Info, That’s Where ChatGPT
+                        Search (aka Search GPT) Comes In
                       </h3>
                       <p>
                         To stay competitive with platforms like Perplexity AI
@@ -274,7 +274,7 @@ export default function ChatGPTSEO() {
                         live APIs.
                       </p>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        2.2.1 Here’s what it does:
+                        Here’s what it does:
                       </h4>
                       <ul>
                         <li className="mt-1">
@@ -294,7 +294,7 @@ export default function ChatGPTSEO() {
                         Presents it cleanly in the chat, often with tables,
                         maps, or product cards
                       </p>
-                      <h4 className="h6 lg:h5 mt-2 mb-2">2.2.2.Example:</h4>
+                      <h4 className="h6 lg:h5 mt-2 mb-2">Example:</h4>
                       <p>Ask → “What’s new in Nvidia’s Q2 earnings?”</p>
                       <figure className="my-3 sm:my-4">
                         <Item
@@ -320,29 +320,40 @@ export default function ChatGPTSEO() {
                       </figure>
                       <p>→ You can click or hover on the source to verify.</p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        2.3 Where Exactly Does ChatGPT Get Its Info?
+                        Where Exactly Does ChatGPT Get Its Info?
                       </h3>
-                      <div className="panel mt-2 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
                         <table className="uc-table uc-table-divider">
                           <thead className="table-head sticky-top z-1 ">
-                            <tr className="table-row dark:border-white border-gray-900">
-                              <th className="table-header-cell" scope="row">
-                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
-                                  Mode{" "}
+                            <tr className="table-row dark:border-white border-gray-900 bg-gray-25 dark:bg-tertiary-800">
+                              <th
+                                className="table-header-cell top pt-0 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary text-underline lg:text-none">
+                                  Mode
                                 </span>
                               </th>
-                              <th className="table-header-cell" scope="row">
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
                                   Where It Gets Info From
                                 </span>
                               </th>
-                              <th className="table-header-cell" scope="row">
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
                                   Is It Up-To-Date?
                                 </span>
                               </th>
-
-                              <th className="table-header-cell" scope="row">
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
                                   Are There Citations?
                                 </span>
@@ -351,68 +362,68 @@ export default function ChatGPTSEO() {
                           </thead>
                           <tbody className="table-body">
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     GPT-4 (default){" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-8 lg:pt-1">
                                 <span className="dark:text-white">
                                   Pre-trained data (books, web, code){" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-8 lg:pt-1">
                                 <span className="dark:text-white">
-                                  ❌ No (2023/24 cutoff) Claude, Copilot
+                                  ❌ No (2023/24 cutoff){" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-8 lg:pt-1">
                                 <span className="dark:text-white">❌ No</span>
                               </td>
                             </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    GPT-4o{" "}
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    GPT-4o
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
-                                  Multimodal trained model{" "}
+                                  Multimodal trained model
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   ❌ Not real-time{" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">❌ No</span>
                               </td>
                             </tr>
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     Search GPT{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Live APIs, Bing, trusted sources{" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   ✅ Real-time{" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">✅ Yes</span>
                               </td>
                             </tr>
@@ -428,7 +439,7 @@ export default function ChatGPTSEO() {
                         enabled.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        2.4 Step 3: It Understands Context and Plays Along
+                        Step 3: It Understands Context and Plays Along
                       </h3>
                       <p>
                         What makes ChatGPT truly useful is that it{" "}
@@ -490,7 +501,7 @@ export default function ChatGPTSEO() {
                         care about, or even your company name.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        2.5 Step 4: It’s Not Just a Textbox Anymore
+                        Step 4: It’s Not Just a Textbox Anymore
                       </h3>
                       <p>
                         ChatGPT isn’t just a place to type questions anymore,
@@ -535,7 +546,7 @@ export default function ChatGPTSEO() {
                         interface.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        2.6 What You Can Use ChatGPT Search For
+                        What You Can Use ChatGPT Search For
                       </h3>
                       <p>
                         ChatGPT Search isn’t just for quick facts; it’s a
@@ -581,23 +592,32 @@ export default function ChatGPTSEO() {
                         structured output, all in a single answer.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        2.7 ChatGPT Evolution Timeline
+                        ChatGPT Evolution Timeline
                       </h3>
-                      <div className="panel mt-2 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
                         <table className="uc-table uc-table-divider">
                           <thead className="table-head sticky-top z-1 ">
-                            <tr className="table-row dark:border-white border-gray-900">
-                              <th className="table-header-cell" scope="row">
-                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                            <tr className="table-row dark:border-white border-gray-900 bg-gray-25 dark:bg-tertiary-800">
+                              <th
+                                className="table-header-cell top pt-0 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary text-underline lg:text-none">
                                   Date
                                 </span>
                               </th>
-                              <th className="table-header-cell" scope="row">
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
                                   Milestone
                                 </span>
                               </th>
-                              <th className="table-header-cell" scope="row">
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
                                   Summary
                                 </span>
@@ -606,19 +626,19 @@ export default function ChatGPTSEO() {
                           </thead>
                           <tbody className="table-body">
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     Nov 30, 2022{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-8 lg:pt-1">
                                 <span className="dark:text-white">
-                                  ChatGPT Launch (GPT-3.5)
+                                  ChatGPT Launch (GPT-3.5){" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-8 lg:pt-1">
                                 <span className="dark:text-white">
                                   OpenAI releases ChatGPT based on GPT-3.5 as a
                                   free research preview; it attracts 1 million
@@ -627,20 +647,20 @@ export default function ChatGPTSEO() {
                                 </span>
                               </td>
                             </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    Feb 1, 2023
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Feb 1, 2023{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
-                                  100M Users Milestone
+                                  100M Users Milestone{" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   ChatGPT surpasses 100 million monthly active
                                   users just two months post-launch, becoming
@@ -649,19 +669,19 @@ export default function ChatGPTSEO() {
                               </td>
                             </tr>
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    Mar 14, 2023
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Mar 14, 2023{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
-                                  GPT-4 Release
+                                  GPT-4 Release{" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   OpenAI rolls out GPT-4, introducing improved
                                   reasoning, creativity, and multimodal
@@ -669,20 +689,20 @@ export default function ChatGPTSEO() {
                                 </span>
                               </td>
                             </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    Mar–Apr 2023
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Mar–Apr 2023{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
-                                  Plugin Support & Browsing Added
+                                  Plugin Support & Browsing Added{" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   OpenAI integrates plugin support (e.g.,
                                   browsing, code interpreter) into ChatGPT,
@@ -691,19 +711,19 @@ export default function ChatGPTSEO() {
                               </td>
                             </tr>
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    Jul 2023 – ?
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Jul 2023 – ?{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
-                                  Code Interpreter (Advanced Data Analysis)
+                                  Code Interpreter (Advanced Data Analysis){" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   OpenAI introduces Code Interpreter (later
                                   rebranded as Advanced Data Analysis) for
@@ -712,20 +732,20 @@ export default function ChatGPTSEO() {
                                 </span>
                               </td>
                             </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     May 13, 2024{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
-                                  GPT-4o (“Omni”) Debut
+                                  GPT-4o (“Omni”) Debut{" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   OpenAI announces GPT-4o, a multimodal model
                                   supporting text, image, and audio processing,
@@ -735,19 +755,19 @@ export default function ChatGPTSEO() {
                               </td>
                             </tr>
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     Jul 18, 2024{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   GPT-4o mini Release{" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   A lighter, more cost-effective variant of
                                   GPT-4o is released, replacing GPT-3.5 Turbo on
@@ -755,20 +775,21 @@ export default function ChatGPTSEO() {
                                 </span>
                               </td>
                             </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     Dec 5, 2024{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   OpenAI o1 Launched{" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   OpenAI releases o1, a model focused on
                                   enhanced reasoning for math and science,
@@ -777,19 +798,19 @@ export default function ChatGPTSEO() {
                               </td>
                             </tr>
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     Apr 14, 2025{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   GPT-4.1 Released{" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   OpenAI launches GPT-4.1 (including mini and
                                   nano variants), offering refined coding
@@ -798,20 +819,20 @@ export default function ChatGPTSEO() {
                                 </span>
                               </td>
                             </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    Aug 7, 2025
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Aug 7, 2025{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   GPT-5 Debuts{" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   A new era begins as OpenAI unveils GPT-5,
                                   touted as an expert-level assistant across
@@ -831,11 +852,11 @@ export default function ChatGPTSEO() {
                         multi-sensory, reasoning-centric tools.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        2.8 ChatGPT’s Search Evolution: From Bing Integration to
+                        ChatGPT’s Search Evolution: From Bing Integration to
                         Independent Browsing
                       </h3>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        2.8.1 Bing Integration: When & How It Was Used
+                        Bing Integration: When & How It Was Used
                       </h4>
                       <ul>
                         <li className="mt-2">
@@ -904,7 +925,7 @@ export default function ChatGPTSEO() {
                         transition to a new system.
                       </p>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        2.8.2 Shift to ChatGPT Search (formerly SearchGPT)
+                        Shift to ChatGPT Search (formerly SearchGPT)
                       </h4>
                       <ul>
                         <li className="mt-2">
@@ -958,14 +979,125 @@ export default function ChatGPTSEO() {
                         mid-2024, with full rollout by late 2024 / early 2025.
                       </p>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        2.8.3 What’s Used Now & Key Differences
+                        What’s Used Now & Key Differences
                       </h4>
-                      Table
-                      {/* Table  */}
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
+                        <table className="uc-table uc-table-divider">
+                          <thead className="table-head sticky-top z-1 ">
+                            <tr className="table-row dark:border-white border-gray-900 bg-gray-25 dark:bg-tertiary-800">
+                              <th
+                                className="table-header-cell top pt-0 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary text-underline lg:text-none">
+                                  Period
+                                </span>
+                              </th>
+                              <th
+                                className="table-header-cell pt-4 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                                  Search Method
+                                </span>
+                              </th>
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                                  Notes
+                                </span>
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody className="table-body">
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    May–Jul 2023 & Sep 2023–Mid 2024{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-8 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Browse with Bing{" "}
+                                </span>
+                              </td>
+                              <td className="pt-8 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Real-time access via Bing API; relied on an
+                                  external search engine
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Mid 2024 Onward{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  ChatGPT Search{" "}
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Native AI-powered search integrated into
+                                  ChatGPT; makes a call on when to search
+                                  without needing plugins
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Present (2025){" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  ChatGPT Search{" "}
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Real-time, conversational interface with
+                                  citations, weather, stocks, etc.
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Enterprise/Education{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Still uses Bing (structured){" "}
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Maintains Bing backend for control and privacy
+                                  in professional environments
+                                </span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                       {/* Meeting CTA */}
-                      <h4 className="h6 lg:h5 mt-2 mb-2">
-                        2.8.4 Why This Matters
-                      </h4>
+                      <h4 className="h6 lg:h5 mt-2 mb-2">Why This Matters</h4>
                       <ul>
                         <li className="mt-2">
                           <b>User Experience</b>: ChatGPT Search provides a
@@ -989,7 +1121,7 @@ export default function ChatGPTSEO() {
                         </li>
                       </ul>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        2.9 Why This Shift Is Critical for Brand Visibility
+                        Why This Shift Is Critical for Brand Visibility
                       </h3>
                       <p>
                         We’re no longer in the era of searching; we’re in the
@@ -1042,7 +1174,7 @@ export default function ChatGPTSEO() {
                         an AI-first world.
                       </p>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        3. ChatGPT SEO: How to Get Your Brand Featured
+                        ChatGPT SEO: How to Get Your Brand Featured
                       </h2>
                       <p>
                         Not Just{" "}
@@ -1070,9 +1202,234 @@ export default function ChatGPTSEO() {
                         responses.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        3.1 AI Trusts These High-Authority Sources: s{" "}
+                        AI Trusts These High-Authority Sources:
                       </h3>
                       {/* Table */}
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
+                        <table className="uc-table uc-table-divider">
+                          <thead className="table-head sticky-top z-1 ">
+                            <tr className="table-row dark:border-white border-gray-900 bg-gray-25 dark:bg-tertiary-800">
+                              <th
+                                className="table-header-cell top pt-0 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary text-underline lg:text-none">
+                                  Source Type
+                                </span>
+                              </th>
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                                  Why It Matters for AI Visibility
+                                </span>
+                              </th>
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                                  Why It Matters for AI Visibility
+                                </span>
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody className="table-body">
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Top-Tier Press & News{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-8 lg:pt-1">
+                                <span className="dark:text-white">
+                                  TechCrunch, Forbes, BBC, Reuters, The Verge{" "}
+                                </span>
+                              </td>
+                              <td className="pt-8 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Cited frequently in AI-generated answers.
+                                  These sources establish credibility and brand
+                                  authority.
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Communities & Forums{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Reddit (e.g., r/SaaS, r/Productivity), Quora,
+                                  Hacker News, Stack Exchange{" "}
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  AI often pulls real-world discussions,
+                                  reviews, and comparisons from these to ground
+                                  its responses.
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Structured Directories{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Wikipedia, Crunchbase, LinkedIn{" "}
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Helps large language models (LLMs) associate
+                                  your brand with verified, structured, and
+                                  factual data.
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    AI-Friendly Blogs{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Medium, Substack, GitHub, Personal Blogs
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Cleanly structured blog posts with schemas are
+                                  easier for AI to summarize and cite.
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Training Data Sources{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Public websites, books, docs, Wikipedia,
+                                  Bing-indexed content{" "}
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Brands mentioned here often appear in
+                                  evergreen answers across AI tools due to
+                                  pretraining data
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Trusted Web Content{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Medium, Reddit, Quora, Stack Exchange{" "}
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  AI prefers content with community validation
+                                  and consistent utility, especially in tool
+                                  reviews.
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Structured Web Markup{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  JSON-LD, FAQ schema, HowTo schema{" "}
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Semantic markup helps AI understand the
+                                  context, steps, and answers on your site more
+                                  precisely.
+                                </span>
+                              </td>
+                            </tr>
+
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    APIs & Plugin Results{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  GPT Plugins, Bing Search, Custom APIs{" "}
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  These real-time sources are used when tools
+                                  like ChatGPT have browsing enabled or plugin
+                                  access.
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    User Prompt Patterns{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  How users ask about you{" "}
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  If people frequently mention or ask about your
+                                  brand in questions, it increases your chance
+                                  of being cited.
+                                </span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                       <p>
                         To boost your visibility in AI-generated answers, focus
                         on building brand mentions across high-authority media,
@@ -1083,7 +1440,7 @@ export default function ChatGPTSEO() {
                         such as Bing-indexed content or structured JSON-LD.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        3.2 Improve Bing Rankings s{" "}
+                        Improve Bing Rankings s{" "}
                       </h3>
                       <p>
                         Since ChatGPT pulls heavily from Bing’s index, improving
@@ -1100,7 +1457,7 @@ export default function ChatGPTSEO() {
                         more important than ever.
                       </p>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        3.2.1 Set Up Bing Webmaster Tools
+                        Set Up Bing Webmaster Tools
                       </h4>
                       <p>
                         Register your website with{" "}
@@ -1116,7 +1473,7 @@ export default function ChatGPTSEO() {
                         Search Console and your first step toward visibility.
                       </p>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        3.2.2 Claim Your Bing Places Listing
+                        Claim Your Bing Places Listing
                       </h4>
                       <p>
                         For businesses with a local presence, claiming and
@@ -1133,7 +1490,7 @@ export default function ChatGPTSEO() {
                         address, hours, and customer reviews.
                       </p>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        3.2.3 Optimize for Bing SEO
+                        Optimize for Bing SEO
                       </h4>
                       <p>
                         Focus on clean site structure, exact-match keywords,
@@ -1143,7 +1500,7 @@ export default function ChatGPTSEO() {
                         which help your content surface in ChatGPT answers.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        3.3 Strong Presence on Trusted Third-Party Sites
+                        Strong Presence on Trusted Third-Party Sites
                       </h3>
                       <p>
                         ChatGPT doesn’t “browse the web” in real time like a
@@ -1215,7 +1572,7 @@ export default function ChatGPTSEO() {
                         powerful combination.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        3.4 Enhance Content with E-E-A-T
+                        Enhance Content with E-E-A-T
                       </h3>
                       <p>
                         <b> E-E-A-T</b> stands for{" "}
@@ -1240,7 +1597,7 @@ export default function ChatGPTSEO() {
                         right way:
                       </p>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        3.4.1 Introduce the Humans Behind the Words
+                        Introduce the Humans Behind the Words
                       </h4>
                       <p>
                         People (and AI) want to know who is talking. Add short,
@@ -1250,7 +1607,7 @@ export default function ChatGPTSEO() {
                         This isn’t filler; it’s a credibility marker.
                       </p>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        3.4.2 Show Proof of Credibility
+                        Show Proof of Credibility
                       </h4>
                       <p>
                         If you’ve got
@@ -1261,7 +1618,7 @@ export default function ChatGPTSEO() {
                         appears when AI is making comparisons across sources.
                       </p>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        3.4.3 Share Real-Life Experience
+                        Share Real-Life Experience
                       </h4>
                       <p>
                         Content backed by <b>lived experience</b> stands out.
@@ -1271,7 +1628,7 @@ export default function ChatGPTSEO() {
                         are traits AI systems actively look for.
                       </p>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        3.4.4 Back Up What You Say
+                        Back Up What You Say
                       </h4>
                       <p>
                         Support your points with <b>reputable sources</b> think
@@ -1281,7 +1638,7 @@ export default function ChatGPTSEO() {
                         more likely to be trusted and reused by AI.
                       </p>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        3.4.5 Write with Someone Specific in Mind
+                        Write with Someone Specific in Mind
                       </h4>
                       <p>
                         Generic advice gets ignored. But content tailored to a
@@ -1297,7 +1654,7 @@ export default function ChatGPTSEO() {
                         new SEO win.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        3.5 Use Structured Content & Schema Markup s{" "}
+                        Use Structured Content & Schema Markup s{" "}
                       </h3>
                       <p>
                         ChatGPT can’t cite what it can’t understand clearly.
@@ -1331,12 +1688,365 @@ export default function ChatGPTSEO() {
                       </p>
                       {/* Author Bio */}
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        4. ChatGPT vs Google AI Overviews vs Perplexity AI s{" "}
+                        ChatGPT vs Google AI Overviews vs Perplexity AI s{" "}
                       </h2>
                       {/* Table */}
-                      Table
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
+                        <table className="uc-table uc-table-divider">
+                          <thead className="table-head sticky-top z-1 ">
+                            <tr className="table-row dark:border-white border-gray-900 bg-gray-25 dark:bg-tertiary-800">
+                              <th
+                                className="table-header-cell top pt-0 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary text-underline lg:text-none">
+                                  Feature
+                                </span>
+                              </th>
+                              <th
+                                className="table-header-cell pt-4 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                                  ChatGPT{" "}
+                                </span>
+                              </th>
+                              <th
+                                className="table-header-cell pt-4 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                                  Google AI Overviews
+                                </span>
+                              </th>{" "}
+                              <th
+                                className="table-header-cell pt-4 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                                  Perplexity AI
+                                </span>
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody className="table-body">
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Primary Use Case{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-8 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Conversational assistant, deep context{" "}
+                                </span>
+                              </td>
+                              <td className="pt-8 lg:pt-1">
+                                <span className="dark:text-white">
+                                  AI-powered answers in search results
+                                </span>
+                              </td>
+                              <td className="pt-8 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Answer engine with real-time citations
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Response Style{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Conversational, multi-turn
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Quick, snippet-based answers
+                                </span>
+                              </td>{" "}
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Factual, citation-rich summaries
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Citations in Responses{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Optional/implicit{" "}
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Shown below answer (sometimes hidden)
+                                </span>
+                              </td>{" "}
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Always shows inline citations
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Source Transparency{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Limited (unless browsing is enabled){" "}
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Moderate (sources sometimes abstracted)
+                                </span>
+                              </td>{" "}
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  High (lists exact source URLs)
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Data Sources{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-4 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Trained on public web + plugins/API
+                                </span>
+                              </td>
+                              <td className="pt-4 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Real-time indexed web + LLM fusion
+                                </span>
+                              </td>{" "}
+                              <td className="pt-4 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Live web, curated sources, LLM summary
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Update Frequency{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Static (unless browsing/API used){" "}
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Near real-time
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Real-time crawling and updating
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Structured Data Recognition{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-8-5 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Medium (schema helps, not required){" "}
+                                </span>
+                              </td>
+                              <td className="pt-8-5 lg:pt-1">
+                                <span className="dark:text-white">
+                                  High (uses schema, site quality scores)
+                                </span>
+                              </td>{" "}
+                              <td className="pt-8-5 lg:pt-1">
+                                <span className="dark:text-white">
+                                  High (schema, tables, FAQ preferred)
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    User Influence via Prompts{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-8-5 lg:pt-1">
+                                <span className="dark:text-white">
+                                  High (prompt controls brand mentions){" "}
+                                </span>
+                              </td>
+                              <td className="pt-8-5 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Low (user can't control prompt style)
+                                </span>
+                              </td>{" "}
+                              <td className="pt-8-5 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Medium (phrasing matters)
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Plugin/API Integration{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Strong (tools, APIs, browsing){" "}
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  None (closed environment)
+                                </span>
+                              </td>{" "}
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Limited (search-only, no API actions)
+                                </span>
+                              </td>
+                            </tr>{" "}
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Forum Mentions (Reddit, Quora){" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-10 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Forum Mentions (Reddit, Quora){" "}
+                                </span>
+                              </td>
+                              <td className="pt-10 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Strong influence on brand visibility{" "}
+                                </span>
+                              </td>{" "}
+                              <td className="pt-10 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Medium influence
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    SEO vs GEO Compatibility{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  GEO-first (optimize for LLMs & prompts){" "}
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  SEO-first (optimize for SGE visibility){" "}
+                                </span>
+                              </td>{" "}
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Hybrid (SEO + GEO + citations)
+                                </span>
+                              </td>
+                            </tr>{" "}
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Visibility Strategy{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Schema + brand mentions + prompt testing{" "}
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Traditional SEO + FAQ/HowTo schema{" "}
+                                </span>
+                              </td>{" "}
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Citation seeding + topic coverage
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Ideal for{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-4 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Conversational discovery + tool selection{" "}
+                                </span>
+                              </td>
+                              <td className="pt-4 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Product/service overviews + fast answers{" "}
+                                </span>
+                              </td>{" "}
+                              <td className="pt-4 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Research, summaries, comparisons
+                                </span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        4.1 How ChatGPT Differs from Google AI and Perplexity
+                        How ChatGPT Differs from Google AI and Perplexity
                       </h3>
                       <p>
                         While Google AI Overviews and Perplexity AI function
@@ -1352,7 +2062,7 @@ export default function ChatGPTSEO() {
                         .
                       </p>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        4.1.1 Not Real-Time by Default
+                        Not Real-Time by Default
                       </h4>
                       <p>
                         Unlike Perplexity or Google AI Overviews, ChatGPT’s core
@@ -1379,7 +2089,7 @@ export default function ChatGPTSEO() {
                         </a>
                       </p>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        4.1.2. Prompt-Sensitive Recommendations
+                        Prompt-Sensitive Recommendations
                       </h4>
                       <p>
                         ChatGPT’s output is highly dependent on{" "}
@@ -1394,7 +2104,7 @@ export default function ChatGPTSEO() {
                         appears for the right phrasing.
                       </p>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        4.1.3. No Visible Citations by Default
+                        No Visible Citations by Default
                       </h4>
                       <p>
                         Unlike Perplexity (which shows real-time sources) or
@@ -1416,7 +2126,7 @@ export default function ChatGPTSEO() {
                         without direct links.
                       </p>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        4.1.4. Optimised for Conversations, Not Snippets
+                        Optimised for Conversations, Not Snippets
                       </h4>
                       <p>
                         ChatGPT excels at{" "}
@@ -1448,11 +2158,10 @@ export default function ChatGPTSEO() {
                         </a>
                       </p>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        5. Proof It Works: Real Brands Winning ChatGPT SEO
+                        Proof It Works: Real Brands Winning ChatGPT SEO
                       </h2>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        5.1 Superhuman - The Buzz-Driven Brand That AI Can’t
-                        Ignore
+                        Superhuman - The Buzz-Driven Brand That AI Can’t Ignore
                       </h3>
                       <p className="text-center">
                         “What’s the fastest email app for busy professionals?”
@@ -1485,7 +2194,7 @@ export default function ChatGPTSEO() {
                       </figure>
                       <p>Why Superhuman ranks:</p>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        5.1.1 AI-Driven Features That Align with User Intent
+                        AI-Driven Features That Align with User Intent
                       </h4>
                       <p>
                         Superhuman’s product is built around speed and AI.
@@ -1504,7 +2213,7 @@ export default function ChatGPTSEO() {
                         ask ChatGPT about fast, efficient email tools.
                       </p>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        5.1.2. Quantified Results That Users Repeat s{" "}
+                        Quantified Results That Users Repeat s{" "}
                       </h4>
                       <p>
                         <a
@@ -1522,7 +2231,7 @@ export default function ChatGPTSEO() {
                         AI training data.
                       </p>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        5.1.3. Strategic Digital Buzz
+                        Strategic Digital Buzz
                       </h4>
                       <p>
                         Superhuman nailed digital PR early. It earned media
@@ -1541,7 +2250,7 @@ export default function ChatGPTSEO() {
                         from.
                       </p>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        5.1.4. Trusted Technical Footprint
+                        Trusted Technical Footprint
                       </h4>
                       <p>
                         Superhuman maintains structured, help-rich{" "}
@@ -1558,7 +2267,7 @@ export default function ChatGPTSEO() {
                         real-time tools.
                       </p>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        5.1.5. High Trust from Human + Machine Sources s{" "}
+                        High Trust from Human + Machine Sources s{" "}
                       </h4>
                       <p>
                         Superhuman is listed on{" "}
@@ -1583,8 +2292,8 @@ export default function ChatGPTSEO() {
                         productivity.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        5.2 Notion: Topical Authority & Structured Content Boost
-                        AI Visibility
+                        Notion: Topical Authority & Structured Content Boost AI
+                        Visibility
                       </h3>
                       <p>
                         <b>Prompt examples</b>: “Best tools for managing
@@ -1619,7 +2328,7 @@ export default function ChatGPTSEO() {
                         <b>Why Notion ranks:</b>
                       </p>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        5.2.1 Public API & Plugins
+                        Public API & Plugins
                       </h4>
                       <p>
                         It enables real-time data access by AI tools like
@@ -1633,7 +2342,7 @@ export default function ChatGPTSEO() {
                         </a>
                       </p>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        5.2.2 Featured in AI tool reviews -
+                        Featured in AI tool reviews -
                       </h4>
                       <p>
                         widely acknowledged in major reviews of AI productivity
@@ -1647,7 +2356,7 @@ export default function ChatGPTSEO() {
                         </a>
                       </p>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        5.2.3 User-driven visibility{" "}
+                        User-driven visibility{" "}
                       </h4>
                       <p>
                         Mentioned often in Reddit and productivity forums
@@ -1670,7 +2379,7 @@ export default function ChatGPTSEO() {
                         already being spoken in the world.
                       </p>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        6. How to Know If You're Getting Featured by ChatGPT
+                        How to Know If You're Getting Featured by ChatGPT
                       </h2>
                       <p>
                         OpenAI may not tell you, but there are ways to find out.
@@ -1697,7 +2406,7 @@ export default function ChatGPTSEO() {
                         visibility in the new age of AI-powered search.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        6.1 DIY Method: Manual Prompt Testing (Still Effective)
+                        DIY Method: Manual Prompt Testing (Still Effective)
                       </h3>
                       <p>
                         Before tools like AI Monitor made AI visibility tracking
@@ -1715,7 +2424,7 @@ export default function ChatGPTSEO() {
                         required.
                       </p>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        6.1.1 Step-by-Step: Run Your Visibility Test
+                        Step-by-Step: Run Your Visibility Test
                       </h4>
                       <p>
                         Here’s how to audit your AI brand presence like a
@@ -1760,7 +2469,7 @@ export default function ChatGPTSEO() {
                         </li>
                       </ol>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        6.2 Tool: AI Monitor s{" "}
+                        Tool: AI Monitor s{" "}
                       </h3>
                       <p>
                         At AI Monitor , we believe publishing content is no
@@ -1774,7 +2483,7 @@ export default function ChatGPTSEO() {
                         2025:
                       </p>
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        6.2.1. Is Your Brand Being Mentioned in AI Answers?
+                        Is Your Brand Being Mentioned in AI Answers?
                       </h4>
                       <p>
                         Though not all sources are cited, AI tools summarise
@@ -1784,7 +2493,7 @@ export default function ChatGPTSEO() {
                         increase user confidence.
                       </p>{" "}
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        6.2.2 Are AI Bots Crawling Your Content?
+                        Are AI Bots Crawling Your Content?
                       </h4>
                       <p>
                         AI bots are not necessarily indexing your material just
@@ -1795,7 +2504,7 @@ export default function ChatGPTSEO() {
                         file?
                       </p>{" "}
                       <h4 className="h6 lg:h5 mt-2 mb-2">
-                        6.2.3 Is AI Driving Traffic (Without You Knowing It)?
+                        Is AI Driving Traffic (Without You Knowing It)?
                       </h4>
                       <p>
                         Analytics frequently display “direct” clicks that were
@@ -1812,16 +2521,101 @@ export default function ChatGPTSEO() {
                         zero-click search.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        6.3 What You Should Be Tracking (and Why)
+                        What You Should Be Tracking (and Why)
                       </h3>
                       <p>
                         Here are the key signals content and marketing teams are
                         now treating like new KPIs:
                       </p>
                       {/* Table */}
-                      Table
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
+                        <table className="uc-table uc-table-divider">
+                          <thead className="table-head sticky-top z-1 ">
+                            <tr className="table-row dark:border-white border-gray-900 bg-gray-25 dark:bg-tertiary-800">
+                              <th
+                                className="table-header-cell top pt-0 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary text-underline lg:text-none">
+                                  Metric
+                                </span>
+                              </th>
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                                  What It Tells You
+                                </span>
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody className="table-body">
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Prompts that trigger your brand{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-8 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Are you appearing when users ask relevant
+                                  product/service questions?
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Competitor mentions{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Is the AI recommending rivals over you, and
+                                  why?
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Tone & framing{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Is your brand being praised, positioned
+                                  neutrally, or dismissed?
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Cited sources{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Which websites or forums are influencing your
+                                  brand’s visibility?
+                                </span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        7. Conclusion: ChatGPT SEO Is Already Here-Is Your Brand
+                        Conclusion: ChatGPT SEO Is Already Here-Is Your Brand
                         Ready?
                       </h2>
                       <p>

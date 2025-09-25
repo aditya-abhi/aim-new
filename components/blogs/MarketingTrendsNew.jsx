@@ -27,9 +27,6 @@ export default function MarketingTrendsNew() {
                       className="post-content panel fs-6 md:fs-5 ml-2"
                       data-uc-lightbox="animation: scale"
                     >
-                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        Introduction
-                      </h2>
                       <p>
                         Explore the key marketing trends that will shape how
                         marketers work in 2025. From AI tools and chatbots to
@@ -37,7 +34,7 @@ export default function MarketingTrendsNew() {
                         what to expect and how to adapt your strategies.
                       </p>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        1. Generative Engine Optimization (GEO)
+                        Generative Engine Optimization (GEO)
                       </h2>
                       <p className="mt-3">
                         As large language models (LLMs) change how people search
@@ -58,7 +55,7 @@ export default function MarketingTrendsNew() {
                         audience segment and improve search engine rankings.
                       </p>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        2. Interactive Content
+                        Interactive Content
                       </h2>
                       <p className="mt-3">
                         User engagement and retention will significantly improve
@@ -105,7 +102,7 @@ export default function MarketingTrendsNew() {
                         audience and drove meaningful conversions.
                       </p>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        3. The Enduring Power of Blogging
+                        The Enduring Power of Blogging
                       </h2>
                       <p>
                         Blogging remains a vital strategy for increasing brand
@@ -133,19 +130,25 @@ export default function MarketingTrendsNew() {
                         <b> Key Stats:</b>
                       </p>
                       <ul>
-                        <li>10,000 page views per month on a single post.</li>
-                        <li>59% increase in homepage traffic.</li>
-                        <li>Drives $100,000 in monthly recurring revenue.</li>
+                        <li className="mt-2">
+                          10,000 page views per month on a single post.
+                        </li>
+                        <li className="mt-2">
+                          59% increase in homepage traffic.
+                        </li>
+                        <li className="mt-2">
+                          Drives $100,000 in monthly recurring revenue.
+                        </li>
                       </ul>
                       <p>
                         <b>How They Did It:</b>
                       </p>
                       <ul>
-                        <li>Skyscraper technique.</li>
-                        <li>Keyword research.</li>
-                        <li>Competitor analysis.</li>
-                        <li>Link-building.</li>
-                        <li>Blogger outreach.</li>
+                        <li className="mt-2">Skyscraper technique.</li>
+                        <li className="mt-2">Keyword research.</li>
+                        <li className="mt-2">Competitor analysis.</li>
+                        <li className="mt-2">Link-building.</li>
+                        <li className="mt-2">Blogger outreach.</li>
                       </ul>
                       <p>
                         Marketers are doing more with less, making efficiency
@@ -154,7 +157,7 @@ export default function MarketingTrendsNew() {
                         on high-impact activities.
                       </p>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        4. Increased Use of AI
+                        Increased Use of AI
                       </h2>
                       <p>
                         Education is a high point when it comes to analyzing the
@@ -177,7 +180,7 @@ export default function MarketingTrendsNew() {
                         create more personalized content.
                       </p>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        5. The Return of VR and AR
+                        The Return of VR and AR
                       </h2>
                       <p>
                         VR glasses and AR apps are becoming more accessible, and
@@ -197,7 +200,7 @@ export default function MarketingTrendsNew() {
                         20%.
                       </p>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        6. Balancing Personalization and Privacy
+                        Balancing Personalization and Privacy
                       </h2>
                       <p>
                         Personalization makes content more memorable and
@@ -218,7 +221,7 @@ export default function MarketingTrendsNew() {
                         in user trust and engagement.
                       </p>{" "}
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        7. The Rise of Podcasts and Audio Content
+                        The Rise of Podcasts and Audio Content
                       </h2>
                       <p>
                         More marketers are using more of this format to connect
@@ -237,7 +240,7 @@ export default function MarketingTrendsNew() {
                         influence and generated leads.
                       </p>{" "}
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        8. Native Advertising and Sponsored Content
+                        Native Advertising and Sponsored Content
                       </h2>
                       <p>
                         Native advertising and sponsored content will remain
@@ -261,7 +264,7 @@ export default function MarketingTrendsNew() {
                         be.
                       </p>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        9. Case Studies for Leads and Credibility
+                        Case Studies for Leads and Credibility
                       </h2>
                       <p>
                         Continued case studies would still serve as a powerful
@@ -283,7 +286,7 @@ export default function MarketingTrendsNew() {
                         rates.
                       </p>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        10. Micro-stories to Micro-Influencers
+                        Micro-stories to Micro-Influencers
                       </h2>
                       <p>
                         Brands like Gymshark are effectively using platforms
