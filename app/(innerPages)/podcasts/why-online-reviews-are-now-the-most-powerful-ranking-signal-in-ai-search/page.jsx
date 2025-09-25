@@ -1,10 +1,6 @@
-import BlogDetails3 from "@/components/blog-old/BlogDetails3";
-import Blog2 from "@/components/blogs/blog-2";
-import Newsletter from "@/components/blog-old/Newsletter";
 import Footer7 from "@/components/footers/Footer7";
 import Header7 from "@/components/headers/Header7";
 import { allBlogs } from "@/data/blogs";
-import Podcast1 from "@/components/podcasts/EntityOptimization";
 import OnlineReviews from "@/components/podcasts/OnlineReviews";
 import RelatedPodcasts from "@/components/podcasts/RelatedPodcasts";
 export const metadata = {
