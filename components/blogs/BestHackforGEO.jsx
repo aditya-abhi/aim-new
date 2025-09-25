@@ -148,7 +148,7 @@ export default function BestHackforGEO() {
                         can work to optimize GEO strategy.
                       </p>
                       <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        1. Boost Authority & Trust
+                        Boost Authority & Trust
                       </h3>
                       <p>
                         In today’s AI-driven content creation ecosystem, trust
@@ -198,7 +198,7 @@ export default function BestHackforGEO() {
                         </li>
                       </ul>
                       <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        2. Freshness and Trend Relevance
+                        Freshness and Trend Relevance
                       </h3>
                       <p className="mt-3">
                         Content freshness has always been critical for SEO, but
@@ -263,7 +263,7 @@ export default function BestHackforGEO() {
                         </Item>
                       </figure>
                       <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        3. Strengthens Your Points
+                        Strengthens Your Points
                       </h3>
                       <p className="mt-3">
                         Sometimes, presenting pure facts doesn’t make your

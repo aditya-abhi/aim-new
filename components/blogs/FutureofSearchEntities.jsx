@@ -251,7 +251,7 @@ export default function FutureofSearchEntities() {
                         How to Optimize for Entities (Entity-Based SEO)
                       </h2>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        1. Content Strategy: Semantic Richness & Clarity
+                        1Content Strategy: Semantic Richness & Clarity
                       </h3>
                       <ul>
                         <li className="mt-2">
@@ -274,7 +274,7 @@ export default function FutureofSearchEntities() {
                       </ul>
 
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        2. Structured Data & Schema Markup
+                        Structured Data & Schema Markup
                       </h3>
                       <ul>
                         <li className="mt-1">
@@ -291,7 +291,7 @@ export default function FutureofSearchEntities() {
                         </li>
                       </ul>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        3. Leverage AI Tools (with Caution)
+                        Leverage AI Tools (with Caution)
                       </h3>
                       <ul>
                         <li className="mt-1">
@@ -306,7 +306,7 @@ export default function FutureofSearchEntities() {
                         </li>
                       </ul>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        4. Adapt to AI-Powered Search (Generative Engine
+                        Adapt to AI-Powered Search (Generative Engine
                         Optimization, GEO)
                       </h3>
                       <p>

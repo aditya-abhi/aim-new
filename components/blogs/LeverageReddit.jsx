@@ -97,16 +97,7 @@ export default function LeverageReddit() {
                         posts anymore. They’re asking AI-powered tools like
                         ChatGPT, Gemini, and Perplexity direct questions like:
                       </p>
-                      <p className="mt-3">
-                        While Denver sits at the base of the Rocky Mountains,
-                        it’s not considered a mountain town since it takes at
-                        least an hour to get to the Rockies for snowboarding and
-                        ski activities, a local expert explained sits at the
-                        base of the Rocky Mountains, it’s not considered a
-                        mountain town since it takes at least an hour to get to
-                        the Rockies for snowboarding and ski activities, a local
-                        expert explained.
-                      </p>
+
                       <ul>
                         <li className="mt-1">“What’s the best tool for X?”</li>
                         <li className="mt-1">
@@ -219,12 +210,20 @@ export default function LeverageReddit() {
                         <b>Reddit isn’t just a Forum, it’s an AI feed</b>
                       </p>
                       <p>
-                        According to a report, 22% of GPT-3’s weighted training
-                        dataset was sourced from WebText2, a collection of
-                        content curated from outbound links shared on Reddit.
-                        These links, typically those receiving high engagement,
-                        were used to define “quality” content, making Reddit a
-                        significant influence on the model’s training corpus.
+                        According to a{" "}
+                        <a
+                          href="https://www.simform.com/blog/gpt-3-model/#:~:text=WebText2%C2%A0,2.9"
+                          className="fw-bold text-blue hover:text-purple-600"
+                          target="_blank"
+                        >
+                          report
+                        </a>
+                        , 22% of GPT-3’s weighted training dataset was sourced
+                        from WebText2, a collection of content curated from
+                        outbound links shared on Reddit. These links, typically
+                        those receiving high engagement, were used to define
+                        “quality” content, making Reddit a significant influence
+                        on the model’s training corpus.
                       </p>
                       <p className="mt-2">
                         That’s right, your next Reddit comment could train an AI
@@ -235,9 +234,17 @@ export default function LeverageReddit() {
                       </p>
                       <ul>
                         <li className="mt-1">
-                          <b>Google & Reddit:</b> According to TheWrap report,
-                          OpenAI and Google are paying Reddit over $60 million
-                          per year just to access its firehose of content
+                          <b>Google & Reddit:</b> According to{" "}
+                          <a
+                            href="https://www.thewrap.com/reddit-60-million-deal-train-google-ai/"
+                            className="fw-bold text-blue hover:text-purple-600"
+                            target="_blank"
+                          >
+                            TheWrap
+                          </a>{" "}
+                          report, OpenAI and Google are paying Reddit over $60
+                          million per year just to access its firehose of
+                          content
                         </li>
 
                         <li className="mt-1">
@@ -343,6 +350,7 @@ export default function LeverageReddit() {
                         chasing. They decided to let Reddit speak for them
                         instead, and it worked.
                       </p>
+                      <p className="mt-3">Here’s how</p>
                       <p className="mt-2">
                         <b>
                           Redditors in communities like{" "}
@@ -365,9 +373,11 @@ export default function LeverageReddit() {
                         </b>
                       </p>
                       <ul>
-                        <li>Custom-built templates</li>
-                        <li>Tips, hacks, and real-life use cases</li>
-                        <li>
+                        <li className="mt-2">Custom-built templates</li>
+                        <li className="mt-2">
+                          Tips, hacks, and real-life use cases
+                        </li>
+                        <li className="mt-2">
                           Honest reviews comparing Notion to Evernote and
                           OneNote
                         </li>
@@ -414,7 +424,7 @@ export default function LeverageReddit() {
                       </p>
                       <p>Let’s break them down </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        1 Reddit threads are in the AI training data
+                        Reddit threads are in the AI training data
                       </h3>
                       <p>
                         Your Reddit post today could be part of{" "}
@@ -426,7 +436,7 @@ export default function LeverageReddit() {
                         feeding the machine.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        2 Upvotes signal authority to AI
+                        Upvotes signal authority to AI
                       </h3>
                       <p>
                         LLMs interpret upvotes as a{" "}
@@ -436,7 +446,7 @@ export default function LeverageReddit() {
                       </p>
                       <p>Want AI to trust your brand? Get upvoted on Reddit.</p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        3 Sentiment matters
+                        Sentiment matters
                       </h3>
                       <p>
                         AI doesn’t just count mentions, it{" "}
@@ -446,7 +456,7 @@ export default function LeverageReddit() {
                         between “this tool sucks” and “this tool saved me.”
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        4 Reddit often outranks your website
+                        Reddit often outranks your website
                       </h3>
                       <p>
                         Search “Your Brand + Review” or “Alternative to X” on
@@ -458,7 +468,7 @@ export default function LeverageReddit() {
                         answer from.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        5 Your competitor might be Reddit-famous
+                        Your competitor might be Reddit-famous
                       </h3>
                       <p>
                         They don’t need to “win” SEO, they just need a few loyal
@@ -467,7 +477,7 @@ export default function LeverageReddit() {
                         you.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        6 LLMs are watching (literally)
+                        LLMs are watching (literally)
                       </h3>
                       <p>
                         Tools like Perplexity and Gemini quote Reddit threads
@@ -487,7 +497,7 @@ export default function LeverageReddit() {
                       </p>
                       <p>Let’s get tactical.</p>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        7 Ways to Use Reddit for Generative Engine Optimization
+                        Ways to Use Reddit for Generative Engine Optimization
                         (GEO)
                       </h2>
                       <p>
@@ -502,53 +512,55 @@ export default function LeverageReddit() {
                         <b>ChatGPT, Gemini, and Perplexity:</b>
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        1 Reddit threads are in the AI training data
+                        Reddit threads are in the AI training data
                       </h3>
                       <p>
                         Reddit loves
                         <b>bauthenticity,</b> not ads.
                       </p>
-                      <p>
+                      <p className="mt-3">
                         Start by asking thoughtful, community-focused questions
                         like:
                       </p>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           {" "}
                           “What’s your biggest headache with [the problem your
                           product solves]?
                         </li>
-                        <li>
+                        <li className="mt-2">
                           “What feature do you wish [category of tool] had?”
                         </li>
                       </ul>
-                      <p>You can also:</p>
+                      <p className="mt-3">You can also:</p>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           Share behind-the-scenes stories: “Here’s how we
                           launched our product with $0 and no funding.”
                         </li>
-                        <li>
+                        <li className="mt-2">
                           Invite feedback (even the harsh kind): “Reddit, roast
                           our landing page. What would you change?”
                         </li>
                       </ul>
-                      <p>
+                      <p className="mt-3">
                         <b>Remember:</b> AI models like ChatGPT pick up not just
                         what you say, but how you say it. Keep it human,
                         curious, and helpful, not corporate or salesy.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        2 Join the Right Subreddits
+                        Join the Right Subreddits
                       </h3>
                       <p>
                         Not all communities are created equal. Focus on
                         <b>relevance over reach.</b> You want to show up where
                         real conversations about your category happen.
                       </p>
-                      <p>Here are a few great starting points:</p>
+                      <p className="mt-3">
+                        Here are a few great starting points:
+                      </p>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           {" "}
                           <a
                             href="https://www.reddit.com/r/Entrepreneur/"
@@ -559,7 +571,7 @@ export default function LeverageReddit() {
                           </a>{" "}
                           – startup advice, product feedback
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <a
                             href="https://www.reddit.com/r/SaaS/"
                             target="_blank"
@@ -569,7 +581,7 @@ export default function LeverageReddit() {
                           </a>
                           – software founders and users
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <a
                             href="https://getaimonitor.com/geo-vs-seo-key-differences/"
                             target="_blank"
@@ -592,7 +604,7 @@ export default function LeverageReddit() {
                         to discover subreddits your audience already uses.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        3 . Host or Participate in AMAs (Ask Me Anything)
+                        Host or Participate in AMAs (Ask Me Anything)
                       </h3>
                       <p>
                         “AMA” isn’t just a Reddit tradition; it’s an{" "}
@@ -601,29 +613,35 @@ export default function LeverageReddit() {
                         <p className="mt-1">
                           You (or your team) can host AMAs around:
                         </p>
-                        <ul className="mt-2">
-                          <li>Product launches</li>
-                          <li>Lessons from building your startup</li>
-                          <li>Insights from working in your niche industry</li>
+                        <ul>
+                          <li className="mt-2">Product launches</li>
+                          <li className="mt-2">
+                            Lessons from building your startup
+                          </li>
+                          <li className="mt-2">
+                            Insights from working in your niche industry
+                          </li>
                         </ul>
                       </p>
-                      <p>
+                      <p className="mt-3">
                         Bonus: LLMs frequently quote AMAs in AI-generated
                         summaries, especially when the answers are detailed and
                         upvoted.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        4. Monitor Reddit Sentiment Like Review Data
+                        Monitor Reddit Sentiment Like Review Data
                       </h3>
                       <p>
                         Reddit is a goldmine of organic user feedback, and AI
                         reads that feedback like it’s gospel.
                       </p>
-                      <p>Track what people are saying about:</p>
+                      <p className="mt-3">
+                        Track what people are saying about:
+                      </p>
                       <ul className="mt-2 ">
-                        <li>Your brand</li>
-                        <li>Your competitors</li>
-                        <li>Your product category</li>
+                        <li className="mt-2">Your brand</li>
+                        <li className="mt-2">Your competitors</li>
+                        <li className="mt-2">Your product category</li>
                       </ul>
                       <p className="mt-1">Tools to help:</p>
                       <ul>
@@ -636,7 +654,7 @@ export default function LeverageReddit() {
                         Positive buzz? Upvote, thank them, and build on it.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        5 Answer Long-Tail Questions (AI Loves These)
+                        Answer Long-Tail Questions (AI Loves These)
                       </h3>
                       <p>
                         Some of the best Reddit threads start with niche
@@ -660,16 +678,22 @@ export default function LeverageReddit() {
                         stream.{" "}
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        6 Create GEO-Optimized Shareable Content
+                        Create GEO-Optimized Shareable Content
                       </h3>
                       <p>
                         Reddit loves value. Give it to them in formats AI can
                         understand and users can upvote:
                       </p>
                       <ul>
-                        <li>Infographics that break down a complex idea</li>
-                        <li>Infographics that break down a complex idea</li>
-                        <li>Checklists, templates, or quick tools</li>
+                        <li className="mt-2">
+                          Infographics that break down a complex idea
+                        </li>
+                        <li className="mt-2">
+                          Infographics that break down a complex idea
+                        </li>
+                        <li className="mt-2">
+                          Checklists, templates, or quick tools
+                        </li>
                       </ul>
                       <p>
                         Don’t say “try our tool,” say “here’s something that
@@ -679,15 +703,18 @@ export default function LeverageReddit() {
                         If it’s useful to the subreddit, it’ll be useful to AI.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        7 Upvote, Engage, Be Human
+                        Upvote, Engage, Be Human
                       </h3>
                       <p>Finally, just be a good Reddit citizen.</p>
                       <ul>
-                        <li>Upvote good content</li>
-                        <li>
+                        <li className="mt-2">Upvote good content</li>
+                        <li className="mt-2">
                           Leave helpful comments (even on threads not about you)
                         </li>
-                        <li> Participate as a peer, not a pitch</li>
+                        <li className="mt-2">
+                          {" "}
+                          Participate as a peer, not a pitch
+                        </li>
                       </ul>
                       <p>
                         Don’t say “try our tool,” say “here’s something that
@@ -708,6 +735,100 @@ export default function LeverageReddit() {
                         Overview, all without begging for backlinks or gaming
                         algorithms.
                       </p>
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
+                        <table className="uc-table uc-table-divider">
+                          <thead className="table-head sticky-top z-1 ">
+                            <tr className="table-row dark:border-white border-gray-900 bg-gray-25 dark:bg-tertiary-800">
+                              <th
+                                className="table-header-cell top pt-0 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary text-underline lg:text-none">
+                                  Brand
+                                </span>
+                              </th>
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                                  Subreddits Used
+                                </span>
+                              </th>
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                                  GEO Outcome
+                                </span>
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody className="table-body">
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Notion{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-4 lg:pt-1">
+                                <span className="dark:text-white">
+                                  r/productivity, r/Notion{" "}
+                                </span>
+                              </td>
+                              <td className="pt-4 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Frequently appears in ChatGPT, Perplexity, and
+                                  Google AI summaries
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Obsidian{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  r/Obsidian{" "}
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Cited in AI-generated answers for personal
+                                  knowledge management
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Linear{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  r/Frontend, r/SaaS{" "}
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Regularly mentioned in developer and product
+                                  management threads
+                                </span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                       <p>
                         These brands didn’t force their way in. They earned
                         trust through Reddit conversations, and AI took notice.
@@ -748,9 +869,13 @@ export default function LeverageReddit() {
                       </p>
                       <p>By:</p>
                       <ul>
-                        <li>Engaging meaningfully in relevant subreddits</li>
-                        <li>Participating as a helpful peer, not a pitch</li>
-                        <li>
+                        <li className="mt-2">
+                          Engaging meaningfully in relevant subreddits
+                        </li>
+                        <li className="mt-2">
+                          Participating as a helpful peer, not a pitch
+                        </li>
+                        <li className="mt-2">
                           Sharing real stories, templates, tools, and case
                           studies
                         </li>
@@ -770,13 +895,13 @@ export default function LeverageReddit() {
                       </p>
                       <p> The future of SEO is:</p>
                       <ul>
-                        <li>
+                        <li className="mt-2">
                           <b>Generative</b>
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Conversational</b>
                         </li>
-                        <li>
+                        <li className="mt-2">
                           <b>Community-led</b>
                         </li>
                       </ul>

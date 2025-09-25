@@ -77,8 +77,8 @@ export default function ZeroClickSearches() {
                       </h2>
                       <figure className="my-3 sm:my-4">
                         <Item
-                          original="/assets/images/blog/zero-click search-2-image.webp"
-                          thumbnail="/assets/images/blog/zero-click search-2-image.webp"
+                          original="/assets/images/blog/internal/zero-click-search-2-image.webp"
+                          thumbnail="/assets/images/blog/internal/zero-click-search-2-image.webp"
                           width="1280"
                           height="853"
                         >
@@ -87,7 +87,7 @@ export default function ZeroClickSearches() {
                               <Image
                                 className="media-cover image uc-transition-scale-up uc-transition-opaque"
                                 alt="Pink Marketing, by Mak"
-                                src="/assets/images/blog/zero-click search-2-image.webp"
+                                src="/assets/images/blog/internal/zero-click-search-2-image.webp"
                                 width="1280"
                                 height="853"
                                 ref={ref}
@@ -95,7 +95,7 @@ export default function ZeroClickSearches() {
                               <a
                                 onClick={open}
                                 className="position-cover"
-                                data-caption="Pink Marketing, by Mak"
+                                data-caption="Data by AI Monitor"
                               ></a>
                             </figure>
                           )}
@@ -112,8 +112,7 @@ export default function ZeroClickSearches() {
                         behavior.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        1. Traditional Zero-Click Searches (Google & Classic
-                        SEO)
+                        Traditional Zero-Click Searches (Google & Classic SEO)
                       </h3>
                       <p className="mt-3">
                         Search engines like Google have long provided quick
@@ -139,8 +138,8 @@ export default function ZeroClickSearches() {
                         SERP.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        2. Generative AI Zero-Click Searches (ChatGPT, Gemini,
-                        AI Overviews)
+                        Generative AI Zero-Click Searches (ChatGPT, Gemini, AI
+                        Overviews)
                       </h3>
                       <p>
                         AI-powered tools take this further by generating answers
@@ -164,9 +163,7 @@ export default function ZeroClickSearches() {
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         The Big Shift:
                       </h3>
-                      <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        Capital of Texas3
-                      </h2>
+
                       <ul className="">
                         <li className="mt-1">
                           Traditional SEO → Optimizing for rankings and featured
@@ -323,16 +320,22 @@ export default function ZeroClickSearches() {
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         Key Difference: SEO vs. GEO
                       </h2>
-                      <div className="panel mt-2 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-black overflowx-auto">
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
                         <table className="uc-table uc-table-divider">
                           <thead className="table-head sticky-top z-1 ">
-                            <tr className="table-row dark:border-white border-gray-900">
-                              <th className="table-header-cell" scope="row">
+                            <tr className="table-row dark:border-white border-gray-900 bg-gray-25 dark:bg-tertiary-800">
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
                                   SEO (Search Engine Optimization)
                                 </span>
                               </th>
-                              <th className="table-header-cell" scope="row">
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
                                   GEO (Generative Engine Optimization)
                                 </span>
@@ -341,24 +344,24 @@ export default function ZeroClickSearches() {
                           </thead>
                           <tbody className="table-body">
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <td>
+                              <td className="pt-4 lg:pt-1">
                                 <span className="dark:text-white">
-                                  Goal: Drive traffic to your website.
+                                  Goal: Drive traffic to your website.{" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-4 lg:pt-1">
                                 <span className="dark:text-white">
                                   Goal: Ensure AI cites your content.
                                 </span>
                               </td>
                             </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <td>
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
-                                  Success = High rankings + clicks
+                                  Success = High rankings + clicks{" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Success = Accurate AI references + brand
                                   mentions.
@@ -366,12 +369,12 @@ export default function ZeroClickSearches() {
                               </td>
                             </tr>
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
-                                  Relies on Google’s algorithm.
+                                  Relies on Google’s algorithm.{" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Depends on AI training data & real-time
                                   retrieval.
@@ -460,8 +463,8 @@ export default function ZeroClickSearches() {
                       </h2>
                       <figure className="my-3 sm:my-4">
                         <Item
-                          original="/assets/images/blog/zero-click search-3-image.webp"
-                          thumbnail="/assets/images/blog/zero-click search-3-image.webp"
+                          original="/assets/images/blog/internal/zero-click-search-3-image.webp"
+                          thumbnail="/assets/images/blog/internal/zero-click search-3-image.webp"
                           width="1280"
                           height="853"
                         >
@@ -470,7 +473,7 @@ export default function ZeroClickSearches() {
                               <Image
                                 className="media-cover image uc-transition-scale-up uc-transition-opaque"
                                 alt=""
-                                src="/assets/images/blog/zero-click search-3-image.webp"
+                                src="/assets/images/blog/internal/zero-click-search-3-image.webp"
                                 width="1280"
                                 height="853"
                                 ref={ref}

@@ -61,8 +61,15 @@ export default function FeaturedinGoogleAI() {
                         At the same time, total Google search impressions have
                         surged <b>49% year-over-year</b>, while
                         <b>click‑through rates dropped nearly 30%, </b>thanks to
-                        AI-generated summaries at the top. (Source: BrightEdge
-                        Press Release)
+                        AI-generated summaries at the top. (Source:{" "}
+                        <a
+                          href="https://www.globenewswire.com/news-release/2025/05/14/3080918/0/en/One-Year-Into-Google-AI-Overviews-BrightEdge-Data-Reveals-Google-Search-Usage-Increases-by-49.html"
+                          className="text-blue fw-bold hover:text-purple-600"
+                          target="_blank"
+                        >
+                          {" "}
+                          BrightEdge Press Release)
+                        </a>
                       </p>
                       <p className="mt-3">
                         If you’re <b>not</b> being cited or mentioned in AI
@@ -216,76 +223,82 @@ export default function FeaturedinGoogleAI() {
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         From Google SGE to AI Overview: A Drama-Filled Timeline
                       </h2>
-                      <div className="panel mt-2 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-black overflowx-auto">
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
                         <table className="uc-table uc-table-divider">
                           <thead className="table-head sticky-top z-1 ">
-                            <tr className="table-row dark:border-white border-gray-900">
-                              <th className="table-header-cell" scope="row">
-                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary ">
+                            <tr className="table-row dark:border-white border-gray-900 bg-gray-25 dark:bg-tertiary-800">
+                              <th
+                                className="table-header-cell top pt-0 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary text-underline lg:text-none">
                                   Date
                                 </span>
                               </th>
-                              <th className="table-header-cell" scope="row">
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
-                                  Milestone{" "}
+                                  Milestone
                                 </span>
                               </th>
                             </tr>
                           </thead>
                           <tbody className="table-body">
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
-                                    May 2023{" "}
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    May 2023
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-4 lg:pt-1">
                                 <span className="dark:text-white">
                                   Google announces Search Generative Experience
-                                  (SGE)
+                                  (SGE) Q&A
                                 </span>
                               </td>
                             </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     March 2024{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   AI Overviews tested in the main search results
                                 </span>
                               </td>
                             </tr>
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     May 2024{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Official launch of Google AI Overview in the
                                   US
                                 </span>
                               </td>
                             </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     August 2024{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Rollout to the UK, India, Japan, Indonesia,
                                   Mexico, and Brazil
@@ -293,14 +306,14 @@ export default function FeaturedinGoogleAI() {
                               </td>
                             </tr>
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     April 2025{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   - Google confirms the AI Overviews link to
                                   their search results. - AI Overviews begin
@@ -308,13 +321,16 @@ export default function FeaturedinGoogleAI() {
                                 </span>
                               </td>
                             </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
-                                <span className="fs-5 fw-bold text-dark dark:text-white">
-                                  May 2025{" "}
-                                </span>
+
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    May 2025{" "}
+                                  </span>
+                                </div>
                               </th>
-                              <td>
+                              <td className="pt-4 lg:pt-1">
                                 <span className="dark:text-white">
                                   AI Mode rolled out to all users in the U.S
                                 </span>
@@ -370,21 +386,30 @@ export default function FeaturedinGoogleAI() {
                       <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         Table: AI Overview vs. SERP Ranking
                       </h3>
-                      <div className="panel mt-2 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-black overflowx-auto">
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
                         <table className="uc-table uc-table-divider">
                           <thead className="table-head sticky-top z-1 ">
-                            <tr className="table-row dark:border-white border-gray-900">
-                              <th className="table-header-cell" scope="row">
-                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                            <tr className="table-row dark:border-white border-gray-900 bg-gray-25 dark:bg-tertiary-800">
+                              <th
+                                className="table-header-cell top pt-0 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary text-underline lg:text-none">
                                   Feature
                                 </span>
                               </th>
-                              <th className="table-header-cell" scope="row">
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
                                   Google AI Overview
                                 </span>
-                              </th>
-                              <th className="table-header-cell" scope="row">
+                              </th>{" "}
+                              <th
+                                className="table-header-cell pt-8 lg:pt-1"
+                                scope="row"
+                              >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
                                   Traditional SERP Rankings
                                 </span>
@@ -393,95 +418,115 @@ export default function FeaturedinGoogleAI() {
                           </thead>
                           <tbody className="table-body">
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     Position{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-4 lg:pt-1">
                                 <span className="dark:text-white">
-                                  Above all, organic results{" "}
+                                  Above all, organic results
                                 </span>
-                              </td>
-                              <td>
+                              </td>{" "}
+                              <td className="pt-4 lg:pt-1">
                                 <span className="dark:text-white">
                                   Below AI Overview
                                 </span>
                               </td>
                             </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     Source Diversity{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Multiple, diverse sources{" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
                                   Top-ranking pages
                                 </span>
                               </td>
                             </tr>
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     Content Type{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
-                                  ~Summaries, lists, media{" "}
+                                  Summaries, lists, media
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
-                                  ~Webpage links
+                                  Webpage links
                                 </span>
                               </td>
                             </tr>
-                            <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     User Clicks{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
-                                  May reduce organic clicks{" "}
+                                  May reduce organic clicks
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-7 lg:pt-1">
                                 <span className="dark:text-white">
-                                  Main source of organic traffic
+                                  Main source of organic traffic{" "}
                                 </span>
                               </td>
                             </tr>
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <th className="" scope="row">
+                              <th className="top pt-0 lg:pt-1" scope="row">
                                 <div className="hstack gap-1 justify-start">
-                                  <span className="fs-5 fw-bold text-dark dark:text-white">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Visibility{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Can feature content beyond page 1
+                                </span>
+                              </td>{" "}
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Relies on the top 10 rankings
+                                </span>
+                              </td>
+                            </tr>
+
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
                                     Interactivity{" "}
                                   </span>
                                 </div>
                               </th>
-                              <td>
+                              <td className="pt-4 lg:pt-1">
                                 <span className="dark:text-white">
                                   Follow-ups & multi-part queries via AI Mode{" "}
                                 </span>
                               </td>
-                              <td>
+                              <td className="pt-4 lg:pt-1">
                                 <span className="dark:text-white">
                                   Static, no interactive follow-up
                                 </span>
@@ -512,7 +557,7 @@ export default function FeaturedinGoogleAI() {
                         content to feature:
                       </p>
                       <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        1. Query Intent Match
+                        Query Intent Match
                       </h3>
                       <p>
                         Does your material give a clear and direct answer to the
@@ -523,7 +568,7 @@ export default function FeaturedinGoogleAI() {
                         unnecessary details or distractions.
                       </p>
                       <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        2. Clarity & Structure
+                        Clarity & Structure
                       </h3>
                       <p>
                         AI prefers content that is easy to skim and rephrase.
@@ -544,7 +589,7 @@ export default function FeaturedinGoogleAI() {
                         understand, and use your content.
                       </p>
                       <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        3. Authoritativeness
+                        Authoritativeness
                       </h3>
                       <p>
                         Google’s AI looks for trusted voices. If your content
@@ -563,9 +608,7 @@ export default function FeaturedinGoogleAI() {
                           Authoritativeness, Trustworthiness)
                         </li>
                       </ul>
-                      <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        4. Freshness
-                      </h3>
+                      <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">Freshness</h3>
                       <p>
                         Outdated content is ignored. Keep your articles and data
                         up to date. AI Overviews focus on content that has been
@@ -574,7 +617,7 @@ export default function FeaturedinGoogleAI() {
                         date and accurate.
                       </p>
                       <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        5. Unique Value
+                        Unique Value
                       </h3>
                       <p>
                         Are you just repeating what everyone else says, or
@@ -611,7 +654,7 @@ export default function FeaturedinGoogleAI() {
                         Step-by-Step: Manual Check s{" "}
                       </h3>
                       <h4 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        1. Search Like Your Audience
+                        Search Like Your Audience
                       </h4>
                       <p> Go to Google and type in prompts such as:</p>
                       <ul>
@@ -708,7 +751,7 @@ export default function FeaturedinGoogleAI() {
                         comparisons.
                       </p>
                       <h4 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        2. Look for the AI Overview card.
+                        Look for the AI Overview card.
                       </h4>
                       <p>
                         If Google triggers an AI Overview, it will appear above
@@ -753,7 +796,7 @@ export default function FeaturedinGoogleAI() {
                         content instead of just relying on top-ranked links.
                       </p>
                       <h4 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        3. Inspect the summary content.
+                        Inspect the summary content.
                       </h4>
                       <p>Ask yourself:</p>
                       <ul>
@@ -769,7 +812,7 @@ export default function FeaturedinGoogleAI() {
                         </li>
                       </ul>
                       <h4 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        4. Try follow-up prompts.
+                        Try follow-up prompts.
                       </h4>
                       <p>
                         “Ask a follow-up” is a new user behavior triggered by AI
@@ -854,7 +897,7 @@ export default function FeaturedinGoogleAI() {
                         with three unseen questions:
                       </p>
                       <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        1. Is your brand being cited in AI answers?
+                        Is your brand being cited in AI answers?
                       </h3>
                       <figure className="my-3 sm:my-4">
                         <Item
@@ -897,7 +940,7 @@ export default function FeaturedinGoogleAI() {
                         the click.+
                       </p>
                       <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        2. Are AI bots reading your content?
+                        Are AI bots reading your content?
                       </h3>
                       <figure className="my-3 sm:my-4">
                         <Item
@@ -940,7 +983,7 @@ export default function FeaturedinGoogleAI() {
                         and which aren’t.
                       </p>
                       <h3 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        3 What traffic is coming from AI tools, and what’s
+                        What traffic is coming from AI tools, and what’s
                         converting?
                       </h3>
                       <figure className="my-3 sm:my-4">
@@ -995,7 +1038,7 @@ export default function FeaturedinGoogleAI() {
                         you need to see AI as more than just a trend; it’s a new
                         distribution channel.
                       </p>
-                      <p>
+                      <p className="mt-3">
                         Want to see what else{" "}
                         <a
                           href="https://getaimonitor.com/"
@@ -1007,10 +1050,10 @@ export default function FeaturedinGoogleAI() {
                         {""}
                         can do?
                       </p>
-                      <p>
+                      <p className="mt-3">
                         These aren’t future problems. They’re happening now.
                       </p>
-                      <p>
+                      <p className="mt-3">
                         The brands that adapt early will dominate zero-click and
                         AI-powered search visibility
                       </p>

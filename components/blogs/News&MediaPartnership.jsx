@@ -204,7 +204,7 @@ export default function NewsAndMediaPartnership() {
                         PR—it’s a <b>GEO game-changer.</b>
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        1. Instant Authority: How to Position Yourself as the
+                        Instant Authority: How to Position Yourself as the
                         “Go-to” AI Expert
                       </h3>
                       <p>
@@ -235,7 +235,7 @@ export default function NewsAndMediaPartnership() {
                         citation engine.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        2. Optimizing for Voice & Conversational AI
+                        Optimizing for Voice & Conversational AI
                       </h3>
                       <p>
                         News content is inherently structured to answer “who,
@@ -262,7 +262,7 @@ export default function NewsAndMediaPartnership() {
                         them AI-friendly and voice-search optimized.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        3. Riding the Trend Wave: Freshness = AI Priority{" "}
+                        Riding the Trend Wave: Freshness = AI Priority{" "}
                       </h3>
                       <p>
                         News organizations, which feed on the buzz of the day,
@@ -289,7 +289,7 @@ export default function NewsAndMediaPartnership() {
                         front of mind for AI (as well as to one’s user).
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        4. Social Proof Loop: Engagement as an AI Ranking Signal
+                        Social Proof Loop: Engagement as an AI Ranking Signal
                       </h3>
                       <p>
                         Media coverage{" "}
@@ -318,7 +318,7 @@ export default function NewsAndMediaPartnership() {
                         visibility.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        5. High-Authority Backlinks for SEO & GEO Domination
+                        High-Authority Backlinks for SEO & GEO Domination
                       </h3>
                       <p>
                         News websites typically have elite domain authority
@@ -382,7 +382,7 @@ export default function NewsAndMediaPartnership() {
                         blend human creativity with algorithm-friendly tactics.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        1. Choosing the Right Partner
+                        Choosing the Right Partner
                       </h3>
                       <p>
                         Compatibility is key. Think of it as dating — the shared
@@ -412,7 +412,7 @@ export default function NewsAndMediaPartnership() {
                         your brand gets cited as a trusted source.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        2. Offer Attractive Deals
+                        Offer Attractive Deals
                       </h3>
                       <p>
                         Media outlets love perks they can’t get elsewhere.
@@ -438,7 +438,7 @@ export default function NewsAndMediaPartnership() {
                         like ChatGPT learn to associate you with authority.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        3. Host Joint Webinars or AMAs
+                        Host Joint Webinars or AMAs
                       </h3>
                       <ul>
                         <li className="mt-1">
@@ -466,7 +466,7 @@ export default function NewsAndMediaPartnership() {
                         turn to like, “What’s the newest thing in AI?”
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        4. Provide Data for Media Stories
+                        Provide Data for Media Stories
                       </h3>
                       <p className="">
                         Provide exclusive data, surveys or market trends to
@@ -487,7 +487,7 @@ export default function NewsAndMediaPartnership() {
                         your brand like a VIP.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        5. Build Relationships with Journalists & Editors
+                        Build Relationships with Journalists & Editors
                       </h3>
                       <p>
                         Use platforms like{" "}
@@ -528,7 +528,7 @@ export default function NewsAndMediaPartnership() {
                         responses.
                       </p>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        6. Monitor and Adapt
+                        Monitor and Adapt
                       </h3>
                       <p>
                         You can’t just “set it and forget it.” To remain

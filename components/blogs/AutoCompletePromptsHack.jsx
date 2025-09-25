@@ -244,7 +244,7 @@ export default function AutoCompletePromptsHack() {
                         Here’s how:
                       </p>
                       <h3 className="h4 xl:h4 mt-3 mb-2 xl:mb-3">
-                        1. Boost Brand Authority in AI Ecosystems
+                        Boost Brand Authority in AI Ecosystems
                       </h3>
                       <p>
                         Optimizing for auto-complete isn’t just about
@@ -269,7 +269,7 @@ export default function AutoCompletePromptsHack() {
                         responses, giving your brand extra visibility.
                       </p>
                       <h3 className="h4 xl:h4 mt-3 mb-2 xl:mb-3">
-                        2. Capture Real-Time User Intent
+                        Capture Real-Time User Intent
                       </h3>
                       <p>
                         Auto-complete reflects what users are searching for
@@ -299,7 +299,7 @@ export default function AutoCompletePromptsHack() {
                         matches up with those up-to-date, high-traffic queries.
                       </p>
                       <h3 className="h4 xl:h4 mt-3 mb-2 xl:mb-3">
-                        3. Dominate AI-Powered Search Interfaces
+                        Dominate AI-Powered Search Interfaces
                       </h3>
                       <p>
                         AI-driven search platforms (like Microsoft Co-Pilot or
@@ -324,7 +324,7 @@ export default function AutoCompletePromptsHack() {
                         platforms become more mainstream.
                       </p>
                       <h3 className="h4 xl:h4 mt-3 mb-2 xl:mb-3">
-                        4. Enhance NLP Compatibility
+                        Enhance NLP Compatibility
                       </h3>
                       <p>
                         Since auto-complete systems depend on NLP to understand
@@ -347,7 +347,7 @@ export default function AutoCompletePromptsHack() {
                         </li>
                       </ul>
                       <h3 className="h4 xl:h4 mt-3 mb-2 xl:mb-3">
-                        5. Target Long-Tail, Low-Competition Opportunities
+                        Target Long-Tail, Low-Competition Opportunities
                       </h3>
                       <p>
                         Auto-complete frequently shows long-tail, niche queries,
