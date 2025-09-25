@@ -6,6 +6,7 @@ import Header7 from "@/components/headers/Header7";
 import { allBlogs } from "@/data/blogs";
 import Podcast1 from "@/components/podcasts/podcast-1";
 import GoogleMightNextYahoo from "@/components/podcasts/GoogleMightNextYahoo";
+import RelatedPodcasts from "@/components/podcasts/RelatedPodcasts";
 export const metadata = {
   title:
     "Podcast Template || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
@@ -22,7 +23,11 @@ export default async function Blog2Page(props) {
         <Header7 />
         <div id="wrapper" className="wrap">
           <GoogleMightNextYahoo blogItem={blogItem} />
-          <Newsletter />
+          <RelatedPodcasts
+            currentPodcastLink={
+              "/podcasts/google-might-be-the-next-yahoo-a-head-to-head-comparison-episode-2-conquer-ai-search-with-ai-podcast/"
+            }
+          />
         </div>
         <Footer7 />
       </div>

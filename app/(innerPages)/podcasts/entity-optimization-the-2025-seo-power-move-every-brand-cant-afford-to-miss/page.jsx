@@ -2,6 +2,7 @@ import Footer7 from "@/components/footers/Footer7";
 import Header7 from "@/components/headers/Header7";
 import { allBlogs } from "@/data/blogs";
 import EntityOptimization from "@/components/podcasts/EntityOptimization";
+import RelatedPodcasts from "@/components/podcasts/RelatedPodcasts";
 export const metadata = {
   title:
     "Entity Optimization: The 2025 SEO Power Move Every Brand Can’t Afford to Miss",
@@ -18,7 +19,11 @@ export default async function Blog2Page(props) {
         <Header7 />
         <div id="wrapper" className="wrap">
           <EntityOptimization blogItem={blogItem} />
-          {/* <Newsletter /> */}
+          <RelatedPodcasts
+            currentPodcastLink={
+              "/podcasts/entity-optimization-the-2025-seo-power-move-every-brand-cant-afford-to-miss/"
+            }
+          />
         </div>
         <Footer7 />
       </div>

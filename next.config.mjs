@@ -138,6 +138,36 @@ const nextConfig = {
         destination: "https://v8dash.getaimonitor.com/signin",
         permanent: true,
       },
+      {
+        source: "/register",
+        destination: "https://v8dash.getaimonitor.com/signup",
+        permanent: true,
+      },
+      {
+        source: "/how-to-manage-your-brand-in-the-age-of-ai",
+        destination: "/10-marketing-trends-and-predictions-for-2025",
+        permanent: true,
+      },
+      {
+        source: "/introduction-to-digital-marketing",
+        destination: "/10-marketing-trends-and-predictions-for-2025",
+        permanent: true,
+      },
+      {
+        source: "/get-started",
+        destination: "/contact-us",
+        permanent: true,
+      },
+      {
+        source: "/reddit-influencer-relationship-marketing-services/",
+        destination: "/services/saas-reddit-marketing-for-ai-search",
+        permanent: true,
+      },
+      {
+        source: "/services/content-marketing-for-ai-searches",
+        destination: "/services/saas-content-marketing-for-ai-search",
+        permanent: true,
+      },
       // Wildcard path matching
       // {
       //   source: "/blog/:slug",

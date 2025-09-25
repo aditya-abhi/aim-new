@@ -43,7 +43,7 @@ export default function StrategicCitationsTechnique({ blogItem }) {
           </ul>
         </div>
       </div>
-      <article className="post type-post single-post pb-4 lg:pb-6 xl:pb-9">
+      <article className="post type-post single-post pb-4">
         <div className="container max-w-xl">
           <div className="post-header uc-dark">
             <div className="panel vstack gap-4 md:gap-6 xl:gap-9 text-center">
@@ -1494,19 +1494,11 @@ export default function StrategicCitationsTechnique({ blogItem }) {
                         )}
                       </div>
                     </div>
-                    {/* <Gallery>
-                      
-                    </Gallery> */}
                   </div>
                 </div>
-                {/* <div className="col-12 md:col-5 lg:col-3">
-                  <Toc />
-                </div> */}
               </div>
             </div>
-            <hr className="w-100 m-0 d-block mt-4 lg:mt-6 xl:mt-8" />
-            {/* <Blog1Faqs /> */}
-            <div className="post-footer panel vstack sm:hstack gap-3 justify-between justifybetween border-top py-4 mt-4 xl:py-9 xl:mt-9">
+            <div className="post-footer panel vstack sm:hstack gap-3 justify-between justifybetween border-top py-4 mt-4 xl:mt-9">
               <ul className="nav-x gap-narrow text-primary">
                 <li>
                   <span className="text-black dark:text-white me-narrow">
@@ -1574,77 +1566,6 @@ export default function StrategicCitationsTechnique({ blogItem }) {
                 </li>
               </ul>
             </div>
-            <div className="post-navigation panel vstack sm:hstack justify-between gap-2 mt-8 xl:mt-9 fdr-min-600">
-              <div className="new-post panel hstack w-100 sm:w-1/2">
-                <div className="panel hstack justify-center w-100px h-100px">
-                  <figure className="featured-image m-0 rounded ratio ratio-1x1 uc-transition-toggle overflow-hidden">
-                    <Image
-                      className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                      alt="How can marketing help your business?"
-                      src="/assets/images/blog/img-02.jpg"
-                      width="1280"
-                      height="853"
-                    />
-                    <Link
-                      href={`/blog-details/1`}
-                      className="position-cover"
-                      data-caption="How can marketing help your business?"
-                    ></Link>
-                  </figure>
-                </div>
-                <div className="panel vstack justify-center px-2 gap-1 w-1/3">
-                  <span className="fs-7 opacity-60">Prev Article</span>
-                  <h6 className="h6 lg:h5 m-0">
-                    How can marketing help your business?
-                  </h6>
-                </div>
-                <Link
-                  href={`/blog-details/1`}
-                  className="position-cover"
-                ></Link>
-              </div>
-              <div className="new-post panel hstack w-100 sm:w-1/2">
-                <div className="panel vstack justify-center px-2 gap-1 w-1/3 text-end rtl:text-start">
-                  <span className="fs-7 opacity-60">Next Article</span>
-                  <h6 className="h6 lg:h5 m-0">
-                    Top 5 reasons to invest in marketing
-                  </h6>
-                </div>
-                <div className="panel hstack justify-center w-100px h-100px">
-                  <figure className="featured-image m-0 rounded ratio ratio-1x1 uc-transition-toggle overflow-hidden">
-                    <Image
-                      className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                      alt="Top 5 reasons to invest in marketing"
-                      src="/assets/images/blog/img-01.jpg"
-                      width="1280"
-                      height="853"
-                    />
-                    <Link
-                      href={`/blog-details/1`}
-                      className="position-cover"
-                      data-caption="Top 5 reasons to invest in marketing"
-                    ></Link>
-                  </figure>
-                </div>
-                <Link
-                  href={`/blog-details/1`}
-                  className="position-cover"
-                ></Link>
-              </div>
-            </div>
-            {/* <GEOCourseCTA /> */}
-            <div className="post-related panel border-top pt-2 mt-8 xl:mt-9">
-              <h2 className="h5 xl:h4 mb-5 xl:mb-6">Related to this topic:</h2>
-              <div className="row child-cols-6 md:child-cols-4 gx-2 gy-4 sm:gx-3 sm:gy-6 justify-center items-center">
-                <RelatedBlogs />
-              </div>
-            </div>
-            {/* <a
-              href="#commont"
-              className="btn h-56px w-100 mt-8 xl:mt-9 text-black dark:text-white border border-gray-200 dark:border-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800"
-            >
-              <span>Be the first to write a comment.</span>
-            </a> */}
           </div>
         </div>
       </article>

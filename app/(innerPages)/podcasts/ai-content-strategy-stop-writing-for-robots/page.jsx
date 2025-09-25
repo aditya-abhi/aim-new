@@ -1,11 +1,8 @@
-import BlogDetails3 from "@/components/blog-old/BlogDetails3";
-import Blog2 from "@/components/blogs/blog-2";
-import Newsletter from "@/components/blog-old/Newsletter";
 import Footer7 from "@/components/footers/Footer7";
 import Header7 from "@/components/headers/Header7";
 import { allBlogs } from "@/data/blogs";
-import Podcast1 from "@/components/podcasts/podcast-1";
 import StopWritingforRobots from "@/components/podcasts/StopWritingforRobots";
+import RelatedPodcasts from "@/components/podcasts/RelatedPodcasts";
 export const metadata = {
   title:
     "Podcast Template || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
@@ -22,7 +19,11 @@ export default async function Blog2Page(props) {
         <Header7 />
         <div id="wrapper" className="wrap">
           <StopWritingforRobots blogItem={blogItem} />
-          <Newsletter />
+          <RelatedPodcasts
+            currentPodcastLink={
+              "/podcasts/ai-content-strategy-stop-writing-for-robots/"
+            }
+          />
         </div>
         <Footer7 />
       </div>

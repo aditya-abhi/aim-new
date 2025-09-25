@@ -5,8 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Gallery, Item } from "react-photoswipe-gallery";
 import { useState } from "react";
-import Blog1Faqs from "../blogs/faqs/Blog1Faqs";
-import GEOCourseCTA from "@/components/common/GeoCTA";
 
 export default function LongTailKeywords({ blogItem }) {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -43,7 +41,7 @@ export default function LongTailKeywords({ blogItem }) {
           </ul>
         </div>
       </div>
-      <article className="post type-post single-post pb-4 lg:pb-6 xl:pb-9">
+      <article className="post type-post single-post pb-4">
         <div className="container max-w-xl">
           <div className="post-header uc-dark">
             <div className="panel vstack gap-4 md:gap-6 xl:gap-9 text-center">
@@ -1519,94 +1517,6 @@ export default function LongTailKeywords({ blogItem }) {
                             <div className="feature-item panel">
                               <div className="container container-80">
                                 <h2 className="text-center">📚 Sources:</h2>
-                                {/* <ul className="fs-5">
-                                  <li className="mt-2">
-                                    Thrive Agency –
-                                    <a
-                                      href="https://thriveagency.com/news/why-online-reviews-matter-even-more-with-ai-powered-search/"
-                                      className="text-blue"
-                                      target="_blank"
-                                    >
-                                      Why Online Reviews Matter Even More With
-                                      AI-Powered Search
-                                    </a>
-                                  </li>
-                                  <li className="mt-2">
-                                    Reputation.com –
-                                    <a
-                                      href="https://reputation.com/resources/articles/why-ratings-and-reviews-matter-more-with-ai-powered-search/"
-                                      className="text-blue"
-                                      target="_blank"
-                                    >
-                                      Why Ratings and Reviews Matter More With
-                                      AI-Powered Search
-                                    </a>
-                                  </li>
-                                  <li className="mt-2">
-                                    Reddit SEO –
-                                    <a
-                                      href="https://www.reddit.com/r/SEO/comments/c8t3hp/yelp_dominating_local_google_rankings/"
-                                      className="text-blue"
-                                      target="_blank"
-                                    >
-                                      Yelp Dominating Local Google Rankings
-                                    </a>
-                                  </li>
-                                  <li className="mt-2">
-                                    Search Engine Journal -
-                                    <a
-                                      href="https://www.searchenginejournal.com/your-reviews-are-ranking-you-or-not-how-to-stay-visible-in-googles-ai-era-spa/550218/"
-                                      className="text-blue"
-                                      target="_blank"
-                                    >
-                                      Your Reviews Are Ranking You (or Not): How
-                                      to Stay Visible in Google’s AI Era
-                                    </a>
-                                  </li>
-                                  <li className="mt-2">
-                                    Anecdote AI –
-                                    <a
-                                      href="https://www.anecdoteai.com/blog/how-to-analyze-google-customer-reviews-with-ai"
-                                      className="text-blue"
-                                      target="_blank"
-                                    >
-                                      How to Analyze Google Customer Reviews
-                                      With AI
-                                    </a>
-                                  </li>
-                                  <li className="mt-2">
-                                    SEO Locale –
-                                    <a
-                                      href="https://seolocale.com/leverage-google-reviews-for-seo-success-7-strategies/"
-                                      className="text-blue"
-                                      target="_blank"
-                                    >
-                                      Leverage Google Reviews for SEO Success: 7
-                                      Strategies
-                                    </a>
-                                  </li>
-                                  <li className="mt-2">
-                                    LinkGraph –
-                                    <a
-                                      href="https://www.linkgraph.com/blog/how-negative-reviews-impact-seo/"
-                                      className="text-blue"
-                                      target="_blank"
-                                    >
-                                      How Negative Reviews Impact SEO
-                                    </a>
-                                  </li>
-                                  <li className="mt-2">
-                                    LinkedIn (Lesieur) –
-                                    <a
-                                      href="https://www.linkedin.com/posts/lesieur_gartner-predicts-that-by-2028-organic-search-activity-7346151613620797440-iOAL/"
-                                      className="text-blue"
-                                      target="_blank"
-                                    >
-                                      Gartner Predicts That by 2028 Organic
-                                      Search Will Be Obsolete
-                                    </a>
-                                  </li>
-                                </ul> */}
                                 <p>
                                   <b>
                                     1.Long-Tail Keyword Strategy & Optimization
@@ -1761,14 +1671,9 @@ export default function LongTailKeywords({ blogItem }) {
                     </div>
                   </div>
                 </div>
-                {/* <div className="col-12 md:col-5 lg:col-3">
-                  <Toc />
-                </div> */}
               </div>
             </div>
-            <hr className="w-100 m-0 d-block mt-4 lg:mt-6 xl:mt-8" />
-            {/* <Blog1Faqs /> */}
-            <div className="post-footer panel vstack sm:hstack gap-3 justify-between justifybetween border-top py-4 mt-4 xl:py-9 xl:mt-9">
+            <div className="post-footer panel vstack sm:hstack gap-3 justify-between justifybetween border-top py-4 mt-4 xl:mt-9">
               <ul className="nav-x gap-narrow text-primary">
                 <li>
                   <span className="text-black dark:text-white me-narrow">
@@ -1836,77 +1741,6 @@ export default function LongTailKeywords({ blogItem }) {
                 </li>
               </ul>
             </div>
-            <div className="post-navigation panel vstack sm:hstack justify-between gap-2 mt-8 xl:mt-9 fdr-min-600">
-              <div className="new-post panel hstack w-100 sm:w-1/2">
-                <div className="panel hstack justify-center w-100px h-100px">
-                  <figure className="featured-image m-0 rounded ratio ratio-1x1 uc-transition-toggle overflow-hidden">
-                    <Image
-                      className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                      alt="How can marketing help your business?"
-                      src="/assets/images/blog/img-02.jpg"
-                      width="1280"
-                      height="853"
-                    />
-                    <Link
-                      href={`/blog-details/1`}
-                      className="position-cover"
-                      data-caption="How can marketing help your business?"
-                    ></Link>
-                  </figure>
-                </div>
-                <div className="panel vstack justify-center px-2 gap-1 w-1/3">
-                  <span className="fs-7 opacity-60">Prev Article</span>
-                  <h6 className="h6 lg:h5 m-0">
-                    How can marketing help your business?
-                  </h6>
-                </div>
-                <Link
-                  href={`/blog-details/1`}
-                  className="position-cover"
-                ></Link>
-              </div>
-              <div className="new-post panel hstack w-100 sm:w-1/2">
-                <div className="panel vstack justify-center px-2 gap-1 w-1/3 text-end rtl:text-start">
-                  <span className="fs-7 opacity-60">Next Article</span>
-                  <h6 className="h6 lg:h5 m-0">
-                    Top 5 reasons to invest in marketing
-                  </h6>
-                </div>
-                <div className="panel hstack justify-center w-100px h-100px">
-                  <figure className="featured-image m-0 rounded ratio ratio-1x1 uc-transition-toggle overflow-hidden">
-                    <Image
-                      className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                      alt="Top 5 reasons to invest in marketing"
-                      src="/assets/images/blog/img-01.jpg"
-                      width="1280"
-                      height="853"
-                    />
-                    <Link
-                      href={`/blog-details/1`}
-                      className="position-cover"
-                      data-caption="Top 5 reasons to invest in marketing"
-                    ></Link>
-                  </figure>
-                </div>
-                <Link
-                  href={`/blog-details/1`}
-                  className="position-cover"
-                ></Link>
-              </div>
-            </div>
-            {/* <GEOCourseCTA /> */}
-            <div className="post-related panel border-top pt-2 mt-8 xl:mt-9">
-              <h2 className="h5 xl:h4 mb-5 xl:mb-6">Related to this topic:</h2>
-              <div className="row child-cols-6 md:child-cols-4 gx-2 gy-4 sm:gx-3 sm:gy-6 justify-center items-center">
-                <RelatedBlogs />
-              </div>
-            </div>
-            {/* <a
-              href="#commont"
-              className="btn h-56px w-100 mt-8 xl:mt-9 text-black dark:text-white border border-gray-200 dark:border-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800"
-            >
-              <span>Be the first to write a comment.</span>
-            </a> */}
           </div>
         </div>
       </article>

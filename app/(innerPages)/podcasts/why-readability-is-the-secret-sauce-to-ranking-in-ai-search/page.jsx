@@ -6,6 +6,7 @@ import Header7 from "@/components/headers/Header7";
 import { allBlogs } from "@/data/blogs";
 import Podcast1 from "@/components/podcasts/EntityOptimization";
 import ReadabilitySecretSauce from "@/components/podcasts/ReadabilitySecretSauce";
+import RelatedPodcasts from "@/components/podcasts/RelatedPodcasts";
 export const metadata = {
   title:
     "Podcast Template || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
@@ -22,7 +23,11 @@ export default async function Blog2Page(props) {
         <Header7 />
         <div id="wrapper" className="wrap">
           <ReadabilitySecretSauce blogItem={blogItem} />
-          <Newsletter />
+          <RelatedPodcasts
+            currentPodcastLink={
+              "/podcasts/why-readability-is-the-secret-sauce-to-ranking-in-ai-search/"
+            }
+          />
         </div>
         <Footer7 />
       </div>

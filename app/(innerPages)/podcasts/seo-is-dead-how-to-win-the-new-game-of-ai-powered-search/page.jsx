@@ -7,6 +7,7 @@ import { allBlogs } from "@/data/blogs";
 import Podcast1 from "@/components/podcasts/podcast-1";
 import SEOisDead from "@/components/podcasts/SEOisDeadPodcast";
 import SEOisDeadPodcast from "@/components/podcasts/SEOisDeadPodcast";
+import RelatedPodcasts from "@/components/podcasts/RelatedPodcasts";
 export const metadata = {
   title:
     "Podcast Template || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
@@ -23,7 +24,11 @@ export default async function Blog2Page(props) {
         <Header7 />
         <div id="wrapper" className="wrap">
           <SEOisDeadPodcast blogItem={blogItem} />
-          <Newsletter />
+          <RelatedPodcasts
+            currentPodcastLink={
+              "/podcasts/seo-is-dead-how-to-win-the-new-game-of-ai-powered-search/"
+            }
+          />
         </div>
         <Footer7 />
       </div>

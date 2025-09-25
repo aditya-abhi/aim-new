@@ -4,13 +4,13 @@ export const podcastList = [
     category: "AI Search",
     imgSrc: "/assets/images/blog/ep-19.webp",
     imgAlt:
-      "Entity Optimization: The 2025 SEO Power Move Every Brand Can’t Afford to Miss",
+      "Don't Get Left Behind: The 5 Biggest Mistakes We're All Making in the Age of AI",
     imgCaption:
-      "Entity Optimization: The 2025 SEO Power Move Every Brand Can’t Afford to Miss",
+      "Don't Get Left Behind: The 5 Biggest Mistakes We're All Making in the Age of AI",
     title:
-      "Entity Optimization: The 2025 SEO Power Move Every Brand Can’t Afford to Miss",
+      "Don't Get Left Behind: The 5 Biggest Mistakes We're All Making in the Age of AI",
     date: "Aug 02, 2025",
-    link: "/podcasts/entity-optimization-the-2025-seo-power-move-every-brand-cant-afford-to-miss/",
+    link: "/podcasts/the-5-biggest-mistakes-we-are-all-making-in-the-age-of-ai/",
   },
   {
     id: 2,
