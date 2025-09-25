@@ -117,6 +117,14 @@ export default function AISearchDomination({ blogItem }) {
             </div>
           </div>
         </div>
+        <div className="container mt-3 text-center">
+          <h2 className="h6 text-dark dark:text-white">
+            Published on:{" "}
+            <span className="text-tertiary dark:text-primary">
+              June 28, 2025{" "}
+            </span>{" "}
+          </h2>
+        </div>
         <div className="panel mt-6 lg:mt-6 xl:mt-9">
           <div className="container">
             <div className="row child-cols-12 g-6 md:g-4 xl:g-6">
@@ -1651,6 +1659,7 @@ export default function AISearchDomination({ blogItem }) {
                                   <li className="mt-2">
                                     Sprinklr. Top PR Trends in 2024 and Beyond.
                                     Retrieved from:
+                                    <br />
                                     <a
                                       href="https://www.sprinklr.com/blog/pr-trends/"
                                       className="text-blue"
@@ -1662,6 +1671,7 @@ export default function AISearchDomination({ blogItem }) {
                                   <li className="mt-2">
                                     SEO.com. Answer Engine Optimization: What It
                                     Is and Why It Matters. Retrieved from:
+                                    <br />
                                     <a
                                       href="https://www.seo.com/ai/answer-engine-optimization/"
                                       className="text-blue"
@@ -1672,7 +1682,8 @@ export default function AISearchDomination({ blogItem }) {
                                   </li>
                                   <li className="mt-2">
                                     YouTube. How Generative AI is Changing PR
-                                    and Communications. Watch:
+                                    and Communications.
+                                    <br />
                                     <a
                                       href="https://www.youtube.com/watch?v=ozEoXxuTjO8"
                                       className="text-blue"
@@ -1685,6 +1696,7 @@ export default function AISearchDomination({ blogItem }) {
                                     AI Monitor. Media Partnership: A Strategic
                                     Boost for Generative Engine Optimization
                                     (GEO). Retrieved from:
+                                    <br />
                                     <a
                                       href="https://getaimonitor.com/media-partnership-a-strategic-boost-for-generative-engine-optimization-geo/"
                                       className="text-blue"
@@ -1697,6 +1709,7 @@ export default function AISearchDomination({ blogItem }) {
                                     Public Relations Society of America (PRSA).
                                     Navigating Ethical Implications for
                                     AI-Driven PR Practice. Retrieved from:
+                                    <br />
                                     <a
                                       href="https://www.prsa.org/article/navigating-ethical-implications-for-ai-driven-pr-practice"
                                       className="text-blue"
@@ -1708,6 +1721,7 @@ export default function AISearchDomination({ blogItem }) {
                                   <li className="mt-2">
                                     Motive PR. Digital PR, AI & Search
                                     Visibility. Retrieved from:
+                                    <br />
                                     <a
                                       href="https://www.motivepr.co.uk/blog/digital-pr-ai-search-visibility "
                                       className="text-blue"
@@ -1720,6 +1734,7 @@ export default function AISearchDomination({ blogItem }) {
                                     Crux KC. Mastering Generative Engine
                                     Optimization with Strategic PR. Retrieved
                                     from:
+                                    <br />
                                     <a
                                       href="https://cruxkc.com/insights/mastering-generative-engine-optimization-with-strategic-pr/"
                                       className="text-blue"
@@ -1731,6 +1746,7 @@ export default function AISearchDomination({ blogItem }) {
                                   <li className="mt-2">
                                     CerconeBrown. How PR Can Affect AI.
                                     Retrieved from:
+                                    <br />
                                     <a
                                       href="https://cerconebrown.com/pr-affect-on-ai/"
                                       className="text-blue"
@@ -1742,6 +1758,7 @@ export default function AISearchDomination({ blogItem }) {
                                   <li className="mt-2">
                                     YouTube. How Generative AI is Changing PR
                                     and Communications. Watch:
+                                    <br />
                                     <a
                                       href="https://www.youtube.com/watch?v=ozEoXxuTjO8"
                                       className="text-blue"
@@ -1754,6 +1771,7 @@ export default function AISearchDomination({ blogItem }) {
                                     HackerNoon. How Generative AI is Reshaping
                                     PR Strategy, Brand Visibility, and Media
                                     Influence in 2025. Retrieved from:
+                                    <br />
                                     <a
                                       href="https://hackernoon.com/how-generative-ai-is-reshaping-pr-strategy-brand-visibility-and-media-influence-in-2025https://hackernoon.com/how-generative-ai-is-reshaping-pr-strategy-brand-visibility-and-media-influence-in-2025"
                                       className="text-blue"
@@ -1765,6 +1783,7 @@ export default function AISearchDomination({ blogItem }) {
                                   <li className="mt-2">
                                     YouTube. The Future of PR in the Age of AI.
                                     Watch:
+                                    <br />
                                     <a
                                       href="https://www.youtube.com/watch?v=beF0N2mBivA"
                                       className="text-blue"
@@ -1776,6 +1795,7 @@ export default function AISearchDomination({ blogItem }) {
                                   <li className="mt-2">
                                     YouTube. AI in PR: Ethical Concerns and Best
                                     Practices. Watch:
+                                    <br />
                                     <a
                                       href="https://www.youtube.com/watch?v=udb-T4qwTBU"
                                       className="text-blue"

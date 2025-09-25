@@ -116,6 +116,15 @@ export default function SEOisDeadPodcast({ blogItem }) {
             </div>
           </div>
         </div>
+
+        <div className="container mt-3 text-center">
+          <h2 className="h6 text-dark dark:text-white">
+            Published on:{" "}
+            <span className="text-tertiary dark:text-primary">
+              May 10, 2025{" "}
+            </span>{" "}
+          </h2>
+        </div>
         <div className="panel mt-6 lg:mt-6 xl:mt-9">
           <div className="container">
             <div className="row child-cols-12 g-6 md:g-4 xl:g-6">
@@ -1455,7 +1464,7 @@ export default function SEOisDeadPodcast({ blogItem }) {
                                     Episode #6 Expert Panel. (2025, January 27).
                                     16 Steps Marketers Must Take To Prepare For
                                     Generative AI Search. Forbes Communications
-                                    Council.
+                                    Council. <br />
                                     <a
                                       href="https://www.forbes.com/councils/forbescommunicationscouncil/2025/01/27/16-steps-marketers-must-take-to-prepare-for-generative-ai-search/"
                                       className="text-blue"
@@ -1467,7 +1476,7 @@ export default function SEOisDeadPodcast({ blogItem }) {
                                   <li className="mt-2">
                                     Brown, N. (2025, January 31). GEO Is The
                                     Next SEO (And Why You Can’t Ignore It).
-                                    Forbes Agency Council.
+                                    Forbes Agency Council. <br />
                                     <a
                                       href="https://addlly.ai/blog/is-geo-the-new-seo/"
                                       className="text-blue"
@@ -1480,7 +1489,8 @@ export default function SEOisDeadPodcast({ blogItem }) {
                                     Usa, U. (2025, April 30). The Complete Guide
                                     to Optimizing Your Content For AI Search:
                                     Getting Recommended by GenAI & Claiming
-                                    Coveted Overviews. Convert Experiences.
+                                    Coveted Overviews. Convert Experiences.{" "}
+                                    <br />
                                     <a
                                       href="https://searchengineland.com/seo-content-optimization-guide-445084"
                                       className="text-blue"
@@ -1492,7 +1502,7 @@ export default function SEOisDeadPodcast({ blogItem }) {
                                   <li className="mt-2">
                                     Melton, W. (2025, April 29). How to Rank in
                                     AI Search Results: 9 Effective Strategies.
-                                    Xponent21.
+                                    Xponent21. <br />
                                     <a
                                       href="https://ai-marketinglabs.com/lab-experiments/what-are-the-best-strategies-for-ranking-in-ai-search-results"
                                       className="text-blue"
@@ -1504,7 +1514,7 @@ export default function SEOisDeadPodcast({ blogItem }) {
                                   <li className="mt-2">
                                     Cubero, C. (2025, March 14). B2B SaaS SEO in
                                     the Age of AI: What Founders Needs to Know.
-                                    Kalungi
+                                    Kalungi <br />
                                     <a
                                       href="https://www.kalungi.com/blog/b2b-saas-seo-in-the-age-of-ai"
                                       className="text-blue"
@@ -1517,7 +1527,7 @@ export default function SEOisDeadPodcast({ blogItem }) {
                                     Geeky Tech. (2025, January 30). SEO
                                     Unfiltered Ep 4.1: How Generative Engine
                                     Optimisation Will Shape Digital Marketing
-                                    (Podcast Episode).
+                                    (Podcast Episode). <br />
                                     <a
                                       href="https://podcasts.apple.com/us/podcast/seo-unfiltered/id1610579748"
                                       className="text-blue"
@@ -1530,7 +1540,7 @@ export default function SEOisDeadPodcast({ blogItem }) {
                                     Perry, T. (2024, December 18). Search Engine
                                     Optimization (SEO) vs Generative Engine
                                     Optimization (GEO): Key Differences and
-                                    Strategies. Foundation Marketing.
+                                    Strategies. Foundation Marketing. <br />
                                     <a
                                       href="https://www.quoleady.com/geo-vs-seo/"
                                       className="text-blue"
@@ -1542,7 +1552,7 @@ export default function SEOisDeadPodcast({ blogItem }) {
                                   <li className="mt-2">
                                     PAI Monitor. AI Traffic Monitor | Get Your
                                     Brand Recommended by ChatGPT & Google AI
-                                    Overview.
+                                    Overview. <br />
                                     <a
                                       href="https://getaimonitor.com/products/ai-traffic-monitor/"
                                       className="text-blue"
@@ -1553,7 +1563,8 @@ export default function SEOisDeadPodcast({ blogItem }) {
                                   </li>
                                   <li className="mt-2">
                                     AI Monitor. AI Bot Monitor | Get Your Brand
-                                    Recommended by ChatGPT & Google AI Overview
+                                    Recommended by ChatGPT & Google AI Overview{" "}
+                                    <br />
                                     <a
                                       href="https://developers.google.com/search/docs/appearance/ai-features"
                                       className="text-blue"
@@ -1564,7 +1575,8 @@ export default function SEOisDeadPodcast({ blogItem }) {
                                   </li>
                                   <li className="mt-2">
                                     Assembled. (2024, October 14). A guide to
-                                    optimizing your knowledge base for AI.
+                                    optimizing your knowledge base for AI.{" "}
+                                    <br />
                                     <a
                                       href="https://document360.com/blog/optimize-knowledge-base-for-ai/"
                                       className="text-blue"
@@ -1575,7 +1587,7 @@ export default function SEOisDeadPodcast({ blogItem }) {
                                   </li>
                                   <li className="mt-2">
                                     AI Monitor. (Pasted Text) GEO for SaaS: Own
-                                    your AI search visibility.
+                                    your AI search visibility. <br />
                                     <a
                                       href="https://www.simpletiger.com/services/geo-ai-search-optimization"
                                       className="text-blue"
@@ -1587,7 +1599,7 @@ export default function SEOisDeadPodcast({ blogItem }) {
                                   <li className="mt-2">
                                     Pronunciation Planet. (N/A). How to
                                     Pronounce ☁ SaaS CORRECTLY in English?
-                                    (Video Transcript).
+                                    (Video Transcript). <br />
                                     <a
                                       href="https://www.getpronounce.com/how-to-pronounce/saas"
                                       className="text-blue"
@@ -1598,7 +1610,7 @@ export default function SEOisDeadPodcast({ blogItem }) {
                                   </li>
                                   <li className="mt-2">
                                     (Pasted Text). (N/A). The correct
-                                    pronunciation of "SaaS" is sass.
+                                    pronunciation of "SaaS" is sass. <br />
                                     <a
                                       href="https://www.getpronounce.com/how-to-pronounce/saas#:~:text=To%20pronounce%20saas%20correctly%2C%20focus,differently%20depending%20on%20regional%20accents"
                                       className="text-blue"
@@ -1613,7 +1625,7 @@ export default function SEOisDeadPodcast({ blogItem }) {
                                     Ep 3.6, Ep 3.5, Ep 3.4, Ep 3.3, Ep 3.2, Ep
                                     3.1, Ep 2.5, Ep 2.4, Ep 2.3, Ep 2.2, Ep 2.1,
                                     Ep 07, Ep 06, Ep 05, Ep 04, Ep 03, Ep 02, Ep
-                                    01).
+                                    01). <br />
                                     <a
                                       href="https://www.geekytech.co.uk/seo-unfiltered-podcast/"
                                       className="text-blue"
@@ -1626,7 +1638,7 @@ export default function SEOisDeadPodcast({ blogItem }) {
                                     Foundation Marketing. (N/A). Search Engine
                                     Optimization (SEO) vs Generative Engine
                                     Optimization (GEO): Key Differences and
-                                    Strategies (Full Excerpt).
+                                    Strategies (Full Excerpt). <br />
                                     <a
                                       href="https://www.quoleady.com/geo-vs-seo/"
                                       className="text-blue"
@@ -1638,7 +1650,7 @@ export default function SEOisDeadPodcast({ blogItem }) {
                                   <li className="mt-2">
                                     Foundation Marketing. (N/A). What's
                                     Generative Engine Optimization (GEO) & How
-                                    To Do It (Full Excerpt)
+                                    To Do It (Full Excerpt) <br />
                                     <a
                                       href="https://aioseo.com/generative-engine-optimization-geo/"
                                       className="text-blue"

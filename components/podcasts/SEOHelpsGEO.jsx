@@ -118,6 +118,14 @@ export default function SEOHelpsGEO({ blogItem }) {
             </div>
           </div>
         </div>
+        <div className="container mt-3 text-center">
+          <h2 className="h6 text-dark dark:text-white">
+            Published on:{" "}
+            <span className="text-tertiary dark:text-primary">
+              June 21, 2025{" "}
+            </span>{" "}
+          </h2>
+        </div>
         <div className="panel mt-6 lg:mt-6 xl:mt-9">
           <div className="container">
             <div className="row child-cols-12 g-6 md:g-4 xl:g-6">
@@ -1713,6 +1721,7 @@ export default function SEOHelpsGEO({ blogItem }) {
                                     25-29 Aug. 2024, Barcelona, Spain, 12 pages.
                                     https://doi.org/10.1145/3637528.3671900.
                                     Code and Data available at
+                                    <br />
                                     <a
                                       href="https://generative-engines.com/GEO/ "
                                       className="text-blue"
@@ -1724,6 +1733,7 @@ export default function SEOHelpsGEO({ blogItem }) {
                                   <li className="mt-3">
                                     “Generative Engine Optimization Leaderboard
                                     – AI Monitor”
+                                    <br />
                                     <a
                                       href="https://getaimonitor.com/generative-engine-optimization-techniques/ "
                                       className="text-blue"
@@ -1737,6 +1747,7 @@ export default function SEOHelpsGEO({ blogItem }) {
                                     GEO: Key Difference & Approach Explained.”
                                     DataSpace Academy Blog, 21 Apr. 2025. URL
                                     not provided in source excerpt.
+                                    <br />
                                     <a
                                       href="https://dataspaceacademy.com/blog/what-is-seo-vs-aeo-vs-geo-key-differences "
                                       className="text-blue"
@@ -1749,6 +1760,7 @@ export default function SEOHelpsGEO({ blogItem }) {
                                     jayashree63. “Voice Search Optimization:
                                     Making Your Content Discoverable in 2025.”
                                     S4Carlisle Blog, 6 June 2025
+                                    <br />
                                     <a
                                       href="https://www.s4carlisle.com/post/voice-search-optimization-making-your-content-discoverable-in-2025 "
                                       className="text-blue"
@@ -1760,6 +1772,7 @@ export default function SEOHelpsGEO({ blogItem }) {
                                   <li className="mt-3">
                                     “Good SEO Impact on GEO | A Comprehensive
                                     Guide for 2025” (from AI Monitor)
+                                    <br />
                                     <a
                                       href="https://getaimonitor.com/how-good-seo-impact-geo-a-comprehensive-guide/ "
                                       className="text-blue"
@@ -1772,6 +1785,7 @@ export default function SEOHelpsGEO({ blogItem }) {
                                     Mishra, Gaurav. “How Schema Markup Drives
                                     Success in AI-Powered Search.” CMS Wire, 11
                                     Dec. 2024.
+                                    <br />
                                     <a
                                       href="https://www.cmswire.com/digital-experience/the-growing-importance-of-schemaorg-in-the-ai-era/ "
                                       className="text-blue"
@@ -1785,6 +1799,7 @@ export default function SEOHelpsGEO({ blogItem }) {
                                     Anything (And How to Use It) | Conquer AI
                                     Search With AI” uploaded on the YouTube
                                     channel “AI Monitor”
+                                    <br />
                                     <a
                                       href="https://getaimonitor.com/how-reddit-is-shaping-ai-search-how-your-brand-can-leverage-it-conquer-ai-search-with-ai-podcast/ "
                                       className="text-blue"

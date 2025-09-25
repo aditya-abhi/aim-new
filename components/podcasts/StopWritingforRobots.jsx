@@ -118,6 +118,14 @@ export default function StopWritingforRobots({ blogItem }) {
             </div>
           </div>
         </div>
+        <div className="container mt-3 text-center">
+          <h2 className="h6 text-dark dark:text-white">
+            Published on:{" "}
+            <span className="text-tertiary dark:text-primary">
+              July 12, 2025{" "}
+            </span>{" "}
+          </h2>
+        </div>
         <div className="panel mt-6 lg:mt-6 xl:mt-9">
           <div className="container">
             <div className="row child-cols-12 g-6 md:g-4 xl:g-6">
@@ -399,6 +407,8 @@ export default function StopWritingforRobots({ blogItem }) {
                                     13:50 – Getting into AI recommendations
                                   </li>
                                   <li>15:40 – Content metrics in the AI era</li>
+                                  <li>18:45– SEO is evolving, not dead</li>
+                                  <li>20:40– Final advice: Be human</li>
                                 </ol>
                               </div>
                             </div>

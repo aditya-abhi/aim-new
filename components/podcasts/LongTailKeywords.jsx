@@ -116,6 +116,14 @@ export default function LongTailKeywords({ blogItem }) {
             </div>
           </div>
         </div>
+        <div className="container mt-3 text-center">
+          <h2 className="h6 text-dark dark:text-white">
+            Published on:{" "}
+            <span className="text-tertiary dark:text-primary">
+              July 19, 2025{" "}
+            </span>{" "}
+          </h2>
+        </div>
         <div className="panel mt-6 lg:mt-6 xl:mt-9">
           <div className="container">
             <div className="row child-cols-12 g-6 md:g-4 xl:g-6">
@@ -1534,7 +1542,7 @@ export default function LongTailKeywords({ blogItem }) {
                                     </a>
                                   </li>
                                   <li>
-                                    BrightEdge –
+                                    BrightEdge –{" "}
                                     <a
                                       href="https://www.brightedge.com/blog/long-tail-keyword-optimization-ai"
                                       target="_blank"
@@ -1545,7 +1553,7 @@ export default function LongTailKeywords({ blogItem }) {
                                     </a>
                                   </li>
                                   <li>
-                                    HawkSEM –
+                                    HawkSEM –{"  "}
                                     <a
                                       href="https://hawksem.com/blog/short-tail-keywords-vs-long-tail-keywords/"
                                       target="_blank"
@@ -1555,7 +1563,7 @@ export default function LongTailKeywords({ blogItem }) {
                                     </a>
                                   </li>
                                   <li>
-                                    Reddit –
+                                    Reddit –{"  "}
                                     <a
                                       href="https://www.reddit.com/r/juststart/comments/tt3z7g/any_free_long_tail_keyword_tools/"
                                       target="_blank"
@@ -1570,7 +1578,7 @@ export default function LongTailKeywords({ blogItem }) {
                                 </p>
                                 <ul>
                                   <li>
-                                    Purge Digital –
+                                    Purge Digital –{"  "}
                                     <a
                                       href="https://purgedigital.com.au/aeo-how-ai-is-changing-seo-in-2025/"
                                       target="_blank"
@@ -1580,7 +1588,7 @@ export default function LongTailKeywords({ blogItem }) {
                                     </a>
                                   </li>
                                   <li>
-                                    SurferSEO –
+                                    SurferSEO –{"  "}
                                     <a
                                       href="https://surferseo.com/blog/llm-optimization-seo/"
                                       target="_blank"
@@ -1590,7 +1598,7 @@ export default function LongTailKeywords({ blogItem }) {
                                     </a>
                                   </li>
                                   <li>
-                                    SEOptimer –
+                                    SEOptimer –{" "}
                                     <a
                                       href="https://www.seoptimer.com/blog/high-intent-keywords/"
                                       target="_blank"
@@ -1600,7 +1608,7 @@ export default function LongTailKeywords({ blogItem }) {
                                     </a>
                                   </li>
                                   <li>
-                                    Exploding Topics –
+                                    Exploding Topics –{"  "}
                                     <a
                                       href="https://explodingtopics.com/blog/people-also-ask"
                                       target="_blank"
@@ -1618,7 +1626,7 @@ export default function LongTailKeywords({ blogItem }) {
                                 </p>
                                 <ul>
                                   <li>
-                                    WSI –
+                                    WSI –{"  "}
                                     <a
                                       href="https://www.wsiworld.com/blog/the-rise-of-conversational-queries-and-their-impact-on-serps"
                                       target="_blank"
@@ -1628,7 +1636,7 @@ export default function LongTailKeywords({ blogItem }) {
                                     </a>
                                   </li>
                                   <li>
-                                    NASSCOM –
+                                    NASSCOM –{"  "}
                                     <a
                                       href="https://community.nasscom.in/communities/analytics/voice-search-optimization-future-seo-2025"
                                       target="_blank"
@@ -1643,7 +1651,7 @@ export default function LongTailKeywords({ blogItem }) {
                                 </p>
                                 <ul>
                                   <li>
-                                    Mike Khorev –
+                                    Mike Khorev –{" "}
                                     <a
                                       href="https://mikekhorev.com/digital-marketing-strategies-ideas-startups"
                                       target="_blank"
@@ -1653,7 +1661,7 @@ export default function LongTailKeywords({ blogItem }) {
                                     </a>
                                   </li>
                                   <li>
-                                    Boostability –
+                                    Boostability –{"  "}
                                     <a
                                       href="https://www.boostability.com/resources/local-seo-for-small-business-guide/"
                                       target="_blank"
