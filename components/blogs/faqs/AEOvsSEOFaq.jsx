@@ -1,5 +1,5 @@
 "use client";
-import { aeoTools, aEOvsSEOFaq } from "@/data/blogFaqs";
+import { aEOvsSEOFaq } from "@/data/blogFaqs";
 import { useEffect, useRef, useState } from "react";
 import React from "react";
 
