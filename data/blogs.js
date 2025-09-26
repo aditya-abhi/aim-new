@@ -566,7 +566,7 @@ export const allBlogs = [
 
 export const blogPostList = [
   {
-    id: 41,
+    id: 26,
     category: "GEO",
     imgSrc: "/assets/images/blog/what-is-geo.webp",
     imgAlt:
@@ -581,7 +581,7 @@ export const blogPostList = [
     link: "/what-is-generative-engine-optimization/",
   },
   {
-    id: 42,
+    id: 25,
     category: "AEO",
     imgSrc: "/assets/images/blog/what-is-aeo.webp",
     imgAlt:
@@ -596,7 +596,7 @@ export const blogPostList = [
     link: "/what-is-answer-engine-optimization/",
   },
   {
-    id: 43,
+    id: 24,
     category: "AI Search Optimization",
     imgSrc: "/assets/images/blog/Chat-GPT-SEO.webp",
     imgAlt: "ChatGPT SEO: How to Rank in ChatGPT Responses in 2025",
@@ -609,7 +609,7 @@ export const blogPostList = [
     link: "/chatgpt-seo-how-to-rank-in-chatgpt-responses-in-2025/",
   },
   {
-    id: 43,
+    id: 23,
     category: "AI Search Optimization",
     imgSrc: "/assets/images/blog/perplexity-main-image.webp",
     imgAlt:
@@ -624,7 +624,7 @@ export const blogPostList = [
     link: "/how-to-get-featured-by-perplexity-ai-in-2025-the-complete-interactive-guide/",
   },
   {
-    id: 44,
+    id: 22,
     category: "AI Search Optimization",
     imgSrc: "/assets/images/blog/FeaturedinGoogleAI.webp",
     imgAlt:
@@ -639,7 +639,7 @@ export const blogPostList = [
     link: "/how-to-get-featured-in-googles-ai-overview-tools-and-strategies-for-2025/",
   },
   {
-    id: 45,
+    id: 21,
     category: "GEO",
     imgSrc: "/assets/images/blog/reddit-main-image.webp",
     imgAlt:
@@ -654,7 +654,7 @@ export const blogPostList = [
     link: "/leverage-reddit-for-generative-engine-optimization/",
   },
   {
-    id: 7,
+    id: 20,
     category: "SaaS",
     imgSrc: "/assets/images/blog/SaasLandingPages.webp",
     imgAlt: "Must Have SaaS Landing Pages for Better AI Visibility",
@@ -667,7 +667,7 @@ export const blogPostList = [
     link: "/must-have-saas-landing-pages-for-better-ai-visibility/",
   },
   {
-    id: 8,
+    id: 19,
     category: "AI Search Optimization",
     imgSrc:
       "/assets/images/blog/future-of-search-understanding-entities-main-image.webp",
@@ -683,7 +683,7 @@ export const blogPostList = [
     link: "/the-future-of-search-understanding-entities-and-the-shift-from-keywords-to-concepts/",
   },
   {
-    id: 10,
+    id: 18,
     category: "AEO",
     imgSrc: "/assets/images/blog/FixaiCrawlability.webp",
     imgAlt:
@@ -698,7 +698,7 @@ export const blogPostList = [
     link: "/fix-ai-crawlability-and-boost-your-sites-performance-in-search-engines/",
   },
   {
-    id: 10,
+    id: 17,
     category: "AI Search Optimization",
     imgSrc: "/assets/images/blog/zero-click-search-main-image.webp",
     imgAlt: "How Zero-Click Searches are Revolutionising SEO and GEO",
@@ -711,7 +711,7 @@ export const blogPostList = [
     link: "/how-zero-click-searches-are-revolutionising-seo-and-geo/",
   },
   {
-    id: 10,
+    id: 16,
     category: "AI Search Optimization",
     imgSrc: "/assets/images/blog/Feedback-to-LLM.webp",
     imgAlt: "AI Got Your Brand Wrong? Feedback to LLM Fixes It",
@@ -724,7 +724,7 @@ export const blogPostList = [
     link: "/ai-got-your-brand-wrong-feedback-to-llm-fixes-it/",
   },
   {
-    id: 10,
+    id: 15,
     category: "AI Search Optimization",
     imgSrc: "/assets/images/blog/autocompletepromptshack.webp",
     imgAlt:
@@ -739,7 +739,7 @@ export const blogPostList = [
     link: "/auto-complete-prompts-hack/",
   },
   {
-    id: 10,
+    id: 14,
     category: "AI Search Optimization",
     imgSrc: "/assets/images/blog/BestHackforGEO.webp",
     imgAlt: "Use Quotes Like a Pro | Best Hack for GEO in 2025",
@@ -752,7 +752,7 @@ export const blogPostList = [
     link: "/use-quotes-like-a-pro-best-hack-for-geo/",
   },
   {
-    id: 10,
+    id: 13,
     category: "AI Search Optimization",
     imgSrc: "/assets/images/blog/News-Media-Partnership.webp",
     imgAlt:
@@ -767,7 +767,7 @@ export const blogPostList = [
     link: "/media-partnership-a-strategic-boost-for-generative-engine-optimization-geo/",
   },
   {
-    id: 10,
+    id: 12,
     category: "AI Search Optimization",
     imgSrc: "/assets/images/blog/good-seo-imapact-main.webp",
     imgAlt: "How Good SEO Impact GEO | A Comprehensive Guide for 2025",
@@ -780,7 +780,7 @@ export const blogPostList = [
     link: "/how-good-seo-impact-geo-a-comprehensive-guide/",
   },
   {
-    id: 10,
+    id: 11,
     category: "AI Search Optimization",
     imgSrc: "/assets/images/blog/FutureProofYourContent.webp",
     imgAlt:
@@ -808,7 +808,7 @@ export const blogPostList = [
     link: "/importance-of-statistics-in-geo-to-dominate-ai-search/",
   },
   {
-    id: 10,
+    id: 9,
     category: "AI Search Optimization",
     imgSrc: "/assets/images/blog/LLMvsGenerativeAI.webp",
     imgAlt: "From Text to Canvas: Ultimate Battle of LLM vs Generative AI",
@@ -821,7 +821,7 @@ export const blogPostList = [
     link: "/llm-vs-generative-ai-what-should-you-pick/",
   },
   {
-    id: 10,
+    id: 8,
     category: "AI Search Optimization",
     imgSrc: "/assets/images/blog/aeo-tools.webp",
     imgAlt:
@@ -836,7 +836,7 @@ export const blogPostList = [
     link: "/top-10-game-changing-answer-engine-optimization-tools/",
   },
   {
-    id: 10,
+    id: 7,
     category: "AI Search Optimization",
     imgSrc: "/assets/images/blog/Robots-txtDisallowAll.webp",
     imgAlt:
@@ -851,7 +851,7 @@ export const blogPostList = [
     link: "/robots-txt-disallow-all-is-killing-your-traffic-see-how/",
   },
   {
-    id: 10,
+    id: 6,
     category: "AI Search Optimization",
     imgSrc: "/assets/images/blog/ImplementllmsFile.webp",
     imgAlt: "Step by Step Guide: How to Create and Implement an llms.txt File",
@@ -864,7 +864,7 @@ export const blogPostList = [
     link: "/step-by-step-to-create-and-implement-llms-txt-file/",
   },
   {
-    id: 10,
+    id: 5,
     category: "AEO",
     imgSrc: "/assets/images/blog/AEOvsSEO.webp",
     imgAlt:
@@ -879,7 +879,7 @@ export const blogPostList = [
     link: "/aeo-vs-seo-answer-engine-optimization-vs-search-engine-optimization-explained/",
   },
   {
-    id: 10,
+    id: 4,
     category: "GEO",
     imgSrc: "/assets/images/blog/geo-vs-seo-key-differences.webp",
     imgAlt:
@@ -894,7 +894,7 @@ export const blogPostList = [
     link: "/geo-vs-seo-key-differences/",
   },
   {
-    id: 10,
+    id: 3,
     category: "GEO",
     imgSrc: "/assets/images/blog/MarketingTrends.webp",
     imgAlt: "10 Marketing Trends and Predictions for 2025",
@@ -907,7 +907,7 @@ export const blogPostList = [
     link: "/10-marketing-trends-and-predictions-for-2025/",
   },
   {
-    id: 10,
+    id: 2,
     category: "AI Search Optimization",
     imgSrc: "/assets/images/blog/Blog-sge-&-rag.webp",
     imgAlt: "Google SGE and RAG in AI: How Search and SEO Are Changing Forever",
@@ -920,7 +920,7 @@ export const blogPostList = [
     link: "/google-sge-and-rag-in-ai-how-search-and-seo-are-changing-forever/",
   },
   {
-    id: 10,
+    id: 1,
     category: "AI Search Optimization",
     imgSrc: "/assets/images/blog/GoogleAIOverview.webp",
     imgAlt: "Google AI Overviews: What We Know So Far",
