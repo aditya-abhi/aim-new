@@ -3,8 +3,6 @@ import Header7 from "@/components/headers/Header7";
 import { allBlogs } from "@/data/blogs";
 import Head from "@/components/blogs/components/Head";
 import Author from "@/components/blogs/components/Author";
-import Blog1Faqs from "@/components/blogs/faqs/Blog1Faqs";
-import NextPrevBlogs from "@/components/blogs/components/NextPrevBlogs";
 import RelatedBlogs from "@/components/blogs/components/RelatedBlogs";
 import AuthorBioShort from "@/components/blogs/components/AuthorBioShort";
 import Experiment1 from "@/components/blogs/components/Experiment1";

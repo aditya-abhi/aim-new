@@ -1,12 +1,10 @@
 "use client";
 import React from "react";
-import Sidebar from "./sidebars/Sidebar";
 import Image from "next/image";
 import AudioPlayer from "./sidebars/AudioPlayer";
 import TableOfContentsServer from "./sidebars/TableOfContentsServer";
 import RightSideBottom from "./sidebars/RightSideBottom";
 import RightSideTop from "./sidebars/RightSideTop";
-import Toc from "./Toc";
 import { Gallery, Item } from "react-photoswipe-gallery";
 
 export default function ChatGPTSEO() {

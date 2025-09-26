@@ -26,17 +26,20 @@ export default function PricingTable() {
             </div>
             <div className="panel p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-black overflowx-auto">
               <table className="uc-table uc-table-divider">
-                <thead className="table-head sticky-top z-1 bg-white text-dark dark:bg-gray-900 dark:text-white">
+                <thead className="table-head  bg-white text-dark dark:bg-gray-900 dark:text-white text-center">
                   <tr className="table-row border-white dark:border-gray-900">
-                    <th className="table-header-cell" scope="row">
-                      PROS
+                    <th
+                      className="table-header-cell top pt-0 lg:pt-1"
+                      scope="row"
+                    >
+                      {/* PROS */}
                     </th>
                     <th
                       className="table-header-cell w-1/6"
                       scope="col"
                       id="plan-1"
                     >
-                      <div className="title">
+                      <div className="title pt-1 lg:pt-1">
                         <div className="h6 lg:h5 mt-4 mb-2">
                           <span>Self Host (Free)</span>
                         </div>
@@ -85,88 +88,88 @@ export default function PricingTable() {
                       </div>
                     </th>
                   </tr>
-                  <tr className="table-row border-white dark:border-gray-900">
-                    <th className="" scope="row">
+                  <tr className="table-row border-white dark:border-gray-900 text-center">
+                    <th className="top pt-0 lg:pt-3" scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
                           Pros
                         </span>
                       </div>
                     </th>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>Full Control & Zero Cost</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>Convenience & Predictability</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>Scale & Proprietary Insights</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>Strategic Partnership & Custom Solutions</span>
                       </div>
                     </td>
                   </tr>
-                  <tr className="table-row border-gray-100 dark:border-gray-600">
-                    <th className="" scope="row">
+                  <tr className="table-row border-gray-100 dark:border-gray-600 text-center">
+                    <th className="top pt-0 lg:pt-1" scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
                           Best for:
                         </span>
                       </div>
                     </th>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>Developer / Hobbyist</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>Solopreneur / Small Business</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>Scaling Startup / Mid-Market Team</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>Large Corporation / Multinational</span>
                       </div>
                     </td>
                   </tr>
-                  <tr className="table-row border-gray-100 dark:border-gray-600">
-                    <th className="" scope="row">
+                  <tr className="table-row border-gray-100 dark:border-gray-600 text-center">
+                    <th className="top pt-0 lg:pt-1" scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
                           Pricing
                         </span>
                       </div>
                     </th>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>$0</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>$19</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>$99</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>Custom</span>
                       </div>
@@ -181,157 +184,157 @@ export default function PricingTable() {
                       </div>
                     </th>
                   </tr>
-                  <tr className="table-row border-white dark:border-gray-900">
-                    <th className="" scope="row">
+                  <tr className="table-row border-white dark:border-gray-900 text-center">
+                    <th className="top pt-0 lg:pt-1" scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
                           Monitor AI Prompts
                         </span>
                       </div>
                     </th>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
                         <span>Custom (User-limited)</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
                         <span>10</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
                         <span>100</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
                         <span>Custom</span>
                       </div>
                     </td>
                   </tr>
-                  <tr className="table-row border-white dark:border-gray-900">
-                    <th className="" scope="row">
+                  <tr className="table-row border-gray-100 dark:border-gray-600 text-center">
+                    <th className="top pt-0 lg:pt-1" scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
                           Regions
                         </span>
                       </div>
                     </th>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>1</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>1</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>5</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>Custom</span>
                       </div>
                     </td>
                   </tr>
-                  <tr className="table-row border-white dark:border-gray-900">
-                    <th className="" scope="row">
+                  <tr className="table-row border-gray-100 dark:border-gray-600 text-center">
+                    <th className="top pt-0 lg:pt-1" scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
                           Languages
                         </span>
                       </div>
                     </th>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>1</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>1</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>5</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>Custom</span>
                       </div>
                     </td>
                   </tr>
-                  <tr className="table-row border-gray-100 dark:border-gray-600">
-                    <th className="" scope="row">
+                  <tr className="table-row border-gray-100 dark:border-gray-600 text-center">
+                    <th className="top pt-0 lg:pt-1" scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
                           Multi-market Tracking
                         </span>
                       </div>
                     </th>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-dark dark:bg-white bg-opacity-10">
                           <i className="icon-narrow unicon-not-available fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
                         <span>Single-Domain</span>
                       </div>
                     </td>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
                           <i className="icon-narrow unicon-checkmark fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
                           <i className="icon-narrow unicon-checkmark fw-bold" />
                         </span>
                       </div>
                     </td>
                   </tr>
-                  <tr className="table-row border-gray-100 dark:border-gray-600">
-                    <th className="" scope="row">
+                  <tr className="table-row border-gray-100 dark:border-gray-600 text-center">
+                    <th className="top pt-0 lg:pt-1" scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
                           Multi-domain Tracking
                         </span>
                       </div>
                     </th>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-dark dark:bg-white bg-opacity-10">
                           <i className="icon-narrow unicon-not-available fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
                         <span>Single-Market</span>
                       </div>
                     </td>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
                           <i className="icon-narrow unicon-checkmark fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
                           <i className="icon-narrow unicon-checkmark fw-bold" />
                         </span>
@@ -347,98 +350,102 @@ export default function PricingTable() {
                       </div>
                     </th>
                   </tr>
-                  <tr className="table-row border-white dark:border-gray-900">
-                    <th className="" scope="row">
+                  <tr className="table-row border-white dark:border-gray-900 text-center">
+                    <th className="top pt-0 lg:pt-3" scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
                           API Access Type
                         </span>
                       </div>
                     </th>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
                         <span>Third-Party (User-provided)</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
                         <span>Third-Party (Managed)</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
                         <span>Proprietary 100 M AI Prompts data & APIs</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
                         <span>Proprietary 100 M AI Prompts data & APIs</span>
                       </div>
                     </td>
                   </tr>
-                  <tr className="table-row border-white dark:border-gray-900">
-                    <th className="" scope="row">
+                  <tr className="table-row border-gray-100 dark:border-gray-600 text-center">
+                    <th className="top pt-0 lg:pt-1" scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
                           API Costs
                         </span>
                       </div>
                     </th>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>Paid directly by user</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>Included in plan</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>Included in plan</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>Included in plan</span>
                       </div>
                     </td>
                   </tr>
-                  <tr className="table-row border-gray-100 dark:border-gray-600">
-                    <th className="" scope="row">
+                  <tr className="table-row border-gray-100 dark:border-gray-600 text-center">
+                    <th className="top pt-0 lg:pt-3" scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
                           AI Search Volume Data
                         </span>
                       </div>
                     </th>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-3">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
                           <i className="icon-narrow unicon-checkmark fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-3">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-dark dark:bg-white bg-opacity-10">
                           <i className="icon-narrow unicon-not-available fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
-                      <div>
-                        <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
-                          <i className="icon-narrow unicon-checkmark fw-bold" />
+                    <td className="pt-7 lg:pt-1">
+                      <div className="">
+                        <span className="d-flex justify-center pb-1">
+                          <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
+                            <i className="icon-narrow unicon-checkmark fw-bold" />
+                          </span>
                         </span>
-                        <span>(Premium)</span>
+                        <span className="">(Premium)</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
-                        <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
-                          <i className="icon-narrow unicon-checkmark fw-bold" />
+                        <span className="d-flex justify-center pb-1">
+                          <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
+                            <i className="icon-narrow unicon-checkmark fw-bold" />
+                          </span>
                         </span>
                         <span>(Premium)</span>
                       </div>
@@ -453,251 +460,225 @@ export default function PricingTable() {
                       </div>
                     </th>
                   </tr>
-                  <tr className="table-row border-white dark:border-gray-900">
-                    <th className="" scope="row">
+                  <tr className="table-row border-white dark:border-gray-900 text-center">
+                    <th className="top pt-0 lg:pt-2" scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
                           Analytics Dashboard
                         </span>
                       </div>
                     </th>
-                    <td>
+                    <td className="pt-7 lg:pt-2">
                       <div>
                         <span>Basic Analytics</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
                         <span>Full AI Monitoring Dashboard</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
                         <span>Advanced AI Monitoring Dashboard</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
                         <span>Fully Customizable Dashboard</span>
                       </div>
                     </td>
                   </tr>
-                  <tr className="table-row border-gray-100 dark:border-gray-600">
-                    <th className="" scope="row">
+                  <tr className="table-row border-gray-100 dark:border-gray-600 text-center">
+                    <th className="top pt-0 lg:pt-3" scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
                           Prompt Diversification
                         </span>
                       </div>
                     </th>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-3">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
                           <i className="icon-narrow unicon-checkmark fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-3">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
                           <i className="icon-narrow unicon-checkmark fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
-                        <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
-                          <i className="icon-narrow unicon-checkmark fw-bold" />
+                        <span className="d-flex justify-center pb-1">
+                          <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
+                            <i className="icon-narrow unicon-checkmark fw-bold" />
+                          </span>
                         </span>
                         <span>(Advanced)</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
-                        <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
-                          <i className="icon-narrow unicon-checkmark fw-bold" />
-                        </span>
-                        <span>(Advanced)</span>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr className="table-row border-gray-100 dark:border-gray-600">
-                    <th className="" scope="row">
-                      <div className="hstack gap-1 justify-start">
-                        <span className="fs-5 fw-bold text-dark dark:text-white">
-                          Prompt Diversification
-                        </span>
-                      </div>
-                    </th>
-                    <td>
-                      <div>
-                        <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
-                          <i className="icon-narrow unicon-checkmark fw-bold" />
-                        </span>
-                      </div>
-                    </td>
-                    <td>
-                      <div>
-                        <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
-                          <i className="icon-narrow unicon-checkmark fw-bold" />
-                        </span>
-                      </div>
-                    </td>
-                    <td>
-                      <div>
-                        <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
-                          <i className="icon-narrow unicon-checkmark fw-bold" />
-                        </span>
-                        <span>(Advanced)</span>
-                      </div>
-                    </td>
-                    <td>
-                      <div>
-                        <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
-                          <i className="icon-narrow unicon-checkmark fw-bold" />
+                        <span className="d-flex justify-center pb-1">
+                          <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
+                            <i className="icon-narrow unicon-checkmark fw-bold" />
+                          </span>
                         </span>
                         <span>(Advanced)</span>
                       </div>
                     </td>
                   </tr>
-                  <tr className="table-row border-gray-100 dark:border-gray-600">
-                    <th className="" scope="row">
+
+                  <tr className="table-row border-gray-100 dark:border-gray-600 text-center">
+                    <th className="top pt-0 lg:pt-3" scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
                           AI Prompt Explorer
                         </span>
                       </div>
                     </th>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-3">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
                           <i className="icon-narrow unicon-checkmark fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-3">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
                           <i className="icon-narrow unicon-checkmark fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
-                        <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
-                          <i className="icon-narrow unicon-checkmark fw-bold" />
+                        <span className="d-flex justify-center pb-1">
+                          <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
+                            <i className="icon-narrow unicon-checkmark fw-bold" />
+                          </span>
                         </span>
                         <span>(Advanced)</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
-                        <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
-                          <i className="icon-narrow unicon-checkmark fw-bold" />
+                        <span className="d-flex justify-center pb-1">
+                          <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
+                            <i className="icon-narrow unicon-checkmark fw-bold" />
+                          </span>
                         </span>
                         <span>(Advanced)</span>
                       </div>
                     </td>
                   </tr>
-                  <tr className="table-row border-gray-100 dark:border-gray-600">
-                    <th className="" scope="row">
+                  <tr className="table-row border-gray-100 dark:border-gray-600 text-center">
+                    <th className="top pt-0 lg:pt-3" scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
                           Sentiment Analysis
                         </span>
                       </div>
                     </th>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-3">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
                           <i className="icon-narrow unicon-checkmark fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-3">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
                           <i className="icon-narrow unicon-checkmark fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
-                        <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
-                          <i className="icon-narrow unicon-checkmark fw-bold" />
+                        <span className="d-flex justify-center pb-1">
+                          <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
+                            <i className="icon-narrow unicon-checkmark fw-bold" />
+                          </span>
                         </span>
                         <span>(Advanced)</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
-                        <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
-                          <i className="icon-narrow unicon-checkmark fw-bold" />
+                        <span className="d-flex justify-center pb-1">
+                          <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
+                            <i className="icon-narrow unicon-checkmark fw-bold" />
+                          </span>
                         </span>
                         <span>(Advanced)</span>
                       </div>
                     </td>
                   </tr>
-                  <tr className="table-row border-white dark:border-gray-900">
-                    <th className="" scope="row">
+                  <tr className="table-row border-gray-100 dark:border-gray-600 text-center">
+                    <th className="top pt-0 lg:pt-1" scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
                           ChatGPT Shopping
                         </span>
                       </div>
                     </th>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
                         <span>Coming Soon</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
                         <span>Coming Soon</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
                         <span>Coming Soon</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
                         <span>Coming Soon</span>
                       </div>
                     </td>
                   </tr>
-                  <tr className="table-row border-gray-100 dark:border-gray-600">
-                    <th className="" scope="row">
+                  <tr className="table-row border-gray-100 dark:border-gray-600 text-center">
+                    <th className="top pt-0 lg:pt-1" scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
                           Team Collaboration
                         </span>
                       </div>
                     </th>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-dark dark:bg-white bg-opacity-10">
                           <i className="icon-narrow unicon-not-available fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-dark dark:bg-white bg-opacity-10">
                           <i className="icon-narrow unicon-not-available fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
                           <i className="icon-narrow unicon-checkmark fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
                           <i className="icon-narrow unicon-checkmark fw-bold" />
                         </span>
@@ -713,206 +694,206 @@ export default function PricingTable() {
                       </div>
                     </th>
                   </tr>
-                  <tr className="table-row border-white dark:border-gray-900">
-                    <th className="" scope="row">
+                  <tr className="table-row border-white dark:border-gray-900 text-center">
+                    <th className="top pt-0 lg:pt-1" scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
                           Support Level
                         </span>
                       </div>
                     </th>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>Community / Open-Source</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>Standard Support (Implied)</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>Standard Support (Implied)</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>Priority Support</span>
                       </div>
                     </td>
                   </tr>
-                  <tr className="table-row border-gray-100 dark:border-gray-600">
-                    <th className="" scope="row">
+                  <tr className="table-row border-gray-100 dark:border-gray-600 text-center">
+                    <th className="top pt-0 lg:pt-1" scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
                           SLA-backed Reliability
                         </span>
                       </div>
                     </th>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-dark dark:bg-white bg-opacity-10">
                           <i className="icon-narrow unicon-not-available fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-dark dark:bg-white bg-opacity-10">
                           <i className="icon-narrow unicon-not-available fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-dark dark:bg-white bg-opacity-10">
                           <i className="icon-narrow unicon-not-available fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
                           <i className="icon-narrow unicon-checkmark fw-bold" />
                         </span>
                       </div>
                     </td>
                   </tr>
-                  <tr className="table-row border-gray-100 dark:border-gray-600">
-                    <th className="" scope="row">
+                  <tr className="table-row border-gray-100 dark:border-gray-600 text-center">
+                    <th className="top pt-0 lg:pt-1" scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
                           Dedicated GEO Strategist
                         </span>
                       </div>
                     </th>
-                    <td>
-                      <div>
+                    <td className="pt-9 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-dark dark:bg-white bg-opacity-10">
                           <i className="icon-narrow unicon-not-available fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
-                      <div>
+                    <td className="pt-9 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-dark dark:bg-white bg-opacity-10">
                           <i className="icon-narrow unicon-not-available fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
-                      <div>
+                    <td className="pt-9 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-dark dark:bg-white bg-opacity-10">
                           <i className="icon-narrow unicon-not-available fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
-                      <div>
+                    <td className="pt-9 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
                           <i className="icon-narrow unicon-checkmark fw-bold" />
                         </span>
                       </div>
                     </td>
                   </tr>
-                  <tr className="table-row border-gray-100 dark:border-gray-600">
-                    <th className="" scope="row">
+                  <tr className="table-row border-gray-100 dark:border-gray-600 text-center">
+                    <th className="top pt-0 lg:pt-1" scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
                           Dedicated Success Manager
                         </span>
                       </div>
                     </th>
-                    <td>
-                      <div>
+                    <td className="pt-9 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-dark dark:bg-white bg-opacity-10">
                           <i className="icon-narrow unicon-not-available fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
-                      <div>
+                    <td className="pt-9 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-dark dark:bg-white bg-opacity-10">
                           <i className="icon-narrow unicon-not-available fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
-                      <div>
+                    <td className="pt-9 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-dark dark:bg-white bg-opacity-10">
                           <i className="icon-narrow unicon-not-available fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
-                      <div>
+                    <td className="pt-9 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
                           <i className="icon-narrow unicon-checkmark fw-bold" />
                         </span>
                       </div>
                     </td>
                   </tr>
-                  <tr className="table-row border-white dark:border-gray-900">
-                    <th className="" scope="row">
+                  <tr className="table-row border-gray-100 dark:border-gray-600 text-center">
+                    <th className="top pt-0 lg:pt-1" scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
                           Onboarding & Training
                         </span>
                       </div>
                     </th>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
                         <span>Self-serve</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
                         <span>Self-serve</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
                         <span>Self-serve</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-7 lg:pt-1">
                       <div>
                         <span>Custom Sessions</span>
                       </div>
                     </td>
                   </tr>
-                  <tr className="table-row border-gray-100 dark:border-gray-600">
-                    <th className="" scope="row">
+                  <tr className="table-row border-gray-100 dark:border-gray-600 text-center">
+                    <th className="top pt-0 lg:pt-1" scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
                           Team Collaboration
                         </span>
                       </div>
                     </th>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-dark dark:bg-white bg-opacity-10">
                           <i className="icon-narrow unicon-not-available fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-dark dark:bg-white bg-opacity-10">
                           <i className="icon-narrow unicon-not-available fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
                           <i className="icon-narrow unicon-checkmark fw-bold" />
                         </span>
                       </div>
                     </td>
-                    <td>
-                      <div>
+                    <td className="pt-7 lg:pt-1">
+                      <div className="d-flex justify-center">
                         <span className="cstack w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
                           <i className="icon-narrow unicon-checkmark fw-bold" />
                         </span>
@@ -928,59 +909,59 @@ export default function PricingTable() {
                       </div>
                     </th>
                   </tr>
-                  <tr className="table-row border-white dark:border-gray-900">
-                    <th className="" scope="row">
+                  <tr className="table-row border-white dark:border-gray-900 text-center">
+                    <th className="top pt-0 lg:pt-2" scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
                           Data Privacy
                         </span>
                       </div>
                     </th>
-                    <td>
+                    <td className="pt-4 lg:pt-2">
                       <div>
                         <span>Automatic Data Deletion</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-2">
                       <div>
                         <span>Standard</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-2">
                       <div>
                         <span>Standard</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-1">
                       <div>
                         <span>Custom Data Residency/Handling</span>
                       </div>
                     </td>
                   </tr>
-                  <tr className="table-row border-gray-100 dark:border-gray-600">
-                    <th className="" scope="row">
+                  <tr className="table-row border-gray-100 dark:border-gray-600 text-center">
+                    <th className="top pt-0 lg:pt-2" scope="row">
                       <div className="hstack gap-1 justify-start">
                         <span className="fs-5 fw-bold text-dark dark:text-white">
                           License
                         </span>
                       </div>
                     </th>
-                    <td>
+                    <td className="pt-4 lg:pt-2">
                       <div>
                         <span>MIT Open-source</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-2">
                       <div>
                         <span>Commercial SaaS</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-2">
                       <div>
                         <span>Commercial SaaS</span>
                       </div>
                     </td>
-                    <td>
+                    <td className="pt-4 lg:pt-2">
                       <div>
                         <span>Commercial SaaS</span>
                       </div>

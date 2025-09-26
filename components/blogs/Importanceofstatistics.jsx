@@ -1,12 +1,10 @@
 "use client";
 import React from "react";
-import Sidebar from "./sidebars/Sidebar";
 import Image from "next/image";
 import AudioPlayer from "./sidebars/AudioPlayer";
 import TableOfContentsServer from "./sidebars/TableOfContentsServer";
 import RightSideBottom from "./sidebars/RightSideBottom";
 import RightSideTop from "./sidebars/RightSideTop";
-import Toc from "./Toc";
 import { Gallery, Item } from "react-photoswipe-gallery";
 
 export default function ImportanceOfStatistics() {
@@ -625,11 +623,7 @@ export default function ImportanceOfStatistics() {
               <RightSideTop />
               <RightSideBottom />
             </div>
-            {/* <div className="d-block lg:d-none">
-              <Toc />
-            </div> */}
           </div>
-          {/* <hr className="w-100 m-0 d-block mt-4 lg:mt-6 xl:mt-8" /> */}
           <div className="post-footer panel vstack sm:hstack gap-3 justify-between justifybetween border-top py-4 mt-4">
             <ul className="nav-x gap-narrow text-primary">
               <li>

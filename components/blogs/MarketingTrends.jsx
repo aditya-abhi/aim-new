@@ -6,7 +6,6 @@ import Link from "next/link";
 import { Gallery, Item } from "react-photoswipe-gallery";
 import { useState } from "react";
 import Blog1Faqs from "./faqs/Blog1Faqs";
-import GEOCourseCTA from "@/components/common/GeoCTA";
 
 export default function MarketingTrends({ blogItem }) {
   const [isExpanded, setIsExpanded] = useState(false);

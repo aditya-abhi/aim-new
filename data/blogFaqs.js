@@ -793,7 +793,7 @@ export const stepbyStepGuideFaq = [
     id: 10,
     question: "How do I check if my llms.txt is working?",
     answer:
-      "Visit yourdomain.com/llms.txt to confirm it’s live. Test queries in ChatGPT/Claude to see if responses reference your content better. Monitor server logs for AI crawlers (e.g., OpenAI’s user agent).",
+      "Visit yourdomain.com/llms.txt to confirm it's live. Test queries in ChatGPT/Claude to see if responses reference your content better. Monitor server logs for AI crawlers (e.g., OpenAI's user agent).",
     controls: "uc-accordion-30",
     expanded: false,
   },

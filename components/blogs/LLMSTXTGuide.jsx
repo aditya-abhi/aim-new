@@ -1,12 +1,10 @@
 "use client";
 import React from "react";
-import Sidebar from "./sidebars/Sidebar";
 import Image from "next/image";
 import AudioPlayer from "./sidebars/AudioPlayer";
 import TableOfContentsServer from "./sidebars/TableOfContentsServer";
 import RightSideBottom from "./sidebars/RightSideBottom";
 import RightSideTop from "./sidebars/RightSideTop";
-import Toc from "./Toc";
 import { Gallery, Item } from "react-photoswipe-gallery";
 import CodeBlock from "@/data/codeblock";
 
@@ -1189,7 +1187,6 @@ Our tested recipes and in-depth guides help home cooks master plant-based cookin
                 </div>
               </div>
             </div>
-            {/* <hr className="w-100 m-0 d-block mt-4 lg:mt-6 xl:mt-8 " /> */}
             <div className="lg:col-3 order-2 lg:order-0 sticky-element3 sm:mt-3">
               <AudioPlayer />
               <span className="">

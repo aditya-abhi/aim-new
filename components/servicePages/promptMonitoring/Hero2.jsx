@@ -39,7 +39,7 @@ export default function Hero2() {
                     <Image
                       className=""
                       alt="Main hero image"
-                      src="/assets/images/landing/hero-s.png"
+                      src="/assets/images/portrait/9.webp"
                       width="1600"
                       height="1176"
                     />
@@ -53,7 +53,7 @@ export default function Hero2() {
                       className="rounded-2 shadow-lg border"
                       alt="hero-image"
                       data-anime="onscroll: .hero-scroll-scene; onscroll-offset: -300; onscroll-trigger: 0; onscroll-duration: 700%; translateY: [-24, 180];"
-                      src="/assets/images/template/hero-15-graph-02.svg"
+                      src="/assets/images/media/AI-Prompt-Monitoring.webp"
                       width={845}
                       height={963}
                     />
@@ -67,7 +67,7 @@ export default function Hero2() {
                       className="rounded-2 shadow-lg border"
                       alt="hero-image"
                       data-anime="onscroll: .hero-scroll-scene; onscroll-offset: -300; onscroll-trigger: 0; onscroll-duration: 700%; translateY: [-24, 48];"
-                      src="/assets/images/template/hero-15-graph-01.svg"
+                      src="/assets/images/services/AI-Prompt-Monitoring.webp"
                       width={656}
                       height={818}
                     />
