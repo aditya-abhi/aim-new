@@ -34,8 +34,32 @@ export default function WhatisAEO() {
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         Answer Engine Optimization in the AI Era: Are You Ready?
                       </h2>
-                      Image1
-                      {/* IMage */}
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/internal/1.webp"
+                          thumbnail="/assets/images/blog/internal/1.webp"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt=""
+                                src="/assets/images/blog/internal/1.webp"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption=""
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                      </figure>
                       <p>
                         Did you know that
                         <b>
@@ -175,8 +199,32 @@ export default function WhatisAEO() {
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         What Is Answer Engine Optimization?
                       </h2>
-                      Image2
-                      {/* Image */}
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/internal/2.webp"
+                          thumbnail="/assets/images/blog/internal/2.webp"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt=""
+                                src="/assets/images/blog/internal/2.webp"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption=""
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                      </figure>
                       <p>
                         Answer Engine Optimization (AEO) is the process of
                         optimizing your content to become the direct answer
@@ -357,8 +405,32 @@ export default function WhatisAEO() {
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         How Answer Engines Work
                       </h3>
-                      {/* Image */}
-                      Image--3
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/internal/3.webp"
+                          thumbnail="/assets/images/blog/internal/3.webp"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt=""
+                                src="/assets/images/blog/internal/3.webp"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption=""
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                      </figure>
                       <p>
                         Although they seem magical, answer engines take a
                         sequence of steps to provide you with the correct
@@ -422,8 +494,32 @@ export default function WhatisAEO() {
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         ChatGPT: Conversational Search at Scale
                       </h3>
-                      {/* image */}
-                      Image--4
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/internal/4.webp"
+                          thumbnail="/assets/images/blog/internal/4.webp"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt=""
+                                src="/assets/images/blog/internal/4.webp"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption=""
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                      </figure>
                       <p>
                         <b>Read this ChatGPT Response</b>: Notice how ChatGPT
                         breaks down “best generative engine” into different
@@ -473,8 +569,32 @@ export default function WhatisAEO() {
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         Perplexity AI: Real-Time, Source-First Answers
                       </h3>
-                      {/* Image */}
-                      Image---5
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/internal/5.webp"
+                          thumbnail="/assets/images/blog/internal/5.webp"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt=""
+                                src="/assets/images/blog/internal/5.webp"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption=""
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                      </figure>
                       <p className="mt-3">
                         <b> Perplexity AI in Action</b>: A search for “best
                         generative engine” produces a concise, AI-generated
@@ -518,8 +638,32 @@ export default function WhatisAEO() {
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         Google AI Overview (Gemini): Search Without the Clicks
                       </h3>
-                      {/* image */}
-                      Image--6
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/internal/6.webp"
+                          thumbnail="/assets/images/blog/internal/6.webp"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt=""
+                                src="/assets/images/blog/internal/6.webp"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption=""
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                      </figure>
                       <p>
                         <b>Google AI Overview in Action</b>: A search for “best
                         generative engine” produces an AI-generated snapshot
@@ -561,8 +705,32 @@ export default function WhatisAEO() {
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         Microsoft Copilot: Enterprise Search Reinvented
                       </h3>
-                      {/* Image */}
-                      Image7
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/internal/7.webp"
+                          thumbnail="/assets/images/blog/internal/7.webp"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt=""
+                                src="/assets/images/blog/internal/7.webp"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption=""
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                      </figure>
                       <p>
                         <b>Microsoft Copilot </b>– AI-powered enterprise search
                         that understands concepts, not just keywords.
@@ -595,8 +763,32 @@ export default function WhatisAEO() {
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         DeepSeek AI: Efficient AI at Scale
                       </h3>
-                      {/* Image */}
-                      Image8
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/internal/8.webp"
+                          thumbnail="/assets/images/blog/internal/8.webp"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt=""
+                                src="/assets/images/blog/internal/8.webp"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption=""
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                      </figure>
                       <p>
                         DeepSeek in Action: A search for{" "}
                         <b>“best generative engine”</b> produces a structured,
@@ -636,8 +828,32 @@ export default function WhatisAEO() {
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         Grok AI: Real-Time Search With a Social Edge
                       </h3>
-                      {/* Image */}
-                      Image--9
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/internal/9.webp"
+                          thumbnail="/assets/images/blog/internal/9.webp"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt=""
+                                src="/assets/images/blog/internal/9.webp"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption=""
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                      </figure>
                       <p className="mt-3">
                         Grok AI in Action: A search for{" "}
                         <b>“best generative engine</b>” delivers a clear,
@@ -685,8 +901,32 @@ export default function WhatisAEO() {
                         How does answer engine optimization differ from
                         traditional seo, And When the Paradigm Shift Occurred
                       </h2>
-                      {/*  image */}
-                      Image--10
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/internal/10.webp"
+                          thumbnail="/assets/images/blog/internal/10.webp"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt=""
+                                src="/assets/images/blog/internal/10.webp"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption=""
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                      </figure>
                       <p>
                         Back in the early 2000s, the web was a vast library
                         where you had to browse through innumerable aisles of
@@ -933,7 +1173,29 @@ export default function WhatisAEO() {
                       <h4 className="h6 xl:h5 mt-2 mb-2">
                         Example: "What's the Best Coffee for Cold Brew?"
                       </h4>
-                      <p>Video</p>
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/internal/1.webp"
+                          thumbnail="/assets/images/blog/internal/1.webp"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
+                              <video
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt=""
+                                src="/assets/images/blog/internal/E-E-A-T.webm"
+                                width={1080}
+                                height={720}
+                                autoPlay
+                                muted
+                                loop
+                              />
+                            </figure>
+                          )}
+                        </Item>
+                      </figure>
                       <p className="mt-3">Let's compare:</p>
                       <h4 className="h6 xl:h5 mt-2 mb-2">
                         Traditional Google Search (SEO)
@@ -979,8 +1241,32 @@ export default function WhatisAEO() {
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         When the Shift Happened
                       </h3>
-                      {/* image */}
-                      image--11
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/internal/11.webp"
+                          thumbnail="/assets/images/blog/internal/11.webp"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt=""
+                                src="/assets/images/blog/internal/11.webp"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption=""
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                      </figure>
                       <p>
                         The transition from SEO to AEO did not occur overnight;
                         it has been a gradual but speeding-up process over the
@@ -1107,8 +1393,32 @@ export default function WhatisAEO() {
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         Why AEO Matters for Businesses & Creators
                       </h2>
-                      {/* Image */}
-                      Image--12
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/internal/12.webp"
+                          thumbnail="/assets/images/blog/internal/12.webp"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt=""
+                                src="/assets/images/blog/internal/12.webp"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption=""
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                      </figure>
                       <p>
                         In 2025, visibility isn’t just about ranking on Google;
                         it’s about showing up where people actually ask
@@ -1378,8 +1688,32 @@ export default function WhatisAEO() {
                         Challenges in AEO: The Hurdles of Being "The Answer" in
                         the AI Age
                       </h2>
-                      {/* Image */}
-                      Image--13
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/internal/13.webp"
+                          thumbnail="/assets/images/blog/internal/13.webp"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt=""
+                                src="/assets/images/blog/internal/13.webp"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption=""
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                      </figure>
                       <p className="mt-3">
                         Answer Engine Optimization isn't only the future of SEO;
                         it's a change in the way visibility is done. And like
@@ -1606,8 +1940,32 @@ export default function WhatisAEO() {
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         Be an Authority
                       </h3>
-                      {/* Image */}
-                      Image--14
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/internal/14.webp"
+                          thumbnail="/assets/images/blog/internal/14.webp"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt=""
+                                src="/assets/images/blog/internal/14.webp"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption=""
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                      </figure>
                       <p>
                         To excel in <b>answer engine optimization (AEO)</b>,
                         your brand must be <b> be an authority</b> in its niche.
@@ -1696,8 +2054,32 @@ export default function WhatisAEO() {
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         Create Structured, AI-Ready Content
                       </h3>
-                      {/* imagre */}
-                      Image--15
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/internal/15.webp"
+                          thumbnail="/assets/images/blog/internal/15.webp"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt=""
+                                src="/assets/images/blog/internal/15.webp"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption=""
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                      </figure>
                       <p>
                         For long-term success in{" "}
                         <b>answer engine optimization (AEO)</b>, it’s essential
@@ -1948,8 +2330,32 @@ export default function WhatisAEO() {
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         Technical Foundations for AI Visibility
                       </h3>
-                      {/* Images2 */}
-                      Image-16
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/internal/16.webp"
+                          thumbnail="/assets/images/blog/internal/16.webp"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt=""
+                                src="/assets/images/blog/internal/16.webp"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption=""
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                      </figure>
                       <p>
                         You can write the most valuable, well-researched content
                         in your niche but if your website isn’t technically
