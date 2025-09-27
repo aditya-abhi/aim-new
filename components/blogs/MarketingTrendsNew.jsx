@@ -318,14 +318,11 @@ export default function MarketingTrendsNew() {
                 </div>
               </div>
             </div>
-            {/* <hr className="w-100 m-0 d-block mt-4 lg:mt-6 xl:mt-8 " /> */}
-            <div className="lg:col-3 order-2 lg:order-0 sticky-element3 sm:mt-3">
+            <div className="d-none lg:d-block lg:col-3 order-2 lg:order-0 sticky-element3">
               <AudioPlayer />
-              <span className="">
-                <TableOfContentsServer />
-              </span>
+              <TableOfContentsServer />
             </div>
-            <div className="d-none lg:d-block lg:col-3 order-2 lg:order-2 sticky-element3">
+            <div className="lg:col-3 order-2 lg:order-2 sticky-element3">
               <RightSideTop />
               <RightSideBottom />
             </div>

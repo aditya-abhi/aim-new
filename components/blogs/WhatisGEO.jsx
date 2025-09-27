@@ -45,19 +45,19 @@ export default function WhatisGEO() {
                         time.
                       </p>
                       <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
-                        <table className="uc-table uc-table-divider full-width-table">
+                        <table className="uc-table uc-table-divider">
                           <thead className="table-head sticky-top z-1 ">
-                            <tr className="table-row dark:border-white border-gray-900">
+                            <tr className="table-row dark:border-white border-gray-900 bg-gray-25 dark:bg-tertiary-800">
                               <th
-                                className="table-header-cell half-width-column"
+                                className="position-relative table-header-cell pt-1"
                                 scope="row"
                               >
-                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                                <span className="fs-5 lg:fs-4 dark:text-secondary">
                                   70% users trust AI
                                 </span>
                               </th>
                               <th
-                                className="table-header-cell half-width-column"
+                                className="table-header-cell pt-1"
                                 scope="row"
                               >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
@@ -65,23 +65,24 @@ export default function WhatisGEO() {
                                 </span>
                               </th>
                               <th
-                                className="table-header-cell half-width-column"
+                                className="table-header-cell pt-1"
                                 scope="row"
                               >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
-                                  Rise of Zero-Click Searches from 56% to 69%
+                                  AI Lead Conversion rate 4.4×
                                 </span>
                               </th>
                               <th
-                                className="table-header-cell half-width-column"
+                                className="table-header-cell pt-1"
                                 scope="row"
                               >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
                                   CTR for #1 Spot Plummets 34.5%
                                 </span>
                               </th>
+
                               <th
-                                className="table-header-cell half-width-column"
+                                className="table-header-cell pt-8 lg:pt-1"
                                 scope="row"
                               >
                                 <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
@@ -92,85 +93,65 @@ export default function WhatisGEO() {
                           </thead>
                           <tbody className="table-body">
                             <tr className="table-row border-gray-900 dark:border-white">
-                              <td className="half-width-column" scope="row">
-                                <span className="dark:text-white">
-                                  <p>
+                              <th
+                                className="top pt-1 position-relative"
+                                scope="row"
+                              >
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="text-dark dark:text-white lg:text-none">
                                     70% of consumers already trust generative AI
                                     results, and 79% will use AI-enhanced search
-                                    within the year.
-                                  </p>
-                                  <p className="mt-2">
-                                    <a
-                                      href="https://searchengineland.com/what-is-generative-engine-optimization-geo-444418"
-                                      target="_blank"
-                                      className="text-blue"
-                                    >
-                                      Search Engine Land,
+                                    within the year
+                                    <sup>
+                                      <a href="#link1" className="text-blue">
+                                        1
+                                      </a>
+                                    </sup>{" "}
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-1">
+                                <span className="dark:text-white">
+                                  No Clicks From Google Grew From 56% to 69%
+                                  Since AI Overviews
+                                  <sup>
+                                    <a href="#link2" className="text-blue">
+                                      2
                                     </a>
-                                  </p>
+                                  </sup>{" "}
                                 </span>
                               </td>
-                              <td className="half-width-column">
+                              <td className="pt-1">
                                 <span className="dark:text-white">
-                                  <p>
-                                    No Clicks From Google Grew From 56% to 69%
-                                    Since AI Overviews
-                                  </p>
-                                  <p className="mt-2">
-                                    <a
-                                      href="https://www.seroundtable.com/similarweb-google-zero-click-search-growth-39706.html"
-                                      target="_blank"
-                                      className="text-blue"
-                                    >
-                                      Similarweb:
-                                    </a>
-                                  </p>
+                                  Leads generated from AI-driven recommendations
+                                  convert up to 4.4 times better than those from
+                                  traditional organic search traffic. AI Monitor
+                                  Data, 2025
                                 </span>
                               </td>
-
-                              <td className="half-width-column">
+                              <td className="pt-1">
                                 <span className="dark:text-white">
-                                  <p>
-                                    Leads generated from AI-driven
-                                    recommendations convert up to 4.4 times
-                                    better than those from traditional organic
-                                    search traffic. AI Monitor Data, 2025
-                                  </p>
+                                  A 34.5% reduction in CTR for the top result
+                                  where AI Overviews appear{" "}
+                                  <strong>(March 2025 vs. March 2024)</strong>
+                                  <sup>
+                                    <a href="#link3" className="text-blue">
+                                      3
+                                    </a>
+                                  </sup>{" "}
                                 </span>
                               </td>
-                              <td className="half-width-column">
+                              <td className="pt-1">
                                 <span className="dark:text-white">
-                                  <p>
-                                    A 34.5% reduction in CTR for the top result
-                                    where AI Overviews appear{" "}
-                                    <a
-                                      href="https://ahrefs.com/blog/ai-overviews-reduce-clicks/?utm"
-                                      className="text-blue"
-                                    >
-                                      Ahrefs
+                                  Early Generative Engine Optimization (GEO)
+                                  adopters report up to a 30–40% increase higher
+                                  visibility in AI-generated responses through
+                                  strategic content and entity optimization{" "}
+                                  <sup>
+                                    <a href="#link4" className="text-blue">
+                                      4
                                     </a>
-                                    <b>(March 2025 vs. March 2024):</b>
-                                  </p>
-                                </span>
-                              </td>
-                              <td className="half-width-column">
-                                <span className="dark:text-white">
-                                  <p>
-                                    Early Generative Engine Optimization (GEO)
-                                    adopters report up to a 30–40% increase
-                                    higher visibility in AI-generated responses
-                                    through strategic content and entity
-                                    optimization.
-                                  </p>
-                                  <p className="mt-2">
-                                    <a
-                                      href="https://arxiv.org/pdf/2311.09735"
-                                      target="_blank"
-                                      className="text-blue"
-                                    >
-                                      GEO: Generative Engine Optimization
-                                    </a>
-                                  </p>
+                                  </sup>{" "}
                                 </span>
                               </td>
                             </tr>
@@ -380,10 +361,33 @@ export default function WhatisGEO() {
                       <p>
                         Generative search engines work by using advanced AI to
                         understand and directly answer your questions, rather
-                        than just providing a list of links. Here’s a breakdown
-                        of how they do it:
+                        than just providing a list of links{" "}
+                        <sup>
+                          <a href="#link5" className="text-blue">
+                            5
+                          </a>
+                        </sup>{" "}
+                        . Here’s a breakdown of how they do it:
                       </p>
                       <ul>
+                        <li className="mt-2">
+                          <b>The Foundation is Understanding:</b> At their core
+                          are <b>Large Language Models (LLMs)</b>, which are
+                          trained on enormous amounts of online information.
+                          <sup>
+                            <a href="#link6" className="text-blue">
+                              6
+                            </a>
+                          </sup>{" "}
+                          They use <b>Natural Language Processing (NLP)</b> to
+                          grasp the context and intent behind your query what
+                          you mean, not just what you type.
+                          <sup>
+                            <a href="#link5" className="text-blue">
+                              5
+                            </a>
+                          </sup>{" "}
+                        </li>
                         <li className="mt-2">
                           <b>Staying Current and Factual with RAG:</b> To avoid
                           providing outdated or made-up information, these
@@ -427,10 +431,200 @@ export default function WhatisGEO() {
                         traditional SEO to{" "}
                         <b>Generative Engine Optimization (GEO).</b>
                       </p>
-                      <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        Table: Key Features and Search Approaches of Leading
-                        Generative Engines
-                      </h3>
+                      <div
+                        className="features-items my-3"
+                        data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 400});"
+                      >
+                        <div className="">
+                          <div className="features-item hstack gap-2 lg:gap-4 p-2 lg:p-4 py-4 lg:py-6 bg-gray-25 dark:bg-tertiary-800 dark:bg-gradient-45 from-tertiary to-transparent border border-dark dark:border-white dark:border-opacity-15 rounded-1-5 text-center justify-center">
+                            <div className="">
+                              <div className="vstack gap-1">
+                                <h3 className="title h4 lg:h3 m-0">
+                                  Operational Principles of Generative Engines
+                                </h3>
+                                <p className="desc fs-6 mb-2">
+                                  A visual flowchart explaining the core
+                                  components and processes of AI-driven search,
+                                  from user query to the rise of Generative
+                                  Engine Optimization.
+                                </p>
+                                <div className="bg-gray-100 dark:bg-tertiary my-1 lg:my-2 px-2 py-2 rounded-1-5 hover:scale-105 duration-200 transition-all cursor-pointer">
+                                  <h4 className="h6 lg:h5 text-dark dark:text-white opacity-80 mb-0">
+                                    User Query
+                                  </h4>
+                                  <p className="text-dark dark:text-white fw-medium mb-2">
+                                    The process begins when a user enters a
+                                    search query.
+                                  </p>
+                                </div>
+                                <div className="">
+                                  <i className="unicon-chevron-down fs-3 fw-bold opacity-50 text-tertiary dark:text-primary hover:text-dark"></i>
+                                </div>
+                                <div className="">
+                                  <i className="unicon-chevron-down fs-3 fw-bold opacity-50 text-tertiary dark:text-primary"></i>
+                                </div>
+                                <div className="bg-gray-300 dark:bg-tertiary-800 my-1 lg:my-2 px-2 py-2 rounded-1-5 ">
+                                  <h4 className="h5 lg:h4 text-white opacity-80 m-2 pb-2">
+                                    Core AI Processing
+                                  </h4>
+                                  <div className="bg-gray-100 dark:bg-tertiary my-1 lg:my-2 px-2 py-2 rounded-1-5 hover:scale-105 duration-200 transition-all cursor-pointer">
+                                    <h4 className="h5 lg:h6 text-dark dark:text-white opacity-80 mb-1">
+                                      1. Natural Language Processing (NLP)
+                                    </h4>
+                                    <p className="text-dark dark:text-white fw-medium mb-2">
+                                      Empowers models to comprehend context and
+                                      intent, analyzing entire sentences (e.g.,
+                                      Google's BERT) to reduce ambiguity.
+                                    </p>
+                                  </div>
+                                  <div className="">
+                                    <i className="unicon-chevron-down fs-3 fw-bold opacity-50 text-primary"></i>
+                                  </div>
+                                  <div className="bg-gray-100 dark:bg-tertiary my-1 lg:my-2 px-2 py-2 rounded-1-5 hover:scale-105 duration-200 transition-all cursor-pointer">
+                                    <h4 className="h6 lg:h5 text-dark dark:text-white opacity-80 mb-1">
+                                      2. Machine Learning (ML)
+                                    </h4>
+                                    <p className="text-dark dark:text-white fw-medium mb-2">
+                                      Recognizes patterns to categorize query
+                                      intent (informational, transactional) and
+                                      uses predictive modeling to anticipate
+                                      user needs.
+                                    </p>
+                                  </div>
+                                </div>
+
+                                <div className="">
+                                  <i className="unicon-chevron-down fs-3 fw-bold opacity-50 text-tertiary dark:text-primary hover:text-dark"></i>
+                                </div>
+                                <div className="">
+                                  <i className="unicon-chevron-down fs-3 fw-bold opacity-50 text-tertiary dark:text-primary"></i>
+                                </div>
+                                <div className="bg-gray-300 dark:bg-tertiary-800 my-1 lg:my-2 px-2 py-2 rounded-1-5 ">
+                                  <h4 className="h5 lg:h4 text-dark dark:text-white opacity-80 m-2 pb-2">
+                                    Response Generation Stage
+                                  </h4>
+                                  <div className="bg-gray-100 dark:bg-tertiary my-1 lg:my-2 px-2 py-2 rounded-1-5 hover:scale-105 duration-200 transition-all cursor-pointer">
+                                    <h4 className="h6 lg:h5 text-dark dark:text-white opacity-80 mb-1">
+                                      Retrieval-Augmented Generation (RAG)
+                                    </h4>
+                                    <p className="text-dark dark:text-white fw-medium mb-2">
+                                      Enhances LLMs with external, real-time
+                                      data.
+                                    </p>
+                                    <ol className="mb-2 text-dark dark:text-white list-style-none">
+                                      <li>
+                                        Index external data into vector
+                                        embeddings.
+                                      </li>
+                                      <li>
+                                        Retrieve relevant documents based on
+                                        query.
+                                      </li>
+                                      <li>
+                                        Augment the prompt with retrieved info.
+                                      </li>
+                                    </ol>
+                                    <div className="">
+                                      <i className="unicon-chevron-down fs-3 fw-bold opacity-50 text-primary"></i>
+                                    </div>
+                                    <h4 className="h6 lg:h5 text-dark dark:text-white opacity-80 mb-1">
+                                      Large Language Model (LLM)
+                                    </h4>
+                                    <p className="text-dark dark:text-white">
+                                      The core engine, trained on vast datasets.
+                                      It uses the augmented prompt to synthesize
+                                      a human-like, comprehensive response.
+                                    </p>
+                                    <hr className="text-dark dark:text-white w-100" />
+                                    <p className="text-dark dark:text-white">
+                                      Guided by: Prompt Engineering (crafting
+                                      clear instructions).
+                                    </p>
+                                  </div>
+                                  {/* <div className="">
+                                    <i className="unicon-chevron-down fs-3 fw-bold opacity-50 text-primary"></i>
+                                  </div> */}
+                                  <div className="bg-gray-100 dark:bg-tertiary my-2 lg:my-2 px-2 py-2 rounded-1-5 hover:scale-105 duration-200 transition-all cursor-pointer mx-3">
+                                    <h4 className="h6 lg:h5 text-dark dark:text-white opacity-80 mb-1">
+                                      Knowledge Graphs
+                                    </h4>
+                                    <p className="text-dark dark:text-white fw-medium mb-2">
+                                      Digital structures representing concepts
+                                      and relationships to enhance semantic
+                                      search.
+                                    </p>
+                                  </div>
+                                  <div className="bg-gray-100 dark:bg-tertiary my-2 lg:my-2 px-2 py-2 rounded-1-5 hover:scale-105 duration-200 transition-all cursor-pointer mx-3">
+                                    <h4 className="h6 lg:h5 text-dark dark:text-white opacity-80 mb-1">
+                                      Embedding & Similarity Search
+                                    </h4>
+                                    <p className="text-dark dark:text-white fw-medium mb-2">
+                                      Text is converted to numerical vectors
+                                      (embeddings), which are compared to find
+                                      conceptually relevant matches.
+                                    </p>
+                                  </div>
+                                  <div className="bg-gray-100 dark:bg-tertiary my-2 lg:my-2 px-2 py-2 rounded-1-5 hover:scale-105 duration-200 transition-all cursor-pointer mx-3">
+                                    <h4 className="h6 lg:h5 text-dark dark:text-white opacity-80 mb-1">
+                                      Hybrid Approaches
+                                    </h4>
+                                    <p className="text-dark dark:text-white fw-medium mb-2">
+                                      Combines traditional keyword search (for
+                                      broad filtering) with LLM-based methods
+                                      (for refinement).
+                                    </p>
+                                  </div>
+                                </div>
+                                <div className="">
+                                  <i className="unicon-chevron-down fs-3 fw-bold opacity-50 text-tertiary dark:text-primary"></i>
+                                </div>
+                                <div className="">
+                                  <i className="unicon-chevron-down fs-3 fw-bold opacity-50 text-tertiary dark:text-primary"></i>
+                                </div>
+                                <div className="bg-gray-100 dark:bg-tertiary my-2 lg:my-2 px-2 py-2 rounded-1-5 hover:scale-105 duration-200 transition-all cursor-pointer mx-3">
+                                  <h4 className="h6 lg:h5 text-dark dark:text-white opacity-80 mb-1">
+                                    Final Output: Direct AI-Generated Answer
+                                  </h4>
+                                  <p className="text-dark dark:text-white fw-medium mb-2">
+                                    The user receives a comprehensive,
+                                    synthesized answer directly on the search
+                                    engine results page (SERP).
+                                  </p>
+                                </div>
+                                <div className="">
+                                  <i className="unicon-chevron-down fs-3 fw-bold opacity-50 text-tertiary dark:text-primary"></i>
+                                </div>
+                                <div className="">
+                                  <i className="unicon-chevron-down fs-3 fw-bold opacity-50 text-tertiary dark:text-primary"></i>
+                                </div>
+                                <div className="bg-gray-100 dark:bg-tertiary my-2 lg:my-2 px-2 py-2 rounded-1-5 hover:scale-105 duration-200 transition-all cursor-pointer mx-1">
+                                  <h4 className="h5 lg:h4 text-dark dark:text-white opacity-80 mb-1">
+                                    Impact & Consequence
+                                  </h4>
+                                  <p>📉</p>
+                                  <h4 className="h6 lg:h5 text-dark dark:text-white opacity-80 mb-1">
+                                    Rise of Zero-Click Searches
+                                  </h4>
+                                  <p className="text-dark dark:text-white fw-medium mb-2">
+                                    Users get answers without clicking on
+                                    organic results, causing a decline in
+                                    click-through rates.
+                                  </p>
+                                  <p>🚀</p>
+                                  <h4 className="h6 lg:h5 text-dark dark:text-white opacity-80 mb-1">
+                                    Need for a New Strategy
+                                  </h4>
+                                  <p className="text-dark dark:text-white fw-medium mb-2">
+                                    Traditional SEO is undermined, creating an
+                                    urgent need for Generative Engine
+                                    Optimization (GEO).
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                       <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
                         <table className="uc-table uc-table-divider">
                           <thead className="table-head sticky-top z-1 ">
@@ -681,7 +875,7 @@ export default function WhatisGEO() {
                         </table>
                       </div>
                       <h3 className="h5 xl:h4 mt-4 mb-2 xl:mb-3">
-                        2.4 . SEO Was Yesterday - GEO Is the Future
+                        SEO Was Yesterday - GEO Is the Future
                       </h3>
                       <figure className="my-3 sm:my-4">
                         <Item
@@ -718,12 +912,23 @@ export default function WhatisGEO() {
                         website creators and search engine algorithms. The goal
                         was simple: get your website to the #1 spot on the
                         search results page. The strategies were focused on
-                        "ranking factors." 5
+                        "ranking factors."{" "}
+                        <sup>
+                          <a href="#link7" className="text-blue">
+                            7
+                          </a>
+                        </sup>{" "}
                       </p>
                       <ul className="mt-2">
                         <li>
                           <b>Keyword Focus:</b> The earliest SEO was about
-                          repeating specific keywords on a page.
+                          repeating specific keywords on a page. This was known
+                          as "keyword stuffing."
+                          <sup>
+                            <a href="#link8" className="text-blue">
+                              8
+                            </a>
+                          </sup>{" "}
                         </li>
                         <li className="mt-2">
                           <b>The Rise of Backlinks:</b> Google's PageRank
@@ -736,8 +941,13 @@ export default function WhatisGEO() {
                         <li className="mt-2">
                           <b>Content for Ranking:</b> Content was created
                           primarily to rank. It needed to have the right
-                          keywords, the right length, and attract links.7 The
-                          primary audience was the search engine algorithm
+                          keywords, the right length, and attract links.
+                          <sup>
+                            <a href="#link9" className="text-blue">
+                              9
+                            </a>
+                          </sup>{" "}
+                          The primary audience was the search engine algorithm
                           itself; human experience was often secondary.
                         </li>
                       </ul>
@@ -767,12 +977,21 @@ export default function WhatisGEO() {
                           <b>Rise of Direct Answers:</b> This is the most
                           important precursor. Google started providing answers
                           directly on the search page, so users didn't have to
-                          click any links.8
+                          click any links.
+                          <sup>
+                            <a href="#link10" className="text-blue">
+                              10
+                            </a>
+                          </sup>{" "}
                           <ul className="mt-2">
                             <li>
                               <b>Featured Snippets:</b> Boxes at the top of the
-                              results with a short answer pulled from a
-                              webpage.9
+                              results with a short answer pulled from a webpage.
+                              <sup>
+                                <a href="#link11" className="text-blue">
+                                  11
+                                </a>
+                              </sup>{" "}
                             </li>
                             <li className="mt-1">
                               <b>Knowledge Graph:</b> Panels providing factual
@@ -786,12 +1005,23 @@ export default function WhatisGEO() {
                         </li>
                       </ul>
                       <p className="mt-2">
-                        At this stage, SEO professionals started adapting.10
+                        At this stage, SEO professionals started adapting.
+                        <sup>
+                          <a href="#link12" className="text-blue">
+                            12
+                          </a>
+                        </sup>{" "}
                         They began structuring content in a Q&A format and using
                         structured data (Schema markup) to help Google
                         understand their content better and feature it in these
-                        answer boxes.11 This was the very beginning of
-                        optimizing for answers, not just links.
+                        answer boxes.
+                        <sup>
+                          <a href="#link13" className="text-blue">
+                            13
+                          </a>
+                        </sup>{" "}
+                        This was the very beginning of optimizing for answers,
+                        not just links.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
                         The Disruption: The Generative Engine Enters the Game
@@ -809,9 +1039,22 @@ export default function WhatisGEO() {
                         training data into a single, cohesive, human-like
                         response. People were no longer just searching for
                         information; they were having a conversation with an AI
-                        to get answers.12 This was the moment the "generative
-                        engine" officially entered the game. It introduced a new
-                        paradigm for information access.8
+                        to get answers.
+                        <sup>
+                          <a href="#link14" className="text-blue">
+                            14
+                          </a>
+                        </sup>{" "}
+                      </p>
+                      <p>
+                        This was the moment the "generative engine" officially
+                        entered the game. It introduced a new paradigm for
+                        information access.
+                        <sup>
+                          <a href="#link10" className="text-blue">
+                            10
+                          </a>
+                        </sup>{" "}
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
                         The Reaction: Search Engines Become Generative Engines
@@ -855,7 +1098,12 @@ export default function WhatisGEO() {
                       </h4>
                       <p>
                         With AI generating the primary answer, the old goal of
-                        SEO ranking #1 with a blue link was no longer enough.9
+                        SEO ranking #1 with a blue link was no longer enough.
+                        <sup>
+                          <a href="#link11" className="text-blue">
+                            11
+                          </a>
+                        </sup>{" "}
                         If users get their answer from the AI at the top of the
                         page, they may never scroll down to the organic search
                         results. This created a new, urgent need for a different
@@ -876,8 +1124,13 @@ export default function WhatisGEO() {
                       <p>
                         GEO is the practice of making your content so
                         authoritative, well-structured, and factual that the AI
-                        model chooses your data to build its response.14 It
-                        builds on the principles of user-centric SEO (E-A-T:
+                        model chooses your data to build its response.
+                        <sup>
+                          <a href="#link11" className="text-blue">
+                            11
+                          </a>
+                        </sup>{" "}
+                        It builds on the principles of user-centric SEO (E-A-T:
                         Expertise, Authoritativeness, Trustworthiness) but is
                         hyper-focused on influencing the AI's output.
                       </p>
@@ -976,6 +1229,160 @@ export default function WhatisGEO() {
                           )}
                         </Item>
                       </figure>
+                      <div
+                        className="row child-cols-12 sm:child-cols-6 lg:child-cols-3 col-match gap-2 g-3 items-center justify-center"
+                        data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
+                      >
+                        <div className="feature-item panel pt-4 border rounded-2 hover:bg-primary dark:hover:bg-primary dark:text-white dark:hover:text-gray-900 hover:scale-105 duration-150 transition-all text-center overflow-auto">
+                          <div className="vstack panel min-h-200px">
+                            <div className="vstack justify-between gap-2 h-100">
+                              <div className="panel">
+                                <div className="vstack gap-1">
+                                  <h3 className="title h5 m-0 text-inherit">
+                                    Vishvak Murahari
+                                  </h3>
+                                  <p className="desc fs-6 opacity-70">
+                                    Princeton University, <br /> Princeton, USA
+                                  </p>
+                                  <p>
+                                    <a
+                                      href="mailto:murahari@cs.princeton.edu"
+                                      className="text-blue"
+                                    >
+                                      murahari@cs.princeton.edu
+                                    </a>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="feature-item panel pt-4 border rounded-2 hover:bg-primary dark:hover:bg-primary dark:text-white dark:hover:text-gray-900 hover:scale-105 duration-150 transition-all text-center overflow-auto">
+                          <div className="vstack panel min-h-200px">
+                            <div className="vstack justify-between gap-2 h-100">
+                              <div className="panel">
+                                <div className="vstack gap-1">
+                                  <h3 className="title h5 m-0 text-inherit">
+                                    Pranjal Aggarwal
+                                  </h3>
+                                  <p className="desc fs-6 opacity-70">
+                                    Indian Institute of Technology Delhi, <br />
+                                    New Delhi, India
+                                  </p>
+                                  <p>
+                                    <a
+                                      href="mailto:pranjal2041@gmail.com"
+                                      className="text-blue"
+                                    >
+                                      pranjal2041@gmail.com
+                                    </a>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="feature-item panel pt-4 border rounded-2 hover:bg-primary dark:hover:bg-primary dark:text-white dark:hover:text-gray-900 hover:scale-105 duration-150 transition-all text-center overflow-auto">
+                          <div className="vstack panel min-h-200px">
+                            <div className="vstack justify-between gap-2 h-100">
+                              <div className="panel">
+                                <div className="vstack gap-1">
+                                  <h3 className="title h5 m-0 text-inherit">
+                                    Tanmay Rajpurohit
+                                  </h3>
+                                  <p className="desc fs-6 opacity-70">
+                                    Independent <br />
+                                    Seattle, USA
+                                  </p>
+                                  <p>
+                                    <a
+                                      href="mailto:tanmay.rajpurohit@gmail.com"
+                                      className="text-blue"
+                                    >
+                                      tanmay.rajpurohit@gmail.com
+                                    </a>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="feature-item panel pt-4 border rounded-2 hover:bg-primary dark:hover:bg-primary dark:text-white dark:hover:text-gray-900 hover:scale-105 duration-150 transition-all text-center overflow-auto">
+                          <div className="vstack panel min-h-200px">
+                            <div className="vstack justify-between gap-2 h-100">
+                              <div className="panel">
+                                <div className="vstack gap-1">
+                                  <h3 className="title h5 m-0 text-inherit">
+                                    Ashwin Kalyan
+                                  </h3>
+                                  <p className="desc fs-6 opacity-70">
+                                    Independent <br />
+                                    Seattle, USA
+                                  </p>
+                                  <p>
+                                    <a
+                                      href="mailto:asaavashwin@gmail.com"
+                                      className="text-blue"
+                                    >
+                                      asaavashwin@gmail.com
+                                    </a>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="feature-item panel pt-4 border rounded-2 hover:bg-primary dark:hover:bg-primary dark:text-white dark:hover:text-gray-900 hover:scale-105 duration-150 transition-all text-center overflow-auto">
+                          <div className="vstack panel min-h-200px">
+                            <div className="vstack justify-between gap-2 h-100">
+                              <div className="panel">
+                                <div className="vstack gap-1">
+                                  <h3 className="title h5 m-0 text-inherit">
+                                    Karthik Narasimhan
+                                  </h3>
+                                  <p className="desc fs-6 opacity-70">
+                                    Princeton University, <br />
+                                    Princeton, USA
+                                  </p>
+                                  <p>
+                                    <a
+                                      href="mailto:karthikn@princeton.edu"
+                                      className="text-blue"
+                                    >
+                                      karthikn@princeton.edu
+                                    </a>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="feature-item panel pt-4 border rounded-2 hover:bg-primary dark:hover:bg-primary dark:text-white dark:hover:text-gray-900 hover:scale-105 duration-150 transition-all text-center overflow-auto">
+                          <div className="vstack panel min-h-200px">
+                            <div className="vstack justify-between gap-2 h-100">
+                              <div className="panel">
+                                <div className="vstack gap-1">
+                                  <h3 className="title h5 m-0 text-inherit">
+                                    Ameet Deshpande
+                                  </h3>
+                                  <p className="desc fs-6 opacity-70">
+                                    Princeton University, <br />
+                                    Princeton, USA
+                                  </p>
+                                  <p>
+                                    <a
+                                      href="mailto:tanmay.rajpurohit@gmail.com"
+                                      className="text-blue"
+                                    >
+                                      asd@princeton.edu
+                                    </a>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                       <p>
                         The term Generative Engine Optimization “GEO” was coined
                         by Pranjal Aggarwal and Vishvak Murahari, along with
@@ -1062,9 +1469,139 @@ export default function WhatisGEO() {
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
                         Key Impacts of GEO on Digital Marketing
                       </h4>
-                      table
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
+                        <table className="uc-table uc-table-divider">
+                          <thead className="table-head sticky-top z-1 ">
+                            <tr className="table-row dark:border-white border-gray-900 bg-gray-25 dark:bg-tertiary-800">
+                              <th
+                                className="table-header-cell pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary text-underline lg:text-none">
+                                  Area
+                                </span>
+                              </th>
+                              <th
+                                className="table-header-cell pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                                  Impact
+                                </span>
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody className="table-body">
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Search Visibility
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-1">
+                                <span className="dark:text-white">
+                                  Instead of ranking #1 on Google, GEO helps
+                                  your content appear directly in AI-generated
+                                  answers and summaries.
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Traffic Sources
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-1">
+                                <span className="dark:text-white">
+                                  More traffic now comes from AI-driven
+                                  referrals (e.g., Perplexity citations, Google
+                                  AI source links) than traditional search
+                                  clicks in many niches.
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Brand Authority
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-1">
+                                <span className="dark:text-white">
+                                  Being cited by LLMs positions your brand as a
+                                  trustworthy expert in your domain, similar to
+                                  getting quoted by the media.
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Content Strategy
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-1">
+                                <span className="dark:text-white">
+                                  Forces a shift from keyword stuffing to
+                                  context-rich, AI-readable content designed for
+                                  understanding, not just ranking.
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Competitive Edge
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-1">
+                                <span className="dark:text-white">
+                                  Early GEO adopters are gaining ground in
+                                  emerging search channels while others are
+                                  still focused solely on outdated SEO tactics.
+                                </span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div className="panel vstack border py-4 items-center gap-4 text-center">
+                        <div className="panel vstack items-center gap-2 lg:gap-4">
+                          <div className="panel">
+                            <Image
+                              className="w-64px lg:w-96px rounded-circle"
+                              alt="Avinash Tripathi"
+                              src="/assets/images/avatars/avinash.webp"
+                              width={150}
+                              height={150}
+                            />
+                          </div>
+                          <p className="fs-5 lg:fs-4 xl:fs-3 ft-secondary fw-bold text-dark dark:text-white px-2">
+                            SEO can be gamed. GEO can’t. It is not a bunch of
+                            techniques but a systematic process of building
+                            trust.
+                          </p>
+                        </div>
+                        <div className="panel vstack gap-2">
+                          <div className="panel vstack gap-narrow">
+                            <h6 className="h6 lg:h5 m-0">Avinash Tripthi</h6>
+                            <span className="opacity-70">AI Monitor</span>
+                          </div>
+                        </div>
+                      </div>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        Difference between SEO vs GEO
+                        Difference between SEO and GEO
                       </h2>
                       <p>
                         “If backlinks were the backbone of SEO, modeled after
@@ -1080,6 +1617,11 @@ export default function WhatisGEO() {
                         cited, climb the rankings, pull in traffic. With GEO,
                         the focus shifts you’re convincing the smartest “mind”
                         in the room (the AI) that you’re the one worth quoting.
+                        <sup>
+                          <a href="#link16" className="text-blue">
+                            16
+                          </a>
+                        </sup>{" "}
                       </p>
                       <p className="mt-2">
                         That changes everything. Quality isn’t a box you tick
@@ -1155,7 +1697,7 @@ export default function WhatisGEO() {
                       <ul className="mt-2">
                         <p></p>
                         <li>You can hack SEO. You can’t hack GEO.</li>
-                        <li>
+                        <li className="mt-2">
                           GEO is slow, honest, and transformational more like
                           winning over your toughest critic than chasing
                           shortcuts.
@@ -1169,6 +1711,99 @@ export default function WhatisGEO() {
                           not just worth ranking.
                         </li>
                       </ul>
+                      <div
+                        className="features-items row child-cols-12 sm:child-cols-6 g-2 col-match"
+                        data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 400});"
+                      >
+                        <div className="">
+                          <div className="features-item hstack gap-2 lg:gap-4 p-2 lg:p-4 py-4 lg:py-6 bg-gray-25 dark:bg-tertiary-800 dark:bg-gradient-45 from-tertiary to-transparent border border-dark dark:border-white dark:border-opacity-15 rounded-1-5 text-center justify-center">
+                            <div className="">
+                              <div className="vstack gap-1">
+                                <h3 className="title h5 lg:h4 m-0">
+                                  Traditional SEO
+                                </h3>
+                                <p className="desc fs-6 mb-2">
+                                  The goal is to rank high on a results page to
+                                  drive users to your website.
+                                </p>
+                                <div className="bg-tertiary my-1 lg:my-2 px-2 py-2 rounded-1-5">
+                                  <p className="text-white fw-bold">
+                                    User Enters Query
+                                  </p>
+                                </div>
+                                <div className="">
+                                  <i className="unicon-chevron-down fs-3 fw-bold opacity-50 text-tertiary dark:text-primary"></i>
+                                </div>
+                                <div className="bg-tertiary my-1 lg:my-2  px-2 py-2 rounded-1-5">
+                                  <p className="text-white fw-bold">
+                                    Scans 10 Blue Links
+                                  </p>
+                                </div>
+                                <div className="">
+                                  <i className="unicon-chevron-down fs-3 fw-bold opacity-50 text-tertiary dark:text-primary"></i>
+                                </div>
+                                <div className="bg-tertiary my-1 lg:my-2  px-2 py-2 rounded-1-5">
+                                  <p className="text-white fw-bold">
+                                    Clicks to Website
+                                  </p>
+                                </div>
+                                <div className="">
+                                  <i className="unicon-chevron-down fs-3 fw-bold opacity-50 text-tertiary dark:text-primary"></i>
+                                </div>
+                                <div className="bg-primary my-1 lg:my-2  px-2 py-2 rounded-1-5">
+                                  <p className="fs-4 fw-bold text-dark">
+                                    Goal: Website Traffic
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="">
+                          <div className="features-item hstack text-center justify-center gap-2 lg:gap-4 p-2 lg:p-4 py-4 lg:py-6 bg-gray-25 dark:bg-tertiary-700 dark:bg-gradient-45 from-tertiary to-transparent border border-dark dark:border-white dark:border-opacity-15 rounded-1-5">
+                            <div className="panel">
+                              <div className="vstack gap-1">
+                                <h3 className="title h5 lg:h4 m-0">
+                                  Generative Engine Optimization (GEO)
+                                </h3>
+                                <p className="desc fs-6 mb-2">
+                                  The goal is to become a cited source within
+                                  the AI's direct answer.
+                                </p>
+                                <div className="bg-tertiary my-1 lg:my-2  px-2 py-2 rounded-1-5">
+                                  <p className="text-white fw-bold">
+                                    User Enters Query
+                                  </p>
+                                </div>
+                                <div className="">
+                                  <i className="unicon-chevron-down fs-3 fw-bold opacity-50 text-tertiary dark:text-primary"></i>
+                                </div>
+                                <div className="bg-tertiary my-1 lg:my-2  px-2 py-2 rounded-1-5">
+                                  <p className="text-white fw-bold">
+                                    AI Synthesizes Information
+                                  </p>
+                                </div>
+                                <div className="">
+                                  <i className="unicon-chevron-down fs-3 fw-bold opacity-50 text-tertiary dark:text-primary"></i>
+                                </div>
+                                <div className="bg-tertiary my-1 lg:my-2  px-2 py-2 rounded-1-5">
+                                  <p className="text-white fw-bold">
+                                    Receives Direct Answer
+                                  </p>
+                                </div>
+                                <div className="">
+                                  <i className="unicon-chevron-down fs-3 fw-bold opacity-50 text-tertiary dark:text-primary"></i>
+                                </div>
+                                <div className="bg-primary my-1 lg:my-2  px-2 py-2 rounded-1-5">
+                                  <p className="fs-4 fw-bold text-dark">
+                                    Goal: Authoritative Citation
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         How GEO is Similar to SEO And Why That Matters for Your
                         Strategy
@@ -1179,13 +1814,18 @@ export default function WhatisGEO() {
                         feel like moving to a new city where the language is
                         different but the street signs are familiar. The
                         fundamentals haven’t disappeared they’ve just evolved
-                        for the age of AI-generated answers.{" "}
+                        for the age of AI-generated answers.
+                        <sup>
+                          <a href="#link17" className="text-blue">
+                            17
+                          </a>
+                        </sup>{" "}
                       </p>
                       <p className="mt-2">
                         Here’s where the two worlds overlap:
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-1">
-                        3.2.1. Quality Content Still Wins.
+                        Quality Content Still Wins.
                       </h4>
                       <p>
                         In SEO, fluff dies fast. In GEO, it doesn’t even get
@@ -1195,7 +1835,7 @@ export default function WhatisGEO() {
                         helpful content that people and now AI models trust.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-1">
-                        3.2.2. Trust is the Currency.
+                        Trust is the Currency.
                       </h4>
                       <p>
                         Google looks at backlinks, domain history, and E-E-A-T.
@@ -1205,7 +1845,7 @@ export default function WhatisGEO() {
                         changed only the scoreboard has.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-1">
-                        3.2.3. Relevance Rules Everything.
+                        Relevance Rules Everything.
                       </h4>
                       <p>
                         Both SEO and GEO reward you for matching user intent
@@ -1216,7 +1856,7 @@ export default function WhatisGEO() {
                         Different delivery, same core principle: relevance wins.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-1">
-                        3.2.4. It’s Never ‘Set and Forget.’
+                        It’s Never ‘Set and Forget.’
                       </h4>
                       <p>
                         In both SEO and GEO, the digital landscape is a living,
@@ -1226,7 +1866,7 @@ export default function WhatisGEO() {
                         content, you’re fading.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-1">
-                        3.2.5. Strategic Targeting Still Matters.
+                        Strategic Targeting Still Matters.
                       </h4>
                       <p>
                         Keywords may not be the literal trigger in GEO, but
@@ -1258,8 +1898,8 @@ export default function WhatisGEO() {
                       </p>
                       <p className="mt-2">Here’s where the paths split:</p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-1">
-                        3.3.1. You’re Optimizing for an AI’s Answer, Not a
-                        Search Results Page.
+                        You’re Optimizing for an AI’s Answer, Not a Search
+                        Results Page.
                       </h4>
                       <p>
                         In SEO, success means landing in the top organic spots
@@ -1268,9 +1908,14 @@ export default function WhatisGEO() {
                         citations generated by AI tools like ChatGPT,
                         Perplexity, Gemini, and Claude. If you’re not in the
                         answer, you’re invisible.
+                        <sup>
+                          <a href="#link16" className="text-blue">
+                            16
+                          </a>
+                        </sup>{" "}
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-1">
-                        3.3.2. Keywords Take a Backseat to Context & Entities.
+                        Keywords Take a Backseat to Context & Entities.
                       </h4>
                       <p>
                         SEO still revolves around keyword targeting. GEO cares
@@ -1280,7 +1925,7 @@ export default function WhatisGEO() {
                         it’s “Do we belong in this conversation?”
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-1">
-                        3.3. 3. Links Are Out, Citations Are In.
+                        Links Are Out, Citations Are In.
                       </h4>
                       <p>
                         Google counts backlinks. Generative engines count
@@ -1290,7 +1935,7 @@ export default function WhatisGEO() {
                         credible enough to quote directly.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-1">
-                        3.3.4. Updates Are Instant or Glacial.
+                        Updates Are Instant or Glacial.
                       </h4>
                       <p>
                         In SEO, a tweak to your content might get noticed in
@@ -1301,7 +1946,7 @@ export default function WhatisGEO() {
                         predictable.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-1">
-                        3.3.5. It’s Zero-Click by Design.
+                        It’s Zero-Click by Design.
                       </h4>
                       <p>
                         SEO fights for that click to your site. GEO often
@@ -1311,7 +1956,7 @@ export default function WhatisGEO() {
                         not volume.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-1">
-                        3.3.6. The Competition Is Quiet For Now.
+                        The Competition Is Quiet For Now.
                       </h4>
                       <p>
                         SEO is saturated, with billions of pages vying for
@@ -1329,11 +1974,189 @@ export default function WhatisGEO() {
                         people to you; the other puts you in the story they
                         remember.
                       </p>
-                      <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        Table: Showing the difference between SEO & GEO on
-                        different parameters
-                      </h3>
-                      table
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
+                        <table className="uc-table uc-table-divider">
+                          <thead className="table-head sticky-top z-1 ">
+                            <tr className="table-row dark:border-white border-gray-900 bg-gray-25 dark:bg-tertiary-800">
+                              <th
+                                className="table-header-cell top pt-0 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary text-underline lg:text-none">
+                                  Parameters
+                                </span>
+                              </th>
+                              <th
+                                className="table-header-cell pt-4 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                                  SEO (Search Engine Optimization)
+                                </span>
+                              </th>
+                              <th
+                                className="table-header-cell pt-4 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                                  GEO (Generative Engine Optimization)
+                                </span>
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody className="table-body">
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Primary Goal
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-4 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Rank higher in traditional search engine
+                                  result pages (SERPs)
+                                </span>
+                              </td>
+                              <td className="pt-4 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Be cited and featured in AI‑generated
+                                  summaries (ChatGPT, Google AI Overview,
+                                  Perplexity AI)
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Target Engines
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Google, Bing, Yahoo
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Generative engines: Google AI overview,
+                                  ChatGPT, Perplexity, Claude, Bing AI
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Content Focus
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Keyword-rich content, backlinks, and on-page
+                                  optimization
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Context-rich, structured, AI‑readable content
+                                  that machines can understand and cite
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Technical Strategies
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Meta tags, sitemaps, crawlability, URL
+                                  structure
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Schema, conversational Q&A formatting,
+                                  [llms].txt, AI‑crawlable structures
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Measurement Metrics
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Rankings, organic traffic, click-through rate
+                                  (CTR)
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Citation frequency in AI answers, presence in
+                                  summaries, and AI‑driven referral traffic
+                                </span>
+                              </td>
+                            </tr>
+
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Optimization Tools
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  SEMrush, Ahrefs, Moz, Google Search Console
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  AI‑specific tools: AI Monitor, BrandRank.ai,
+                                  Otterly.ai—tracking mentions and sentiment in
+                                  generative engines
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Typical Outcome
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  More clicks, higher page views, improved SERP
+                                  visibility
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Direct answer inclusion, zero‑click content
+                                  display, and increased brand visibility within
+                                  AI responses
+                                </span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         The Great Disconnect: Why Good SEO Isn't Enough
                       </h3>
@@ -1343,7 +2166,32 @@ export default function WhatisGEO() {
                         information, prioritizing structure and verifiability
                         over traditional ranking signals.
                       </p>
-                      Code Block
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/internal/pie-chart.webp"
+                          thumbnail="/assets/images/blog/internal/pie-chart.webp"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt=""
+                                src="/assets/images/blog/internal/pie-chart.webp"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption="Pink Marketing, by Mak"
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                      </figure>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         Challenges Marketers Face While Doing GEO
                       </h2>
@@ -1507,16 +2355,12 @@ export default function WhatisGEO() {
                         <b>AI Monitor, Otterly.AI, </b>or <b>BrandRank.ai.</b>{" "}
                         They can help you spot mentions, keep tabs on citations,
                         and gauge overall sentiment across platforms that use
-                        generative tech. To go through a detailed list of GEO
-                        tools, and learn more about their pros and cons, you can
-                        visit my blog:{" "}
-                        <a
-                          href="https://getaimonitor.com/top-10-generative-engine-optimization-tools/"
-                          target="_blank"
-                          className="text-blue"
-                        >
-                          Generative Engine Optimization (GEO) Tools
-                        </a>
+                        generative tech.
+                        <sup>
+                          <a href="#link18" className="text-blue">
+                            18
+                          </a>
+                        </sup>{" "}
                       </p>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         Top generative engine optimization strategies for ai
@@ -1573,6 +2417,11 @@ export default function WhatisGEO() {
                         credentials. And never forget trustworthiness back up
                         claims with data, cite reputable sources, and include
                         testimonials or case studies that prove your impact.
+                        <sup>
+                          <a href="#link19" className="text-blue">
+                            19
+                          </a>
+                        </sup>{" "}
                       </p>
                       <p className="mt-2">
                         When AI sees that you’re not just talking the talk but
@@ -1593,6 +2442,11 @@ export default function WhatisGEO() {
                         AI can easily digest. That means using clear headings,
                         short paragraphs, bullet points, and structured data so
                         algorithms can parse, extract, and reuse your insights.
+                        <sup>
+                          <a href="#link20" className="text-blue">
+                            20
+                          </a>
+                        </sup>{" "}
                       </p>
                       <p className="mt-2">
                         Think of it like building a bridge: one side connects
@@ -1630,6 +2484,11 @@ export default function WhatisGEO() {
                         data from trusted news sources, industry publications,
                         and authoritative sites so your traditional PR efforts
                         can directly impact your AI presence.
+                        <sup>
+                          <a href="#link21" className="text-blue">
+                            21
+                          </a>
+                        </sup>{" "}
                       </p>
                       <p className="mt-2">Here’s what you can do:</p>
                       <ul className="mt-2">
@@ -1665,6 +2524,11 @@ export default function WhatisGEO() {
                         well-structured. Use clear headings, descriptive meta
                         tags, and schema markup so search engines (and AI) can
                         instantly understand your content.
+                        <sup>
+                          <a href="#link17" className="text-blue">
+                            17
+                          </a>
+                        </sup>{" "}
                       </p>
                       <p className="mt-2">
                         And don’t forget quality content + strong SEO signals =
@@ -1697,8 +2561,13 @@ export default function WhatisGEO() {
                       </p>
                       <p>
                         Here are all the Generative Engine Optimization (GEO)
-                        Techniques and Practices we know so far to help you get
-                        there.
+                        Techniques and Practices
+                        <sup>
+                          <a href="#link22" className="text-blue">
+                            22
+                          </a>
+                        </sup>{" "}
+                        we know so far to help you get there.
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         Optimize AI-Bot Crawlability & Technical Foundations
@@ -1711,13 +2580,18 @@ export default function WhatisGEO() {
                         can’t easily find, access, and understand your website,
                         your chances of being cited in AI-generated answers drop
                         dramatically.
+                        <sup>
+                          <a href="#link23" className="text-blue">
+                            23
+                          </a>
+                        </sup>{" "}
                       </p>
                       <p>
                         Here’s what you need to focus on to make sure your site
                         is AI-bot friendly:
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-2">
-                        6.1.1 Don’t Block AI Crawlers in robots.txt or Meta Tags
+                        Don’t Block AI Crawlers in robots.txt or Meta Tags
                       </h4>
                       <p>
                         Many websites unknowingly prevent AI bots from crawling
@@ -1731,8 +2605,7 @@ export default function WhatisGEO() {
                         green light to explore your pages
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-2">
-                        6.1.2 Prioritize Fast Load Speeds and Mobile
-                        Optimization
+                        Prioritize Fast Load Speeds and Mobile Optimization
                       </h4>
                       <p>
                         AI-powered search increasingly prioritizes user
@@ -1751,8 +2624,8 @@ export default function WhatisGEO() {
                         replacing SEO; it’s about building on top of it.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-2">
-                        6.1.3 Fix Crawl Errors and Maintain Clean, Crawlable
-                        HTML Content
+                        Fix Crawl Errors and Maintain Clean, Crawlable HTML
+                        Content
                       </h4>
                       <p>
                         Broken links, server errors, or orphaned pages can
@@ -1760,14 +2633,20 @@ export default function WhatisGEO() {
                         your site. Regular audits to spot and fix crawl errors
                         are essential. Additionally, AI bots struggle with
                         content hidden behind complex JavaScript or dynamic
-                        elements. To maximize crawlability, keep your important
-                        content in clean, static HTML wherever possible, and
-                        avoid burying key information in scripts without
-                        fallback options. This ensures AI engines can read and
-                        understand your pages without any hiccups.
+                        elements.
+                        <sup>
+                          <a href="#link23" className="text-blue">
+                            23
+                          </a>
+                        </sup>{" "}
+                        To maximize crawlability, keep your important content in
+                        clean, static HTML wherever possible, and avoid burying
+                        key information in scripts without fallback options.
+                        This ensures AI engines can read and understand your
+                        pages without any hiccups.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-2">
-                        6.1.4 Submit Sitemaps to Google Search Console and Bing
+                        Submit Sitemaps to Google Search Console and Bing
                         Webmaster Tools
                       </h4>
                       <p>
@@ -1780,8 +2659,8 @@ export default function WhatisGEO() {
                         and free of errors to keep AI bots happy.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-2">
-                        6.1.5 Use Structured Internal Linking to Help AI
-                        Understand Content Relationships
+                        Use Structured Internal Linking to Help AI Understand
+                        Content Relationships
                       </h4>
                       <p>
                         Internal links don’t just help human visitors navigate
@@ -1970,6 +2849,11 @@ export default function WhatisGEO() {
                         easy for AI models to understand and use. That means
                         focusing on quality, structure, and authority at every
                         step.
+                        <sup>
+                          <a href="#link20" className="text-blue">
+                            20
+                          </a>
+                        </sup>{" "}
                       </p>
                       <p className="mt-2">
                         Here’s how to optimize your content for GEO success:
@@ -2009,6 +2893,32 @@ export default function WhatisGEO() {
                         AI-friendly and increase the chances it will be featured
                         in generative engine answers.
                       </p>
+                      <figure className="my-3 sm:my-4">
+                        <Item
+                          original="/assets/images/blog/internal/pyramid.webp"
+                          thumbnail="/assets/images/blog/internal/pyramid.webp"
+                          width="1280"
+                          height="853"
+                        >
+                          {({ ref, open }) => (
+                            <figure className="featured-image m-0 rounded ratio ratio-16x9 uc-transition-toggle overflow-hidden">
+                              <Image
+                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                                alt=""
+                                src="/assets/images/blog/internal/pyramid.webp"
+                                width="1280"
+                                height="853"
+                                ref={ref}
+                              />
+                              <a
+                                onClick={open}
+                                className="position-cover"
+                                data-caption="Pink Marketing, by Mak"
+                              ></a>
+                            </figure>
+                          )}
+                        </Item>
+                      </figure>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
                         Structure Data for Both People and Generative AI
                       </h4>
@@ -2112,8 +3022,7 @@ export default function WhatisGEO() {
                         with your audience.
                       </p>
                       <h4 className="h6 xl:h5 mt-3 mb-2 xl:mb-3">
-                        6.5.3. Expand Contextual Relevance with Semantic
-                        Keywords
+                        Expand Contextual Relevance with Semantic Keywords
                       </h4>
                       <p>
                         Today’s AI-powered search engines don’t just look for
@@ -2131,6 +3040,11 @@ export default function WhatisGEO() {
                           think about the full questions or phrases people use
                           when talking to AI assistants, rather than just short
                           keyword snippets.
+                          <sup>
+                            <a href="#link25" className="text-blue">
+                              25
+                            </a>
+                          </sup>{" "}
                         </li>
                         <li className="mt-2">
                           <b>Group related terms together</b> to form semantic
@@ -2151,6 +3065,11 @@ export default function WhatisGEO() {
                         and SEO. They’re blending them because while the rules
                         are different, the prize is the same: being the trusted
                         voice your audience hears first.
+                        <sup>
+                          <a href="#link17" className="text-blue">
+                            17
+                          </a>
+                        </sup>{" "}
                       </p>
                       <p>Here’s how to make them work together:</p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
@@ -2260,15 +3179,26 @@ export default function WhatisGEO() {
                         pulling data to feed their responses. If you’re not
                         telling them exactly what to read (and what to skip),
                         you’re leaving your visibility to chance.
+                        <sup>
+                          <a href="#link27" className="text-blue">
+                            27
+                          </a>
+                        </sup>{" "}
                       </p>
                       <h4 className="h6 xl:h5 mt-3 mb-2 xl:mb-3">
-                        6.7.1 Why llms.txt Matters
+                        Why llms.txt Matters
                       </h4>
                       <p>
                         An llms.txt file works like a traffic cop for AI
                         crawlers, guiding them toward your most valuable pages
                         while keeping sensitive or irrelevant content out of
-                        their reach. Done right, it:
+                        their reach.
+                        <sup>
+                          <a href="#link27" className="text-blue">
+                            27
+                          </a>
+                        </sup>{" "}
+                        Done right, it:
                       </p>
                       <ul>
                         <li className="mt-2">
@@ -2285,7 +3215,7 @@ export default function WhatisGEO() {
                         </li>
                       </ul>
                       <h4 className="h6 xl:h5 mt-3 mb-2 xl:mb-3">
-                        6.7.2 Action Steps to Implement llms.txt
+                        Action Steps to Implement llms.txt
                       </h4>
                       <ol className="mt-2">
                         <li>
@@ -2308,7 +3238,7 @@ export default function WhatisGEO() {
                         </li>
                       </ol>
                       <h4 className="h6 xl:h5 mt-3 mb-2 xl:mb-3">
-                        6.7.3 What Happens If You Skip This
+                        What Happens If You Skip This
                       </h4>
                       <ul>
                         <li className="mt-2">
@@ -2364,6 +3294,11 @@ export default function WhatisGEO() {
                         Because AI systems love verifiable, data-backed claims
                         that they can easily reference in summaries and
                         overviews.
+                        <sup>
+                          <a href="#link28" className="text-blue">
+                            28
+                          </a>
+                        </sup>{" "}
                       </p>
                       <p>By integrating statistics, you:</p>
                       <ul>
@@ -2383,6 +3318,11 @@ export default function WhatisGEO() {
                         Think of it as giving AI a cheat sheet the clearer and
                         more factual your data, the more likely you’ll be
                         quoted.
+                        <sup>
+                          <a href="#link28" className="text-blue">
+                            28
+                          </a>
+                        </sup>{" "}
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
                         Action Steps
@@ -2457,11 +3397,16 @@ export default function WhatisGEO() {
                       <p>
                         One of the smartest ways to boost your Generative Engine
                         Optimization (GEO) is by strategically incorporating
-                        quotes from authoritative sources. Quotes are like gold
-                        for AI engines they add credibility, context, and
-                        clarity to your content, making it easier for AI to
-                        recognize your material as trustworthy and worth
-                        referencing.
+                        quotes from authoritative sources.
+                        <sup>
+                          <a href="#link26" className="text-blue">
+                            26
+                          </a>
+                        </sup>{" "}
+                        Quotes are like gold for AI engines they add
+                        credibility, context, and clarity to your content,
+                        making it easier for AI to recognize your material as
+                        trustworthy and worth referencing.
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
                         Pro Tips to Use Quotes Effectively:
@@ -2538,6 +3483,11 @@ export default function WhatisGEO() {
                         Optimizing your content for auto-completion can
                         dramatically increase your visibility and click-through
                         rates.
+                        <sup>
+                          <a href="#link25" className="text-blue">
+                            25
+                          </a>
+                        </sup>{" "}
                       </p>
                       <h4 className="h6 xl:h5 mt-2 mb-2 xl:mb-3">
                         Why Optimize for Auto-Completion:
@@ -2803,9 +3753,19 @@ export default function WhatisGEO() {
                           address common user queries.
                         </li>
                         <li className="mt-2">
-                          <b>Use Structured Data Markup:</b> Implement schema to
-                          help search engines and AI better understand and
-                          extract your content.
+                          <b>Use Structured Data Markup:</b> Anticipate and
+                          answer popular questions in your niche to increase
+                          chances of being featured.
+                          <sup>
+                            <a href="#link29" className="text-blue">
+                              29
+                            </a>
+                          </sup>{" "}
+                        </li>
+                        <li className="mt-2">
+                          <b>Create FAQ Sections:</b> Implement schema to help
+                          search engines and AI better understand and extract
+                          your content.
                         </li>
                         <li className="mt-2">
                           <b>Leverage Lists and Tables:</b> Formats like
@@ -2927,6 +3887,11 @@ export default function WhatisGEO() {
                           Perplexity AI prioritizes information that’s
                           verifiable and well-cited. Always include credible
                           references.
+                          <sup>
+                            <a href="#link30" className="text-blue">
+                              30
+                            </a>
+                          </sup>{" "}
                         </li>
                         <li className="mt-2">
                           <b>Keep Answers Concise:</b> Short, clear, and precise
@@ -2961,13 +3926,24 @@ export default function WhatisGEO() {
                       <ul>
                         <li className="mt-2">
                           <b>Write Clear and Concise Answers:</b>
-                          ChatGPT prefers straightforward language that’s easy
-                          to understand.
+                          ChatGPT
+                          <sup>
+                            <a href="#link31" className="text-blue">
+                              31
+                            </a>
+                          </sup>{" "}
+                          prefers straightforward language that’s easy to
+                          understand.
                         </li>
                         <li className="mt-2">
                           <b>Use Step-by-Step Explanations:</b> Breaking down
                           complex ideas into simple steps helps ChatGPT generate
                           accurate responses.
+                          <sup>
+                            <a href="#link31" className="text-blue">
+                              31
+                            </a>
+                          </sup>{" "}
                         </li>
                         <li className="mt-2">
                           <b>Include Examples and Analogies:</b> These improve
@@ -2999,6 +3975,11 @@ export default function WhatisGEO() {
                           <b>Align Content with Search Intent:</b> Google
                           Overview pulls from authoritative, well-structured
                           content that matches what users want.
+                          <sup>
+                            <a href="#link32" className="text-blue">
+                              32
+                            </a>
+                          </sup>{" "}
                         </li>
                         <li className="mt-2">
                           <b>Use Structured Data:</b> Schema markup helps Google
@@ -3147,9 +4128,156 @@ export default function WhatisGEO() {
                         </li>
                       </ul>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
-                        Presence in AI-Generated Answers
+                        GEO Success Metrics
                       </h3>
-                      Table
+                      <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">
+                        <table className="uc-table uc-table-divider">
+                          <thead className="table-head sticky-top z-1 ">
+                            <tr className="table-row dark:border-white border-gray-900 bg-gray-25 dark:bg-tertiary-800">
+                              <th
+                                className="table-header-cell top pt-0 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary text-underline lg:text-none">
+                                  Metric
+                                </span>
+                              </th>
+                              <th
+                                className="table-header-cell pt-4 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                                  What to Measure
+                                </span>
+                              </th>
+                              <th
+                                className="table-header-cell pt-4 lg:pt-1"
+                                scope="row"
+                              >
+                                <span className="fw-bold fs-5 lg:fs-4 dark:text-secondary">
+                                  Tools/Methods
+                                </span>
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody className="table-body">
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    AI Answer Presence
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Mentions in AI responses, snippets
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Manual search, AI Monitoring Tools
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Traffic from AI Sources
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Visits from AI platforms
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Google Analytics, AI Traffic Monitors
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    User Engagement
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Bounce rate, dwell time, shares
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Web analytics tools
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Keyword Intent Alignment
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-9 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Ranking for natural questions
+                                </span>
+                              </td>
+                              <td className="pt-9 lg:pt-1">
+                                <span className="dark:text-white">
+                                  SEO & AI search analytics
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Authority & Citation
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  AI citations, backlinks
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Backlink tools, AI monitoring
+                                </span>
+                              </td>
+                            </tr>
+                            <tr className="table-row border-gray-900 dark:border-white bg-gray-25 dark:bg-tertiary-800">
+                              <th className="top pt-0 lg:pt-1" scope="row">
+                                <div className="hstack gap-1 justify-start">
+                                  <span className="fs-5 fw-bold text-dark dark:text-white text-underline lg:text-none">
+                                    Conversion Metrics
+                                  </span>
+                                </div>
+                              </th>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  Leads, sales, brand awareness
+                                </span>
+                              </td>
+                              <td className="pt-7 lg:pt-1">
+                                <span className="dark:text-white">
+                                  CRM, analytics, surveys
+                                </span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                         Tools That Enhance the Generative Engine Optimization
                         (GEO) Process
@@ -3162,6 +4290,11 @@ export default function WhatisGEO() {
                         the thing crafting great content alone won’t cut it
                         anymore. To truly dominate AI-powered search, you need
                         the <b>right tools</b> on your side.
+                        <sup>
+                          <a href="#link33" className="text-blue">
+                            33
+                          </a>
+                        </sup>{" "}
                       </p>
                       <p>
                         Ready to power up your GEO game? Here’s a handpicked
@@ -3179,6 +4312,11 @@ export default function WhatisGEO() {
                         prompts, sentiment, citations, and competitive keyword
                         coverage, making it the most complete and useful GEO
                         platform on the market.
+                        <sup>
+                          <a href="#link33" className="text-blue">
+                            33
+                          </a>
+                        </sup>{" "}
                       </p>
                       <p className="mt-2">
                         Used by top agencies to drive 500%+ visibility gains.
@@ -3356,6 +4494,11 @@ export default function WhatisGEO() {
                           qualified leads,
                         </b>{" "}
                         proving the rapid ROI potential of GEO.
+                        <sup>
+                          <a href="#link34" className="text-blue">
+                            34
+                          </a>
+                        </sup>{" "}
                       </p>
                       <h3 className="h5 xl:h4 mt-3 mb-2 xl:mb-3">
                         Reddit-Featured SaaS Startup
@@ -3429,99 +4572,408 @@ export default function WhatisGEO() {
                         </h2>
                         <ol>
                           <li id="link1" className="mt-2">
-                            Semrush: Zero-Click Searches, accessed September 20,
-                            2025,
+                            What Is Generative Engine Optimization (GEO)?,
+                            accessed August 12, 2025,
                             <br />
                             <a
-                              href="https://mangools.com/blog/generative-engine-optimization/"
+                              href="https://searchengineland.com/what-is-generative-engine-optimization-geo-444418"
                               className="text-blue"
                               target="_blank"
                             >
-                              https://mangools.com/blog/generative-engine-optimization/
+                              https://searchengineland.com/what-is-generative-engine-optimization-geo-444418
                             </a>
                           </li>
                           <li id="link2" className="mt-2">
-                            SEO vs GEO: Understanding the Key Differences in
-                            2025 …, accessed July 08, 2025,
+                            Similarweb: No Clicks From Google Grew From 56% to
+                            69% Since AI Overviews, accessed August 12, 2025,
                             <br />
                             <a
-                              href="https://boomcycle.com/blog/seo-vs-geo-understanding-the-key-differences/"
+                              href="https://www.seroundtable.com/similarweb-google-zero-click-search-growth-39706.html"
                               className="text-blue"
                               target="_blank"
                             >
-                              https://boomcycle.com/blog/seo-vs-geo-understanding-the-key-differences/
+                              https://www.seroundtable.com/similarweb-google-zero-click-search-growth-39706.html
                             </a>
                           </li>
-                          <li id="link1" className="mt-2">
-                            Generative Engine Optimization: Everything You Need
-                            to Know …, accessed July 02, 2025,
+                          <li id="link3" className="mt-2">
+                            AI Overviews Reduce Clicks: What It Means for SEO,
+                            accessed August 12, 2025,
                             <br />
                             <a
-                              href="https://mangools.com/blog/generative-engine-optimization/"
+                              href="https://ahrefs.com/blog/ai-overviews-reduce-clicks"
                               className="text-blue"
                               target="_blank"
                             >
-                              https://mangools.com/blog/generative-engine-optimization/
+                              https://ahrefs.com/blog/ai-overviews-reduce-clicks
                             </a>
                           </li>
-                          <li id="link2" className="mt-2">
-                            SEO vs GEO: Understanding the Key Differences in
-                            2025 …, accessed July 08, 2025,
+                          <li id="link4" className="mt-2">
+                            What Is Generative Engine Optimization (GEO)?,
+                            accessed August 12, 2025,
                             <br />
                             <a
-                              href="https://boomcycle.com/blog/seo-vs-geo-understanding-the-key-differences/"
+                              href="https://writesonic.com/blog/what-is-generative-engine-optimization-geo"
                               className="text-blue"
                               target="_blank"
                             >
-                              https://boomcycle.com/blog/seo-vs-geo-understanding-the-key-differences/
+                              https://writesonic.com/blog/what-is-generative-engine-optimization-geo
                             </a>
                           </li>
-                          <li id="link1" className="mt-2">
-                            Generative Engine Optimization: Everything You Need
-                            to Know …, accessed July 02, 2025,
+                          <li id="link5" className="mt-2">
+                            Generative Engine Optimization (GEO): The Future of
+                            Search Is Here, accessed August 12, 2025,
                             <br />
                             <a
-                              href="https://mangools.com/blog/generative-engine-optimization/"
+                              href="https://www.forbes.com/councils/forbesagencycouncil/2025/01/02/generative-engine-optimization-geo-the-future-of-search-is-here/"
                               className="text-blue"
                               target="_blank"
                             >
-                              https://mangools.com/blog/generative-engine-optimization/
+                              https://www.forbes.com/councils/forbesagencycouncil/2025/01/02/generative-engine-optimization-geo-the-future-of-search-is-here/
                             </a>
                           </li>
-                          <li id="link2" className="mt-2">
-                            SEO vs GEO: Understanding the Key Differences in
-                            2025 …, accessed July 08, 2025,
+                          <li id="link6" className="mt-2">
+                            What’s Generative Engine Optimization (GEO) & How To
+                            Do It, accessed August 12, 2025,
                             <br />
                             <a
-                              href="https://boomcycle.com/blog/seo-vs-geo-understanding-the-key-differences/"
+                              href="https://foundationinc.co/lab/generative-engine-optimization"
                               className="text-blue"
                               target="_blank"
                             >
-                              https://boomcycle.com/blog/seo-vs-geo-understanding-the-key-differences/
+                              https://foundationinc.co/lab/generative-engine-optimization
                             </a>
                           </li>
-                          <li id="link1" className="mt-2">
-                            Generative Engine Optimization: Everything You Need
-                            to Know …, accessed July 02, 2025,
+                          <li id="link7" className="mt-2">
+                            How Generative Engine Optimization (GEO) Rewrites
+                            the Rules of Search, accessed August 12, 2025,
                             <br />
                             <a
-                              href="https://mangools.com/blog/generative-engine-optimization/"
+                              href="https://a16z.com/geo-over-seo/#:~:text=In%20the%20SEO%20era%2C%20visibility,user%20experience%20engagement%2C%20and%20more."
                               className="text-blue"
                               target="_blank"
                             >
-                              https://mangools.com/blog/generative-engine-optimization/
+                              https://a16z.com/geo-over-seo/#:~:text=In%20the%20SEO%20era%2C%20visibility,user%20experience%20engagement%2C%20and%20more.
                             </a>
                           </li>
-                          <li id="link2" className="mt-2">
-                            SEO vs GEO: Understanding the Key Differences in
-                            2025 …, accessed July 08, 2025,
+                          <li id="link8" className="mt-2">
+                            The History of SEO: From 1990 to Today - Reboot
+                            Online, accessed August 12, 2025,
                             <br />
                             <a
-                              href="https://boomcycle.com/blog/seo-vs-geo-understanding-the-key-differences/"
+                              href="https://www.rebootonline.com/blog/seo-history/#:~:text=This%20update%20saw%20the%20first,quality%20content%2C%20over%20the%20sheer"
                               className="text-blue"
                               target="_blank"
                             >
-                              https://boomcycle.com/blog/seo-vs-geo-understanding-the-key-differences/
+                              https://www.rebootonline.com/blog/seo-history/#:~:text=This%20update%20saw%20the%20first,quality%20content%2C%20over%20the%20sheer
+                            </a>
+                          </li>
+                          <li id="link9" className="mt-2">
+                            The Emergence of Generative Engine Optimization
+                            (GEO) - GrowthRocks, accessed August 12, 2025,
+                            <br />
+                            <a
+                              href="https://growthrocks.com/blog/the-emergence-of-generative-engine-optimization-geo/#:~:text=SEO%20(and%20similarly%20ASO%20or,via%20professionally%20made%20link%20building)"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://growthrocks.com/blog/the-emergence-of-generative-engine-optimization-geo/#:~:text=SEO%20(and%20similarly%20ASO%20or,via%20professionally%20made%20link%20building)
+                            </a>
+                          </li>
+                          <li id="link10" className="mt-2">
+                            From SEO to GEO: how AI is changing search in 2025 -
+                            ClickForest, accessed August 12, 2025,
+                            <br />
+                            <a
+                              href="https://www.clickforest.com/en/blog/geo-seo-evolution#:~:text=GEO%3A%20the%20new%20reality%20of,answers%20based%20on%20multiple%20sources"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://www.clickforest.com/en/blog/geo-seo-evolution#:~:text=GEO%3A%20the%20new%20reality%20of,answers%20based%20on%20multiple%20sources
+                            </a>
+                          </li>
+                          <li id="link11" className="mt-2">
+                            Will GEO replace SEO – or become part of it? -
+                            Search Engine Land, accessed August 12, 2025,
+                            <br />
+                            <a
+                              href="https://searchengineland.com/geo-replace-seo-460397#:~:text=The%20move%20to%20all%2Din,thing%20as%20traditional%20search%20vs."
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://searchengineland.com/geo-replace-seo-460397#:~:text=The%20move%20to%20all%2Din,thing%20as%20traditional%20search%20vs.
+                            </a>
+                          </li>
+                          <li id="link12" className="mt-2">
+                            How Generative Engine Optimization (GEO) Rewrites
+                            the Rules of Search, accessed August 12, 2025,
+                            <br />
+                            <a
+                              href="https://a16z.com/geo-over-seo/#:~:text=Semrush%20also%20has%20a%20dedicated,adapting%20to%20the%20GEO%20era"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://a16z.com/geo-over-seo/#:~:text=Semrush%20also%20has%20a%20dedicated,adapting%20to%20the%20GEO%20era
+                            </a>
+                          </li>
+                          <li id="link13" className="mt-2">
+                            From SEO to GEO: How AI is redefining positioning -
+                            Telefónica, accessed August 12, 2025,
+                            <br />
+                            <a
+                              href="https://www.telefonica.com/en/communication-room/blog/from-seo-to-geo-how-ai-is-redefining-positioning/"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://www.telefonica.com/en/communication-room/blog/from-seo-to-geo-how-ai-is-redefining-positioning/
+                            </a>
+                          </li>
+                          <li id="link14" className="mt-2">
+                            SEO Is Dead. Say Hello to GEO. - New York Magazine,
+                            accessed August 12, 2025,
+                            <br />
+                            <a
+                              href="https://nymag.com/intelligencer/article/seo-is-dead-say-hello-to-geo.html#:~:text=Generative%2Dengine%20optimization%20%E2%80%94%20also%20known,developing%20AI%20chatbots%20that%20have"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://nymag.com/intelligencer/article/seo-is-dead-say-hello-to-geo.html#:~:text=Generative%2Dengine%20optimization%20%E2%80%94%20also%20known,developing%20AI%20chatbots%20that%20have
+                            </a>
+                          </li>
+                          <li id="link15" className="mt-2">
+                            Generative Engine Optimization “GEO”,accessed August
+                            12, 2025,
+                            <br />
+                            <a
+                              href="https://arxiv.org/abs/2311.09735"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://arxiv.org/abs/2311.09735
+                            </a>
+                          </li>
+                          <li id="link16" className="mt-2">
+                            GEO vs SEO: Key Differences, Optimization
+                            Strategies, and Future Trends
+                            <br />
+                            <a
+                              href="https://getaimonitor.com/geo-vs-seo-key-differences/"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://getaimonitor.com/geo-vs-seo-key-differences/
+                            </a>
+                          </li>
+                          <li id="link17" className="mt-2">
+                            How Good SEO Impact GEO | A Comprehensive Guide for
+                            2025
+                            <br />
+                            <a
+                              href="https://getaimonitor.com/how-good-seo-impact-geo-a-comprehensive-guide/"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://getaimonitor.com/how-good-seo-impact-geo-a-comprehensive-guide/
+                            </a>
+                          </li>
+                          <li id="link18" className="mt-2">
+                            Top 10 generative engine optimization tool
+                            <br />
+                            <a
+                              href="https://getaimonitor.com/top-10-generative-engine-optimization-tools/"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://getaimonitor.com/top-10-generative-engine-optimization-tools/
+                            </a>
+                          </li>
+                          <li id="link19" className="mt-2">
+                            The Future of Search: Understanding Entities and the
+                            Shift from Keywords to Concepts
+                            <br />
+                            <a
+                              href="https://getaimonitor.com/the-future-of-search-understanding-entities-and-the-shift-from-keywords-to-concepts/"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://getaimonitor.com/the-future-of-search-understanding-entities-and-the-shift-from-keywords-to-concepts/
+                            </a>
+                          </li>
+                          <li id="link20" className="mt-2">
+                            Future Proof Your Content: Top 4 Strategies to
+                            Outsmart AI and Dominate Search
+                            <br />
+                            <a
+                              href="https://getaimonitor.com/future-proof-your-content-with-these-strategies-to-dominate-ai/"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://getaimonitor.com/future-proof-your-content-with-these-strategies-to-dominate-ai/
+                            </a>
+                          </li>
+                          <li id="link21" className="mt-2">
+                            News & Media Partnership: A Strategic Boost for
+                            Generative Engine Optimization (GEO) in 2025
+                            <br />
+                            <a
+                              href="https://getaimonitor.com/media-partnership-a-strategic-boost-for-generative-engine-optimization-geo/"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://getaimonitor.com/media-partnership-a-strategic-boost-for-generative-engine-optimization-geo/
+                            </a>
+                          </li>
+                          <li id="link22" className="mt-2">
+                            11 Secret Generative Engine Optimization Techniques
+                            | Only We Know
+                            <br />
+                            <a
+                              href="https://getaimonitor.com/top-11-generative-engine-optimization-techniques/"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://getaimonitor.com/top-11-generative-engine-optimization-techniques/
+                            </a>
+                          </li>
+                          <li id="link23" className="mt-2">
+                            How to Fix AI Crawlability and Boost Your Site’s
+                            Performance in Search Engines
+                            <br />
+                            <a
+                              href="https://getaimonitor.com/fix-ai-crawlability-and-boost-your-sites-performance-in-search-engines/"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://getaimonitor.com/fix-ai-crawlability-and-boost-your-sites-performance-in-search-engines/
+                            </a>
+                          </li>
+                          <li id="link24" className="mt-2">
+                            Leverage Reddit for Generative Engine Optimization:
+                            Boost Your Brand with Strategic Reddit Geo Marketing
+                            <br />
+                            <a
+                              href="https://getaimonitor.com/leverage-reddit-for-generative-engine-optimization/"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://getaimonitor.com/leverage-reddit-for-generative-engine-optimization/
+                            </a>
+                          </li>
+                          <li id="link25" className="mt-2">
+                            Auto Complete Prompts Hack: Predict The User’s Query
+                            Before They Think
+                            <br />
+                            <a
+                              href="https://getaimonitor.com/auto-complete-prompts-hack/"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://getaimonitor.com/auto-complete-prompts-hack/
+                            </a>
+                          </li>
+                          <li id="link26" className="mt-2">
+                            Use Quotes Like a Pro | Best Hack for GEO in 2025
+                            <br />
+                            <a
+                              href="https://getaimonitor.com/use-quotes-like-a-pro-best-hack-for-geo/"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://getaimonitor.com/use-quotes-like-a-pro-best-hack-for-geo/
+                            </a>
+                          </li>
+                          <li id="link27" className="mt-2">
+                            Step by Step Guide: How to Create and Implement an
+                            llms.txt File
+                            <br />
+                            <a
+                              href="https://getaimonitor.com/step-by-step-to-create-and-implement-llms-txt-file/"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://getaimonitor.com/step-by-step-to-create-and-implement-llms-txt-file/
+                            </a>
+                          </li>
+                          <li id="link28" className="mt-2">
+                            Importance of Statistics in GEO to Dominate AI
+                            Search Results (and Captivate Readers)
+                            <br />
+                            <a
+                              href="https://getaimonitor.com/importance-of-statistics-in-geo-to-dominate-ai-search/"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://getaimonitor.com/importance-of-statistics-in-geo-to-dominate-ai-search/
+                            </a>
+                          </li>
+                          <li id="link29" className="mt-2">
+                            How Zero-Click Searches are Revolutionising SEO and
+                            GEO
+                            <br />
+                            <a
+                              href="https://getaimonitor.com/how-zero-click-searches-are-revolutionising-seo-and-geo/"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://getaimonitor.com/how-zero-click-searches-are-revolutionising-seo-and-geo/
+                            </a>
+                          </li>
+                          <li id="link30" className="mt-2">
+                            How to Get Featured by Perplexity AI in 2025: The
+                            Complete Interactive Guide
+                            <br />
+                            <a
+                              href="https://getaimonitor.com/how-to-get-featured-by-perplexity-ai-in-2025-the-complete-interactive-guide/"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://getaimonitor.com/how-to-get-featured-by-perplexity-ai-in-2025-the-complete-interactive-guide/
+                            </a>
+                          </li>
+                          <li id="link31" className="mt-2">
+                            ChatGPT SEO: How to Rank in ChatGPT Responses in
+                            2025 12, 2025,
+                            <br />
+                            <a
+                              href="https://getaimonitor.com/chatgpt-seo-how-to-rank-in-chatgpt-responses-in-2025/"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://getaimonitor.com/chatgpt-seo-how-to-rank-in-chatgpt-responses-in-2025/
+                            </a>
+                          </li>
+                          <li id="link32" className="mt-2">
+                            How to Get Featured in Google’s AI Overview? Tools
+                            and Strategies for 2025
+                            <br />
+                            <a
+                              href="https://getaimonitor.com/how-to-get-featured-in-googles-ai-overview-tools-and-strategies-for-2025/"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://getaimonitor.com/how-to-get-featured-in-googles-ai-overview-tools-and-strategies-for-2025/
+                            </a>
+                          </li>
+                          <li id="link33" className="mt-2">
+                            Generative engine optimization tool
+                            <br />
+                            <a
+                              href="https://getaimonitor.com/top-10-generative-engine-optimization-tools/"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://getaimonitor.com/top-10-generative-engine-optimization-tools/
+                            </a>
+                          </li>
+                          <li id="link34" className="mt-2">
+                            Case Study: How a YC-Backed Fintech Flipped 200+
+                            ChatGPT Queries to #1 in 30 Days with Relixir
+                            <br />
+                            <a
+                              href="https://relixir.ai/blog/blog-yc-fintech-chatgpt-queries-relixir-case-study?"
+                              className="text-blue"
+                              target="_blank"
+                            >
+                              https://relixir.ai/blog/blog-yc-fintech-chatgpt-queries-relixir-case-study?
                             </a>
                           </li>
                         </ol>

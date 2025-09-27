@@ -1187,13 +1187,11 @@ Our tested recipes and in-depth guides help home cooks master plant-based cookin
                 </div>
               </div>
             </div>
-            <div className="lg:col-3 order-2 lg:order-0 sticky-element3 sm:mt-3">
+            <div className="d-none lg:d-block lg:col-3 order-2 lg:order-0 sticky-element3">
               <AudioPlayer />
-              <span className="">
-                <TableOfContentsServer />
-              </span>
+              <TableOfContentsServer />
             </div>
-            <div className="d-none lg:d-block lg:col-3 order-2 lg:order-2 sticky-element3">
+            <div className="lg:col-3 order-2 lg:order-2 sticky-element3">
               <RightSideTop />
               <RightSideBottom />
             </div>

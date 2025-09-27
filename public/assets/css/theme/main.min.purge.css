@@ -8911,7 +8911,6 @@ th:first-child,
 td:first-child {
   position: sticky;
   left: 0;
-  /* background-color: white; */
   z-index: 1;
 }
 

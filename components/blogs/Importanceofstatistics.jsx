@@ -612,17 +612,14 @@ export default function ImportanceOfStatistics() {
                 </div>
               </div>
             </div>
-            {/* <hr className="w-100 m-0 d-block mt-4 lg:mt-6 xl:mt-8 " /> */}
-            <div className="lg:col-3 order-2 lg:order-0 sticky-element3 sm:mt-3">
-              <AudioPlayer />
-              <span className="">
-                <TableOfContentsServer />
-              </span>
-            </div>
-            <div className="d-none lg:d-block lg:col-3 order-2 lg:order-2 sticky-element3">
-              <RightSideTop />
-              <RightSideBottom />
-            </div>
+            <div className="d-none lg:d-block lg:col-3 order-2 lg:order-0 sticky-element3">
+                          <AudioPlayer />
+                          <TableOfContentsServer />
+                        </div>
+                        <div className="lg:col-3 order-2 lg:order-2 sticky-element3">
+                          <RightSideTop />
+                          <RightSideBottom />
+                        </div>
           </div>
           <div className="post-footer panel vstack sm:hstack gap-3 justify-between justifybetween border-top py-4 mt-4">
             <ul className="nav-x gap-narrow text-primary">

@@ -7,7 +7,7 @@ import React from "react";
 export default function Hero() {
   const handleClick = () => {
     if (window.ml) {
-      window.ml("show", "3ttGXK", true);
+      window.ml("show", "Ll4Ab3", true);
     } else {
       console.error("MailerLite script not loaded yet");
     }

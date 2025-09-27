@@ -1428,13 +1428,13 @@ export default function GetFeaturedbyPerplexity() {
               </div>
             </div>
             <div className="d-none lg:d-block lg:col-3 order-2 lg:order-0 sticky-element3">
-              <AudioPlayer />-
-              <TableOfContentsServer />
-            </div>
-            <div className="d-none lg:d-block lg:col-3 order-2 lg:order-2 sticky-element3">
-              <RightSideTop />
-              <RightSideBottom />
-            </div>
+                          <AudioPlayer />
+                          <TableOfContentsServer />
+                        </div>
+                        <div className="lg:col-3 order-2 lg:order-2 sticky-element3">
+                          <RightSideTop />
+                          <RightSideBottom />
+                        </div>
             <div className="d-block lg:d-none">
               <Toc />
             </div>
