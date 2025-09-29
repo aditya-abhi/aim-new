@@ -1528,7 +1528,7 @@ export const services = [
   },
   {
     id: 10,
-    imgSrc: "/assets/images/template/local-seo.webp",
+    imgSrc: "/assets/images/template/marketing-analytics.webp",
     imgAlt: "Maintain compliance and control your apps",
     title: "Marketing Analytics",
     description:
@@ -1537,7 +1537,7 @@ export const services = [
   },
   {
     id: 11,
-    imgSrc: "/assets/images/template/backlinks.webp",
+    imgSrc: "/assets/images/template/local-seo.webp",
     imgAlt: "Boost your Local SEO and GEO",
     title: "Local SEO and GEO",
     description:
@@ -1546,7 +1546,7 @@ export const services = [
   },
   {
     id: 12,
-    imgSrc: "/assets/images/template/marketing-analytics.webp",
+    imgSrc: "/assets/images/template/backlinks.webp",
     imgAlt: "Build Authority with Backlinks & Brand Mentions",
     title: "Build Authority with Backlinks & Brand Mentions",
     description:
