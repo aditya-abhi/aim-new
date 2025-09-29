@@ -189,6 +189,21 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: "/products/ai-brand-monitor",
+        destination: "/features/ai-visibility-checker",
+        permanent: true,
+      },
+      {
+        source: "/products/ai-bot-monitor",
+        destination: "/features/ai-crawlability-clinic",
+        permanent: true,
+      },
+      {
+        source: "/products/ai-traffic-monitor",
+        destination: "/features/ai-competitor-radar",
+        permanent: true,
+      },
+      {
         source:
           "/indian-governments-approval-for-ai-models-what-you-need-to-know",
         destination: "/",

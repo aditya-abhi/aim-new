@@ -1,0 +1,52 @@
+# www.getaimonitor.com llms.txt
+
+> AI Monitor is an open-source platform that helps brands, marketers, and developers track, analyze, and optimize their visibility across AI-powered search and generative models. It offers tools for Answer Engine Optimization (AEO), Generative Engine Optimization (GEO), AI Search Analytics, Competitor Benchmarking, and AI Prompt Monitoring
+## Resources
+- [Want to Get Featured on AI Search? Download Our Ebook: The Ultimate GEO Guide](https://getaimonitor.com/most-comprehensive-generative-engine-optimization-geo-guide): An ebook offering insights on how to enhance visibility on AI search platforms through Generative Engine Optimization.
+- [Free Courses](https://getaimonitor.com/free-courses): Access to complimentary educational resources focused on Generative Engine Optimization and Answer Engine Optimization.
+- [Generative Engine Optimization (GEO) Course](https://getaimonitor.com/free-courses/best-generative-engine-optimization-geo-course-for-free): AI Monitor’s free Generative Engine Optimization (GEO) course teaches how to optimize content for AI-driven platforms, improve brand visibility in AI-generated answers, and master strategies for AI-powered content and digital marketing.
+- [Answer Engine Optimization (AEO) Course](https://getaimonitor.com/free-courses/best-answer-engine-optimization-course-for-free): AI Monitor’s free Answer Engine Optimization (AEO) course teaches how to structure content for AI-driven platforms like Google AI Overviews, ChatGPT, and Perplexity AI, enhancing brand visibility in AI-generated answers and mastering strategies for AI-powered content and digital marketing.
+
+## Features
+- [AI Visibility Checker]https://getaimonitor.com/features/ai-visibility-checker): AI Monitor’s AI Visibility Checker provides real-time insights into how AI models like ChatGPT, Gemini, and Perplexity reference your brand. Track citations, brand mentions, and domain authority across platforms, and receive personalized recommendations to enhance your AI presence.
+- [AI Competitor Radar](https://getaimonitor.com/features/ai-competitor-radar): AI Monitor’s AI Competitor Radar enables real-time tracking of competitor visibility across AI search platforms like ChatGPT, Google AI, and Perplexity. It provides insights into competitor strategies, content performance, and emerging trends, helping brands stay ahead in the evolving AI landscape.
+- [AI Crawlability Clinic](https://getaimonitor.com/features/ai-crawlability-clinic): A tool that Track your brandâ€™s visibility, sentiment, and competitor moves across all major AI search engines.
+
+## Services
+- [AI Search Analytics](https://getaimonitor.com/ai-search-strategy-service): AI Search Analytics by AI Monitor offers AI-powered insights into user intent, predictive trend identification, and content optimization strategies.
+- [GEO Services](https://getaimonitor.com/generative-engine-optimization-geo-services): A service aimed at helping businesses adapt to the new era of AI-driven search, focusing on optimizing brand visibility and reputation within generative AI platforms.
+- [LLM SEO Services](https://getaimonitor.com/services/large-language-model-llm-seo-service): AI Monitor’s Large Language Model (LLM) SEO Service enhances your brand's visibility across AI-driven platforms like ChatGPT, Google AI, and Perplexity. By structuring your content with machine-readable files and optimizing for AI-specific signals, we ensure your brand is recognized and cited in generative search results, driving higher engagement and conversions.
+- [Competitor Benchmarking](https://getaimonitor.com/services/competitor-benchmarking-for-ai-search): AI Monitor’s Competitor Benchmarking for AI Search service leverages AI to analyze competitor data, uncover patterns, and provide actionable insights. It helps brands identify performance gaps, recognize early trends, and map growth opportunities, enabling them to stay ahead in the AI-driven market.
+- [AI Prompt Monitoring](https://getaimonitor.com/services/ai-prompt-monitoring-service): AI Monitor’s AI Prompt Monitoring Service provides real-time insights into prompt performance across AI platforms. It captures metrics like prompt volume, conversion rates, and success metrics, helping brands optimize prompts, identify gaps, and enhance response relevance. The service also offers trend forecasting to adapt to evolving user intent and improve AI interactions.
+- [Local SEO and GEO](https://getaimonitor.com/services/local-search-engine-optimization-and-generative-engine-optimization): AI Monitor’s Local Search Engine Optimization and Generative Engine Optimization services combine AI-powered local intent analysis, geo-semantic NLP, and competitor benchmarking to enhance visibility in local map packs and AI-generated answers. The service offers a comprehensive roadmap, including neighborhood and intent mapping, geo-keyword optimization, and on-page/off-page enhancements, to help brands dominate local search results and drive higher conversions.
+- [SaaS SEO Services](https://getaimonitor.com/services/saas-search-engine-optimization-service): AI Monitor’s SaaS Search Engine Optimization Service enhances your brand’s visibility across AI-driven platforms like ChatGPT, Google AI, and Perplexity. By combining AI search analytics with advanced SEO techniques, the service optimizes content, site architecture, and keyword strategies to attract high-intent traffic and improve conversion rates. It includes competitor benchmarking, buyer journey mapping, and prompt intelligence to ensure your SaaS brand ranks higher and captures the right audience at every stage of their decision-making process.
+- [AEO Services](https://getaimonitor.com/services/answer-engine-optimization-aeo-service): AI Monitor’s Answer Engine Optimization (AEO) Service enhances your brand's visibility across AI-driven platforms like ChatGPT, Google AI, Perplexity, and Bing Copilot. By optimizing for entity recognition, structured data, and AI intent mapping, the service ensures your content is trusted and cited in AI-generated answers, driving higher engagement and conversions.
+- [Marketing Analytics](https://getaimonitor.com/services/ai-marketing-analytics-service): AI Monitor’s AI Marketing Analytics Service leverages advanced machine learning and natural language processing to transform marketing data into actionable insights. It offers intelligent consumer behavior analysis, predictive trend identification, and automated campaign & SEO gap detection, enabling brands to optimize strategies, enhance engagement, and improve ROI across AI-driven platforms.
+- [SaaS Reddit Marketing](https://getaimonitor.com/services/saas-reddit-marketing-for-ai-search): AI Monitor’s SaaS Reddit Marketing for AI Search service leverages Reddit's community-driven insights to enhance SaaS brand visibility across AI-powered platforms like ChatGPT, Google AI, and Perplexity. By analyzing authentic Reddit conversations, identifying emerging topics, and pinpointing engagement gaps, the service ensures your brand is prominently featured in AI-generated answers, driving higher engagement and conversions.
+- [SaaS Content Marketing](https://getaimonitor.com/services/saas-content-marketing-for-ai-search): AI Monitor’s SaaS Content Marketing for AI Search service enhances your brand's visibility across AI-driven platforms like ChatGPT, Google AI, and Perplexity. By optimizing content for AI-specific signals, structuring data for machine readability, and leveraging AI-driven SEO strategies, the service ensures your content is discoverable and cited in AI-generated answers, driving higher engagement and conversions.
+- [Backlinks & Brand Mentions](https://getaimonitor.com/services/backlinks-and-brand-mentions-buying-service): AI Monitor’s Backlinks and Brand Mentions Buying Service enhances your brand's visibility across AI-driven platforms like ChatGPT, Google AI, and Perplexity. By strategically acquiring high-quality backlinks and securing brand mentions from authoritative sources, the service ensures your content is recognized and cited in AI-generated answers, driving higher engagement and conversions.
+
+## Blogs
+- [Blog](https://getaimonitor.com/blogs): A collection of articles and insights related to Generative Engine Optimization and AI.
+
+## Podcasts
+- [Podcasts](https://getaimonitor.com/podcasts): AI Monitor’s podcast series, "Conquer AI Search," delves into strategies for enhancing brand visibility across AI-driven platforms like ChatGPT, Google AI, and Perplexity. Episodes cover topics such as Answer Engine Optimization (AEO), Generative Engine Optimization (GEO), AI marketing analytics, and the impact of online reviews on AI search rankings. The series aims to equip brands with insights and techniques to navigate and dominate the evolving AI search landscape.
+
+## Agency Support
+- [For Agencies](https://getaimonitor.com/generative-engine-optimization-tool-for-agencies): Information tailored for agencies looking to leverage AI Monitor's services for their clients.
+- [Agency Growth | AI Monitor](https://getaimonitor.com/category/agency-growth/): Resources and strategies for agencies to enhance their growth using AI Monitor's tools.
+
+## Pricing
+- [Pricing | AI Monitor](https://getaimonitor.com/pricing/): An overview of the pricing structure for AI Monitor's services.
+
+## Social Media
+- [Linkedin](https://www.linkedin.com/company/get-ai-monitor/): Connect with AI Monitor on LinkedIn for professional updates.
+- [Youtube](https://www.youtube.com/@AI_MonitorOffiial): Access video content related to Generative Engine Optimization on YouTube.
+- [Instagram](https://www.instagram.com/aimonitorofficial/): Follow AI Monitor on Instagram for visual content and updates.
+- [Twitter](https://x.com/getAiMonitor): Stay updated with AI Monitor's latest news and insights on Twitter.
+- [Facebook](https://www.facebook.com/people/AI-Monitor/61572471364497/): Engage with AI Monitor's community on Facebook.
+
+## Additional Links
+- [Get Started](https://getaimonitor.com/get-started): A call to action for new users to begin utilizing AI Monitor's services.
+- [Contact Us](https://getaimonitor.com/contact-us/): A link for users to reach out to AI Monitor for inquiries or support.
+
