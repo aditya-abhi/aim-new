@@ -1,10 +1,17 @@
 "use client";
 import Image from "next/image";
+import React, { useState } from "react";
+import SpinnerMini from "../common/SpinnerMini";
 
 export default function ContactForm() {
+  const [isLoading, setIsLoading] = useState(false);
   const handleClick = () => {
     if (window.ml) {
+      setIsLoading(true);
       window.ml("show", "PkpBgn", true);
+      setTimeout(() => {
+        setIsLoading(false);
+      }, 3000);
     } else {
       console.error("MailerLite script not loaded yet");
     }
@@ -63,7 +70,15 @@ export default function ContactForm() {
                   onClick={handleClick}
                   className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 mt-3 w-auto"
                 >
-                  Send Message
+                  {!isLoading ? ( // <-- Change `!isPending` to `!isLoading`
+                    <>
+                      <span className="">Send Message</span>
+                    </>
+                  ) : (
+                    <span className="mx-auto">
+                      <SpinnerMini />
+                    </span>
+                  )}
                 </a>
                 <p className="text-center mt-1">
                   Or drop us an{" "}

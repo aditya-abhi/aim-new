@@ -1,10 +1,17 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
+import SpinnerMini from "../common/SpinnerMini";
 export default function Hero() {
+  const [isLoading, setIsLoading] = useState(false);
   const handleClick = () => {
     if (window.ml) {
+      setIsLoading(true);
       window.ml("show", "Tl2r0c", true);
+      setTimeout(() => {
+        setIsLoading(false);
+      }, 3000);
     } else {
       console.error("MailerLite script not loaded yet");
     }
@@ -37,8 +44,15 @@ export default function Hero() {
                     onClick={handleClick}
                     className="btn btn-lg btn-tertiary text-white hover:bg-primary hover:text-tertiary dark:border-secondary dark:bg-primary dark:text-tertiary dark:hover:bg-secondary dark:hover:text-tertiary dark:hover:border-primary border-2 px-2 w-auto"
                   >
-                    {/* <i className="icon-narrow unicon-chat-launch fw-bold" /> */}
-                    <span>Download Now</span>
+                    {!isLoading ? (
+                      <>
+                        <span className="">Download Now</span>
+                      </>
+                    ) : (
+                      <span className="mx-auto">
+                        <SpinnerMini />
+                      </span>
+                    )}
                   </a>
                 </div>
               </div>

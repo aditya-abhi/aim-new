@@ -2,12 +2,19 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState, useTransition } from "react";
+import SpinnerMini from "../common/SpinnerMini";
 
 export default function Hero() {
+  const [isLoading, setIsLoading] = useState(false);
+
   const handleClick = () => {
     if (window.ml) {
+      setIsLoading(true);
       window.ml("show", "d4dTM1", true);
+      setTimeout(() => {
+        setIsLoading(false);
+      }, 3000);
     } else {
       console.error("MailerLite script not loaded yet");
     }
@@ -134,7 +141,15 @@ export default function Hero() {
                                     onClick={handleClick}
                                     className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 w-auto"
                                   >
-                                    Enroll Now
+                                    {!isLoading ? ( // <-- Change `!isPending` to `!isLoading`
+                                      <>
+                                        <span className="">Enroll Now</span>
+                                      </>
+                                    ) : (
+                                      <span className="mx-auto">
+                                        <SpinnerMini />
+                                      </span>
+                                    )}
                                   </a>
                                   <span className="fs-7 text-dark text-opacity-70 ms-3 text-line-through text-center">
                                     $249

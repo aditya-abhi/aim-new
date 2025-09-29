@@ -9039,3 +9039,31 @@ html[dir="rtl"] .theme-4-colour .uc-navbar-left {
   background-image: url("/assets/images/landing/hero-11-bg-light.jpg");
   background-size: cover;
 }
+
+.spinner {
+  margin: 3.2rem auto 1.6rem;
+  width: 60px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 8px solid;
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-secondary-200-rgb), var(--bs-text-opacity)) !important;
+  animation: rotate 1s infinite linear;
+}
+
+.spinner-mini {
+  margin: 0;
+  width: 20px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 2px solid rgba(var(--bs-tertiary-rgb), var(--bs-text-opacity)) !important;
+  border-right-color: 2px solid
+    rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  animation: rotate 1s infinite linear;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(1turn);
+  }
+}
