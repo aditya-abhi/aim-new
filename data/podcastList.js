@@ -9,7 +9,7 @@ export const podcastList = [
       "Don't Get Left Behind: The 5 Biggest Mistakes We're All Making in the Age of AI",
     title:
       "Don't Get Left Behind: The 5 Biggest Mistakes We're All Making in the Age of AI",
-    date: "Aug 02, 2025",
+    date: "Aug 09, 2025",
     link: "/podcasts/the-5-biggest-mistakes-we-are-all-making-in-the-age-of-ai/",
   },
   {
@@ -217,7 +217,7 @@ export const podcastList = [
     imgAlt: "Mastering Generative Engine Optimization (GEO)",
     imgCaption: "Mastering Generative Engine Optimization (GEO)",
     title: "Mastering Generative Engine Optimization (GEO)",
-    date: "Apr 12, 2025",
+    date: "Apr 05, 2025",
     link: "/podcasts/mastering-generative-engine-optimization-geo/",
   },
 ];

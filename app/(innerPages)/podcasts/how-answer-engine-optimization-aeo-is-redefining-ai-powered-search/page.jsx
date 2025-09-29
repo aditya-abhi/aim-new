@@ -5,16 +5,74 @@ import AEORedefiningAIPoweredSearch from "@/components/podcasts/AEORedefiningAIP
 import RelatedPodcasts from "@/components/podcasts/RelatedPodcasts";
 export const metadata = {
   title:
-    "Podcast Template || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "How Answer Engine Optimization Is Redefining AI-Powered Search | AI Monitor",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Explore how Answer Engine Optimization (AEO) is transforming AI-powered search by prioritizing direct, structured answers over traditional SEO Method",
 };
 export default async function Blog2Page(props) {
   const params = await props.params;
   const id = params.id;
   const blogItem = allBlogs.filter((elm) => elm.id == id)[0] || allBlogs[0];
+  const jsonLdWebPage = {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    name: "How Answer Engine Optimization (AEO) is Redefining AI-Powered Search",
+    url: "https://getaimonitor.com/how-answer-engine-optimization-aeo-is-redefining-ai-powered-search/",
+    description:
+      "In this episode, Avinash Tripathi discusses how Answer Engine Optimization (AEO) is transforming AI-powered search by prioritizing direct, structured answers over traditional SEO practices.",
+    datePublished: "2025-05-24",
+    episodeNumber: 4,
+    partOfSeries: {
+      "@type": "PodcastSeries",
+      name: "Get AI Monitor Podcast",
+      description:
+        "A podcast about AI, content strategy, and marketing in the AI era.",
+      url: "https://getaimonitor.com/podcast",
+      webFeed: "https://getaimonitor.com/podcast/rss.xml",
+      image: "https://getaimonitor.com/path/to/podcast-logo.jpg",
+      author: {
+        "@type": "Person",
+        name: "Avinash Tripathi",
+      },
+    },
+    image: "https://getaimonitor.com/path/to/episode-image.jpg",
+    author: {
+      "@type": "Person",
+      name: "Avinash Tripathi",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Get AI Monitor",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://getaimonitor.com/path/to/logo.png",
+      },
+    },
+    audio: {
+      "@type": "AudioObject",
+      encodingFormat: "audio/mpeg",
+    },
+    inLanguage: "en-US",
+    explicit: false,
+    interactionStatistic: {
+      "@type": "InteractionCounter",
+      interactionType: {
+        "@type": "ListenAction",
+      },
+      userInteractionCount: 300,
+    },
+  };
+
   return (
     <>
+      {/* Add JSON-LD to your page */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLdWebPage).replace(/</g, "\\u003c"),
+        }}
+      />
+      {/* ... */}
       <div className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-tertiary-800 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready">
         <Header7 />
         <div id="wrapper" className="wrap">

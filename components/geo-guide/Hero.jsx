@@ -2,6 +2,13 @@
 import Link from "next/link";
 import Image from "next/image";
 export default function Hero() {
+  const handleClick = () => {
+    if (window.ml) {
+      window.ml("show", "Tl2r0c", true);
+    } else {
+      console.error("MailerLite script not loaded yet");
+    }
+  };
   return (
     <div id="hero_header" className="hero-header section panel overflow-hidden">
       <div className="position-cover bg-secondary dark:bg-tertiary-700 lg:mx-2 rounded-bottom-2 " />
@@ -26,14 +33,13 @@ export default function Hero() {
                     insights that help you take control of your visibility
                     before your competitors do.
                   </p>
-                  <Link
-                    href={`https://appt.link/ai-monitor/30-minutes-introductory-call`}
-                    target="_blank"
+                  <a
+                    onClick={handleClick}
                     className="btn btn-lg btn-tertiary text-white hover:bg-primary hover:text-tertiary dark:border-secondary dark:bg-primary dark:text-tertiary dark:hover:bg-secondary dark:hover:text-tertiary dark:hover:border-primary border-2 px-2 w-auto"
                   >
                     {/* <i className="icon-narrow unicon-chat-launch fw-bold" /> */}
                     <span>Download Now</span>
-                  </Link>
+                  </a>
                 </div>
               </div>
               <div className="col-12 lg:col-6">

@@ -13,23 +13,23 @@ export const menuItems = [
         label: "AI Search Analytics",
       },
       {
-        href: "/services/generative-engine-optimization-geo-service",
+        href: "/services/generative-engine-optimization-geo-services",
         label: "GEO Services",
       },
       {
-        href: "/services/large-language-model-llm-seo-service",
+        href: "/services/large-language-model-llm-seo-services",
         label: "LLM SEO Services",
       },
       {
-        href: "/services/competitor-benchmarking-for-ai-search",
+        href: "/services/competitor-benchmarking-for-ai-searches",
         label: "Competitor Benchmarking",
       },
       {
-        href: "/services/ai-prompt-monitoring-service",
+        href: "/services/ai-prompt-monitoring-services",
         label: "AI Prompt Monitoring",
       },
       {
-        href: "/services/saas-search-engine-optimization-service",
+        href: "/services/saas-search-engine-optimization-services",
         label: "SaaS SEO Services",
       },
       {
@@ -37,7 +37,7 @@ export const menuItems = [
         label: "AEO Services",
       },
       {
-        href: "/services/ai-marketing-analytics-service",
+        href: "/services/ai-marketing-analytics-services",
         label: "Marketing Analytics",
       },
       {
@@ -1072,28 +1072,28 @@ export const services = [
         image: "/assets/images/custom-icons/geo.svg",
         title: "GEO Services",
         description: "The latest industry reports, updates and info.",
-        link: "/services/generative-engine-optimization-geo-service",
+        link: "/services/generative-engine-optimization-geo-services",
       },
       {
         icon: "unicon-increase-level",
         image: "/assets/images/custom-icons/seo.svg",
         title: "LLM SEO Services",
         description: "Suite of tools that cover all aspects of your business.",
-        link: "/services/large-language-model-llm-seo-service",
+        link: "/services/large-language-model-llm-seo-services",
       },
       {
         icon: "unicon-increase-level",
         image: "/assets/images/custom-icons/competitor.svg",
         title: "Competitor Benchmarking",
         description: "Suite of tools that cover all aspects of your business.",
-        link: "/services/competitor-benchmarking-for-ai-search",
+        link: "/services/competitor-benchmarking-for-ai-searches",
       },
       {
         icon: "unicon-increase-level",
         image: "/assets/images/custom-icons/prompt.svg",
         title: "AI Prompt Monitoring",
         description: "Suite of tools that cover all aspects of your business.",
-        link: "/services/ai-prompt-monitoring-service",
+        link: "/services/ai-prompt-monitoring-services",
       },
       {
         icon: "unicon-increase-level",
@@ -1128,7 +1128,7 @@ export const services = [
         title: "Marketing Analytics",
         description:
           "Managing multiple software and tools for different tasks.",
-        link: "/services/ai-marketing-analytics-service",
+        link: "/services/ai-marketing-analytics-services",
       },
       {
         icon: "unicon-checkmark",

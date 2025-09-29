@@ -168,6 +168,102 @@ const nextConfig = {
         destination: "/services/saas-content-marketing-for-ai-search",
         permanent: true,
       },
+      {
+        source: "/services/ai-search-strategy-service",
+        destination: "/services/ai-search-analytics",
+        permanent: true,
+      },
+      {
+        source: "/services/content-marketing-for-ai-searches",
+        destination: "/services/saas-content-marketing-for-ai-search",
+        permanent: true,
+      },
+      {
+        source: "/services/reddit-influencer-relationship-marketing-services",
+        destination: "/services/saas-reddit-marketing-for-ai-search",
+        permanent: true,
+      },
+      {
+        source: "/products",
+        destination: "/features",
+        permanent: true,
+      },
+      {
+        source:
+          "/indian-governments-approval-for-ai-models-what-you-need-to-know",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/how-to-manage-your-brand-in-the-age-of-ai",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/what-is-llm-seo-lso-geo-gaio-llmo",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source:
+          "/beyond-rankings-measuring-website-visibility-in-the-age-of-llms",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/govt-may-amend-it-act-to-add-new-rules-for-ai-genai-models",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/why-are-google-rankings-now-obsolete-due-to-chatgpt",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/introduction-to-digital-marketing",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/types-of-digital-marketing-a-comprehensive-guide-for-2025",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source:
+          "/top-11-ai-video-generators-a-game-changer-or-old-wine-in-new-bottle",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source:
+          "/the-ethics-of-content-marketing-how-to-keep-your-brand-authentic",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/most-effective-technique-for-ai-llm-seo-geo",
+        destination: "/leverage-reddit-for-generative-engine-optimization",
+        permanent: true,
+      },
+      {
+        source: "/a-no-nonsense-guide-to-retail-inventory-management-software",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source:
+          "/an-ultimate-list-of-every-generative-engine-optimization-tool",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source:
+          "/seo-helps-geo-how-old-school-tactics-are-fueling-ai-search-dominance",
+        destination: "/",
+        permanent: true,
+      },
       // Wildcard path matching
       // {
       //   source: "/blog/:slug",

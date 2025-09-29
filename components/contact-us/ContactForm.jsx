@@ -2,6 +2,13 @@
 import Image from "next/image";
 
 export default function ContactForm() {
+  const handleClick = () => {
+    if (window.ml) {
+      window.ml("show", "PkpBgn", true);
+    } else {
+      console.error("MailerLite script not loaded yet");
+    }
+  };
   return (
     <div id="hero_header" className="hero-header section panel overflow-hidden">
       <div className="position-absolute top-0 start-0 end-0 min-h-600px bg-secondary dark:bg-tertiary-700 lg:mx-2 lg:rounded-2 z-0" />
@@ -51,8 +58,26 @@ export default function ContactForm() {
                 away. Let’s connect and explore how AI Monitor can help your B2B
                 SaaS brand thrive in the AI-driven world.
               </p>
+              <div>
+                <a
+                  onClick={handleClick}
+                  className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 mt-3 w-auto"
+                >
+                  Send Message
+                </a>
+                <p className="text-center mt-1">
+                  Or drop us an{" "}
+                  <a
+                    className="text-tertiary dark:text-white dark:opacity-80 fw-bold"
+                    href="mailto:team@getaimonitor.com"
+                  >
+                    email
+                  </a>
+                  .
+                </p>
+              </div>
             </div>
-            <div className="panel max-w-750px mx-auto">
+            {/* <div className="panel max-w-750px mx-auto">
               <form
                 onSubmit={(e) => e.preventDefault()}
                 className="vstack gap-2 p-3 sm:p-6 xl:p-8 rounded-2 border bg-white dark:bg-gray-900 border-secondary dark:border-gray-300 dark:border-opacity-20"
@@ -120,7 +145,7 @@ export default function ContactForm() {
                   .
                 </p>
               </form>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

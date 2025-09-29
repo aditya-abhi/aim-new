@@ -1,12 +1,8 @@
 "use client";
-// import Toc from "./Toc";
-import RelatedBlogs from "../blogs/RelatedBlogs";
 import Image from "next/image";
 import Link from "next/link";
 import { Gallery, Item } from "react-photoswipe-gallery";
 import { useState } from "react";
-import Blog1Faqs from "../blogs/faqs/Blog1Faqs";
-import GEOCourseCTA from "@/components/common/GeoCTA";
 
 export default function ({ blogItem }) {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -125,7 +121,7 @@ export default function ({ blogItem }) {
           <h2 className="h6 text-dark dark:text-white">
             Published on:{" "}
             <span className="text-tertiary dark:text-primary">
-              Aug 02, 2025{" "}
+              Aug 09, 2025{" "}
             </span>{" "}
           </h2>
         </div>

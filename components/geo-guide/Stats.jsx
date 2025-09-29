@@ -10,7 +10,7 @@ export default function Stats() {
   const [showFullFeatures, setShowFullFeatures] = useState(false);
   return (
     <div id="pricing" className="pricing section panel overflow-hidden">
-      <div className="section-outer panel py-6 xl:py-9 lg:mx-2 mt-2 lg:rounded-2 bg-secondary dark:bg-tertiary-700">
+      <div className="section-outer panel py-6 xl:py-9 lg:mx-2 mt-2 lg:rounded-2 ">
         <div className="container">
           <div className="section-inner panel">
             <div
@@ -22,7 +22,7 @@ export default function Stats() {
                 style={{ transform: "translateY(0px)", opacity: 1 }}
               >
                 <h2 className="h4 sm:h3 lg:h2 m-0 text-center max-w-650px mx-auto">
-                  AI Has Changed the{" "}
+                  AI has Changed the{" "}
                   <span className="text-tertiary dark:text-primary">
                     Search Forever
                   </span>
@@ -43,7 +43,7 @@ export default function Stats() {
                 style={{ transform: "translateY(0px)", opacity: 1 }}
               >
                 <div>
-                  <div className="vstack items-start justify-between gap-2 lg:gap-4 p-2 xl:p-3 min-h-200px border bg-white dark:bg-secondary text-dark rounded-1-5 shadow-xs">
+                  <div className="vstack items-start justify-between gap-2 lg:gap-4 p-2 xl:p-3 min-h-200px border bg-secondary text-dark rounded-1-5 shadow-xs">
                     <span className="icon mb-narrow">
                       <Image
                         className="w-40px"
@@ -63,7 +63,7 @@ export default function Stats() {
                   </div>
                 </div>
                 <div>
-                  <div className="vstack items-start justify-between gap-2 lg:gap-4 p-2 xl:p-3 min-h-200px border bg-white dark:bg-secondary text-dark rounded-1-5 shadow-xs">
+                  <div className="vstack items-start justify-between gap-2 lg:gap-4 p-2 xl:p-3 min-h-200px border bg-secondary text-dark rounded-1-5 shadow-xs">
                     <span className="icon mb-narrow">
                       <Image
                         className="w-40px"
@@ -83,7 +83,7 @@ export default function Stats() {
                   </div>
                 </div>
                 <div>
-                  <div className="vstack items-start justify-between gap-2 lg:gap-4 p-2 xl:p-3 min-h-200px border bg-white dark:bg-secondary text-dark rounded-1-5 shadow-xs">
+                  <div className="vstack items-start justify-between gap-2 lg:gap-4 p-2 xl:p-3 min-h-200px border bg-secondary text-dark rounded-1-5 shadow-xs">
                     <span className="icon mb-narrow">
                       <Image
                         className="w-40px"
@@ -103,7 +103,7 @@ export default function Stats() {
                   </div>
                 </div>
                 <div>
-                  <div className="vstack items-start justify-between gap-2 lg:gap-4 p-2 xl:p-3 min-h-200px border bg-white dark:bg-secondary text-dark rounded-1-5 shadow-xs">
+                  <div className="vstack items-start justify-between gap-2 lg:gap-4 p-2 xl:p-3 min-h-200px border bg-secondary text-dark rounded-1-5 shadow-xs">
                     <span className="icon mb-narrow">
                       <Image
                         className="w-40px"

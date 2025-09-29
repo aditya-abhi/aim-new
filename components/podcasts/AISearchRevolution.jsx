@@ -1,6 +1,4 @@
 "use client";
-// import Toc from "./Toc";
-import RelatedBlogs from "../blogs/RelatedBlogs";
 import Image from "next/image";
 import Link from "next/link";
 import { Gallery, Item } from "react-photoswipe-gallery";
@@ -30,7 +28,7 @@ export default function AISearchRevolution({ blogItem }) {
               <i className="unicon-chevron-right fw-medium opacity-50 rtl:rotate-180" />
             </li>
             <li>
-              <Link href={`/blog`}>Podcast</Link>
+              <Link href={`/podcasts`}>Podcast</Link>
             </li>
             <li>
               <i className="unicon-chevron-right fw-medium opacity-50 rtl:rotate-180" />

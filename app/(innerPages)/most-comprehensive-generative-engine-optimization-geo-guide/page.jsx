@@ -11,6 +11,7 @@ import Process from "@/components/geo-guide/Process";
 import Sections from "@/components/geo-guide/Sections";
 import Techniques from "@/components/geo-guide/Techniques";
 import Focus from "@/components/geo-guide/Focus";
+import Script from "next/script";
 export const metadata = {
   title: "Most Comprehensive Generative Engine Optimization (GEO) Guide",
   description:
@@ -25,7 +26,7 @@ export default function page() {
             <Header7 />
             <div id="wrapper" className="wrap">
               <Hero />
-              <DownloadForm />
+              {/* <DownloadForm /> */}
               <Stats />
               <Process />
               <Sections />
@@ -39,6 +40,15 @@ export default function page() {
           </div>{" "}
         </div>
       </div>
+      <Script id="mailerlite-universal">
+        {`
+          (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+          .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+          n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+          (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+          ml('account', '1771466');
+        `}
+      </Script>
     </>
   );
 }

@@ -1,11 +1,10 @@
-import Header2 from "@/components/headers/Header2";
-
-import Footer2 from "@/components/footers/Footer2";
 import JobDetails from "@/components/innerpages/JobDetails";
 import CareerOpenings from "@/components/innerpages/CareerOpenings";
-import Feedback from "@/components/homes/home-2/Feedback";
+// import Feedback from "@/components/homes/home-2/Feedback";
 import Brands from "@/components/innerpages/Brands";
 import { jobListings } from "@/data/career";
+import Header7 from "@/components/headers/Header7";
+import Footer7 from "@/components/footers/Footer7";
 export const metadata = {
   title:
     "Career Details || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
@@ -20,7 +19,7 @@ export default async function CareerDetailsPage(props) {
   return (
     <>
       <div className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready">
-        <Header2 />
+        <Header7 />
         <div id="wrapper" className="wrap">
           <div
             id="hero_header"
@@ -44,10 +43,10 @@ export default async function CareerDetailsPage(props) {
 
           <JobDetails />
           <CareerOpenings />
-          <Feedback />
+          {/* <Feedback /> */}
           <Brands />
         </div>
-        <Footer2 />
+        <Footer7 />
       </div>
     </>
   );

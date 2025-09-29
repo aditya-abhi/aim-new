@@ -1,12 +1,8 @@
 "use client";
-// import Toc from "./Toc";
-import RelatedBlogs from "../blogs/RelatedBlogs";
 import Image from "next/image";
 import Link from "next/link";
 import { Gallery, Item } from "react-photoswipe-gallery";
 import { useState } from "react";
-import Blog1Faqs from "../blogs/faqs/Blog1Faqs";
-import GEOCourseCTA from "@/components/common/GeoCTA";
 
 export default function GoogleMightNextYahoo({ blogItem }) {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -32,7 +28,7 @@ export default function GoogleMightNextYahoo({ blogItem }) {
               <i className="unicon-chevron-right fw-medium opacity-50 rtl:rotate-180" />
             </li>
             <li>
-              <Link href={`/blog`}>Podcast</Link>
+              <Link href={`/podcasts`}>Podcast</Link>
             </li>
             <li>
               <i className="unicon-chevron-right fw-medium opacity-50 rtl:rotate-180" />
@@ -116,6 +112,14 @@ export default function GoogleMightNextYahoo({ blogItem }) {
               </figure>
             </div>
           </div>
+        </div>
+        <div className="container mt-3 text-center">
+          <h2 className="h6 text-dark dark:text-white">
+            Published on:{" "}
+            <span className="text-tertiary dark:text-primary">
+              Apr 12, 2025{" "}
+            </span>{" "}
+          </h2>
         </div>
         <div className="panel mt-6 lg:mt-6 xl:mt-9">
           <div className="container">

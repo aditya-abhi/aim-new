@@ -1686,7 +1686,7 @@ export default function ChatGPTSEO() {
                       </p>
                       {/* Author Bio */}
                       <h2 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                        ChatGPT vs Google AI Overviews vs Perplexity AI s{" "}
+                        ChatGPT vs Google AI Overviews vs Perplexity AI{" "}
                       </h2>
                       {/* Table */}
                       <div className="panel mt-2 mb-3 p-2 border rounded-1-5 lg:rounded-2 dark:border-gray-600 dark:bg-tertiary-700 overflowx-auto">

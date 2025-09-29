@@ -1460,7 +1460,7 @@ export const services = [
     description:
       "Become a primary source for ChatGPT, Gemini, and Claude. We optimize your content architecture and digital footprint to be cited directly in AI-generated answers, building unmatched authority.",
     linkText: "View Service",
-    linkHref: "/services/generative-engine-optimization-geo-service",
+    linkHref: "/services/generative-engine-optimization-geo-services",
   },
   {
     id: 3,
@@ -1478,7 +1478,7 @@ export const services = [
     title: "Advanced SaaS SEO",
     description:
       "Our hybrid SEO approach ensures you win in both worlds. We blend traditional organic ranking strategies with AI-driven discovery, ensuring your content performs on Google SERPs and inside AI chat results.",
-    linkHref: "/services/saas-search-engine-optimization-service",
+    linkHref: "/services/saas-search-engine-optimization-services",
   },
   {
     id: 5,
@@ -1488,7 +1488,7 @@ export const services = [
     description:
       "Using our LLM SEO File framework, we structure your brand's data to be perfectly machine-readable. This ensures AI engines interpret your information accurately and prefer it for generative responses.",
     linkText: "View Service",
-    linkHref: "/services/large-language-model-llm-seo-service",
+    linkHref: "/services/large-language-model-llm-seo-services",
   },
   {
     id: 6,
@@ -1497,7 +1497,7 @@ export const services = [
     title: "AI Prompt Monitoring",
     description:
       "Get a real-time intelligence feed on your AI presence. We track how your brand and competitors appear across thousands of prompts, giving you a clear view of your market share in the new AI landscape.",
-    linkHref: "/services/ai-prompt-monitoring-service",
+    linkHref: "/services/ai-prompt-monitoring-services",
   },
   {
     id: 7,
@@ -1524,7 +1524,7 @@ export const services = [
     title: "Competitor Benchmarking",
     description:
       "Stay ahead of your competitors with detailed visibility benchmarking across AI-driven and traditional platforms. We analyze competitor placements, content strategies, and performance gaps to give you a winning edge.",
-    linkHref: "/services/competitor-benchmarking-for-ai-search",
+    linkHref: "/services/competitor-benchmarking-for-ai-searches",
   },
   {
     id: 10,
@@ -1533,7 +1533,7 @@ export const services = [
     title: "Marketing Analytics",
     description:
       "Get real-time, actionable insights into your AI search visibility, traffic patterns, and customer journeys. Our analytics dashboards help you identify growth opportunities and measure the impact of your strategies.",
-    linkHref: "/services/ai-marketing-analytics-service",
+    linkHref: "/services/ai-marketing-analytics-services",
   },
   {
     id: 11,

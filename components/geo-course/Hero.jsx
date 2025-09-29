@@ -6,6 +6,13 @@ import { mailer } from "@/utlis/mailer";
 import { openGeoEnrollModal } from "@/utlis/toggleGeoEnrollModal";
 
 export default function Hero() {
+  const handleClick = () => {
+    if (window.ml) {
+      window.ml("show", "8zNxQf", true);
+    } else {
+      console.error("MailerLite script not loaded yet");
+    }
+  };
   return (
     <div id="hero_header" className="hero-header section panel overflow-hidden">
       <div className="section-outer panel py-8 lg:py-9 xl:py-10 bg-tertiary-700 lg:rounded-2 lg:rounded-top-0 mx-2">
@@ -117,9 +124,8 @@ export default function Hero() {
                                 </div>
                                 <div className="panel mt-3 lg:mt-2">
                                   <a
-                                    onClick={openGeoEnrollModal}
+                                    onClick={handleClick}
                                     className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 w-auto"
-                                    role="button"
                                   >
                                     Enroll Now
                                   </a>

@@ -1,13 +1,10 @@
-import Faq from "@/components/homes/home-2/Faq";
-import Brands from "@/components/common/Brands2";
-import Blogs from "@/components/homes/home-2/Blogs";
-import ContactLinks2 from "@/components/innerpages/ContactLinks2";
 import Header7 from "@/components/headers/Header7";
 import Footer7 from "@/components/footers/Footer7";
 import ContactForm from "@/components/contact-us/ContactForm";
 import ContactLinks from "@/components/contact-us/ContactLinks";
 import BrandSlider from "@/components/contact-us/BrandSlider";
 import Faqs from "@/components/contact-us/Faqs";
+import Script from "next/script";
 export const metadata = {
   title: "Contact Us | Get in Touch with Our Team || AI Monitor",
   description:
@@ -30,6 +27,15 @@ export default function ContactUs() {
           </div>
         </div>
       </div>
+      <Script id="mailerlite-universal">
+        {`
+          (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+          .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+          n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+          (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+          ml('account', '1771466');
+        `}
+      </Script>
     </>
   );
 }
